@@ -1,0 +1,1799 @@
+{
+  "gs": [
+    {
+      "paper": "I",
+      "title": "Indian culture: art forms, literature, architecture",
+      "value_additions": [
+        "Classifications of art forms",
+        "UNESCO heritage tags",
+        "cultural policies"
+      ],
+      "examples": [
+        "Bharatanatyam, Kathak, Yakshagana",
+        "Ajanta/Ellora",
+        "Sangam literature, Bhakti–Sufi poetry"
+      ],
+      "argument_angles": [
+        "Civilizational continuity",
+        "diversity & syncretism",
+        "national integration",
+        "conservation vs commercialisation"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Modern Indian history (mid-18th c. to present)",
+      "value_additions": [
+        "Timelines",
+        "key Acts and commissions",
+        "major historians on colonialism and nationalism"
+      ],
+      "examples": [
+        "Plassey, Buxar, 1857",
+        "Gandhian movements",
+        "post-1947 policies like Green Revolution and Liberalisation"
+      ],
+      "argument_angles": [
+        "Colonialism vs resistance",
+        "socio-economic transformations",
+        "regional variations",
+        "continuity of ideals"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Freedom struggle – stages & contributors",
+      "value_additions": [
+        "Phase-wise charts",
+        "subaltern/regional historiography",
+        "women/peasants/workers participation data"
+      ],
+      "examples": [
+        "Champaran, Bardoli, Kheda",
+        "Santhal/Munda uprisings",
+        "role of women like Sarojini Naidu, Aruna Asaf Ali"
+      ],
+      "argument_angles": [
+        "Mass vs elite politics",
+        "inclusiveness",
+        "ideological strands",
+        "limitations and internal contradictions"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Post-independence consolidation & reorganisation",
+      "value_additions": [
+        "States Reorganisation Commission",
+        "linguistic policy debates",
+        "regionalism studies"
+      ],
+      "examples": [
+        "Integration of princely states",
+        "creation of linguistic states",
+        "Northeast reorganisation"
+      ],
+      "argument_angles": [
+        "Nation-building challenges",
+        "centralisation vs accommodation",
+        "regional inequality",
+        "identity vs development"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "World history – industrial revolution, world wars, decolonisation, ideologies",
+      "value_additions": [
+        "Chronologies",
+        "ideology maps for liberalism/socialism/fascism",
+        "global economic data"
+      ],
+      "examples": [
+        "English Industrial Revolution",
+        "French/Russian/Chinese revolutions",
+        "WWI, WWII",
+        "African and Asian decolonisation"
+      ],
+      "argument_angles": [
+        "Technology and social change",
+        "war as total phenomenon",
+        "rise of nation-states",
+        "ideological conflicts"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Salient features of Indian society, diversity",
+      "value_additions": [
+        "Sociological concepts (pluralism, caste, patriarchy)",
+        "census/NFHS data",
+        "constitutional provisions"
+      ],
+      "examples": [
+        "Caste system and reservations",
+        "tribal distinctiveness",
+        "religious diversity",
+        "family structures"
+      ],
+      "argument_angles": [
+        "Unity in diversity",
+        "social fault lines",
+        "role of state/market/civil society in change"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Women, population, poverty, urbanisation",
+      "value_additions": [
+        "Gender indices",
+        "poverty estimates",
+        "urbanisation statistics",
+        "major social sector schemes"
+      ],
+      "examples": [
+        "SHGs/NRLM",
+        "ICDS",
+        "slum improvement projects",
+        "PM-AYUSHMAN",
+        "urban transport reforms"
+      ],
+      "argument_angles": [
+        "Intersectionality",
+        "demographic dividend vs stress",
+        "rural-urban continuum",
+        "policy design vs delivery"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Effects of globalisation on Indian society",
+      "value_additions": [
+        "Globalisation dimensions",
+        "diaspora data",
+        "cultural and economic indicators"
+      ],
+      "examples": [
+        "IT/BPO boom",
+        "fast food/OTT",
+        "migration and remittances",
+        "transnational families"
+      ],
+      "argument_angles": [
+        "Homogenisation vs hybridisation",
+        "opportunities",
+        "cultural erosion concerns",
+        "regulatory/ethical issues"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Social empowerment, communalism, regionalism, secularism",
+      "value_additions": [
+        "Constitutional ideals",
+        "key judgments",
+        "rights movements",
+        "communalism/regionalism studies"
+      ],
+      "examples": [
+        "RTI and rights campaigns",
+        "regional autonomy demands",
+        "communal riots and interfaith initiatives"
+      ],
+      "argument_angles": [
+        "Empowerment models",
+        "roots of communalism/regionalism",
+        "models of secularism",
+        "nation-building"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "World physical geography",
+      "value_additions": [
+        "Climate classification",
+        "plate tectonics",
+        "physical maps and diagrams"
+      ],
+      "examples": [
+        "Himalayas vs Rockies",
+        "monsoon vs temperate climate",
+        "river systems"
+      ],
+      "argument_angles": [
+        "Physical processes and human activity",
+        "vulnerabilities",
+        "relevance to development and disasters"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Natural resources distribution & industrial location",
+      "value_additions": [
+        "Resource distribution maps",
+        "industrial location theories",
+        "sectoral statistics"
+      ],
+      "examples": [
+        "Coal and oil regions",
+        "IT and automobile clusters",
+        "manufacturing belts"
+      ],
+      "argument_angles": [
+        "Resource curse vs advantage",
+        "determinants of industrial location",
+        "sustainable exploitation"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Geophysical phenomena & environmental change",
+      "value_additions": [
+        "Disaster management cycle",
+        "IPCC findings",
+        "case studies on climate impacts"
+      ],
+      "examples": [
+        "Kedarnath floods",
+        "cyclones",
+        "coral bleaching",
+        "Himalayan glacier retreat"
+      ],
+      "argument_angles": [
+        "Natural vs anthropogenic causes",
+        "risk and resilience",
+        "role of governance and community"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Constitution – history, evolution, features, basic structure",
+      "value_additions": [
+        "Timeline of Acts and CA debates",
+        "landmark SC judgments on basic structure"
+      ],
+      "examples": [
+        "1919 & 1935 Acts",
+        "CA discussions",
+        "Kesavananda Bharati",
+        "42nd and 44th Amendments"
+      ],
+      "argument_angles": [
+        "Colonial inheritance vs indigenous innovation",
+        "rights vs duties",
+        "judiciary as guardian"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Union–State functions; federal structure; devolution",
+      "value_additions": [
+        "7th Schedule",
+        "Finance Commissions",
+        "GST design",
+        "devolution data"
+      ],
+      "examples": [
+        "GST Council functioning",
+        "farm law episode",
+        "PRI/ULB devolution examples"
+      ],
+      "argument_angles": [
+        "Cooperative vs competitive federalism",
+        "fiscal imbalance",
+        "politicisation of institutions",
+        "devolution reforms"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Separation of powers; dispute redressal mechanisms",
+      "value_additions": [
+        "Institutional diagrams",
+        "articles on branches",
+        "tribunal system overview"
+      ],
+      "examples": [
+        "Judicial review",
+        "ordinance practice",
+        "Lok Adalat",
+        "Gram Nyayalaya"
+      ],
+      "argument_angles": [
+        "Checks and balances",
+        "independence vs accountability",
+        "access to justice",
+        "ADR and technology"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Comparison of Indian constitutional scheme with other countries",
+      "value_additions": [
+        "Tabulated comparison with US, UK, France",
+        "rights and federal models"
+      ],
+      "examples": [
+        "US presidential system",
+        "UK unwritten constitution",
+        "French secularism"
+      ],
+      "argument_angles": [
+        "Hybrid nature of Indian design",
+        "learning from global models",
+        "context-specific adaptation"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Parliament and state legislatures – structure, functioning, issues",
+      "value_additions": [
+        "Data on sittings",
+        "committee usage",
+        "RPA provisions"
+      ],
+      "examples": [
+        "Short sessions",
+        "ordinance frequency",
+        "disruptions",
+        "committee successes"
+      ],
+      "argument_angles": [
+        "Representative vs deliberative roles",
+        "decline in deliberation",
+        "reforms for effectiveness"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Executive & Judiciary; ministries; pressure groups and associations",
+      "value_additions": [
+        "Org charts",
+        "civil service rules",
+        "examples of interest groups"
+      ],
+      "examples": [
+        "RTI activism",
+        "farmers unions",
+        "industry lobbies",
+        "PILs"
+      ],
+      "argument_angles": [
+        "Bureaucratic strengths and pathologies",
+        "influence vs capture",
+        "accountability mechanisms"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Representation of People Act – salient features",
+      "value_additions": [
+        "Key sections on elections and disqualifications",
+        "electoral reform reports"
+      ],
+      "examples": [
+        "Anti-defection law",
+        "office of profit",
+        "NOTA",
+        "MCC enforcement"
+      ],
+      "argument_angles": [
+        "Ensuring free and fair elections",
+        "regulating money/media",
+        "reform directions"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Constitutional posts and bodies",
+      "value_additions": [
+        "Mandates of ECI, CAG, UPSC etc.",
+        "autonomy safeguards"
+      ],
+      "examples": [
+        "CAG audits",
+        "ECI model code interventions",
+        "UPSC recruitment"
+      ],
+      "argument_angles": [
+        "Independent institutions as checks",
+        "politicisation risks",
+        "strengthening autonomy"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Statutory, regulatory, quasi-judicial bodies",
+      "value_additions": [
+        "NHRC, NGT, SEBI, TRAI etc.",
+        "enabling Acts and mandates"
+      ],
+      "examples": [
+        "NGT environmental decisions",
+        "SEBI action on market frauds",
+        "NHRC interventions"
+      ],
+      "argument_angles": [
+        "Bridge roles between state and citizen",
+        "accountability of regulators",
+        "balancing interests"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Government policies & interventions – design & implementation issues",
+      "value_additions": [
+        "Policy cycle framework",
+        "scheme architecture",
+        "evaluation reports"
+      ],
+      "examples": [
+        "Swachh Bharat, PM-KISAN, Ayushman Bharat implementations"
+      ],
+      "argument_angles": [
+        "Policy coherence",
+        "coordination",
+        "last-mile delivery",
+        "citizen feedback"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Development processes; NGOs, SHGs, donors, stakeholders",
+      "value_additions": [
+        "Typology of actors",
+        "CSR rules",
+        "microfinance/SHG data"
+      ],
+      "examples": [
+        "Kudumbashree",
+        "SEWA",
+        "CSR projects",
+        "CBOs"
+      ],
+      "argument_angles": [
+        "Complementarity vs substitution of state",
+        "accountability of non-state actors",
+        "participatory models"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Welfare schemes for vulnerable sections; performance; mechanisms and bodies",
+      "value_additions": [
+        "Scheme matrices",
+        "group-specific programmes",
+        "statutory commissions"
+      ],
+      "examples": [
+        "MGNREGA, NFSA, PM-Poshan",
+        "SC/ST commissions"
+      ],
+      "argument_angles": [
+        "Targeting vs universality",
+        "leakage vs inclusion",
+        "convergence of schemes"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Social sector – health, education, human resources",
+      "value_additions": [
+        "SDG and NFHS/ASER indicators",
+        "flagship initiatives"
+      ],
+      "examples": [
+        "Ayushman Bharat, NHM, NEP 2020, skill missions"
+      ],
+      "argument_angles": [
+        "Human capital as foundation",
+        "access inequalities",
+        "state and market roles"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Poverty and hunger",
+      "value_additions": [
+        "Poverty line debates",
+        "hunger indices",
+        "social protection frameworks"
+      ],
+      "examples": [
+        "PDS functioning",
+        "DBT pilots",
+        "community kitchens"
+      ],
+      "argument_angles": [
+        "Multi-dimensional poverty",
+        "structural causes",
+        "rights-based approaches"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Governance, transparency, accountability, e-governance, citizen charters",
+      "value_additions": [
+        "Good-governance frameworks",
+        "key digital initiatives",
+        "RTI provisions"
+      ],
+      "examples": [
+        "RTI case law",
+        "JAM trinity",
+        "citizen charters"
+      ],
+      "argument_angles": [
+        "Process re-engineering",
+        "tech vs human factors",
+        "open data",
+        "privacy balance"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Role of civil services in democracy",
+      "value_additions": [
+        "Civil service values",
+        "reform commission recommendations"
+      ],
+      "examples": [
+        "Lateral entry",
+        "performance appraisal reforms",
+        "whistle-blower cases"
+      ],
+      "argument_angles": [
+        "Neutrality vs commitment",
+        "politicisation",
+        "citizen-centric orientation"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "India and neighbourhood relations",
+      "value_additions": [
+        "Regional groupings",
+        "border issues",
+        "trade data"
+      ],
+      "examples": [
+        "India–Nepal, India–Sri Lanka, India–Bangladesh relations"
+      ],
+      "argument_angles": [
+        "Security vs development",
+        "domestic politics influence",
+        "managing China factor"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Bilateral, regional, global groupings & agreements",
+      "value_additions": [
+        "QUAD, SCO, BRICS, RCEP etc.",
+        "trade and climate pacts"
+      ],
+      "examples": [
+        "Paris Agreement",
+        "QUAD exercises",
+        "SCO summits",
+        "RCEP exit"
+      ],
+      "argument_angles": [
+        "Strategic autonomy",
+        "economic gains vs sovereignty",
+        "norm-setting roles"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Policies of developed/developing countries; diaspora",
+      "value_additions": [
+        "Comparative policy notes",
+        "diaspora statistics"
+      ],
+      "examples": [
+        "US H-1B policies",
+        "EU regulations",
+        "remittances",
+        "diaspora lobbying"
+      ],
+      "argument_angles": [
+        "External constraints on Indian objectives",
+        "diaspora as bridge",
+        "dependency risks"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "International institutions, agencies, fora",
+      "value_additions": [
+        "UN, IMF, WB, WTO, WHO, ILO mandates",
+        "reform debates"
+      ],
+      "examples": [
+        "UNSC reform",
+        "WTO disputes",
+        "WHO in pandemics"
+      ],
+      "argument_angles": [
+        "Representation and legitimacy",
+        "North–South tensions",
+        "India’s role in reforms"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Indian economy – planning, resources, growth, development, employment",
+      "value_additions": [
+        "Plan history",
+        "macro indicators",
+        "NITI frameworks"
+      ],
+      "examples": [
+        "Five-Year Plans",
+        "NITI SDG localisation",
+        "MPLADS vs infra capex"
+      ],
+      "argument_angles": [
+        "State vs market mix",
+        "inclusive vs exclusive growth",
+        "employment quality"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Inclusive growth and issues",
+      "value_additions": [
+        "Inequality data",
+        "welfare measures",
+        "redistribution mechanisms"
+      ],
+      "examples": [
+        "Financial inclusion via PMJDY",
+        "gender employment gaps",
+        "HDI disparities"
+      ],
+      "argument_angles": [
+        "Growth vs distribution trade-offs",
+        "empowerment vs dependency",
+        "institutional prerequisites"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Government budgeting",
+      "value_additions": [
+        "Budget process",
+        "FRBM norms",
+        "expenditure classification"
+      ],
+      "examples": [
+        "Social sector vs defence vs infrastructure allocations",
+        "outcome budgeting"
+      ],
+      "argument_angles": [
+        "Fiscal consolidation vs stimulus",
+        "transparency",
+        "legislative oversight"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Agriculture: crops, irrigation, storage, marketing, e-technology",
+      "value_additions": [
+        "Cropping pattern maps",
+        "irrigation stats",
+        "market reforms"
+      ],
+      "examples": [
+        "Drip irrigation",
+        "e-NAM",
+        "FPOs",
+        "warehousing projects"
+      ],
+      "argument_angles": [
+        "Productivity vs sustainability",
+        "smallholder constraints",
+        "digital divide"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Farm subsidies, MSP, PDS, buffer stocks, food security, missions, animal-rearing",
+      "value_additions": [
+        "Subsidy bill data",
+        "mission outlines",
+        "food security frameworks"
+      ],
+      "examples": [
+        "MSP protests",
+        "PDS leakages vs DBT",
+        "dairy and poultry clusters"
+      ],
+      "argument_angles": [
+        "Production vs nutrition",
+        "fiscal vs social costs",
+        "reforming MSP/PDS"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Food processing industries – scope, location, SCM",
+      "value_additions": [
+        "Cluster maps",
+        "FDI and MSME data"
+      ],
+      "examples": [
+        "Mega food parks",
+        "cold chain successes/failures"
+      ],
+      "argument_angles": [
+        "Rural value addition",
+        "farmer integration",
+        "export potential"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Land reforms in India",
+      "value_additions": [
+        "Typology of reforms",
+        "regional comparisons",
+        "tenancy data"
+      ],
+      "examples": [
+        "Kerala/West Bengal land reforms",
+        "forest rights implementation"
+      ],
+      "argument_angles": [
+        "Historical roots of inequality",
+        "implementation barriers",
+        "contemporary relevance"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Effects of liberalisation; industrial policy; industrial growth",
+      "value_additions": [
+        "Pre/post-1991 comparisons",
+        "sectoral growth data"
+      ],
+      "examples": [
+        "PSU disinvestment",
+        "SEZs",
+        "MSME policies"
+      ],
+      "argument_angles": [
+        "Efficiency vs equity",
+        "de-regulation vs regulation",
+        "regional concentration"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Infrastructure: energy, ports, roads, airports, railways",
+      "value_additions": [
+        "Infrastructure deficit indicators",
+        "PPP models",
+        "national missions"
+      ],
+      "examples": [
+        "Sagarmala",
+        "Bharatmala",
+        "freight corridors",
+        "renewable parks"
+      ],
+      "argument_angles": [
+        "Public goods nature",
+        "financing",
+        "socio-environmental impacts"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Investment models",
+      "value_additions": [
+        "PPP variants",
+        "sovereign funds",
+        "FDI vs FPI distinctions"
+      ],
+      "examples": [
+        "BOT/BOOT projects",
+        "VGF",
+        "SPVs"
+      ],
+      "argument_angles": [
+        "Risk allocation",
+        "governance of partnerships",
+        "crowding-in effects"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Science & technology – developments, applications, effects in life",
+      "value_additions": [
+        "Mission lists",
+        "societal application examples"
+      ],
+      "examples": [
+        "Digital IDs",
+        "telemedicine",
+        "agri-tech",
+        "drones"
+      ],
+      "argument_angles": [
+        "Opportunities vs concerns (jobs, privacy)",
+        "bridging innovation and inclusion"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Achievements of Indians; indigenisation; developing new tech",
+      "value_additions": [
+        "ISRO and defence missions",
+        "Make in India",
+        "Atmanirbhar"
+      ],
+      "examples": [
+        "Space launches",
+        "indigenous vaccines",
+        "defence manufacturing"
+      ],
+      "argument_angles": [
+        "Strategic autonomy",
+        "innovation ecosystems",
+        "brain circulation"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "IT, space, computers, robotics, nano, bio-tech; IPR issues",
+      "value_additions": [
+        "Tech vertical maps",
+        "IPR regime",
+        "digital economy data"
+      ],
+      "examples": [
+        "Data protection debates",
+        "biotech regulation cases"
+      ],
+      "argument_angles": [
+        "Balancing innovation and rights",
+        "digital divide",
+        "geopolitics of tech"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Conservation, pollution, degradation, EIA",
+      "value_additions": [
+        "Environmental indicators",
+        "legal frameworks",
+        "treaties"
+      ],
+      "examples": [
+        "NCR pollution",
+        "mining degradation",
+        "coastal displacement",
+        "EIA disputes"
+      ],
+      "argument_angles": [
+        "Growth–environment trade-offs",
+        "participatory EIA",
+        "rights of affected"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Disaster and disaster management",
+      "value_additions": [
+        "NDMA guidelines",
+        "Sendai framework",
+        "hazard mapping"
+      ],
+      "examples": [
+        "Cyclone warnings",
+        "earthquake resistance",
+        "community preparedness"
+      ],
+      "argument_angles": [
+        "Prevention vs response",
+        "mainstreaming DRR",
+        "coordination"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Development–extremism linkages",
+      "value_additions": [
+        "LWE district mapping",
+        "socio-economic indicators"
+      ],
+      "examples": [
+        "Tribal land alienation cases",
+        "stalled projects"
+      ],
+      "argument_angles": [
+        "Grievance and ideology",
+        "quality of state presence",
+        "inclusive strategies"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "External state/non-state actors in internal security",
+      "value_additions": [
+        "Actor typology",
+        "global terror trends"
+      ],
+      "examples": [
+        "Cross-border terrorism",
+        "drug trafficking",
+        "online radicalisation"
+      ],
+      "argument_angles": [
+        "State sovereignty",
+        "international cooperation",
+        "intelligence vs rights"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Internal security via communication networks, media, social networking, cyber, money-laundering",
+      "value_additions": [
+        "Cyber-crime stats",
+        "FATF framework",
+        "IT Act provisions"
+      ],
+      "examples": [
+        "Social media riots",
+        "ransomware",
+        "hawala"
+      ],
+      "argument_angles": [
+        "Free speech vs regulation",
+        "data security",
+        "institutional capacity"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Border security; organised crime–terror linkages",
+      "value_additions": [
+        "Border geography",
+        "smuggling routes",
+        "security force roles"
+      ],
+      "examples": [
+        "Fake currency",
+        "arms/drug trafficking",
+        "local crime–terror overlaps"
+      ],
+      "argument_angles": [
+        "Development vs securitisation",
+        "regional cooperation",
+        "policing models"
+      ]
+    },
+    {
+      "paper": "III",
+      "title": "Security forces and agencies; mandates",
+      "value_additions": [
+        "Organograms of police, CAPFs, intelligence agencies"
+      ],
+      "examples": [
+        "Coordination challenges",
+        "modernisation programmes"
+      ],
+      "argument_angles": [
+        "Civil–military balance",
+        "accountability",
+        "training and technology"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Ethics & human interface; human values; private/public relationships",
+      "value_additions": [
+        "Definitions of ethics/morals/values",
+        "leader biographies",
+        "socialisation theory"
+      ],
+      "examples": [
+        "Gandhi, Ambedkar, Shastri life incidents",
+        "family and school value inculcation"
+      ],
+      "argument_angles": [
+        "Individual vs institutional ethics",
+        "conflicts between personal loyalties and public duty"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Attitude: content, structure, function; moral/political attitudes; social influence & persuasion",
+      "value_additions": [
+        "Psychological models",
+        "attitude–behaviour link",
+        "persuasion tools"
+      ],
+      "examples": [
+        "Changing attitudes to corruption",
+        "public campaigns",
+        "media influence"
+      ],
+      "argument_angles": [
+        "Cognitive dissonance",
+        "ethical vs manipulative persuasion",
+        "role of education"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Aptitude & foundational civil service values",
+      "value_additions": [
+        "Definitions and frameworks for integrity, impartiality, non-partisanship, objectivity, empathy"
+      ],
+      "examples": [
+        "Examples of honest officers",
+        "disaster relief empathy",
+        "dealing with vulnerable groups"
+      ],
+      "argument_angles": [
+        "Values as behavioural guides",
+        "value conflicts",
+        "institutional reinforcement"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Emotional intelligence – concepts, utility, application",
+      "value_additions": [
+        "Components of EI",
+        "EI vs IQ debates"
+      ],
+      "examples": [
+        "Handling public anger",
+        "intra-department conflicts",
+        "stress management"
+      ],
+      "argument_angles": [
+        "Role of EI in conflict resolution",
+        "misuse risks",
+        "training and evaluation"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Moral thinkers and philosophers from India and world",
+      "value_additions": [
+        "Short notes on Gandhi, Buddha, Vivekananda, Ambedkar, Kant, Rousseau, etc."
+      ],
+      "examples": [
+        "Applying Kantian duty, utilitarianism, Gandhian ethics to administrative cases"
+      ],
+      "argument_angles": [
+        "Comparative frameworks",
+        "contextual adaptation",
+        "avoiding dogmatism"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Public/civil service values; ethics in public administration; dilemmas; laws, rules, conscience",
+      "value_additions": [
+        "Administrative ethics frameworks",
+        "codes of conduct",
+        "whistle-blower protections"
+      ],
+      "examples": [
+        "Satyendra Dubey, Ashok Khemka cases",
+        "procurement conflicts",
+        "rule vs conscience dilemmas"
+      ],
+      "argument_angles": [
+        "Legalism vs moral courage",
+        "systemic vs individual factors",
+        "building ethical cultures"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Accountability and ethical governance; IR and funding; corporate governance",
+      "value_additions": [
+        "Accountability types",
+        "governance indicators",
+        "corporate governance principles"
+      ],
+      "examples": [
+        "RTI and social audits",
+        "CSR misuse",
+        "opaque foreign funding controversies"
+      ],
+      "argument_angles": [
+        "Transparency vs privacy",
+        "multi-layered accountability",
+        "ethical global engagement"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Probity in governance; public service; transparency, RTI, codes, charters, work culture, service quality, public funds, corruption",
+      "value_additions": [
+        "Governance indicators",
+        "anti-corruption frameworks",
+        "RTI and charter experiences"
+      ],
+      "examples": [
+        "Citizen charter in passport services",
+        "grievance systems",
+        "major corruption scandals"
+      ],
+      "argument_angles": [
+        "Normative basis of public office",
+        "open government",
+        "prevention vs deterrence in corruption"
+      ]
+    },
+    {
+      "paper": "IV",
+      "title": "Case studies on above issues",
+      "value_additions": [
+        "Standard template for case-solving",
+        "value-tagging",
+        "prior PYQs and real incidents"
+      ],
+      "examples": [
+        "UPSC case studies",
+        "real-life ethics incidents (whistle-blowers, disaster response)"
+      ],
+      "argument_angles": [
+        "Balancing competing values",
+        "feasibility and legality",
+        "long-term impacts"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "paper": "I",
+      "title": "Sources (archaeological, literary, foreign)",
+      "value_additions": [
+        "Source typology",
+        "bias analysis",
+        "methodological notes from major historians"
+      ],
+      "examples": [
+        "Harappan sites",
+        "Ashokan edicts",
+        "Sangam texts",
+        "Greek/Chinese travelogues"
+      ],
+      "argument_angles": [
+        "Complementarity and contradictions",
+        "limitations",
+        "evolution of Indian historiography"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Pre-history and proto-history",
+      "value_additions": [
+        "Chronologies",
+        "tool types",
+        "climatic phases"
+      ],
+      "examples": [
+        "Bhimbetka rock shelters",
+        "Mehrgarh",
+        "Mesolithic regional cultures"
+      ],
+      "argument_angles": [
+        "Environment–culture linkage",
+        "shift to agriculture",
+        "regional diversity"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Indus Valley civilisation",
+      "value_additions": [
+        "Urban planning diagrams",
+        "seals",
+        "trade network reconstructions"
+      ],
+      "examples": [
+        "Mohenjo-daro, Harappa, Dholavira",
+        "craft specialisation"
+      ],
+      "argument_angles": [
+        "Nature of Harappan state",
+        "continuity vs rupture",
+        "decline causes debates"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Megalithic cultures",
+      "value_additions": [
+        "Burial typology",
+        "spread maps",
+        "metallurgy evidence"
+      ],
+      "examples": [
+        "South Indian megaliths",
+        "iron artefacts",
+        "pottery styles"
+      ],
+      "argument_angles": [
+        "Social organisation in pre-state societies",
+        "tech diffusion"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Aryans and Vedic period",
+      "value_additions": [
+        "Textual analysis (Rigveda, later Vedic)",
+        "social and political evolution"
+      ],
+      "examples": [
+        "Sabha/samiti",
+        "pastoral to agrarian shift",
+        "varna development"
+      ],
+      "argument_angles": [
+        "Aryan migration vs indigenous theories",
+        "monarchy and oligarchy"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Mahajanapadas, Jainism, Buddhism, Magadha & Nandas",
+      "value_additions": [
+        "State typology",
+        "urbanisation markers",
+        "religious reforms"
+      ],
+      "examples": [
+        "Sixteen Mahajanapadas",
+        "Pataliputra",
+        "Buddha and Mahavira"
+      ],
+      "argument_angles": [
+        "Territorial state evolution",
+        "economy–religion linkages",
+        "impact of invasions"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Mauryan Empire and disintegration",
+      "value_additions": [
+        "Administrative charts",
+        "dhamma",
+        "economic policies",
+        "post-Mauryan continuity"
+      ],
+      "examples": [
+        "Ashokan edicts",
+        "provincial administration",
+        "Sunga/Kanva regimes"
+      ],
+      "argument_angles": [
+        "Centralisation vs regionalism",
+        "state nature debates",
+        "decline reasons"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Post-Mauryan polities (Indo-Greeks, Sakas, Kushanas, Kshatrapas)",
+      "value_additions": [
+        "Coinage",
+        "art styles",
+        "religious developments (Mahayana)"
+      ],
+      "examples": [
+        "Kanishka",
+        "trade with Rome",
+        "Gandhara and Mathura schools"
+      ],
+      "argument_angles": [
+        "Cultural interactions",
+        "urban growth",
+        "social changes"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Early state and society in East, Deccan, South",
+      "value_additions": [
+        "Land grants",
+        "guilds",
+        "Buddhist centres",
+        "Sangam literature"
+      ],
+      "examples": [
+        "Satavahana administration",
+        "Kharavela",
+        "Madurai",
+        "trade guild inscriptions"
+      ],
+      "argument_angles": [
+        "Regional state forms",
+        "land grants",
+        "caste and gender evolution"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Guptas, Vakatakas, Vardhanas",
+      "value_additions": [
+        "Golden age debates",
+        "feudalism",
+        "education centres"
+      ],
+      "examples": [
+        "Nalanda/Vikramshila",
+        "Gupta currency",
+        "land grant inscriptions"
+      ],
+      "argument_angles": [
+        "Urban decline vs continuity",
+        "polity nature",
+        "gender and caste shifts"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Regional states during Gupta era; South Indian polities",
+      "value_additions": [
+        "Temple institutions",
+        "Bhakti",
+        "Arab conquest of Sind",
+        "Alberuni"
+      ],
+      "examples": [
+        "Pallava/Chola architecture",
+        "Chalukyas",
+        "Rashtrakutas"
+      ],
+      "argument_angles": [
+        "State–temple nexus",
+        "regional cultures",
+        "external contacts impacts"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Themes in early Indian cultural history",
+      "value_additions": [
+        "Languages and texts",
+        "art and architecture stages",
+        "science and maths contributions"
+      ],
+      "examples": [
+        "Sanskrit/Prakrit",
+        "temple typology",
+        "Aryabhata, Varahamihira"
+      ],
+      "argument_angles": [
+        "Knowledge–power relationship",
+        "continuity into later periods"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Early medieval India, 750–1200",
+      "value_additions": [
+        "Rajput polity",
+        "Chola village system",
+        "agrarian expansion",
+        "trade"
+      ],
+      "examples": [
+        "Chola inscriptions",
+        "Rajput clans",
+        "urban settlements"
+      ],
+      "argument_angles": [
+        "Feudalism debates",
+        "social stratification",
+        "gender and Brahman status"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Cultural traditions 750–1200",
+      "value_additions": [
+        "Vedanta schools",
+        "Tamil devotional cult",
+        "Bhakti",
+        "arrival of Islam",
+        "Sufism"
+      ],
+      "examples": [
+        "Shankara, Ramanuja, Madhva",
+        "early Sufi orders",
+        "regional literature"
+      ],
+      "argument_angles": [
+        "Religious pluralism",
+        "philosophical diversity",
+        "composite culture origins"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "13th century – establishment of Delhi Sultanate",
+      "value_additions": [
+        "Ghurian invasions",
+        "success factors",
+        "early Sultans"
+      ],
+      "examples": [
+        "Territorial expansion",
+        "consolidation under Iltutmish and Balban"
+      ],
+      "argument_angles": [
+        "Military and administrative innovations",
+        "social consequences"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "14th century – Khaljis, Tughluqs, Firuz",
+      "value_additions": [
+        "Agrarian and economic measures",
+        "projects",
+        "foreign contacts"
+      ],
+      "examples": [
+        "Alauddin’s reforms",
+        "Tughluq experiments",
+        "Ibn Battuta’s account"
+      ],
+      "argument_angles": [
+        "Centralisation vs experimentation",
+        "reasons for decline"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Society, culture, economy in 13th–14th c.",
+      "value_additions": [
+        "Composition of rural society",
+        "caste and slavery",
+        "composite culture",
+        "trade"
+      ],
+      "examples": [
+        "Urban centres",
+        "Persian and vernacular literature",
+        "architecture"
+      ],
+      "argument_angles": [
+        "Social mobility",
+        "syncretism",
+        "economic dynamism and constraints"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "15th–early 16th c. political developments and economy",
+      "value_additions": [
+        "Provincial dynasties",
+        "Vijayanagara",
+        "Lodis",
+        "Sur Empire",
+        "Portuguese"
+      ],
+      "examples": [
+        "Bengal, Gujarat, Kashmir",
+        "Vijayanagara planning",
+        "Sher Shah’s administration"
+      ],
+      "argument_angles": [
+        "Fragmentation vs integration",
+        "economic bases",
+        "colonial beginnings"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "15th–early 16th c. society and culture",
+      "value_additions": [
+        "Regional cultural specificities",
+        "literary traditions",
+        "architecture"
+      ],
+      "examples": [
+        "Vijayanagara art",
+        "provincial styles",
+        "court culture"
+      ],
+      "argument_angles": [
+        "Regionalism in culture",
+        "patronage patterns",
+        "societal impacts"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Akbar",
+      "value_additions": [
+        "Jagir and mansab",
+        "Rajput policy",
+        "Sulh-i-kul",
+        "patronage of art and tech"
+      ],
+      "examples": [
+        "Empire consolidation",
+        "Rajput alliances",
+        "Din-i-Ilahi",
+        "painting and architecture"
+      ],
+      "argument_angles": [
+        "Nature of Akbar’s state",
+        "integration strategies",
+        "religious policy debates"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Mughal Empire in 17th c.; Ahoms; early Marathas",
+      "value_additions": [
+        "Administrative policies",
+        "zamindari",
+        "religious policies",
+        "crises and revolts"
+      ],
+      "examples": [
+        "Jahangir, Shahjahan, Aurangzeb",
+        "Shivaji’s kingdom",
+        "Ahom polity"
+      ],
+      "argument_angles": [
+        "Nature of Mughal state",
+        "centre–periphery relations",
+        "crisis explanations"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Economy and society in 16th–17th c.",
+      "value_additions": [
+        "Population",
+        "agricultural and craft production",
+        "trade revolution",
+        "mercantile classes"
+      ],
+      "examples": [
+        "European company trade",
+        "banking and insurance systems",
+        "peasant and women conditions"
+      ],
+      "argument_angles": [
+        "Proto-industrialisation",
+        "social stratification",
+        "community formation (Sikh, Khalsa)"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "Culture during Mughal empire",
+      "value_additions": [
+        "Persian histories",
+        "Hindi and religious literature",
+        "architecture",
+        "painting",
+        "music",
+        "science & tech"
+      ],
+      "examples": [
+        "Court chronicles",
+        "regional literature",
+        "Mughal and provincial art"
+      ],
+      "argument_angles": [
+        "Imperial vs regional cultures",
+        "art as power expression",
+        "scientific achievements"
+      ]
+    },
+    {
+      "paper": "I",
+      "title": "18th century – decline, regional powers, Marathas, Afghan power, eve of British conquest",
+      "value_additions": [
+        "Factors of decline",
+        "regional principalities",
+        "Maratha fiscal system",
+        "Panipat 1761"
+      ],
+      "examples": [
+        "Nizam’s Deccan",
+        "Bengal",
+        "Awadh",
+        "Peshwas",
+        "Afghan interventions"
+      ],
+      "argument_angles": [
+        "Transition from Mughal to regional systems",
+        "fragmentation",
+        "vulnerability to British expansion"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "European penetration; British expansion; early Raj; economic impact",
+      "value_additions": [
+        "Company wars",
+        "land revenue systems",
+        "drain of wealth",
+        "de-industrialisation data"
+      ],
+      "examples": [
+        "Carnatic wars",
+        "Plassey/Buxar",
+        "Permanent/Ryotwari/Mahalwari",
+        "handloom decline",
+        "famines"
+      ],
+      "argument_angles": [
+        "Military-fiscal state",
+        "colonialism as economic project",
+        "regional impacts",
+        "exploitation vs development debates"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Social & cultural developments; reform movements",
+      "value_additions": [
+        "Indigenous education data",
+        "Orientalist–Anglicist controversy",
+        "reformer biographies"
+      ],
+      "examples": [
+        "Hindu College",
+        "Brahmo and Arya Samaj",
+        "Wahabi/Feraizi",
+        "Vidyasagar reforms"
+      ],
+      "argument_angles": [
+        "Modernisation vs tradition",
+        "middle class role",
+        "gender and caste reforms"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Indian response – peasant/tribal uprisings; 1857; later movements",
+      "value_additions": [
+        "Typology of uprisings",
+        "regional case studies",
+        "post-1857 shifts"
+      ],
+      "examples": [
+        "Santhal, Munda, Indigo, Deccan riots",
+        "Moplah",
+        "1857 leadership and grievances"
+      ],
+      "argument_angles": [
+        "Local grievances vs national consciousness",
+        "continuity and change",
+        "colonial reactions"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Birth of nationalism; INC; Moderates/Extremists; Swadeshi; Gandhian phase",
+      "value_additions": [
+        "Phase narratives",
+        "organisational details",
+        "mass mobilisation techniques"
+      ],
+      "examples": [
+        "INC formation",
+        "Surat split",
+        "Swadeshi",
+        "Non-Cooperation",
+        "Civil Disobedience",
+        "Quit India"
+      ],
+      "argument_angles": [
+        "Elite vs mass phases",
+        "ideology evolution",
+        "method effectiveness"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Constitutional developments; other strands; separatism & partition",
+      "value_additions": [
+        "Act timelines",
+        "Left and revolutionary organisations",
+        "communal politics"
+      ],
+      "examples": [
+        "1909–1935 Acts",
+        "HSRA/Ghadar",
+        "CPI",
+        "Muslim League",
+        "Hindu Mahasabha"
+      ],
+      "argument_angles": [
+        "Constitutionalism vs extra-constitutional struggle",
+        "multi-strand nationalism",
+        "partition causes"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Post-independence nation-building; caste/ethnicity; development & ecology",
+      "value_additions": [
+        "State reorganisation",
+        "foreign policy",
+        "land reforms",
+        "planning",
+        "environmental policy"
+      ],
+      "examples": [
+        "Integration of princely states",
+        "NAM",
+        "linguistic states",
+        "Mandal",
+        "Narmada issue"
+      ],
+      "argument_angles": [
+        "Continuity of colonial structures",
+        "pluralism and regional aspirations",
+        "developmental vs ecological state"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "Enlightenment, modern ideas, revolutions, industrialisation",
+      "value_additions": [
+        "Philosopher ideas",
+        "revolution timelines",
+        "comparative industrialisation data"
+      ],
+      "examples": [
+        "Kant, Rousseau",
+        "American/French/Russian revolutions",
+        "English industrial revolution",
+        "US/Germany/Russia/Japan"
+      ],
+      "argument_angles": [
+        "Ideas shaping institutions",
+        "social bases of revolution",
+        "impacts on colonies",
+        "link to modern ideologies"
+      ]
+    },
+    {
+      "paper": "II",
+      "title": "World wars; post-war world; liberation, decolonisation, Europe, Soviet collapse",
+      "value_additions": [
+        "War statistics",
+        "treaty frameworks",
+        "decolonisation maps",
+        "Cold War timelines"
+      ],
+      "examples": [
+        "WWI and WWII causes/impacts",
+        "UN and two blocs",
+        "non-alignment",
+        "African/Asian liberation",
+        "EU integration",
+        "1991 collapse"
+      ],
+      "argument_angles": [
+        "Total war and societal transformation",
+        "bipolar to unipolar shift",
+        "development constraints",
+        "regional integration pros/cons"
+      ]
+    }
+  ]
+}

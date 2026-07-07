@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Civil Services Mains Coaching Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            min-height: 70vh;
+        }
+        .left-panel {
+            background: #f8f9fa;
+            padding: 30px;
+            border-right: 1px solid #ddd;
+            overflow-y: auto;
+            max-height: 70vh;
+        }
+        .right-panel {
+            padding: 30px;
+            overflow-y: auto;
+            max-height: 70vh;
+        }
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            padding: 10px 15px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .tab-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .topic-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            border-left: 4px solid #667eea;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+            border: 1px solid #ddd;
+        }
+        .topic-item:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+        .topic-item.selected {
+            background: #e8ecff;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        .topic-title {
+            font-weight: 600;
+            color: #333;
+        }
+        .section-title {
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #667eea;
+            margin: 20px 0 10px 0;
+        }
+        .section-text {
+            color: #555;
+            line-height: 1.6;
+        }
+        .argument-checker {
+            background: #f0f4ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border: 2px solid #e0e7ff;
+        }
+        .argument-checker h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: inherit;
+            min-height: 100px;
+            resize: vertical;
+        }
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        .check-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+        }
+        .check-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .feedback-box {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background: white;
+            display: none;
+        }
+        .feedback-box.show {
+            display: block;
+        }
+        .score-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .feedback-item {
+            margin-bottom: 12px;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .tag {
+            display: inline-block;
+            background: #f0f0f0;
+            color: #667eea;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin: 5px 5px 5px 0;
+            font-size: 0.85em;
+        }
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            .left-panel {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>UPSC Civil Services Mains Coaching Portal</h1>
+            <p>Professional Argument Accuracy Checker & Fact Verification System</p>
+        </div>
+
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-number">90+</div>
+                        <div>Syllabus Topics</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">122</div>
+                        <div>Microtheme Pages</div>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="switchTab('gs')">General Studies</button>
+                    <button class="tab-btn" onclick="switchTab('history')">History Optional</button>
+                </div>
+
+                <div id="gs-tab" class="topics-list"></div>
+                <div id="history-tab" class="topics-list" style="display:none;"></div>
+            </div>
+
+            <div class="right-panel">
+                <div id="content-area" style="text-align: center; color: #999; padding: 40px;">
+                    <p>Select a topic to view syllabus details</p>
+                </div>
+
+                <div class="argument-checker">
+                    <h3>Argument Verification System</h3>
+                    <div class="form-group">
+                        <label>Enter Your Argument/Answer:</label>
+                        <textarea id="userArgument" placeholder="Paste your answer here..."></textarea>
+                    </div>
+                    <button class="check-btn" onclick="verifyArgument()">Verify & Get Feedback</button>
+
+                    <div id="feedbackBox" class="feedback-box">
+                        <div class="score-badge" id="accuracyScore"></div>
+                        <div id="feedbackContent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const syllabus = {
+            gs: [
+                {title: "Indian culture: art forms, literature, architecture", paper: "I", value: "Classifications; UNESCO heritage; cultural policies", ex: "Bharatanatyam, Kathak, Yakshagana; Ajanta/Ellora", angles: "Continuity; diversity; national integration"},
+                {title: "Modern Indian history", paper: "I", value: "Timelines; key Acts; historians", ex: "Plassey, 1857; Green Revolution", angles: "Resistance; transformation; ideals"},
+                {title: "Freedom struggle stages", paper: "I", value: "Phase-wise charts; subaltern history", ex: "Champaran, Bardoli; Sarojini Naidu", angles: "Mass politics; inclusiveness"},
+                {title: "Post-independence consolidation", paper: "I", value: "States Reorganisation; linguistic debates", ex: "Integration of states; linguistic reorganisation", angles: "Nation-building; centralization vs accommodation"},
+                {title: "World history - revolutions & decolonisation", paper: "I", value: "Chronologies; ideology maps", ex: "Industrial Revolution; WWI, WWII", angles: "Technology; nationalism; ideology"}
+            ],
+            history: [
+                {title: "Vedic to Classical Age", paper: "I", value: "Early civilization; Mahajanapadas", ex: "Rigvedic society; Ashoka", angles: "Structures; continuity; state formation"},
+                {title: "Medieval - Muslim Sultanates", paper: "I", value: "Administration; synthesis", ex: "Delhi Sultanate; Alauddin reforms", angles: "Interaction; policies; variations"}
+            ]
+        };
+
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById('gs-tab').style.display = tab === 'gs' ? 'flex' : 'none';
+            document.getElementById('history-tab').style.display = tab === 'history' ? 'flex' : 'none';
+            renderTopics(tab);
+        }
+
+        function renderTopics(type) {
+            const data = syllabus[type];
+            const container = document.getElementById(type + '-tab');
+            container.innerHTML = '';
+            container.style.display = 'flex';
+            container.style.flexDirection = 'column';
+            container.style.gap = '10px';
+            data.forEach((t, i) => {
+                const div = document.createElement('div');
+                div.className = 'topic-item';
+                div.innerHTML = `<div class="topic-title">${t.title}</div><div style="font-size:0.85em; color:#999;">Paper ${t.paper}</div>`;
+                div.onclick = () => showTopic(t, div);
+                container.appendChild(div);
+            });
+        }
+
+        function showTopic(t, el) {
+            document.querySelectorAll('.topic-item').forEach(e => e.classList.remove('selected'));
+            el.classList.add('selected');
+            document.getElementById('content-area').innerHTML = `
+                <div><div class="section-title">Paper ${t.paper}: ${t.title}</div>
+                <div class="section-text" style="margin:20px 0;"><strong>Value Additions:</strong> ${t.value}</div>
+                <div class="section-text" style="margin:15px 0;"><strong>Examples:</strong> ${t.ex}</div>
+                <div class="section-text"><strong>Argument Angles:</strong> ${t.angles}</div></div>
+            `;
+        }
+
+        function verifyArgument() {
+            const arg = document.getElementById('userArgument').value.trim();
+            if (!arg) { alert('Please enter an argument'); return; }
+            const fb = analyzeArgument(arg);
+            const box = document.getElementById('feedbackBox');
+            document.getElementById('accuracyScore').textContent = `Score: ${fb.score}/100 (${fb.status})`;
+            let html = '';
+            if (fb.strengths.length) {
+                html += '<div class="feedback-item"><strong>✓ Strengths:</strong><br>' + fb.strengths.map(s => '• ' + s).join('<br>') + '</div>';
+            }
+            if (fb.issues.length) {
+                html += '<div class="feedback-item"><strong>⚠ Improvements:</strong><br>' + fb.issues.map(i => '• ' + i).join('<br>') + '</div>';
+            }
+            html += '<div class="feedback-item"><strong>Tips:</strong><br>• Use value additions to structure answers<br>• Support with dates, statistics, legislation<br>• Show multiple perspectives<br>• Connect examples to main point</div>';
+            document.getElementById('feedbackContent').innerHTML = html;
+            box.classList.add('show');
+        }
+
+        function analyzeArgument(text) {
+            let score = 0, issues = [], strengths = [];
+            if (text.length > 300) { strengths.push("Adequate depth"); score += 20; } else { issues.push("Expand with more substantiation"); }
+            if (/example|case|instance|data|statistic|percent|year|act|policy/i.test(text)) { strengths.push("Contains concrete evidence"); score += 25; } else { issues.push("Add dates, statistics, or legislation"); }
+            if (/however|but|although|contrary|perspective/i.test(text)) { strengths.push("Shows balanced view"); score += 20; } else { issues.push("Present counterarguments"); }
+            if (/india|constitution|government/i.test(text)) { strengths.push("India-context relevant"); score += 15; }
+            if (text.split('\n').length > 2) { strengths.push("Well-structured"); score += 10; }
+            return {
+                score: Math.min(score, 100),
+                status: score >= 80 ? 'EXCELLENT' : score >= 60 ? 'GOOD' : score >= 40 ? 'FAIR' : 'NEEDS WORK',
+                issues, strengths
+            };
+        }
+
+        renderTopics('gs');
+    </script>
+</body>
+</html>

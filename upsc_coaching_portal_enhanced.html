@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Civil Services Mains Coaching Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 0;
+            min-height: 75vh;
+        }
+        .left-panel {
+            background: #f8f9fa;
+            padding: 30px;
+            border-right: 1px solid #ddd;
+            overflow-y: auto;
+            max-height: 75vh;
+        }
+        .right-panel {
+            padding: 30px;
+            overflow-y: auto;
+            max-height: 75vh;
+        }
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            padding: 10px 15px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .tab-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .search-box {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        .topic-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            border-left: 4px solid #667eea;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+            border: 1px solid #ddd;
+            font-size: 0.95em;
+        }
+        .topic-item:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+        .topic-item.selected {
+            background: #e8ecff;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        .topic-title {
+            font-weight: 600;
+            color: #333;
+        }
+        .topic-paper {
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 5px;
+        }
+        .section-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #667eea;
+            margin: 20px 0 15px 0;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        .value-addition-item,
+        .example-item,
+        .angle-item {
+            background: #f8f9fa;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+        }
+        .argument-checker {
+            background: #f0f4ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border: 2px solid #e0e7ff;
+        }
+        .argument-checker h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: inherit;
+            min-height: 100px;
+            resize: vertical;
+        }
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        .check-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+        }
+        .check-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .feedback-box {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background: white;
+            display: none;
+        }
+        .feedback-box.show {
+            display: block;
+        }
+        .score-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .feedback-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+        }
+        .feedback-item strong {
+            color: #667eea;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            .left-panel {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+            .topic-item {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>UPSC Civil Services Mains Coaching Portal</h1>
+            <p>Professional Argument Accuracy Checker & Fact Verification System</p>
+        </div>
+
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="gsCount">--</div>
+                        <div>GS Topics</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="historyCount">--</div>
+                        <div>History Topics</div>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="switchTab('gs')">General Studies</button>
+                    <button class="tab-btn" onclick="switchTab('history')">History Optional</button>
+                </div>
+
+                <input type="text" class="search-box" id="searchBox" placeholder="Search topics..." onkeyup="filterTopics()">
+
+                <div id="gs-tab" class="topics-list"></div>
+                <div id="history-tab" class="topics-list" style="display:none;"></div>
+            </div>
+
+            <div class="right-panel">
+                <div id="content-area" class="empty-state">
+                    <p>📚 Select a topic from the left to view syllabus details</p>
+                </div>
+
+                <div class="argument-checker">
+                    <h3>Argument Verification System</h3>
+                    <div class="form-group">
+                        <label>Enter Your Argument/Answer:</label>
+                        <textarea id="userArgument" placeholder="Paste your answer here..."></textarea>
+                    </div>
+                    <button class="check-btn" onclick="verifyArgument()">Verify & Get Feedback</button>
+
+                    <div id="feedbackBox" class="feedback-box">
+                        <div class="score-badge" id="accuracyScore"></div>
+                        <div id="feedbackContent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let syllabusData = { gs: [], history: [] };
+        let currentTab = 'gs';
+        let currentTopic = null;
+
+        async function loadData() {
+            try {
+                const response = await fetch('syllabus_data.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                syllabusData = await response.json();
+                
+                document.getElementById('gsCount').textContent = syllabusData.gs.length;
+                document.getElementById('historyCount').textContent = syllabusData.history.length;
+                
+                renderTopics('gs');
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('content-area').innerHTML = 
+                    '<div class="empty-state"><p>⚠️ Error loading syllabus data. Using sample topics.</p></div>';
+                // Fallback to basic data
+                renderTopics('gs');
+            }
+        }
+
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById('gs-tab').style.display = tab === 'gs' ? 'flex' : 'none';
+            document.getElementById('history-tab').style.display = tab === 'history' ? 'flex' : 'none';
+            document.getElementById('searchBox').value = '';
+            renderTopics(tab);
+        }
+
+        function renderTopics(type) {
+            const data = syllabusData[type];
+            const container = document.getElementById(type + '-tab');
+            container.innerHTML = '';
+            container.style.display = 'flex';
+            container.style.flexDirection = 'column';
+            container.style.gap = '10px';
+
+            if (data.length === 0) {
+                container.innerHTML = '<div class="empty-state">No topics available</div>';
+                return;
+            }
+
+            data.forEach((topic, i) => {
+                const div = document.createElement('div');
+                div.className = 'topic-item';
+                div.innerHTML = `
+                    <div class="topic-title">${topic.title}</div>
+                    <div class="topic-paper">Paper ${topic.paper}</div>
+                `;
+                div.onclick = () => showTopic(topic, div);
+                container.appendChild(div);
+            });
+        }
+
+        function filterTopics() {
+            const query = document.getElementById('searchBox').value.toLowerCase();
+            const data = syllabusData[currentTab];
+            const container = document.getElementById(currentTab + '-tab');
+            container.innerHTML = '';
+
+            const filtered = data.filter(t => t.title.toLowerCase().includes(query));
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="empty-state">No topics match your search</div>';
+                return;
+            }
+
+            filtered.forEach(topic => {
+                const div = document.createElement('div');
+                div.className = 'topic-item';
+                div.innerHTML = `
+                    <div class="topic-title">${topic.title}</div>
+                    <div class="topic-paper">Paper ${topic.paper}</div>
+                `;
+                div.onclick = () => showTopic(topic, div);
+                container.appendChild(div);
+            });
+        }
+
+        function showTopic(topic, el) {
+            currentTopic = topic;
+            document.querySelectorAll('.topic-item').forEach(e => e.classList.remove('selected'));
+            el.classList.add('selected');
+
+            let html = `<div>
+                <div class="section-title">📖 Paper ${topic.paper}: ${topic.title}</div>`;
+
+            if (topic.value_additions && topic.value_additions.length > 0) {
+                html += '<div class="section-content"><strong style="color: #667eea;">💡 Value Additions:</strong>';
+                topic.value_additions.forEach(va => {
+                    html += `<div class="value-addition-item">${va}</div>`;
+                });
+                html += '</div>';
+            }
+
+            if (topic.examples && topic.examples.length > 0) {
+                html += '<div class="section-content"><strong style="color: #667eea;">📌 Examples & Case Studies:</strong>';
+                topic.examples.forEach(ex => {
+                    html += `<div class="example-item">${ex}</div>`;
+                });
+                html += '</div>';
+            }
+
+            if (topic.argument_angles && topic.argument_angles.length > 0) {
+                html += '<div class="section-content"><strong style="color: #667eea;">🔍 Argument Angles:</strong>';
+                topic.argument_angles.forEach(angle => {
+                    html += `<div class="angle-item">${angle}</div>`;
+                });
+                html += '</div>';
+            }
+
+            html += '</div>';
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        function verifyArgument() {
+            const arg = document.getElementById('userArgument').value.trim();
+            if (!arg) { alert('Please enter an argument'); return; }
+            
+            const feedback = analyzeArgument(arg);
+            const box = document.getElementById('feedbackBox');
+            
+            document.getElementById('accuracyScore').textContent = `Score: ${feedback.score}/100 (${feedback.status})`;
+            
+            let html = '';
+            if (feedback.strengths.length) {
+                html += '<div class="feedback-item"><strong>✓ Strengths:</strong><br>' + feedback.strengths.map(s => '• ' + s).join('<br>') + '</div>';
+            }
+            if (feedback.issues.length) {
+                html += '<div class="feedback-item"><strong>⚠ Areas to Improve:</strong><br>' + feedback.issues.map(i => '• ' + i).join('<br>') + '</div>';
+            }
+            html += '<div class="feedback-item"><strong>💬 Coaching Tips:</strong><br>';
+            html += '• Use value additions to structure your answer systematically<br>';
+            html += '• Support every claim with concrete dates, statistics, or legislation<br>';
+            html += '• Present multiple perspectives to show balanced thinking<br>';
+            html += '• Connect examples directly to the main question<br>';
+            html += '• Use proper essay structure: intro, body with analysis, conclusion';
+            html += '</div>';
+            
+            document.getElementById('feedbackContent').innerHTML = html;
+            box.classList.add('show');
+            box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        function analyzeArgument(text) {
+            let score = 0, issues = [], strengths = [];
+            
+            if (text.length > 300) { 
+                strengths.push("Adequate depth and substantiation"); 
+                score += 20; 
+            } else { 
+                issues.push("Expand with more detailed substantiation"); 
+            }
+            
+            if (/example|case|instance|data|statistic|percent|year|act|policy|amendment/i.test(text)) { 
+                strengths.push("Contains concrete evidence and facts"); 
+                score += 25; 
+            } else { 
+                issues.push("Add specific dates, statistics, laws, or case examples"); 
+            }
+            
+            if (/however|but|although|contrary|perspective|on the other hand|nevertheless/i.test(text)) { 
+                strengths.push("Shows balanced, multi-faceted thinking"); 
+                score += 20; 
+            } else { 
+                issues.push("Present counterarguments or alternative perspectives"); 
+            }
+            
+            if (/india|indian|constitution|fundamental|rights|article|government|ministry/i.test(text)) { 
+                strengths.push("India-context focused and relevant"); 
+                score += 15; 
+            }
+            
+            if (text.split('\n').filter(l => l.trim()).length > 3) { 
+                strengths.push("Well-structured with clear paragraphing"); 
+                score += 10; 
+            } else {
+                issues.push("Organize your answer into clear paragraphs");
+            }
+            
+            if (/therefore|thus|hence|consequently|as a result|in conclusion/i.test(text)) {
+                strengths.push("Clear logical flow and transitions");
+                score += 10;
+            }
+
+            return {
+                score: Math.min(score, 100),
+                status: score >= 80 ? '✨ EXCELLENT' : score >= 60 ? '👍 GOOD' : score >= 40 ? '📚 FAIR' : '🎯 NEEDS WORK',
+                issues, strengths
+            };
+        }
+
+        // Initialize on page load
+        window.addEventListener('load', loadData);
+    </script>
+</body>
+</html>
