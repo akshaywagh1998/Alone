@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IFS Quizmaster — Active Recall AI Employee | Indian Forest Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top App Navigation Bar -->
+  <header class="top-navbar">
+    <div class="brand-section">
+      <div class="brand-logo">🌿</div>
+      <div class="brand-title">
+        <h1>IFS Quizmaster <span class="badge-tag ai-badge">AI Employee v2.0</span></h1>
+        <p><span class="status-dot"></span> Active Recall & MCQ-First Engine | Botany & Agriculture</p>
+      </div>
+    </div>
+
+    <!-- Live Performance Metrics Strip -->
+    <div class="metrics-strip">
+      <div class="metric-pill" id="metricCountdown" title="Days remaining until IFS Mains">
+        <span>⏳</span> <span id="countdownDays">142</span>d to Mains
+      </div>
+      <div class="metric-pill" id="metricAccuracy" title="Overall Active Recall Accuracy">
+        <span>🎯</span> <strong id="accuracyValue">0%</strong> Acc
+      </div>
+      <div class="metric-pill" id="metricStreak" title="Consecutive daily study streak">
+        <span>🔥</span> <strong id="streakCount">1</strong>d Streak
+      </div>
+      <div class="metric-pill alert" id="metricReviewQueue" title="Spaced Repetition Cards Due Today">
+        <span>🔁</span> <strong id="dueCount">0</strong> Due
+      </div>
+    </div>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <button class="btn btn-outline btn-sm" id="btnInterleavedReview" title="Interleave Botany & Agriculture review cards">
+        🔀 Interleaved Review
+      </button>
+      <button class="btn-icon" id="btnThemeToggle" title="Toggle Dark/Light Mode">
+        🌓
+      </button>
+      <button class="btn-icon" id="btnSpeechToggle" title="Toggle Voice / Read Aloud">
+        🔊
+      </button>
+      <button class="btn btn-primary btn-sm" id="btnOpenSettings">
+        ⚙️ AI Employee Config
+      </button>
+    </div>
+  </header>
+
+  <!-- App Layout Container -->
+  <div class="app-container">
+    
+    <!-- Left Navigation Sidebar -->
+    <aside class="sidebar">
+      <div>
+        <div class="nav-group-title">The Recall Ladder</div>
+        <ul class="nav-links">
+          <li class="nav-item active" data-view="session">
+            <div class="nav-item-content">
+              <span>🚀</span> <span>Active Session</span>
+            </div>
+            <span class="nav-badge" id="badgeSessionState">Ready</span>
+          </li>
+          <li class="nav-item" data-view="chat">
+            <div class="nav-item-content">
+              <span>💬</span> <span>Employee Console</span>
+            </div>
+          </li>
+          <li class="nav-item" data-view="matrix">
+            <div class="nav-item-content">
+              <span>📚</span> <span>Syllabus Matrix</span>
+            </div>
+            <span class="nav-badge" id="badgeTopicsCount">10</span>
+          </li>
+          <li class="nav-item" data-view="reviews">
+            <div class="nav-item-content">
+              <span>🔁</span> <span>Review Queue</span>
+            </div>
+            <span class="nav-badge" id="badgeReviewCount">0</span>
+          </li>
+          <li class="nav-item" data-view="anki">
+            <div class="nav-item-content">
+              <span>📤</span> <span>Anki Exporter</span>
+            </div>
+          </li>
+          <li class="nav-item" data-view="report">
+            <div class="nav-item-content">
+              <span>📊</span> <span>Mastery Dashboard</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Recall Ladder Step Visualization -->
+      <div class="ladder-tracker">
+        <div class="nav-group-title" style="padding-left:0;">Methodology Stages</div>
+        <div class="ladder-step" id="ladderStep1">
+          <div class="step-indicator step-1">1</div>
+          <div>
+            <strong>Level 1: Recognize</strong>
+            <div style="font-size:0.7rem; color:var(--text-muted)">MCQs (Plausible distractors)</div>
+          </div>
+        </div>
+        <div class="ladder-step" id="ladderStep2">
+          <div class="step-indicator step-2">2</div>
+          <div>
+            <strong>Level 2: Recall</strong>
+            <div style="font-size:0.7rem; color:var(--text-muted)">Cloze & 3D Flashcards</div>
+          </div>
+        </div>
+        <div class="ladder-step" id="ladderStep3">
+          <div class="step-indicator step-3">3</div>
+          <div>
+            <strong>Level 3: Explain</strong>
+            <div style="font-size:0.7rem; color:var(--text-muted)">SAQs (30-100w Keyword checks)</div>
+          </div>
+        </div>
+        <div class="ladder-step" id="ladderStep4">
+          <div class="step-indicator step-4">4</div>
+          <div>
+            <strong>Level 4: Elaborate</strong>
+            <div style="font-size:0.7rem; color:var(--text-muted)">Mains Answers + Diagrams</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optional Links Quick Box -->
+      <div style="background:var(--bg-card); padding:12px; border-radius:8px; border:1px solid var(--border-color); font-size:0.76rem;">
+        <strong style="color:var(--accent-gold); display:block; margin-bottom:4px;">🌿 Cross-Optional Links</strong>
+        <p style="color:var(--text-secondary); margin-bottom:8px;">Synthesize Botany physiological rigor with Agriculture field outcomes.</p>
+        <button class="btn btn-outline btn-sm" style="width:100%; justify-content:center;" id="btnQuickLink">
+          Explore Integrations
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="workspace">
+      
+      <!-- AI Command Console Input Bar -->
+      <section class="command-console-wrapper">
+        <div class="console-header">
+          <div class="employee-speech">
+            <span style="font-size: 1.2rem;">🧑‍🏫</span>
+            <span id="employeeVoiceText">"I am your IFS Quizmaster. Type a topic name or command to climb the Recall Ladder."</span>
+          </div>
+          <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono)">Prompt Command Engine</span>
+        </div>
+        
+        <form id="commandForm" class="command-input-row" onsubmit="event.preventDefault(); window.app.handleCommandSubmit();">
+          <div class="command-input-box">
+            <span class="prompt-icon">&gt;</span>
+            <input type="text" id="commandInput" placeholder="Type a command (e.g. Session: Endosperm types, Quiz: C4 photosynthesis, Cloze: Plant hormones, Link, Plan)..." autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-primary">Execute</button>
+        </form>
+
+        <div class="quick-pills">
+          <span style="font-size:0.72rem; color:var(--text-muted); margin-right:4px;">Quick Commands:</span>
+          <button type="button" class="quick-pill" data-cmd="Session: Endosperm types">Session: Endosperm</button>
+          <button type="button" class="quick-pill" data-cmd="Quiz: C3 vs C4 vs CAM Photosynthesis, 10">Quiz: C4 Photosynthesis</button>
+          <button type="button" class="quick-pill" data-cmd="Cloze: Phytohormones & Stress Physiology">Cloze: Hormones</button>
+          <button type="button" class="quick-pill" data-cmd="Flash: Soil Science, INM & Soil Fertility">Flash: Soil & INM</button>
+          <button type="button" class="quick-pill" data-cmd="SAQ: Integrated Pest Management (IPM) & Plant Protection">SAQ: IPM</button>
+          <button type="button" class="quick-pill" data-cmd="Mains: Cryptogams & Stelar Evolution in Pteridophytes">Mains: Stele Evolution</button>
+          <button type="button" class="quick-pill" data-cmd="Link: Nitrogen metabolism + INM">Link: N2 + INM</button>
+          <button type="button" class="quick-pill" data-cmd="Review">Review</button>
+          <button type="button" class="quick-pill" data-cmd="Report">Report</button>
+          <button type="button" class="quick-pill" data-cmd="Plan">Plan</button>
+        </div>
+      </section>
+
+      <!-- VIEW 1: ACTIVE RECALL WORKSPACE (Default) -->
+      <section id="viewSession" class="view-panel active">
+        
+        <!-- Due Cards Alert Banner if any -->
+        <div id="reviewDueBanner" class="review-banner" style="display:none;">
+          <div class="review-info">
+            <span style="font-size: 1.5rem;">🔔</span>
+            <div>
+              <strong>Review Queue: <span id="bannerDueCount">3</span> items due for spaced repetition!</strong>
+              <div style="font-size:0.8rem; color:var(--text-secondary);">Clear fading memories before drilling new topics for maximum retention.</div>
+            </div>
+          </div>
+          <button class="btn btn-accent btn-sm" id="btnStartDueReview">
+            Drill Due Cards Now
+          </button>
+        </div>
+
+        <!-- Topic Active Card -->
+        <div class="content-card" id="sessionContainer">
+          <div class="card-header-row">
+            <div class="card-title-group">
+              <h2 id="currentTopicTitle">🎯 Ready to Launch Session</h2>
+              <div class="card-subtitle" id="currentTopicSubtitle">Select a topic from the Syllabus Matrix or type <code>Session: [topic]</code> above.</div>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;" id="stageControlButtons">
+              <span class="badge-tag" id="currentStageBadge" style="background:var(--border-color); color:var(--text-secondary)">Awaiting Launch</span>
+            </div>
+          </div>
+
+          <!-- STEP 1: PRIMER NOTES -->
+          <div id="primerSection" class="primer-box" style="display:none;">
+            <div class="primer-title">
+              <span>📋</span> <span>PRIMER: Minimum Viable Notes (5 min read)</span>
+            </div>
+            <ul class="primer-list" id="primerContentList">
+              <!-- Injected by JS -->
+            </ul>
+            <div style="margin-top:14px; display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-size:0.78rem; color:var(--text-muted); font-style:italic;">*Full notes on request. Memorize core classifications before proceeding.*</span>
+              <button class="btn btn-primary btn-sm" id="btnStartMCQFromPrimer">Start MCQ Round (Level 1) ➔</button>
+            </div>
+          </div>
+
+          <!-- STEP 2: LEVEL 1 RECOGNIZE - MCQ ROUND -->
+          <div id="mcqSection" class="mcq-container" style="display:none;">
+            <div class="mcq-meta">
+              <span style="font-size:0.85rem; font-weight:700; color:var(--accent-info);" id="mcqCounter">MCQ 1 of 5</span>
+              <span class="difficulty-badge diff-medium" id="mcqDiffBadge">[MEDIUM]</span>
+            </div>
+            
+            <div class="question-text" id="mcqQuestionText">
+              <!-- Question string injected by JS -->
+            </div>
+
+            <div class="options-grid" id="mcqOptionsGrid">
+              <!-- Option buttons injected by JS -->
+            </div>
+
+            <!-- Explanations & Memory Hook -->
+            <div class="mcq-explanation-card" id="mcqExplanationBox">
+              <div id="mcqResultHeader" style="font-weight:700; font-size:1rem; margin-bottom:8px;"></div>
+              <div class="rationale-block" id="mcqRationaleText"></div>
+              <div class="distractor-block" id="mcqDistractorText"></div>
+              <div class="memory-hook-box" id="mcqMemoryHookBox">
+                <span>💡</span>
+                <strong id="mcqMemoryHookText"></strong>
+              </div>
+              <div style="margin-top:16px; display:flex; justify-content:flex-end;">
+                <button class="btn btn-primary btn-sm" id="btnNextMCQ">Next Question ➔</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3: LEVEL 2 RECALL - CLOZE DELETIONS -->
+          <div id="clozeSection" style="display:none;">
+            <div class="cloze-card">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                <span style="font-size:0.82rem; font-weight:700; color:var(--accent-emerald);" id="clozeCounter">Cloze Card 1 of 4</span>
+                <span class="badge-tag" style="background:rgba(16, 185, 129, 0.15); color:var(--accent-emerald);">Level 2: Active Recall</span>
+              </div>
+              <p class="cloze-sentence" id="clozeSentenceText">
+                <!-- Sentence with blank -->
+              </p>
+              
+              <div style="display:flex; gap:10px; align-items:center;">
+                <button class="btn btn-outline btn-sm" id="btnClozeHint">💡 Hint</button>
+                <button class="btn btn-primary btn-sm" id="btnCheckCloze">Check Answer</button>
+                <button class="btn btn-secondary btn-sm" id="btnRevealCloze">Reveal</button>
+                <button class="btn btn-secondary btn-sm" id="btnNextCloze" style="margin-left:auto;">Next Cloze ➔</button>
+              </div>
+
+              <div class="cloze-reveal-box" id="clozeRevealBox">
+                <div style="font-weight:700; color:#34d399;" id="clozeStatusText"></div>
+                <div style="margin-top:4px; font-size:0.9rem;" id="clozeAnswerDetails"></div>
+                <div class="anki-syntax-badge" id="clozeAnkiSyntax"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4: LEVEL 2 RECALL - 3D FLASHCARDS -->
+          <div id="flashSection" style="display:none;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+              <span style="font-size:0.82rem; font-weight:700; color:var(--accent-emerald);" id="flashCounter">Flashcard 1 of 5</span>
+              <span style="font-size:0.75rem; color:var(--text-muted);">Click card or press Space to flip</span>
+            </div>
+
+            <div class="flashcard-stage">
+              <div class="flashcard-inner" id="flashCardInner">
+                <!-- Front -->
+                <div class="card-face card-front">
+                  <div class="flip-prompt">QUESTION / TERM</div>
+                  <div class="card-face-content" id="flashFrontText">
+                    <!-- Front Text -->
+                  </div>
+                  <div class="flip-prompt">➔ CLICK TO FLIP</div>
+                </div>
+                <!-- Back -->
+                <div class="card-face card-back">
+                  <div class="flip-prompt" style="color:#34d399;">MODEL RECALL & MEMORY HOOK</div>
+                  <div class="card-face-content back-text" id="flashBackText">
+                    <!-- Back Text -->
+                  </div>
+                  <div class="flip-prompt" style="color:var(--accent-gold);">RATE YOUR RETRIEVAL BELOW</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Anki Rating Buttons -->
+            <div class="anki-rating-row" id="flashRatingRow" style="display:none;">
+              <button class="btn-rate rate-again" onclick="window.app.rateFlashcard('again')">
+                <span>🔁 AGAIN</span>
+                <span class="rate-sub">&lt; 1 min</span>
+              </button>
+              <button class="btn-rate rate-hard" onclick="window.app.rateFlashcard('hard')">
+                <span>⚠️ HARD</span>
+                <span class="rate-sub">+1 day</span>
+              </button>
+              <button class="btn-rate rate-good" onclick="window.app.rateFlashcard('good')">
+                <span>👍 GOOD</span>
+                <span class="rate-sub">+3 days</span>
+              </button>
+              <button class="btn-rate rate-easy" onclick="window.app.rateFlashcard('easy')">
+                <span>🌟 EASY</span>
+                <span class="rate-sub">+7 days</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 5: LEVEL 3 EXPLAIN - SAQ ROUND -->
+          <div id="saqSection" style="display:none;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-size:0.85rem; font-weight:700; color:var(--accent-gold);" id="saqCounter">Short Answer Drill</span>
+              <span class="badge-tag" style="background:rgba(245, 158, 11, 0.2); color:var(--accent-gold);" id="saqMarksBadge">5 Marks (30-100 Words)</span>
+            </div>
+
+            <div class="question-text" id="saqQuestionText" style="margin: 14px 0;">
+              <!-- SAQ Question -->
+            </div>
+
+            <div class="answer-box-wrapper">
+              <textarea class="answer-textarea" id="saqInputText" placeholder="Write your technical answer here (incorporate exact scientific terms, Latin binomials, mechanisms, and examples)..."></textarea>
+              <div class="answer-tools-row">
+                <span>Word count: <strong id="saqWordCount">0</strong> words (Target: 30-100)</span>
+                <button class="btn btn-primary btn-sm" id="btnEvaluateSAQ">Evaluate SAQ Answer ➔</button>
+              </div>
+            </div>
+
+            <!-- SAQ Evaluation Box -->
+            <div class="evaluation-results-box" id="saqEvaluationBox">
+              <div class="score-display-card">
+                <div>
+                  <div class="rubric-label">Awarded Score</div>
+                  <div class="score-number" id="saqScoreNumber">4.5 / 5</div>
+                </div>
+                <div class="score-tag" id="saqScoreStatus" style="background:rgba(16, 185, 129, 0.2); color:#34d399;">GOOD RECALL</div>
+              </div>
+
+              <div>
+                <strong style="font-size:0.85rem;">Technical Scoring Keywords Check:</strong>
+                <div class="keywords-cloud" id="saqKeywordsCloud">
+                  <!-- Keyword badges injected by JS -->
+                </div>
+              </div>
+
+              <div style="margin-top:14px; font-size:0.88rem;" id="saqGapFeedback">
+                <!-- Gap analysis -->
+              </div>
+
+              <div class="model-answer-block">
+                <h4>Model UPSC Standard Answer</h4>
+                <div class="model-answer-content" id="saqModelAnswerContent"></div>
+              </div>
+
+              <div style="margin-top:16px; display:flex; justify-content:flex-end;">
+                <button class="btn btn-primary btn-sm" id="btnNextSAQ">Proceed to Mains / Wrap-up ➔</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 6: LEVEL 4 ELABORATE - MAINS DESCRIPTIVE & DIAGRAM EVALUATOR -->
+          <div id="mainsSection" style="display:none;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-size:0.85rem; font-weight:700; color:var(--ladder-l4);" id="mainsCounter">Mains Descriptive Simulation</span>
+              <span class="badge-tag" style="background:rgba(139, 92, 246, 0.2); color:#c4b5fd;">15 Marks (250 Words)</span>
+            </div>
+
+            <div class="question-text" id="mainsQuestionText" style="margin: 14px 0;">
+              <!-- Mains question -->
+            </div>
+
+            <div class="diagram-banner" id="mainsDiagramBanner">
+              <span style="font-size:1.3rem;">📐</span>
+              <div>
+                <strong>DIAGRAM REQUIRED:</strong>
+                <span id="mainsDiagramGuidanceText">Provide schematic cross-section with complete anatomical labels.</span>
+              </div>
+            </div>
+
+            <div class="answer-box-wrapper">
+              <textarea class="answer-textarea" id="mainsInputText" style="min-height:220px;" placeholder="Structure your answer: 1. Introduction & Definition, 2. Structural/Physiological Core, 3. Diagrams / Flowcharts description, 4. Indian Agro-Ecological Context, 5. Conclusion..."></textarea>
+              <div class="answer-tools-row">
+                <span>Word count: <strong id="mainsWordCount">0</strong> words (Target: 200-250)</span>
+                <button class="btn btn-primary btn-sm" id="btnEvaluateMains">Evaluate Mains Answer ➔</button>
+              </div>
+            </div>
+
+            <!-- Mains Evaluation Box -->
+            <div class="evaluation-results-box" id="mainsEvaluationBox">
+              <div class="score-display-card">
+                <div>
+                  <div class="rubric-label">IFS Mains Evaluator Score</div>
+                  <div class="score-number" id="mainsScoreNumber">12 / 15</div>
+                </div>
+                <div class="score-tag" id="mainsScoreStatus" style="background:rgba(16, 185, 129, 0.2); color:#34d399;">UPPER PERCENTILE</div>
+              </div>
+
+              <div class="rubric-grid" id="mainsRubricGrid">
+                <!-- 6 Dimensions -->
+              </div>
+
+              <div class="model-answer-block">
+                <h4>UPSC IFS Model Structure & Solution</h4>
+                <div class="model-answer-content" id="mainsModelAnswerContent"></div>
+              </div>
+
+              <div style="margin-top:16px; display:flex; justify-content:flex-end;">
+                <button class="btn btn-primary btn-sm" id="btnFinishSession">Complete Session & Wrap-up ➔</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 7: SESSION WRAP-UP & REVIEW QUEUE SUMMARY -->
+          <div id="wrapupSection" style="display:none; text-align:center; padding: 20px 0;">
+            <div style="font-size:3rem; margin-bottom:10px;">🎉</div>
+            <h3 style="font-size:1.5rem; margin-bottom:6px;">Session Wrap-Up Completed!</h3>
+            <p style="color:var(--text-secondary); max-width:550px; margin:0 auto 20px;">
+              You have completed the Recall Ladder for <strong id="wrapupTopicName" style="color:var(--text-primary)">Topic</strong>.
+            </p>
+
+            <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; max-width:600px; margin:0 auto 24px;">
+              <div style="background:var(--bg-card); padding:14px; border-radius:8px; border:1px solid var(--border-color);">
+                <div style="font-size:0.75rem; color:var(--text-muted);">MCQ ACCURACY</div>
+                <div style="font-size:1.6rem; font-weight:800; color:var(--accent-emerald);" id="wrapupAccuracy">80%</div>
+              </div>
+              <div style="background:var(--bg-card); padding:14px; border-radius:8px; border:1px solid var(--border-color);">
+                <div style="font-size:0.75rem; color:var(--text-muted);">CARDS TO REVIEW</div>
+                <div style="font-size:1.6rem; font-weight:800; color:var(--accent-gold);" id="wrapupReviewAdded">+2</div>
+              </div>
+              <div style="background:var(--bg-card); padding:14px; border-radius:8px; border:1px solid var(--border-color);">
+                <div style="font-size:0.75rem; color:var(--text-muted);">MASTERY STATUS</div>
+                <div style="font-size:1.2rem; font-weight:700; color:#34d399; margin-top:4px;" id="wrapupMasteryStatus">Level 3</div>
+              </div>
+            </div>
+
+            <!-- Examiner's 3 Tips -->
+            <div style="background:var(--bg-card); border-left:4px solid var(--accent-gold); text-align:left; max-width:650px; margin:0 auto 24px; padding:16px 20px; border-radius:6px;">
+              <strong style="color:var(--accent-gold); display:block; margin-bottom:8px;">💡 Examiner's 3 Critical Tips for this Topic:</strong>
+              <ul style="padding-left:18px; font-size:0.88rem; color:var(--text-secondary); line-height:1.7;" id="wrapupTipsList">
+                <li>Never skip italicizing botanical Latin binomials (*Genus species*).</li>
+                <li>Incorporte Indian soil zones and agro-climatic conditions for full marks in Agri.</li>
+                <li>Draw labeled diagrams early before exhausting exam time.</li>
+              </ul>
+            </div>
+
+            <div style="display:flex; justify-content:center; gap:12px;">
+              <button class="btn btn-secondary" id="btnRestartTopic">Re-drill Topic</button>
+              <button class="btn btn-primary" id="btnNextTopicFromMatrix">Select Next Priority Topic ➔</button>
+            </div>
+          </div>
+
+          <!-- Empty State (When no session is active) -->
+          <div id="sessionEmptyState" style="text-align:center; padding: 40px 20px;">
+            <div style="font-size: 3.5rem; margin-bottom: 15px;">🧠</div>
+            <h3 style="font-size:1.4rem; margin-bottom: 8px;">Active Recall Engine Ready</h3>
+            <p style="color:var(--text-secondary); max-width:540px; margin: 0 auto 24px;">
+              Start by typing <code>Session: [topic]</code> in the command box, or choose a high-yield topic below to climb from Recognition to Mains mastery.
+            </p>
+            <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+              <button class="btn btn-primary" onclick="window.app.startTopicSession('bot_p1_embryo')">
+                🌱 Launch: Embryology & Endosperm
+              </button>
+              <button class="btn btn-secondary" onclick="window.app.startTopicSession('bot_p2_photo')">
+                ☀️ Launch: C3 vs C4 vs CAM
+              </button>
+              <button class="btn btn-secondary" onclick="window.app.startTopicSession('agri_p1_soil')">
+                🌾 Launch: Soil Science & INM
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- VIEW 2: EMPLOYEE CONVERSATIONAL CONSOLE -->
+      <section id="viewChat" class="view-panel">
+        <div class="chat-container">
+          <div class="chat-messages" id="chatMessagesStream">
+            <div class="chat-bubble assistant">
+              <strong>IFS Quizmaster:</strong><br>
+              Greetings! I am your active recall AI Employee for the Indian Forest Service Examination. I am configured with the <strong>Recall Ladder</strong> methodology (Recognize ➔ Recall ➔ Explain ➔ Elaborate).<br><br>
+              You can talk to me, issue any command (e.g. <code>Session: IPM</code>, <code>Mnemonic: Hormones</code>, <code>Link: Photosynthesis + Millets</code>), or ask me to diagnose your weak spots!
+            </div>
+          </div>
+          <form class="chat-input-bar" onsubmit="event.preventDefault(); window.app.handleChatSubmit();">
+            <input type="text" id="chatTextInput" class="form-control" placeholder="Ask a question or enter a prompt command..." autocomplete="off">
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- VIEW 3: SYLLABUS MATRIX & TOPIC EXPLORER -->
+      <section id="viewMatrix" class="view-panel">
+        <div class="content-card">
+          <div class="card-header-row">
+            <div class="card-title-group">
+              <h2>📚 UPSC IFS Syllabus Knowledge Matrix</h2>
+              <div class="card-subtitle">Prioritized by PYQ Frequency × Active Recall Mastery</div>
+            </div>
+            <div style="display:flex; gap:10px;">
+              <select id="matrixPaperFilter" class="form-control" style="width: auto; padding: 6px 12px; font-size: 0.85rem;">
+                <option value="all">All Papers</option>
+                <option value="Botany">Botany (Paper I & II)</option>
+                <option value="Agriculture">Agriculture (Paper I & II)</option>
+              </select>
+              <button class="btn btn-outline btn-sm" id="btnAddNewCustomTopic">+ Add Custom Topic</button>
+            </div>
+          </div>
+
+          <!-- Topics Grid -->
+          <div class="topic-matrix-grid" id="topicMatrixGrid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 4: SPACED REPETITION REVIEW QUEUE -->
+      <section id="viewReviews" class="view-panel">
+        <div class="content-card">
+          <div class="card-header-row">
+            <div class="card-title-group">
+              <h2>🔁 Spaced Repetition Review Deck</h2>
+              <div class="card-subtitle">Simulated Anki SM-2 engine interleaving Botany and Agriculture</div>
+            </div>
+            <button class="btn btn-primary btn-sm" id="btnLaunchFullReviewDeck">
+              Start Review Session
+            </button>
+          </div>
+
+          <div id="reviewItemsListContainer">
+            <!-- Review cards listed here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 5: ANKI DECK EXPORTER -->
+      <section id="viewAnki" class="view-panel">
+        <div class="content-card">
+          <div class="card-header-row">
+            <div class="card-title-group">
+              <h2>📤 Anki Deck Exporter</h2>
+              <div class="card-subtitle">Generate clean TSV / Cloze deletion text files ready for 1-click import into Anki Desktop/Mobile</div>
+            </div>
+            <div style="display:flex; gap:10px;">
+              <button class="btn btn-outline btn-sm" id="btnCopyAnkiText">📋 Copy to Clipboard</button>
+              <button class="btn btn-primary btn-sm" id="btnDownloadAnkiFile">⬇️ Download .txt</button>
+            </div>
+          </div>
+
+          <div style="margin-bottom:16px; display:flex; gap:12px; align-items:center;">
+            <label class="form-label" style="margin:0;">Format:</label>
+            <label style="font-size:0.85rem; display:flex; align-items:center; gap:4px;">
+              <input type="radio" name="ankiFormatOption" value="cloze" checked> Cloze Deletions ({{c1::fact}})
+            </label>
+            <label style="font-size:0.85rem; display:flex; align-items:center; gap:4px;">
+              <input type="radio" name="ankiFormatOption" value="basic"> Basic Front / Back Flashcards
+            </label>
+          </div>
+
+          <div class="export-code-box" id="ankiExportPreview">
+            <!-- Generated Anki text -->
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 6: MASTERY DASHBOARD & PROGRESS REPORT -->
+      <section id="viewReport" class="view-panel">
+        <div class="content-card">
+          <div class="card-header-row">
+            <div class="card-title-group">
+              <h2>📊 IFS Preparation Dashboard</h2>
+              <div class="card-subtitle">Performance telemetry, PYQ weightage coverage, and weak spot diagnostics</div>
+            </div>
+            <button class="btn btn-outline btn-sm" id="btnExportProgressJSON">💾 Backup State</button>
+          </div>
+
+          <div class="rubric-grid">
+            <div class="rubric-item">
+              <div class="rubric-label">Topics Mastered (Level 4)</div>
+              <div class="rubric-val" id="reportMasteredCount" style="color:var(--accent-purple);">0 / 10</div>
+            </div>
+            <div class="rubric-item">
+              <div class="rubric-label">MCQ Recognition Accuracy</div>
+              <div class="rubric-val" id="reportAccuracyVal" style="color:var(--accent-emerald);">0%</div>
+            </div>
+            <div class="rubric-item">
+              <div class="rubric-label">Flashcard Retention</div>
+              <div class="rubric-val" id="reportRetentionVal" style="color:var(--accent-info);">0%</div>
+            </div>
+            <div class="rubric-item">
+              <div class="rubric-label">Flagged Weak Topics (&lt;70%)</div>
+              <div class="rubric-val" id="reportWeakCount" style="color:var(--accent-danger);">0</div>
+            </div>
+          </div>
+
+          <div style="margin-top:20px;">
+            <h4 style="margin-bottom:12px; font-size:1rem;">Mastery Breakdown by Optional Subject</h4>
+            <div style="background:var(--bg-primary); padding:16px; border-radius:8px; border:1px solid var(--border-color);">
+              <div style="margin-bottom:12px;">
+                <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:4px;">
+                  <span>Botany (Paper I & II)</span>
+                  <span id="reportBotanyBarVal">0% Mastered</span>
+                </div>
+                <div style="height:8px; background:var(--bg-secondary); border-radius:4px; overflow:hidden;">
+                  <div id="reportBotanyProgressBar" style="width:0%; height:100%; background:var(--accent-emerald);"></div>
+                </div>
+              </div>
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:4px;">
+                  <span>Agriculture (Paper I & II)</span>
+                  <span id="reportAgriBarVal">0% Mastered</span>
+                </div>
+                <div style="height:8px; background:var(--bg-secondary); border-radius:4px; overflow:hidden;">
+                  <div id="reportAgriProgressBar" style="width:0%; height:100%; background:var(--accent-gold);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:24px;">
+            <h4 style="margin-bottom:12px; font-size:1rem; color:var(--accent-danger);">⚠️ Weak Topics Needing Urgent Active Recall Re-Quiz</h4>
+            <div id="reportWeakTopicsList" style="display:flex; flex-direction:column; gap:8px;">
+              <!-- Weak topics -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- MODAL: AI EMPLOYEE CONFIGURATOR (ADAPTABILITY SETTINGS) -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 style="font-size:1.2rem; display:flex; align-items:center; gap:8px;">
+          <span>⚙️</span> <span>AI Employee Adaptability Settings</span>
+        </h3>
+        <button class="btn-icon" id="btnCloseSettings">✕</button>
+      </div>
+
+      <form id="settingsForm" onsubmit="event.preventDefault(); window.app.saveSettings();">
+        <div class="form-group">
+          <label class="form-label">Target Examination Date (or Months left to IFS Mains):</label>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+            <input type="date" id="settingExamDate" class="form-control">
+            <select id="settingMonthsPreset" class="form-control">
+              <option value="3">3 Months (Sprint Phase)</option>
+              <option value="5" selected>5 Months (Comprehensive)</option>
+              <option value="8">8 Months (Foundation + Active Recall)</option>
+              <option value="12">12 Months (Full Cycle)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Current Preparation Level:</label>
+          <select id="settingPrepLevel" class="form-control">
+            <option value="beginner">Beginner (First read / Concepts shaky)</option>
+            <option value="intermediate" selected>Intermediate (Notes done once, facts not automatic)</option>
+            <option value="advanced">Advanced (Mains revision & active recall polish)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Daily Study Session Pacing:</label>
+          <select id="settingSessionPacing" class="form-control">
+            <option value="20">20-Minute Rapid Sprint (Primer + 5 MCQs + Cloze)</option>
+            <option value="45" selected>45-Minute Standard Ladder (Full Ladder: Primer -> MCQ -> Cloze -> Flash -> SAQ)</option>
+            <option value="60">60-Minute Deep Dive (Full Ladder + Mains PYQ Simulation)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">AI Intelligence Backend:</label>
+          <select id="settingAIProvider" class="form-control">
+            <option value="builtin" selected>Built-in Heuristic IFS Engine (No API key needed, zero latency)</option>
+            <option value="openai">OpenAI (GPT-4o / GPT-4o-mini)</option>
+            <option value="anthropic">Anthropic (Claude 3.5 Sonnet)</option>
+            <option value="gemini">Google Gemini 1.5 Pro</option>
+            <option value="groq">Groq (Llama 3.3 70B - Ultra Fast)</option>
+            <option value="openrouter">OpenRouter (Custom Models)</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="apiKeyGroup" style="display:none;">
+          <label class="form-label">Custom API Key (Stored securely in local browser):</label>
+          <input type="password" id="settingAPIKey" class="form-control" placeholder="sk-...">
+          <small style="color:var(--text-muted); font-size:0.75rem;">Your API key is stored only in your browser's localStorage and communicates directly with the provider.</small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">AI Employee Persona Rigor:</label>
+          <select id="settingPersonaRigor" class="form-control">
+            <option value="strict" selected>Strict UPSC IFS Examiner (Penalizes vague terms, enforces 70% rule)</option>
+            <option value="coach">Balanced Academic Mentor (Provides hints and memory hooks)</option>
+            <option value="drill">Speed Drill Master (Focus on Anki intervals & rapid fire)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Self-Declared Weak Topics (Comma-separated):</label>
+          <textarea id="settingWeakTopicsInput" class="form-control" rows="2" placeholder="e.g., Cryptogams life cycles, Weed management & herbicides, Stelar evolution, Seed certification standards"></textarea>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:24px; padding-top:14px; border-top:1px solid var(--border-color);">
+          <button type="button" class="btn btn-outline btn-sm" id="btnResetAllData" style="color:var(--accent-danger);">
+            Reset All Progress Data
+          </button>
+          <button type="submit" class="btn btn-primary">Save Settings</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL: ADD CUSTOM TOPIC -->
+  <div class="modal-overlay" id="customTopicModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 style="font-size:1.2rem;">+ Ingest Custom Syllabus Topic</h3>
+        <button class="btn-icon" id="btnCloseCustomTopic">✕</button>
+      </div>
+      <form id="customTopicForm" onsubmit="event.preventDefault(); window.app.saveCustomTopic();">
+        <div class="form-group">
+          <label class="form-label">Topic Title:</label>
+          <input type="text" id="custTopicTitle" class="form-control" placeholder="e.g. Mendelian Genetics & Linkage Mapping" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Optional Subject & Paper:</label>
+          <select id="custTopicPaper" class="form-control">
+            <option value="Botany Paper I">Botany Paper I</option>
+            <option value="Botany Paper II">Botany Paper II</option>
+            <option value="Agriculture Paper I">Agriculture Paper I</option>
+            <option value="Agriculture Paper II">Agriculture Paper II</option>
+            <option value="General Studies">General Studies</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Paste Key Notes / Syllabus Points (8-10 bullets):</label>
+          <textarea id="custTopicNotes" class="form-control" rows="4" placeholder="Enter key facts, definitions, scientific binomials, and classifications..." required></textarea>
+        </div>
+        <div style="display:flex; justify-content:flex-end; gap:10px;">
+          <button type="button" class="btn btn-secondary" id="btnCancelCustomTopic">Cancel</button>
+          <button type="submit" class="btn btn-primary">Build Topic Ladder</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL: FIRST-TIME INTAKE DIAGNOSTIC WIZARD -->
+  <div class="modal-overlay" id="intakeModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 style="font-size:1.2rem; display:flex; align-items:center; gap:8px;">
+          <span>🎯</span> <span>IFS Quizmaster Intake Diagnostic</span>
+        </h3>
+      </div>
+      <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:16px;">
+        To adapt your study schedule, spaced repetition intervals, and topic priority queue, answer these 5 quick baseline questions:
+      </p>
+
+      <form id="intakeForm" onsubmit="event.preventDefault(); window.app.completeIntake();">
+        <div class="form-group">
+          <label class="form-label">1. How many months until your IFS Mains examination?</label>
+          <select id="intakeMonths" class="form-control">
+            <option value="3">3 Months (Intensive Sprint)</option>
+            <option value="5" selected>5 Months (Standard Plan)</option>
+            <option value="8">8 Months</option>
+            <option value="12">12 Months</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">2. Preparation level in Botany & Agriculture optionals:</label>
+          <select id="intakeLevel" class="form-control">
+            <option value="beginner">Beginner (First read / Concepts shaky)</option>
+            <option value="intermediate" selected>Intermediate (Notes read once, facts not automatic)</option>
+            <option value="advanced">Advanced (Mains answer polishing & active recall)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">3. Stage focus:</label>
+          <select id="intakeStage" class="form-control">
+            <option value="prelims_cleared">Prelims cleared — 100% Mains focus</option>
+            <option value="integrated" selected>Integrated Prelims + Mains 2026</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">4. Daily study hours & preferred session length:</label>
+          <select id="intakeSession" class="form-control">
+            <option value="20">20-min sprint (5 MCQs + Cloze)</option>
+            <option value="45" selected>45-min standard (Full Recall Ladder)</option>
+            <option value="60">60-min deep dive (Ladder + Mains PYQ)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">5. What are your weakest topics right now?</label>
+          <input type="text" id="intakeWeakTopics" class="form-control" placeholder="e.g. Weed science, Cryptogams steles, Plant breeding, INM" value="Weed management, Pteridophyte steles, Soil chemistry">
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; margin-top:20px;">
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; padding:12px;">
+            Initialize My AI Study Companion ➔
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@
   "public": true,
   "headers": [
     {
-      "source": "/syllabus_data.json",
+      "source": "/(.*).json",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
@@ -41,6 +41,10 @@
   "rewrites": [
     {
       "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/portal",
       "destination": "/upsc_coaching_portal_enhanced.html"
     }
   ]
