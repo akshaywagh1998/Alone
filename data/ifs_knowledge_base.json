@@ -1,0 +1,1057 @@
+{
+  "metadata": {
+    "title": "IFS Active Recall Knowledge Base (Botany & Agriculture Optionals)",
+    "version": "2.0.0",
+    "methodology": "Recall Ladder: Level 1 (Recognize) -> Level 2 (Recall) -> Level 3 (Explain) -> Level 4 (Elaborate)",
+    "total_modules": 4
+  },
+  "modules": [
+    {
+      "id": "botany_p1",
+      "subject": "Botany",
+      "paper": "Paper I",
+      "title": "Microbiology, Cryptogams, Phanerogams, Anatomy & Embryology",
+      "topics": [
+        {
+          "id": "bot_p1_embryo",
+          "name": "Embryology & Endosperm Types",
+          "pyq_weightage": "High",
+          "pyq_years": [
+            "2018",
+            "2020",
+            "2022",
+            "2023"
+          ],
+          "primer": [
+            "Endosperm is the primary nutritive tissue supporting embryo development in angiosperms.",
+            "Ploidy: Typically triploid (3n) formed by triple fusion (one sperm nucleus + two polar nuclei).",
+            "Nuclear Endosperm: First and subsequent divisions are free-nuclear; wall formation occurs later or remains partial (e.g., *Cocos nucifera* liquid endosperm). Most common type (~56% angiosperms).",
+            "Cellular Endosperm: Cytokinesis accompanies the very first and every subsequent division (e.g., *Petunia*, *Datura*, *Utricularia*).",
+            "Helobial Endosperm: Intermediate type; first division forms a large micropylar chamber and a small chalazal chamber. Micropylar chamber undergoes free nuclear division, while chalazal chamber shows limited or no division (characteristic of monocot order Helobiales, e.g., *Asphodelus*).",
+            "Ruminate Endosperm: Uneven surface showing infoldings or ruminations (e.g., *Areca catechu* - Betel nut, *Myristica fragrans* - Nutmeg).",
+            "Mosaic Endosperm: Endosperm showing patches of differing genetic constitution/color (e.g., *Zea mays* kernels).",
+            "Xenia & Metaxenia: Xenia refers to direct effect of pollen on endosperm/seed characteristics (Focke, 1881); Metaxenia refers to pollen effect on purely maternal tissue like fruit wall (Swingle, 1928).",
+            "Apomixis: Asexual reproduction through seeds without amphimixis; includes apospory (from nucellar/integumentary cells) and diplospory (from unreduced MMC)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_bot_01",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "In *Cocos nucifera* (Coconut), the milky water found in the tender fruit represents:",
+              "options": [
+                "(a) Free-nuclear endosperm without wall formation",
+                "(b) Completely cellular endosperm with dense cytoplasm",
+                "(c) Degenerated nucellar fluid",
+                "(d) Helobial endosperm with unequal chambers"
+              ],
+              "answer": "(a)",
+              "rationale": "In tender coconut, the central liquid cavity contains thousands of free nuclei suspended in fluid endosperm (free-nuclear endosperm). Wall formation occurs later centripetally from periphery to center, forming the white solid kernel (cellular endosperm).",
+              "distractor_breakdown": "(b) Cellular endosperm forms the solid white meat along the margins later. (c) Nucellus degenerates during ovule maturation and does not form coconut water. (d) Helobial endosperm is restricted primarily to order Helobiales.",
+              "memory_hook": "COCONUT WATER = FREE LIQUID FLOATING NUCLEI (Liquid = Nuclear, Solid Meat = Cellular)."
+            },
+            {
+              "id": "mcq_bot_02",
+              "difficulty": "HARD",
+              "type": "statement_combination",
+              "question": "Consider the following statements regarding endosperm development in angiosperms:\n1. Helobial endosperm features unequal transverse partitioning after the first division.\n2. In *Petunia* and *Datura*, endosperm development is cellular from the outset.\n3. The phenomenon of Xenia refers to the effect of pollen on maternal pericarp tissue.\n4. Ruminate endosperm is a hallmark taxonomic character of the family Annonaceae and Arecaceae.\n\nWhich of the statements given above are CORRECT?",
+              "options": [
+                "(a) 1, 2 and 4 only",
+                "(b) 1, 3 and 4 only",
+                "(c) 2 and 3 only",
+                "(d) 1, 2, 3 and 4"
+              ],
+              "answer": "(a)",
+              "rationale": "Statements 1, 2, and 4 are correct. Statement 3 is INCORRECT: The direct effect of pollen on maternal tissues (such as the fruit wall or pericarp) is termed **Metaxenia** (coined by Swingle, 1928), whereas **Xenia** is restricted to direct pollen effect on seed and endosperm characters.",
+              "distractor_breakdown": "Look closely at Statement 3: Swapping Xenia with Metaxenia is one of UPSC's favorite traps in Botany Paper I.",
+              "memory_hook": "Xenia = Xenon/Alien impact on Seed/Endosperm; METAxenia = Maternal Pericarp / External fruit wall."
+            },
+            {
+              "id": "mcq_bot_03",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "A typical monosporic 8-nucleate *Polygonum* type embryo sac at maturity consists of:",
+              "options": [
+                "(a) 7 cells and 8 nuclei",
+                "(b) 8 cells and 8 nuclei",
+                "(c) 8 cells and 7 nuclei",
+                "(d) 6 cells and 7 nuclei"
+              ],
+              "answer": "(a)",
+              "rationale": "The mature *Polygonum* type female gametophyte has 3 antipodal cells at the chalazal end, 1 egg cell and 2 synergids forming the egg apparatus at the micropylar end, and a large central cell containing 2 polar nuclei (which fuse to form secondary nucleus). Thus: 3 + 3 + 1 = 7 cells, containing 3 + 3 + 2 = 8 nuclei.",
+              "distractor_breakdown": "(b) Overlooks that the central cell holds two nuclei without an intervening cell wall prior to fertilization.",
+              "memory_hook": "POLYGONUM = 7-8 RULE (7 Cells, 8 Nuclei; 3 Top, 3 Bottom, 1 Dual-core Center)."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_bot_01",
+              "text": "The intermediate type of endosperm development where the first division results in a large micropylar and a small chalazal chamber is termed ______ endosperm.",
+              "answer": "Helobial",
+              "hint": "Named after the monocot order Helobiales",
+              "anki_format": "The intermediate type of endosperm development where the first division results in a large micropylar and a small chalazal chamber is termed {{c1::Helobial}} endosperm."
+            },
+            {
+              "id": "clz_bot_02",
+              "text": "The infolded, irregular nutritive tissue seen in Betel nut (*Areca catechu*) and Nutmeg (*Myristica fragrans*) is known as ______ endosperm.",
+              "answer": "ruminate",
+              "hint": "Wrinkled / chew-like appearance",
+              "anki_format": "The infolded, irregular nutritive tissue seen in Betel nut (*Areca catechu*) and Nutmeg (*Myristica fragrans*) is known as {{c1::ruminate}} endosperm."
+            },
+            {
+              "id": "clz_bot_03",
+              "text": "Development of an embryo directly from unfertilized nucellar or integumentary cells is called adventive ______.",
+              "answer": "embryony",
+              "hint": "Form of apomixis common in *Citrus* and *Mangifera*",
+              "anki_format": "Development of an embryo directly from unfertilized nucellar or integumentary cells is called adventive {{c1::embryony}}."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_bot_01",
+              "front": "Differentiate between Xenia and Metaxenia in plant embryology.",
+              "back": "**Xenia:** Direct phenotypic effect of pollen genes on the endosperm and seed coat (e.g., kernel color in maize).\n**Metaxenia:** Direct effect of pollen on maternal tissues outside the seed (pericarp, fruit maturity, fruit size in date palm *Phoenix dactylifera*).",
+              "memory_hook": "Xenia = Inner seed; Metaxenia = Outer maternal fruit."
+            },
+            {
+              "id": "fl_bot_02",
+              "front": "Draw & Label: What are the three essential components of the Egg Apparatus in an angiosperm ovule?",
+              "back": "1. **One Egg Cell (Oosphere):** Centrally located with vacuole towards micropylar end and nucleus chalazal.\n2. **Two Synergids (Co-operative cells):** Flanking the egg cell, possessing **Filiform apparatus** for pollen tube guidance.\n3. **Micropylar orientation:** Base facing micropyle, tips facing chalaza.",
+              "memory_hook": "1 Queen (Egg) guarded by 2 Bodyguards (Synergids with Filiform antennas)."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_bot_01",
+              "marks": 5,
+              "question": "Explain the morphological nature and ploidy variations of endosperm in Gymnosperms versus Angiosperms. (Word limit: 80 words)",
+              "scoring_keywords": [
+                "pre-fertilization",
+                "haploid (n)",
+                "female gametophyte",
+                "triple fusion",
+                "triploid (3n)",
+                "nutritive tissue",
+                "Oenothera (diploid 2n)",
+                "Peperomia (polyploid 9n)"
+              ],
+              "model_answer": "In **Gymnosperms**, the endosperm is a **pre-fertilization** tissue representing the **haploid (n)** vegetative body of the **female gametophyte**. Conversely, in **Angiosperms**, endosperm forms post-fertilization via **triple fusion** (fusion of one sperm with two polar nuclei), typically rendering it **triploid (3n)**. Exceptions include *Oenothera* (diploid, 2n) and *Peperomia* (polyploid, 9n/16n). In both groups, it serves as the essential **nutritive tissue** supporting embryonic growth.",
+              "gap_guidance": "Did you highlight pre-fertilization vs post-fertilization timing and contrast n vs 3n ploidy?"
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_bot_01",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw comparative diagrams of: (a) Nuclear endosperm (free nuclei floating in central vacuole -> centripetal wall formation); (b) Cellular endosperm (transverse and longitudinal wall after every division); (c) Helobial endosperm (asymmetric micropylar & chalazal chambers). Include clear labels.",
+              "question": "Describe the different types of endosperm development in Angiosperms with suitable examples. Discuss the evolutionary significance of endosperm and its agricultural importance in cereal crops. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nEndosperm is the primary nutritive tissue nourishing the developing embryo in angiosperms, usually formed by **triple fusion** (3n). Based on cytokinesis timing, three primary modes are distinguished.\n\n### 2. Types of Endosperm Development [DIAGRAM REQUIRED]\n1. **Nuclear Endosperm (~56% of angiosperms):**\n   - Primary Endosperm Nucleus (PEN) divides mitotically without cell plate formation.\n   - Free nuclei migrate to the peripheral cytoplasm around a large central vacuole.\n   - Centripetal cell wall formation occurs later, as seen in *Triticum aestivum* and *Cocos nucifera* (liquid syncytium -> solid cellular flesh).\n\n2. **Cellular Endosperm (~25% of families):**\n   - Every nuclear division is synchronously coupled with cytokinesis from the outset.\n   - No free nuclear phase occurs.\n   - Examples: *Datura*, *Petunia*, *Utricularia*.\n\n3. **Helobial Endosperm (~19%, mainly monocots):**\n   - Intermediate type.\n   - First division creates two unequal chambers: a larger **micropylar chamber** and a smaller **chalazal chamber**.\n   - Free-nuclear division predominates in the micropylar chamber, whereas the chalazal chamber undergoes minimal division.\n   - Example: *Asphodelus*, *Ottelia*.\n\n### 3. Evolutionary & Agricultural Significance\n- **Evolutionary Advantage:** Resource conservation. Endosperm development occurs only *after* successful fertilization, avoiding wasteful maternal investment in sterile ovules (unlike gymnosperms).\n- **Agronomic Vitality:** In major food cereals (*Oryza sativa*, *Triticum aestivum*, *Zea mays*), the starchy endosperm contributes over 60% of human global caloric intake and protein reserves (aleurone layer)."
+            }
+          ]
+        },
+        {
+          "id": "bot_p1_pathology",
+          "name": "Microbiology & Plant Pathology",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2019",
+            "2021",
+            "2023",
+            "2024"
+          ],
+          "primer": [
+            "Tobacco Mosaic Virus (TMV): Helical rod-shaped virus (300 nm x 18 nm), single-stranded positive-sense RNA (ssRNA ~6400 nucleotides), 2130 identical capsomeres.",
+            "Citrus Canker: Caused by *Xanthomonas citri* subsp. *citri* (Gram-negative, aerobic, rod-shaped bacterium with single polar flagellum). Diagnostic crater-like raised corky lesions with oily halo on leaves and fruit.",
+            "Late Blight of Potato: Caused by *Phytophthora infestans* (Oomycota / water mold, diploid coenocytic mycelium, sporangia/zoospores). Responsible for 1845 Irish Famine.",
+            "Black Stem Rust of Wheat: Caused by *Puccinia graminis* f. sp. *tritici* (macrocyclic, heteroecious rust with 5 spore stages: 0-pycniospores & I-aeciospores on alternate host *Berberis vulgaris*; II-urediniospores, III-teliospores, and IV-basidiospores on primary host wheat).",
+            "Loose Smut of Wheat: Caused by *Ustilago tritici* (internally seed-borne basidiomycete; infected ears turn into black powdery soot of teliospores). Controlled by systemic fungicide carboxin (Vitavax) or hot water treatment (Jensen, 54\u00b0C for 10 min).",
+            "Bordeaux Mixture: Discovered accidentally by Millardet (1882) at Bordeaux, France, against downy mildew of grape (*Plasmopara viticola*). Standard ratio: 4:4:50 (Copper sulphate : Quicklime : Water)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_bot_04",
+              "difficulty": "HARD",
+              "type": "match_the_following",
+              "question": "Match List-I (Spore stage of *Puccinia graminis*) with List-II (Host and ploidy level):\nList-I:\nA. Urediniospore\nB. Aeciospore\nC. Basidiospore\nD. Teliospore\n\nList-II:\n1. Barberry (*Berberis*), Dikaryotic (n+n)\n2. Wheat (*Triticum*), Dikaryotic (n+n), repeating stage\n3. Soil/Debris, Karyogamy -> Diploid (2n)\n4. Epibasidium, Haploid (n)\n\nCodes:\n(a) A-2, B-1, C-4, D-3\n(b) A-1, B-2, C-3, D-4\n(c) A-2, B-4, C-1, D-3\n(d) A-3, B-1, C-4, D-2",
+              "answer": "(a)",
+              "rationale": "Urediniospores (A-2) are repeating dikaryotic (n+n) spores on wheat that spread epidemic; Aeciospores (B-1) form in cluster cups on barberry underside and infect wheat (n+n); Basidiospores (C-4) are haploid (n) resulting from meiosis; Teliospores (D-3) are resting 2-celled spores where karyogamy converts n+n to 2n.",
+              "distractor_breakdown": "Remember: Urediniospores = Wheat repeating cycle; Aeciospores = Bridge from Barberry to Wheat; Basidiospores = Meiotic haploids.",
+              "memory_hook": "Puccinia 5 Stages: 0-Pycnia (Barberry), 1-Aecia (Barberry -> Wheat), 2-Uredinia (Wheat repeating), 3-Telia (Wheat resting), 4-Basidia (Meiotic airborn)."
+            },
+            {
+              "id": "mcq_bot_05",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "Jensen's hot-water treatment for loose smut of wheat (*Ustilago tritici*) works effectively because:",
+              "options": [
+                "(a) The pathogen mycelium dormant inside the embryo is killed at 54\u00b0C while host embryo remains viable",
+                "(b) It destroys superficial fungal spores resting on the external seed pericarp",
+                "(c) It induces systemic acquired resistance (SAR) by stimulating salicylic acid",
+                "(d) It inactivates bacterial toxins without affecting host enzymes"
+              ],
+              "answer": "(a)",
+              "rationale": "Loose smut of wheat is strictly an **internally seed-borne** disease where fungal mycelium resides within the wheat scutellum and embryo. Jensen (1888) discovered differential thermal death points: dormant fungal hyphae perish at 54\u00b0C (129\u00b0F) for 10-12 minutes, whereas the wheat embryo survives.",
+              "distractor_breakdown": "(b) Describes externally seed-borne bunts/smuts (like covered smut of barley), which are treated by surface chemical dusts, not deep hot water. (c) Describes plant immunity induction, not thermal eradication.",
+              "memory_hook": "LOOSE SMUT = INSIDE THE EMBRYO -> REQUIRES PENETRATING HEAT (Hot Water 54\u00b0C) OR SYSTEMIC VITAVAX."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_bot_04",
+              "text": "The accidental discovery of Bordeaux mixture by ______ in 1882 was aimed at controlling grape downy mildew (*Plasmopara viticola*).",
+              "answer": "Millardet",
+              "hint": "French botanist Pierre-Marie-Alexis ______",
+              "anki_format": "The accidental discovery of Bordeaux mixture by {{c1::Millardet}} in 1882 was aimed at controlling grape downy mildew (*Plasmopara viticola*)."
+            },
+            {
+              "id": "clz_bot_05",
+              "text": "The genetic material of Tobacco Mosaic Virus (TMV) consists of a single-stranded ______ sense RNA molecule of approximately 6400 nucleotides.",
+              "answer": "positive",
+              "hint": "+ssRNA",
+              "anki_format": "The genetic material of Tobacco Mosaic Virus (TMV) consists of a single-stranded {{c1::positive}}-sense RNA molecule of approximately 6400 nucleotides."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_bot_03",
+              "front": "What is the causal organism and primary diagnostic field symptom of Citrus Canker?",
+              "back": "**Pathogen:** *Xanthomonas citri* subsp. *citri* (Gram-negative bacterium).\n**Diagnostic Symptoms:** Raised, corky, rough, crater-like necrotic lesions on leaves, stems, and fruits, encircled by a characteristic **water-soaked chlorotic yellow halo**.",
+              "memory_hook": "Corky Crater + Yellow Halo = Xanthomonas Canker."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_bot_02",
+              "marks": 5,
+              "question": "What is heteroecious life cycle? State its epidemiological significance using *Puccinia graminis* as an example. (60-80 words)",
+              "scoring_keywords": [
+                "heteroecious",
+                "two distinct host species",
+                "Puccinia graminis",
+                "primary host (Triticum)",
+                "alternate host (Berberis vulgaris)",
+                "sexual recombination",
+                "aeciospores",
+                "epidemiology"
+              ],
+              "model_answer": "A **heteroecious** fungus completes its polymorphic life cycle on **two distinct host species**. In *Puccinia graminis*, the **primary host** is wheat (*Triticum aestivum*, harboring urediniospores and teliospores) and the **alternate host** is barberry (*Berberis vulgaris*, harboring pycniospores and aeciospores). Epidemiologically, the alternate host serves as a site for **sexual recombination**, generating virulent novel physiological rust races (e.g., Ug99) and acting as a primary spring inoculum source via **aeciospores**.",
+              "gap_guidance": "Explicitly mention sexual recombination on Barberry generating new virulent pathotypes."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_bot_02",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Diagram the complete cycle of Puccinia graminis with 5 spore stages clearly distributed across Wheat, Soil, and Berberis vulgaris.",
+              "question": "Give an illustrated account of the life cycle of *Puccinia graminis tritici*. Discuss the role of alternate host in disease cycles and strategies for stem rust management. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\n*Puccinia graminis* f. sp. *tritici* is a **macrocyclic**, **heteroecious** rust fungus producing five distinct morphological spore states across two unrelated botanical hosts.\n\n### 2. Spore Stages & Cycle [DIAGRAM REQUIRED]\n1. **Stage 0 - Pycniospores / Spermatia:** Formed on upper leaf surface of alternate host (*Berberis vulgaris*). Imparts spermatization (dikaryotization).\n2. **Stage I - Aeciospores:** Produced in 'cluster-cups' on lower leaf surface of *Berberis*. Dikaryotic (n+n); airborne spores infect the primary host (wheat).\n3. **Stage II - Urediniospores:** Formed on wheat culms/leaves. Brown, oval, binucleate (n+n). The repeating, epidemic-generating cycle of rust in plains.\n4. **Stage III - Teliospores:** Thick-walled, 2-celled, dark brown resting spores. Karyogamy occurs (n+n -> 2n). Overwinters on wheat stubble.\n5. **Stage IV - Basidiospores:** Meiosis in promycelium produces 4 haploid basidiospores (n), which re-infect *Berberis*.\n\n### 3. Role of Alternate Host\nIn temperate zones, *Berberis vulgaris* enables **sexual genetic reassortment**, generating aggressive physiological pathotypes (e.g., the virulent lineage Ug99). In India (Mehta's classic rust epidemiological research), *Berberis* plays negligible role in annual recurrence; the rust oversummers in the Nilgiri and Palani hills in the South and Himalayan foothills in the North.\n\n### 4. Integrated Management Strategies\n- **Host Resistance:** Deployment of Sr-genes (e.g., *Sr31*, *Sr2* complex).\n- **Chemical Control:** Triazole sprays (Propiconazole @ 0.1%) at rust appearance.\n- **Barberry Eradication:** Breaking sexual cycle in endemic hilly regions."
+            }
+          ]
+        },
+        {
+          "id": "bot_p1_stele",
+          "name": "Cryptogams & Stelar Evolution in Pteridophytes",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2016",
+            "2019",
+            "2021",
+            "2023"
+          ],
+          "primer": [
+            "Stele is the central vascular cylinder comprising xylem, phloem, pericycle, and pith (if present). Concept proposed by Van Tieghem and Douliot (1886).",
+            "Protostele (most primitive, non-medullated): Central core of xylem surrounded by phloem. Types: Haplostele (*Rhynia*, smooth xylem core), Actinostele (*Psilotum*, star-shaped xylem), Plectostele (*Lycopodium clavatum*, plate-like xylem interleaved with phloem), Mixed protostele (*Lycopodium cernuum*).",
+            "Siphonostele (medullated stele): Central pith evolved inside xylem core. Ectophloic (*Osmunda*, phloem only on outside) vs Amphiphloic (*Marsilea*, phloem on both outer and inner sides of xylem ring).",
+            "Solenostele: Siphonostele with non-overlapping leaf gaps (e.g., *Marsilea* rhizome).",
+            "Dictyostele: Siphonostele dissected by large, overlapping leaf gaps into a network of independent vascular bundles called meristeles (e.g., *Dryopteris*, *Pteris*).",
+            "Eustele & Atactostele: Eustele in dicots/gymnosperms (collateral bundles in ring); Atactostele in monocots (scattered closed bundles)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_bot_08",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "An amphiphloic siphonostele, where phloem, pericycle, and endodermis are present on both the outer and inner surfaces of xylem, is characteristically found in the rhizome of:",
+              "options": [
+                "(a) *Marsilea*",
+                "(b) *Rhynia*",
+                "(c) *Lycopodium*",
+                "(d) *Psilotum*"
+              ],
+              "answer": "(a)",
+              "rationale": "*Marsilea* rhizome exhibits an **amphiphloic siphonostele** (or amphiphloic solenostele). Moving from outside to inside: outer endodermis -> outer pericycle -> outer phloem -> xylem ring -> inner phloem -> inner pericycle -> inner endodermis -> central pith.",
+              "distractor_breakdown": "(b) *Rhynia* has the simplest haplostele. (c) *Lycopodium* exhibits plectostele or mixed protostele. (d) *Psilotum* exhibits actinostele.",
+              "memory_hook": "MARSILEA = MARS HAS TWO SIDES (Inner & Outer Phloem = Amphiphloic)."
+            },
+            {
+              "id": "mcq_bot_09",
+              "difficulty": "HARD",
+              "type": "statement_combination",
+              "question": "Arrange the following stelar types in the CORRECT order of their evolutionary progression:\n1. Dictyostele\n2. Haplostele\n3. Solenostele\n4. Actinostele\n\nSelect the correct sequence from primitive to advanced:",
+              "options": [
+                "(a) 2 -> 4 -> 3 -> 1",
+                "(b) 4 -> 2 -> 1 -> 3",
+                "(c) 2 -> 3 -> 4 -> 1",
+                "(d) 4 -> 3 -> 2 -> 1"
+              ],
+              "answer": "(a)",
+              "rationale": "Evolutionary line: Haplostele (cylindrical xylem core, e.g. *Rhynia*) -> Actinostele (star-shaped xylem, e.g. *Psilotum*) -> Siphonostele/Solenostele (pith evolution, non-overlapping gaps, e.g. *Marsilea*) -> Dictyostele (overlapping leaf gaps creating meristeles, e.g. *Dryopteris*).",
+              "distractor_breakdown": "Remember: Solid cores (Protosteles: Haplo -> Actino) always precede hollow tubes with pith (Siphono/Soleno), which precede perforated networks (Dictyo).",
+              "memory_hook": "H.A.S.D = Haplo -> Actino -> Soleno -> Dictyo."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_bot_08",
+              "text": "In a dictyostele, the individual vascular strands formed by overlapping leaf gaps are termed ______.",
+              "answer": "meristeles",
+              "hint": "Prefix 'meri-' meaning part",
+              "anki_format": "In a dictyostele, the individual vascular strands formed by overlapping leaf gaps are termed {{c1::meristeles}}."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_bot_05",
+              "front": "What is the defining structural difference between a Solenostele and a Dictyostele?",
+              "back": "**Solenostele:** Siphonostele with scattered, non-overlapping leaf gaps (vascular cylinder remains a continuous ring except at one gap at any level).\n**Dictyostele:** Dissected siphonostele where leaf gaps are numerous and **overlap** simultaneously, breaking the ring into distinct **meristeles**.",
+              "memory_hook": "Soleno = Solo non-overlapping gap; Dictyo = Dissected by overlapping gaps."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_bot_04",
+              "marks": 5,
+              "question": "What is the significance of heterospory in pteridophytes as a precursor to the seed habit? (80 words)",
+              "scoring_keywords": [
+                "heterospory",
+                "microspores and megaspores",
+                "Selaginella",
+                "reduction of gametophyte",
+                "endosporic development",
+                "retention of megaspore",
+                "precursor to seed habit"
+              ],
+              "model_answer": "**Heterospory** is the production of two distinct spore types: small **microspores** (giving rise to male gametophytes) and large **megaspores** (female gametophytes). In pteridophytes like ***Selaginella***, heterospory accompanied by **endosporic development** and female gametophyte retention within the megasporangium on the parent sporophyte was the critical evolutionary stepping stone towards the **seed habit** of phanerogams.",
+              "gap_guidance": "Highlight female gametophyte retention within the megasporangium wall."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_bot_04",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw cross-sectional diagrams of: (1) Haplostele; (2) Actinostele; (3) Plectostele; (4) Amphiphloic siphonostele; (5) Dictyostele showing meristeles and leaf trace gaps.",
+              "question": "Trace the origin and evolution of stele in Pteridophytes with illustrative diagrams. Discuss the stelar theory in relation to land plant adaptation. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nThe Stelar Theory, formulated by Van Tieghem and Douliot (1886), posits the stele (xylem, phloem, pericycle) as the primary anatomical and functional vascular unit of vascular plants (Tracheophytes).\n\n### 2. Evolutionary Trajectory [DIAGRAM REQUIRED]\n- **Protostele (Solid Core, No Pith):** The ancestral condition.\n  - *Haplostele:* Smooth cylindrical xylem core wrapped by phloem (*Rhynia*, *Cooksonia*).\n  - *Actinostele:* Lobed or star-shaped xylem ribs (*Psilotum*).\n  - *Plectostele:* Plate-like xylem interleaved with phloem (*Lycopodium clavatum*).\n- **Siphonostele (Pith Genesis):** Central parenchyma (medulla) evolved either intrastelarly or by cortical intrusion, providing mechanical flexibility.\n  - *Ectophloic:* Phloem only on exterior of xylem (*Osmunda*).\n  - *Amphiphloic:* Phloem both exterior and interior (*Marsilea*).\n- **Solenostele to Dictyostele:** Dissection by leaf gaps.\n  - *Solenostele:* Gaps are distant and non-overlapping.\n  - *Dictyostele:* Successive overlapping leaf gaps break cylinder into interconnected ribbon-like bundles called **meristeles** (*Dryopteris*).\n\n### 3. Adaptive Significance for Land Colonization\n- Transition from rigid solid protostele to tubular siphonostele enhanced resistance to bending stresses caused by wind in erect terrestrial fronds.\n- Interconnecting meristeles ensured uninterrupted sap conduction around branch and leaf divergences."
+            }
+          ]
+        },
+        {
+          "id": "bot_p1_anatomy",
+          "name": "Plant Anatomy & Anomalous Secondary Growth",
+          "pyq_weightage": "High",
+          "pyq_years": [
+            "2017",
+            "2020",
+            "2022",
+            "2023"
+          ],
+          "primer": [
+            "Normal Secondary Growth: Normal cambial ring formed from intrafascicular and interfascicular cambium produces secondary xylem towards inside and secondary phloem towards outside in uniform concentric cylinders.",
+            "Anomalous Secondary Growth: Departures from the normal pattern due to: (1) Abnormal activity of normal cambium; (2) Formation of accessory/successive cambial rings; (3) Cambium originating in anomalous positions.",
+            "*Dracaena* (Monocot anomaly): Secondary thickening meristem arises in the extrastelar ground parenchyma/cortex, cutting secondary vascular bundles (amphivasal, xylem encircling phloem) towards the inside and parenchymatous ground tissue towards the outside.",
+            "*Boerhavia diffusa*: Successive accessory cambial rings arise from pericycle. Cambium cuts secondary xylem and phloem in discrete patches separated by parenchymatous rays, forming concentric rings of bundles embedded in conjunctive tissue.",
+            "*Bignonia*: Normal cambium produces uneven proportions: secondary xylem in 4 deep wedges and secondary phloem in corresponding 4 inward furrows (cleaved / four-ridged appearance).",
+            "*Nyctanthes*: Presence of 4 inverted cortical vascular bundles in the four corners of the quadrangular stem (phloem facing epidermis, xylem facing inward)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_bot_10",
+              "difficulty": "HARD",
+              "type": "single_choice",
+              "question": "In the anomalous secondary growth of the monocot stem *Dracaena*, the secondary vascular bundles produced by the secondary thickening meristem are characteristically:",
+              "options": [
+                "(a) Amphivasal (leptocentric), where xylem completely surrounds phloem",
+                "(b) Amphicribral (hadrocentric), where phloem completely surrounds xylem",
+                "(c) Collateral and open with continuous cambial strips",
+                "(d) Radial with alternating xylem and phloem rays"
+              ],
+              "answer": "(a)",
+              "rationale": "In *Dracaena*, the anomalous secondary cambium cuts inward **amphivasal** (leptocentric) vascular bundles, where a ring of secondary xylem tracheids completely encloses the central strand of phloem.",
+              "distractor_breakdown": "(b) Amphicribral (phloem around xylem) is seen in fern rhizomes (*Polypodium*), not *Dracaena*. (c) Monocots never possess open collateral secondary bundles.",
+              "memory_hook": "DRACAENA = AMPHIVASAL (Vessel/Xylem around Phloem Core)."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_bot_09",
+              "text": "The quadrangular stem of *Nyctanthes arbor-tristis* features four inverted vascular bundles located in the ______ region.",
+              "answer": "cortex",
+              "hint": "Cortical bundles",
+              "anki_format": "The quadrangular stem of *Nyctanthes arbor-tristis* features four inverted vascular bundles located in the {{c1::cortex}} region."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_bot_06",
+              "front": "What causes the four-furrowed xylem cross-section in *Bignonia* stem?",
+              "back": "Anomalous activity of a normal cambial ring: at four equidistant longitudinal strips, the cambium produces **more secondary phloem internally** and very little secondary xylem, creating four deep phloem wedges intruding into the secondary xylem.",
+              "memory_hook": "Bignonia = 4 Phloem wedges bite into Xylem."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_bot_05",
+              "marks": 5,
+              "question": "Differentiate between amphivasal and amphicribral vascular bundles with one botanical example of each. (60 words)",
+              "scoring_keywords": [
+                "amphivasal (leptocentric)",
+                "xylem encircles phloem",
+                "Dracaena",
+                "amphicribral (hadrocentric)",
+                "phloem encircles xylem",
+                "ferns / Polypodium"
+              ],
+              "model_answer": "In **amphivasal (leptocentric)** bundles, secondary **xylem completely encircles** the central phloem core, as seen in *Dracaena* and *Acorus*. In **amphicribral (hadrocentric)** bundles, **phloem completely surrounds** the central xylem strand, characteristic of pteridophyte steles and petioles of ferns like *Polypodium* and *Dryopteris*.",
+              "gap_guidance": "Distinguish which tissue surrounds which and cite Dracaena vs Ferns."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_bot_05",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw a transverse sector of anomalous secondary growth in Dracaena stem: outer periderm -> cortex -> secondary cambium layer -> secondary conjunctive tissue embedding amphivasal vascular bundles -> primary ground tissue.",
+              "question": "Describe the anatomical anomalies and secondary growth in the stem of *Dracaena*. How does it differ from secondary growth in a normal dicotyledonous stem? (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nMonocot stems typically lack vascular cambium and undergo no secondary thickening. However, arborescent liliaceous monocots like *Dracaena* exhibit **anomalous secondary growth** to support mechanical load and hydraulic conduction.\n\n### 2. Anatomical Mechanism in *Dracaena* [DIAGRAM REQUIRED]\n1. **Origin of Cambium:** A secondary thickening meristem arises in the extrastelar ground parenchyma or sub-cortical layers outside the outermost primary vascular bundles.\n2. **Centripetal Derivatives (Inside):** Unlike normal cambium which forms continuous secondary xylem, *Dracaena* cambium differentiates internally into:\n   - **Secondary Vascular Bundles:** Closed, **amphivasal (leptocentric)** bundles where ring of lignified scalariform xylem tracheids encircles phloem.\n   - **Conjunctive Tissue:** Thick-walled, lignified parenchyma embedding the amphivasal bundles.\n3. **Centrifugal Derivatives (Outside):** Cambium cuts small amounts of parenchyma towards the outside, joining the primary cortex.\n4. **Cork Formation:** Storied cork (phellem) is produced by tangential divisions in outer cortical parenchyma without a true phellogen.\n\n### 3. Comparison with Normal Dicot Secondary Growth\n- **Cambial Origin:** Dicot cambium forms a continuous circular ring from vascular bundle fascicles and medullary rays; *Dracaena* cambium originates de novo in ground cortex.\n- **Tissues Produced:** Dicots produce secondary xylem internally and secondary phloem externally; *Dracaena* cuts both xylem and phloem internally within discrete bundles embedded in conjunctive parenchyma."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "botany_p2",
+      "subject": "Botany",
+      "paper": "Paper II",
+      "title": "Physiology, Biochemistry, Ecology & Biotechnology",
+      "topics": [
+        {
+          "id": "bot_p2_photo",
+          "name": "C3 vs C4 vs CAM Photosynthesis",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2017",
+            "2019",
+            "2021",
+            "2023"
+          ],
+          "primer": [
+            "C3 Pathway (Calvin Cycle): First stable product is 3-phosphoglycerate (3-PGA, 3C). Primary carboxylating enzyme is RuBisCO (Ribulose-1,5-bisphosphate carboxylase-oxygenase). Suffers from photorespiration (C2 cycle) under high O2/CO2 ratios, losing 25-40% of fixed carbon.",
+            "C4 Pathway (Hatch-Slack Pathway): First stable product is oxaloacetate (OAA, 4C). Primary carboxylating enzyme is PEP carboxylase (phosphoenolpyruvate carboxylase), with high CO2 affinity and zero oxygenase activity.",
+            "Kranz Anatomy: Hallmark of C4 plants (*Zea mays*, *Saccharum*, *Sorghum*). Concentric layers of mesophyll cells around bundle sheath cells containing dimorphic chloroplasts (large, agranal, starch-storing in bundle sheath; normal, grana-rich in mesophyll).",
+            "CAM (Crassulacean Acid Metabolism): Temporal separation of carboxylation. Stomata open at night (scotoactive), fixing CO2 via PEP carboxylase into malic acid stored in large vacuoles. Stomata close by day; malate decarboxylates to feed Calvin cycle internally (e.g., *Ananas*, *Opuntia*, *Sedum*).",
+            "Water Use Efficiency (WUE): CAM (highest, ~1000 g DM/kg H2O) > C4 (~500 g DM/kg H2O) > C3 (~250-300 g DM/kg H2O).",
+            "CO2 Compensation Point: C4 plants (0-10 ppm) << C3 plants (40-100 ppm)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_bot_06",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "Which of the following cellular features distinguishes the bundle sheath chloroplasts from mesophyll chloroplasts in typical C4 plants like *Zea mays*?",
+              "options": [
+                "(a) Bundle sheath chloroplasts are agranal and accumulate abundant starch",
+                "(b) Bundle sheath chloroplasts possess abundant grana and lack RuBisCO",
+                "(c) Bundle sheath chloroplasts contain PEP carboxylase exclusively",
+                "(d) Mesophyll chloroplasts lack thylakoid grana entirely"
+              ],
+              "answer": "(a)",
+              "rationale": "C4 Kranz anatomy features **chloroplast dimorphism**: Mesophyll chloroplasts have well-developed grana (active PSII, oxygen evolution) and PEP carboxylase. Bundle sheath chloroplasts are larger, **agranal** (lacking or rudimentary grana, diminished PSII to prevent O2 evolution), enriched with **RuBisCO**, and specialize in accumulating starch grains.",
+              "distractor_breakdown": "(b) False: RuBisCO is concentrated precisely in bundle sheath cells! (c) False: PEP carboxylase is localized in mesophyll cells. (d) False: Mesophyll chloroplasts are typical granal chloroplasts.",
+              "memory_hook": "MESOPHYLL = PEPc + Grana (O2 factory); BUNDLE SHEATH = RuBisCO + Agranal (No O2, Pure Carbon Starch)."
+            },
+            {
+              "id": "mcq_bot_07",
+              "difficulty": "HARD",
+              "type": "statement_combination",
+              "question": "Consider the following statements regarding Crassulacean Acid Metabolism (CAM):\n1. Primary fixation of atmospheric CO2 occurs during the scotophase (night) via PEP carboxylase.\n2. Malic acid accumulated overnight in vacuoles causes a dramatic drop in nocturnal cell sap pH.\n3. RuBisCO activity and Calvin cycle operate in the bundle sheath cells at night.\n4. CAM plants exhibit significantly higher Water Use Efficiency (WUE) than both C3 and C4 plants.\n\nWhich of the statements given above are CORRECT?",
+              "options": [
+                "(a) 1, 2 and 4 only",
+                "(b) 1 and 3 only",
+                "(c) 2, 3 and 4 only",
+                "(d) 1, 2, 3 and 4"
+              ],
+              "answer": "(a)",
+              "rationale": "Statements 1, 2, and 4 are correct. Statement 3 is INCORRECT: In CAM, RuBisCO operates during the **photoperiod (daytime)** when sunlight provides ATP and NADPH from light reactions, and stomata are shut to conserve water while malate is decarboxylated internally. CAM achieves temporal separation, not spatial separation.",
+              "distractor_breakdown": "Remember: Spatial separation = C4 (Mesophyll vs Bundle Sheath); Temporal separation = CAM (Night vs Day in the same cell).",
+              "memory_hook": "CAM = Night Shift fixes Malic Acid; Day Shift bakes Glucose with Light."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_bot_06",
+              "text": "The primary CO2-accepting molecule in the mesophyll cells of C4 plants is ______.",
+              "answer": "Phosphoenolpyruvate",
+              "hint": "3-carbon compound abbreviated as PEP",
+              "anki_format": "The primary CO2-accepting molecule in the mesophyll cells of C4 plants is {{c1::Phosphoenolpyruvate (PEP)}}."
+            },
+            {
+              "id": "clz_bot_07",
+              "text": "The German word 'Kranz' in Kranz anatomy translates to ______ or crown, describing the wreath-like wreath of cells around vascular bundles.",
+              "answer": "wreath",
+              "hint": "Garland or ring-like arrangement",
+              "anki_format": "The German word 'Kranz' in Kranz anatomy translates to {{c1::wreath}} or crown."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_bot_04",
+              "front": "Draw & Label: What are the three cell organelles involved in the C2 Photorespiratory Cycle (Glycolate pathway)?",
+              "back": "1. **Chloroplast:** RuBisCO oxygenation of RuBP -> Phosphoglycolate -> Glycolate.\n2. **Peroxisome:** Glycolate oxidised to Glyoxylate -> Glycine (produces H2O2 decomposed by catalase).\n3. **Mitochondrion:** 2 molecules of Glycine condense to form Serine with release of CO2 and NH3.",
+              "memory_hook": "Order: Chloroplast -> Peroxisome -> Mitochondrion (CPM: Can Plants Mutate?)."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_bot_03",
+              "marks": 5,
+              "question": "Why is photorespiration considered an energetically wasteful process, and how have C4 plants overcome it? (80 words)",
+              "scoring_keywords": [
+                "photorespiration",
+                "RuBisCO oxygenase",
+                "2-phosphoglycolate",
+                "ATP loss",
+                "CO2 loss",
+                "Kranz anatomy",
+                "CO2 concentrating mechanism",
+                "PEP carboxylase"
+              ],
+              "model_answer": "**Photorespiration (C2 cycle)** is energetically wasteful because **RuBisCO** acts as an oxygenase under high O2/temperature, binding O2 instead of CO2 to yield **2-phosphoglycolate**, consuming ATP and dissipating ~25-40% of fixed carbon without yielding ATP or NADPH. **C4 plants** suppress photorespiration through **Kranz anatomy** and a **CO2-concentrating mechanism**: **PEP carboxylase** in mesophyll lacks oxygenase activity, fixing carbon into C4 malate/OAA, which is pumped into bundle sheath cells to maintain high local CO2 around RuBisCO.",
+              "gap_guidance": "Did you explain both the oxygenase cost of RuBisCO and the CO2-pumping mechanism of C4?"
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_bot_03",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw the Hatch-Slack pathway schematic: Atmospheric CO2 -> Mesophyll Cell (PEP + HCO3- -> OAA -> Malate) -> Plasmodesmata -> Bundle Sheath Cell (Malate -> Pyruvate + CO2 -> Calvin Cycle via RuBisCO) -> Pyruvate recycled back to Mesophyll.",
+              "question": "Elucidate the C4 photosynthetic pathway with a detailed diagram of Kranz anatomy. Discuss why C4 plants have higher photosynthetic efficiency and water use efficiency under tropical conditions. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nThe C4 pathway (Hatch & Slack, 1966) is an evolutionary adaptation in ~8,000 angiosperm species (*Poaceae*, *Cyperaceae*) to eliminate photorespiratory loss under tropical, high-temperature, and drought conditions.\n\n### 2. Kranz Anatomy & Compartmentation [DIAGRAM REQUIRED]\nLeaves exhibit distinct concentric wreaths around vascular bundles:\n- **Outer Mesophyll Cells:** Contain granal chloroplasts and **PEP Carboxylase (PEPc)** with high affinity for HCO3- and zero affinity for O2.\n- **Inner Bundle Sheath Cells:** Thick, suberized gas-impermeable walls, agranal chloroplasts enriched in **RuBisCO** and devoid of PSII, preventing O2 evolution.\n\n### 3. Biochemical Pathway Steps\n1. Carboxylation of PEP (3C) by PEPc yields **Oxaloacetate (4C)** in mesophyll.\n2. Reduction of OAA yields **Malate** (or Aspartate).\n3. Transport through plasmodesmata into bundle sheath cells.\n4. Decarboxylation of Malate by NADP-malic enzyme releases concentrated CO2 and Pyruvate (3C).\n5. Concentrated CO2 enters the Calvin Cycle; Pyruvate returns to mesophyll and regenerates PEP using 2 ATP equivalents (PPDK enzyme).\n\n### 4. Physiological & Ecological Superiority in Tropics\n- **Zero Photorespiration:** Bundle sheath CO2 concentration reaches 10-20 times atmospheric levels, saturating RuBisCO carboxylation.\n- **Low CO2 Compensation Point (0-10 ppm):** Allows photosynthetic gain even with partially closed stomata.\n- **High Water Use Efficiency (WUE):** Requires half the water loss per unit dry matter compared to C3 plants (e.g., Sorghum and Maize in Indian semi-arid tracts)."
+            }
+          ]
+        },
+        {
+          "id": "bot_p2_hormones",
+          "name": "Phytohormones & Stress Physiology",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2018",
+            "2020",
+            "2022",
+            "2024"
+          ],
+          "primer": [
+            "Auxin (IAA): Biosynthesized from Tryptophan (zinc required as activator). Mediates apical dominance, cell elongation via acid-growth hypothesis (proton pump activation loosening cell wall expansins), and root initiation.",
+            "Gibberellins (GA3): Biosynthesized via terpenoid / mevalonic acid pathway from ent-kaurene. Induces stem bolting in rosette plants, breaks seed dormancy, and triggers alpha-amylase synthesis in cereal aleurone layer.",
+            "Cytokinins (Zeatin, Kinetin): Adenine derivatives. Promotes cell division, delays leaf senescence (Richmond-Lang effect), and overcomes auxin apical dominance (promotes lateral shoot growth). Auxin:Cytokinin ratio dictates morphogenesis (high ratio = roots, low ratio = shoots, intermediate = callus).",
+            "Abscisic Acid (ABA): 'Stress hormone', sesquiterpenoid synthesized via carotenoid pathway (violaxanthin). Triggers stomatal closure under drought via Ca2+ influx and K+ efflux from guard cells. Enforces seed dormancy.",
+            "Ethylene (C2H4): Only gaseous hormone, biosynthesized from Methionine via SAM and 1-aminocyclopropane-1-carboxylic acid (ACC). Triple response in seedlings; accelerates climacteric fruit ripening (respiratory burst)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_bot_11",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "During moisture deficit stress, rapid stomatal closure is mediated by Abscisic Acid (ABA) through which of the following biochemical cascades in guard cells?",
+              "options": [
+                "(a) Influx of Ca2+ into guard cell cytoplasm triggering K+ and Cl- efflux",
+                "(b) Active pumping of H+ out of guard cells and K+ influx",
+                "(c) Immediate breakdown of starch into phosphoenolpyruvate",
+                "(d) Hyperpolarization of the plasma membrane leading to water uptake"
+              ],
+              "answer": "(a)",
+              "rationale": "Under drought stress, ABA binds to PYR/RCAR receptors, inactivating PP2C phosphatases and activating SnRK2 kinases. This triggers opening of plasma membrane Ca2+ channels. **Cytosolic Ca2+ elevation opens anion channels (Cl- efflux), causing membrane depolarization that drives massive K+ efflux** via GORK channels. Loss of turgor causes guard cells to collapse and close the stomatal pore.",
+              "distractor_breakdown": "(b) Describes light-induced stomatal OPENING driven by H+-ATPase. (c) Starch breakdown occurs during stomatal opening, not closure. (d) Hyperpolarization drives K+ INFLUX and opening.",
+              "memory_hook": "ABA CLOSING CODE: Calcium RUSHES IN -> Potassium RUSHES OUT -> Guard cells DEFLATE."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_bot_10",
+              "text": "The delay of chlorophyll degradation and protein breakdown in detached leaves treated with cytokinin is known as the ______-Lang effect.",
+              "answer": "Richmond",
+              "hint": "Richmond-______ effect",
+              "anki_format": "The delay of chlorophyll degradation and protein breakdown in detached leaves treated with cytokinin is known as the {{c1::Richmond}}-Lang effect."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_bot_07",
+              "front": "State the classical Skoog and Miller principle regarding Auxin to Cytokinin ratio in tissue culture.",
+              "back": "- **High Auxin : Low Cytokinin** -> **Rhizogenesis** (Root induction).\n- **Low Auxin : High Cytokinin** -> **Caulogenesis** (Shoot bud induction).\n- **Equimolar / Balanced Ratio** -> **Callus** proliferation (undifferentiated mass).",
+              "memory_hook": "A over C = Roots; C over A = Shoots; Balanced = Callus mass."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_bot_06",
+              "marks": 5,
+              "question": "Explain the Acid-Growth Hypothesis of auxin-induced cell elongation. (80 words)",
+              "scoring_keywords": [
+                "acid-growth hypothesis",
+                "auxin (IAA)",
+                "plasma membrane H+-ATPase",
+                "proton extrusion",
+                "cell wall acidification (pH 4.5)",
+                "expansins",
+                "hydrogen bonds cleavage",
+                "turgor-driven expansion"
+              ],
+              "model_answer": "The **Acid-Growth Hypothesis** (Rayle & Cleland) states that **auxin (IAA)** stimulates **plasma membrane H+-ATPase** pumps, actively extruding protons into the apoplast. The resulting **cell wall acidification (pH ~4.5)** activates wall-loosening proteins called **expansins**, which disrupt non-covalent hydrogen bonds between cellulose microfibrils and xyloglucan cross-links. Relaxed wall tensile strength allows **turgor-driven cell expansion**.",
+              "gap_guidance": "Did you highlight H+-ATPase proton pumping, wall acidification, and expansin activation?"
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_bot_06",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw the guard cell signaling pathway: ABA receptor (PYR/RCAR) -> SnRK2 activation -> Ca2+ channel opening -> Ca2+ influx -> Anion channel opening (Cl-/Malate efflux) -> Depolarization -> Outward K+ channel (GORK) activation -> K+ efflux -> Water osmosis out -> Guard cell flaccidity and stomatal closure.",
+              "question": "Describe the physiological and molecular mechanisms of Abscisic Acid (ABA) action in mediating drought stress responses in plants. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nAbscisic Acid (ABA) is the master stress phytohormone coordinating both immediate biophysical responses (stomatal shutdown) and long-term transcriptional reprogramming (dehydrins, LEA proteins) during water deficit.\n\n### 2. Guard Cell Stomatal Closure Pathway [DIAGRAM REQUIRED]\n1. **Signal Perception:** Under root soil moisture stress, ABA is synthesized and transported via xylem sap to guard cells, binding to soluble **PYR/PYL/RCAR receptors**.\n2. **Kinase Activation:** Receptor-ABA complex inactivates **PP2C phosphatases**, allowing auto-phosphorylation and activation of **SnRK2 protein kinases** (OST1).\n3. **Ion Channel Regulation:**\n   - Activated SnRK2 phosphorylates and opens **SLAC1 (slow anion channel)**, causing massive efflux of nitrate and chloride ions.\n   - Concurrently, cytoplasmic Ca2+ elevates from vacuolar and apoplastic stores.\n   - Efflux of anions causes plasma membrane depolarization.\n   - Depolarization opens **GORK (Guard Cell Outward Rectifying K+) channels**, driving massive K+ efflux.\n4. **Osmotic Collapse:** Loss of intracellular solutes drops guard cell osmotic pressure; water moves out into surrounding subsidiary cells, decreasing turgor and shutting the stomatal aperture.\n\n### 3. Transcriptional Stress Tolerance Adaptations\n- Upregulation of **ABRE (ABA-Responsive Element)** transcription factors (e.g., AREB/ABF).\n- Synthesis of **Late Embryogenesis Abundant (LEA)** proteins and **Osmoprotectants** (Proline, Glycine betaine) stabilizing cellular membranes and preventing protein aggregation under desiccation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agri_p1",
+      "subject": "Agriculture",
+      "paper": "Paper I",
+      "title": "Soil Science, Cropping Systems, Water Management & Economics",
+      "topics": [
+        {
+          "id": "agri_p1_soil",
+          "name": "Soil Science, INM & Soil Fertility",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2018",
+            "2020",
+            "2022",
+            "2024"
+          ],
+          "primer": [
+            "Soil Texture: Relative proportions of sand (2.0 - 0.05 mm), silt (0.05 - 0.002 mm), and clay (<0.002 mm) based on USDA classification. Loam represents ideal agricultural texture.",
+            "Cation Exchange Capacity (CEC): Total quantity of negative charges available on soil colloids to hold exchangeable cations (Ca2+, Mg2+, K+, Na+, H+, Al3+). Expressed in cmol(p+)/kg or meq/100g. Humus (200) > Vermiculite (100-150) > Montmorillonite (80-100) > Illite (30) > Kaolinite (3-15).",
+            "Soil pH: Optimal nutrient availability ranges between 6.5 and 7.5. Acid soils (pH < 5.5) show Al, Fe, Mn toxicity and P, Ca, Mo deficiency (remediated with agricultural lime CaCO3). Saline soils (EC > 4 dS/m, ESP < 15, pH < 8.5, reclaimed by leaching). Sodic/Alkali soils (ESP > 15, pH > 8.5, reclaimed by Gypsum CaSO4.2H2O).",
+            "Integrated Nutrient Management (INM): Judicious combination of chemical fertilizers, organic manures (FYM, compost, vermicompost), green manures (*Sesbania aculeata* - Dhaincha), and biofertilizers (*Rhizobium*, *Azotobacter*, *Azospirillum*, PSB, AM fungi) to sustain soil health and crop productivity.",
+            "Fertilizer Use Efficiency (FUE): Nitrogen (30-50%), Phosphorus (15-20%), Potassium (60-70%), Micronutrients (<5%). Neem-coated urea (NCU) inhibits nitrification, boosting nitrogen efficiency by 10-15%."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_agri_01",
+              "difficulty": "HARD",
+              "type": "match_the_following",
+              "question": "Match the Soil Problem in List-I with its Diagnostic Chemical Criteria in List-II:\nList-I:\nA. Saline Soil\nB. Sodic (Alkali) Soil\nC. Saline-Sodic Soil\nD. Acid Soil\n\nList-II:\n1. pH > 8.5, EC < 4 dS/m, ESP > 15\n2. pH < 8.5, EC > 4 dS/m, ESP < 15\n3. pH variable, EC > 4 dS/m, ESP > 15\n4. pH < 5.5, high exchangeable Al3+\n\nCodes:\n(a) A-2, B-1, C-3, D-4\n(b) A-1, B-2, C-3, D-4\n(c) A-2, B-3, C-1, D-4\n(d) A-4, B-1, C-2, D-3",
+              "answer": "(a)",
+              "rationale": "Classic USDA Classification: Saline soil has EC > 4 dS/m, ESP < 15, pH < 8.5 (White alkali; excess neutral soluble salts). Sodic soil has EC < 4 dS/m, ESP > 15, pH > 8.5 (Black alkali; excess exchangeable sodium dispersing colloids). Saline-sodic combines EC > 4 and ESP > 15.",
+              "distractor_breakdown": "Never confuse Saline (high EC, low ESP, white crust) with Sodic (high ESP > 15, high pH > 8.5, black dispersion).",
+              "memory_hook": "SALINE = Salty Current (High EC > 4); SODIC = Sodium Problem (High ESP > 15, High pH > 8.5)."
+            },
+            {
+              "id": "mcq_agri_02",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "Which of the following clay minerals exhibits the highest Cation Exchange Capacity (CEC)?",
+              "options": [
+                "(a) Kaolinite (1:1 type non-expanding)",
+                "(b) Montmorillonite (2:1 expanding smectite)",
+                "(c) Vermiculite (2:1 limited expanding)",
+                "(d) Illite (2:1 non-expanding hydrous mica)"
+              ],
+              "answer": "(c)",
+              "rationale": "Among crystalline clay minerals, **Vermiculite** possesses the highest CEC (~100-150 cmol/kg) due to substantial isomorphic substitution of Al3+ for Si4+ in the tetrahedral sheets. Montmorillonite ranges 80-100 cmol/kg; Illite 20-40 cmol/kg; Kaolinite lowest at 3-15 cmol/kg. (Note: Organic humus is higher at 200 cmol/kg, but among clay minerals vermiculite leads).",
+              "distractor_breakdown": "Many students select Montmorillonite, forgetting that Vermiculite's tetrahedral substitution yields stronger localized surface negative charges.",
+              "memory_hook": "CEC Hierarchy: Humus (200) > Vermiculite (150) > Montmorillonite (100) > Illite (30) > Kaolinite (10)."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_agri_01",
+              "text": "For the reclamation of sodic soils with an ESP exceeding 15%, the most widely applied chemical amendment is agricultural ______ (*CaSO4.2H2O*).",
+              "answer": "gypsum",
+              "hint": "Calcium sulphate dihydrate",
+              "anki_format": "For the reclamation of sodic soils with an ESP exceeding 15%, the most widely applied chemical amendment is agricultural {{c1::gypsum}} (*CaSO4.2H2O*)."
+            },
+            {
+              "id": "clz_agri_02",
+              "text": "The biofertilizer specifically recommended for symbiotic nitrogen fixation in legume pulses (*Cicer arietinum*, *Cajanus cajan*) is ______.",
+              "answer": "Rhizobium",
+              "hint": "Root nodule bacterium",
+              "anki_format": "The biofertilizer specifically recommended for symbiotic nitrogen fixation in legume pulses is {{c1::Rhizobium}}."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_agri_01",
+              "front": "What are the 4 fundamental pillars of Integrated Nutrient Management (INM)?",
+              "back": "1. **Chemical Fertilizers:** Targeted 4R stewardship (Right source, rate, time, place).\n2. **Organic Manures:** FYM, Vermicompost, Press mud.\n3. **Green Manuring:** Leguminous cover (*Sesbania aculeata*, *Crotalaria juncea*).\n4. **Biofertilizers:** Nitrogen fixers (*Rhizobium*, *Azotobacter*) and P-solubilizers (PSB, *Glomus* mycorrhiza).",
+              "memory_hook": "COGB: Chemical + Organic + Green + Biofertilizers."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_agri_01",
+              "marks": 5,
+              "question": "Why is phosphorus use efficiency (PUE) low in both highly acidic and strongly alkaline soils? Explain the fixation mechanisms. (80 words)",
+              "scoring_keywords": [
+                "phosphorus fixation",
+                "acid soils",
+                "iron and aluminium phosphates",
+                "strengite",
+                "variscite",
+                "alkaline soils",
+                "calcium phosphates",
+                "apatite",
+                "maximum P availability pH 6.0-7.0"
+              ],
+              "model_answer": "Phosphorus use efficiency is typically only **15-20%** due to chemical precipitation and adsorption. In **acid soils (pH < 5.5)**, orthophosphate anions react with soluble **Iron (Fe3+)** and **Aluminium (Al3+)** to precipitate as insoluble iron/aluminium phosphates (**strengite** and **variscite**). In **alkaline soils (pH > 7.5)**, phosphate precipitates with exchangeable **Calcium (Ca2+)** forming insoluble di-, tri-, and hydroxy-apatite. Peak phosphorus availability occurs between **pH 6.0 and 7.0**.",
+              "gap_guidance": "Mention both Fe/Al fixation in acid soil and Ca-phosphate precipitation in alkaline soil."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_agri_01",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw a flowchart illustrating INM components feeding into the soil nutrient pool (Chemical inputs + FYM/Compost + Green Manure + Biofertilizers) -> Soil microbial biomass & colloidal exchange complex -> Plant uptake & long-term soil health sustainability.",
+              "question": "What is Integrated Nutrient Management (INM)? Discuss its components and evaluate its role in sustaining soil health and mitigating groundwater pollution in intensive cropping zones like the Indo-Gangetic Plains. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nIntegrated Nutrient Management (INM) is the holistic management of plant nutrients from inorganic, organic, and biological sources to sustain crop productivity and improve soil health without degrading environmental capital.\n\n### 2. Core Components of INM [DIAGRAM REQUIRED]\n- **Inorganic Source:** Customized, fortified, and slow-release fertilizers (e.g., Neem-Coated Urea, Nano-DAP, Zincated SSP).\n- **Bulky & Concentrated Organics:** Farmyard Manure (FYM @ 5-10 t/ha), vermicompost, poultry manure, and sugar-mill press mud.\n- **Green Manuring:** In-situ incorporation of succulent legumes (*Sesbania aculeata*, *Crotalaria juncea*) adding 60-80 kg N/ha and building active carbon.\n- **Biofertilizers:** Free-living (*Azotobacter*), associative (*Azospirillum*), symbiotic (*Rhizobium*), Phosphate Solubilizing Bacteria (*Pseudomonas striata*), and Vesicular-Arbuscular Mycorrhizae (VAM).\n\n### 3. Role in Soil Health & Environmental Conservation\n1. **Enhancing Soil Physical & Biological Properties:** Organics enhance aggregate stability, porosity, and microbial biomass carbon (MBC), buffering against structural compaction.\n2. **Mitigating Nitrate Leaching:** Excessive single-dose urea application leads to NO3- leaching beyond the root zone into aquifers (causing blue baby syndrome / methemoglobinemia). INM synchronized N-release with plant phenology diminishes leaching.\n3. **Balancing C:N Ratio:** Continuous inorganic fertilization depletes soil organic carbon (SOC < 0.3% across northwest India); INM maintains C:N at optimal 10:1-12:1.\n\n### 4. Conclusion & Policy Imperatives\nAdoption of INM under schemes like the **PM-PRANAM** (Promotion of Alternate Nutrients for Agriculture Management) and **Soil Health Card Scheme** is vital for transitioning the Green Revolution heartland towards climate-smart and ecologically sustainable agriculture."
+            }
+          ]
+        },
+        {
+          "id": "agri_p1_weed",
+          "name": "Integrated Weed Management (IWM) & Herbicides",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2017",
+            "2019",
+            "2021",
+            "2023"
+          ],
+          "primer": [
+            "Weed-Crop Competition: Weeds compete for light, water, nutrients, and space. Critical Period of Crop-Weed Competition (CPWC) is typically the first 1/3rd of the crop lifecycle (e.g., first 30-45 days in rice/wheat).",
+            "Classification: Monocot grasses (*Phalaris minor*, *Echinochloa crus-galli*); Sedges (*Cyperus rotundus* - Purple nutsedge); Broad-leaved weeds (*Parthenium hysterophorus*, *Chenopodium album*).",
+            "Herbicide Modes of Action: (1) Photosystem II inhibitors (Atrazine, Simazine, Metribuzin); (2) ALS/AHAS inhibitors (Sulfosulfuron, Metsulfuron-methyl); (3) EPSP synthase inhibitor (Glyphosate, non-selective systemic); (4) Synthetic auxins (2,4-D for broadleaves); (5) ACCase inhibitors (Clodinafop-propargyl for grass weeds).",
+            "Herbicide Resistance: *Phalaris minor* (Canary grass) evolved resistance to Isoproturon in wheat fields of Punjab and Haryana due to repeated continuous monoculture application.",
+            "Integrated Weed Management (IWM): Combining stale seedbed technique, zero-tillage, competitive crop cultivars, mechanical weeding (cono-weeder in SRI), bioagents (*Zygogramma bicolorata* for *Parthenium*), and rotation of herbicide chemistries."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_agri_05",
+              "difficulty": "HARD",
+              "type": "statement_combination",
+              "question": "Regarding the herbicide resistance of *Phalaris minor* (Gullidanda) in the wheat ecosystems of Northwest India, consider the following statements:\n1. The resistance initially evolved against the substituted urea herbicide Isoproturon.\n2. The underlying physiological mechanism involves enhanced metabolic detoxification by cytochrome P450 monooxygenases.\n3. Clodinafop-propargyl and Sulfosulfuron were introduced as alternative post-emergence chemistries.\n4. Adoption of the Stale Seedbed technique and Happy Seeder with zero tillage reduces its field germination.\n\nWhich of the statements given above are CORRECT?",
+              "options": [
+                "(a) 1 and 3 only",
+                "(b) 1, 2, 3 and 4",
+                "(c) 2 and 4 only",
+                "(d) 1, 3 and 4 only"
+              ],
+              "answer": "(b)",
+              "rationale": "All 4 statements are correct: R.K. Malik's pioneering work at HAU Hisar proved that repeated annual isoproturon spraying selected for resistant biotypes possessing elevated cytochrome P450 monooxygenase activity. Alternative chemistries like Clodinafop (ACCase inhibitor) and Sulfosulfuron (ALS inhibitor) were deployed. Agronomic practices like happy seeder direct drilling into paddy stubble create a mulch barrier suppressing weed emergence.",
+              "distractor_breakdown": "Every IFS Agriculture Paper I candidate must master the Phalaris minor isoproturon case study inside and out.",
+              "memory_hook": "Phalaris Resistance = Isoproturon -> Cytochrome P450 detox -> Alternate ACCase/ALS -> Happy Seeder zero till."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_agri_05",
+              "text": "The exotic Mexican beetle introduced in India as a classical biological control agent against Congress grass (*Parthenium hysterophorus*) is ______ *bicolorata*.",
+              "answer": "Zygogramma",
+              "hint": "Z-genus beetle",
+              "anki_format": "The exotic Mexican beetle introduced in India as a classical biological control agent against Congress grass (*Parthenium hysterophorus*) is {{c1::Zygogramma}} *bicolorata*."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_agri_03",
+              "front": "What is the Stale Seedbed Technique in cultural weed management?",
+              "back": "A pre-planting weed management technique where the field is prepared and **irrigated 1-2 weeks prior to crop sowing** to stimulate flush germination of weed seeds. The emerged weed seedlings are then killed by shallow cultivation or a non-selective contact herbicide (e.g., Paraquat/Glyphosate) without disturbing deeper soil seeds, followed by seeding the main crop.",
+              "memory_hook": "Trick weeds into waking up early, kill them, then plant your crop in clean soil."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_agri_03",
+              "marks": 5,
+              "question": "What is Critical Period of Crop-Weed Competition (CPWC)? State its duration for direct-seeded rice versus transplanted rice. (70 words)",
+              "scoring_keywords": [
+                "Critical Period of Crop-Weed Competition (CPWC)",
+                "economic yield loss",
+                "direct-seeded rice (15-45 days)",
+                "transplanted rice (30-40 days)",
+                "weed-free window"
+              ],
+              "model_answer": "The **Critical Period of Crop-Weed Competition (CPWC)** is the specific window in crop growth during which weeds must be controlled to prevent unacceptable **economic yield loss**. Weeds emerging prior to or after this window cause negligible loss. In **direct-seeded rice (DSR)**, CPWC is prolonged and early (**15 to 45 DAS**) due to synchronous germination. In **transplanted puddled rice**, standing water suppresses early weeds, narrowing the window to **30 to 45 DAT**.",
+              "gap_guidance": "Contrast the longer, earlier CPWC of direct-seeded rice with transplanted rice."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_agri_03",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw the CPWC graph plotting Yield (%) against Time (Days After Sowing). Show the Curve of Increasing Weed-Free Period intersecting with Curve of Increasing Weed Competition Period, highlighting the shaded critical window.",
+              "question": "Define Integrated Weed Management (IWM). Discuss the concept of Critical Period of Crop-Weed Competition and formulate an IWM strategy for the Indo-Gangetic Rice-Wheat cropping system. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nIntegrated Weed Management (IWM) is a system-based approach coordinating preventive, cultural, mechanical, biological, and chemical methods to keep weed infestations below economic injury while preventing resistance development.\n\n### 2. Concept of CPWC [DIAGRAM REQUIRED]\nThe Critical Period of Crop-Weed Competition represents the optimal duration during which weed removal produces maximum return on investment. Yield loss outside this window is minimal. In wheat, the critical window is 30\u201345 days after sowing (DAS).\n\n### 3. IWM Strategy for Rice-Wheat System\n1. **Rice Phase (Kharif):**\n   - *Preventive/Cultural:* Laser land leveling for uniform water depth; stale seedbed; high plant density (33 hills/m2).\n   - *Mechanical:* Cono-weeding in System of Rice Intensification (SRI) at 15 and 30 DAT.\n   - *Chemical:* Pre-emergence application of Pretilachlor @ 0.75 kg a.i./ha (with safener) within 3 DAT, followed by post-emergence Bispyribac-sodium @ 25 g/ha at 20-25 DAT for broadleaf/grass escapes.\n2. **Wheat Phase (Rabi):**\n   - *Combating Resistant Phalaris minor:* Surface retention of paddy straw using **Happy Seeder / Smart Seeder** suppresses *Phalaris* emergence by shading and physical obstruction.\n   - *Chemical Rotation:* Avoid continuous Isoproturon; rotate modes of action between Sulfosulfuron (ALS inhibitor) and Clodinafop-propargyl (ACCase inhibitor).\n   - *Crop Diversification:* Break continuous rice-wheat cycle every 3-4 years with Potato, Mustard, or Berseem to eradicate weed seed bank."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agri_p2",
+      "subject": "Agriculture",
+      "paper": "Paper II",
+      "title": "Plant Breeding, Seed Technology, Horticulture & Protection",
+      "topics": [
+        {
+          "id": "agri_p2_protect",
+          "name": "Integrated Pest Management (IPM) & Plant Protection",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2019",
+            "2021",
+            "2022",
+            "2024"
+          ],
+          "primer": [
+            "Integrated Pest Management (IPM): Ecological approach combining cultural, physical, mechanical, biological, and chemical tools to maintain pest populations below the Economic Injury Level (EIL).",
+            "Economic Threshold Level (ETL): Pest density at which control measures should be initiated to prevent reaching EIL. EIL > ETL always.",
+            "Biological Control Agents: Egg parasitoid *Trichogramma chilonis* (controls *Helicoverpa armigera* and sugarcane borers); Predator *Chrysoperla carnea* (Green lacewing against aphids/whiteflies); Microbial pathogen *Bacillus thuringiensis* (Bt crystal delta-endotoxin) and NPV (Nuclear Polyhedrosis Virus).",
+            "Pheromone Traps: Synthetic sex pheromones (e.g., Gossyplure for Pink bollworm *Pectinophora gossypiella*; Helilure for *Helicoverpa armigera*). Used for monitoring (5 traps/ha) and mass trapping (25-30 traps/ha).",
+            "Pesticide Treadmill & Resistance: Over-reliance on synthetic pyrethroids and organophosphates triggers resurgence of secondary pests (e.g., Whitefly *Bemisia tabaci* in cotton) and insect resistance.",
+            "Trap Cropping: Growing attractive alternate host crop along borders (e.g., Marigold border in tomato against fruit borer; Castor in soybean against *Spodoptera litura*)."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_agri_03",
+              "difficulty": "MEDIUM",
+              "type": "single_choice",
+              "question": "In Integrated Pest Management, the relationship between Economic Injury Level (EIL) and Economic Threshold Level (ETL) is correctly expressed as:",
+              "options": [
+                "(a) ETL is always lower than EIL",
+                "(b) EIL is always lower than ETL",
+                "(c) ETL and EIL are numerically identical constants",
+                "(d) ETL applies exclusively to plant diseases, while EIL applies to insect pests"
+              ],
+              "answer": "(a)",
+              "rationale": "Economic Injury Level (EIL) is the lowest population density of a pest that will cause economic damage (where cost of control equals value of saved yield). Economic Threshold Level (ETL), or the 'action threshold', is the pest density at which control intervention MUST be triggered to halt the population from ascending to EIL. Therefore, **ETL is always lower than EIL**.",
+              "distractor_breakdown": "(b) Inverting this is fatal: if you wait until EIL to take action, economic crop loss is already guaranteed before the pesticide takes effect. (c) Not identical; ETL provides the lead time for treatment action.",
+              "memory_hook": "ETL = Trigger Line (Action); EIL = Injury Line (Financial Loss). You always pull the TRIGGER before you take the INJURY."
+            },
+            {
+              "id": "mcq_agri_04",
+              "difficulty": "HARD",
+              "type": "statement_combination",
+              "question": "Consider the following biological control agents and their target agricultural pests:\n1. *Trichogramma chilonis* \u2014 Egg parasitoid for Lepidopteran borers\n2. *Chrysoperla carnea* \u2014 Generalist predator for sap-sucking nymphs\n3. *HaNPV* \u2014 Host-specific viral pathogen for *Helicoverpa armigera*\n4. *Puccinia canaliculata* \u2014 Bio-herbicide rust for Yellow Nutsedge (*Cyperus esculentus*)\n\nWhich of the pairs given above are CORRECTLY matched?",
+              "options": [
+                "(a) 1, 2 and 3 only",
+                "(b) 2 and 4 only",
+                "(c) 1, 3 and 4 only",
+                "(d) 1, 2, 3 and 4"
+              ],
+              "answer": "(d)",
+              "rationale": "All 4 are textbook biological control pairings in Agriculture Paper II: *Trichogramma* is an egg parasitoid; *Chrysoperla* (Green lacewing) larvae devour aphids and whiteflies; HaNPV is a nucleopolyhedrovirus specific to gram pod borer; *Puccinia canaliculata* is an EPA-registered fungal bioherbicide targeting yellow nutsedge.",
+              "distractor_breakdown": "Remember: Bio-control includes both parasitoids/predators for entomology and rust pathogens (mycoherbicides) for weed management.",
+              "memory_hook": "Trichogramma = Egg sniper; Chrysoperla = Sucking insect lion; HaNPV = Viral caterpillar doom; Puccinia = Rust bioherbicide."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_agri_03",
+              "text": "The synthetic female sex pheromone lure widely deployed in monitoring and mating disruption of the Cotton Pink Bollworm (*Pectinophora gossypiella*) is ______.",
+              "answer": "Gossyplure",
+              "hint": "Derived from Gossypium name",
+              "anki_format": "The synthetic female sex pheromone lure widely deployed in monitoring and mating disruption of the Cotton Pink Bollworm (*Pectinophora gossypiella*) is {{c1::Gossyplure}}."
+            },
+            {
+              "id": "clz_agri_04",
+              "text": "Planting African Marigold (*Tagetes erecta*) as a trap crop around tomato fields diverts oviposition of tomato fruit borer (*______ armigera*).",
+              "answer": "Helicoverpa",
+              "hint": "Gram pod borer / American bollworm genus",
+              "anki_format": "Planting African Marigold (*Tagetes erecta*) as a trap crop around tomato fields diverts oviposition of tomato fruit borer (*{{c1::Helicoverpa}} armigera*)."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_agri_02",
+              "front": "Define Economic Injury Level (EIL) and state the Stern formula variables.",
+              "back": "**EIL Formula:** $EIL = \\frac{C}{V \\cdot I \\cdot D \\cdot K}$\nWhere:\n- $C$ = Cost of management per unit area (Rs/ha)\n- $V$ = Market value per unit yield (Rs/kg)\n- $I$ = Injury per pest density\n- $D$ = Damage per unit injury\n- $K$ = Proportionate reduction in pest population achieved by control.",
+              "memory_hook": "EIL = Cost / (Value * Damage factor)."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_agri_02",
+              "marks": 5,
+              "question": "What is pest resurgence and pesticide-induced secondary pest outbreak? Give an Indian field example. (80 words)",
+              "scoring_keywords": [
+                "pest resurgence",
+                "secondary pest outbreak",
+                "destruction of natural enemies",
+                "broad spectrum insecticides",
+                "cotton whitefly (Bemisia tabaci)",
+                "synthetic pyrethroids",
+                "sublethal stimulation"
+              ],
+              "model_answer": "**Pest resurgence** occurs when a target pest rebounds to higher densities following pesticide application due to the elimination of natural predators and parasitoids. **Secondary pest outbreak** arises when a previously benign, non-damaging insect species erupts into a major pest after broad-spectrum insecticides destroy its biocontrol agents. A classic Indian example was the cataclysmic outbreak of **Cotton Whitefly (*Bemisia tabaci*)** in Punjab and Andhra Pradesh during the 1980s-90s triggered by indiscriminate aerial spraying of **synthetic pyrethroids**.",
+              "gap_guidance": "Mention synthetic pyrethroid overuse leading to Whitefly resurgence in cotton."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_agri_02",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw the IPM Pyramidal Architecture: Cultural & Agronomic practices at the broad base -> Mechanical/Physical control -> Biological control -> Biorational pesticides (neem, Bt) -> Synthetic chemical pesticides as the last resort at the narrow apex. Mark the ETL vs EIL threshold line.",
+              "question": "Critically analyze the principles and components of Integrated Pest Management (IPM). Why has chemical pesticide consumption remained problematic in India despite national IPM policies? Suggest remedies. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nIntegrated Pest Management (IPM) is a sustainable, knowledge-intensive approach that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks.\n\n### 2. IPM Hierarchy & Components [DIAGRAM REQUIRED]\n- **Cultural & Agronomic Foundation:** Deep summer ploughing to expose pupae to avian predation; crop rotation; synchronized sowing; balanced fertilization (avoiding excess nitrogen that softens tissue); trap cropping (e.g., Marigold in Tomato).\n- **Mechanical & Physical Methods:** Hand-picking of egg masses (*Spodoptera*); installation of yellow sticky traps for whiteflies/aphids; pheromone traps (Gossyplure for pink bollworm @ 5/ha for monitoring).\n- **Biological Control:** Conservation and inundative release of parasitoids (*Trichogramma chilonis* @ 1.5 lakh/ha), predators (*Chrysoperla*), and entomopathogens (HaNPV, *Beauveria bassiana*).\n- **Chemical Control as Last Resort:** Directed solely when pest population breaches the **Economic Threshold Level (ETL)**, prioritizing green-label, selective chemistries.\n\n### 3. Barriers to IPM Adoption in India\n1. **Pesticide Retailer Dominance:** In rural areas, input dealers act as default agronomists, pushing broad-spectrum red/yellow-label chemicals on credit.\n2. **Lack of Pest Monitoring Literacy:** Calculating ETL requires regular scouting, which is labor-intensive; farmers resort to prophylactic calendar spraying.\n3. **Quality & Cold-Chain Constraints of Biocontrols:** Microbials (*Bt*, NPV, *Trichoderma*) suffer rapid viability loss under high ambient heat and poor shelf life.\n\n### 4. Strategic Remedies\n- Empowering **Krishi Vigyan Kendras (KVKs)** and Farmer Field Schools (FFS) for scouting literacy.\n- Strengthening digital pest surveillance apps like ICAR's National Pest Surveillance System.\n- Providing targeted subsidies for pheromone traps and light traps under Sub-Mission on Plant Protection."
+            }
+          ]
+        },
+        {
+          "id": "agri_p2_seed",
+          "name": "Seed Technology, Quality Control & Dormancy",
+          "pyq_weightage": "Very High",
+          "pyq_years": [
+            "2018",
+            "2020",
+            "2022",
+            "2024"
+          ],
+          "primer": [
+            "Classes of Seed in India: (1) Nucleus Seed (100% genetic and physical purity, produced by originating breeder); (2) Breeder Seed (progeny of nucleus, Golden Yellow tag); (3) Foundation Seed (progeny of breeder, White tag, certified by SSCA); (4) Certified Seed (progeny of foundation, Azure Blue tag, distributed to farmers). (Note: Truthful Labelled Seed has Opal Green tag, self-certified).",
+            "Tetrazolium Test (TZ Test): Biochemical test for rapid determination of seed viability (Lakon, 1942). Living respiring embryo tissues produce dehydrogenases that reduce colorless 2,3,5-triphenyl tetrazolium chloride into water-insoluble red **formazan**.",
+            "Harrington's Rules of Thumb: (1) For every 1% decrease in seed moisture content, seed life doubles (between 5-14% moisture); (2) For every 5\u00b0C decrease in storage temperature, seed life doubles (between 0-50\u00b0C).",
+            "Seed Dormancy: Exogenous (physical/hard seed coat in legumes, chemical inhibitors in pericarp) vs Endogenous (rudimentary embryo, physiological dormancy due to ABA/GA balance). Methods to break: Scarification (acid/mechanical), Stratification (cold moist chilling @ 1-5\u00b0C), and GA3 treatment."
+          ],
+          "mcqs": [
+            {
+              "id": "mcq_agri_06",
+              "difficulty": "MEDIUM",
+              "type": "match_the_following",
+              "question": "Match the Seed Class in List-I with its official Certification Tag Color in List-II:\nList-I:\nA. Breeder Seed\nB. Foundation Seed\nC. Certified Seed\nD. Truthful Labelled Seed\n\nList-II:\n1. Azure Blue\n2. Golden Yellow\n3. Opal Green\n4. White\n\nCodes:\n(a) A-2, B-4, C-1, D-3\n(b) A-4, B-2, C-1, D-3\n(c) A-2, B-1, C-4, D-3\n(d) A-1, B-4, C-2, D-3",
+              "answer": "(a)",
+              "rationale": "Indian Seed Certification Standard: Breeder Seed = Golden Yellow tag; Foundation Seed = White tag; Certified Seed = Azure Blue tag; Truthful Labelled (TL) Seed = Opal Green tag.",
+              "distractor_breakdown": "A favorite factual question in UPSC IFS Paper II. Remember: Gold -> White -> Blue -> Green.",
+              "memory_hook": "SEED TAG ORDER: Breeder is GOLD, Foundation is WHITE, Certified is BLUE (Sky), Truthful is GREEN."
+            }
+          ],
+          "cloze": [
+            {
+              "id": "clz_agri_06",
+              "text": "In the standard tetrazolium viability test, respiring embryo dehydrogenases reduce colorless tetrazolium salt into water-insoluble red ______.",
+              "answer": "formazan",
+              "hint": "Triphenyl ______ dye",
+              "anki_format": "In the standard tetrazolium viability test, respiring embryo dehydrogenases reduce colorless tetrazolium salt into water-insoluble red {{c1::formazan}}."
+            }
+          ],
+          "flashcards": [
+            {
+              "id": "fl_agri_04",
+              "front": "State Harrington's Two Rules of Thumb for seed storage longevity.",
+              "back": "1. **Moisture Rule:** Each 1% reduction in seed moisture content doubles storage life (between 5% and 14%).\n2. **Temperature Rule:** Each 5\u00b0C reduction in storage temperature doubles storage life (between 0\u00b0C and 50\u00b0C).\n*Rule of thumb sum:* Relative humidity (%) + Temperature (\u00b0F) should be < 100 for safe storage.",
+              "memory_hook": "1% dry = 2x life; 5\u00b0C cold = 2x life."
+            }
+          ],
+          "saqs": [
+            {
+              "id": "saq_agri_04",
+              "marks": 5,
+              "question": "Explain the biochemical mechanism of the Tetrazolium (TZ) test for seed viability. (70 words)",
+              "scoring_keywords": [
+                "Tetrazolium test",
+                "2,3,5-triphenyl tetrazolium chloride",
+                "dehydrogenase enzymes",
+                "cellular respiration",
+                "formazan (red precipitate)",
+                "embryo viability"
+              ],
+              "model_answer": "The **Tetrazolium (TZ) test** assesses seed viability independently of germination. Living seeds respire, utilizing **dehydrogenase enzymes** that release hydrogen ions. These hydrogen ions reduce colorless, water-soluble **2,3,5-triphenyl tetrazolium chloride** into insoluble, carmine-red **triphenyl formazan**. Metabolically active, viable embryonic structures (radicle, plumule, scutellum) stain **bright red**, whereas dead or non-viable tissues remain unstained/white.",
+              "gap_guidance": "Specify dehydrogenase enzymes reducing colorless TZ to insoluble red formazan."
+            }
+          ],
+          "mains": [
+            {
+              "id": "mains_agri_04",
+              "marks": 15,
+              "diagram_required": true,
+              "diagram_guidance": "Draw the Seed Multiplication Chain flowchart: Nucleus Seed (originating breeder) -> Breeder Seed (Golden Yellow) -> Foundation Seed Stage I & II (White) -> Certified Seed (Azure Blue) -> Farmers field. Show generation multiplication ratios.",
+              "question": "Describe the classes of seeds recognized in India, their certification standards, and tag color codes. Discuss the factors causing genetic deterioration of varieties during seed multiplication and measures to maintain genetic purity. (250 words / 15 Marks - IFS PYQ)",
+              "model_answer": "### 1. Introduction\nQuality seed with high genetic and physical purity is the cornerstone of agricultural productivity, contributing 20-25% directly to crop yield.\n\n### 2. Classes of Seed in India [DIAGRAM REQUIRED]\n1. **Nucleus Seed:** Produced directly by the originating plant breeder under strict selfing. Genetic and physical purity is 100%. No tag issued.\n2. **Breeder Seed:** Direct progeny of nucleus seed produced by breeder/institution. 100% physical and genetic purity monitored by a joint inspection team. Tag: **Golden Yellow**.\n3. **Foundation Seed:** Progeny of breeder seed produced by National/State Seeds Corporation (NSC/SSCA) on certified seed farms. Minimum genetic purity 99.5%. Tag: **White**.\n4. **Certified Seed:** Progeny of foundation seed produced on progressive farmer fields under SSCA supervision for commercial distribution. Minimum genetic purity 99%. Tag: **Azure Blue**.\n\n### 3. Factors Causing Genetic Deterioration\n- **Developmental Variation:** Growing seed outside its adapted photoperiod/climate alters gene expression.\n- **Mechanical Mixtures:** Contamination during harvesting, threshing machines, or seed drills.\n- **Natural Crossing:** Pollen transfer from wild relatives or adjacent commercial fields violating isolation distance.\n- **Genetic Drift & Mutations:** Small population sizes during early multiplication.\n\n### 4. Measures to Maintain Genetic Purity\n- Strict enforcement of **isolation distances** (e.g., 400m for cross-pollinated maize vs 3m for self-pollinated wheat).\n- Systematic **roguing** of off-types and diseased plants prior to anthesis.\n- Periodic rejuvenation using fresh nucleus stock via the Generation System of Seed Multiplication."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_optional_links": [
+    {
+      "id": "link_01",
+      "title": "Nitrogen Metabolism (Botany P2) \u2194 Integrated Nutrient Management (Agri P1)",
+      "botany_concept": "Biological Nitrogen Fixation: *Rhizobium*-legume symbiosis, bacteroids, leghemoglobin (oxygen scavenger), nitrogenase enzyme complex (Mo-Fe protein), nif genes regulation, energy cost of 16 ATP per N2 molecule fixed.",
+      "agri_concept": "INM in Pulse Cropping: Inoculation of pulse seeds (*Cicer arietinum*, *Vigna radiata*) with biofertilizers (*Rhizobium* + PSB), starter nitrogen dose (20 kg N/ha), phosphatic supplementation promoting nodulation, green manuring with *Sesbania aculeata* adding 60-80 kg N/ha.",
+      "integrated_answer_strategy": "In UPSC/IFS Mains answers, connect the biochemical requirement of the molybdenum-iron cofactor in nitrogenase with the agronomic practice of applying ammonium molybdate or zinc-boron-molybdenum micronutrient foliar sprays on acidic pulse soils."
+    },
+    {
+      "id": "link_02",
+      "title": "C4 & CAM Photosynthesis (Botany P2) \u2194 Millets & Dryland Farming (Agri P1)",
+      "botany_concept": "Kranz anatomy, PEP carboxylase carboxylation, absence of photorespiration, scotoactive stomata, high water use efficiency (WUE).",
+      "agri_concept": "Climate-Resilient Agriculture (NICRA): Cultivation of nutri-cereals / Shree Anna (Pearl millet *Pennisetum glaucum*, Sorghum *Sorghum bicolor*, Finger millet *Eleusine coracana*) under rainfed conditions with <400mm annual precipitation.",
+      "integrated_answer_strategy": "Highlight that the high harvest index and heat tolerance of pearl millet during terminal drought stems directly from PEP carboxylase's affinity for low dissolved CO2, preventing photorespiratory energy collapse during midday stomatal closure."
+    },
+    {
+      "id": "link_03",
+      "title": "Apomixis & Embryology (Botany P1) \u2194 Hybrid Seed Production (Agri P2)",
+      "botany_concept": "Apospory and diplospory, recurrent apomixis, fixation of maternal genotype without meiotic segregation or syngamy.",
+      "agri_concept": "Overcoming the high cost of annual F1 hybrid seed replacement in crops like Rice and Cotton. Apomictic gene transfer enables farmers to save and replant hybrid seeds without loss of hybrid vigour (heterosis).",
+      "integrated_answer_strategy": "Discuss transferring apomixis from wild relatives (e.g., *Tripsacum* to *Zea mays*, or *Pennisetum squamulatum* to pearl millet) to perpetuate heterosis indefinitely across generations."
+    }
+  ],
+  "pyq_bank": [
+    {
+      "year": "2023",
+      "paper": "Botany Paper I",
+      "marks": 15,
+      "question": "What is anomalous secondary growth? Describe the anomalous secondary growth in *Dracaena* stem with well-labeled diagrams.",
+      "topic": "Plant Anatomy"
+    },
+    {
+      "year": "2023",
+      "paper": "Botany Paper II",
+      "marks": 15,
+      "question": "Differentiate between C3 and C4 photosynthetic pathways. Explain the structural and biochemical mechanisms that make C4 plants photosynthetically more efficient.",
+      "topic": "Plant Physiology"
+    },
+    {
+      "year": "2022",
+      "paper": "Agri Paper I",
+      "marks": 20,
+      "question": "Discuss the principles of Integrated Nutrient Management (INM). How does INM contribute to sustainable agriculture and mitigation of soil degradation in India?",
+      "topic": "Soil Science"
+    },
+    {
+      "year": "2024",
+      "paper": "Agri Paper II",
+      "marks": 15,
+      "question": "Explain the concept of Economic Injury Level (EIL) and Economic Threshold Level (ETL). Outline an IPM schedule for the management of major pests in cotton.",
+      "topic": "Plant Protection"
+    }
+  ]
+}
