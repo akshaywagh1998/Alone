@@ -1,7 +1,6 @@
 {
   "buildCommand": "echo 'Static site - no build needed'",
   "outputDirectory": ".",
-  "public": true,
   "headers": [
     {
       "source": "/(.*).json",
@@ -44,12 +43,15 @@
       "destination": "/index.html"
     },
     {
-      "source": "/mcq",
-      "destination": "/mcq/index.html"
-    },
-    {
       "source": "/portal",
       "destination": "/upsc_coaching_portal_enhanced.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/mcq",
+      "destination": "/mcq/",
+      "permanent": false
     }
   ]
 }
