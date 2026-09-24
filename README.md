@@ -8,14 +8,14 @@ Built around the **Recall Ladder** methodology and the **AI Employee Architectur
 
 ## 📝 MCQ Drill (`/mcq`) — all six Mains papers + interview
 
-An offline, spaced-recall MCQ app at [`mcq/`](mcq/) covering General English, General Knowledge, Botany I & II, Agriculture I & II and the Personality Test (555 questions, each with a one-line explanation).
+**Live: https://ifos-mcq-drill.lovable.app** — an offline, spaced-recall MCQ app (source in [`mcq/`](mcq/)) covering General English, General Knowledge, Botany I & II, Agriculture I & II and the Personality Test (555 questions, each with a one-line explanation).
 
 - **Today**: a daily mission of due reviews plus new questions, weighted toward the papers furthest below your targets. Also shows a countdown to 22 Nov 2026 and the pace needed to finish the bank.
 - **Practice** by paper, topic or filter (unseen, due, mistakes, flagged). **Mock**: timed, no feedback until you submit, optional −⅓ negative marking.
 - **Score**: projected marks per paper group against your targets (default 300 / 300 / 250 / 250 / 250, goal 1250+), plus topic mastery sorted weakest first.
 - **Revise**: search the whole bank as read-through notes. **Settings**: targets, daily goal, exam date, progress export and import.
 
-Run `python3 -m http.server 3000` and open `http://localhost:3000/mcq/`. To add questions, edit `mcq/banks/*.js`, then run `node tools/validate_banks.js`.
+Run `python3 -m http.server 3000` and open `http://localhost:3000/mcq/`. `node tools/build_single.js` makes a one-file copy (`dist/ifos-mcq.html`) for hosting or offline use. To add questions, edit `mcq/banks/*.js`, then run `node tools/validate_banks.js`.
 
 > The projection measures how much of the bank you have retained through spaced recall. Mains answers are descriptive, so pair this with timed answer writing.
 
