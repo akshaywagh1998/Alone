@@ -8,7 +8,7 @@ Built around the **Recall Ladder** methodology and the **AI Employee Architectur
 
 ## 📝 MCQ Drill (`/mcq`) — all six Mains papers + interview
 
-**Live: https://ifos-mcq-drill.lovable.app** — an offline, spaced-recall MCQ app (source in [`mcq/`](mcq/)) covering General English, General Knowledge, Botany I & II, Agriculture I & II and the Personality Test (555 questions, each with a one-line explanation).
+**Live: https://ifos-mcq-drill.lovable.app** — an offline, spaced-recall MCQ app (source in [`mcq/`](mcq/)) covering General English, General Knowledge, Botany I & II, Agriculture I & II and the Personality Test (2,085 questions, each with a one-line explanation; 1,530 of them are linked 10-per-PYQ to CSE 2026 and IFoS 2025 optional papers — see the PYQ tab).
 
 - **Today**: a daily mission of due reviews plus new questions, weighted toward the papers furthest below your targets. Also shows a countdown to 22 Nov 2026 and the pace needed to finish the bank.
 - **Practice** by paper, topic or filter (unseen, due, mistakes, flagged). **Mock**: timed, no feedback until you submit, optional −⅓ negative marking.
