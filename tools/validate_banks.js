@@ -14,10 +14,15 @@ const hash = (s) => { let x = 2166136261; for (let i = 0; i < s.length; i++) { x
 
 const ctx = { window: {} };
 vm.createContext(ctx);
+const registry = path.join(__dirname, '..', 'mcq', 'pyq', 'registry.js');
+if (fs.existsSync(registry)) vm.runInContext(fs.readFileSync(registry, 'utf8'), ctx, { filename: 'pyq/registry.js' });
 for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js')).sort()) {
   vm.runInContext(fs.readFileSync(path.join(dir, f), 'utf8'), ctx, { filename: f });
 }
 const banks = ctx.window.IFOS_BANK || [];
+const PYQ_TARGET = 10;
+const pyqs = new Map((ctx.window.IFOS_PYQ || []).map((r) => [r[0], { r, n: 0 }]));
+const htmlSrc = fs.readFileSync(path.join(__dirname, '..', 'mcq', 'index.html'), 'utf8');
 const errors = [], warns = [], ids = new Map(), perPaper = {}, fixedAns = [0, 0, 0, 0, 0, 0], fixedList = [];
 let total = 0;
 
@@ -27,6 +32,11 @@ banks.forEach((b, bi) => {
   if (!b.t || typeof b.t !== 'string') errors.push(`bank #${bi}: missing topic name`);
   if (![1, 2, 3].includes(b.w)) errors.push(`${where}: weight must be 1, 2 or 3`);
   if (!Array.isArray(b.q) || !b.q.length) { errors.push(`${where}: no questions`); return; }
+  if (b.pyq !== undefined) {
+    if (!pyqs.has(b.pyq)) errors.push(`${where}: unknown PYQ id "${b.pyq}" (add it to mcq/pyq/registry.js)`);
+    else if (!b.pyq.includes(`-${b.p}-`)) warns.push(`${where}: PYQ ${b.pyq} belongs to a different paper than ${b.p}`);
+    else pyqs.get(b.pyq).n += b.q.length;
+  }
   b.q.forEach((r, qi) => {
     const tag = `${where} #${qi + 1}`;
     if (!Array.isArray(r) || r.length < 4) { errors.push(`${tag}: expected [question, options, answer, explanation]`); return; }
@@ -51,6 +61,15 @@ banks.forEach((b, bi) => {
 console.log(`Banks: ${banks.length} topics, ${total} questions`);
 console.log(PAPERS.map((p) => `${p}:${perPaper[p] || 0}`).join('  '));
 console.log(`Fixed-order questions: ${fixedList.length} (answer spread A-D: ${fixedAns.slice(0, 4).join('/')})`);
+if (pyqs.size) {
+  const byPaper = {};
+  for (const [id, { n }] of pyqs) { const k = id.split('-').slice(0, 3).join(' '); const g = byPaper[k] || (byPaper[k] = [0, 0, 0]); g[0]++; if (n >= PYQ_TARGET) g[1]++; g[2] += n; }
+  const full = [...pyqs.values()].filter((x) => x.n >= PYQ_TARGET).length;
+  console.log(`PYQs: ${pyqs.size} registered, ${full} with ${PYQ_TARGET}+ MCQs`);
+  Object.keys(byPaper).sort().forEach((k) => { const [t, f, n] = byPaper[k]; console.log(`  ${k.padEnd(16)} ${String(f).padStart(3)}/${t} covered, ${n} MCQs`); });
+  for (const [id, { n }] of pyqs) if (n && n < PYQ_TARGET) warns.push(`PYQ ${id}: only ${n} MCQs (target ${PYQ_TARGET})`);
+}
+for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js'))) if (!htmlSrc.includes(`banks/${f}`)) errors.push(`mcq/index.html does not load banks/${f}`);
 if (process.argv.includes('--list-fixed')) fixedList.forEach((l) => console.log('  ' + l));
 warns.forEach((w) => console.log('WARN  ' + w));
 errors.forEach((e) => console.log('ERROR ' + e));

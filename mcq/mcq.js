@@ -43,20 +43,32 @@
   const hash = (s) => { let x = 2166136261; for (let i = 0; i < s.length; i++) { x ^= s.charCodeAt(i); x = Math.imul(x, 16777619); } return (x >>> 0).toString(36); };
   const L = 'ABCDEFGH';
 
+  /* ---------- PYQ registry (pyq/registry.js): [id, marks, text, kind] ---------- */
+  const PYQ = {}, PYQ_LIST = [];
+  (window.IFOS_PYQ || []).forEach(([id, m, text, kind]) => {
+    const [exam, year, paper, qno] = id.split('-');
+    const x = { id, exam, year: +year, paper, qno: qno.replace(/^Q(\d)([a-e])$/, 'Q$1($2)'), m, text, kind, ids: [] };
+    PYQ[id] = x; PYQ_LIST.push(x);
+  });
+  const PYQ_TARGET = 10; // MCQs wanted per PYQ
+  const pyqLabel = (x) => `${x.exam} ${x.year} · ${PAPERS[x.paper] ? PAPERS[x.paper].name : x.paper} · ${x.qno}${x.m ? ` · ${x.m} m` : ''}`;
+
   /* ---------- question bank ---------- */
-  const Q = [], BY = {}, TOPICS = [];
+  const Q = [], BY = {}, TOPICS = [], TOPIC_BY = {};
   (window.IFOS_BANK || []).forEach((b) => {
     if (!PAPERS[b.p]) return;
-    const topic = { key: b.p + ':' + b.t, p: b.p, t: b.t, w: b.w || 2, ids: [] };
-    TOPICS.push(topic);
+    const key = b.p + ':' + b.t;
+    let topic = TOPIC_BY[key];
+    if (!topic) { topic = TOPIC_BY[key] = { key, p: b.p, t: b.t, w: b.w || 2, ids: [] }; TOPICS.push(topic); }
+    const pyq = b.pyq && PYQ[b.pyq] ? PYQ[b.pyq] : null;
     b.q.forEach((r) => {
       const id = b.p + '-' + hash(r[0] + '|' + r[1].join('|')); // stem + options: stable while the text is unchanged
       if (BY[id]) return;
-      const q = { id, p: b.p, topic, q: r[0], o: r[1], a: r[2], e: r[3] || '', fixed: r[1].some((o) => FIXED.test(o)) };
+      const q = { id, p: b.p, topic, q: r[0], o: r[1], a: r[2], e: r[3] || '', fixed: r[1].some((o) => FIXED.test(o)), pyq };
       Q.push(q); BY[id] = q; topic.ids.push(id);
+      if (pyq) pyq.ids.push(id);
     });
   });
-  const TOPIC_BY = Object.fromEntries(TOPICS.map((t) => [t.key, t]));
 
   /* ---------- state ---------- */
   let volatile = false;
@@ -181,7 +193,7 @@
   function render() {
     if (timer && route() !== 'exam') { clearInterval(timer); timer = null; }
     const r = route();
-    const fn = { today: viewToday, practice: viewPractice, mock: viewMock, stats: viewStats, bank: viewBank, settings: viewSettings, quiz: viewQuiz, exam: viewExam }[r] || viewToday;
+    const fn = { today: viewToday, practice: viewPractice, mock: viewMock, pyq: viewPyq, stats: viewStats, bank: viewBank, settings: viewSettings, quiz: viewQuiz, exam: viewExam }[r] || viewToday;
     view().innerHTML = fn();
     header();
     if (r === 'exam' && M && !M.done) startTimer();
@@ -189,6 +201,7 @@
   }
   const bar = (v, mark) => `<div class="meter"><span style="width:${Math.min(100, v * 100).toFixed(1)}%"></span>${mark != null ? `<i style="left:${Math.min(100, mark * 100).toFixed(1)}%"></i>` : ''}</div>`;
   const chip = (q) => `<span class="chip">${esc(q.p)} · ${esc(q.topic.t)}</span>`;
+  const pyqRef = (q) => q.pyq ? `<div class="pyqref"><b>PYQ</b> ${esc(pyqLabel(q.pyq))}${q.pyq.kind === 't' ? ' (topic)' : ''}<br>${fmt(q.pyq.text)}</div>` : '';
 
   /* ---------- Today ---------- */
   function viewToday() {
@@ -295,7 +308,7 @@
         <div class="qmeta">${chip(q)}<button class="icon flag ${isFlag(q.id) ? 'on' : ''}" data-act="flag" title="Flag for revision (F)">🚩</button></div>
         <div class="qtext">${fmt(q.q)}</div>
         <div class="opts">${opts}</div>
-        ${a ? `<div class="expl ${a.ok ? 'ok' : 'bad'}"><b>${a.ok ? '✓ Correct' : '✗ Answer: ' + L[perm.indexOf(q.a)]}</b> ${fmt(q.e)}</div>
+        ${a ? `<div class="expl ${a.ok ? 'ok' : 'bad'}"><b>${a.ok ? '✓ Correct' : '✗ Answer: ' + L[perm.indexOf(q.a)]}</b> ${fmt(q.e)}</div>${pyqRef(q)}
           <div class="row"><button class="btn primary" data-act="next" data-focus>${R.i + 1 < R.ids.length ? 'Next ▶' : 'Finish'}</button>
           <button class="btn ghost" data-act="end">End set</button></div>`
         : `<div class="row"><span class="note">Keys: 1–4 or A–D to answer · Enter for next · F to flag</span><button class="btn ghost" data-act="end">End set</button></div>`}
@@ -478,15 +491,53 @@
         <div class="tablewrap"><table><thead><tr><th>Topic</th><th>PYQ</th><th>Seen</th><th>Accuracy</th><th>Mastery</th></tr></thead><tbody>${trows}</tbody></table></div></section>`;
   }
 
+  /* ---------- PYQ coverage ---------- */
+  const PQ = { exam: '', paper: '', only: false };
+  function viewPyq() {
+    const covered = PYQ_LIST.filter((x) => x.ids.length >= PYQ_TARGET).length;
+    const linked = PYQ_LIST.reduce((s, x) => s + x.ids.length, 0);
+    const list = PYQ_LIST.filter((x) => (!PQ.exam || x.exam === PQ.exam) && (!PQ.paper || x.paper === PQ.paper) && (!PQ.only || x.ids.length));
+    const groups = {};
+    list.forEach((x) => { const k = `${x.exam} ${x.year} ${x.paper}`; (groups[k] = groups[k] || []).push(x); });
+    const order = Object.keys(groups).sort((a, b) => { const [ea, ya, pa] = a.split(' '), [eb, yb, pb] = b.split(' '); return yb - ya || ea.localeCompare(eb) * -1 || pa.localeCompare(pb); });
+    const body = order.map((k, gi) => {
+      const xs = groups[k], ids = xs.flatMap((x) => x.ids), done = xs.filter((x) => x.ids.length >= PYQ_TARGET).length;
+      const [exam, year, paper] = k.split(' ');
+      const rows = xs.map((x) => {
+        const m = x.ids.length ? x.ids.reduce((s, id) => s + mastery(id), 0) / x.ids.length : 0;
+        return `<li><div class="pyqhead"><b>${esc(x.qno)}</b>${x.m ? ` <span class="note">${x.m} m</span>` : ''}${x.kind === 't' ? ' <span class="chip">topic</span>' : ''}
+          <span class="pyqcount ${x.ids.length >= PYQ_TARGET ? 'full' : ''}">${x.ids.length ? `${x.ids.length} MCQs · ${pct(m)}` : 'no MCQs yet'}</span></div>
+          <div>${fmt(x.text)}</div>${x.ids.length ? `<button class="btn" data-act="pyq-drill" data-id="${esc(x.id)}">Drill ▶</button>` : ''}</li>`;
+      }).join('');
+      return `<details class="card pyqgroup" ${gi < 2 ? 'open' : ''}><summary><b>${esc(exam)} ${esc(year)} · ${esc(PAPERS[paper] ? PAPERS[paper].name : paper)}</b>
+        <span class="note">${xs.length} PYQs · ${done} with ${PYQ_TARGET}+ MCQs</span></summary>
+        ${ids.length ? `<button class="btn primary" data-act="pyq-paper" data-k="${esc(k)}">Drill all ${ids.length} MCQs of this paper ▶</button>` : ''}
+        <ol class="rev">${rows}</ol></details>`;
+    }).join('');
+    const exams = [['', 'Both exams'], ['IFoS', 'IFoS'], ['CSE', 'CSE']].map(([v, l]) => `<button class="pill ${PQ.exam === v ? 'on' : ''}" data-act="pq-exam" data-v="${v}">${l}</button>`).join('');
+    const papers = [['', 'All'], ['B1', 'Botany I'], ['B2', 'Botany II'], ['A1', 'Agri I'], ['A2', 'Agri II']].map(([v, l]) => `<button class="pill ${PQ.paper === v ? 'on' : ''}" data-act="pq-paper" data-v="${v}">${l}</button>`).join('');
+    return `
+      <section class="card">
+        <h2>PYQ coverage</h2>
+        <div class="hero-num"><span class="big">${covered}</span><span class="of">/ ${PYQ_LIST.length} registered PYQs have ${PYQ_TARGET}+ MCQs · ${linked} linked MCQs</span></div>
+        ${bar(PYQ_LIST.length ? covered / PYQ_LIST.length : 0)}
+        <p class="note">Each PYQ gets ${PYQ_TARGET} MCQs on the facts its answer needs. After answering a linked MCQ you see the PYQ, so recall turns into an answer outline. "topic" = the question's subject is known but not its exact wording.</p>
+        <h3>Exam</h3><div class="pills">${exams}</div>
+        <h3>Paper</h3><div class="pills">${papers}</div>
+        <label class="check"><input type="checkbox" data-act="pq-only" ${PQ.only ? 'checked' : ''}> Only PYQs that already have MCQs</label>
+      </section>
+      ${body || '<p class="card note">No PYQs match.</p>'}`;
+  }
+
   /* ---------- Revise (browse bank) ---------- */
   const B = { q: '', paper: '', show: 'all', limit: 40 };
   function viewBank() {
     const needle = B.q.trim().toLowerCase();
     const list = Q.filter((q) => (!B.paper || q.p === B.paper)
       && (B.show === 'all' || (B.show === 'weak' && isWeak(q.id)) || (B.show === 'flag' && isFlag(q.id)) || (B.show === 'new' && !isSeen(q.id)))
-      && (!needle || (q.q + ' ' + q.o.join(' ') + ' ' + q.e + ' ' + q.topic.t).toLowerCase().includes(needle)));
+      && (!needle || (q.q + ' ' + q.o.join(' ') + ' ' + q.e + ' ' + q.topic.t + (q.pyq ? ' ' + pyqLabel(q.pyq) + ' ' + q.pyq.text : '')).toLowerCase().includes(needle)));
     const items = list.slice(0, B.limit).map((q) => `<li>${chip(q)}<button class="icon flag ${isFlag(q.id) ? 'on' : ''}" data-act="b-flag" data-id="${q.id}">🚩</button>
-      <div>${fmt(q.q)}</div><div class="ans">✓ ${fmt(q.o[q.a])}</div><div class="note">${fmt(q.e)}</div></li>`).join('');
+      <div>${fmt(q.q)}</div><div class="ans">✓ ${fmt(q.o[q.a])}</div><div class="note">${fmt(q.e)}</div>${pyqRef(q)}</li>`).join('');
     const ps = `<option value="">All papers</option>` + Object.keys(PAPERS).map((p) => `<option value="${p}" ${B.paper === p ? 'selected' : ''}>${esc(PAPERS[p].name)}</option>`).join('');
     const sh = [['all', 'All'], ['weak', 'Mistakes'], ['flag', 'Flagged'], ['new', 'Unseen']].map(([k, l]) => `<option value="${k}" ${B.show === k ? 'selected' : ''}>${l}</option>`).join('');
     return `
@@ -562,6 +613,11 @@
       case 'm-submit': submitMock(false); break;
       case 'm-retry': startRun('Mock mistakes', shuffle(M.ids.filter((id, i) => M.pick[i] !== BY[id].a)), 'mock'); break;
       case 'm-new': M = null; go('mock'); break;
+      case 'pq-exam': PQ.exam = el.dataset.v; render(); break;
+      case 'pq-paper': PQ.paper = el.dataset.v; render(); break;
+      case 'pq-only': PQ.only = el.checked; render(); break;
+      case 'pyq-drill': { const x = PYQ[el.dataset.id]; if (x) startRun(`${x.exam} ${x.year} ${x.paper} ${x.qno}`, shuffle(x.ids.slice()), 'pyq'); break; }
+      case 'pyq-paper': { const [exam, year, paper] = el.dataset.k.split(' '); startRun(`${exam} ${year} ${paper} PYQs`, shuffle(PYQ_LIST.filter((x) => x.exam === exam && x.year === +year && x.paper === paper).flatMap((x) => x.ids)), 'pyq'); break; }
       case 'b-flag': toggleFlag(el.dataset.id); el.classList.toggle('on'); break;
       case 'b-more': B.limit += 40; render(); break;
       case 's-save': saveSettings(); break;
@@ -632,5 +688,5 @@
   window.addEventListener('hashchange', render);
   applyTheme();
   render();
-  window.IFOS_APP = { Q, TOPICS, state: () => S, projectedTotal, readiness, buildMission }; // for console/tests
+  window.IFOS_APP = { Q, TOPICS, PYQ: PYQ_LIST, state: () => S, projectedTotal, readiness, buildMission }; // for console/tests
 })();

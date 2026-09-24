@@ -3,12 +3,19 @@
 Goal: IFoS Mains, 22 Nov 2026 — Botany + Agriculture optionals. Targets: optionals 600/800, GK + English 500/600, interview 250/300; overall goal 1250+.
 
 ## What is where
-- `mcq/` — **main tool**: offline MCQ drill for all 6 papers + interview. No build, no deps.
+- `mcq/` — **main tool**: offline MCQ drill for all 6 papers + interview (1,115 Qs). No build, no deps. Tabs: Today, Practice, Mock, PYQ, Score, Revise, Setup.
   - `mcq/mcq.js` engine: Leitner spaced repetition (boxes 1–6, intervals 1/3/7/14/25/40 d), daily mission (≤60% due reviews + new picked by target gap), practice, timed mock (optional −⅓), score projection, revise/search, export/import.
   - `mcq/banks/*.js` question banks, one per paper: `english` EN, `gk` GK, `botany1` B1, `botany2` B2, `agri1` A1, `agri2` A2, `interview` PT.
   - Progress: `localStorage["ifosmcq_v1"]` in the browser only (backup via Settings → Export).
 - `index.html` + `app.js` + `data/ifs_knowledge_base.json` — older "Recall Ladder" app (17 MCQs, cloze, SAQ). Links to `mcq/`.
 - `upsc_coaching_portal*.html`, `syllabus_data.json`, `*.txt`, `PORTAL_USAGE_GUIDE.md`, `README_TECHNICAL.md` — legacy CSE-GS portal; not needed for MCQ work.
+
+## PYQ coverage (goal: 10 MCQs per PYQ, CSE + IFoS)
+- Registry `mcq/pyq/registry.js`: `[id, marks, text, kind]`, id `EXAM-YEAR-PAPER-Qno` (e.g. `IFoS-2018-B1-Q2a`); kind `v` verbatim, `t` topic-only.
+- Link MCQs by adding `pyq: '<id>'` to a bank block (10 rows per block). Files: `mcq/banks/pyq_<exam><year>_<paper>_s<section>.js`; add each to `mcq/index.html` (validator errors if missing).
+- Registered 382: CSE 2026 A1/A2 (56, verbatim, from Agri booklets §14) · IFoS 2017+2018 B1/B2/A1/A2 (229, verbatim OCR; 2017 A1 lacks Q8) · IFoS 2025 B1/B2/A1/A2 (97, topic-only from volume "PYQ anchors").
+- Done (10 each): CSE 2026 A1 + A2 = 56 PYQs, 560 MCQs. Next: IFoS 2025 → IFoS 2018 → IFoS 2017; then new papers as sources allow.
+- Sources: Drive "0X_*_Comprehensive.pdf" volumes (text export ≈ 220k chars; most official-paper pages are scanned images, only 2017–18 extract as text); Drive download cap 10 MB blocks OCR of the 36–40 MB volumes; upsc.gov.in is blocked by this environment's network policy (user can allow it).
 
 ## Adding questions
 Row format: `['Question', ['correct', 'wrong', 'wrong', 'wrong'], 0, 'Explanation']`. Put the correct option first; options are shuffled on screen.
@@ -28,3 +35,4 @@ Always run `node tools/validate_banks.js` (schema, duplicates, answer range). Ma
 ## Log (one line per session)
 - 2026-09-24: built `mcq/` app + 555 questions (EN 87, GK 59, B1 105, B2 97, A1 90, A2 69, PT 48) + validator; old app's reset now keeps MCQ progress.
 - 2026-09-24: published to Lovable (single-file build via `tools/build_single.js`); ChatGPT hosting not available from this environment.
+- 2026-09-24: Vercel fix (`public` key removed from vercel.json; /mcq → /mcq/ redirect) — connector lacks deploy rights, user must merge to main. Added PYQ registry (382) + PYQ tab + validator coverage; CSE 2026 Agri I & II fully covered (560 MCQs).

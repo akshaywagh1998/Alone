@@ -177,6 +177,15 @@ td a { text-decoration: none; }
 .chart .ax { stroke: var(--line); }
 .chart text { fill: var(--mute); font-size: 11px; }
 
+.pyqref { margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--chip); font-size: .9rem; }
+.pyqref b { color: var(--acc); }
+.pyqgroup summary { cursor: pointer; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.pyqgroup > .btn { margin-top: 12px; }
+.pyqhead { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.pyqcount { margin-left: auto; font-size: .8rem; color: var(--mute); }
+.pyqcount.full { color: var(--ok); font-weight: 600; }
+.rev li .btn { margin-top: 6px; min-height: 34px; padding: 4px 12px; }
+
 #toast {
   position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 20px); opacity: 0;
   background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 10px;
@@ -185,8 +194,8 @@ td a { text-decoration: none; }
 #toast.show { opacity: 1; transform: translate(-50%, 0); }
 
 @media (max-width: 520px) {
-  .tabs { gap: 0; padding: 8px; justify-content: space-between; }
-  .tabs a { padding: 6px 7px; font-size: .8rem; }
+  .tabs { gap: 0; padding: 8px 4px; justify-content: space-between; }
+  .tabs a { padding: 6px 5px; font-size: .78rem; }
   .big { font-size: 2.1rem; }
   .card { padding: 14px; }
   .tm { display: none; }
