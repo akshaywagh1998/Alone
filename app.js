@@ -172,7 +172,8 @@ class IFSQuizmasterApp {
     // Reset Progress Data
     document.getElementById('btnResetAllData').addEventListener('click', () => {
       if (confirm('Are you sure you want to reset all your study history, review queue, and accuracy metrics?')) {
-        localStorage.clear();
+        // Remove only this app's keys so the MCQ drill (mcq/, key "ifosmcq_v1") keeps its progress.
+        Object.keys(localStorage).filter(k => k.startsWith('ifs_quizmaster_')).forEach(k => localStorage.removeItem(k));
         location.reload();
       }
     });

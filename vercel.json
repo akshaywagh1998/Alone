@@ -44,6 +44,10 @@
       "destination": "/index.html"
     },
     {
+      "source": "/mcq",
+      "destination": "/mcq/index.html"
+    },
+    {
       "source": "/portal",
       "destination": "/upsc_coaching_portal_enhanced.html"
     }
