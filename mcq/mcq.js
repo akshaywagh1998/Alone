@@ -149,7 +149,9 @@
     const unseen = Q.filter((q) => !isSeen(q.id));
     const due = Q.filter((q) => isDue(q.id, t)).sort((a, b) => rec(a.id)[0] - rec(b.id)[0] || rec(a.id)[1] - rec(b.id)[1]);
     const reviews = due.slice(0, unseen.length ? Math.ceil(n * 0.6) : n);
-    let picks = reviews.concat(sample(unseen, n - reviews.length, (q) => need[q.p] * q.topic.w));
+    // Split new questions by paper need, not bank size; topic weight only matters within a paper.
+    const wsum = {}; unseen.forEach((q) => { wsum[q.p] = (wsum[q.p] || 0) + q.topic.w; });
+    let picks = reviews.concat(sample(unseen, n - reviews.length, (q) => need[q.p] * q.topic.w / wsum[q.p]));
     if (picks.length < n) {
       const chosen = new Set(picks.map((q) => q.id));
       const rest = Q.filter((q) => !chosen.has(q.id)).sort((a, b) => mastery(a.id) - mastery(b.id));
