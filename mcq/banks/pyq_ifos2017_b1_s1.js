@@ -132,7 +132,7 @@
   ['Some dinoflagellates, such as *Karenia*, gained their plastids by:', ['Tertiary endosymbiosis of a haptophyte', 'Primary endosymbiosis', 'Engulfing a cyanobacterium directly', 'Horizontal gene transfer from fungi'], 0,
     'Dinoflagellates have repeatedly swapped plastids.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 3, pyq: 'IFoS-2017-B1-Q2b', q: [
+{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['IFoS-2017-B1-Q2b', 'IFoS-2015-B1-m10'], q: [
   ['The first division of a bryophyte zygote is:', ['Transverse, giving an epibasal and a hypobasal cell', 'Longitudinal', 'Free-nuclear', 'Meiotic'], 0,
     'The two cells go on to form different parts of the sporophyte.'],
   ['In *Marchantia*, the hypobasal cell gives rise to:', ['The foot and seta', 'The capsule', 'The calyptra', 'The spores'], 0,
@@ -352,7 +352,7 @@
   ['Hershey and Chase (1952) used phage T2 to show that:', ['DNA, not protein, is the genetic material', 'Protein is the genetic material', 'RNA is the genetic material of all phages', 'Phages have no genes'], 0,
     'They labelled the DNA with ³²P and the protein with ³⁵S.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: 'IFoS-2017-B1-Q4d', q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2017-B1-Q4d', 'IFoS-2014-B1-m16', 'CSE-1991-B1-m16', 'CSE-1992-B1-m19'], q: [
   ['Bryophytes are called the "amphibians of the plant kingdom" because they:', ['Live on land but need water for fertilisation', 'Live only in water', 'Live only in deserts', 'Have both roots and gills'], 0,
     'Their sperms must swim to the archegonium.'],
   ['Land plants are thought to have evolved from:', ['Charophycean green algae', 'Red algae', 'Brown algae', 'Fungi'], 0,

@@ -66,7 +66,7 @@
   ['The thylakoids in a red algal chloroplast are:', ['Single and unstacked, with phycobilisomes on their surface', 'Stacked into grana', 'In bands of three', 'Absent'], 0,
     'Green algae have thylakoids in stacks of two to six or more.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: 'IFoS-2018-B1-Q1d', q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2018-B1-Q1d', 'IFoS-2012-B1-m16', 'IFoS-2006-B1-m08'], q: [
   ['The peristome of a moss capsule is located:', ['At the mouth of the capsule, beneath the operculum', 'At the base of the seta', 'In the foot', 'On the calyptra'], 0,
     'It is a ring of teeth exposed when the operculum falls off.'],
   ['The main role of the peristome is to:', ['Regulate spore dispersal by hygroscopic movements', 'Photosynthesise', 'Absorb water from the soil', 'Anchor the sporophyte'], 0,
@@ -198,7 +198,7 @@
   ['Spinosad, a bio-insecticide, is made by fermentation of:', ['*Saccharopolyspora spinosa*', '*Bacillus thuringiensis*', '*Trichoderma viride*', '*Beauveria bassiana*'], 0,
     'It is an actinomycete product acting on insect nerve receptors.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: 'IFoS-2018-B1-Q3b', q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2018-B1-Q3b', 'CSE-2025-B1-m15', 'IFoS-2011-B1-m12', 'IFoS-2007-B1-m10', 'CSE-1995-B1-m13', 'IFoS-2023-B1-m10', 'IFoS-2012-B1-m17'], q: [
   ['Bower’s theory of progressive sterilisation takes the most primitive bryophyte sporophyte to be that of:', ['*Riccia*', '*Funaria*', '*Anthoceros*', '*Polytrichum*'], 0,
     'In *Riccia* nearly all internal tissue is sporogenous.'],
   ['The sporophyte of *Riccia* consists of:', ['A capsule only, with no foot or seta', 'Foot, seta and capsule', 'Foot and capsule', 'Seta only'], 0,

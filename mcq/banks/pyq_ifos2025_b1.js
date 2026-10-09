@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2025 Botany Paper I (topic-level PYQs from the volume anchors). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: 'IFoS-2025-B1-Q1a', q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2025-B1-Q1a', 'CSE-2017-B1-m09'], q: [
   ['Rhizoids of mosses differ from those of liverworts in being:', ['Multicellular with oblique cross-walls', 'Unicellular and smooth', 'Unicellular and tuberculate', 'Absent'], 0,
     'Liverworts have unicellular rhizoids (smooth and tuberculate types in *Marchantia*).'],
   ['Leaves of mosses usually differ from those of leafy liverworts in that moss leaves:', ['Are spirally arranged and often have a midrib (costa)', 'Are in two rows and lobed without a midrib', 'Are absent', 'Are always underground'], 0,
@@ -88,7 +88,7 @@
   ['Pollen organs of *Lyginopteris* are known as:', ['*Crossotheca* (and related synangia)', '*Trigonocarpus*', '*Lepidostrobus*', '*Calamostachys*'], 0,
     '*Lepidostrobus* and *Calamostachys* are cones of *Lepidodendron* and *Calamites*.'],
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: 'IFoS-2025-B1-Q2a', q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2025-B1-Q2a', 'CSE-1988-B1-m14', 'CSE-2024-B1-m13'], q: [
   ['Bryophytes act as pioneers on bare rock mainly by:', ['Trapping dust and organic matter to start soil formation after lichens', 'Fixing nitrogen in root nodules', 'Growing tall trees', 'Burning organic matter'], 0,
     'They are an early stage of the xerosere.'],
   ['*Sphagnum* peatlands are ecologically important because they:', ['Store huge amounts of carbon', 'Release oxygen only', 'Increase soil erosion', 'Have no water'], 0,
