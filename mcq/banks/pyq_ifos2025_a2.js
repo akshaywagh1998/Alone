@@ -352,7 +352,7 @@
   ['Common scab of potato is caused by:', ['*Streptomyces scabies* (an actinomycete)', '*Rhizoctonia solani*', '*Pythium*', 'A virus'], 0,
     'Favoured by dry, alkaline soils; keeping soil moist at tuber initiation reduces it.'],
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2025-A2-Q5c', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2025-A2-Q5c', 'CSE-2026-A2-Q8a', 'IFoS-2004-A2-m25'], q: [
   ['"Storage fungi", which damage grain and pulses in store, include:', ['*Aspergillus* and *Penicillium* species', '*Alternaria* and *Fusarium* only', 'Rusts', 'Downy mildews'], 0,
     'Field fungi such as *Alternaria*, *Fusarium* and *Cladosporium* need higher moisture and decline in storage.'],
   ['Field fungi differ from storage fungi in that field fungi:', ['Need high seed moisture (about 20% or more) and invade before harvest', 'Grow at 13–15% moisture in store', 'Produce aflatoxin in dry grain', 'Never affect seeds'], 0,

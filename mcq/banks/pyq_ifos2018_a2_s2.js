@@ -308,7 +308,7 @@
   ['A key institutional constraint for small farmers is:', ['Poor access to credit, markets and extension services', 'Too many advisers', 'Surplus market access', 'Excess insurance'], 0,
     'FPOs and digital services aim to close these gaps.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2018-A2-Q8b', 'IFoS-2022-A2-m28', 'CSE-2019-A2-m25', 'IFoS-2016-A2-m26', 'CSE-2010-A2-m27', 'IFoS-2006-A2-m29', 'CSE-2005-A2-m21', 'IFoS-2025-A2-Q5c', 'CSE-2003-A2-m24', 'IFoS-2021-A2-m26', 'CSE-1992-A2-m44'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2018-A2-Q8b', 'IFoS-2022-A2-m28', 'CSE-2019-A2-m25', 'IFoS-2016-A2-m26', 'CSE-2010-A2-m27', 'IFoS-2006-A2-m29', 'CSE-2005-A2-m21', 'IFoS-2025-A2-Q5c', 'CSE-2003-A2-m24', 'IFoS-2021-A2-m26', 'CSE-1992-A2-m44', 'CSE-2016-A2-m28', 'IFoS-2015-A2-m29'], q: [
   ['The pulse beetle, the main pest of stored pulses, is:', ['*Callosobruchus chinensis* or *C. maculatus*', '*Sitophilus oryzae*', '*Tribolium castaneum*', '*Trogoderma granarium*'], 0,
     'It infests pods in the field and multiplies in store.'],
   ['The rice weevil *Sitophilus oryzae* is:', ['An internal feeder whose larvae develop inside the grain', 'A pest of flour only', 'A field pest of leaves', 'A predator'], 0,

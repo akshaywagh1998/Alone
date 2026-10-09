@@ -66,7 +66,7 @@
   ['Root-knot nematodes (*Meloidogyne*) make wilts worse because they:', ['Wound roots, letting wilt fungi in and breaking resistance', 'Kill the fungi', 'Feed on leaves only', 'Have no effect'], 0,
     'This combination is called a disease complex.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5d', 'CSE-1996-A2-m26'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5d', 'CSE-1996-A2-m26', 'IFoS-2012-A2-m27'], q: [
   ['*Bacillus thuringiensis* kills insects mainly through:', ['Crystal (Cry) δ-endotoxins formed during sporulation', 'Fungal hyphae', 'Viral particles', 'Nematode attack'], 0,
     'It is a Gram-positive, spore-forming bacterium.'],
   ['Bt var. *kurstaki* is most effective against:', ['Caterpillars (Lepidoptera)', 'Mosquito larvae', 'Beetle grubs', 'Aphids'], 0,

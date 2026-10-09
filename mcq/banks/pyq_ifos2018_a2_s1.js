@@ -154,7 +154,7 @@
   ['Mutation breeding is best suited to:', ['Improving one or two traits in an otherwise good variety', 'Combining many traits from two parents', 'Producing F₁ hybrids', 'Making polyploids'], 0,
     'Most induced mutations are recessive and harmful, so screening must be large.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2018-A2-Q2c', 'IFoS-2022-A2-m08', 'CSE-2014-A2-m06', 'CSE-1990-A2-m07', 'CSE-2015-A2-m05', 'CSE-2004-A2-m03', 'CSE-1991-A2-m02', 'CSE-1990-A2-m08'], q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2018-A2-Q2c', 'IFoS-2022-A2-m08', 'CSE-2014-A2-m06', 'CSE-1990-A2-m07', 'CSE-2015-A2-m05', 'CSE-2004-A2-m03', 'CSE-1991-A2-m02', 'CSE-1990-A2-m08', 'CSE-2016-A2-m24', 'CSE-2000-A2-m28', 'CSE-1990-A2-m29', 'CSE-1989-A2-m39'], q: [
   ['The sugar in RNA is:', ['Ribose', 'Deoxyribose', 'Glucose', 'Fructose'], 0,
     'Deoxyribose in DNA lacks the 2′-OH group.'],
   ['The base found in RNA in place of thymine is:', ['Uracil', 'Cytosine', 'Adenine', 'Guanine'], 0,
@@ -286,7 +286,7 @@
   ['The types of male sterility include:', ['Genetic, cytoplasmic, cytoplasmic-genetic, chemically induced and environment-sensitive', 'Only cytoplasmic', 'Only chemical', 'Only genetic'], 0,
     'Transgenic systems such as barnase–barstar are another type.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2018-A2-Q4a', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2018-A2-Q4a', 'CSE-2018-A2-m22'], q: [
   ['A cell wall made of cellulose is found in:', ['Plant cells, but not animal cells', 'Animal cells only', 'Both', 'Neither'], 0,
     'It gives plant cells a fixed shape.'],
   ['Plastids such as chloroplasts are found in:', ['Plant cells', 'Animal cells', 'Both', 'Neither'], 0,

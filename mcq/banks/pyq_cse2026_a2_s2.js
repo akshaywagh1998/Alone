@@ -89,7 +89,7 @@
   ['Which is an institutional (non-technical) constraint to grain production?', ['Limited access to credit, extension and markets', 'Soil texture', 'Day length', 'Crop genetics'], 0,
     'Both technology and institutions need attention.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q5e', 'CSE-2024-A2-m21', 'IFoS-2012-A2-m24', 'CSE-2021-A2-m19', 'CSE-2010-A2-m22', 'IFoS-2023-A2-m26', 'CSE-2015-A2-m22', 'IFoS-2005-A2-m27', 'CSE-1992-A2-m34', 'CSE-2020-A2-m19', 'CSE-2018-A2-m19', 'CSE-2025-A2-m20'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q5e', 'CSE-2024-A2-m21', 'IFoS-2012-A2-m24', 'CSE-2021-A2-m19', 'CSE-2010-A2-m22', 'IFoS-2023-A2-m26', 'CSE-2015-A2-m22', 'IFoS-2005-A2-m27', 'CSE-1992-A2-m34', 'CSE-2020-A2-m19', 'CSE-2018-A2-m19', 'CSE-2025-A2-m20', 'IFoS-2010-A2-m21', 'IFoS-2001-A2-m22'], q: [
   ['Osmoprotectants (compatible solutes) include:', ['Proline, glycine betaine, trehalose and polyols such as mannitol', 'Sodium chloride and sulphuric acid', 'Auxins and gibberellins', 'Chlorophyll and carotene'], 0,
     'They accumulate to high levels without disturbing metabolism.'],
   ['Osmoprotectants help under salt and drought stress mainly by:', ['Lowering cell osmotic potential to keep water uptake and turgor, and protecting proteins and membranes', 'Increasing transpiration', 'Opening stomata wider', 'Breaking cell walls'], 0,

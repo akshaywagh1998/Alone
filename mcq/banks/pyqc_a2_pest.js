@@ -154,7 +154,7 @@
   ['A phytosanitary certificate certifies that a consignment is:', ['Inspected and free from quarantine pests as required by the importing country', 'Of high genetic purity', 'Organically produced', 'Free of pesticide residues'], 0,
     'It is issued by the exporting country\'s national plant protection organisation.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2013-A2-m34', 'CSE-1993-A2-m40', 'IFoS-2023-A2-m35', 'CSE-2000-A2-m33', 'CSE-2010-A2-m26', 'CSE-2002-A2-m24', 'CSE-2002-A2-m26', 'CSE-1992-A2-m45', 'CSE-1991-A2-m32', 'CSE-1997-A2-m26', 'CSE-2006-A2-m25', 'CSE-1989-A2-m10', 'IFoS-2024-A2-m14', 'CSE-2023-A2-m25', 'CSE-1999-A2-m22'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2013-A2-m34', 'CSE-1993-A2-m40', 'IFoS-2023-A2-m35', 'CSE-2000-A2-m33', 'CSE-2010-A2-m26', 'CSE-2002-A2-m24', 'CSE-2002-A2-m26', 'CSE-1992-A2-m45', 'CSE-1991-A2-m32', 'CSE-1997-A2-m26', 'CSE-2006-A2-m25', 'CSE-1989-A2-m10', 'IFoS-2024-A2-m14', 'CSE-2023-A2-m25', 'CSE-1999-A2-m22', 'CSE-2000-A2-m29'], q: [
   ['The cotton whitefly *Bemisia tabaci* is important mainly because it:', ['Sucks sap, excretes honeydew causing sooty mould, and spreads cotton leaf curl virus', 'Bores into bolls', 'Cuts seedlings at ground level', 'Feeds on roots'], 0,
     'Outbreaks are linked to overuse of synthetic pyrethroids and late sowing.'],
   ['The pink bollworm *Pectinophora gossypiella* is now a major problem in India because it:', ['Has developed resistance to Bt cotton (Bollgard II)', 'Attacks only wheat', 'Has been eradicated', 'Feeds only on leaves'], 0,
@@ -242,7 +242,7 @@
   ['A biotype of an insect is:', ['A population able to attack a variety that is resistant to other populations of the same species', 'A new species', 'A dead insect sample', 'A type of insecticide'], 0,
     'Brown planthopper biotypes have broken resistance in several rice varieties.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 1, pyq: ['CSE-1990-A2-m34', 'CSE-1998-A2-m20', 'IFoS-2006-A2-m30', 'IFoS-2009-A2-m12'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 1, pyq: ['CSE-1990-A2-m34', 'CSE-1998-A2-m20', 'IFoS-2006-A2-m30', 'IFoS-2009-A2-m12', 'CSE-2009-A2-m15', 'IFoS-2022-A2-m15'], q: [
   ['The most destructive field rat of Indian agriculture is the:', ['Lesser bandicoot rat, *Bandicota bengalensis*', 'House mouse', 'Squirrel', 'Gerbil only'], 0,
     'It damages rice, wheat and stored grain, and makes extensive burrows.'],
   ['Zinc phosphide (about 2% bait) kills rats by:', ['Releasing toxic phosphine gas in the acidic stomach', 'Preventing blood clotting', 'Blocking nerve signals', 'Causing sterility'], 0,

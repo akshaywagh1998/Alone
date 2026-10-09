@@ -264,7 +264,7 @@
   ['"Seed village" schemes improve seed availability by:', ['Training farmers in a village to produce quality seed for local use and sale', 'Importing seed', 'Closing private seed firms', 'Distributing grain as seed'], 0,
     'They raise the seed replacement rate at low cost.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q4b', 'CSE-2023-A2-m15', 'CSE-2014-A2-m24', 'CSE-2024-A2-m18', 'CSE-2018-A2-m14'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q4b', 'CSE-2023-A2-m15', 'CSE-2014-A2-m24', 'CSE-2024-A2-m18', 'CSE-2018-A2-m14', 'CSE-2014-A2-m26'], q: [
   ['Maximum available water capacity is usually found in:', ['Loam and silt loam soils', 'Coarse sands', 'Gravels', 'Pure clays'], 0,
     'Sands hold little water; clays hold a lot, but much of it is held too tightly (below the wilting point).'],
   ['Adding organic matter to a sandy soil:', ['Increases its available water capacity', 'Decreases water holding', 'Makes it saline', 'Has no effect'], 0,
