@@ -22,7 +22,7 @@
   ['Calyx splitting in carnation, a disorder that lowers flower quality, is linked to:', ['Low and fluctuating temperatures (and boron deficiency)', 'Excess sunlight only', 'Insects', 'Viruses'], 0,
     'Calyx bands are used to prevent it.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5b', 'IFoS-2023-A2-m33', 'CSE-2015-A2-m28', 'IFoS-2015-A2-m32', 'CSE-2009-A2-m25', 'CSE-2004-A2-m25', 'IFoS-2001-A2-m29', 'IFoS-2000-A2-m20', 'CSE-1993-A2-m41', 'CSE-1991-A2-m31', 'CSE-1990-A2-m35', 'CSE-1997-A2-m27', 'CSE-1989-A2-m11', 'IFoS-2023-A2-m36'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5b', 'IFoS-2023-A2-m33', 'CSE-2015-A2-m28', 'IFoS-2015-A2-m32', 'CSE-2009-A2-m25', 'CSE-2004-A2-m25', 'IFoS-2001-A2-m29', 'IFoS-2000-A2-m20', 'CSE-1993-A2-m41', 'CSE-1991-A2-m31', 'CSE-1990-A2-m35', 'CSE-1997-A2-m27', 'CSE-1989-A2-m11', 'IFoS-2023-A2-m36', 'IFoS-2016-A2-m08', 'IFoS-2012-A2-m07', 'IFoS-2002-A2-m03'], q: [
   ['A preventive measure against stored-grain pests is:', ['Cleaning and disinfesting stores and bags before loading new grain', 'Storing moist grain', 'Mixing old and new grain', 'Keeping stores open to rain'], 0,
     'Residual infestation is a major source of new attack.'],
   ['For prophylaxis in godowns, malathion or deltamethrin is sprayed:', ['On walls, floors and bag surfaces, not directly on the grain', 'Directly into the grain', 'On the farmers', 'In the field only'], 0,
@@ -66,7 +66,7 @@
   ['Root-knot nematodes (*Meloidogyne*) make wilts worse because they:', ['Wound roots, letting wilt fungi in and breaking resistance', 'Kill the fungi', 'Feed on leaves only', 'Have no effect'], 0,
     'This combination is called a disease complex.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5d', 'CSE-1996-A2-m26', 'IFoS-2012-A2-m27'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5d', 'CSE-1996-A2-m26', 'IFoS-2012-A2-m27', 'CSE-2004-A2-m02'], q: [
   ['*Bacillus thuringiensis* kills insects mainly through:', ['Crystal (Cry) δ-endotoxins formed during sporulation', 'Fungal hyphae', 'Viral particles', 'Nematode attack'], 0,
     'It is a Gram-positive, spore-forming bacterium.'],
   ['Bt var. *kurstaki* is most effective against:', ['Caterpillars (Lepidoptera)', 'Mosquito larvae', 'Beetle grubs', 'Aphids'], 0,
@@ -198,7 +198,7 @@
   ['Skills central to pomology rather than olericulture include:', ['Orchard layout, training and pruning of trees', 'Nursery transplanting only', 'Seed production of annuals only', 'Hydroponics only'], 0,
     'Fruit trees remain in the field for decades.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: 'IFoS-2017-A2-Q7b', q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: ['IFoS-2017-A2-Q7b', 'CSE-1993-A2-m04', 'CSE-1990-A2-m05', 'CSE-1989-A2-m03', 'IFoS-2010-A2-m04', 'CSE-1990-A2-m04'], q: [
   ['Powdery mildews are caused by:', ['Erysiphales (Ascomycota), which grow as white powdery patches on the leaf surface', 'Oomycetes, with downy growth on the underside', 'Bacteria', 'Viruses'], 0,
     'Their mycelium stays on the surface, sending haustoria into epidermal cells.'],
   ['Downy mildews are caused by:', ['Oomycetes (Peronosporales), whose sporangiophores emerge through stomata on the lower leaf surface', 'Erysiphales', 'Rust fungi', 'Bacteria'], 0,
@@ -220,7 +220,7 @@
   ['The late blight epidemic of potato in the 1840s caused:', ['The Irish potato famine', 'The Bengal famine', 'The Dust Bowl', 'The Green Revolution'], 0,
     'It was caused by *Phytophthora infestans*.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q7c', 'CSE-2016-A2-m15'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q7c', 'CSE-2016-A2-m15', 'IFoS-2022-A2-m30', 'IFoS-2016-A2-m25', 'CSE-2015-A2-m30', 'CSE-2009-A2-m26', 'IFoS-2005-A2-m30', 'IFoS-2005-A2-m32', 'IFoS-2003-A2-m30', 'IFoS-2000-A2-m16', 'CSE-1993-A2-m42', 'CSE-1991-A2-m30', 'CSE-1989-A2-m41', 'IFoS-2001-A2-m09', 'IFoS-2012-A2-m03', 'IFoS-2002-A2-m04'], q: [
   ['Augmentative biological control means:', ['Increasing natural enemy numbers by releasing them, inoculatively or inundatively', 'Importing new natural enemies from abroad for permanent establishment', 'Killing natural enemies', 'Using only chemicals'], 0,
     'Introducing exotic enemies for permanent establishment is classical biocontrol.'],
   ['An inoculative release involves:', ['Releasing a few natural enemies early, so their offspring provide control later in the season', 'Releasing huge numbers for immediate kill', 'Spraying insecticides', 'Releasing sterile insects'], 0,
@@ -242,7 +242,7 @@
   ['The main difference between inoculative and inundative releases is:', ['Inoculative relies on the natural enemies’ reproduction; inundative relies on the released individuals themselves', 'Both rely on reproduction', 'Neither uses natural enemies', 'Inundative uses fewer individuals'], 0,
     'Inundative releases need mass production facilities.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2017-A2-Q8a', 'CSE-2001-A2-m16', 'IFoS-2012-A2-m16', 'IFoS-2003-A2-m18', 'CSE-1989-A2-m15', 'CSE-2003-A2-m07', 'CSE-1990-A2-m11', 'IFoS-2011-A2-m17', 'CSE-2001-A2-m11', 'CSE-2004-A2-m08', 'CSE-2000-A2-m19'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2017-A2-Q8a', 'CSE-2001-A2-m16', 'IFoS-2012-A2-m16', 'IFoS-2003-A2-m18', 'CSE-1989-A2-m15', 'CSE-2003-A2-m07', 'CSE-1990-A2-m11', 'IFoS-2011-A2-m17', 'CSE-2001-A2-m11', 'CSE-2004-A2-m08', 'CSE-2000-A2-m19', 'IFoS-2021-A2-m02'], q: [
   ['When selecting a site for an orchard, the key factors are:', ['Climate, soil depth and drainage, water supply, and access to markets', 'Only land price', 'Only nearness to a city', 'Only soil colour'], 0,
     'Mistakes are costly because orchards last for decades.'],
   ['The hexagonal layout accommodates about how many more trees than the square layout?', ['About 15% more', 'About 50% more', 'The same number', 'Fewer trees'], 0,
@@ -264,7 +264,7 @@
   ['An orchard plan must also provide for:', ['Irrigation and drainage channels, roads, fencing and a packing area', 'Only trees', 'Only a well', 'Nothing else'], 0,
     'Good planning lowers running costs for decades.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: ['IFoS-2017-A2-Q8b', 'IFoS-2023-A2-m19'], q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: ['IFoS-2017-A2-Q8b', 'IFoS-2023-A2-m19', 'IFoS-2001-A2-m34'], q: [
   ['Kwashiorkor is caused mainly by:', ['Protein deficiency with a relatively adequate calorie intake', 'Excess protein', 'Vitamin C deficiency', 'Iodine deficiency'], 0,
     'Cicely Williams described it in Ghana in 1933.'],
   ['Kwashiorkor is recognised by:', ['Oedema, "flaky-paint" skin, a moon face and a fatty liver', 'Severe wasting without oedema', 'Night blindness', 'Goitre'], 0,
@@ -286,7 +286,7 @@
   ['The Gomez classification of malnutrition is based on:', ['Weight-for-age compared with a reference', 'Height only', 'Blood tests', 'Skin colour'], 0,
     'It grades malnutrition as mild, moderate or severe.']
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: 'IFoS-2017-A2-Q8c', q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['IFoS-2017-A2-Q8c', 'IFoS-2004-A2-m06', 'IFoS-2004-A2-m05'], q: [
   ['Chrysanthemum is a:', ['Short-day plant of the family Asteraceae', 'Long-day plant of Rosaceae', 'Day-neutral grass', 'Bulbous monocot'], 0,
     'It is called the "Queen of the East".'],
   ['Pinching in chrysanthemum is done to:', ['Remove the growing tip and produce more laterals, giving a bushy plant with many flowers', 'Get one large flower', 'Kill the plant', 'Delay rooting'], 0,

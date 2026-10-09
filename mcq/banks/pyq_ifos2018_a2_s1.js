@@ -66,7 +66,7 @@
   ['At initial certification, a seed lot’s certificate is normally valid for:', ['Nine months from the date of testing', 'Ten years', 'One week', 'Indefinitely'], 0,
     'It can be revalidated after retesting.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q1d', 'CSE-2022-A2-m24', 'IFoS-2015-A2-m35'], q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q1d', 'CSE-2022-A2-m24', 'IFoS-2015-A2-m35', 'IFoS-2002-A2-m08', 'IFoS-2015-A2-m03'], q: [
   ['Harrington’s thumb rule says that the storage life of seed roughly doubles for every:', ['1% fall in seed moisture (between 5 and 14%) or 5 °C fall in temperature', '10% rise in moisture', '10 °C rise in temperature', '1% rise in moisture'], 0,
     'Moisture and temperature are the key factors in storage.'],
   ['The "sum rule" for safe seed storage is that relative humidity (%) plus temperature (°F) should not exceed:', ['100', '50', '200', '150'], 0,
@@ -132,7 +132,7 @@
   ['Seed of cross-pollinated varieties is maintained by:', ['Growing a large population in isolation to avoid genetic drift', 'Selfing a single plant', 'Cloning', 'Mutating'], 0,
     'Small populations lose variation and vigour.']
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: ['IFoS-2018-A2-Q2b', 'IFoS-2012-A2-m28', 'IFoS-2015-A2-m33'], q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: ['IFoS-2018-A2-Q2b', 'IFoS-2012-A2-m28', 'IFoS-2015-A2-m33', 'IFoS-2006-A2-m06'], q: [
   ['Heterosis breeding exploits:', ['The vigour of F₁ hybrids', 'New mutations', 'Polyploidy', 'Apomixis'], 0,
     'Hybrid seed must be bought fresh each season.'],
   ['Mutation breeding works by:', ['Inducing new heritable variation with physical or chemical mutagens', 'Crossing two parents', 'Selecting within pure lines', 'Grafting'], 0,
@@ -154,7 +154,7 @@
   ['Mutation breeding is best suited to:', ['Improving one or two traits in an otherwise good variety', 'Combining many traits from two parents', 'Producing F₁ hybrids', 'Making polyploids'], 0,
     'Most induced mutations are recessive and harmful, so screening must be large.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2018-A2-Q2c', 'IFoS-2022-A2-m08', 'CSE-2014-A2-m06', 'CSE-1990-A2-m07', 'CSE-2015-A2-m05', 'CSE-2004-A2-m03', 'CSE-1991-A2-m02', 'CSE-1990-A2-m08', 'CSE-2016-A2-m24', 'CSE-2000-A2-m28', 'CSE-1990-A2-m29', 'CSE-1989-A2-m39'], q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2018-A2-Q2c', 'IFoS-2022-A2-m08', 'CSE-2014-A2-m06', 'CSE-1990-A2-m07', 'CSE-2015-A2-m05', 'CSE-2004-A2-m03', 'CSE-1991-A2-m02', 'CSE-1990-A2-m08', 'CSE-2016-A2-m24', 'CSE-2000-A2-m28', 'CSE-1990-A2-m29', 'CSE-1989-A2-m39', 'CSE-2003-A2-m20'], q: [
   ['The sugar in RNA is:', ['Ribose', 'Deoxyribose', 'Glucose', 'Fructose'], 0,
     'Deoxyribose in DNA lacks the 2′-OH group.'],
   ['The base found in RNA in place of thymine is:', ['Uracil', 'Cytosine', 'Adenine', 'Guanine'], 0,
@@ -176,7 +176,7 @@
   ['DNA occurs mainly in the nucleus but is also found in:', ['Mitochondria and chloroplasts', 'Ribosomes', 'Vacuoles', 'Cell walls'], 0,
     'RNA is made in the nucleus and works mostly in the cytoplasm.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2018-A2-Q2d', 'CSE-2003-A2-m19'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2018-A2-Q2d', 'CSE-2003-A2-m19', 'IFoS-2013-A2-m05', 'CSE-2018-A2-m13'], q: [
   ['Enzymes are:', ['Biological catalysts, mostly proteins, that lower the activation energy of reactions', 'Light-absorbing molecules', 'Storage lipids', 'Structural carbohydrates'], 0,
     'Plant pigments absorb light; enzymes catalyse reactions.'],
   ['Plant pigments are:', ['Molecules that absorb particular wavelengths of light', 'Catalysts', 'Hormones only', 'Minerals'], 0,
@@ -242,7 +242,7 @@
   ['Water-use efficiency is the inverse of:', ['The transpiration ratio', 'Photosynthetic rate', 'Leaf area index', 'Harvest index'], 0,
     'WUE = dry matter produced per unit of water transpired.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2018-A2-Q3c', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2018-A2-Q3c', 'IFoS-2011-A2-m05'], q: [
   ['Transpiration was called "a necessary evil" by:', ['Curtis', 'Blackman', 'Dixon', 'Hill'], 0,
     'It is harmful as water loss but useful in other ways.'],
   ['Of the water absorbed by a plant, the share lost by transpiration is about:', ['95–99%', '10%', '50%', '1%'], 0,
@@ -308,7 +308,7 @@
   ['Structures found in both plant and animal cells include:', ['Mitochondria, ribosomes, the ER and Golgi bodies', 'Cell walls and chloroplasts', 'Centrioles and cell walls', 'Plastids and plasmodesmata'], 0,
     'Both are eukaryotic cells.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2018-A2-Q4b', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2018-A2-Q4b', 'IFoS-2000-A2-m05'], q: [
   ['In germinating oilseeds, stored triacylglycerols are first broken down by:', ['Lipases, into fatty acids and glycerol', 'Amylases', 'Proteases', 'Cellulases'], 0,
     'The fatty acids then go through β-oxidation.'],
   ['In plants, β-oxidation of fatty acids occurs mainly in:', ['Glyoxysomes (peroxisomes)', 'Mitochondria only', 'Chloroplasts', 'The nucleus'], 0,

@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — physiology/ecology odds, short-note terms, and a mixed revision set for PYQs whose wording survives only as a header. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Plant Physiology', w: 1, pyq: ['CSE-1998-B1-m17', 'CSE-1996-B1-m17', 'CSE-1988-B1-m18', 'CSE-1986-B1-m16', 'CSE-1985-B1-m14', 'IFoS-2001-B1-m23', 'CSE-1991-B1-m23', 'CSE-1990-B1-m07', 'CSE-1994-B1-m35', 'CSE-1993-B1-m34', 'CSE-1992-B1-m27', 'CSE-1990-B1-m32'], q: [
+{ p: 'B1', t: 'Plant Physiology', w: 1, pyq: ['CSE-1998-B1-m17', 'CSE-1996-B1-m17', 'CSE-1988-B1-m18', 'CSE-1986-B1-m16', 'CSE-1985-B1-m14', 'IFoS-2001-B1-m23', 'CSE-1991-B1-m23', 'CSE-1990-B1-m07', 'CSE-1994-B1-m35', 'CSE-1992-B1-m27', 'CSE-1990-B1-m32', 'CSE-1993-B1-m34'], q: [
   ['Leaf abscission is promoted mainly by:', ['Ethylene, while auxin from the leaf delays it', 'Auxin alone', 'Cytokinin', 'Gibberellin'], 0,
     'An abscission zone of small cells forms at the petiole base; a protective layer heals the scar.'],
   ['Leaf senescence can be delayed by:', ['Cytokinins (the Richmond–Lang effect)', 'Ethylene', 'Abscisic acid', 'Darkness'], 0,

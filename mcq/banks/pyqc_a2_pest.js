@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture II — insect pests and their management: IPM, control methods, semiochemicals, insecticides, formulations, biopesticides, quarantine, and pests of field crops, fruits, vegetables and non-insect pests. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['CSE-2023-A2-m25', 'IFoS-2019-A2-m19', 'CSE-2018-A2-m25', 'IFoS-2015-A2-m31', 'CSE-2011-A2-m28', 'IFoS-2011-A2-m24', 'CSE-2010-A2-m25', 'IFoS-2009-A2-m14', 'CSE-2007-A2-m24', 'IFoS-2005-A2-m29', 'CSE-2005-A2-m20', 'CSE-2004-A2-m24', 'IFoS-2003-A2-m28', 'CSE-2002-A2-m23', 'IFoS-2001-A2-m30', 'IFoS-2001-A2-m32', 'CSE-1997-A2-m25', 'CSE-1995-A2-m27', 'CSE-1990-A2-m33', 'IFoS-2023-A2-m34', 'IFoS-2022-A2-m29', 'IFoS-2020-A2-m27', 'IFoS-2017-A2-Q6a', 'IFoS-2006-A2-m28', 'CSE-2000-A2-m32', 'CSE-2021-A2-m25', 'CSE-2016-A2-m29', 'IFoS-2016-A2-m23', 'CSE-2001-A2-m27'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['CSE-2023-A2-m25', 'IFoS-2019-A2-m19', 'CSE-2018-A2-m25', 'IFoS-2015-A2-m31', 'CSE-2011-A2-m28', 'IFoS-2011-A2-m24', 'CSE-2010-A2-m25', 'IFoS-2009-A2-m14', 'CSE-2007-A2-m24', 'IFoS-2005-A2-m29', 'CSE-2005-A2-m20', 'CSE-2004-A2-m24', 'IFoS-2003-A2-m28', 'CSE-2002-A2-m23', 'IFoS-2001-A2-m30', 'IFoS-2001-A2-m32', 'CSE-1997-A2-m25', 'CSE-1995-A2-m27', 'CSE-1990-A2-m33', 'IFoS-2023-A2-m34', 'IFoS-2022-A2-m29', 'IFoS-2020-A2-m27', 'IFoS-2017-A2-Q6a', 'IFoS-2006-A2-m28', 'CSE-2000-A2-m32', 'CSE-2021-A2-m25', 'CSE-2016-A2-m29', 'IFoS-2016-A2-m23', 'CSE-2001-A2-m27', 'CSE-1994-A2-m15', 'IFoS-2005-A2-m30'], q: [
   ['Integrated pest management (IPM) aims to:', ['Keep pest populations below the economic injury level by combining compatible methods with least harm to people and environment', 'Eradicate every insect from the field', 'Rely on calendar-based pesticide sprays', 'Use only biological control'], 0,
     'Chemicals are used only when needed, as a last resort, after cultural, mechanical, biological and host-resistance methods.'],
   ['The economic injury level (EIL) is:', ['The lowest pest density at which the damage caused equals the cost of control', 'The pest density at which spraying must start', 'The average pest density over many years', 'Any pest density above zero'], 0,
@@ -44,7 +44,7 @@
   ['Mechanical or physical control includes:', ['Hand picking, light traps, bagging fruits and heat or cold treatments', 'Spraying neem oil', 'Releasing *Trichogramma*', 'Growing resistant varieties'], 0,
     'Rachel Carson\'s "Silent Spring" (1962) pushed the world towards such non-chemical methods.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2011-A2-m28', 'CSE-2010-A2-m25', 'IFoS-2001-A2-m30', 'CSE-1995-A2-m27', 'IFoS-2000-A2-m19', 'CSE-1996-A2-m25', 'IFoS-2001-A2-m26', 'CSE-2002-A2-m26', 'CSE-2006-A2-m14', 'CSE-1989-A2-m11', 'CSE-2016-A2-m30', 'CSE-1989-A2-m42'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2011-A2-m28', 'CSE-2010-A2-m25', 'IFoS-2001-A2-m30', 'CSE-1995-A2-m27', 'IFoS-2000-A2-m19', 'CSE-1996-A2-m25', 'IFoS-2001-A2-m26', 'CSE-2002-A2-m26', 'CSE-2006-A2-m14', 'CSE-1989-A2-m11', 'CSE-2016-A2-m30', 'CSE-1989-A2-m42', 'IFoS-2015-A2-m07', 'CSE-2002-A2-m02', 'CSE-2009-A2-m04', 'IFoS-2006-A2-m08'], q: [
   ['Pheromones are chemicals that:', ['Are released by an animal and change the behaviour of other members of the same species', 'Are released by plants to kill insects', 'Are synthetic insecticides', 'Act only between different species'], 0,
     'Sex, aggregation, alarm and trail pheromones are the main types.'],
   ['A kairomone is a chemical signal that:', ['Benefits the receiver of another species, not the emitter', 'Benefits only the emitter', 'Benefits both species', 'Acts within one species'], 0,
@@ -66,7 +66,7 @@
   ['The sterile insect technique (SIT) controls pests by:', ['Releasing large numbers of radiation-sterilised males that mate without producing offspring', 'Spraying radioactive chemicals on crops', 'Irradiating crops to kill eggs', 'Releasing sterile females only'], 0,
     'E. F. Knipling used it to eradicate the screwworm fly from the USA; gamma rays from cobalt-60 are used.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2004-A2-m29', 'CSE-2010-A2-m28', 'CSE-1995-A2-m28', 'IFoS-2019-A2-m21', 'CSE-2024-A2-m24', 'CSE-1993-A2-m43', 'CSE-1989-A2-m43', 'IFoS-2009-A2-m13', 'IFoS-2001-A2-m31', 'CSE-2020-A2-m24', 'CSE-1999-A2-m19', 'CSE-2007-A2-m26', 'CSE-2019-A2-m26', 'CSE-2003-A2-m25', 'CSE-2002-A2-m22'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2004-A2-m29', 'CSE-2010-A2-m28', 'CSE-1995-A2-m28', 'IFoS-2019-A2-m21', 'CSE-2024-A2-m24', 'CSE-1993-A2-m43', 'CSE-1989-A2-m43', 'IFoS-2009-A2-m13', 'IFoS-2001-A2-m31', 'CSE-2020-A2-m24', 'CSE-1999-A2-m19', 'CSE-2007-A2-m26', 'CSE-2019-A2-m26', 'CSE-2003-A2-m25', 'CSE-2002-A2-m22', 'CSE-1997-A2-m03', 'CSE-2007-A2-m02', 'CSE-2002-A2-m03', 'IFoS-2012-A2-m08', 'CSE-1996-A2-m04'], q: [
   ['Organophosphate and carbamate insecticides kill insects by:', ['Inhibiting acetylcholinesterase, so acetylcholine builds up at nerve synapses', 'Blocking chitin synthesis', 'Destroying the gut wall', 'Blocking respiration in mitochondria only'], 0,
     'Organophosphates phosphorylate the enzyme (nearly irreversible); carbamates carbamylate it (reversible).'],
   ['Synthetic pyrethroids such as cypermethrin and deltamethrin act by:', ['Keeping voltage-gated sodium channels in nerves open', 'Inhibiting acetylcholinesterase', 'Inhibiting chitin synthesis', 'Acting as juvenile hormones'], 0,
@@ -88,7 +88,7 @@
   ['A sound insecticide resistance management practice is to:', ['Rotate insecticides with different modes of action and use them only when ETL is crossed', 'Spray the same chemical at a lower dose every week', 'Mix many chemicals in every spray', 'Increase dose each season'], 0,
     'IRAC mode-of-action group numbers on labels help rotation.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2022-A2-m21', 'CSE-2021-A2-m23', 'CSE-2006-A2-m23', 'IFoS-2002-A2-m21', 'CSE-2022-A2-m22', 'CSE-1999-A2-m21', 'CSE-2006-A2-m21', 'IFoS-2005-A2-m31', 'CSE-1999-A2-m20', 'CSE-2010-A2-m18', 'CSE-2014-A2-m28', 'IFoS-2021-A2-m28'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2022-A2-m21', 'CSE-2021-A2-m23', 'CSE-2006-A2-m23', 'IFoS-2002-A2-m21', 'CSE-2022-A2-m22', 'CSE-1999-A2-m21', 'CSE-2006-A2-m21', 'IFoS-2005-A2-m31', 'CSE-1999-A2-m20', 'CSE-2010-A2-m18', 'CSE-2014-A2-m28', 'IFoS-2021-A2-m28', 'CSE-1997-A2-m01', 'IFoS-2012-A2-m05'], q: [
   ['A pesticide formulation is:', ['The active ingredient mixed with carriers, solvents and adjuvants to make it safe and easy to apply', 'The pure active ingredient', 'The trade name only', 'A mixture of two pesticides'], 0,
     'The active ingredient (a.i.) is the part that kills the pest; the rest are inert ingredients.'],
   ['An emulsifiable concentrate (EC) is:', ['The active ingredient dissolved in an organic solvent with an emulsifier, forming a milky emulsion in water', 'A dry powder that is dusted', 'A granule for soil use', 'A gas for fumigation'], 0,
@@ -154,7 +154,7 @@
   ['A phytosanitary certificate certifies that a consignment is:', ['Inspected and free from quarantine pests as required by the importing country', 'Of high genetic purity', 'Organically produced', 'Free of pesticide residues'], 0,
     'It is issued by the exporting country\'s national plant protection organisation.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2013-A2-m34', 'CSE-1993-A2-m40', 'IFoS-2023-A2-m35', 'CSE-2000-A2-m33', 'CSE-2010-A2-m26', 'CSE-2002-A2-m24', 'CSE-2002-A2-m26', 'CSE-1992-A2-m45', 'CSE-1991-A2-m32', 'CSE-1997-A2-m26', 'CSE-2006-A2-m25', 'CSE-1989-A2-m10', 'IFoS-2024-A2-m14', 'CSE-2023-A2-m25', 'CSE-1999-A2-m22', 'CSE-2000-A2-m29'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['CSE-2013-A2-m34', 'CSE-1993-A2-m40', 'IFoS-2023-A2-m35', 'CSE-2000-A2-m33', 'CSE-2010-A2-m26', 'CSE-2002-A2-m24', 'CSE-2002-A2-m26', 'CSE-1992-A2-m45', 'CSE-1991-A2-m32', 'CSE-1997-A2-m26', 'CSE-2006-A2-m25', 'CSE-1989-A2-m10', 'IFoS-2024-A2-m14', 'CSE-2023-A2-m25', 'CSE-1999-A2-m22', 'CSE-2000-A2-m29', 'IFoS-2006-A2-m07', 'IFoS-2015-A2-m09', 'IFoS-2009-A2-m02', 'IFoS-2002-A2-m01', 'IFoS-2001-A2-m02', 'IFoS-2006-A2-m02'], q: [
   ['The cotton whitefly *Bemisia tabaci* is important mainly because it:', ['Sucks sap, excretes honeydew causing sooty mould, and spreads cotton leaf curl virus', 'Bores into bolls', 'Cuts seedlings at ground level', 'Feeds on roots'], 0,
     'Outbreaks are linked to overuse of synthetic pyrethroids and late sowing.'],
   ['The pink bollworm *Pectinophora gossypiella* is now a major problem in India because it:', ['Has developed resistance to Bt cotton (Bollgard II)', 'Attacks only wheat', 'Has been eradicated', 'Feeds only on leaves'], 0,
@@ -220,7 +220,7 @@
   ['Gregarious caterpillars that defoliate cabbage and are parasitised by *Cotesia glomerata* belong to:', ['The cabbage butterfly, *Pieris brassicae*', 'Diamondback moth', 'Mustard aphid', 'Fruit fly'], 0,
     'Hand picking egg masses and young larvae helps in small plots.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 1, pyq: ['IFoS-2019-A2-m20', 'CSE-1995-A2-m26', 'IFoS-2013-A2-m31', 'IFoS-2000-A2-m17', 'IFoS-2009-A2-m11', 'CSE-2004-A2-m22', 'CSE-2004-A2-m21', 'IFoS-2016-A2-m24', 'CSE-2013-A2-m33'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 1, pyq: ['IFoS-2019-A2-m20', 'CSE-1995-A2-m26', 'IFoS-2013-A2-m31', 'IFoS-2000-A2-m17', 'IFoS-2009-A2-m11', 'CSE-2004-A2-m22', 'CSE-2004-A2-m21', 'IFoS-2016-A2-m24', 'CSE-2013-A2-m33', 'CSE-1996-A2-m05', 'IFoS-2011-A2-m06'], q: [
   ['A monophagous pest feeds on:', ['One plant species or genus, e.g. rice yellow stem borer on rice', 'Plants of one family', 'Plants of many families', 'Only dead plant matter'], 0,
     'Oligophagous pests feed within one family (diamondback moth on crucifers); polyphagous pests feed widely (*Helicoverpa armigera*).'],
   ['Insects with chewing mouthparts are best controlled by:', ['Stomach poisons and contact insecticides on the food they eat', 'Systemic insecticides only', 'Fumigants only', 'Pheromones only'], 0,

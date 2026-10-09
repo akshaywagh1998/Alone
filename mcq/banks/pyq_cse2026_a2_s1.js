@@ -22,7 +22,7 @@
   ['A major limitation of somatic hybridisation is:', ['Genomic instability, chromosome elimination and sterility of regenerants', 'It always gives sterile seeds', 'It works only in animals', 'It needs no tissue culture'], 0,
     'Only some species regenerate plants readily from protoplasts.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'CSE-2026-A2-Q1b', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['CSE-2026-A2-Q1b', 'IFoS-2016-A2-m05'], q: [
   ['A major cause of seed deterioration during storage is:', ['Lipid peroxidation by free radicals that damages membranes', 'Increase in enzyme activity', 'Accumulation of chlorophyll', 'Gain in dry weight'], 0,
     'Damaged membranes leak solutes, a key sign of ageing.'],
   ['Increased leakage of electrolytes from aged seeds is measured by the:', ['Electrical conductivity test', 'Tetrazolium test only', 'Grow-out test', 'Cold test'], 0,
@@ -66,7 +66,7 @@
   ['Dry soil reduces nutrient uptake mainly because:', ['Diffusion and mass flow slow down as water films thin', 'Nutrients become gases', 'Root respiration increases', 'Soil pH rises to 10'], 0,
     'Water is the medium for both movement processes.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q1d', 'CSE-2004-A2-m14', 'CSE-1993-A2-m17', 'CSE-2021-A2-m12', 'CSE-2007-A2-m12'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q1d', 'CSE-2004-A2-m14', 'CSE-1993-A2-m17', 'CSE-2021-A2-m12', 'CSE-2007-A2-m12', 'IFoS-2005-A2-m03', 'IFoS-2001-A2-m05'], q: [
   ['A clone is:', ['A group of plants derived from one plant by asexual (vegetative) reproduction', 'A group of plants from one self-pollinated seed', 'A hybrid between two inbreds', 'A population of mutants'], 0,
     'All members have the same genotype, apart from rare somatic mutations.'],
   ['Clones of vegetatively propagated, naturally cross-pollinated crops such as potato are:', ['Highly heterozygous but genetically uniform', 'Homozygous and uniform', 'Homozygous and variable', 'Heterozygous and variable within the clone'], 0,
@@ -88,7 +88,7 @@
   ['Genetic variation for breeding clonal crops is created mainly by:', ['Sexual hybridisation, mutation or somaclonal variation, followed by clonal selection', 'Selfing clones repeatedly', 'Grafting only', 'Keeping clones in cold storage'], 0,
     'Once a superior genotype is found, it is fixed at once by vegetative propagation.'],
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: ['CSE-2026-A2-Q1e', 'CSE-2003-A2-m18', 'IFoS-2003-A2-m19', 'CSE-2022-A2-m04', 'CSE-2020-A2-m03', 'CSE-2019-A2-m01', 'IFoS-2018-A2-Q2b', 'CSE-2015-A2-m01', 'CSE-2014-A2-m03', 'CSE-2005-A2-m04', 'IFoS-2024-A2-m10', 'CSE-2017-A2-m07', 'CSE-2016-A2-m07', 'CSE-1992-A2-m07', 'CSE-1990-A2-m06', 'CSE-2000-A2-m07', 'CSE-1993-A2-m08', 'IFoS-2016-A2-m10', 'IFoS-2015-A2-m13', 'IFoS-2005-A2-m08', 'CSE-2009-A2-m06'], q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: ['CSE-2026-A2-Q1e', 'CSE-2003-A2-m18', 'IFoS-2003-A2-m19', 'CSE-2022-A2-m04', 'CSE-2020-A2-m03', 'CSE-2019-A2-m01', 'IFoS-2018-A2-Q2b', 'CSE-2015-A2-m01', 'CSE-2014-A2-m03', 'CSE-2005-A2-m04', 'IFoS-2024-A2-m10', 'CSE-2017-A2-m07', 'CSE-2016-A2-m07', 'CSE-1992-A2-m07', 'CSE-1990-A2-m06', 'CSE-2000-A2-m07', 'CSE-1993-A2-m08', 'IFoS-2016-A2-m10', 'IFoS-2015-A2-m13', 'IFoS-2005-A2-m08', 'CSE-2009-A2-m06', 'CSE-2025-A2-m01', 'CSE-2001-A2-m04'], q: [
   ['Physical mutagens include:', ['X-rays, gamma rays, neutrons and ultraviolet light', 'EMS and sodium azide', 'Colchicine', 'Acridine dyes'], 0,
     'Ionising radiations cause breaks and point mutations; UV is non-ionising and mainly forms pyrimidine dimers.'],
   ['Ethyl methanesulphonate (EMS) is:', ['An alkylating agent that mainly causes G:C → A:T transitions', 'A base analogue of thymine', 'An intercalating dye', 'An ionising radiation'], 0,
@@ -154,7 +154,7 @@
   ['Besides ATP production, mitochondria take part in:', ['Photorespiration (glycine to serine), programmed cell death and amino-acid metabolism', 'Photosynthetic light reactions', 'Cell-wall synthesis', 'Pollen tube growth only'], 0,
     'Glycine decarboxylase in leaf mitochondria releases CO₂ during photorespiration.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q2c', 'IFoS-2022-A2-m18', 'IFoS-2017-A2-Q4b', 'CSE-2017-A2-m16', 'IFoS-2013-A2-m18', 'CSE-2010-A2-m17', 'CSE-2000-A2-m22', 'CSE-2020-A2-m15', 'CSE-2012-A2-m12', 'IFoS-2012-A2-m19', 'CSE-2013-A2-m23', 'CSE-2009-A2-m22', 'CSE-2021-A2-m05', 'CSE-2018-A2-m04', 'CSE-2025-A2-m04'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q2c', 'IFoS-2022-A2-m18', 'IFoS-2017-A2-Q4b', 'CSE-2017-A2-m16', 'IFoS-2013-A2-m18', 'CSE-2010-A2-m17', 'CSE-2000-A2-m22', 'CSE-2020-A2-m15', 'CSE-2012-A2-m12', 'IFoS-2012-A2-m19', 'CSE-2013-A2-m23', 'CSE-2009-A2-m22', 'CSE-2021-A2-m05', 'CSE-2018-A2-m04', 'CSE-2025-A2-m04', 'IFoS-2020-A2-m01', 'CSE-2011-A2-m01'], q: [
   ['The most abundant type of DNA marker in plant genomes is:', ['Single nucleotide polymorphisms (SNPs)', 'RFLPs', 'Isozymes', 'Morphological markers'], 0,
     'SNPs suit high-throughput genotyping chips and sequencing.'],
   ['Microsatellites (SSRs) are popular markers because they are:', ['Co-dominant, multi-allelic and PCR-based', 'Dominant and random', 'Based on protein bands', 'Visible to the naked eye'], 0,
@@ -198,7 +198,7 @@
   ['In vegetatively propagated crops, broad-sense heritability is relevant to selection because:', ['Clones transmit the whole genotype, including non-additive effects', 'Only additive effects are passed on', 'Clones segregate', 'Environment has no effect on clones'], 0,
     'In sexually propagated crops, only additive effects are reliably transmitted.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['CSE-2026-A2-Q3b', 'IFoS-2018-A2-Q2a', 'CSE-2014-A2-m13', 'CSE-2014-A2-m16', 'CSE-2013-A2-m21', 'CSE-2009-A2-m18', 'CSE-2003-A2-m13', 'CSE-1991-A2-m15', 'CSE-1989-A2-m18', 'CSE-1999-A2-m10', 'CSE-2017-A2-m03'], q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['CSE-2026-A2-Q3b', 'IFoS-2018-A2-Q2a', 'CSE-2014-A2-m13', 'CSE-2014-A2-m16', 'CSE-2013-A2-m21', 'CSE-2009-A2-m18', 'CSE-2003-A2-m13', 'CSE-1991-A2-m15', 'CSE-1989-A2-m18', 'CSE-1999-A2-m10', 'CSE-2017-A2-m03', 'CSE-2024-A2-m15', 'IFoS-2012-A2-m01'], q: [
   ['Isolation distance is most critical in seed production of:', ['Cross-pollinated crops such as maize and pearl millet', 'Self-pollinated crops such as wheat', 'Clonal crops such as potato', 'Apomictic grasses'], 0,
     'Self-pollinated crops need only a few metres to avoid mechanical mixture.'],
   ['Rogueing in a seed crop means:', ['Removing off-types, other varieties, diseased plants and objectionable weeds', 'Irrigating the field', 'Applying fertiliser', 'Harvesting early'], 0,

@@ -22,7 +22,7 @@
   ['The approximate P/O ratios are:', ['About 2.5 for NADH and 1.5 for FADH₂', 'Three for both', 'One for both', 'Four for NADH and two for FADH₂'], 0,
     'The older textbook values were 3 and 2.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q1b', 'IFoS-2011-B2-m08', 'CSE-2017-B2-m19', 'IFoS-2016-B2-m16', 'IFoS-2015-B2-m21', 'CSE-2010-B2-m24', 'CSE-2010-B2-m29', 'IFoS-2014-B2-m06'], q: [
+{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q1b', 'IFoS-2011-B2-m08', 'CSE-2017-B2-m19', 'IFoS-2016-B2-m16', 'IFoS-2015-B2-m21', 'CSE-2010-B2-m29', 'IFoS-2014-B2-m06'], q: [
   ['In humans, maleness is determined by:', ['The *SRY* gene on the Y chromosome', 'The number of X chromosomes alone', 'Temperature', 'The mother’s diet'], 0,
     'SRY switches on testis development.'],
   ['In *Drosophila*, sex is determined by:', ['The ratio of X chromosomes to autosome sets (X:A), acting through the *Sxl* gene', 'The presence of a Y chromosome', 'Temperature', 'The number of autosomes only'], 0,
@@ -440,7 +440,7 @@
   ['Germination is considered complete when:', ['The radicle emerges', 'Water is absorbed', 'The first leaf unfolds', 'The plant flowers'], 0,
     'Seedling growth follows.']
 ] },
-{ p: 'B2', t: 'Ecology & Ecosystems', w: 3, pyq: ['IFoS-2017-B2-Q8a', 'CSE-2022-B2-m10', 'IFoS-2022-B2-m12', 'IFoS-2015-B2-m13', 'IFoS-2012-B2-m14', 'IFoS-2009-B2-m08', 'CSE-2015-B2-m08', 'CSE-2013-B2-m09', 'CSE-2020-B2-m04', 'IFoS-2016-B2-m02', 'CSE-2012-B2-m18'], q: [
+{ p: 'B2', t: 'Ecology & Ecosystems', w: 3, pyq: ['IFoS-2017-B2-Q8a', 'CSE-2022-B2-m10', 'IFoS-2022-B2-m12', 'IFoS-2015-B2-m13', 'IFoS-2012-B2-m14', 'IFoS-2009-B2-m08', 'CSE-2015-B2-m08', 'CSE-2013-B2-m09', 'CSE-2020-B2-m04', 'IFoS-2016-B2-m02', 'CSE-2012-B2-m18', 'CSE-2024-B2-m05'], q: [
   ['Phytoremediation is:', ['Using plants (and their microbes) to remove, break down or contain pollutants', 'Using chemicals to kill plants', 'Planting trees for timber', 'Burning waste'], 0,
     'It is cheap and solar-powered, but slow.'],
   ['In phytoextraction:', ['Plants take up pollutants and store them in harvestable shoots', 'Pollutants are fixed in the soil', 'Pollutants are released as gas', 'Pollutants are destroyed by fire'], 0,

@@ -1,7 +1,7 @@
 /* PYQ-linked MCQs — CSE 2026 Agriculture Paper II, Section B (Q5–Q8). 10 MCQs per sub-question.
  * Q7(a) and Q8(b) are cut off in the source; MCQs cover the parts that are legible plus the core of the topic. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: 'CSE-2026-A2-Q5a', q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q5a', 'IFoS-2010-A2-m05'], q: [
   ['Topiary is the art of:', ['Training and clipping plants into ornamental shapes such as animals or geometric forms', 'Growing miniature trees in shallow pots', 'Arranging cut flowers', 'Growing plants without soil'], 0,
     'Growing miniature trees in pots is bonsai; soil-less growing is hydroponics.'],
   ['An ideal topiary plant is:', ['Evergreen, small-leaved, densely branched and tolerant of frequent clipping', 'Deciduous with large leaves', 'Sparsely branched and fast-growing', 'An annual that dies after flowering'], 0,
@@ -133,7 +133,7 @@
   ['A limitation of high-density orcharding is:', ['High initial cost and the need for skilled canopy management', 'Delayed fruiting', 'Lower yields per hectare', 'No need for pruning'], 0,
     'Poor management leads to overcrowding and lower fruit quality.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q6b', 'CSE-1991-A2-m21', 'CSE-1989-A2-m31', 'CSE-2023-A2-m19'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q6b', 'CSE-1991-A2-m21', 'CSE-1989-A2-m31', 'CSE-2023-A2-m19', 'IFoS-2023-A2-m03', 'CSE-1999-A2-m01'], q: [
   ['In plants, chlorophyll biosynthesis begins with δ-aminolevulinic acid (ALA) formed from:', ['Glutamate (the C₅ pathway)', 'Glycine and succinyl-CoA', 'Acetyl-CoA', 'Tryptophan'], 0,
     'Animals and many bacteria make ALA from glycine and succinyl-CoA (Shemin pathway).'],
   ['The enzyme that inserts magnesium into protoporphyrin IX is:', ['Mg-chelatase', 'Ferrochelatase', 'Rubisco', 'Chlorophyllase'], 0,
@@ -265,7 +265,7 @@
   ['CAP storage in India refers to:', ['Cover and plinth storage of bagged grain on raised platforms under covers', 'Cold-air packaging', 'Controlled atmosphere packaging for fruits', 'Central agricultural procurement'], 0,
     'Used by FCI when covered warehouse space is short; losses are higher than in proper godowns or silos.'],
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q8b', 'IFoS-2022-A2-m14', 'IFoS-2020-A2-m20', 'CSE-2012-A2-m10', 'CSE-2011-A2-m11', 'IFoS-2010-A2-m14', 'IFoS-2017-A2-Q5a', 'CSE-2016-A2-m08', 'CSE-2016-A2-m10', 'CSE-2015-A2-m17', 'IFoS-2015-A2-m16', 'CSE-2023-A2-m07', 'CSE-2015-A2-m09', 'CSE-2003-A2-m06', 'CSE-2001-A2-m12', 'CSE-2010-A2-m03', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m15', 'IFoS-2003-A2-m16', 'IFoS-2003-A2-m17', 'CSE-2022-A2-m09', 'CSE-1996-A2-m13', 'CSE-2009-A2-m10', 'CSE-1989-A2-m17', 'CSE-2019-A2-m12', 'CSE-1999-A2-m12', 'IFoS-2021-A2-m27'], q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q8b', 'IFoS-2022-A2-m14', 'IFoS-2020-A2-m20', 'CSE-2012-A2-m10', 'CSE-2011-A2-m11', 'IFoS-2010-A2-m14', 'IFoS-2017-A2-Q5a', 'CSE-2016-A2-m08', 'CSE-2016-A2-m10', 'CSE-2015-A2-m17', 'IFoS-2015-A2-m16', 'CSE-2023-A2-m07', 'CSE-2015-A2-m09', 'CSE-2003-A2-m06', 'CSE-2001-A2-m12', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m16', 'IFoS-2003-A2-m17', 'CSE-2022-A2-m09', 'CSE-1996-A2-m13', 'CSE-2009-A2-m10', 'CSE-2019-A2-m12', 'CSE-1999-A2-m12', 'IFoS-2021-A2-m27'], q: [
   ['In standard carnations, disbudding means:', ['Removing side buds to leave one large terminal flower per stem', 'Removing the terminal bud', 'Removing all leaves', 'Cutting the roots'], 0,
     'Spray carnations keep side buds and remove the terminal bud instead, giving several smaller flowers.'],
   ['Pinching in carnation is done mainly to:', ['Increase the number of flowering shoots and regulate the time of flowering', 'Kill pests', 'Reduce yield', 'Ripen seeds'], 0,

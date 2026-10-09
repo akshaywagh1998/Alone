@@ -66,7 +66,7 @@
   ['Allelopathy from crop residues or weeds is an example of:', ['A biotic (chemical) interaction affecting crops', 'A climatic factor', 'An edaphic factor only', 'A physiographic factor'], 0,
     'E.g., residues of sunflower or sorghum can inhibit the next crop.'],
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2025-A1-Q1d', 'IFoS-2022-A1-m19', 'CSE-2014-A1-m23'], q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2025-A1-Q1d', 'CSE-2014-A1-m23'], q: [
   ['Short-duration varieties help in drylands mainly by:', ['Completing the life cycle within the limited period of soil moisture', 'Needing more water', 'Growing taller', 'Producing more straw'], 0,
     'They escape terminal drought.'],
   ['Sahbhagi Dhan is:', ['A short-duration, drought-tolerant rice variety for rainfed uplands', 'A long-duration basmati variety', 'A wheat variety', 'A hybrid maize'], 0,

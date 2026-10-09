@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture II — Horticulture: vegetables, banana and papaya, propagation, fruit physiology, plantation/spice/medicinal crops and fruit crops. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['IFoS-2022-A2-m10', 'IFoS-2021-A2-m11', 'IFoS-2020-A2-m17', 'CSE-2019-A2-m09', 'CSE-2019-A2-m11', 'CSE-2019-A2-m12', 'IFoS-2019-A2-m07', 'CSE-2009-A2-m14', 'CSE-2006-A2-m08', 'CSE-2004-A2-m07', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m15', 'IFoS-2003-A2-m16', 'IFoS-2003-A2-m17', 'CSE-2002-A2-m06', 'CSE-2020-A2-m08', 'CSE-2013-A2-m15', 'CSE-2005-A2-m09', 'CSE-1993-A2-m12', 'CSE-2006-A2-m05', 'CSE-2007-A2-m05', 'CSE-1990-A2-m13', 'CSE-1992-A2-m09', 'CSE-1995-A2-m07', 'IFoS-2023-A2-m20', 'IFoS-2005-A2-m11', 'CSE-2006-A2-m09'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['IFoS-2022-A2-m10', 'IFoS-2021-A2-m11', 'CSE-2019-A2-m09', 'CSE-2019-A2-m11', 'CSE-2019-A2-m12', 'IFoS-2019-A2-m07', 'CSE-2009-A2-m14', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m15', 'IFoS-2003-A2-m17', 'CSE-2002-A2-m06', 'CSE-2020-A2-m08', 'CSE-2013-A2-m15', 'CSE-2005-A2-m09', 'CSE-1993-A2-m12', 'CSE-2006-A2-m05', 'CSE-2007-A2-m05', 'CSE-1990-A2-m13', 'CSE-1992-A2-m09', 'CSE-1995-A2-m07', 'IFoS-2023-A2-m20', 'IFoS-2005-A2-m11', 'CSE-2006-A2-m09'], q: [
   ['Among world vegetable producers, India ranks:', ['Second, after China', 'First', 'Tenth', 'Fifth'], 0,
     'Time-sensitive; India is also second in fruits.'],
   ['Kharif onion is important in India mainly because it:', ['Fills the supply gap in the lean season and steadies prices', 'Is the main crop by area', 'Is grown only for seed', 'Has no market'], 0,
@@ -22,7 +22,7 @@
   ['Garlic needs:', ['Cool weather during growth and longer days for bulb development', 'Very hot weather throughout', 'Flooded fields', 'Short days for bulbing'], 0,
     'Sweet potato, by contrast, is a warm-season crop.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['IFoS-2021-A2-m11', 'IFoS-2020-A2-m17', 'CSE-2024-A2-m10', 'IFoS-2021-A2-m12', 'CSE-2014-A2-m10', 'CSE-1991-A2-m08', 'CSE-2011-A2-m13', 'IFoS-2000-A2-m10', 'CSE-2000-A2-m11', 'CSE-1992-A2-m15', 'CSE-1992-A2-m14'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['IFoS-2021-A2-m11', 'IFoS-2020-A2-m17', 'CSE-2024-A2-m10', 'IFoS-2021-A2-m12', 'CSE-2014-A2-m10', 'CSE-1991-A2-m08', 'CSE-2011-A2-m13', 'IFoS-2000-A2-m10', 'CSE-2000-A2-m11', 'CSE-1992-A2-m15', 'CSE-1992-A2-m14', 'CSE-2004-A2-m07'], q: [
   ['Edible bananas originated in:', ['South-East Asia (Indo-Malaysian region)', 'Africa', 'South America', 'Europe'], 0,
     'They come from *Musa acuminata* (A) and *M. balbisiana* (B).'],
   ['Grand Naine and Robusta belong to the banana genome group:', ['AAA (Cavendish)', 'AAB', 'ABB', 'BB'], 0,
@@ -44,7 +44,7 @@
   ['Papain is obtained from:', ['The latex of unripe papaya fruits', 'Papaya seeds', 'Ripe pulp', 'Leaves only'], 0,
     'Papaya ring spot virus is the major disease, spread by aphids.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2021-A2-m10', 'CSE-2011-A2-m08', 'CSE-2013-A2-m13', 'CSE-1995-A2-m08', 'CSE-2018-A2-m06', 'IFoS-2004-A2-m15', 'CSE-2025-A2-m07', 'CSE-2016-A2-m09', 'IFoS-2003-A2-m09', 'CSE-1998-A2-m08', 'CSE-2010-A2-m02', 'CSE-1993-A2-m11', 'CSE-2001-A2-m17', 'CSE-2011-A2-m07', 'CSE-1990-A2-m12', 'CSE-2023-A2-m13', 'CSE-1998-A2-m03'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2021-A2-m10', 'CSE-2011-A2-m08', 'CSE-2013-A2-m13', 'CSE-1995-A2-m08', 'CSE-2018-A2-m06', 'IFoS-2004-A2-m15', 'CSE-2025-A2-m07', 'CSE-2016-A2-m09', 'IFoS-2003-A2-m09', 'CSE-1998-A2-m08', 'CSE-2010-A2-m02', 'CSE-1993-A2-m11', 'CSE-2001-A2-m17', 'CSE-2011-A2-m07', 'CSE-1990-A2-m12', 'CSE-2023-A2-m13', 'CSE-1998-A2-m03', 'IFoS-2011-A2-m10', 'IFoS-2006-A2-m09', 'IFoS-2005-A2-m07'], q: [
   ['Fruit plants are usually propagated vegetatively because:', ['Seedlings are not true to type and take longer to bear', 'Seeds never germinate', 'It is cheaper always', 'Vegetative plants never get disease'], 0,
     'Rootstocks also add vigour control and soil or disease tolerance.'],
   ['Air layering (gootee) is the usual method for:', ['Litchi', 'Mango', 'Citrus', 'Apple'], 0,
@@ -66,7 +66,7 @@
   ['Apomixis is useful in horticulture because it gives:', ['Uniform, true-to-type seedlings for rootstocks', 'More variation', 'Seedless fruits', 'Larger flowers'], 0,
     'Apomictic seed is clonal.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['CSE-2012-A2-m07', 'CSE-1993-A2-m10', 'IFoS-2003-A2-m12', 'CSE-2000-A2-m18', 'CSE-2019-A2-m08', 'IFoS-2003-A2-m03', 'CSE-2009-A2-m08', 'CSE-1992-A2-m13', 'IFoS-2011-A2-m21', 'CSE-2000-A2-m14', 'CSE-2025-A2-m08'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['CSE-2012-A2-m07', 'CSE-1993-A2-m10', 'IFoS-2003-A2-m12', 'CSE-2000-A2-m18', 'CSE-2019-A2-m08', 'IFoS-2003-A2-m03', 'CSE-2009-A2-m08', 'CSE-1992-A2-m13', 'IFoS-2011-A2-m21', 'CSE-2000-A2-m14', 'CSE-2025-A2-m08', 'CSE-2006-A2-m08'], q: [
   ['Stenospermocarpy, as in Thompson Seedless grape, means:', ['Fertilisation occurs but the embryo aborts, leaving seed traces', 'Fruit forms without pollination', 'Fruit forms after pollination without fertilisation', 'Many seeds form'], 0,
     'Vegetative parthenocarpy (banana, pineapple) needs no pollination.'],
   ['Parthenocarpy can be induced in tomato and grapes by:', ['Auxins and gibberellins', 'Ethylene', 'Abscisic acid', 'Cytokinin alone'], 0,

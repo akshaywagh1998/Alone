@@ -44,7 +44,7 @@
   ['Programmes run for food security in India include:', ['NFSA/PDS, PM POSHAN, ICDS, NFSM and PM-KISAN income support', 'Only crop insurance', 'Only export promotion', 'Only irrigation'], 0,
     'Sustainable production also needs soil health, water efficiency and crop diversification.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: ['CSE-2025-A2-m27', 'IFoS-2017-A2-Q6c', 'IFoS-2016-A2-m27', 'CSE-2015-A2-m31', 'IFoS-2015-A2-m34', 'CSE-2006-A2-m26', 'IFoS-2004-A2-m30', 'CSE-2019-A2-m28', 'CSE-2015-A2-m34', 'CSE-1990-A2-m39', 'CSE-1995-A2-m31', 'CSE-2004-A2-m26', 'CSE-2020-A2-m23', 'CSE-2024-A2-m23', 'CSE-2024-A2-m02'], q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: ['CSE-2025-A2-m27', 'IFoS-2017-A2-Q6c', 'IFoS-2016-A2-m27', 'CSE-2015-A2-m31', 'IFoS-2015-A2-m34', 'CSE-2006-A2-m26', 'IFoS-2004-A2-m30', 'CSE-2019-A2-m28', 'CSE-2015-A2-m34', 'CSE-1990-A2-m39', 'CSE-1995-A2-m31', 'CSE-2004-A2-m26', 'CSE-2020-A2-m23', 'CSE-2024-A2-m23', 'CSE-2024-A2-m02', 'IFoS-2010-A2-m06', 'IFoS-2006-A2-m13', 'CSE-1991-A2-m19'], q: [
   ['Minimum support prices (MSP) are recommended by the:', ['Commission for Agricultural Costs and Prices (CACP)', 'Food Corporation of India', 'NABARD', 'Reserve Bank of India'], 0,
     'The Cabinet Committee on Economic Affairs announces MSP for 22 mandated crops; sugarcane has a fair and remunerative price.'],
   ['Since 2018–19 the government has fixed MSP at least:', ['1.5 times the A2+FL cost of production', 'Equal to the market price', 'Twice the C2 cost', 'Half the cost of production'], 0,
@@ -66,7 +66,7 @@
   ['A common cause of food inflation in India is:', ['Supply shocks such as monsoon failure, especially in perishables like tomato, onion and potato', 'High buffer stocks', 'Low demand', 'Falling input costs'], 0,
     'Tools used include buffer stocks, OMSS, export curbs and the Price Stabilisation Fund.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['IFoS-2018-A2-Q8a', 'CSE-1996-A2-m28', 'CSE-1989-A2-m46', 'CSE-1992-A2-m46', 'CSE-1990-A2-m37', 'IFoS-2016-A2-m30', 'CSE-1990-A2-m38', 'CSE-2021-A2-m27', 'CSE-1993-A2-m44', 'CSE-1995-A2-m33', 'CSE-2025-A2-m28', 'CSE-2015-A2-m32', 'CSE-1989-A2-m45', 'CSE-2001-A2-m28', 'CSE-1991-A2-m33', 'CSE-2015-A2-m27', 'IFoS-2021-A2-m23', 'IFoS-2020-A2-m06', 'IFoS-2001-A2-m10', 'CSE-1995-A2-m03', 'IFoS-2023-A2-m07', 'IFoS-2004-A2-m10', 'IFoS-2011-A2-m02', 'IFoS-2023-A2-m06', 'IFoS-2005-A2-m06'], q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['IFoS-2018-A2-Q8a', 'CSE-1996-A2-m28', 'CSE-1989-A2-m46', 'CSE-1992-A2-m46', 'CSE-1990-A2-m37', 'IFoS-2016-A2-m30', 'CSE-1990-A2-m38', 'CSE-2021-A2-m27', 'CSE-1993-A2-m44', 'CSE-1995-A2-m33', 'CSE-2025-A2-m28', 'CSE-2015-A2-m32', 'CSE-1989-A2-m45', 'CSE-2001-A2-m28', 'CSE-1991-A2-m33', 'CSE-2015-A2-m27', 'IFoS-2021-A2-m23', 'IFoS-2020-A2-m06', 'IFoS-2001-A2-m10', 'CSE-1995-A2-m03', 'IFoS-2023-A2-m07', 'IFoS-2004-A2-m10', 'IFoS-2011-A2-m02', 'IFoS-2023-A2-m06', 'IFoS-2005-A2-m06', 'IFoS-2024-A2-m27', 'IFoS-2004-A2-m21', 'CSE-1996-A2-m15', 'CSE-1992-A2-m18', 'CSE-1991-A2-m18', 'CSE-1989-A2-m38', 'IFoS-2001-A2-m01', 'IFoS-2000-A2-m01', 'CSE-1993-A2-m01'], q: [
   ['India\'s foodgrain production has risen from about 50 million tonnes in 1950–51 to:', ['Over 330 million tonnes by 2023–24', 'About 100 million tonnes', 'About 1,000 million tonnes', 'About 150 million tonnes'], 0,
     'Time-sensitive: final estimates for 2023–24 were about 332 Mt, and 2024–25 estimates are higher.'],
   ['The Green Revolution in India was driven mainly by:', ['Dwarf high-yielding wheat and rice varieties with irrigation, fertilisers and assured prices', 'Organic farming', 'Millet expansion in drylands', 'Mechanised tea estates'], 0,
@@ -110,7 +110,7 @@
   ['Millets are promoted as "nutri-cereals" for fighting malnutrition because they are:', ['Rich in minerals such as iron and calcium, dietary fibre and have a low glycaemic index', 'High in fat and sugar', 'Free of protein', 'Grown only with heavy irrigation'], 0,
     '2023 was the International Year of Millets, proposed by India.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['CSE-1995-A2-m34', 'CSE-2025-A2-m26', 'IFoS-2003-A2-m33', 'CSE-2014-A2-m29', 'CSE-2023-A2-m24', 'CSE-2021-A2-m22', 'IFoS-2015-A2-m30', 'IFoS-2011-A2-m14', 'IFoS-2015-A2-m10', 'IFoS-2015-A2-m06'], q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['CSE-1995-A2-m34', 'CSE-2025-A2-m26', 'IFoS-2003-A2-m33', 'CSE-2014-A2-m29', 'CSE-2023-A2-m24', 'CSE-2021-A2-m22', 'IFoS-2015-A2-m30', 'IFoS-2011-A2-m14', 'IFoS-2015-A2-m10', 'IFoS-2015-A2-m06', 'IFoS-2011-A2-m26', 'IFoS-2010-A2-m27'], q: [
   ['Foods are grouped by function into:', ['Energy-giving (cereals, fats, sugar), body-building (pulses, milk, eggs, meat) and protective (fruits, vegetables)', 'Sweet, sour and salty', 'Raw and cooked', 'Local and imported'], 0,
     'Protective foods supply vitamins and minerals.'],
   ['A balanced diet is one that:', ['Supplies all nutrients in the right amounts and proportions for health', 'Has equal weights of all foods', 'Contains only cereals and pulses', 'Avoids all fats'], 0,
@@ -132,7 +132,7 @@
   ['Among common fruits, an outstanding source of vitamin C is:', ['Aonla (Indian gooseberry)', 'Banana', 'Grape', 'Apple'], 0,
     'Aonla has several hundred mg of vitamin C per 100 g; guava is also rich.']
 ] },
-{ p: 'A2', t: 'Post-harvest & Agribusiness', w: 2, pyq: ['CSE-2026-A2-Q8c', 'CSE-2022-A2-m28', 'IFoS-2012-A2-m29', 'CSE-1995-A2-m30', 'IFoS-2003-A2-m32', 'IFoS-2003-A2-m31', 'IFoS-2003-A2-m34', 'CSE-2018-A2-m28', 'IFoS-2016-A2-m29', 'CSE-2010-A2-m29', 'IFoS-2023-A2-m05', 'CSE-1997-A2-m04', 'CSE-1989-A2-m01', 'CSE-1993-A2-m05', 'CSE-1989-A2-m02'], q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['CSE-2026-A2-Q8c', 'CSE-2022-A2-m28', 'IFoS-2012-A2-m29', 'CSE-1995-A2-m30', 'IFoS-2003-A2-m32', 'IFoS-2003-A2-m31', 'IFoS-2003-A2-m34', 'CSE-2018-A2-m28', 'IFoS-2016-A2-m29', 'CSE-2010-A2-m29', 'IFoS-2023-A2-m05', 'CSE-1997-A2-m04', 'CSE-1989-A2-m01', 'CSE-1993-A2-m05', 'CSE-1989-A2-m02'], q: [
   ['Major causes of post-harvest losses of fruits and vegetables in India are:', ['High perishability, rough handling, lack of cold chain and storage, and poor transport', 'Excessive processing', 'Too many cold stores', 'Low production'], 0,
     'Grading, proper packaging, pre-cooling and cold chains reduce losses.'],
   ['Spoilage of fruits and vegetables is caused by:', ['Microbes, enzymes, continued respiration and water loss, and mechanical injury', 'Only insects', 'Only sunlight', 'Only freezing'], 0,
@@ -154,7 +154,7 @@
   ['Before drying, green black-pepper berries are often blanched in hot water for about a minute to:', ['Get a uniform glossy black colour and faster drying', 'Remove the skin', 'Make white pepper', 'Kill the seed embryo for sowing'], 0,
     'Aonla is usually processed (murabba, candy) because the raw fruit is very astringent.']
 ] },
-{ p: 'A2', t: 'Post-harvest & Agribusiness', w: 2, pyq: ['CSE-2020-A2-m28', 'IFoS-2016-A2-m28', 'CSE-2018-A2-m17', 'CSE-2026-A2-Q8b'], q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['CSE-2020-A2-m28', 'IFoS-2016-A2-m28', 'CSE-2018-A2-m17', 'CSE-2026-A2-Q8b'], q: [
   ['The post-harvest life of cut flowers is shortened mainly by:', ['Ethylene, water stress from blocked stems, depleted sugars and high temperature', 'Low temperature storage', 'Clean water', 'Sugar in the vase'], 0,
     'Microbes in vase water block xylem vessels.'],
   ['Silver thiosulphate (STS) extends vase life by:', ['Blocking the action of ethylene', 'Adding sugar', 'Killing insects', 'Raising pH'], 0,

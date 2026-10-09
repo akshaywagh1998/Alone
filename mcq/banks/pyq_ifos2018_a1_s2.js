@@ -66,7 +66,7 @@
   ['India created a separate Union Ministry of Cooperation in:', ['2021', '1991', '2004', '2014'], 0,
     'It is meant to strengthen the cooperative movement.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: ['IFoS-2018-A1-Q5d', 'IFoS-2020-A1-m19'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: ['IFoS-2018-A1-Q5d', 'IFoS-2020-A1-m19', 'IFoS-2022-A1-m19'], q: [
   ['Minimum support prices are recommended by the:', ['Commission for Agricultural Costs and Prices (CACP)', 'Food Corporation of India', 'NABARD', 'Reserve Bank of India'], 0,
     'It began in 1965 as the Agricultural Prices Commission.'],
   ['Since 2018–19, MSPs have been fixed at no less than:', ['1.5 times the A2+FL cost of production', '1.5 times the C2 cost', 'Twice the A1 cost', 'The market price'], 0,

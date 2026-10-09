@@ -132,7 +132,7 @@
   ['Malathion is an organophosphate that kills insects by:', ['Inhibiting acetylcholinesterase', 'Blocking chitin synthesis', 'Acting as a juvenile hormone', 'Blocking sodium channels only'], 0,
     'Acetylcholine then builds up at the nerve synapses.']
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: 'IFoS-2018-A2-Q6b', q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2018-A2-Q6b', 'CSE-1992-A2-m16'], q: [
   ['The main problem in marketing fruits and vegetables is their:', ['Perishability, leading to heavy post-harvest losses', 'Long shelf life', 'Low demand', 'Uniform quality'], 0,
     'A weak cold chain makes the losses worse.'],
   ['Seasonal gluts of fruits and vegetables lead to:', ['Price crashes and distress sales', 'Stable prices', 'Shortages', 'Higher producer share'], 0,
@@ -176,7 +176,7 @@
   ['Deciduous fruit trees such as apple, pear and peach are pruned mainly:', ['In winter, during dormancy', 'At flowering', 'At fruit set', 'Just before harvest'], 0,
     'Dormant pruning causes the least stress.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: ['IFoS-2018-A2-Q6d', 'CSE-2019-A2-m27'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: ['IFoS-2018-A2-Q6d', 'CSE-2019-A2-m27', 'IFoS-2011-A2-m13'], q: [
   ['Biological control of plant diseases is:', ['Using living organisms to suppress plant pathogens', 'Using chemical fungicides', 'Breeding resistant varieties only', 'Burning crop residues'], 0,
     'It is a key part of integrated disease management.'],
   ['The mechanisms of biocontrol include:', ['Antibiosis, competition, mycoparasitism and induced resistance', 'Only fertiliser supply', 'Only physical barriers', 'Only chemical toxicity'], 0,
@@ -242,7 +242,7 @@
   ['An idiobiont parasitoid, unlike a koinobiont, is one that:', ['Stops the host developing further once it attacks', 'Lets the host keep growing', 'Never kills the host', 'Feeds on plants'], 0,
     'Egg and pupal parasitoids are often idiobionts.']
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['IFoS-2018-A2-Q7c', 'IFoS-2010-A2-m11', 'CSE-2010-A2-m05', 'IFoS-2009-A2-m06', 'IFoS-2005-A2-m15', 'CSE-2005-A2-m07', 'CSE-2002-A2-m09', 'IFoS-2016-A2-m14', 'IFoS-2015-A2-m14', 'IFoS-2010-A2-m15', 'IFoS-2003-A2-m04', 'CSE-2001-A2-m07', 'IFoS-2024-A2-m17', 'CSE-2003-A2-m09', 'CSE-2012-A2-m08', 'IFoS-2012-A2-m17', 'CSE-1992-A2-m10'], q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['IFoS-2018-A2-Q7c', 'IFoS-2010-A2-m11', 'CSE-2010-A2-m05', 'IFoS-2009-A2-m06', 'IFoS-2005-A2-m15', 'CSE-2005-A2-m07', 'CSE-2002-A2-m09', 'IFoS-2016-A2-m14', 'IFoS-2015-A2-m14', 'IFoS-2010-A2-m15', 'IFoS-2003-A2-m04', 'CSE-2001-A2-m07', 'IFoS-2024-A2-m17', 'CSE-2003-A2-m09', 'CSE-2012-A2-m08', 'IFoS-2012-A2-m17', 'CSE-1992-A2-m10', 'CSE-1997-A2-m02'], q: [
   ['A formal garden is:', ['Symmetrical and geometric, with straight lines and clipped plants', 'Irregular and natural', 'A vegetable plot', 'A wild forest'], 0,
     'Mughal and French gardens are formal.'],
   ['An informal garden is:', ['Asymmetrical and naturalistic, with curved paths and irregular planting', 'Strictly symmetrical', 'Always square', 'Made only of hedges'], 0,
@@ -308,7 +308,7 @@
   ['A key institutional constraint for small farmers is:', ['Poor access to credit, markets and extension services', 'Too many advisers', 'Surplus market access', 'Excess insurance'], 0,
     'FPOs and digital services aim to close these gaps.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2018-A2-Q8b', 'IFoS-2022-A2-m28', 'CSE-2019-A2-m25', 'IFoS-2016-A2-m26', 'CSE-2010-A2-m27', 'IFoS-2006-A2-m29', 'CSE-2005-A2-m21', 'IFoS-2025-A2-Q5c', 'CSE-2003-A2-m24', 'IFoS-2021-A2-m26', 'CSE-1992-A2-m44', 'CSE-2016-A2-m28', 'IFoS-2015-A2-m29'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2018-A2-Q8b', 'IFoS-2022-A2-m28', 'CSE-2019-A2-m25', 'IFoS-2016-A2-m26', 'CSE-2010-A2-m27', 'IFoS-2006-A2-m29', 'CSE-2005-A2-m21', 'IFoS-2025-A2-Q5c', 'CSE-2003-A2-m24', 'IFoS-2021-A2-m26', 'CSE-1992-A2-m44', 'CSE-2016-A2-m28', 'IFoS-2015-A2-m29', 'IFoS-2019-A2-m02', 'CSE-1992-A2-m03', 'CSE-1992-A2-m02', 'IFoS-2023-A2-m10', 'IFoS-2016-A2-m06'], q: [
   ['The pulse beetle, the main pest of stored pulses, is:', ['*Callosobruchus chinensis* or *C. maculatus*', '*Sitophilus oryzae*', '*Tribolium castaneum*', '*Trogoderma granarium*'], 0,
     'It infests pods in the field and multiplies in store.'],
   ['The rice weevil *Sitophilus oryzae* is:', ['An internal feeder whose larvae develop inside the grain', 'A pest of flour only', 'A field pest of leaves', 'A predator'], 0,

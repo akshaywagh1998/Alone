@@ -44,7 +44,7 @@
   ['Humus improves soil fertility because it:', ['Has a high cation exchange capacity and stores nutrients and water', 'Is chemically inert', 'Lowers water holding', 'Makes soil compact'], 0,
     'It also improves structure and microbial activity.']
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2019-A1-m21', 'CSE-2015-A1-m19', 'IFoS-2009-A1-m15', 'CSE-1997-A1-m07', 'CSE-2014-A1-m22', 'IFoS-2004-A1-m10', 'IFoS-2023-A1-m25', 'IFoS-2018-A1-Q2b', 'CSE-1991-A1-m06', 'IFoS-2022-A1-m24'], q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2019-A1-m21', 'CSE-2015-A1-m19', 'IFoS-2009-A1-m15', 'CSE-1997-A1-m07', 'CSE-2014-A1-m22', 'IFoS-2004-A1-m10', 'IFoS-2023-A1-m25', 'CSE-1991-A1-m06', 'IFoS-2022-A1-m24'], q: [
   ['Urea contains about:', ['46% N', '20.6% N', '82% N', '16% N'], 0,
     'Ammonium sulphate has 20.6% N and 24% S; anhydrous ammonia 82% N.'],
   ['DAP (diammonium phosphate) has a grade of:', ['18-46-0', '46-0-0', '10-26-26', '0-0-60'], 0,

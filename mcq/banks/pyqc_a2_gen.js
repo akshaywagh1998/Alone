@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture II — Genetics and cell biology: GM crops, chromosomes, linkage, cell division and basic genetic terms. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: ['IFoS-2023-A2-m15', 'CSE-2020-A2-m04', 'CSE-2019-A2-m05', 'CSE-2015-A2-m03', 'CSE-2013-A2-m04', 'CSE-2011-A2-m02', 'CSE-2002-A2-m05', 'CSE-2014-A2-m08', 'IFoS-2013-A2-m12', 'IFoS-2019-A2-m06', 'IFoS-2012-A2-m10', 'CSE-2005-A2-m03', 'CSE-2009-A2-m23', 'IFoS-2001-A2-m17', 'CSE-1999-A2-m09', 'CSE-2003-A2-m11'], q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: ['IFoS-2023-A2-m15', 'CSE-2020-A2-m04', 'CSE-2019-A2-m05', 'CSE-2015-A2-m03', 'CSE-2013-A2-m04', 'CSE-2011-A2-m02', 'CSE-2002-A2-m05', 'CSE-2014-A2-m08', 'IFoS-2013-A2-m12', 'IFoS-2019-A2-m06', 'IFoS-2012-A2-m10', 'CSE-2005-A2-m03', 'CSE-2009-A2-m23', 'IFoS-2001-A2-m17', 'CSE-1999-A2-m09', 'CSE-2003-A2-m11', 'CSE-2002-A2-m01', 'IFoS-2013-A2-m25'], q: [
   ['A genetically modified (transgenic) crop is one that:', ['Carries a gene introduced by genetic engineering, often from another species', 'Was bred by mass selection', 'Is a natural mutant', 'Is grown organically'], 0,
     'Bt cotton carries *cry* genes from *Bacillus thuringiensis*.'],
   ['*Agrobacterium*-mediated gene transfer works because the bacterium:', ['Transfers T-DNA from its Ti plasmid into the plant genome', 'Injects proteins only', 'Fuses with plant cells', 'Shoots DNA-coated particles'], 0,
@@ -22,7 +22,7 @@
   ['Selectable marker genes in transformation, such as *nptII*, are used to:', ['Identify transformed cells, e.g. by kanamycin resistance', 'Increase yield', 'Kill the plant', 'Cause sterility'], 0,
     'Marker-free methods are now preferred for release.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: ['CSE-2020-A2-m01', 'IFoS-2019-A2-m05', 'IFoS-2015-A2-m12', 'CSE-2006-A2-m01', 'CSE-2005-A2-m05', 'CSE-2024-A2-m04', 'CSE-2020-A2-m02', 'CSE-2018-A2-m01', 'IFoS-2004-A2-m12', 'IFoS-2023-A2-m13', 'IFoS-2020-A2-m15', 'IFoS-2019-A2-m03', 'CSE-2022-A2-m03', 'CSE-2012-A2-m02', 'CSE-2010-A2-m15', 'IFoS-2010-A2-m18'], q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: ['CSE-2020-A2-m01', 'IFoS-2019-A2-m05', 'IFoS-2015-A2-m12', 'CSE-2006-A2-m01', 'CSE-2005-A2-m05', 'CSE-2024-A2-m04', 'CSE-2020-A2-m02', 'CSE-2018-A2-m01', 'IFoS-2004-A2-m12', 'IFoS-2023-A2-m13', 'IFoS-2020-A2-m15', 'IFoS-2019-A2-m03', 'CSE-2022-A2-m03', 'CSE-2012-A2-m02', 'CSE-2010-A2-m15', 'IFoS-2010-A2-m18', 'CSE-2000-A2-m01'], q: [
   ['By centromere position, a chromosome with the centromere in the middle is:', ['Metacentric', 'Acrocentric', 'Telocentric', 'Submetacentric'], 0,
     'Submetacentric is off-centre; acrocentric near one end; telocentric at the end.'],
   ['Heterochromatin differs from euchromatin in being:', ['Densely packed and largely inactive in transcription', 'Loosely packed and active', 'Absent in plants', 'Made of RNA'], 0,
@@ -44,7 +44,7 @@
   ['The nucleosome model of chromatin was proposed by:', ['Kornberg (1974)', 'Watson and Crick', 'Morgan', 'McClintock'], 0,
     'About 146 bp of DNA wraps around a histone octamer.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2023-A2-m12', 'IFoS-2021-A2-m08', 'CSE-2010-A2-m01', 'CSE-2000-A2-m08', 'CSE-1994-A2-m04', 'CSE-1994-A2-m05', 'CSE-2015-A2-m02', 'CSE-1994-A2-m08'], q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2023-A2-m12', 'IFoS-2021-A2-m08', 'CSE-2010-A2-m01', 'CSE-2000-A2-m08', 'CSE-1994-A2-m04', 'CSE-1994-A2-m05', 'CSE-2015-A2-m02', 'CSE-1994-A2-m08', 'IFoS-2001-A2-m04', 'CSE-1997-A2-m05', 'IFoS-2011-A2-m09', 'IFoS-2024-A2-m05'], q: [
   ['Linkage is:', ['The tendency of genes on the same chromosome to be inherited together', 'Independent assortment', 'Exchange of segments between homologues', 'Loss of a chromosome'], 0,
     'Crossing over breaks linkage and creates recombinants.'],
   ['Crossing over occurs at:', ['Pachytene of prophase I, between non-sister chromatids', 'Anaphase II', 'Mitotic metaphase', 'Interphase'], 0,
@@ -66,7 +66,7 @@
   ['Morgan\'s work on *Drosophila* showed that:', ['Genes are arranged linearly on chromosomes and can be mapped by recombination', 'Genes are in the cytoplasm', 'DNA is a protein', 'All genes assort independently'], 0,
     'Sturtevant made the first linkage map in 1913.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['CSE-2005-A2-m13', 'CSE-1998-A2-m11', 'CSE-2012-A2-m18', 'IFoS-2003-A2-m26', 'IFoS-2023-A2-m25', 'CSE-2023-A2-m16', 'CSE-2024-A2-m16', 'CSE-1999-A2-m18', 'CSE-1996-A2-m17', 'CSE-2019-A2-m21', 'CSE-2011-A2-m21', 'IFoS-2005-A2-m22', 'CSE-2005-A2-m12', 'CSE-1999-A2-m17', 'CSE-2003-A2-m20', 'CSE-1998-A2-m12'], q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['CSE-2005-A2-m13', 'CSE-1998-A2-m11', 'CSE-2012-A2-m18', 'IFoS-2003-A2-m26', 'IFoS-2023-A2-m25', 'CSE-2023-A2-m16', 'CSE-2024-A2-m16', 'CSE-1999-A2-m18', 'CSE-1996-A2-m17', 'CSE-2019-A2-m21', 'CSE-2011-A2-m21', 'IFoS-2005-A2-m22', 'CSE-2005-A2-m12', 'CSE-1999-A2-m17', 'CSE-1998-A2-m12', 'IFoS-2022-A2-m03'], q: [
   ['Mitosis differs from meiosis in that mitosis:', ['Produces two genetically identical diploid cells', 'Halves the chromosome number', 'Involves crossing over', 'Produces four gametes'], 0,
     'Meiosis gives four haploid cells and generates variation.'],
   ['The stages of interphase in order are:', ['G₁ → S → G₂', 'S → G₁ → G₂', 'G₂ → S → G₁', 'M → G₁ → S'], 0,

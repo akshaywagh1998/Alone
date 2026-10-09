@@ -44,7 +44,7 @@
   ['The main role of public seed institutions is to:', ['Ensure supply of quality seed of public varieties, especially for self-pollinated crops, at fair prices', 'Replace all private firms', 'Produce only hybrids', 'Export all seed'], 0,
     'The private sector dominates hybrids and vegetables.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2025-A2-Q1c', 'IFoS-2019-A2-m16', 'IFoS-2018-A2-Q3c', 'CSE-2004-A2-m18', 'CSE-1990-A2-m22', 'CSE-2016-A2-m19', 'CSE-2014-A2-m19', 'IFoS-2002-A2-m15', 'CSE-1989-A2-m30', 'IFoS-2021-A2-m18', 'CSE-2019-A2-m23', 'CSE-2018-A2-m13', 'IFoS-2005-A2-m28', 'CSE-2005-A2-m18', 'CSE-1995-A2-m19', 'CSE-2011-A2-m22', 'CSE-2023-A2-m17', 'IFoS-2023-A2-m27', 'CSE-2010-A2-m20', 'IFoS-2012-A2-m23'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2025-A2-Q1c', 'IFoS-2019-A2-m16', 'IFoS-2018-A2-Q3c', 'CSE-2004-A2-m18', 'CSE-1990-A2-m22', 'CSE-2016-A2-m19', 'CSE-2014-A2-m19', 'IFoS-2002-A2-m15', 'CSE-1989-A2-m30', 'IFoS-2021-A2-m18', 'CSE-2019-A2-m23', 'IFoS-2005-A2-m28', 'CSE-2005-A2-m18', 'CSE-1995-A2-m19', 'CSE-2011-A2-m22', 'CSE-2023-A2-m17', 'IFoS-2023-A2-m27', 'CSE-2010-A2-m20', 'IFoS-2012-A2-m23'], q: [
   ['Most water loss by transpiration occurs through:', ['Stomata (about 90% or more)', 'Cuticle', 'Lenticels', 'Roots'], 0,
     'Cuticular and lenticular transpiration are minor.'],
   ['Transpiration increases when:', ['Light and temperature rise, humidity falls and wind increases', 'Humidity is high and air still', 'Stomata close', 'Soil water is depleted'], 0,
@@ -198,7 +198,7 @@
   ['The gene pool concept guides germplasm work by showing:', ['How easily useful genes can be transferred from each group of relatives', 'The price of seed', 'Which fertiliser to use', 'Where to sell produce'], 0,
     'It helps set collection and conservation priorities.'],
 ] },
-{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2025-A2-Q3b', 'IFoS-2020-A2-m14', 'CSE-2019-A2-m07', 'CSE-2016-A2-m06', 'CSE-1992-A2-m06'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2025-A2-Q3b', 'IFoS-2020-A2-m14', 'CSE-2019-A2-m07', 'CSE-2016-A2-m06', 'CSE-1992-A2-m06', 'IFoS-2023-A2-m01'], q: [
   ['Multiline varieties, first proposed by Jensen and Borlaug, are:', ['Mixtures of near-isogenic lines carrying different resistance genes', 'Single pure lines', 'Hybrids', 'Mutants'], 0,
     'They slow epidemics by diluting susceptible tissue.'],
   ['KML 7406, released in India in 1981, is a:', ['Multiline wheat variety', 'Hybrid maize', 'Bt cotton', 'Rice mutant'], 0,
@@ -374,7 +374,7 @@
   ['Drying pulses well before storage helps mainly because it:', ['Keeps moisture too low for storage fungi and insects to thrive', 'Increases seed size', 'Adds protein', 'Kills all bacteria permanently'], 0,
     'Proper drying is the cheapest protection.'],
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2025-A2-Q5d', 'CSE-2004-A2-m05'], q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2025-A2-Q5d', 'CSE-2004-A2-m05', 'IFoS-2016-A2-m07', 'CSE-1992-A2-m39'], q: [
   ['Botulinum toxin, the most potent known toxin, is produced by:', ['*Clostridium botulinum*, especially in improperly canned foods', '*Staphylococcus aureus*', '*Bacillus cereus*', '*Aspergillus flavus*'], 0,
     'It is a neurotoxin; proper canning (heat) destroys the spores.'],
   ['Food poisoning from *Staphylococcus aureus* is difficult to prevent by reheating because its enterotoxin is:', ['Heat-stable', 'Destroyed at 40 °C', 'Only present in raw vegetables', 'A virus'], 0,
@@ -418,7 +418,7 @@
   ['Transparency under NFSA is supported by:', ['Placing PDS records in the public domain and conducting social audits', 'Keeping all records secret', 'Removing vigilance committees', 'Stopping computerisation'], 0,
     'End-to-end computerisation of TPDS was also undertaken.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q6a', 'CSE-2010-A2-m04', 'IFoS-2011-A2-m20', 'IFoS-2005-A2-m14', 'IFoS-2003-A2-m11'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q6a', 'CSE-2010-A2-m04', 'IFoS-2011-A2-m20', 'IFoS-2005-A2-m14', 'IFoS-2003-A2-m11', 'CSE-2018-A2-m23'], q: [
   ['The most popular commercial pomegranate variety in India is:', ['Bhagwa (Kesar)', 'Alphonso', 'Kinnow', 'Thompson Seedless'], 0,
     'Known for deep red arils and skin; Ganesh and Mridula are others.'],
   ['ICAR’s National Research Centre on Pomegranate is at:', ['Solapur, Maharashtra', 'Lucknow', 'Bengaluru', 'Shimla'], 0,
@@ -462,7 +462,7 @@
   ['Under the NFSA, millets (coarse grains) can be distributed through the PDS:', ['Yes — coarse grains are included, and states can procure and distribute them', 'No, only rice and wheat are allowed', 'Only in cities', 'Only for export'], 0,
     'Several states distribute ragi, jowar or bajra through the PDS.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2025-A2-Q6c', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2025-A2-Q6c', 'IFoS-2012-A2-m04'], q: [
   ['Acid scarification to break hard-seed dormancy uses:', ['Concentrated sulphuric acid for a set time, followed by thorough washing', 'Dilute acetic acid for a week', 'Hydrochloric acid spray on plants', 'Nitric acid in soil'], 0,
     'Used for some legumes and tree seeds.'],
   ['Teak seed dormancy is commonly overcome by:', ['Alternate soaking and drying of the fruits', 'Freezing for a month', 'Acid treatment for a day', 'Keeping them in darkness'], 0,
@@ -484,7 +484,7 @@
   ['Hot-water treatment for hard-coated seeds (e.g., *Acacia*) works by:', ['Softening or cracking the impermeable seed coat so water can enter', 'Killing the embryo', 'Adding nutrients', 'Stopping respiration'], 0,
     'Seeds are placed in hot water that is allowed to cool.'],
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2025-A2-Q7a', 'IFoS-2018-A2-Q6b', 'CSE-2006-A2-m06', 'IFoS-2005-A2-m10', 'CSE-2003-A2-m08', 'CSE-2001-A2-m15', 'IFoS-2021-A2-m12', 'CSE-1993-A2-m13', 'IFoS-2024-A2-m15', 'CSE-1996-A2-m10'], q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2025-A2-Q7a', 'IFoS-2018-A2-Q6b', 'CSE-2006-A2-m06', 'IFoS-2005-A2-m10', 'CSE-2003-A2-m08', 'CSE-2001-A2-m15', 'IFoS-2021-A2-m12', 'CSE-1993-A2-m13', 'IFoS-2024-A2-m15', 'CSE-1996-A2-m10', 'CSE-2018-A2-m24'], q: [
   ['Operation Greens was extended in 2021 from tomato, onion and potato to cover:', ['22 perishable commodities', 'Only cereals', 'Only exports', 'Only pulses'], 0,
     'It had first been extended temporarily to all fruits and vegetables in 2020.'],
   ['The national portal for daily prices and arrivals in agricultural markets is:', ['Agmarknet', 'Bhuvan', 'Meghdoot', 'SATHI'], 0,
@@ -572,7 +572,7 @@
   ['Decentralised procurement (DCP) helps food policy by:', ['Letting states procure and distribute locally, saving transport and widening procurement', 'Centralising all procurement', 'Ending PDS', 'Increasing imports'], 0,
     'It also supports farmers in states with little central procurement.'],
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2025-A2-Q8b', 'IFoS-2022-A2-m30', 'IFoS-2016-A2-m25', 'CSE-2015-A2-m30', 'CSE-2009-A2-m26', 'IFoS-2005-A2-m30', 'IFoS-2005-A2-m32', 'IFoS-2003-A2-m30', 'IFoS-2000-A2-m16', 'IFoS-2000-A2-m18', 'CSE-1993-A2-m42', 'CSE-1991-A2-m30', 'CSE-1990-A2-m32', 'CSE-1989-A2-m41', 'CSE-1994-A2-m15'], q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2025-A2-Q8b', 'IFoS-2021-A2-m03', 'IFoS-2021-A2-m04'], q: [
   ['Chilli leaves curling UPWARD are typically caused by:', ['Thrips (*Scirtothrips dorsalis*)', 'Mites', 'Aphids', 'Whitefly only'], 0,
     'Downward curling with a leathery look is typical of mites (e.g., the broad mite).'],
   ['The broad (yellow) mite causing downward leaf curl in chilli is:', ['*Polyphagotarsonemus latus*', '*Tetranychus urticae*', '*Scirtothrips dorsalis*', '*Bemisia tabaci*'], 0,

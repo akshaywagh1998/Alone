@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture II — plant diseases: resistance, fungicides, transmission, viruses and phytoplasmas, epidemiology and IDM, diagnosis, and diseases of field, vegetable, fruit and plantation crops. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 3, pyq: ['CSE-2026-A2-Q2a', 'IFoS-2006-A2-m26', 'IFoS-2004-A2-m26', 'IFoS-2001-A2-m21', 'CSE-1993-A2-m32', 'CSE-2022-A2-m18', 'CSE-2016-A2-m26', 'CSE-2013-A2-m29', 'IFoS-2010-A2-m22', 'CSE-1995-A2-m20', 'IFoS-2004-A2-m27', 'CSE-1993-A2-m36', 'IFoS-2013-A2-m30', 'CSE-2012-A2-m22', 'CSE-1991-A2-m28', 'CSE-1993-A2-m35', 'CSE-1995-A2-m25', 'CSE-1993-A2-m37'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: ['CSE-2026-A2-Q2a', 'IFoS-2006-A2-m26', 'IFoS-2004-A2-m26', 'IFoS-2001-A2-m21', 'CSE-1993-A2-m32', 'CSE-2022-A2-m18', 'CSE-2016-A2-m26', 'CSE-2013-A2-m29', 'IFoS-2010-A2-m22', 'CSE-1995-A2-m20', 'IFoS-2004-A2-m27', 'CSE-1993-A2-m36', 'IFoS-2013-A2-m30', 'CSE-2012-A2-m22', 'CSE-1991-A2-m28', 'CSE-1993-A2-m35', 'CSE-1995-A2-m25', 'CSE-1993-A2-m37', 'IFoS-2012-A2-m09', 'IFoS-2020-A2-m03', 'IFoS-2011-A2-m11', 'CSE-2000-A2-m02', 'CSE-2022-A2-m01'], q: [
   ['Vertical resistance (Van der Plank) is:', ['Race-specific, usually controlled by one or a few major genes, and often broken by new races', 'Effective against all races and controlled by many minor genes', 'Another name for disease escape', 'Resistance produced by fungicides'], 0,
     'Its sudden breakdown after a new race appears is called the "boom and bust" cycle.'],
   ['Horizontal resistance is generally preferred for long-term use because it:', ['Is polygenic, race non-specific and durable, slowing disease rather than stopping it', 'Gives complete immunity to one race', 'Depends on a single gene', 'Needs no breeding effort'], 0,
@@ -22,7 +22,7 @@
   ['Improved Samba Mahsuri rice resists bacterial leaf blight because breeders:', ['Pyramided the resistance genes *Xa21*, *xa13* and *xa5* using marker-assisted selection', 'Sprayed it with antibiotics', 'Induced polyploidy', 'Removed its stomata'], 0,
     'Gene pyramiding makes resistance more durable than a single gene.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['CSE-2015-A2-m26', 'IFoS-2000-A2-m12', 'IFoS-2000-A2-m15', 'CSE-2004-A2-m20', 'IFoS-2003-A2-m27', 'CSE-1990-A2-m30', 'CSE-2001-A2-m18', 'IFoS-2002-A2-m19'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['CSE-2015-A2-m26', 'IFoS-2000-A2-m12', 'IFoS-2000-A2-m15', 'CSE-2004-A2-m20', 'IFoS-2003-A2-m27', 'CSE-1990-A2-m30', 'CSE-2001-A2-m18', 'IFoS-2002-A2-m19', 'IFoS-2010-A2-m03'], q: [
   ['Fungicides are classified by chemistry into groups such as:', ['Inorganic (sulphur, copper), dithiocarbamates, benzimidazoles, triazoles and phenylamides', 'Organophosphates and pyrethroids', 'Auxins and gibberellins', 'Urea and DAP'], 0,
     'They are also grouped by use as protectants, eradicants and systemic (therapeutic) chemicals.'],
   ['Bordeaux mixture, the first widely used fungicide, is made from:', ['Copper sulphate and lime in water', 'Sulphur and lime', 'Mercury and copper', 'Zinc and sulphur'], 0,
@@ -44,7 +44,7 @@
   ['Late blight of potato is commonly managed by:', ['Protective mancozeb sprays before blight weather and metalaxyl + mancozeb once it appears', 'Spraying urea', 'Flood irrigation', 'Using insecticides only'], 0,
     'Healthy seed, resistant varieties and haulm cutting also help.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['IFoS-2015-A2-m28', 'IFoS-2006-A2-m25', 'CSE-2006-A2-m20', 'IFoS-2002-A2-m18', 'CSE-1995-A2-m22', 'CSE-1994-A2-m14', 'CSE-1996-A2-m16', 'CSE-1990-A2-m14', 'IFoS-2014-A2-m16', 'CSE-2009-A2-m12', 'CSE-2012-A2-m23', 'CSE-2011-A2-m27'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2015-A2-m28', 'IFoS-2006-A2-m25', 'CSE-2006-A2-m20', 'IFoS-2002-A2-m18', 'CSE-1995-A2-m22', 'CSE-1994-A2-m14', 'CSE-1996-A2-m16', 'CSE-1990-A2-m14', 'IFoS-2014-A2-m16', 'CSE-2009-A2-m12', 'CSE-2012-A2-m23', 'CSE-2011-A2-m27', 'IFoS-2014-A2-m05', 'IFoS-2002-A2-m02', 'CSE-1992-A2-m01', 'CSE-2021-A2-m15'], q: [
   ['Loose smut of wheat is an internally seed-borne disease controlled by:', ['Solar or hot-water seed treatment, or systemic fungicides like carboxin or tebuconazole', 'Spraying at flowering only', 'Soil fumigation', 'Insecticides'], 0,
     'The fungus (*Ustilago segetum* var. *tritici*) survives as mycelium inside the embryo.'],
   ['Seed of cabbage and cauliflower is freed of black rot bacteria by:', ['Hot-water treatment at about 50 °C for 25–30 minutes', 'Soaking in urea', 'Freezing', 'Sun-drying for an hour'], 0,
@@ -66,7 +66,7 @@
   ['Vector-borne virus diseases in vegetables are best managed by:', ['Virus-free seedlings, vector control, barrier crops like maize, reflective mulches and roguing infected plants', 'Fungicide sprays only', 'Heavy nitrogen', 'Late sowing in hot weather'], 0,
     'Chemicals cannot cure plants once virus-infected.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['CSE-2011-A2-m25', 'CSE-2011-A2-m26', 'CSE-1995-A2-m21', 'CSE-1989-A2-m13', 'CSE-1991-A2-m03', 'IFoS-2012-A2-m25', 'CSE-1991-A2-m06', 'IFoS-2021-A2-m13'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['CSE-2011-A2-m25', 'CSE-2011-A2-m26', 'CSE-1995-A2-m21', 'CSE-1989-A2-m13', 'CSE-1991-A2-m03', 'IFoS-2012-A2-m25', 'CSE-1991-A2-m06', 'IFoS-2021-A2-m13'], q: [
   ['Viroids are:', ['Small, circular, single-stranded RNA molecules without a protein coat', 'Bacteria without cell walls', 'Viruses with DNA and a coat', 'Fungal spores'], 0,
     'T. O. Diener discovered the first, potato spindle tuber viroid (PSTVd), in 1971.'],
   ['Potato spindle tuber disease produces:', ['Elongated, spindle-shaped tubers with prominent eyes and erect, stunted foliage', 'Black hearts in tubers', 'White powdery leaves', 'Galls on roots'], 0,
@@ -88,7 +88,7 @@
   ['Symptoms typical of virus diseases are:', ['Mosaic, mottling, vein clearing, leaf curl, ring spots and stunting, with no visible signs of the pathogen', 'White powdery growth on leaves', 'Rust pustules', 'Bacterial ooze'], 0,
     'Fungi and bacteria often show signs such as spores, mycelium or ooze.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 3, pyq: ['CSE-2016-A2-m25', 'CSE-2014-A2-m25', 'CSE-2004-A2-m06', 'CSE-2009-A2-m11', 'CSE-2023-A2-m23', 'IFoS-2012-A2-m26', 'CSE-1993-A2-m34', 'IFoS-2002-A2-m17', 'CSE-1993-A2-m38'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: ['CSE-2016-A2-m25', 'CSE-2014-A2-m25', 'CSE-2004-A2-m06', 'CSE-2009-A2-m11', 'CSE-2023-A2-m23', 'IFoS-2012-A2-m26', 'CSE-1993-A2-m34', 'IFoS-2002-A2-m17', 'CSE-1993-A2-m38', 'CSE-1990-A2-m32', 'IFoS-2005-A2-m30'], q: [
   ['A plant disease epidemic (epiphytotic) is:', ['A sudden, widespread increase of a disease in a host population over a large area', 'A disease always present at low levels in an area', 'A disease of a single plant', 'A disease caused only by viruses'], 0,
     'Endemic diseases are constantly present; sporadic ones appear irregularly.'],
   ['The "disease triangle" shows that disease needs:', ['A susceptible host, a virulent pathogen and a favourable environment together', 'Only a pathogen', 'Only bad weather', 'A vector in every case'], 0,
@@ -110,7 +110,7 @@
   ['Soil-borne diseases (wilts, root rots, damping-off) are best managed by:', ['Crop rotation, soil solarisation, organic amendments, resistant varieties and *Trichoderma* seed or soil treatment', 'Foliar sprays only', 'Heavy irrigation', 'Burning the crop residue on leaves'], 0,
     'Garrett classified soil fungi as soil inhabitants and soil invaders.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['IFoS-2010-A2-m23', 'IFoS-2004-A2-m24', 'CSE-2020-A2-m21', 'CSE-2022-A2-m16', 'CSE-1989-A2-m36', 'CSE-1992-A2-m35', 'CSE-2005-A2-m19', 'CSE-1990-A2-m31', 'IFoS-2002-A2-m19', 'CSE-1990-A2-m30'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2010-A2-m23', 'IFoS-2004-A2-m24', 'CSE-2020-A2-m21', 'CSE-2022-A2-m16', 'CSE-1989-A2-m36', 'CSE-1992-A2-m35', 'CSE-2005-A2-m19', 'CSE-1990-A2-m31', 'IFoS-2002-A2-m19', 'CSE-1990-A2-m30'], q: [
   ['Koch\'s postulates require that the suspected pathogen be:', ['Always found with the disease, isolated in pure culture, able to reproduce the disease on inoculation, and re-isolated', 'Seen under a light microscope only', 'Killed by a fungicide', 'Found in soil near the plant'], 0,
     'They are hard to apply to obligate parasites and viruses, which cannot be cultured on media.'],
   ['Plant diseases are classified by cause into:', ['Infectious (biotic: fungi, bacteria, viruses, phytoplasmas, nematodes) and non-infectious (abiotic: nutrients, temperature, pollutants)', 'Seed-borne and air-borne only', 'Major and minor', 'Annual and perennial'], 0,
@@ -132,7 +132,7 @@
   ['Predisposition in plant pathology means:', ['Environmental conditions before infection that make the host more susceptible', 'Genetic immunity of the host', 'The resting stage of a pathogen', 'Transfer of resistance genes'], 0,
     'E.g. heavy nitrogen predisposes rice to blast.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['CSE-1995-A2-m24', 'CSE-2024-A2-m22', 'IFoS-2001-A2-m23', 'CSE-2002-A2-m25', 'CSE-2000-A2-m34', 'CSE-1998-A2-m17', 'CSE-2019-A2-m24', 'CSE-1989-A2-m26', 'CSE-1996-A2-m08', 'CSE-1998-A2-m18', 'CSE-1989-A2-m44'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['CSE-1995-A2-m24', 'CSE-2024-A2-m22', 'IFoS-2001-A2-m23', 'CSE-2002-A2-m25', 'CSE-2000-A2-m34', 'CSE-1998-A2-m17', 'CSE-2019-A2-m24', 'CSE-1989-A2-m26', 'CSE-1996-A2-m08', 'CSE-1998-A2-m18', 'CSE-1989-A2-m44', 'CSE-2009-A2-m01'], q: [
   ['Rice blast is caused by *Magnaporthe oryzae* and is recognised by:', ['Spindle-shaped leaf lesions with grey centres and "neck blast" at panicle base', 'Kresek wilting of seedlings', 'Orange-yellow leaves and stunting', 'Galls on roots'], 0,
     'Heavy nitrogen and cool, humid nights favour it; tricyclazole is a common fungicide.'],
   ['Bacterial leaf blight of rice (*Xanthomonas oryzae* pv. *oryzae*) shows:', ['Yellowing and drying from leaf tips and margins, and "kresek" wilting of young plants', 'Eye-shaped spots', 'White ears', 'Silver shoots'], 0,
@@ -154,7 +154,7 @@
   ['Bacterial plant diseases are controlled mainly by:', ['Clean seed, resistant varieties, field sanitation and copper or streptocycline sprays', 'Systemic insecticides', 'Fungicides such as metalaxyl only', 'Heavy nitrogen'], 0,
     'Avoid flooding from infected fields since bacteria travel in water.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['CSE-2003-A2-m23', 'CSE-1993-A2-m33', 'CSE-1995-A2-m23', 'CSE-1989-A2-m40', 'CSE-1999-A2-m08', 'CSE-2006-A2-m24', 'CSE-2002-A2-m21', 'CSE-1998-A2-m18'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['CSE-2003-A2-m23', 'CSE-1993-A2-m33', 'CSE-1995-A2-m23', 'CSE-1989-A2-m40', 'CSE-1999-A2-m08', 'CSE-2006-A2-m24', 'CSE-2002-A2-m21', 'CSE-1998-A2-m18', 'CSE-1993-A2-m03'], q: [
   ['Red rot of sugarcane, called the "cancer" of sugarcane, is caused by:', ['*Colletotrichum falcatum*', '*Ustilago scitaminea*', '*Xanthomonas* sp.', 'A phytoplasma'], 0,
     'Split canes show red tissue with white cross-bands and smell of alcohol.'],
   ['Red rot is managed by:', ['Healthy setts, resistant varieties and moist hot-air treatment of setts', 'Spraying insecticides', 'Ratooning the infected crop', 'Flood irrigation'], 0,
@@ -176,7 +176,7 @@
   ['White rust of mustard is caused by:', ['*Albugo candida*', '*Alternaria brassicae*', '*Erysiphe cruciferarum*', '*Sclerotinia sclerotiorum*'], 0,
     'It produces white blisters on leaves and "stag head" swelling of inflorescences.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['IFoS-2018-A2-Q7a', 'CSE-2016-A2-m27', 'CSE-2007-A2-m23', 'IFoS-2016-A2-m22', 'IFoS-2012-A2-m26', 'CSE-1993-A2-m34', 'CSE-2010-A2-m06', 'IFoS-2024-A2-m24', 'IFoS-2000-A2-m14', 'IFoS-2023-A2-m16', 'CSE-2000-A2-m15', 'CSE-1989-A2-m12', 'CSE-2012-A2-m21', 'IFoS-2020-A2-m18', 'CSE-2018-A2-m05', 'IFoS-2006-A2-m24', 'CSE-1993-A2-m09'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2018-A2-Q7a', 'CSE-2016-A2-m27', 'CSE-2007-A2-m23', 'IFoS-2016-A2-m22', 'IFoS-2012-A2-m26', 'CSE-1993-A2-m34', 'CSE-2010-A2-m06', 'IFoS-2024-A2-m24', 'IFoS-2000-A2-m14', 'IFoS-2023-A2-m16', 'CSE-2000-A2-m15', 'CSE-1989-A2-m12', 'CSE-2012-A2-m21', 'IFoS-2020-A2-m18', 'CSE-2018-A2-m05', 'IFoS-2006-A2-m24', 'CSE-1993-A2-m09'], q: [
   ['Late blight of potato (*Phytophthora infestans*) is favoured by:', ['Cool, humid, cloudy weather, producing water-soaked lesions with white growth on the underside of leaves', 'Hot, dry weather', 'Waterlogged soils only', 'High light intensity'], 0,
     '*Phytophthora* is an oomycete (water mould), not a true fungus.'],
   ['Early blight of potato and tomato (*Alternaria solani*) shows:', ['Brown leaf spots with concentric rings ("target board")', 'White powdery patches', 'Galls on roots', 'Silver leaves'], 0,
@@ -198,7 +198,7 @@
   ['A disease caused by a *Phytophthora* species is:', ['Foot rot (quick wilt) of black pepper', 'Wheat stem rust', 'Rice blast', 'Citrus canker'], 0,
     'Others: late blight of potato, coconut bud rot, citrus gummosis, colocasia blight. Bordeaux mixture and metalaxyl control them.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & IDM', w: 2, pyq: ['IFoS-2000-A2-m13', 'CSE-2003-A2-m04', 'CSE-2013-A2-m11', 'CSE-2000-A2-m17', 'CSE-2000-A2-m16', 'CSE-2001-A2-m09', 'CSE-2015-A2-m10', 'IFoS-2014-A2-m09', 'CSE-2009-A2-m09', 'CSE-2012-A2-m20'], q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2000-A2-m13', 'CSE-2003-A2-m04', 'CSE-2013-A2-m11', 'CSE-2000-A2-m17', 'CSE-2000-A2-m16', 'CSE-2001-A2-m09', 'CSE-2015-A2-m10', 'IFoS-2014-A2-m09', 'CSE-2009-A2-m09', 'CSE-2012-A2-m20'], q: [
   ['Citrus canker (*Xanthomonas citri* subsp. *citri*) is managed by:', ['Pruning infected twigs and spraying copper oxychloride with streptocycline', 'Insecticides only', 'Flood irrigation', 'Removing flowers'], 0,
     'Raised corky lesions with a yellow halo appear on leaves, twigs and fruits; leaf miner wounds aid entry.'],
   ['Powdery mildew of grapes is caused by:', ['*Erysiphe* (*Uncinula*) *necator*, controlled by sulphur dusting or sprays', '*Plasmopara viticola*', '*Elsinoë ampelina*', '*Xanthomonas campestris*'], 0,
