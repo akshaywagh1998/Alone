@@ -66,7 +66,7 @@
   ['The DNA double helix model was proposed in 1953 by:', ['Watson and Crick, using X-ray data of Franklin and Wilkins', 'Chargaff', 'Pauling', 'Avery'], 0,
     'Rosalind Franklin\'s Photo 51 was key evidence.']
 ] },
-{ p: 'B2', t: 'Molecular Biology', w: 3, pyq: ['CSE-2025-B2-m17', 'CSE-2022-B2-m21', 'CSE-2019-B2-m23', 'CSE-2012-B2-m25', 'CSE-2023-B2-m20', 'CSE-2012-B2-m26', 'CSE-2003-B2-m14', 'CSE-1996-B2-m11', 'CSE-1989-B2-m15', 'CSE-1985-B2-m10', 'IFoS-2005-B2-m16', 'CSE-2020-B2-m20', 'CSE-2011-B2-m19', 'CSE-2012-B2-m24', 'CSE-2002-B2-m09', 'CSE-2001-B2-m12', 'CSE-1990-B2-m06', 'CSE-2018-B2-m16', 'IFoS-2013-B2-m12', 'CSE-1986-B2-m20', 'CSE-1986-B2-m19'], q: [
+{ p: 'B2', t: 'Molecular Biology', w: 3, pyq: ['CSE-2025-B2-m17', 'CSE-2022-B2-m21', 'CSE-2019-B2-m23', 'CSE-2012-B2-m25', 'CSE-2023-B2-m20', 'CSE-2012-B2-m26', 'CSE-2003-B2-m14', 'CSE-1996-B2-m11', 'CSE-1989-B2-m15', 'CSE-1985-B2-m10', 'IFoS-2005-B2-m16', 'CSE-2020-B2-m20', 'CSE-2011-B2-m19', 'CSE-2012-B2-m24', 'CSE-2002-B2-m09', 'CSE-2001-B2-m12', 'CSE-1990-B2-m06', 'CSE-2018-B2-m16', 'IFoS-2013-B2-m12', 'CSE-1986-B2-m20', 'CSE-1986-B2-m19', 'IFoS-2014-B2-m03', 'CSE-2014-B2-m01', 'CSE-2010-B2-m01', 'CSE-2022-B2-m01', 'CSE-2020-B2-m01', 'CSE-2018-B2-m02', 'CSE-2016-B2-m01', 'CSE-2016-B2-m02', 'CSE-2014-B2-m03', 'CSE-2017-B2-m03', 'CSE-2019-B2-m02'], q: [
   ['The polymerase chain reaction was invented by:', ['Kary Mullis', 'Frederick Sanger', 'Paul Berg', 'Herbert Boyer'], 0,
     'He shared the 1993 Nobel Prize in Chemistry.'],
   ['The three steps of each PCR cycle, in order, are:', ['Denaturation (~94 °C), annealing (~55 °C), extension (~72 °C)', 'Annealing, denaturation, extension', 'Extension, annealing, denaturation', 'Ligation, cutting, cloning'], 0,

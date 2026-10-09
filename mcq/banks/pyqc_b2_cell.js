@@ -1,6 +1,6 @@
 /* Concept sets for Botany II — Cell biology. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['CSE-2001-B2-m02', 'CSE-2000-B2-m01', 'CSE-2003-B2-m02', 'CSE-1994-B2-m02', 'CSE-2015-B2-m01', 'CSE-1989-B2-m02', 'IFoS-2022-B2-m05'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['CSE-2001-B2-m02', 'CSE-2000-B2-m01', 'CSE-2003-B2-m02', 'CSE-1994-B2-m02', 'CSE-2015-B2-m01', 'CSE-1989-B2-m02', 'IFoS-2022-B2-m05', 'IFoS-2020-B2-m04', 'IFoS-2000-B2-m02', 'IFoS-2013-B2-m02', 'IFoS-2013-B2-m01', 'IFoS-2011-B2-m04', 'CSE-1986-B2-m05'], q: [
   ['The fluid mosaic model of membranes was proposed by:', ['Singer and Nicolson (1972)', 'Danielli and Davson (1935)', 'Robertson (1959)', 'Gorter and Grendel (1925)'], 0,
     'Proteins float in a fluid lipid bilayer.'],
   ['Robertson\'s "unit membrane" model described membranes as:', ['A trilaminar structure about 7.5 nm thick', 'A single protein layer', 'A lipid monolayer', 'A carbohydrate mesh'], 0,
@@ -22,7 +22,7 @@
   ['Lipid rafts are:', ['Sterol- and sphingolipid-rich microdomains that gather certain proteins', 'Floating oil droplets', 'Cell wall pieces', 'Ribosomes on ER'], 0,
     'They act as platforms for signalling.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['CSE-2018-B2-m03', 'CSE-2010-B2-m04', 'CSE-1987-B2-m04', 'IFoS-2023-B2-m06', 'CSE-2022-B2-m04', 'CSE-1989-B2-m01'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['CSE-2018-B2-m03', 'CSE-2010-B2-m04', 'CSE-1987-B2-m04', 'IFoS-2023-B2-m06', 'CSE-2022-B2-m04', 'CSE-1989-B2-m01', 'CSE-1988-B2-m01'], q: [
   ['The endosymbiotic theory was championed by:', ['Lynn Margulis', 'Robert Hooke', 'Rudolf Virchow', 'Gregor Mendel'], 0,
     'Mitochondria came from α-proteobacteria and chloroplasts from cyanobacteria.'],
   ['Which supports a bacterial origin of mitochondria and chloroplasts?', ['Circular DNA, 70S ribosomes and division by fission', 'Absence of DNA', '80S ribosomes', 'Single membrane'], 0,
@@ -44,7 +44,7 @@
   ['Mitochondria and chloroplasts resemble each other in having:', ['Double membranes, own DNA and ATP synthase driven by a proton gradient', 'Chlorophyll', 'Cristae and grana together', 'Single membranes'], 0,
     'Both make ATP by chemiosmosis.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['CSE-2022-B2-m05', 'CSE-2019-B2-m09', 'CSE-2020-B2-m07', 'CSE-2010-B2-m05', 'CSE-1990-B2-m01', 'CSE-2023-B2-m05', 'IFoS-2021-B2-m02', 'IFoS-2020-B2-m01', 'IFoS-2022-B2-m04', 'IFoS-2023-B2-m02', 'IFoS-2000-B2-m01', 'CSE-2014-B2-m05', 'CSE-2013-B2-m03', 'IFoS-2014-B2-m01', 'IFoS-2021-B2-m05', 'CSE-2012-B2-m01', 'IFoS-2012-B2-m03', 'CSE-1986-B2-m14', 'CSE-2015-B2-m10'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['CSE-2022-B2-m05', 'CSE-2019-B2-m09', 'CSE-2020-B2-m07', 'CSE-2010-B2-m05', 'CSE-1990-B2-m01', 'CSE-2023-B2-m05', 'IFoS-2021-B2-m02', 'IFoS-2020-B2-m01', 'IFoS-2022-B2-m04', 'IFoS-2023-B2-m02', 'IFoS-2000-B2-m01', 'CSE-2014-B2-m05', 'CSE-2013-B2-m03', 'IFoS-2014-B2-m01', 'IFoS-2021-B2-m05', 'CSE-2012-B2-m01', 'IFoS-2012-B2-m03', 'CSE-1986-B2-m14', 'CSE-2015-B2-m10', 'IFoS-2004-B2-m01', 'IFoS-2007-B2-m02', 'IFoS-2003-B2-m07'], q: [
   ['Peroxisomes contain:', ['Oxidases that make H₂O₂ and catalase that breaks it down', 'Acid hydrolases only', 'Chlorophyll', 'DNA and ribosomes'], 0,
     'They have a single membrane.'],
   ['In photorespiration, peroxisomes convert:', ['Glycolate to glyoxylate and then glycine', 'Glucose to pyruvate', 'Fatty acids to sucrose', 'Nitrate to ammonia'], 0,
@@ -66,7 +66,7 @@
   ['Programmed cell death in plants occurs during:', ['Xylem vessel formation and the hypersensitive response', 'Seed imbibition only', 'Stomatal opening', 'Photosynthesis'], 0,
     'Tapetum breakdown is another example; metacaspases and vacuolar enzymes take part.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['CSE-2023-B2-m03', 'CSE-2025-B2-m02', 'CSE-2020-B2-m05', 'IFoS-2016-B2-m05', 'IFoS-2015-B2-m02', 'CSE-2018-B2-m06', 'CSE-1988-B2-m02', 'IFoS-2023-B2-m01', 'CSE-1996-B2-m01', 'IFoS-2000-B2-m01', 'IFoS-2012-B2-m01', 'IFoS-2003-B2-m04'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['CSE-2023-B2-m03', 'CSE-2025-B2-m02', 'CSE-2020-B2-m05', 'IFoS-2016-B2-m05', 'IFoS-2015-B2-m02', 'CSE-2018-B2-m06', 'CSE-1988-B2-m02', 'IFoS-2023-B2-m01', 'CSE-1996-B2-m01', 'IFoS-2000-B2-m01', 'IFoS-2012-B2-m01', 'IFoS-2003-B2-m04', 'CSE-2011-B2-m08', 'IFoS-2007-B2-m03', 'CSE-1988-B2-m04'], q: [
   ['Microtubules are made of:', ['α- and β-tubulin dimers forming 13 protofilaments, about 25 nm wide', 'Actin', 'Keratin', 'Cellulose'], 0,
     'They show dynamic instability — rapid growth and shrinkage.'],
   ['Cortical microtubules in plant cells control:', ['The direction in which cellulose microfibrils are laid down', 'Chlorophyll synthesis', 'DNA replication', 'Starch breakdown'], 0,
@@ -88,7 +88,7 @@
   ['Plant cells differ from animal cells in having:', ['A cell wall, plastids and a large central vacuole, but no centrioles', 'Centrioles and lysosomes only', 'No mitochondria', 'No nucleus'], 0,
     'They also have plasmodesmata.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['CSE-2025-B2-m04', 'CSE-2017-B2-m04', 'IFoS-2003-B2-m05', 'IFoS-2016-B2-m03', 'CSE-1992-B2-m01', 'CSE-1985-B2-m01', 'CSE-1987-B2-m03', 'IFoS-2021-B2-m03', 'CSE-1994-B2-m01'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['CSE-2025-B2-m04', 'CSE-2017-B2-m04', 'IFoS-2003-B2-m05', 'IFoS-2016-B2-m03', 'CSE-1992-B2-m01', 'CSE-1985-B2-m01', 'CSE-1987-B2-m03', 'IFoS-2021-B2-m03', 'CSE-1994-B2-m01', 'IFoS-2024-B2-m04', 'IFoS-2006-B2-m04'], q: [
   ['Inside a chloroplast, thylakoids form:', ['Stacked grana linked by stroma lamellae (frets)', 'A single folded tube', 'Cristae', 'Free vesicles only'], 0,
     'The stroma surrounds them inside a double envelope.'],
   ['Photosystem II and LHCII are concentrated in:', ['Appressed grana membranes', 'Stroma lamellae', 'The envelope', 'The stroma'], 0,

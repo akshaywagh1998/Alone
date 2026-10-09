@@ -22,7 +22,7 @@
   ['Cytoplasmic male sterility is coded by:', ['Mitochondrial genes', 'Chloroplast genes', 'Nuclear restorer genes', 'Ribosomal RNA'], 0,
     'Nuclear restorer (Rf) genes can suppress it.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2024-B2-m14', 'IFoS-2022-B2-m20', 'CSE-2016-B2-m21', 'IFoS-2013-B2-m10', 'IFoS-2007-B2-m18', 'IFoS-2004-B2-m16', 'CSE-2000-B2-m09', 'CSE-1999-B2-m07', 'CSE-2005-B2-m05', 'IFoS-2000-B2-m15', 'IFoS-2001-B2-m12', 'IFoS-2010-B2-m17'], q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2024-B2-m14', 'IFoS-2022-B2-m20', 'CSE-2016-B2-m21', 'IFoS-2013-B2-m10', 'IFoS-2007-B2-m18', 'IFoS-2004-B2-m16', 'CSE-2000-B2-m09', 'CSE-1999-B2-m07', 'CSE-2005-B2-m05', 'IFoS-2000-B2-m15', 'IFoS-2001-B2-m12', 'IFoS-2010-B2-m17', 'CSE-2010-B2-m08', 'CSE-1995-B2-m19', 'CSE-1993-B2-m16', 'IFoS-2009-B2-m14'], q: [
   ['The term heterosis was coined by:', ['G. H. Shull (1914)', 'Mendel', 'Darwin', 'Borlaug'], 0,
     'It means superiority of the F₁ hybrid over its parents.'],
   ['Heterobeltiosis is superiority of an F₁ over:', ['The better parent', 'The mid-parent value', 'A standard check variety', 'The F₂'], 0,
@@ -44,7 +44,7 @@
   ['Mid-parent heterosis is calculated as:', ['(F₁ − mid-parent value) ÷ mid-parent value × 100', 'F₁ − F₂', 'Better parent ÷ F₁', 'F₁ × F₂'], 0,
     'The mid-parent value is the average of the two parents.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: ['CSE-2023-B2-m18', 'CSE-2022-B2-m17', 'CSE-2018-B2-m13', 'IFoS-2007-B2-m16', 'CSE-1994-B2-m16', 'IFoS-2023-B2-m20', 'CSE-2022-B2-m20', 'CSE-2014-B2-m11', 'CSE-2024-B2-m11', 'CSE-2023-B2-m16', 'IFoS-2004-B2-m11', 'CSE-1997-B2-m09', 'CSE-1994-B2-m13', 'CSE-2000-B2-m11', 'CSE-1988-B2-m14', 'CSE-2019-B2-m20', 'IFoS-2014-B2-m17', 'IFoS-2003-B2-m18', 'CSE-2013-B2-m13', 'IFoS-2005-B2-m12', 'CSE-2019-B2-m19', 'CSE-2018-B2-m12', 'CSE-1990-B2-m14', 'CSE-2014-B2-m22', 'CSE-1993-B2-m17'], q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['CSE-2023-B2-m18', 'CSE-2022-B2-m17', 'CSE-2018-B2-m13', 'IFoS-2007-B2-m16', 'CSE-1994-B2-m16', 'IFoS-2023-B2-m20', 'CSE-2022-B2-m20', 'CSE-2014-B2-m11', 'CSE-2024-B2-m11', 'CSE-2023-B2-m16', 'IFoS-2004-B2-m11', 'CSE-1997-B2-m09', 'CSE-1994-B2-m13', 'CSE-2000-B2-m11', 'CSE-1988-B2-m14', 'CSE-2019-B2-m20', 'IFoS-2014-B2-m17', 'IFoS-2003-B2-m18', 'CSE-2013-B2-m13', 'IFoS-2005-B2-m12', 'CSE-2019-B2-m19', 'CSE-2018-B2-m12', 'CSE-1990-B2-m14', 'CSE-2014-B2-m22', 'CSE-1993-B2-m17', 'CSE-1992-B2-m03', 'IFoS-2024-B2-m05', 'IFoS-2003-B2-m06', 'CSE-1995-B2-m15'], q: [
   ['Mendel was fortunate in choosing pea because it:', ['Has clear contrasting traits, self-pollinates and can be crossed easily', 'Is cross-pollinated by wind', 'Has a long life cycle', 'Has many linked traits'], 0,
     'Most of his seven traits assorted independently.'],
   ['Incomplete dominance in *Mirabilis* flower colour gives an F₂ ratio of:', ['1 red : 2 pink : 1 white', '3 red : 1 white', '9 : 3 : 3 : 1', '1 : 1'], 0,
@@ -66,7 +66,7 @@
   ['The one gene–one enzyme hypothesis came from Beadle and Tatum\'s work on:', ['*Neurospora*', '*Drosophila*', 'Pea', 'Maize'], 0,
     'Each nutritional mutant blocked one enzymatic step.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['CSE-2023-B2-m14', 'IFoS-2020-B2-m15', 'CSE-2006-B2-m11', 'IFoS-2001-B2-m12', 'IFoS-2024-B2-m18', 'CSE-2021-B2-m16', 'IFoS-2019-B2-m15', 'IFoS-2024-B2-m16', 'IFoS-2000-B2-m17', 'CSE-2009-B2-m07'], q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['CSE-2023-B2-m14', 'IFoS-2020-B2-m15', 'CSE-2006-B2-m11', 'IFoS-2001-B2-m12', 'IFoS-2024-B2-m18', 'CSE-2021-B2-m16', 'IFoS-2019-B2-m15', 'IFoS-2024-B2-m16', 'IFoS-2000-B2-m17', 'CSE-2009-B2-m07', 'IFoS-2022-B2-m14', 'IFoS-2022-B2-m08', 'IFoS-2020-B2-m06', 'IFoS-2016-B2-m07', 'IFoS-2015-B2-m04', 'IFoS-2011-B2-m03', 'IFoS-2006-B2-m06', 'IFoS-2002-B2-m05', 'IFoS-2021-B2-m10', 'IFoS-2007-B2-m04', 'IFoS-2012-B2-m19', 'IFoS-2019-B2-m05'], q: [
   ['The correlation coefficient (r) ranges from:', ['−1 to +1', '0 to 1', '0 to 100', '−∞ to +∞'], 0,
     'r = 0 means no linear relationship.'],
   ['Pearson\'s correlation coefficient is:', ['Covariance of x and y divided by the product of their standard deviations', 'Mean of x divided by mean of y', 'Variance of x', 'Sum of x and y'], 0,
@@ -88,7 +88,7 @@
   ['Standard deviation is:', ['The square root of the variance', 'The square of the variance', 'The mean of deviations', 'The range'], 0,
     'It is expressed in the same units as the data.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2020-B2-m16', 'CSE-2017-B2-m12', 'CSE-1992-B2-m08', 'CSE-1986-B2-m15', 'CSE-2025-B2-m14', 'CSE-1992-B2-m12', 'IFoS-2024-B2-m13', 'CSE-1995-B2-m14', 'CSE-2001-B2-m13', 'CSE-1985-B2-m07', 'IFoS-2011-B2-m05', 'CSE-1989-B2-m12', 'CSE-1999-B2-m08', 'CSE-1990-B2-m10', 'CSE-1991-B2-m12', 'CSE-1988-B2-m12'], q: [
+{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2020-B2-m16', 'CSE-2017-B2-m12', 'CSE-1992-B2-m08', 'CSE-1986-B2-m15', 'CSE-2025-B2-m14', 'CSE-1992-B2-m12', 'IFoS-2024-B2-m13', 'CSE-1995-B2-m14', 'CSE-2001-B2-m13', 'CSE-1985-B2-m07', 'IFoS-2011-B2-m05', 'CSE-1989-B2-m12', 'CSE-1999-B2-m08', 'CSE-1990-B2-m10', 'CSE-1991-B2-m12', 'CSE-1988-B2-m12', 'IFoS-2012-B2-m04', 'IFoS-2004-B2-m02', 'IFoS-2010-B2-m04', 'IFoS-2001-B2-m03', 'CSE-2014-B2-m02', 'IFoS-2014-B2-m14', 'CSE-2011-B2-m13', 'IFoS-2015-B2-m15'], q: [
   ['A widely used chemical mutagen in plant breeding is:', ['Ethyl methane sulphonate (EMS)', 'Colchicine', 'Gibberellin', 'Auxin'], 0,
     'Physical mutagens include X-rays, gamma rays and neutrons; colchicine doubles chromosomes.'],
   ['Induced mutation was first shown with X-rays by:', ['H. J. Muller (1927) in *Drosophila*', 'Mendel', 'de Vries', 'Morgan'], 0,

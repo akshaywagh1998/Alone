@@ -22,7 +22,7 @@
   ['The approximate P/O ratios are:', ['About 2.5 for NADH and 1.5 for FADH₂', 'Three for both', 'One for both', 'Four for NADH and two for FADH₂'], 0,
     'The older textbook values were 3 and 2.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q1b', 'IFoS-2011-B2-m08', 'CSE-2017-B2-m19', 'IFoS-2016-B2-m16', 'IFoS-2015-B2-m21', 'CSE-2010-B2-m24', 'CSE-2010-B2-m29'], q: [
+{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q1b', 'IFoS-2011-B2-m08', 'CSE-2017-B2-m19', 'IFoS-2016-B2-m16', 'IFoS-2015-B2-m21', 'CSE-2010-B2-m24', 'CSE-2010-B2-m29', 'IFoS-2014-B2-m06'], q: [
   ['In humans, maleness is determined by:', ['The *SRY* gene on the Y chromosome', 'The number of X chromosomes alone', 'Temperature', 'The mother’s diet'], 0,
     'SRY switches on testis development.'],
   ['In *Drosophila*, sex is determined by:', ['The ratio of X chromosomes to autosome sets (X:A), acting through the *Sxl* gene', 'The presence of a Y chromosome', 'Temperature', 'The number of autosomes only'], 0,
@@ -66,7 +66,7 @@
   ['B chromosomes are significant in studying:', ['Genome evolution and selfish DNA', 'Photosynthesis', 'Nitrogen fixation', 'Seed dormancy only'], 0,
     'They may arise from fragments of A chromosomes.']
 ] },
-{ p: 'B2', t: 'Biotechnology & GM Crops', w: 3, pyq: 'IFoS-2017-B2-Q1d', q: [
+{ p: 'B2', t: 'Biotechnology & GM Crops', w: 3, pyq: ['IFoS-2017-B2-Q1d', 'CSE-2020-B2-m02', 'CSE-2018-B2-m01', 'CSE-2011-B2-m06', 'CSE-2021-B2-m01', 'CSE-2016-B2-m06', 'CSE-2009-B2-m01', 'CSE-2022-B2-m02', 'CSE-2011-B2-m05', 'IFoS-2003-B2-m03', 'CSE-2025-B2-m01', 'CSE-2016-B2-m03', 'IFoS-2003-B2-m02', 'IFoS-2001-B2-m02', 'IFoS-2010-B2-m05', 'IFoS-2011-B2-m02', 'IFoS-2003-B2-m08'], q: [
   ['The GM crop approved for commercial cultivation in India in 2002 is:', ['Bt cotton', 'Bt brinjal', 'Golden rice', 'HT soybean'], 0,
     'It carries *cry* genes from *Bacillus thuringiensis*.'],
   ['GM crops in India are approved by the:', ['Genetic Engineering Appraisal Committee (GEAC), under the Environment Ministry', 'ICAR alone', 'FSSAI alone', 'The Seed Certification Agency'], 0,
@@ -88,7 +88,7 @@
   ['The Bt toxin gene in Bollgard cotton comes from:', ['*Bacillus thuringiensis*', '*Agrobacterium tumefaciens*', '*Escherichia coli*', '*Streptomyces*'], 0,
     'Cry proteins destroy the gut lining of susceptible caterpillars.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: 'IFoS-2017-B2-Q1e', q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2017-B2-Q1e', 'IFoS-2022-B2-m11', 'IFoS-2021-B2-m13', 'IFoS-2012-B2-m07', 'IFoS-2005-B2-m02', 'IFoS-2014-B2-m05', 'IFoS-2000-B2-m04', 'IFoS-2019-B2-m23'], q: [
   ['The chi-square statistic is calculated as:', ['Σ (O − E)² ÷ E', 'Σ (O − E) ÷ O', 'Σ O ÷ E', '(O + E)²'], 0,
     'O is the observed and E the expected frequency.'],
   ['The chi-square test was developed by:', ['Karl Pearson (1900)', 'R. A. Fisher', 'W. S. Gosset', 'Francis Galton'], 0,
@@ -110,7 +110,7 @@
   ['The chi-square test should be applied to:', ['Actual counts (frequencies), not percentages or means', 'Percentages only', 'Means', 'Standard deviations'], 0,
     'Using percentages gives misleading results.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q2a', 'IFoS-2014-B2-m02', 'IFoS-2025-B2-Q2a', 'CSE-2017-B2-m14', 'CSE-2015-B2-m14', 'IFoS-2004-B2-m13', 'CSE-1995-B2-m12', 'CSE-1994-B2-m14', 'CSE-2014-B2-m13', 'CSE-2014-B2-m14', 'CSE-1993-B2-m09', 'CSE-1992-B2-m07', 'CSE-2024-B2-m10', 'CSE-2012-B2-m11', 'IFoS-2001-B2-m14', 'CSE-1991-B2-m11', 'IFoS-2024-B2-m15', 'CSE-2016-B2-m15', 'CSE-1998-B2-m10', 'IFoS-2014-B2-m15', 'CSE-2021-B2-m14', 'IFoS-2015-B2-m16', 'CSE-2012-B2-m14', 'IFoS-2010-B2-m16', 'IFoS-2019-B2-m16'], q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q2a', 'IFoS-2014-B2-m02', 'IFoS-2025-B2-Q2a', 'CSE-2017-B2-m14', 'CSE-2015-B2-m14', 'IFoS-2004-B2-m13', 'CSE-1995-B2-m12', 'CSE-1994-B2-m14', 'CSE-2014-B2-m13', 'CSE-2014-B2-m14', 'CSE-1993-B2-m09', 'CSE-1992-B2-m07', 'CSE-2024-B2-m10', 'CSE-2012-B2-m11', 'IFoS-2001-B2-m14', 'CSE-1991-B2-m11', 'IFoS-2024-B2-m15', 'CSE-2016-B2-m15', 'CSE-1998-B2-m10', 'IFoS-2014-B2-m15', 'CSE-2021-B2-m14', 'IFoS-2015-B2-m16', 'CSE-2012-B2-m14', 'IFoS-2010-B2-m16', 'IFoS-2019-B2-m16', 'CSE-1993-B2-m02', 'IFoS-2020-B2-m05', 'IFoS-2005-B2-m03'], q: [
   ['Euploidy differs from aneuploidy in that euploidy involves:', ['Whole sets of chromosomes, while aneuploidy involves single chromosomes', 'Single chromosomes', 'Gene mutations only', 'Loss of the nucleus'], 0,
     'Polyploids are euploids.'],
   ['A trisomic has the chromosome number:', ['2*n* + 1', '2*n* − 1', '2*n* − 2', '3*n*'], 0,
@@ -176,7 +176,7 @@
   ['Spiegelman’s experiments with Qβ replicase showed that:', ['RNA molecules can evolve in a test tube under selection', 'DNA cannot mutate', 'Proteins can replicate', 'RNA cannot be copied'], 0,
     'Faster-replicating short RNAs took over ("Spiegelman’s monster").']
 ] },
-{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q3b', 'CSE-2025-B2-m13', 'CSE-2024-B2-m13', 'IFoS-2020-B2-m14', 'IFoS-2017-B2-Q1b', 'IFoS-2014-B2-m19', 'CSE-2013-B2-m14', 'CSE-2012-B2-m12', 'IFoS-2009-B2-m10', 'CSE-2000-B2-m10', 'IFoS-2001-B2-m11', 'CSE-2001-B2-m11', 'CSE-1996-B2-m05', 'IFoS-2003-B2-m19', 'IFoS-2010-B2-m18', 'IFoS-2006-B2-m11'], q: [
+{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q3b', 'CSE-2025-B2-m13', 'CSE-2024-B2-m13', 'IFoS-2020-B2-m14', 'IFoS-2017-B2-Q1b', 'IFoS-2014-B2-m19', 'CSE-2013-B2-m14', 'CSE-2012-B2-m12', 'IFoS-2009-B2-m10', 'CSE-2000-B2-m10', 'IFoS-2001-B2-m11', 'CSE-2001-B2-m11', 'CSE-1996-B2-m05', 'IFoS-2003-B2-m19', 'IFoS-2010-B2-m18', 'IFoS-2006-B2-m11', 'IFoS-2012-B2-m06', 'IFoS-2003-B2-m09', 'IFoS-2005-B2-m04'], q: [
   ['Papaya plants occur in three sex forms:', ['Male, female and hermaphrodite', 'Male and female only', 'Hermaphrodite only', 'Monoecious only'], 0,
     'This three-way system is a classic example of tripartite sex determination.'],
   ['Hofmeyr and Storey explained papaya sex by a single gene with three alleles. The male genotype is:', ['*M₁m*', '*M₂m*', '*mm*', '*M₁M₂*'], 0,
@@ -198,7 +198,7 @@
   ['Papaya seedlings are often planted three per pit because:', ['Their sex cannot be seen until flowering, so extra males can then be removed', 'They need support', 'They grow slowly', 'It is traditional'], 0,
     'About one male per ten females is kept for pollination.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q4a', 'CSE-1997-B2-m02', 'CSE-1986-B2-m03', 'CSE-2012-B2-m22', 'CSE-2015-B2-m15', 'IFoS-2004-B2-m15', 'IFoS-2019-B2-m17', 'IFoS-2001-B2-m13', 'CSE-2010-B2-m13', 'CSE-2002-B2-m11', 'CSE-1987-B2-m12', 'CSE-2016-B2-m18', 'CSE-2006-B2-m10', 'CSE-1991-B2-m15', 'CSE-1988-B2-m15', 'CSE-2012-B2-m09', 'CSE-1996-B2-m07', 'CSE-2010-B2-m21'], q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q4a', 'CSE-1997-B2-m02', 'CSE-1986-B2-m03', 'CSE-2012-B2-m22', 'CSE-2015-B2-m15', 'IFoS-2004-B2-m15', 'IFoS-2019-B2-m17', 'IFoS-2001-B2-m13', 'CSE-2010-B2-m13', 'CSE-2002-B2-m11', 'CSE-1987-B2-m12', 'CSE-2016-B2-m18', 'CSE-2006-B2-m10', 'CSE-1991-B2-m15', 'CSE-1988-B2-m15', 'CSE-2012-B2-m09', 'CSE-1996-B2-m07', 'CSE-2010-B2-m21', 'IFoS-2019-B2-m06', 'IFoS-2014-B2-m04', 'IFoS-2010-B2-m03', 'CSE-2013-B2-m16'], q: [
   ['A transition mutation is:', ['A change from one purine to another, or one pyrimidine to another', 'A purine replaced by a pyrimidine', 'The insertion of a base', 'The deletion of a base'], 0,
     'A purine–pyrimidine swap is a transversion.'],
   ['Frameshift mutations are caused by:', ['Insertion or deletion of bases in numbers that are not multiples of three', 'Base substitutions', 'Silent changes', 'Methylation'], 0,
@@ -220,7 +220,7 @@
   ['Barbara McClintock showed that mutations in maize kernel colour can be caused by:', ['Transposable elements (*Ac*/*Ds*) inserting into genes', 'Viruses', 'Radiation only', 'Hybridisation'], 0,
     'She received the Nobel Prize in 1983.']
 ] },
-{ p: 'B2', t: 'Biotechnology & GM Crops', w: 3, pyq: ['IFoS-2017-B2-Q4b', 'CSE-2019-B2-m07', 'IFoS-2019-B2-m04', 'CSE-1989-B2-m03'], q: [
+{ p: 'B2', t: 'Biotechnology & GM Crops', w: 3, pyq: ['IFoS-2017-B2-Q4b', 'CSE-2019-B2-m07', 'IFoS-2019-B2-m04', 'CSE-1989-B2-m03', 'CSE-2023-B2-m01', 'IFoS-2022-B2-m02', 'IFoS-2016-B2-m01', 'CSE-2011-B2-m04', 'CSE-2010-B2-m02', 'IFoS-2009-B2-m04', 'IFoS-2006-B2-m01', 'CSE-2003-B2-m01', 'CSE-2001-B2-m01', 'IFoS-2009-B2-m02', 'CSE-2016-B2-m05', 'IFoS-2006-B2-m02', 'CSE-2011-B2-m18'], q: [
   ['*Agrobacterium*-mediated transformation transfers:', ['T-DNA from the Ti plasmid into the plant genome', 'The whole bacterial chromosome', 'Ribosomes', 'Proteins only'], 0,
     'T-DNA is flanked by 25 bp border repeats.'],
   ['The *vir* genes of *Agrobacterium* are switched on by:', ['Phenolic compounds such as acetosyringone from wounded plant cells', 'Light', 'Auxin', 'Cold'], 0,
@@ -242,7 +242,7 @@
   ['CRISPR–Cas9 components can be delivered into plant cells:', ['By *Agrobacterium*, biolistics or as preassembled ribonucleoproteins (RNPs)', 'Only by grafting', 'Only through the soil', 'Only by cross-pollination'], 0,
     'RNP delivery can give edited plants without foreign DNA.']
 ] },
-{ p: 'B2', t: 'Ecology & Ecosystems', w: 2, pyq: 'IFoS-2017-B2-Q5a', q: [
+{ p: 'B2', t: 'Ecology & Ecosystems', w: 2, pyq: ['IFoS-2017-B2-Q5a', 'IFoS-2014-B2-m13', 'IFoS-2015-B2-m11'], q: [
   ['The term "allelopathy" was coined in 1937 by:', ['Hans Molisch', 'E. L. Rice', 'A. G. Tansley', 'E. P. Odum'], 0,
     'Rice later wrote the standard book on it.'],
   ['Allelopathy is:', ['The effect of one plant on another through chemicals it releases', 'Competition for light only', 'Parasitism', 'Pollination'], 0,
@@ -264,7 +264,7 @@
   ['The invasive shrub *Lantana camara* suppresses native plants partly through:', ['Allelopathic compounds such as lantadenes', 'Nitrogen fixation', 'Pollination', 'Shade only'], 0,
     'It has invaded large areas of Indian forest.']
 ] },
-{ p: 'B2', t: 'Biotechnology & GM Crops', w: 2, pyq: 'IFoS-2017-B2-Q5b', q: [
+{ p: 'B2', t: 'Biotechnology & GM Crops', w: 2, pyq: ['IFoS-2017-B2-Q5b', 'IFoS-2025-B2-Q5d', 'IFoS-2007-B2-m11', 'IFoS-2001-B2-m08', 'IFoS-2022-B2-m03', 'CSE-2020-B2-m03', 'CSE-2019-B2-m01', 'IFoS-2019-B2-m02'], q: [
   ['Plant varieties in India are protected under the:', ['Protection of Plant Varieties and Farmers’ Rights (PPV&FR) Act, 2001', 'Patents Act, 1970', 'Seeds Act, 1966', 'Trade Marks Act'], 0,
     'The PPV&FR Authority was set up in 2005.'],
   ['TRIPS Article 27.3(b) requires WTO members to protect plant varieties by:', ['Patents, an effective sui generis system, or both', 'Only patents', 'Only trade secrets', 'Nothing'], 0,
@@ -286,7 +286,7 @@
   ['In the 2019 PepsiCo potato case, the key issue was:', ['Farmers’ rights under the PPV&FR Act to grow a registered variety (FL-2027)', 'A patent on potato genes', 'Pesticide residues', 'A trade mark on chips'], 0,
     'PepsiCo withdrew the suits; the variety’s registration was then challenged before the PPV&FR Authority and courts — check the current status.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2017-B2-Q5c', 'CSE-2019-B2-m21', 'CSE-2012-B2-m15', 'CSE-2013-B2-m15'], q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2017-B2-Q5c', 'CSE-2019-B2-m21', 'CSE-2012-B2-m15', 'CSE-2013-B2-m15', 'IFoS-2012-B2-m08', 'IFoS-2022-B2-m01', 'IFoS-2019-B2-m01', 'CSE-2017-B2-m02', 'CSE-2016-B2-m04', 'CSE-2009-B2-m02', 'IFoS-2009-B2-m03', 'CSE-2022-B2-m03'], q: [
   ['RFLP, the first DNA marker, is:', ['Hybridisation-based and codominant', 'PCR-based and dominant', 'A protein marker', 'A morphological marker'], 0,
     'Botstein and colleagues used it for mapping in 1980.'],
   ['RAPD markers are:', ['PCR-based with random decamer primers, and usually dominant', 'Hybridisation-based and codominant', 'Protein-based', 'Always multi-allelic and codominant'], 0,
@@ -330,7 +330,7 @@
   ['Carotenoids are located in:', ['Plastids — chloroplasts and chromoplasts', 'Vacuoles', 'The nucleus', 'Cell walls'], 0,
     'Water-soluble anthocyanins are stored in vacuoles.']
 ] },
-{ p: 'B2', t: 'Evolution', w: 2, pyq: 'IFoS-2017-B2-Q5e', q: [
+{ p: 'B2', t: 'Evolution', w: 2, pyq: ['IFoS-2017-B2-Q5e', 'CSE-2025-B2-m09', 'CSE-2024-B2-m09', 'IFoS-2024-B2-m12', 'CSE-2022-B2-m16', 'IFoS-2021-B2-m17', 'CSE-2015-B2-m09', 'CSE-2000-B2-m07', 'CSE-1994-B2-m12', 'CSE-1992-B2-m06', 'CSE-1991-B2-m09', 'CSE-1990-B2-m05', 'CSE-2003-B2-m08', 'IFoS-2002-B2-m15', 'CSE-1985-B2-m06', 'CSE-1987-B2-m11'], q: [
   ['Homologous organs:', ['Have the same origin but may serve different functions', 'Have different origins but the same function', 'Are always vestigial', 'Are found only in animals'], 0,
     'Examples are the forelimbs of vertebrates.'],
   ['Thorns of *Bougainvillea* and tendrils of *Cucurbita* are:', ['Homologous — both are modified axillary shoots', 'Analogous', 'Vestigial', 'Unrelated'], 0,
@@ -374,7 +374,7 @@
   ['At full sunlight, photosynthesis in C₄ plants:', ['Rarely reaches light saturation, unlike C₃ plants', 'Saturates at low light', 'Stops', 'Equals respiration'], 0,
     'This gives C₄ crops their high yield potential.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q6b', 'CSE-2021-B2-m23', 'CSE-2007-B2-m12', 'CSE-1996-B2-m16', 'CSE-1994-B2-m22', 'CSE-1989-B2-m22'], q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q6b', 'CSE-2021-B2-m23', 'CSE-2007-B2-m12', 'CSE-1996-B2-m16', 'CSE-1994-B2-m22', 'CSE-1989-B2-m22', 'IFoS-2019-B2-m07', 'IFoS-2002-B2-m06', 'IFoS-2004-B2-m09'], q: [
   ['IBA and NAA are widely used in horticulture to:', ['Promote rooting of cuttings', 'Break seed dormancy', 'Ripen fruits', 'Increase sugar content'], 0,
     'Cuttings are dipped in their solutions or powders.'],
   ['GA₃ is sprayed on Thompson Seedless grapes to:', ['Elongate the bunches and enlarge the berries', 'Ripen them', 'Kill pests', 'Reduce size'], 0,
@@ -396,7 +396,7 @@
   ['CPPU (forchlorfenuron), a cytokinin-like compound, is used to:', ['Increase fruit size in grapes and kiwifruit', 'Ripen bananas', 'Break dormancy', 'Kill insects'], 0,
     'Cytokinins also delay leaf senescence.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q7a', 'IFoS-2022-B2-m25', 'IFoS-2024-B2-m26', 'CSE-2010-B2-m28', 'CSE-2002-B2-m14'], q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q7a', 'IFoS-2022-B2-m25', 'IFoS-2024-B2-m26', 'CSE-2010-B2-m28', 'CSE-2002-B2-m14', 'CSE-1995-B2-m10', 'IFoS-2013-B2-m05', 'IFoS-2005-B2-m06', 'IFoS-2012-B2-m13', 'IFoS-2013-B2-m07'], q: [
   ['Phytochrome was discovered through work on lettuce seed germination by:', ['Borthwick and Hendricks (1952)', 'Went', 'Darwin', 'Garner and Allard'], 0,
     'Red light promoted germination and far-red reversed it.'],
   ['Phytochrome is:', ['A homodimeric chromoprotein with a linear tetrapyrrole chromophore (phytochromobilin)', 'A carotenoid', 'A lipid', 'A flavonoid'], 0,
@@ -418,7 +418,7 @@
   ['The phytochrome chromophore is made in the:', ['Plastid, from haem via biliverdin', 'Nucleus', 'Vacuole', 'Mitochondrion'], 0,
     'It joins the apoprotein in the cytosol.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q7b', 'CSE-1998-B2-m13', 'CSE-2024-B2-m23', 'CSE-2021-B2-m27', 'IFoS-2020-B2-m26', 'CSE-2017-B2-m22', 'IFoS-2015-B2-m23', 'CSE-2014-B2-m25', 'CSE-2013-B2-m29', 'IFoS-2009-B2-m22', 'CSE-2007-B2-m11', 'IFoS-2006-B2-m16', 'CSE-2001-B2-m18', 'CSE-1993-B2-m21', 'CSE-1992-B2-m18', 'CSE-1990-B2-m17', 'CSE-1987-B2-m19', 'IFoS-2021-B2-m24', 'IFoS-2019-B2-m24'], q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q7b', 'CSE-1998-B2-m13', 'CSE-2024-B2-m23', 'CSE-2021-B2-m27', 'IFoS-2020-B2-m26', 'CSE-2017-B2-m22', 'IFoS-2015-B2-m23', 'CSE-2014-B2-m25', 'CSE-2013-B2-m29', 'IFoS-2009-B2-m22', 'CSE-2007-B2-m11', 'IFoS-2006-B2-m16', 'CSE-2001-B2-m18', 'CSE-1993-B2-m21', 'CSE-1992-B2-m18', 'CSE-1990-B2-m17', 'CSE-1987-B2-m19', 'IFoS-2021-B2-m24', 'IFoS-2019-B2-m24', 'IFoS-2001-B2-m05', 'IFoS-2002-B2-m07', 'IFoS-2004-B2-m08', 'IFoS-2002-B2-m19', 'IFoS-2005-B2-m18'], q: [
   ['Hard seed coats of *Acacia* and *Leucaena* are made permeable by:', ['Scarification with concentrated sulphuric acid, hot water or abrasion', 'Cold storage', 'Darkness', 'Drying'], 0,
     'This is a physical treatment for physical dormancy.'],
   ['Stratification, used for seeds of apple, peach and rose, means:', ['Keeping seeds moist at about 0–5 °C for several weeks', 'Soaking in acid', 'Heating to 60 °C', 'Drying in the sun'], 0,
@@ -440,7 +440,7 @@
   ['Germination is considered complete when:', ['The radicle emerges', 'Water is absorbed', 'The first leaf unfolds', 'The plant flowers'], 0,
     'Seedling growth follows.']
 ] },
-{ p: 'B2', t: 'Ecology & Ecosystems', w: 3, pyq: 'IFoS-2017-B2-Q8a', q: [
+{ p: 'B2', t: 'Ecology & Ecosystems', w: 3, pyq: ['IFoS-2017-B2-Q8a', 'CSE-2022-B2-m10', 'IFoS-2022-B2-m12', 'IFoS-2015-B2-m13', 'IFoS-2012-B2-m14', 'IFoS-2009-B2-m08', 'CSE-2015-B2-m08', 'CSE-2013-B2-m09', 'CSE-2020-B2-m04', 'IFoS-2016-B2-m02', 'CSE-2012-B2-m18'], q: [
   ['Phytoremediation is:', ['Using plants (and their microbes) to remove, break down or contain pollutants', 'Using chemicals to kill plants', 'Planting trees for timber', 'Burning waste'], 0,
     'It is cheap and solar-powered, but slow.'],
   ['In phytoextraction:', ['Plants take up pollutants and store them in harvestable shoots', 'Pollutants are fixed in the soil', 'Pollutants are released as gas', 'Pollutants are destroyed by fire'], 0,
@@ -462,7 +462,7 @@
   ['Studies of indoor air-cleaning plants since NASA’s 1989 study show that, in real buildings:', ['Their effect is small compared with ventilation', 'They remove all pollutants', 'They make the air toxic', 'They work only at night'], 0,
     'Plants alone cannot solve air pollution.']
 ] },
-{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: 'IFoS-2017-B2-Q8b', q: [
+{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2017-B2-Q8b', 'CSE-2022-B2-m15', 'IFoS-2020-B2-m21', 'CSE-2018-B2-m20', 'CSE-2015-B2-m18', 'IFoS-2013-B2-m17', 'CSE-1997-B2-m11', 'CSE-2013-B2-m20', 'CSE-2020-B2-m22'], q: [
   ['Rodgers and Panwar (1988, WII) divided India into how many biogeographic zones?', ['Ten', 'Five', 'Twenty', 'Fifteen'], 0,
     'Examples are Trans-Himalaya, Western Ghats, Deccan Peninsula and the Islands.'],
   ['An early phytogeographic division of India into botanical provinces was made by:', ['D. Chatterjee (1939)', 'Champion and Seth', 'Rodgers and Panwar', 'Hooker only'], 0,
