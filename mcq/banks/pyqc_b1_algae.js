@@ -22,7 +22,7 @@
   ['Besides nitrogen fixation, heterocysts can act as:', ['Points where filaments break into hormogonia', 'Male gametes', 'Gas vacuoles', 'Photosynthetic centres'], 0,
     'Occasionally they even germinate.']
 ] },
-{ p: 'B1', t: 'Algae', w: 3, pyq: ['CSE-2025-B1-m02', 'IFoS-2024-B1-m04', 'CSE-2012-B1-m01', 'CSE-2009-B1-m04', 'CSE-2005-B1-m02', 'CSE-2020-B1-m01', 'CSE-2001-B1-m03', 'IFoS-2009-B1-m01', 'CSE-2015-B1-m02', 'CSE-2019-B1-m01', 'IFoS-2012-B1-m02'], q: [
+{ p: 'B1', t: 'Algae', w: 3, pyq: ['CSE-2025-B1-m02', 'IFoS-2024-B1-m04', 'CSE-2012-B1-m01', 'CSE-2009-B1-m04', 'CSE-2005-B1-m02', 'CSE-2020-B1-m01', 'CSE-2001-B1-m03', 'IFoS-2009-B1-m01', 'CSE-2015-B1-m02', 'CSE-2019-B1-m01', 'IFoS-2012-B1-m02', 'CSE-1996-B1-m32', 'CSE-1985-B1-m20'], q: [
   ['Match the thallus type with its example: coenobium —', ['*Volvox*', '*Spirogyra*', '*Vaucheria*', '*Ulva*'], 0,
     'A coenobium is a colony with a fixed number of cells.'],
   ['A palmelloid thallus, as in *Tetraspora*, consists of:', ['Non-motile cells embedded in mucilage', 'A branched filament', 'A multinucleate tube', 'A two-layered sheet'], 0,
@@ -44,7 +44,7 @@
   ['The thallus of *Ulva* is:', ['A parenchymatous sheet two cells thick', 'A branched filament', 'A coenocytic tube', 'A colony of eight cells'], 0,
     'Hence "sea lettuce".']
 ] },
-{ p: 'B1', t: 'Algae', w: 3, pyq: ['CSE-2013-B1-m01', 'IFoS-2003-B1-m01', 'CSE-1994-B1-m02', 'CSE-1992-B1-m03', 'CSE-1986-B1-m02', 'CSE-2021-B1-m03', 'IFoS-2021-B1-m02', 'CSE-2017-B1-m01', 'CSE-1990-B1-m01', 'CSE-2014-B1-m03', 'CSE-2020-B1-m02', 'CSE-1995-B1-m14', 'IFoS-2006-B1-m09'], q: [
+{ p: 'B1', t: 'Algae', w: 3, pyq: ['CSE-2013-B1-m01', 'IFoS-2003-B1-m01', 'CSE-1994-B1-m02', 'CSE-1992-B1-m03', 'CSE-1986-B1-m02', 'CSE-2021-B1-m03', 'IFoS-2021-B1-m02', 'CSE-2017-B1-m01', 'CSE-1990-B1-m01', 'CSE-2014-B1-m03', 'CSE-2020-B1-m02', 'CSE-1995-B1-m14', 'IFoS-2006-B1-m09', 'IFoS-2005-B1-m22', 'IFoS-2003-B1-m19', 'CSE-2000-B1-m17', 'CSE-1988-B1-m23', 'CSE-1993-B1-m30', 'CSE-1986-B1-m24', 'CSE-1998-B1-m20', 'CSE-1999-B1-m16'], q: [
   ['In a haplontic life cycle, the only diploid stage is the:', ['Zygote', 'Thallus', 'Gamete', 'Spore'], 0,
     'Meiosis is zygotic — e.g. *Chlamydomonas*, *Spirogyra*, *Ulothrix*.'],
   ['A diplontic life cycle with gametic meiosis is found in:', ['*Fucus*', '*Spirogyra*', '*Ulothrix*', '*Polysiphonia*'], 0,
@@ -66,7 +66,7 @@
   ['*Saprolegnia* and *Vaucheria* resemble each other in being coenocytic and oogamous, but differ in that:', ['*Vaucheria* is photosynthetic while *Saprolegnia* is a heterotrophic oomycete', 'Both are photosynthetic', '*Saprolegnia* is a red alga', '*Vaucheria* lacks oogonia'], 0,
     '*Vaucheria* is a xanthophyte; similar form arose independently.']
 ] },
-{ p: 'B1', t: 'Algae', w: 3, pyq: ['IFoS-2023-B1-m01', 'IFoS-2006-B1-m01', 'IFoS-2003-B1-m02', 'IFoS-2000-B1-m01', 'CSE-1988-B1-m01', 'CSE-2022-B1-m02', 'CSE-2007-B1-m01', 'CSE-2005-B1-m01', 'IFoS-2004-B1-m04', 'IFoS-2009-B1-m02', 'IFoS-2005-B1-m02', 'CSE-2015-B1-m01', 'IFoS-2002-B1-m01', 'IFoS-2013-B1-m01', 'IFoS-2022-B1-m01', 'IFoS-2023-B1-m02', 'CSE-2024-B1-m01', 'IFoS-2020-B1-m01'], q: [
+{ p: 'B1', t: 'Algae', w: 3, pyq: ['IFoS-2023-B1-m01', 'IFoS-2006-B1-m01', 'IFoS-2003-B1-m02', 'IFoS-2000-B1-m01', 'CSE-1988-B1-m01', 'CSE-2022-B1-m02', 'CSE-2007-B1-m01', 'CSE-2005-B1-m01', 'IFoS-2004-B1-m04', 'IFoS-2009-B1-m02', 'IFoS-2005-B1-m02', 'CSE-2015-B1-m01', 'IFoS-2002-B1-m01', 'IFoS-2013-B1-m01', 'IFoS-2022-B1-m01', 'IFoS-2023-B1-m02', 'CSE-2024-B1-m01', 'IFoS-2020-B1-m01', 'CSE-2004-B1-m16', 'IFoS-2003-B1-m24'], q: [
   ['Agar is extracted mainly from:', ['Red algae such as *Gelidium* and *Gracilaria*', 'Brown algae such as *Laminaria*', 'Green algae such as *Ulva*', 'Diatoms'], 0,
     'Agar is used in culture media and food.'],
   ['Alginates come from:', ['Brown algae such as *Laminaria*, *Macrocystis* and *Sargassum*', 'Red algae', 'Cyanobacteria', 'Diatoms'], 0,
@@ -132,7 +132,7 @@
   ['The protonema of *Chara* is:', ['A filament from the germinating oospore that gives rise to the plant', 'A male gamete', 'A sporangium', 'An air bladder'], 0,
     'This parallels the moss protonema.']
 ] },
-{ p: 'B1', t: 'Algae', w: 2, pyq: ['CSE-2003-B1-m01', 'IFoS-2004-B1-m03', 'CSE-2016-B1-m01', 'CSE-2022-B1-m01', 'IFoS-2014-B1-m02'], q: [
+{ p: 'B1', t: 'Algae', w: 2, pyq: ['CSE-2003-B1-m01', 'IFoS-2004-B1-m03', 'CSE-2016-B1-m01', 'CSE-2022-B1-m01', 'IFoS-2014-B1-m02', 'IFoS-2003-B1-m22', 'CSE-1999-B1-m03'], q: [
   ['Fritsch (1935) classified algae into eleven classes mainly on the basis of:', ['Pigments, reserve food and flagellation', 'Habitat only', 'Size', 'Mode of nutrition'], 0,
     'E.g. Chlorophyceae: chl a and b, starch, equal flagella.'],
   ['A tinsel flagellum differs from a whiplash flagellum in having:', ['Fine lateral hairs (mastigonemes)', 'No axoneme', 'A 9+0 arrangement', 'No membrane'], 0,

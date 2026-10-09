@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Botany Paper I, Q5–Q8 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: 'IFoS-2017-B1-Q5a', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2017-B1-Q5a', 'CSE-2023-B1-m09', 'CSE-2020-B1-m04', 'CSE-2017-B1-m05', 'CSE-1993-B1-m10', 'CSE-1985-B1-m05', 'CSE-2025-B1-m08', 'IFoS-2010-B1-m10', 'CSE-2011-B1-m06', 'CSE-2018-B1-m04'], q: [
   ['An author citation in a plant name is:', ['The name of the author(s) who validly published the name, written after it', 'The name of the collector', 'The herbarium where the specimen is kept', 'The date of collection'], 0,
     'For example, *Oryza sativa* L.'],
   ['The abbreviation "L." after a plant name stands for:', ['Linnaeus', 'Lamarck', 'Lindley', 'Link'], 0,
@@ -88,7 +88,7 @@
   ['The Glossopteris flora, with *Glossopteris* and *Gangamopteris*, is characteristic of:', ['Gondwana, mainly in the Permian and continuing into the early Triassic', 'The Cretaceous of Europe', 'The Quaternary', 'The Cambrian'], 0,
     'Its distribution supported the idea of continental drift.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 1, pyq: 'IFoS-2017-B1-Q5e', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 1, pyq: ['IFoS-2017-B1-Q5e', 'IFoS-2015-B1-m05', 'IFoS-2012-B1-m08', 'CSE-1988-B1-m13', 'CSE-1986-B1-m08', 'CSE-1987-B1-m12'], q: [
   ['The inflorescence of banana (Musaceae) is:', ['A large terminal spike (spadix) with big coloured bracts (spathes)', 'An umbel', 'A capitulum', 'A cyathium'], 0,
     'It hangs down from the top of the pseudostem.'],
   ['In banana, flowers are borne in:', ['Clusters ("hands") in the axils of bracts, in two rows', 'Single flowers along the stem', 'Heads', 'Umbels'], 0,
@@ -154,7 +154,7 @@
   ['Bees pollinating pea-type (papilionaceous) flowers:', ['Press down the keel, so the stamens and style spring up against their bodies', 'Collect pollinia on their legs', 'Pierce the ovary', 'Visit only at night'], 0,
     'Asclepiads use the translator mechanism instead.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02'], q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02', 'CSE-2001-B1-m16', 'CSE-2006-B1-m21', 'CSE-1986-B1-m13'], q: [
   ['The term "palynology" was coined by:', ['Hyde and Williams (1944)', 'G. Erdtman', 'L. von Post', 'P. Maheshwari'], 0,
     'It is the study of pollen and spores.'],
   ['The founder of modern pollen morphology, who introduced acetolysis, was:', ['Gunnar Erdtman', 'Lennart von Post', 'Hyde', 'Heslop-Harrison'], 0,
@@ -198,7 +198,7 @@
   ['Ethnobotany speeds up drug discovery because:', ['Plants with a history of traditional use are more likely to contain active compounds', 'It avoids all testing', 'It uses only synthetic chemicals', 'It ignores local knowledge'], 0,
     'Benefit-sharing with communities is now required under the Biological Diversity Act.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2017-B1-Q7a', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q7a', 'IFoS-2014-B1-m11', 'CSE-2007-B1-m08'], q: [
   ['Liquorice (*Glycyrrhiza glabra*, Fabaceae) contains:', ['Glycyrrhizin, a sweet compound used against coughs and ulcers', 'Reserpine', 'Sinigrin', 'Amygdalin'], 0,
     'It is about 50 times sweeter than sugar.'],
   ['*Psoralea corylifolia* (bakuchi, Fabaceae) is used to treat leucoderma because it contains:', ['Psoralens (furanocoumarins)', 'Morphine', 'Caffeine', 'Pectin'], 0,
@@ -220,7 +220,7 @@
   ['"Double-zero" (canola-quality) rapeseed–mustard varieties are low in:', ['Erucic acid in the oil and glucosinolates in the meal', 'Oil content', 'Protein', 'Fibre'], 0,
     'High erucic acid is undesirable in edible oil.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2017-B1-Q7b', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q7b', 'IFoS-2016-B1-m11'], q: [
   ['The three levels of biodiversity are:', ['Genetic, species and ecosystem diversity', 'Cell, tissue and organ diversity', 'Soil, water and air diversity', 'Local, national and global diversity'], 0,
     'All three must be conserved.'],
   ['Species diversity within a single habitat is called:', ['Alpha diversity', 'Beta diversity', 'Gamma diversity', 'Delta diversity'], 0,
@@ -286,7 +286,7 @@
   ['Anomalous secondary growth is best defined as:', ['Secondary growth that departs from the normal single-cambium pattern in position, activity or products', 'Any secondary growth', 'Primary growth only', 'Growth of roots only'], 0,
     'It is common in climbers and succulent roots.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: 'IFoS-2017-B1-Q8b', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2017-B1-Q8b', 'IFoS-2025-B1-Q8a', 'CSE-2025-B1-m11', 'IFoS-2024-B1-m09', 'CSE-2022-B1-m12', 'IFoS-2018-B1-Q5d', 'CSE-2018-B1-m08', 'IFoS-2015-B1-m08', 'IFoS-2012-B1-m07', 'IFoS-2011-B1-m07', 'IFoS-2009-B1-m11', 'IFoS-2001-B1-m09', 'CSE-2015-B1-m06', 'CSE-2002-B1-m06'], q: [
   ['A botanical garden differs from an ordinary garden in that it:', ['Keeps documented, labelled collections of living plants for research, conservation and education', 'Grows only ornamental flowers', 'Is always private', 'Has no scientific records'], 0,
     'Each plant has an accession record.'],
   ['The oldest academic botanical garden still at its original site is:', ['Orto Botanico di Padova, Italy (1545)', 'Kew Gardens', 'New York Botanical Garden', 'Singapore Botanic Gardens'], 0,

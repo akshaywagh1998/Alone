@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Gymnosperms & palaeobotany. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2025-B1-m03', 'CSE-2012-B1-m19', 'IFoS-2007-B1-m17', 'IFoS-2007-B1-m18', 'CSE-2005-B1-m17', 'CSE-2005-B1-m18', 'CSE-2013-B1-m12', 'CSE-1987-B1-m16', 'CSE-1999-B1-m14', 'CSE-1995-B1-m25', 'IFoS-2010-B1-m32', 'CSE-2025-B1-m28', 'CSE-1992-B1-m02', 'CSE-2023-B1-m02'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2025-B1-m03', 'CSE-2012-B1-m19', 'IFoS-2007-B1-m17', 'IFoS-2007-B1-m18', 'CSE-2005-B1-m17', 'CSE-2005-B1-m18', 'CSE-2013-B1-m12', 'CSE-1987-B1-m16', 'CSE-1999-B1-m14', 'CSE-1995-B1-m25', 'IFoS-2010-B1-m32', 'CSE-2025-B1-m28', 'CSE-1992-B1-m02', 'CSE-2023-B1-m02', 'CSE-1993-B1-m29'], q: [
   ['In female plants of *Cycas*, megasporophylls:', ['Form a loose rosette at the stem apex and do not make a compact cone', 'Form a compact woody cone', 'Arise singly in leaf axils', 'Are borne on dwarf shoots'], 0,
     'The apex grows on through them; male plants bear a large compact cone.'],
   ['The megasporophyll of *Cycas revoluta* differs from that of *C. circinalis* in having a lamina that is:', ['Deeply pinnately divided and densely hairy', 'Only toothed', 'Entire and glabrous', 'Absent'], 0,
@@ -44,7 +44,7 @@
   ['In *Pinus*, the male cones occur:', ['In clusters at the base of the current year\'s long shoot', 'Singly at the stem apex', 'On the roots', 'Inside the female cone'], 0,
     'Each microsporophyll bears two microsporangia on its lower surface.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2010-B1-m30', 'CSE-1989-B1-m27', 'IFoS-2019-B1-m14', 'CSE-2019-B1-m19', 'IFoS-2014-B1-m22', 'IFoS-2021-B1-m18', 'IFoS-2016-B1-m13', 'CSE-2010-B1-m22', 'CSE-1994-B1-m25', 'CSE-1995-B1-m26', 'CSE-1996-B1-m21', 'IFoS-2011-B1-m23', 'IFoS-2002-B1-m19', 'CSE-2025-B1-m19', 'CSE-2017-B1-m14', 'CSE-1996-B1-m23', 'CSE-2010-B1-m23', 'CSE-1995-B1-m24', 'IFoS-2023-B1-m16', 'CSE-1985-B1-m24', 'CSE-2003-B1-m15', 'CSE-2023-B1-m06', 'IFoS-2024-B1-m03', 'IFoS-2015-B1-m01'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2010-B1-m30', 'CSE-1989-B1-m27', 'IFoS-2019-B1-m14', 'CSE-2019-B1-m19', 'IFoS-2014-B1-m22', 'IFoS-2021-B1-m18', 'IFoS-2016-B1-m13', 'CSE-2010-B1-m22', 'CSE-1994-B1-m25', 'CSE-1995-B1-m26', 'CSE-1996-B1-m21', 'IFoS-2011-B1-m23', 'IFoS-2002-B1-m19', 'CSE-2025-B1-m19', 'CSE-2017-B1-m14', 'CSE-1996-B1-m23', 'CSE-2010-B1-m23', 'CSE-1995-B1-m24', 'IFoS-2023-B1-m16', 'CSE-1985-B1-m24', 'CSE-2003-B1-m15', 'CSE-2023-B1-m06', 'IFoS-2024-B1-m03', 'IFoS-2015-B1-m01', 'CSE-2014-B1-m06', 'CSE-2009-B1-m11'], q: [
   ['Which feature of *Gnetum* resembles angiosperms?', ['Vessels in the secondary xylem', 'Naked ovules', 'Haploid endosperm', 'Absence of fruit'], 0,
     'Others: broad net-veined leaves, perianth-like envelopes and no archegonia.'],
   ['Vessels of *Gnetum* are thought to have evolved independently of angiosperm vessels because they:', ['Arise from tracheids with circular bordered pits and have foraminate perforations', 'Have scalariform perforation plates like primitive angiosperms', 'Lack end walls', 'Are made of sieve cells'], 0,
@@ -66,7 +66,7 @@
   ['Current molecular phylogenies place Gnetales:', ['Within or close to the conifers, not as the sister of angiosperms', 'Inside the angiosperms', 'With the ferns', 'With the cycads as their ancestors'], 0,
     'Their angiosperm-like features are therefore treated as convergent.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2022-B1-m15', 'CSE-2017-B1-m14', 'CSE-2010-B1-m23', 'CSE-2000-B1-m13', 'CSE-1996-B1-m23', 'CSE-1995-B1-m24', 'CSE-1994-B1-m27', 'CSE-1988-B1-m20', 'CSE-2010-B1-m21', 'IFoS-2025-B1-m04', 'CSE-1994-B1-m26', 'IFoS-2014-B1-m20', 'IFoS-2010-B1-m31', 'CSE-2012-B1-m21'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2022-B1-m15', 'CSE-2017-B1-m14', 'CSE-2010-B1-m23', 'CSE-2000-B1-m13', 'CSE-1996-B1-m23', 'CSE-1995-B1-m24', 'CSE-1994-B1-m27', 'CSE-1988-B1-m20', 'CSE-2010-B1-m21', 'IFoS-2025-B1-m04', 'CSE-1994-B1-m26', 'IFoS-2014-B1-m20', 'IFoS-2010-B1-m31', 'CSE-2012-B1-m21', 'CSE-1986-B1-m23', 'CSE-1992-B1-m09'], q: [
   ['The nutritive tissue (endosperm) of a gymnosperm seed is:', ['Haploid female gametophyte formed before fertilisation', 'Triploid, formed by double fertilisation', 'Diploid nucellus', 'Formed by the integument'], 0,
     'Angiosperm endosperm is usually triploid and forms after fertilisation.'],
   ['Archegonia are absent in the female gametophyte of:', ['*Gnetum* and *Welwitschia*', '*Pinus* and *Cycas*', '*Ephedra* and *Pinus*', '*Ginkgo* and *Cycas*'], 0,
@@ -110,7 +110,7 @@
   ['In *Ginkgo*, the embryo may develop after the ovule has fallen because:', ['Fertilisation can happen late, around the time ovules are shed', 'It has no embryo', 'Seeds are dormant for years', 'It is apomictic'], 0,
     'Seeds have little or no dormancy.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2023-B1-m15', 'CSE-2021-B1-m20', 'CSE-2018-B1-m17', 'CSE-2004-B1-m14', 'IFoS-2014-B1-m23', 'CSE-2021-B1-m19', 'CSE-2015-B1-m17', 'IFoS-2022-B1-m14', 'CSE-2009-B1-m21', 'CSE-2018-B1-m16', 'CSE-2014-B1-m19', 'IFoS-2004-B1-m20', 'CSE-2024-B1-m19', 'CSE-2023-B1-m03'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2023-B1-m15', 'CSE-2021-B1-m20', 'CSE-2018-B1-m17', 'CSE-2004-B1-m14', 'IFoS-2014-B1-m23', 'CSE-2021-B1-m19', 'CSE-2015-B1-m17', 'IFoS-2022-B1-m14', 'CSE-2009-B1-m21', 'CSE-2018-B1-m16', 'CSE-2014-B1-m19', 'IFoS-2004-B1-m20', 'CSE-2024-B1-m19', 'CSE-2023-B1-m03', 'CSE-2002-B1-m05', 'CSE-1988-B1-m05'], q: [
   ['Cordaitales were:', ['Tall Carboniferous trees with long, strap-shaped, parallel-veined leaves', 'Small herbs of the Cenozoic', 'Mesozoic cycads', 'Aquatic ferns'], 0,
     'Their pith had transverse septa — casts called *Artisia*.'],
   ['The fertile shoots of Cordaitales (*Cordaianthus*) are:', ['Compound strobili with bracts subtending short shoots that bear scales and ovules or pollen sacs', 'Simple cones of sporophylls', 'Flowers with petals', 'Sporocarps'], 0,
@@ -132,7 +132,7 @@
   ['Progymnosperms are significant because they show:', ['That gymnosperm-type wood evolved before the seed', 'That flowers evolved before seeds', 'That mosses gave rise to ferns', 'That seeds evolved in algae'], 0,
     'Beck (1960) named the group.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2014-B1-m18', 'IFoS-2020-B1-m17', 'CSE-1989-B1-m26', 'CSE-2023-B1-m19'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2014-B1-m18', 'IFoS-2020-B1-m17', 'CSE-1989-B1-m26', 'CSE-2023-B1-m19', 'CSE-2006-B1-m22'], q: [
   ['A petrifaction forms when:', ['Minerals such as silica or calcite infiltrate and replace tissues, preserving internal anatomy', 'A plant leaves only an imprint in mud', 'A plant is preserved in ice', 'Carbon film is left after compression'], 0,
     'Petrifactions let botanists section fossils like living tissue.'],
   ['An impression fossil preserves:', ['Only the surface outline, without plant matter', 'Internal cells', 'The whole 3-D organ in silica', 'DNA'], 0,
@@ -154,7 +154,7 @@
   ['Petrified fossils are called "marvels" of palaeobotany because they:', ['Preserve cell-level anatomy of extinct plants', 'Show colour of flowers', 'Contain living cells', 'Are always complete plants'], 0,
     'The Rhynie Chert preserves even fungal hyphae inside cells.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2021-B1-m18', 'CSE-2017-B1-m15', 'CSE-2015-B1-m18', 'IFoS-2004-B1-m20', 'IFoS-2022-B1-m16', 'CSE-1991-B1-m24', 'CSE-2013-B1-m12'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2021-B1-m18', 'CSE-2017-B1-m15', 'CSE-2015-B1-m18', 'IFoS-2004-B1-m20', 'IFoS-2022-B1-m16', 'CSE-1991-B1-m24', 'CSE-2013-B1-m12', 'CSE-1990-B1-m15', 'CSE-2006-B1-m10'], q: [
   ['Most of India\'s native conifers grow in the:', ['Himalaya', 'Indo-Gangetic plain', 'Thar desert', 'Deccan plateau'], 0,
     'The North-East and Western Ghats hold *Gnetum*, *Podocarpus* and cycads.'],
   ['A conifer of the subtropical Himalaya, tapped for resin and turpentine, is:', ['*Pinus roxburghii*', '*Abies pindrow*', '*Taxus wallichiana*', '*Cedrus deodara*'], 0,

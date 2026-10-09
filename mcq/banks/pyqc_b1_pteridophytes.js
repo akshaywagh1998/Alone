@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Pteridophytes. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2013-B1-m41', 'CSE-2012-B1-m28', 'IFoS-2010-B1-m38', 'CSE-2010-B1-m29', 'CSE-2006-B1-m26', 'CSE-2004-B1-m24', 'IFoS-2003-B1-m28', 'IFoS-2002-B1-m24', 'CSE-1995-B1-m40', 'CSE-1987-B1-m24', 'CSE-1992-B1-m35', 'IFoS-2001-B1-m25', 'CSE-2022-B1-m27'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2013-B1-m41', 'CSE-2012-B1-m28', 'IFoS-2010-B1-m38', 'CSE-2010-B1-m29', 'CSE-2006-B1-m26', 'CSE-2004-B1-m24', 'IFoS-2003-B1-m28', 'IFoS-2002-B1-m24', 'CSE-1995-B1-m40', 'CSE-1987-B1-m24', 'CSE-1992-B1-m35', 'IFoS-2001-B1-m25', 'CSE-2022-B1-m27', 'CSE-2020-B1-m15', 'IFoS-2019-B1-m10', 'CSE-2014-B1-m16', 'CSE-2018-B1-m23', 'CSE-1985-B1-m18'], q: [
   ['Morphologically, the sporocarp of *Marsilea* is best interpreted as:', ['A modified fertile leaf segment (folded pinna)', 'A modified stem branch', 'A single enlarged sporangium', 'A modified root'], 0,
     'It is borne on the petiole and is a folded, hardened fertile leaflet enclosing the sori.'],
   ['Inside the *Marsilea* sporocarp, each sorus bears:', ['Megasporangia on the crest of the receptacle and microsporangia on its flanks', 'Only microsporangia', 'Only megasporangia', 'Sporangia scattered without a receptacle'], 0,
@@ -22,7 +22,7 @@
   ['The *Marsilea* sporocarp is not considered a seed because:', ['The megaspore is shed and the gametophyte is fertilised outside, with no integument-covered megasporangium', 'It contains microsporangia as well', 'It has a hard wall', 'Its spores are produced by meiosis'], 0,
     'A seed is an integumented megasporangium retaining the megaspore and holding an embryo.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2005-B1-m26', 'CSE-1994-B1-m39', 'CSE-1993-B1-m37', 'IFoS-2015-B1-m19', 'CSE-2012-B1-m27', 'CSE-2011-B1-m17', 'IFoS-2000-B1-m24', 'CSE-1987-B1-m23', 'IFoS-2003-B1-m26', 'CSE-2007-B1-m25', 'CSE-1995-B1-m39', 'IFoS-2001-B1-m24'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2005-B1-m26', 'CSE-1994-B1-m39', 'CSE-1993-B1-m37', 'IFoS-2015-B1-m19', 'CSE-2012-B1-m27', 'CSE-2011-B1-m17', 'IFoS-2000-B1-m24', 'CSE-1987-B1-m23', 'IFoS-2003-B1-m26', 'CSE-2007-B1-m25', 'CSE-1995-B1-m39', 'IFoS-2001-B1-m24', 'CSE-1990-B1-m10'], q: [
   ['The rhizophore of *Selaginella* arises:', ['From angle meristems at the points of stem branching', 'Endogenously from the pericycle of the root', 'From the base of the ligule', 'From the strobilus axis'], 0,
     'It is a colourless, leafless, positively geotropic axis that produces roots at its tip.'],
   ['Which feature makes the rhizophore of *Selaginella* stem-like rather than root-like?', ['Exogenous origin and no root cap', 'Presence of root hairs', 'Endogenous origin', 'Exarch xylem'], 0,
@@ -88,7 +88,7 @@
   ['Compared with *Equisetum*, the vascular system of ferns is considered more advanced because ferns have:', ['Megaphylls whose leaf traces leave leaf gaps in a siphonostele or dictyostele', 'A simple protostele', 'No leaf traces', 'Only scale leaves'], 0,
     'Leaf gaps and dissected steles go with the large, complex fern leaf.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2013-B1-m39', 'CSE-2019-B1-m28', 'CSE-1998-B1-m25', 'IFoS-2003-B1-m25', 'CSE-2006-B1-m25', 'CSE-1990-B1-m22'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2013-B1-m39', 'CSE-2019-B1-m28', 'CSE-1998-B1-m25', 'IFoS-2003-B1-m25', 'CSE-2006-B1-m25', 'CSE-1990-B1-m22', 'CSE-2006-B1-m17'], q: [
   ['The typical prothallus of *Dryopteris* or *Pteris* is:', ['Green, heart-shaped and monoecious, with archegonia near the apical notch', 'Subterranean and non-green', 'Endosporic and unisexual', 'Filamentous and dioecious'], 0,
     'Antheridia lie among the rhizoids towards the posterior end.'],
   ['A non-green, tuberous, subterranean mycorrhizal prothallus is typical of:', ['*Ophioglossum* and *Botrychium*', '*Pteris*', '*Marsilea*', '*Azolla*'], 0,

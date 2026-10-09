@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2025 Botany Paper I (topic-level PYQs from the volume anchors). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2025-B1-Q1a', 'CSE-2017-B1-m09', 'CSE-1989-B1-m25', 'CSE-2021-B1-m02'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2025-B1-Q1a', 'CSE-2017-B1-m09', 'CSE-1989-B1-m25', 'CSE-2021-B1-m02', 'CSE-1986-B1-m22', 'CSE-1993-B1-m08', 'CSE-1988-B1-m04'], q: [
   ['Rhizoids of mosses differ from those of liverworts in being:', ['Multicellular with oblique cross-walls', 'Unicellular and smooth', 'Unicellular and tuberculate', 'Absent'], 0,
     'Liverworts have unicellular rhizoids (smooth and tuberculate types in *Marchantia*).'],
   ['Leaves of mosses usually differ from those of leafy liverworts in that moss leaves:', ['Are spirally arranged and often have a midrib (costa)', 'Are in two rows and lobed without a midrib', 'Are absent', 'Are always underground'], 0,
@@ -22,7 +22,7 @@
   ['Which is a leafy liverwort?', ['*Porella*', '*Funaria*', '*Polytrichum*', '*Sphagnum*'], 0,
     '*Funaria*, *Polytrichum* and *Sphagnum* are mosses; *Marchantia* and *Riccia* are thalloid liverworts.'],
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2025-B1-Q1c', 'IFoS-2001-B1-m02', 'CSE-1990-B1-m02', 'CSE-1989-B1-m01', 'CSE-1987-B1-m01', 'CSE-1998-B1-m01', 'CSE-2023-B1-m01'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2025-B1-Q1c', 'IFoS-2001-B1-m02', 'CSE-1990-B1-m02', 'CSE-1989-B1-m01', 'CSE-1987-B1-m01', 'CSE-1998-B1-m01', 'CSE-2023-B1-m01', 'CSE-2016-B1-m21', 'IFoS-2019-B1-m17', 'CSE-1996-B1-m25', 'CSE-1991-B1-m25', 'CSE-2004-B1-m15'], q: [
   ['Cyanobacteria resemble bacteria in having:', ['A prokaryotic cell with no nucleus, 70S ribosomes and a peptidoglycan wall', 'A membrane-bound nucleus', 'Chloroplasts', 'Mitochondria'], 0,
     'This is why they are now placed with bacteria rather than algae.'],
   ['Cyanobacteria resemble algae and plants in:', ['Oxygenic photosynthesis using chlorophyll a and two photosystems', 'Having chloroplasts with double membranes', 'Having flagellated gametes', 'Having a nucleus'], 0,
@@ -132,7 +132,7 @@
   ['The reserve foods of *Laminaria* are:', ['Laminarin and mannitol', 'Floridean starch', 'True starch', 'Glycogen'], 0,
     'Laminarin is a β-1,3-glucan.'],
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: 'IFoS-2025-B1-Q3b', q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2025-B1-Q3b', 'CSE-2014-B1-m22', 'CSE-2000-B1-m16', 'CSE-1993-B1-m26'], q: [
   ['Late leaf spot of groundnut differs from early leaf spot in having:', ['Darker, nearly black lesions, mainly on the lower leaf surface, without a prominent yellow halo', 'Brown spots with a bright yellow halo on the upper surface', 'Only stem lesions', 'Only pod rot'], 0,
     'Early leaf spot (*Cercospora arachidicola*) appears earlier, about a month after sowing.'],
   ['The perfect (sexual) stages of the tikka pathogens are:', ['*Mycosphaerella arachidis* (early) and *M. berkeleyi* (late)', '*Puccinia arachidis*', '*Sclerotium rolfsii*', '*Aspergillus niger*'], 0,
@@ -154,7 +154,7 @@
   ['The name "tikka" refers to the:', ['Spots (marks) formed on groundnut leaves', 'Pod rot', 'Stem breaking', 'Seed colour'], 0,
     'From the Hindi word for a mark on the forehead.'],
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2025-B1-Q3c', 'CSE-2025-B1-m27', 'IFoS-2013-B1-m38', 'CSE-2012-B1-m29', 'IFoS-2010-B1-m39'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2025-B1-Q3c', 'CSE-2025-B1-m27', 'IFoS-2013-B1-m38', 'CSE-2012-B1-m29', 'IFoS-2010-B1-m39', 'CSE-1996-B1-m27'], q: [
   ['*Ophioglossum* (adder’s-tongue fern) is:', ['A eusporangiate fern', 'A leptosporangiate fern', 'A moss', 'A seed plant'], 0,
     'Family Ophioglossaceae, with *Botrychium* (grape fern, moonwort).'],
   ['In *Ophioglossum*, each leaf consists of:', ['A sterile lamina and a fertile spike arising from its base', 'Only a fertile spike', 'A sporocarp', 'Sori on the lower surface'], 0,
@@ -176,7 +176,7 @@
   ['Which genus belongs to Ophioglossaceae along with *Ophioglossum*?', ['*Botrychium*', '*Marsilea*', '*Azolla*', '*Equisetum*'], 0,
     '*Marsilea* and *Azolla* are heterosporous water ferns.'],
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: 'IFoS-2025-B1-Q4a', q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['IFoS-2025-B1-Q4a', 'IFoS-2015-B1-m13', 'CSE-2012-B1-m12', 'IFoS-2009-B1-m24', 'IFoS-2019-B1-m22', 'CSE-1989-B1-m32', 'IFoS-2001-B1-m20', 'CSE-2003-B1-m17', 'CSE-2000-B1-m18', 'CSE-1990-B1-m39', 'IFoS-2015-B1-m15'], q: [
   ['Soft-rot fungi break down host tissue mainly with:', ['Pectinases (e.g., polygalacturonase) and cellulases', 'Amylases only', 'Lipases only', 'Nitrogenase'], 0,
     'These cell-wall-degrading enzymes dissolve the middle lamella.'],
   ['Patulin contamination is a concern mainly in:', ['Apple juice and apple products (from *Penicillium expansum*)', 'Rice', 'Milk', 'Groundnut oil'], 0,
@@ -198,7 +198,7 @@
   ['*Trichoderma* suppresses plant-pathogenic fungi partly through its:', ['Chitinases and glucanases that digest pathogen cell walls', 'Nitrogen fixation', 'Photosynthesis', 'Toxins that kill crop roots'], 0,
     'Mycoparasitism and competition also contribute.'],
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: 'IFoS-2025-B1-Q4b', q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['IFoS-2025-B1-Q4b', 'CSE-2016-B1-m16', 'CSE-2021-B1-m17'], q: [
   ['The mycelium of Zygomycetes is typically:', ['Coenocytic and aseptate', 'Septate with dolipores', 'Absent', 'Made of yeast cells only'], 0,
     'Septa form only to delimit reproductive structures.'],
   ['Sexual reproduction in Zygomycetes is by:', ['Gametangial copulation forming a thick-walled zygospore', 'Oogamy', 'Formation of basidiospores', 'Formation of asci'], 0,
@@ -286,7 +286,7 @@
   ['Natural dyes are regaining importance mainly because they are:', ['Eco-friendly and non-toxic compared with many synthetic dyes', 'Cheaper than all synthetic dyes', 'Available in unlimited colours', 'Completely light-fast'], 0,
     'Mordants (e.g., alum) are used to fix them to fibres.'],
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: 'IFoS-2025-B1-Q5e', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2025-B1-Q5e', 'CSE-2016-B1-m07', 'IFoS-2007-B1-m05', 'IFoS-2002-B1-m06', 'IFoS-2001-B1-m06', 'IFoS-2000-B1-m08', 'CSE-2019-B1-m07', 'CSE-2018-B1-m05'], q: [
   ['A herbarium is:', ['A collection of pressed, dried and labelled plant specimens arranged in a system of classification', 'A garden of living medicinal plants', 'A seed bank', 'A greenhouse'], 0,
     'It is the basic reference for plant identification and naming.'],
   ['The standard size of a herbarium sheet is about:', ['41 × 29 cm', '10 × 10 cm', '1 × 1 m', '5 × 3 cm'], 0,

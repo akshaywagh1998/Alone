@@ -22,7 +22,7 @@
   ['The "retrogressive" (reduction) view of bryophyte evolution holds that the simple *Riccia* sporophyte is:', ['A reduced form derived from more complex ancestors', 'The most primitive starting point', 'A gametophyte', 'Identical to that of mosses'], 0,
     'Bower’s upgrade theory reads the same series the other way round, from simple to complex.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['IFoS-2022-B1-m09', 'CSE-2015-B1-m09', 'CSE-2013-B1-m08', 'CSE-2020-B1-m11', 'IFoS-2003-B1-m13', 'CSE-1987-B1-m13', 'IFoS-2023-B1-m09', 'CSE-2007-B1-m13', 'CSE-1999-B1-m12', 'IFoS-2004-B1-m13', 'CSE-2005-B1-m12', 'IFoS-2006-B1-m08', 'CSE-2010-B1-m16', 'CSE-1994-B1-m38', 'CSE-1998-B1-m02'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['IFoS-2022-B1-m09', 'CSE-2015-B1-m09', 'CSE-2013-B1-m08', 'CSE-2020-B1-m11', 'IFoS-2003-B1-m13', 'CSE-1987-B1-m13', 'IFoS-2023-B1-m09', 'CSE-2007-B1-m13', 'CSE-1999-B1-m12', 'IFoS-2004-B1-m13', 'CSE-2005-B1-m12', 'IFoS-2006-B1-m08', 'CSE-2010-B1-m16', 'CSE-1994-B1-m38', 'CSE-1998-B1-m02', 'CSE-2006-B1-m16', 'CSE-1989-B1-m30'], q: [
   ['A feature that *Anthoceros* shares with green algae (Chlorophyceae) is:', ['A single large chloroplast per cell, with a pyrenoid', 'Phycobilins', 'Floridean starch', 'Motile vegetative cells'], 0,
     'This algal-like plastid is unique among bryophytes.'],
   ['Colonies of *Nostoc* in the *Anthoceros* thallus live in:', ['Mucilage-filled cavities on the ventral side, where they fix nitrogen', 'The capsule wall', 'Air chambers with pores', 'The rhizoids'], 0,
@@ -66,7 +66,7 @@
   ['The spore sac of *Funaria* develops from the:', ['Outer layer of the endothecium', 'Calyptra', 'Apophysis', 'Seta'], 0,
     'The inner endothecium forms the columella.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['CSE-2014-B1-m12', 'IFoS-2005-B1-m09', 'CSE-2013-B1-m09', 'IFoS-2001-B1-m13', 'IFoS-2021-B1-m13', 'IFoS-2014-B1-m14', 'IFoS-2013-B1-m12', 'CSE-1985-B1-m16', 'CSE-1994-B1-m03', 'CSE-2002-B1-m02'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['CSE-2014-B1-m12', 'IFoS-2005-B1-m09', 'CSE-2013-B1-m09', 'IFoS-2001-B1-m13', 'IFoS-2021-B1-m13', 'IFoS-2014-B1-m14', 'IFoS-2013-B1-m12', 'CSE-1985-B1-m16', 'CSE-1994-B1-m03', 'CSE-2002-B1-m02', 'IFoS-2006-B1-m19'], q: [
   ['*Marchantia polymorpha* is:', ['Dioecious, with separate male and female thalli', 'Monoecious with both sex organs on one receptacle', 'Without sex organs', 'Always aquatic'], 0,
     'Sex is determined by U and V sex chromosomes.'],
   ['The antheridiophore of *Marchantia* bears:', ['A stalked, eight-lobed disc with antheridia in cavities on its upper surface', 'Archegonia on its underside', 'Gemma cups', 'Spore capsules'], 0,
@@ -110,7 +110,7 @@
   ['The dominant, long-lived generation in both *Riccia* and *Marchantia* is the:', ['Haploid gametophyte (thallus)', 'Diploid sporophyte', 'Protonema', 'Embryo'], 0,
     'The sporophyte lives briefly on the female thallus.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2013-B1-m07', 'IFoS-2000-B1-m11', 'IFoS-2006-B1-m10', 'CSE-2010-B1-m16', 'IFoS-2014-B1-m13', 'CSE-1992-B1-m18'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2013-B1-m07', 'IFoS-2000-B1-m11', 'IFoS-2006-B1-m10', 'CSE-2010-B1-m16', 'IFoS-2014-B1-m13', 'CSE-1992-B1-m18', 'CSE-1997-B1-m19', 'CSE-1986-B1-m20', 'CSE-2009-B1-m10'], q: [
   ['The moss gametophyte develops in two stages:', ['A filamentous protonema, then a leafy gametophore', 'A thallus, then a capsule', 'A prothallus, then a cone', 'A seta, then a calyptra'], 0,
     'Buds on the protonema grow into leafy shoots.'],
   ['The moss protonema is heterotrichous: its two kinds of filaments are:', ['Chloronema (cross walls at right angles, many chloroplasts) and caulonema (oblique walls, fewer chloroplasts)', 'Rhizoids and leaves', 'Xylem and phloem', 'Antheridia and archegonia'], 0,
@@ -176,7 +176,7 @@
   ['Bryophytes act as indicator plants because they:', ['Respond strongly to soil chemistry, moisture and pollution', 'Grow everywhere equally', 'Are unaffected by the environment', 'Need fertilisers'], 0,
     'Their presence or absence can signal minerals, pH or air quality.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['CSE-2002-B1-m10', 'CSE-1990-B1-m23', 'CSE-2004-B1-m11', 'IFoS-2022-B1-m10', 'IFoS-2010-B1-m20', 'CSE-2018-B1-m12', 'IFoS-2013-B1-m13', 'CSE-2024-B1-m13'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['CSE-2002-B1-m10', 'CSE-1990-B1-m23', 'CSE-2004-B1-m11', 'IFoS-2022-B1-m10', 'IFoS-2010-B1-m20', 'CSE-2018-B1-m12', 'IFoS-2013-B1-m13', 'CSE-2024-B1-m13', 'CSE-1995-B1-m32', 'CSE-1990-B1-m11'], q: [
   ['*Sphagnum* holds many times its dry weight of water mainly because its leaves have:', ['Large dead hyaline cells with pores and spiral thickenings', 'A thick cuticle', 'Many stomata', 'Waxy scales'], 0,
     'Narrow living green cells lie between the hyaline cells.'],
   ['*Sphagnum* can hold about how many times its dry weight of water?', ['About 20 times', 'About 2 times', 'About 200 times', 'It holds no water'], 0,
@@ -198,7 +198,7 @@
   ['Horticulturists use *Sphagnum* as a growing medium for:', ['Orchids and seedlings', 'Cacti only', 'Rice', 'Aquatic weeds'], 0,
     'It is airy, moisture-retentive and nearly sterile.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2019-B1-m11', 'IFoS-2010-B1-m21', 'IFoS-2006-B1-m10', 'CSE-1996-B1-m36'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2019-B1-m11', 'IFoS-2010-B1-m21', 'IFoS-2006-B1-m10', 'CSE-1996-B1-m36', 'CSE-1991-B1-m34'], q: [
   ['Bryophytes show:', ['Heteromorphic alternation of generations, with a dominant gametophyte', 'Isomorphic alternation', 'A dominant sporophyte', 'No alternation'], 0,
     'The two generations look completely different.'],
   ['The life cycle of a bryophyte is described as:', ['Haplodiplontic', 'Haplontic', 'Diplontic', 'Asexual only'], 0,

@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Botany Paper I, Q1–Q4 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2017-B1-Q1a', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q1a', 'CSE-1993-B1-m23', 'IFoS-2014-B1-m25', 'CSE-2007-B1-m22'], q: [
   ['A nucleus enclosed by a nuclear envelope is found in:', ['Eukaryotes only', 'Prokaryotes only', 'Both', 'Neither'], 0,
     'Prokaryotic DNA lies in an unbounded nucleoid.'],
   ['Cytoplasmic ribosomes are:', ['70S in prokaryotes and 80S in eukaryotes', '80S in prokaryotes and 70S in eukaryotes', '70S in both', '80S in both'], 0,
@@ -22,7 +22,7 @@
   ['Prokaryotes have homologues of cytoskeletal proteins, such as:', ['FtsZ (tubulin-like) and MreB (actin-like)', 'Myosin only', 'Keratin', 'Histone H1'], 0,
     'FtsZ forms the ring at the site of cell division.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: 'IFoS-2017-B1-Q1b', q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['IFoS-2017-B1-Q1b', 'IFoS-2019-B1-m12', 'IFoS-2012-B1-m36', 'CSE-2005-B1-m16', 'CSE-1995-B1-m20', 'IFoS-2010-B1-m29', 'CSE-1989-B1-m23'], q: [
   ['Aflatoxins are produced mainly by:', ['*Aspergillus flavus* and *A. parasiticus*', '*Penicillium chrysogenum*', '*Claviceps purpurea*', '*Fusarium graminearum*'], 0,
     'The name comes from "*A. fla*vus toxin".'],
   ['Crops most often contaminated with aflatoxin include:', ['Groundnut, maize, cottonseed and chillies', 'Tea and coffee only', 'Apples only', 'Leafy vegetables'], 0,
@@ -66,7 +66,7 @@
   ['The pigments of red algal plastids, similar to those of cyanobacteria, support the view that red algae:', ['Arose from primary endosymbiosis of a cyanobacterium', 'Arose from brown algae', 'Are fungi', 'Have no plastids'], 0,
     'Red algae, green algae and glaucophytes form the Archaeplastida.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 3, pyq: 'IFoS-2017-B1-Q1d', q: [
+{ p: 'B1', t: 'Microbiology', w: 3, pyq: ['IFoS-2017-B1-Q1d', 'IFoS-2016-B1-m16', 'CSE-1994-B1-m28', 'IFoS-2022-B1-m20', 'IFoS-2005-B1-m24', 'IFoS-2024-B1-m22', 'CSE-2015-B1-m19', 'CSE-2009-B1-m23', 'IFoS-2006-B1-m21'], q: [
   ['Ammonification is:', ['The release of ammonia from organic nitrogen by decomposers', 'The oxidation of ammonia to nitrate', 'The reduction of nitrate to N₂', 'The fixation of N₂'], 0,
     '*Bacillus*, *Clostridium*, *Pseudomonas*, actinomycetes and fungi all do it.'],
   ['The first step of nitrification, ammonium to nitrite, is carried out by:', ['*Nitrosomonas* (and *Nitrosococcus*, *Nitrosospira*)', '*Nitrobacter*', '*Rhizobium*', '*Pseudomonas denitrificans*'], 0,
@@ -154,7 +154,7 @@
   ['The spores of bryophytes are formed by:', ['Meiosis of spore mother cells into tetrads', 'Mitosis of gametophyte cells', 'Fusion of gametes', 'Budding'], 0,
     'They are haploid and grow into the gametophyte.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: 'IFoS-2017-B1-Q2c', q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q2c', 'CSE-2016-B1-m20', 'IFoS-2014-B1-m26', 'CSE-2006-B1-m18', 'CSE-2004-B1-m17', 'CSE-2001-B1-m14', 'IFoS-2006-B1-m22', 'IFoS-2011-B1-m27', 'IFoS-2021-B1-m22', 'IFoS-2019-B1-m19', 'CSE-2024-B1-m23', 'CSE-2025-B1-m21', 'CSE-2014-B1-m21', 'CSE-1991-B1-m33', 'CSE-1995-B1-m28'], q: [
   ['The gene-for-gene hypothesis was proposed by:', ['H. H. Flor, working on flax rust (*Melampsora lini*)', 'Van der Plank', 'Stakman', 'Jones and Dangl'], 0,
     'For each host resistance gene there is a matching pathogen avirulence gene.'],
   ['Pathogen-associated molecular patterns (PAMPs), such as bacterial flagellin, are recognised by:', ['Pattern-recognition receptors (PRRs) such as FLS2', 'NLR resistance proteins inside the cell', 'Ribosomes', 'Chloroplasts'], 0,
@@ -176,7 +176,7 @@
   ['Many fungal pathogens enter host tissue using:', ['Appressoria and cell-wall-degrading enzymes', 'Stomatal closure', 'Photosynthesis', 'Root nodules'], 0,
     'The rice blast fungus builds high turgor in its appressorium.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2017-B1-Q2d', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q2d', 'CSE-1993-B1-m19', 'CSE-2018-B1-m21', 'IFoS-2016-B1-m18', 'CSE-2013-B1-m13', 'CSE-2001-B1-m15', 'CSE-1996-B1-m24', 'CSE-1995-B1-m33', 'CSE-1988-B1-m22', 'CSE-1985-B1-m17', 'CSE-2020-B1-m22', 'CSE-2019-B1-m24', 'CSE-2002-B1-m16', 'CSE-1995-B1-m31'], q: [
   ['Most antibiotics in clinical use are produced by bacteria of the genus:', ['*Streptomyces*', '*Escherichia*', '*Lactobacillus*', '*Rhizobium*'], 0,
     'Examples include tetracycline and chloramphenicol.'],
   ['The antibiotics bacitracin and polymyxin come from:', ['*Bacillus* species', '*Streptomyces* only', 'Fungi', 'Algae'], 0,
@@ -242,7 +242,7 @@
   ['The other living genus of Psilotaceae is:', ['*Tmesipteris*', '*Lycopodium*', '*Equisetum*', '*Isoetes*'], 0,
     'It grows as an epiphyte, mainly in Australasia.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2017-B1-Q3c', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q3c', 'CSE-1998-B1-m24', 'CSE-1990-B1-m38', 'IFoS-2022-B1-m19'], q: [
   ['Transduction is the transfer of bacterial DNA from one cell to another by:', ['A bacteriophage', 'Direct cell contact', 'Uptake of free DNA', 'Plasmid replication only'], 0,
     'Conjugation needs cell contact; transformation uses free DNA.'],
   ['Transduction was discovered in *Salmonella* (phage P22) by:', ['Zinder and Lederberg (1952)', 'Griffith', 'Avery, MacLeod and McCarty', 'Hershey and Chase'], 0,
@@ -264,7 +264,7 @@
   ['The three ways bacteria exchange genes are:', ['Transformation, transduction and conjugation', 'Mitosis, meiosis and fission', 'Budding, spores and fission', 'Fusion, grafting and layering'], 0,
     'Griffith first showed transformation in 1928.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: 'IFoS-2017-B1-Q3d', q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['IFoS-2017-B1-Q3d', 'CSE-2002-B1-m12', 'CSE-2019-B1-m16', 'IFoS-2019-B1-m11', 'IFoS-2012-B1-m34'], q: [
   ['Ectomycorrhizae are recognised by:', ['A fungal mantle around the root and a Hartig net between cortical cells', 'Arbuscules inside cells', 'Coils inside cells only', 'Nodules'], 0,
     'The fungus does not enter the cortical cells.'],
   ['Ectomycorrhizae are common in:', ['*Pinus*, *Eucalyptus*, oaks and dipterocarps', 'Wheat and rice', 'Mustard', 'Grasses'], 0,
@@ -308,7 +308,7 @@
   ['The telome theory can also explain complex steles through:', ['Syngenesis — fusion of the vascular strands of telomes', 'Secondary growth', 'Leaf gaps only', 'Reduction'], 0,
     'Fused telomes give lobed and dissected steles.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: 'IFoS-2017-B1-Q4b', q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q4b', 'IFoS-2013-B1-m29', 'IFoS-2012-B1-m37', 'IFoS-2001-B1-m17', 'CSE-2024-B1-m24', 'CSE-2020-B1-m19', 'CSE-2013-B1-m15', 'IFoS-2020-B1-m21', 'CSE-2014-B1-m24', 'CSE-1991-B1-m31', 'CSE-1987-B1-m18', 'CSE-2015-B1-m21', 'CSE-1999-B1-m18', 'IFoS-2019-B1-m21', 'CSE-1990-B1-m41', 'CSE-2010-B1-m06'], q: [
   ['Black stem rust of wheat is caused by:', ['*Puccinia graminis* f. sp. *tritici*', '*Puccinia triticina*', '*Puccinia striiformis*', '*Ustilago tritici*'], 0,
     '*P. triticina* causes brown (leaf) rust; *P. striiformis* causes yellow (stripe) rust.'],
   ['Stem rust is called macrocyclic because it:', ['Produces all five spore stages', 'Has only urediniospores', 'Has no teliospores', 'Grows only on large plants'], 0,
@@ -330,7 +330,7 @@
   ['Pycniospores (spermatia) of stem rust:', ['Serve to fertilise receptive hyphae, restoring the dikaryon', 'Infect wheat directly', 'Are the resting stage', 'Are produced on wheat'], 0,
     'They form in pycnia on the upper surface of barberry leaves.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2017-B1-Q4c', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q4c', 'CSE-2020-B1-m20', 'CSE-2016-B1-m19', 'CSE-2013-B1-m14', 'CSE-2006-B1-m20', 'CSE-2003-B1-m16', 'CSE-1989-B1-m31', 'CSE-1991-B1-m27', 'IFoS-2016-B1-m17', 'CSE-1993-B1-m31'], q: [
   ['In the lytic cycle, a phage:', ['Multiplies inside the host and bursts (lyses) it', 'Integrates into the host chromosome and stays dormant', 'Never infects the host', 'Only attaches to the host'], 0,
     'In the lysogenic cycle, the phage genome is carried as a prophage.'],
   ['Phage T4 is:', ['Virulent — it follows only the lytic cycle', 'Temperate', 'An RNA phage', 'A plant virus'], 0,

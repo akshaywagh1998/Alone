@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2018 Botany Paper I (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2018-B1-Q1a', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2018-B1-Q1a', 'IFoS-2016-B1-m15', 'CSE-1998-B1-m19', 'IFoS-2001-B1-m19', 'CSE-2010-B1-m25'], q: [
   ['Peptidoglycan (murein) in the cell wall is found in:', ['Bacteria, but not Archaea', 'Archaea only', 'Both Bacteria and Archaea', 'Neither group'], 0,
     'Archaea have pseudomurein, S-layers or other polymers, never true murein.'],
   ['Membrane lipids of Archaea consist of:', ['Isoprenoid chains ether-linked to glycerol-1-phosphate', 'Fatty acids ester-linked to glycerol-3-phosphate', 'Sterols only', 'Sphingolipids only'], 0,
@@ -22,7 +22,7 @@
   ['A feature shared by Bacteria and Archaea, which sets them apart from eukaryotes, is:', ['No nucleus and 70S ribosomes', 'Ether-linked lipids', 'Peptidoglycan walls', 'Mitochondria'], 0,
     'Both are prokaryotes; the differences lie in their lipids, walls and gene expression machinery.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: 'IFoS-2018-B1-Q1b', q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['IFoS-2018-B1-Q1b', 'IFoS-2022-B1-m13'], q: [
   ['The cell wall of oomycetes such as *Phytophthora* is made mainly of:', ['Cellulose and β-glucans, with little or no chitin', 'Chitin', 'Peptidoglycan', 'Silica'], 0,
     'Chitin is the typical wall polymer of true fungi.'],
   ['The vegetative hyphae of oomycetes are:', ['Diploid', 'Haploid', 'Dikaryotic', 'Triploid'], 0,
@@ -110,7 +110,7 @@
   ['Coralloid roots lack:', ['Root hairs', 'A cortex', 'Vascular tissue', 'An epidermis'], 0,
     'They are specialised for symbiosis, not absorption.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: 'IFoS-2018-B1-Q2a', q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2018-B1-Q2a', 'CSE-2012-B1-m14', 'IFoS-2022-B1-m21', 'CSE-2021-B1-m23', 'CSE-2015-B1-m20', 'CSE-1993-B1-m28'], q: [
   ['Loose smut of wheat is caused by:', ['*Ustilago segetum* var. *tritici* (*U. nuda tritici*)', '*Tilletia caries*', '*Ustilago hordei*', '*Urocystis agropyri*'], 0,
     '*Urocystis agropyri* causes flag smut of wheat.'],
   ['Covered smut (bunt, stinking smut) of wheat is caused by:', ['*Tilletia caries* and *T. foetida*', '*Ustilago segetum* var. *tritici*', '*Puccinia graminis*', '*Neovossia indica*'], 0,
@@ -176,7 +176,7 @@
   ['Siphonaxanthin, which absorbs green light, is characteristic of:', ['Deep-water siphonous green algae such as *Codium*', 'Brown kelps', 'Diatoms', 'Blue-green algae'], 0,
     'It extends light harvesting in green algae living at depth.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2018-B1-Q3a', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2018-B1-Q3a', 'CSE-2004-B1-m20', 'CSE-2016-B1-m18', 'CSE-2024-B1-m25'], q: [
   ['Microbes suit industrial production because they:', ['Grow fast, have a high surface-to-volume ratio, use cheap substrates and are easy to modify genetically', 'Grow slowly and are large', 'Cannot mutate', 'Need sunlight'], 0,
     'Their products can also be scaled up in fermenters.'],
   ['Citric acid is produced commercially by:', ['*Aspergillus niger*', '*Saccharomyces cerevisiae*', '*Penicillium chrysogenum*', '*Streptomyces griseus*'], 0,
@@ -220,7 +220,7 @@
   ['The opposing view — that *Riccia*’s simple sporophyte is a reduced form rather than a primitive one — was supported by:', ['Goebel, Church and Kashyap', 'F. O. Bower', 'W. Zimmermann', 'Charles Darwin'], 0,
     'It is called the theory of progressive reduction.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2018-B1-Q3c', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2018-B1-Q3c', 'IFoS-2015-B1-m16', 'CSE-2022-B1-m19', 'IFoS-2016-B1-m19', 'CSE-2024-B1-m22', 'CSE-1993-B1-m25', 'IFoS-2019-B1-m20', 'CSE-1996-B1-m26', 'CSE-1987-B1-m19'], q: [
   ['The genome of tobacco mosaic virus is:', ['Single-stranded, positive-sense RNA of about 6,400 nucleotides', 'Double-stranded DNA', 'Single-stranded DNA', 'Double-stranded RNA'], 0,
     'It acts directly as messenger RNA after entering the cell.'],
   ['The TMV particle is:', ['A rigid rod about 300 nm long and 18 nm wide', 'An icosahedron 20 nm across', 'An enveloped sphere', 'A tailed phage'], 0,
@@ -286,7 +286,7 @@
   ['The ligule of *Selaginella* is:', ['A small membranous outgrowth on the upper side of each leaf base', 'A root', 'A sporangium', 'A rhizophore'], 0,
     'It is thought to keep young leaves and sporangia moist.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: 'IFoS-2018-B1-Q4c', q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2018-B1-Q4c', 'IFoS-2021-B1-m24', 'IFoS-2009-B1-m29', 'CSE-1989-B1-m34', 'IFoS-2012-B1-m43', 'IFoS-2010-B1-m36', 'CSE-2018-B1-m22', 'IFoS-2011-B1-m25', 'IFoS-2021-B1-m21', 'IFoS-2010-B1-m34', 'IFoS-2021-B1-m23'], q: [
   ['Systemic acquired resistance (SAR) is:', ['Long-lasting, broad-spectrum resistance throughout the plant, induced by a local infection', 'Short-lived resistance only at the infection site', 'Race-specific resistance from one R gene', 'Chemical injury to the pathogen'], 0,
     'It primes uninfected parts of the plant against later attack.'],
   ['The key signal molecule required for SAR is:', ['Salicylic acid', 'Jasmonic acid', 'Ethylene', 'Gibberellin'], 0,
@@ -308,7 +308,7 @@
   ['Salicylic-acid-mediated defence works best against:', ['Biotrophic and hemibiotrophic pathogens', 'Necrotrophic pathogens only', 'Nematodes only', 'Abiotic stress only'], 0,
     'Jasmonic acid and ethylene defences are more effective against necrotrophs.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: 'IFoS-2018-B1-Q5a', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q5a', 'CSE-2021-B1-m07', 'CSE-2014-B1-m09', 'IFoS-2013-B1-m07', 'IFoS-2012-B1-m12', 'CSE-2010-B1-m14', 'CSE-2003-B1-m06', 'IFoS-2001-B1-m10', 'IFoS-2011-B1-m08', 'CSE-1993-B1-m20'], q: [
   ['The inflorescence of Asteraceae is:', ['A capitulum (head) surrounded by an involucre of bracts', 'An umbel', 'A spike', 'A cyathium'], 0,
     'Many small florets are packed on a common receptacle.'],
   ['In Asteraceae, the calyx is often modified into:', ['A pappus of hairs or scales that helps wind dispersal', 'Spines only', 'Showy petals', 'Nectaries'], 0,
@@ -374,7 +374,7 @@
   ['A likely function of cortical bundles is to:', ['Supply the thick cortex and leaves and add support at the stem angles', 'Store starch only', 'Replace the stele', 'Form cork'], 0,
     'They supplement the normal vascular ring.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: 'IFoS-2018-B1-Q5d', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2018-B1-Q5d', 'CSE-2021-B1-m11'], q: [
   ['Botanical gardens contribute to plant conservation mainly through:', ['Ex situ conservation — living collections, seed banks and propagation', 'In situ conservation in natural habitats', 'Timber production', 'Recreation only'], 0,
     'They also support reintroduction into the wild.'],
   ['The global network of botanic gardens for conservation is:', ['Botanic Gardens Conservation International (BGCI)', 'IUCN', 'FAO', 'CITES'], 0,
@@ -506,7 +506,7 @@
   ['Nucellar embryony is a form of:', ['Apomixis (sporophytic apomixis)', 'Double fertilisation', 'Parthenocarpy', 'Meiotic recombination'], 0,
     'It produces seeds without fertilisation of the embryo.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2018-B1-Q7b', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2018-B1-Q7b', 'IFoS-2022-B1-m05', 'IFoS-2021-B1-m06'], q: [
   ['Cinnamon is obtained from:', ['*Cinnamomum verum*, Lauraceae — dried inner bark', '*Cinnamomum camphora*, Lauraceae — leaves', '*Syzygium aromaticum*, Myrtaceae — buds', '*Myristica fragrans*, Myristicaceae — seed'], 0,
     'Cassia bark comes from *C. cassia*.'],
   ['Clove is obtained from:', ['*Syzygium aromaticum*, Myrtaceae — dried unopened flower buds', '*Piper nigrum*, Piperaceae — fruits', '*Elettaria cardamomum* — capsules', '*Crocus sativus* — stigmas'], 0,
@@ -528,7 +528,7 @@
   ['Myristicin, which can be toxic in large doses, is found in:', ['Nutmeg', 'Cardamom', 'Clove', 'Saffron'], 0,
     'It is a mild psychoactive compound.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q7c', 'CSE-2015-B1-m04'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q7c', 'CSE-2015-B1-m04', 'IFoS-2013-B1-m10', 'IFoS-2007-B1-m07', 'CSE-2003-B1-m07', 'IFoS-2001-B1-m05', 'CSE-1992-B1-m13', 'CSE-1996-B1-m12', 'CSE-2010-B1-m13'], q: [
   ['An epicalyx is characteristic of:', ['Malvaceae (e.g., *Hibiscus*)', 'Solanaceae', 'Both families', 'Neither family'], 0,
     'It is a whorl of bracteoles below the calyx.'],
   ['The stamens of Malvaceae are:', ['Monadelphous, forming a staminal column, with one-celled kidney-shaped anthers', 'Five, free and epipetalous', 'Diadelphous', 'Syngenesious'], 0,
@@ -572,7 +572,7 @@
   ['The first product in India to get a Geographical Indication (2004–05) was:', ['Darjeeling tea', 'Basmati rice', 'Mysore silk', 'Alphonso mango'], 0,
     'The Assam variety is *C. sinensis* var. *assamica*.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: 'IFoS-2018-B1-Q8b', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q8b', 'IFoS-2021-B1-m10', 'CSE-2015-B1-m07', 'CSE-2013-B1-m05', 'CSE-2012-B1-m08', 'IFoS-2011-B1-m06', 'CSE-2010-B1-m12', 'IFoS-2009-B1-m14', 'IFoS-2007-B1-m06', 'CSE-2003-B1-m08', 'CSE-1988-B1-m11', 'CSE-1987-B1-m10', 'CSE-1986-B1-m10', 'CSE-1985-B1-m07', 'CSE-2004-B1-m08'], q: [
   ['In Asclepiadaceae, the gynostegium is formed by:', ['The fusion of stamens with the stigma head', 'Fused petals', 'Fused sepals', 'Fused bracts'], 0,
     'It is the central column of the flower.'],
   ['A pollinium is:', ['The pollen of one anther cell held together as a waxy mass', 'A single pollen grain', 'A pollen tube', 'An empty anther'], 0,
