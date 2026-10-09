@@ -22,7 +22,7 @@
   ['The term "mitochondrion" was coined by:', ['C. Benda (1898)', 'R. Brown', 'C. de Duve', 'G. Palade'], 0,
     'Altmann had earlier called them "bioblasts".']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: 'IFoS-2018-A2-Q1b', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: ['IFoS-2018-A2-Q1b', 'IFoS-2003-A2-m20'], q: [
   ['Mendel worked out his laws using:', ['The garden pea (*Pisum sativum*), with seven contrasting characters', 'Fruit flies', 'Maize', 'Four o’clock plants'], 0,
     'His paper was read in 1865 and published in 1866.'],
   ['When a pure tall pea is crossed with a pure dwarf pea, all F₁ plants are tall. This illustrates:', ['The law of dominance', 'The law of independent assortment', 'Incomplete dominance', 'Linkage'], 0,
@@ -44,7 +44,7 @@
   ['A major exception to the law of independent assortment is:', ['Linkage of genes on the same chromosome', 'Dominance', 'Segregation', 'Mutation'], 0,
     'Sutton and Boveri placed Mendel’s factors on chromosomes (1902–03).']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2018-A2-Q1c', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q1c', 'CSE-2009-A2-m17', 'CSE-2007-A2-m15', 'CSE-2006-A2-m12', 'CSE-2003-A2-m14', 'CSE-1997-A2-m17', 'IFoS-2016-A2-m16', 'IFoS-2015-A2-m18', 'IFoS-2013-A2-m20', 'CSE-2007-A2-m13', 'CSE-1989-A2-m20', 'CSE-1992-A2-m19', 'CSE-2018-A2-m11'], q: [
   ['The generation sequence of seed classes in India is:', ['Nucleus → breeder → foundation → certified', 'Certified → foundation → breeder → nucleus', 'Breeder → nucleus → certified → foundation', 'Foundation → certified → breeder'], 0,
     'Certified seed is what farmers buy.'],
   ['Certified seed is produced from:', ['Foundation seed', 'Nucleus seed', 'Grain from the market', 'Truthfully labelled seed'], 0,
@@ -88,7 +88,7 @@
   ['Long-term storage of orthodox seed in the NBPGR National Genebank is at:', ['About −18 °C, with seed dried to about 3–7% moisture', 'Room temperature', '+10 °C, with 20% moisture', '+40 °C'], 0,
     'This keeps seed viable for decades.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2018-A2-Q1e', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2018-A2-Q1e', 'IFoS-2022-A2-m24', 'CSE-2016-A2-m22', 'IFoS-2016-A2-m19', 'CSE-2015-A2-m19', 'CSE-2024-A2-m19', 'IFoS-2013-A2-m24', 'CSE-1993-A2-m23', 'CSE-2021-A2-m18', 'CSE-1992-A2-m38', 'CSE-2011-A2-m24', 'IFoS-2003-A2-m25', 'CSE-1996-A2-m18', 'CSE-2007-A2-m17', 'CSE-1999-A2-m14', 'CSE-1991-A2-m22', 'CSE-2018-A2-m13', 'CSE-1989-A2-m28'], q: [
   ['Nitrogenase needs the metals:', ['Molybdenum and iron', 'Zinc and copper', 'Manganese only', 'Calcium only'], 0,
     'The MoFe protein holds the site where N₂ is reduced.'],
   ['Nitrate reductase needs:', ['Molybdenum', 'Nickel', 'Zinc', 'Cobalt'], 0,
@@ -176,7 +176,7 @@
   ['DNA occurs mainly in the nucleus but is also found in:', ['Mitochondria and chloroplasts', 'Ribosomes', 'Vacuoles', 'Cell walls'], 0,
     'RNA is made in the nucleus and works mostly in the cytoplasm.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2018-A2-Q2d', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2018-A2-Q2d', 'CSE-2003-A2-m19'], q: [
   ['Enzymes are:', ['Biological catalysts, mostly proteins, that lower the activation energy of reactions', 'Light-absorbing molecules', 'Storage lipids', 'Structural carbohydrates'], 0,
     'Plant pigments absorb light; enzymes catalyse reactions.'],
   ['Plant pigments are:', ['Molecules that absorb particular wavelengths of light', 'Catalysts', 'Hormones only', 'Minerals'], 0,
@@ -198,7 +198,7 @@
   ['The "induced fit" model of enzyme action was proposed by:', ['Daniel Koshland', 'Emil Fischer', 'Leonor Michaelis', 'Hans Krebs'], 0,
     'Fischer proposed the earlier "lock and key" model.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2018-A2-Q3a', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q3a', 'CSE-2020-A2-m09', 'CSE-2018-A2-m10', 'CSE-2001-A2-m20'], q: [
   ['Maintenance breeding aims to:', ['Keep a released variety genetically pure and true to type', 'Create new varieties', 'Increase mutation rates', 'Produce hybrids'], 0,
     'It produces nucleus and breeder seed.'],
   ['Maintenance breeding and breeder seed production are the responsibility of:', ['The breeder or institution that developed the variety', 'Seed retailers', 'Farmers only', 'Seed certification agencies'], 0,
@@ -264,7 +264,7 @@
   ['Guttation differs from transpiration in that it:', ['Releases liquid water through hydathodes under root pressure', 'Releases water vapour through stomata', 'Occurs only in dry air', 'Occurs only in roots'], 0,
     'It is seen on leaf tips in the early morning.']
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: 'IFoS-2018-A2-Q3d', q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: ['IFoS-2018-A2-Q3d', 'CSE-2012-A2-m14', 'CSE-2012-A2-m13', 'CSE-1997-A2-m18'], q: [
   ['The main value of male sterility in hybrid seed production is that it:', ['Removes the need for hand emasculation, cutting the cost of hybrid seed', 'Increases self-pollination', 'Reduces heterosis', 'Increases seed dormancy'], 0,
     'It makes hybrids practical in crops with small flowers.'],
   ['Cytoplasmic male sterility (CMS) is controlled by:', ['Mitochondrial genes', 'Nuclear genes only', 'Chloroplast genes only', 'The environment only'], 0,
@@ -330,7 +330,7 @@
   ['Seeds in which β-oxidation is especially important during germination include:', ['Castor, sunflower, groundnut and pumpkin', 'Wheat and rice', 'Maize and barley', 'Pea and bean only'], 0,
     'Cereals mainly store starch.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2018-A2-Q4c', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q4c', 'CSE-2010-A2-m21'], q: [
   ['Orthodox seeds are those that:', ['Tolerate drying to low moisture (about 5%) and storage at low temperature', 'Die if dried', 'Cannot be stored', 'Germinate on the plant'], 0,
     'Most cereals, pulses and oilseeds are orthodox.'],
   ['Recalcitrant seeds are those that:', ['Lose viability if dried below a fairly high moisture content (about 20–30%)', 'Survive drying to 5%', 'Stay dormant for centuries', 'Germinate only after fire'], 0,
@@ -352,7 +352,7 @@
   ['The Svalbard Global Seed Vault stores:', ['Duplicate samples of orthodox seeds', 'Recalcitrant seeds', 'Live plants', 'Pollen only'], 0,
     'It is kept at about −18 °C inside permafrost.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 3, pyq: 'IFoS-2018-A2-Q4d', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 3, pyq: ['IFoS-2018-A2-Q4d', 'CSE-1989-A2-m23', 'CSE-1997-A2-m15', 'CSE-1989-A2-m21', 'CSE-1995-A2-m12', 'CSE-1991-A2-m14'], q: [
   ['The yield components of wheat are:', ['Productive ears per m², grains per ear and 1,000-grain weight', 'Plant height and leaf colour', 'Root length and nodules', 'Pods per plant and oil content'], 0,
     'Yield = ears/m² × grains/ear × grain weight.'],
   ['The yield components of rice are:', ['Panicles per m², filled grains per panicle and 1,000-grain (test) weight', 'Nodules per plant', 'Siliquae per plant', 'Bolls per plant'], 0,

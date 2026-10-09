@@ -88,7 +88,7 @@
   ['Mango malformation is also linked to a hormonal imbalance involving:', ['Increased ethylene', 'Excess gibberellin only', 'Lack of chlorophyll', 'Excess boron'], 0,
     'This is why NAA and other regulators are tried in its control.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['IFoS-2018-A2-Q5e', 'IFoS-2025-A2-m01', 'IFoS-2022-A2-m12', 'CSE-2006-A2-m07', 'CSE-2003-A2-m10', 'CSE-2000-A2-m12', 'CSE-1996-A2-m12', 'CSE-1989-A2-m14', 'IFoS-2012-A2-m14', 'IFoS-2005-A2-m13', 'CSE-1992-A2-m11', 'IFoS-2001-A2-m12', 'CSE-1990-A2-m10', 'CSE-2012-A2-m11'], q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['IFoS-2018-A2-Q5e', 'IFoS-2025-A2-m01', 'IFoS-2022-A2-m12', 'CSE-2006-A2-m07', 'CSE-2003-A2-m10', 'CSE-2000-A2-m12', 'CSE-1996-A2-m12', 'CSE-1989-A2-m14', 'IFoS-2012-A2-m14', 'IFoS-2005-A2-m13', 'CSE-1992-A2-m11', 'IFoS-2001-A2-m12', 'CSE-1990-A2-m10', 'CSE-2012-A2-m11', 'IFoS-2024-A2-m25', 'CSE-2019-A2-m22', 'CSE-2018-A2-m21'], q: [
   ['Orange carrots are an important source of:', ['β-carotene (provitamin A)', 'Vitamin C only', 'Vitamin B₁₂', 'Iron only'], 0,
     'β-carotene is converted to vitamin A in the intestine.'],
   ['Guava is especially rich in:', ['Vitamin C (ascorbic acid)', 'Vitamin D', 'Vitamin B₁₂', 'Vitamin K only'], 0,
@@ -154,7 +154,7 @@
   ['A remedy for price instability in perishables is:', ['Processing, cold chains and better market information', 'Banning storage', 'More middlemen', 'Stopping transport'], 0,
     'Processing turns surpluses into longer-lasting products.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2018-A2-Q6c', 'CSE-2025-A2-m10', 'CSE-2013-A2-m12', 'CSE-2001-A2-m08', 'CSE-2015-A2-m15', 'IFoS-2003-A2-m13'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2018-A2-Q6c', 'CSE-2025-A2-m10', 'CSE-2013-A2-m12', 'CSE-2001-A2-m08', 'CSE-2015-A2-m15', 'IFoS-2003-A2-m13', 'CSE-1992-A2-m41', 'CSE-1989-A2-m27'], q: [
   ['Pruning is:', ['The careful removal of plant parts to improve shape, vigour, fruiting and quality', 'Removing fruits at harvest', 'Adding fertiliser', 'Grafting'], 0,
     'Training shapes the young tree; pruning maintains it.'],
   ['"Heading back" means:', ['Cutting back the end of a shoot, which stimulates the buds below to grow', 'Removing a whole shoot at its base', 'Removing roots', 'Bending branches'], 0,

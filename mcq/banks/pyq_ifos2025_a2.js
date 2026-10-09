@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2025 Agriculture Paper II (topic-level PYQs from the volume anchors). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'IFoS-2025-A2-Q1a', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2025-A2-Q1a', 'IFoS-2014-A2-m11'], q: [
   ['Heritable variation differs from non-heritable variation in that it:', ['Is caused by genotype differences and passes to offspring', 'Is caused only by environment', 'Disappears in the next generation', 'Cannot be selected'], 0,
     'Only heritable variation responds to selection.'],
   ['The genotypic coefficient of variation (GCV) is calculated as:', ['(√VG ÷ mean) × 100', '(VG ÷ VP) × 100', '(VE ÷ mean) × 100', 'Mean ÷ √VG'], 0,
@@ -22,7 +22,7 @@
   ['Plant introduction adds variation to a breeding programme by:', ['Bringing in germplasm from other regions or countries', 'Mutating local varieties', 'Hybridising within a pure line', 'Cloning local plants'], 0,
     'Introductions are quarantined through NBPGR in India.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2025-A2-Q1b', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2025-A2-Q1b', 'IFoS-2022-A2-m21', 'IFoS-2014-A2-m12', 'IFoS-2013-A2-m23', 'IFoS-2010-A2-m17', 'CSE-2014-A2-m15', 'CSE-2005-A2-m10', 'CSE-1991-A2-m16', 'CSE-2016-A2-m14', 'IFoS-2015-A2-m19', 'CSE-2009-A2-m21', 'CSE-2019-A2-m18', 'IFoS-2013-A2-m17', 'CSE-1989-A2-m22', 'CSE-2011-A2-m15', 'CSE-1990-A2-m15'], q: [
   ['The National Seeds Corporation (NSC) was set up in:', ['1963', '1985', '2001', '1947'], 0,
     'It produces and markets foundation and certified seed of many crops.'],
   ['The State Farms Corporation of India (SFCI) was:', ['Merged with the National Seeds Corporation', 'Converted into FCI', 'Closed in 1970', 'Made part of NABARD'], 0,
@@ -44,7 +44,7 @@
   ['The main role of public seed institutions is to:', ['Ensure supply of quality seed of public varieties, especially for self-pollinated crops, at fair prices', 'Replace all private firms', 'Produce only hybrids', 'Export all seed'], 0,
     'The private sector dominates hybrids and vegetables.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2025-A2-Q1c', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2025-A2-Q1c', 'IFoS-2019-A2-m16', 'IFoS-2018-A2-Q3c', 'CSE-2004-A2-m18', 'CSE-1990-A2-m22', 'CSE-2016-A2-m19', 'CSE-2014-A2-m19', 'IFoS-2002-A2-m15', 'CSE-1989-A2-m30', 'IFoS-2021-A2-m18', 'CSE-2019-A2-m23', 'CSE-2018-A2-m13', 'IFoS-2005-A2-m28', 'CSE-2005-A2-m18', 'CSE-1995-A2-m19', 'CSE-2011-A2-m22', 'CSE-2023-A2-m17', 'IFoS-2023-A2-m27', 'CSE-2010-A2-m20', 'IFoS-2012-A2-m23'], q: [
   ['Most water loss by transpiration occurs through:', ['Stomata (about 90% or more)', 'Cuticle', 'Lenticels', 'Roots'], 0,
     'Cuticular and lenticular transpiration are minor.'],
   ['Transpiration increases when:', ['Light and temperature rise, humidity falls and wind increases', 'Humidity is high and air still', 'Stomata close', 'Soil water is depleted'], 0,
@@ -88,7 +88,7 @@
   ['Chromoplasts give colour to:', ['Ripe fruits and flower petals (e.g., tomato, carrot, marigold)', 'Roots of all plants', 'Seeds only', 'Leaves only'], 0,
     'They accumulate carotenoids such as lycopene and β-carotene.'],
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: 'IFoS-2025-A2-Q1e', q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: ['IFoS-2025-A2-Q1e', 'CSE-2025-A2-m11', 'CSE-2021-A2-m11', 'IFoS-2019-A2-m11', 'CSE-2018-A2-m08', 'CSE-2017-A2-m17', 'CSE-2013-A2-m18', 'CSE-2004-A2-m11', 'IFoS-2006-A2-m18', 'CSE-2023-A2-m09', 'CSE-2002-A2-m13', 'CSE-1991-A2-m17', 'CSE-1990-A2-m17'], q: [
   ['India’s first maize hybrids were released in:', ['1961', '1947', '1985', '2001'], 0,
     'E.g., Ganga 1, Ganga 101, Ranjit and Deccan — double-cross hybrids.'],
   ['India’s first sorghum hybrid, CSH 1, was released in:', ['1964', '1990', '1950', '2005'], 0,
@@ -110,7 +110,7 @@
   ['Farmers must buy hybrid seed every season because:', ['F₂ plants segregate and lose the uniformity and vigour of the F₁', 'Hybrid seed cannot germinate', 'Hybrids are sterile', 'It is required by law'], 0,
     'Apomixis research aims to fix hybrid vigour.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'IFoS-2025-A2-Q2a', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2025-A2-Q2a', 'CSE-2023-A2-m11', 'IFoS-2023-A2-m24', 'CSE-1999-A2-m11'], q: [
   ['Mendel’s laws were rediscovered in 1900 by:', ['de Vries, Correns and von Tschermak', 'Darwin and Wallace', 'Morgan and Sturtevant', 'Watson and Crick'], 0,
     'Mendel had published in 1866.'],
   ['The "Vilmorin isolation principle" (1856), testing single plants by their progeny, was used in:', ['Sugar beet', 'Wheat', 'Rice', 'Maize'], 0,
@@ -154,7 +154,7 @@
   ['Using conserved germplasm effectively requires mainly:', ['Characterisation and evaluation of accessions for useful traits', 'Keeping it unused', 'Destroying duplicates', 'Selling it abroad'], 0,
     'Evaluation data guide breeders to useful sources.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2025-A2-Q2c', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2025-A2-Q2c', 'CSE-2023-A2-m20', 'CSE-1991-A2-m25', 'CSE-2018-A2-m16', 'CSE-2015-A2-m20', 'IFoS-2015-A2-m21', 'CSE-1995-A2-m14', 'CSE-2011-A2-m23', 'CSE-1990-A2-m27', 'IFoS-2023-A2-m28', 'CSE-2013-A2-m25', 'CSE-1991-A2-m26', 'IFoS-2022-A2-m25', 'CSE-2022-A2-m17', 'IFoS-2014-A2-m14', 'CSE-1996-A2-m22', 'CSE-2007-A2-m11'], q: [
   ['Which is a C₄ crop?', ['Pearl millet', 'Wheat', 'Rice', 'Chickpea'], 0,
     'Maize, sorghum, sugarcane, finger millet and amaranth are also C₄.'],
   ['C₄ crops generally have an optimum temperature for photosynthesis of about:', ['30–40 °C', '5–10 °C', '15–20 °C only', 'Below 0 °C'], 0,
@@ -264,7 +264,7 @@
   ['Variable expressivity is illustrated when individuals with the same genotype:', ['Show the trait with different intensities', 'All show the trait identically', 'Never show the trait', 'Change sex'], 0,
     'Environment and modifier genes contribute.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2025-A2-Q4b', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2025-A2-Q4b', 'IFoS-2023-A2-m23', 'CSE-2019-A2-m17'], q: [
   ['Under Indian standards, the isolation distance for certified seed of maize (open-pollinated and hybrid) is about:', ['200 m', '3 m', '10 m', '2 km'], 0,
     'Foundation seed needs about 400 m; maize is wind-pollinated.'],
   ['Isolation in cross-pollinated seed crops can also be achieved by:', ['Time isolation — different sowing dates so flowering does not overlap', 'Using more fertiliser', 'Irrigating more', 'Changing seed colour'], 0,
@@ -528,7 +528,7 @@
   ['Okra is valued nutritionally for its:', ['Mucilage and dietary fibre, plus vitamins and minerals', 'High fat', 'High caffeine', 'Gluten'], 0,
     'Mucilage is also used industrially.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'IFoS-2025-A2-Q7c', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2025-A2-Q7c', 'IFoS-2019-A2-m17', 'IFoS-2016-A2-m18', 'CSE-2015-A2-m23', 'CSE-2007-A2-m19', 'CSE-2006-A2-m19', 'CSE-2005-A2-m17', 'CSE-2003-A2-m21', 'IFoS-2001-A2-m19', 'CSE-1989-A2-m32', 'CSE-2007-A2-m21', 'CSE-1990-A2-m23', 'CSE-2011-A2-m20', 'CSE-1996-A2-m19', 'CSE-1993-A2-m22', 'CSE-2001-A2-m25', 'CSE-2010-A2-m24'], q: [
   ['Vernalisation usually requires exposure to temperatures of about:', ['0–10 °C for several weeks', '30–35 °C', 'Below −20 °C', '20–25 °C for one day'], 0,
     'The effective range and duration vary with species and variety.'],
   ['Devernalisation is:', ['Reversal of the vernalisation effect by high temperature soon after cold treatment', 'Extra cold treatment', 'Flowering in short days', 'Seed dormancy'], 0,

@@ -220,7 +220,7 @@
   ['The late blight epidemic of potato in the 1840s caused:', ['The Irish potato famine', 'The Bengal famine', 'The Dust Bowl', 'The Green Revolution'], 0,
     'It was caused by *Phytophthora infestans*.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2017-A2-Q7c', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q7c', 'CSE-2016-A2-m15'], q: [
   ['Augmentative biological control means:', ['Increasing natural enemy numbers by releasing them, inoculatively or inundatively', 'Importing new natural enemies from abroad for permanent establishment', 'Killing natural enemies', 'Using only chemicals'], 0,
     'Introducing exotic enemies for permanent establishment is classical biocontrol.'],
   ['An inoculative release involves:', ['Releasing a few natural enemies early, so their offspring provide control later in the season', 'Releasing huge numbers for immediate kill', 'Spraying insecticides', 'Releasing sterile insects'], 0,

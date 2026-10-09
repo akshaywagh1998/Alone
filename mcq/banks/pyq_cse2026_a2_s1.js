@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — CSE 2026 Agriculture Paper II, Section A (Q1–Q4). 10 MCQs per sub-question. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'CSE-2026-A2-Q1a', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q1a', 'CSE-2022-A2-m14', 'CSE-2021-A2-m10', 'CSE-2009-A2-m20'], q: [
   ['Somatic hybridisation is the production of hybrids by:', ['Fusing protoplasts of two different plants', 'Crossing flowers of two varieties', 'Grafting two species', 'Inducing mutations with radiation'], 0,
     'It can bypass sexual incompatibility between distant species.'],
   ['Plant protoplasts are isolated by digesting cell walls with:', ['Cellulase and pectinase in an osmoticum such as mannitol', 'Trypsin in water', 'Amylase in saline', 'Lipase in alcohol'], 0,
@@ -44,7 +44,7 @@
   ['Deterioration is slowest when seeds are stored:', ['Dry and cool, e.g., in moisture-proof containers at low temperature', 'Moist and warm', 'In open sacks in humid rooms', 'In direct sunlight'], 0,
     'This follows Harrington’s rules on moisture and temperature.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'CSE-2026-A2-Q1c', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q1c', 'CSE-2024-A2-m17', 'CSE-2021-A2-m16', 'CSE-2017-A2-m21', 'CSE-2016-A2-m17', 'CSE-2016-A2-m21', 'CSE-1991-A2-m20', 'CSE-2020-A2-m16', 'CSE-1996-A2-m20', 'CSE-2016-A2-m16', 'CSE-2013-A2-m24', 'CSE-2025-A2-m19', 'CSE-2025-A2-m18', 'IFoS-2020-A2-m23'], q: [
   ['Most phosphorus and potassium reach plant roots by:', ['Diffusion', 'Mass flow', 'Root interception only', 'Leaf uptake'], 0,
     'Nitrate, calcium and magnesium move mostly by mass flow with transpiration water.'],
   ['Iron and manganese availability to plants is highest in:', ['Acid soils', 'Calcareous alkaline soils', 'Sodic soils', 'Soils at pH 9'], 0,
@@ -66,7 +66,7 @@
   ['Dry soil reduces nutrient uptake mainly because:', ['Diffusion and mass flow slow down as water films thin', 'Nutrients become gases', 'Root respiration increases', 'Soil pH rises to 10'], 0,
     'Water is the medium for both movement processes.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'CSE-2026-A2-Q1d', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q1d', 'CSE-2004-A2-m14', 'CSE-1993-A2-m17', 'CSE-2021-A2-m12', 'CSE-2007-A2-m12'], q: [
   ['A clone is:', ['A group of plants derived from one plant by asexual (vegetative) reproduction', 'A group of plants from one self-pollinated seed', 'A hybrid between two inbreds', 'A population of mutants'], 0,
     'All members have the same genotype, apart from rare somatic mutations.'],
   ['Clones of vegetatively propagated, naturally cross-pollinated crops such as potato are:', ['Highly heterozygous but genetically uniform', 'Homozygous and uniform', 'Homozygous and variable', 'Heterozygous and variable within the clone'], 0,
@@ -88,7 +88,7 @@
   ['Genetic variation for breeding clonal crops is created mainly by:', ['Sexual hybridisation, mutation or somaclonal variation, followed by clonal selection', 'Selfing clones repeatedly', 'Grafting only', 'Keeping clones in cold storage'], 0,
     'Once a superior genotype is found, it is fixed at once by vegetative propagation.'],
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: 'CSE-2026-A2-Q1e', q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: ['CSE-2026-A2-Q1e', 'CSE-2003-A2-m18', 'IFoS-2003-A2-m19'], q: [
   ['Physical mutagens include:', ['X-rays, gamma rays, neutrons and ultraviolet light', 'EMS and sodium azide', 'Colchicine', 'Acridine dyes'], 0,
     'Ionising radiations cause breaks and point mutations; UV is non-ionising and mainly forms pyrimidine dimers.'],
   ['Ethyl methanesulphonate (EMS) is:', ['An alkylating agent that mainly causes G:C → A:T transitions', 'A base analogue of thymine', 'An intercalating dye', 'An ionising radiation'], 0,
@@ -154,7 +154,7 @@
   ['Besides ATP production, mitochondria take part in:', ['Photorespiration (glycine to serine), programmed cell death and amino-acid metabolism', 'Photosynthetic light reactions', 'Cell-wall synthesis', 'Pollen tube growth only'], 0,
     'Glycine decarboxylase in leaf mitochondria releases CO₂ during photorespiration.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'CSE-2026-A2-Q2c', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q2c', 'IFoS-2022-A2-m18', 'IFoS-2017-A2-Q4b', 'CSE-2017-A2-m16', 'IFoS-2013-A2-m18', 'CSE-2010-A2-m17', 'CSE-2000-A2-m22', 'CSE-2020-A2-m15', 'CSE-2012-A2-m12', 'IFoS-2012-A2-m19', 'CSE-2013-A2-m23', 'CSE-2009-A2-m22'], q: [
   ['The most abundant type of DNA marker in plant genomes is:', ['Single nucleotide polymorphisms (SNPs)', 'RFLPs', 'Isozymes', 'Morphological markers'], 0,
     'SNPs suit high-throughput genotyping chips and sequencing.'],
   ['Microsatellites (SSRs) are popular markers because they are:', ['Co-dominant, multi-allelic and PCR-based', 'Dominant and random', 'Based on protein bands', 'Visible to the naked eye'], 0,
@@ -176,7 +176,7 @@
   ['DNA fingerprinting with SSR markers is used in the seed industry to:', ['Test the genetic purity of hybrid seed lots quickly', 'Measure seed moisture', 'Estimate germination', 'Grade seeds by size'], 0,
     'It is faster than the traditional grow-out test.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'CSE-2026-A2-Q3a', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2026-A2-Q3a', 'CSE-2013-A2-m19', 'CSE-2002-A2-m11'], q: [
   ['Narrow-sense heritability is the ratio of:', ['Additive genetic variance to phenotypic variance', 'Total genetic variance to phenotypic variance', 'Environmental variance to genetic variance', 'Dominance variance to additive variance'], 0,
     'h² = VA ÷ VP. Broad-sense H² = VG ÷ VP.'],
   ['Using the breeder’s equation, if the selection differential is 10 units and narrow-sense heritability is 0.4, the expected response is:', ['4 units', '10 units', '0.4 units', '25 units'], 0,
@@ -198,7 +198,7 @@
   ['In vegetatively propagated crops, broad-sense heritability is relevant to selection because:', ['Clones transmit the whole genotype, including non-additive effects', 'Only additive effects are passed on', 'Clones segregate', 'Environment has no effect on clones'], 0,
     'In sexually propagated crops, only additive effects are reliably transmitted.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'CSE-2026-A2-Q3b', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['CSE-2026-A2-Q3b', 'IFoS-2018-A2-Q2a', 'CSE-2014-A2-m13', 'CSE-2014-A2-m16', 'CSE-2013-A2-m21', 'CSE-2009-A2-m18', 'CSE-2003-A2-m13', 'CSE-1991-A2-m15', 'CSE-1989-A2-m18', 'CSE-1999-A2-m10'], q: [
   ['Isolation distance is most critical in seed production of:', ['Cross-pollinated crops such as maize and pearl millet', 'Self-pollinated crops such as wheat', 'Clonal crops such as potato', 'Apomictic grasses'], 0,
     'Self-pollinated crops need only a few metres to avoid mechanical mixture.'],
   ['Rogueing in a seed crop means:', ['Removing off-types, other varieties, diseased plants and objectionable weeds', 'Irrigating the field', 'Applying fertiliser', 'Harvesting early'], 0,
@@ -264,7 +264,7 @@
   ['"Seed village" schemes improve seed availability by:', ['Training farmers in a village to produce quality seed for local use and sale', 'Importing seed', 'Closing private seed firms', 'Distributing grain as seed'], 0,
     'They raise the seed replacement rate at low cost.'],
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: 'CSE-2026-A2-Q4b', q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['CSE-2026-A2-Q4b', 'CSE-2023-A2-m15', 'CSE-2014-A2-m24', 'CSE-2024-A2-m18', 'CSE-2018-A2-m14'], q: [
   ['Maximum available water capacity is usually found in:', ['Loam and silt loam soils', 'Coarse sands', 'Gravels', 'Pure clays'], 0,
     'Sands hold little water; clays hold a lot, but much of it is held too tightly (below the wilting point).'],
   ['Adding organic matter to a sandy soil:', ['Increases its available water capacity', 'Decreases water holding', 'Makes it saline', 'Has no effect'], 0,
@@ -286,7 +286,7 @@
   ['Available water is defined as the water held between:', ['Field capacity and the permanent wilting point', 'Saturation and field capacity', 'Wilting point and oven-dry', 'Hygroscopic coefficient and air-dry'], 0,
     'Water between saturation and field capacity drains away by gravity.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'CSE-2026-A2-Q4c', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['CSE-2026-A2-Q4c', 'IFoS-2022-A2-m22', 'IFoS-2002-A2-m12', 'IFoS-2002-A2-m13', 'CSE-1997-A2-m16', 'CSE-1993-A2-m18', 'CSE-2018-A2-m09'], q: [
   ['Seed priming is:', ['Controlled hydration to start pre-germination metabolism without radicle emergence, followed by re-drying', 'Coating seeds with fungicide only', 'Storing seeds at low temperature', 'Removing the seed coat'], 0,
     'Primed seeds germinate faster and more uniformly.'],
   ['Osmopriming commonly uses solutions of:', ['Polyethylene glycol (PEG)', 'Sulphuric acid', 'Mercury compounds', 'Pure ethanol'], 0,
