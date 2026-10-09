@@ -67,7 +67,7 @@
   ['*Gmelina arborea* (gamhar) is planted in agroforestry chiefly for:', ['Fast-growing light timber for furniture, packing cases and plywood', 'Latex', 'Edible fruit', 'Nitrogen fixation'], 0,
     'Coppices well and suits boundary planting in eastern and central India.'],
 ] },
-{ p: 'A1', t: 'Weed Science', w: 2, pyq: 'CSE-2026-A1-Q1d', q: [
+{ p: 'A1', t: 'Weed Science', w: 2, pyq: ['CSE-2026-A1-Q1d', 'CSE-2025-A1-m27', 'IFoS-2019-A1-m26', 'CSE-2014-A1-m27'], q: [
   ['Weed seeds with a pappus, such as *Sonchus* and *Tridax*, are dispersed mainly by:', ['Wind (anemochory)', 'Water (hydrochory)', 'Ants (myrmecochory)', 'Explosive capsules'], 0,
     'Pappus (modified calyx) acts like a parachute; typical of Asteraceae weeds.'],
   ['Irrigation water spreads weeds mainly by:', ['Carrying floating seeds and vegetative fragments from channels into fields', 'Killing the crop', 'Changing soil pH', 'Increasing soil temperature'], 0,
@@ -133,7 +133,7 @@
   ['ICAR’s flagship project on climate-resilient agriculture, launched in 2011, is:', ['NICRA (National Innovations in Climate Resilient Agriculture)', 'NATP', 'NAIP', 'RKVY'], 0,
     'It runs technology demonstration villages and district contingency plans with CRIDA as the lead institute.'],
 ] },
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['CSE-2026-A1-Q2b', 'CSE-2022-A1-m07', 'CSE-2020-A1-m11', 'CSE-2019-A1-m12', 'CSE-2018-A1-m09', 'IFoS-2009-A1-m02'], q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['CSE-2026-A1-Q2b', 'CSE-2022-A1-m07', 'CSE-2020-A1-m11', 'CSE-2019-A1-m12', 'CSE-2018-A1-m09', 'IFoS-2009-A1-m02', 'IFoS-2003-A1-m13'], q: [
   ['Precision farming is best defined as:', ['Managing within-field variability by applying the right input at the right place, time and amount', 'Using only organic inputs', 'Growing crops under greenhouses', 'Growing a single high-yielding variety'], 0,
     'Site-specific management based on measured variability in soil, crop and yield.'],
   ['Variable rate technology (VRT) means:', ['Applying inputs at rates that change across a field according to mapped needs', 'Changing crop varieties every year', 'Spraying at a fixed rate everywhere', 'Irrigating at night only'], 0,
@@ -199,7 +199,7 @@
   ['Compared with seed propagation, a limitation of vegetative propagation in forestry is that it:', ['Needs more skill and infrastructure, and cannot create new genetic combinations', 'Always gives weaker plants', 'Cannot capture the traits of superior trees', 'Is impossible in hardwoods'], 0,
     'Its advantage is capturing the full genetic gain of selected trees; breeding still needs sexual recombination.'],
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: 'CSE-2026-A1-Q3b', q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['CSE-2026-A1-Q3b', 'IFoS-2024-A1-m10'], q: [
   ['A sugarcane ratoon is:', ['The crop that regrows from the stubble after the plant crop is harvested', 'A newly planted crop from setts', 'A sugarcane intercrop', 'A seedling raised in a nursery'], 0,
     'Ratoons occupy roughly half the cane area in India and usually yield less than plant crops.'],
   ['Stubble shaving in a ratoon crop means:', ['Cutting the stubble at or just below ground level so buds sprout from below ground', 'Burning the trash', 'Removing all roots', 'Earthing up the plant'], 0,
@@ -221,7 +221,7 @@
   ['Ratoon yield declines over successive ratoons mainly because of:', ['Gaps, pest and disease build-up and soil compaction', 'Improvement in soil structure', 'Better root growth', 'Lower weed pressure'], 0,
     'Hence usually only 1–2 ratoons are kept in the subtropics, more in the tropics with good management.'],
 ] },
-{ p: 'A1', t: 'Weed Science', w: 2, pyq: 'CSE-2026-A1-Q3c', q: [
+{ p: 'A1', t: 'Weed Science', w: 2, pyq: ['CSE-2026-A1-Q3c', 'CSE-2021-A1-m26', 'CSE-1998-A1-m13', 'CSE-1997-A1-m08', 'CSE-2001-A1-m20', 'IFoS-2012-A1-m31'], q: [
   ['Tembotrione, a post-emergence herbicide for maize, belongs to the group:', ['HPPD inhibitors (bleaching herbicides)', 'ALS inhibitors', 'Synthetic auxins', 'Dinitroanilines'], 0,
     'It inhibits carotenoid synthesis indirectly, causing bleaching of weeds; maize tolerates it by metabolising it (often with a safener).'],
   ['A post-emergence herbicide commonly recommended in greengram (moong) and soybean is:', ['Imazethapyr', 'Atrazine', '2,4-D ester', 'Paraquat as an overall spray'], 0,
@@ -265,7 +265,7 @@
   ['The shrinkage limit is the moisture content:', ['Below which further drying causes no further decrease in soil volume', 'At which soil starts to flow', 'At which soil becomes plastic', 'Equal to field capacity'], 0,
     'Shrink–swell behaviour is marked in Vertisols, causing deep cracks when dry.'],
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: 'CSE-2026-A1-Q4b', q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['CSE-2026-A1-Q4b', 'IFoS-2001-A1-m03', 'CSE-2000-A1-m07', 'CSE-1996-A1-m04', 'CSE-2024-A1-m21', 'CSE-1994-A1-m13', 'CSE-1993-A1-m11', 'CSE-2005-A1-m04'], q: [
   ['Nitrification is the microbial conversion of:', ['Ammonium to nitrite and then nitrate', 'Nitrate to nitrogen gas', 'Organic nitrogen to ammonium', 'Nitrogen gas to ammonia'], 0,
     'Ammonification gives NH₄⁺; denitrification returns N₂/N₂O; fixation converts N₂ to NH₃.'],
   ['The first step of nitrification (NH₄⁺ → NO₂⁻) is carried out mainly by:', ['*Nitrosomonas* (and ammonia-oxidising archaea)', '*Nitrobacter*', '*Rhizobium*', '*Pseudomonas denitrificans*'], 0,

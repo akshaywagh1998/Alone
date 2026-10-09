@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture I — Natural resources, sustainability and organic farming. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['CSE-2025-A1-m01', 'IFoS-2023-A1-m02', 'CSE-2022-A1-m02', 'IFoS-2022-A1-m01', 'CSE-2021-A1-m01', 'IFoS-2020-A1-m04', 'CSE-2004-A1-m01', 'CSE-2000-A1-m01', 'CSE-2014-A1-m03', 'CSE-2010-A1-m03'], q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['CSE-2025-A1-m01', 'IFoS-2023-A1-m02', 'CSE-2022-A1-m02', 'IFoS-2022-A1-m01', 'CSE-2021-A1-m01', 'IFoS-2020-A1-m04', 'CSE-2004-A1-m01', 'CSE-2000-A1-m01', 'CSE-2014-A1-m03', 'CSE-2010-A1-m03', 'IFoS-2022-A1-m14', 'CSE-2012-A1-m06'], q: [
   ['Natural resources such as forests, soil and water are called renewable because they:', ['Can regenerate if used within their rate of renewal', 'Can never be exhausted', 'Are man-made', 'Form only over millions of years'], 0,
     'Fossil fuels and minerals are non-renewable; sunlight and wind are inexhaustible.'],
   ['Which is a non-renewable natural resource?', ['Coal', 'Forest timber', 'Groundwater recharged by rain', 'Solar energy'], 0,
@@ -22,7 +22,7 @@
   ['Carrying capacity of a land unit is:', ['The maximum population or use it can support without degrading', 'Its total area', 'Its market value', 'Its rainfall'], 0,
     'Overgrazing beyond carrying capacity degrades pastures.']
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['CSE-2019-A1-m03', 'CSE-2001-A1-m01', 'IFoS-2017-A1-Q5d', 'CSE-2003-A1-m01', 'CSE-2017-A1-m02', 'IFoS-2024-A1-m05', 'CSE-2021-A1-m04', 'CSE-2004-A1-m03', 'CSE-2001-A1-m02', 'CSE-1999-A1-m01', 'CSE-2023-A1-m07', 'CSE-2014-A1-m12', 'IFoS-2014-A1-m10', 'IFoS-2011-A1-m05', 'CSE-2010-A1-m07', 'IFoS-2003-A1-m08', 'IFoS-2001-A1-m01', 'CSE-1994-A1-m05', 'CSE-2015-A1-m08', 'CSE-2013-A1-m10', 'IFoS-2011-A1-m04', 'CSE-2009-A1-m06', 'IFoS-2003-A1-m12'], q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['CSE-2019-A1-m03', 'CSE-2001-A1-m01', 'IFoS-2017-A1-Q5d', 'CSE-2003-A1-m01', 'CSE-2017-A1-m02', 'IFoS-2024-A1-m05', 'CSE-2021-A1-m04', 'CSE-2004-A1-m03', 'CSE-2001-A1-m02', 'CSE-1999-A1-m01', 'CSE-2023-A1-m07', 'CSE-2014-A1-m12', 'IFoS-2014-A1-m10', 'IFoS-2011-A1-m05', 'CSE-2010-A1-m07', 'IFoS-2003-A1-m08', 'IFoS-2001-A1-m01', 'CSE-1994-A1-m05', 'CSE-2015-A1-m08', 'CSE-2013-A1-m10', 'IFoS-2011-A1-m04', 'CSE-2009-A1-m06', 'IFoS-2003-A1-m12', 'CSE-1990-A1-m06', 'IFoS-2013-A1-m17', 'IFoS-2006-A1-m07'], q: [
   ['Organic farming avoids:', ['Synthetic fertilisers, synthetic pesticides and GMOs', 'Crop rotation', 'Compost', 'Biofertilisers'], 0,
     'It relies on organic manures, rotations, biofertilisers and biological pest control.'],
   ['IFOAM\'s four principles of organic agriculture are:', ['Health, ecology, fairness and care', 'Yield, profit, export and speed', 'Land, labour, capital and enterprise', 'Seed, water, fertiliser and pesticide'], 0,

@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — CSE 2026 Agriculture Paper I, Section B (Q5–Q8). 10 MCQs per sub-question. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: 'CSE-2026-A1-Q5a', q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: ['CSE-2026-A1-Q5a', 'CSE-2025-A1-m25', 'IFoS-2019-A1-m25', 'IFoS-2011-A1-m25', 'IFoS-2010-A1-m22'], q: [
   ['The two broad approaches to soil conservation are:', ['Biological (agronomic/vegetative) and engineering (mechanical) measures', 'Chemical and nuclear measures', 'Irrigation and drainage only', 'Fertiliser and pesticide use'], 0,
     'Agronomic: contour farming, strip cropping, mulching, cover crops. Mechanical: bunds, terraces, check dams, waterways.'],
   ['Strip cropping controls erosion by:', ['Alternating strips of erosion-permitting and close-growing, erosion-resisting crops across the slope', 'Growing one crop on the whole slope', 'Ploughing up and down the slope', 'Burning crop residues'], 0,
@@ -22,7 +22,7 @@
   ['The ICAR institute leading research on soil and water conservation is at:', ['Dehradun (ICAR-IISWC)', 'Karnal', 'Jodhpur', 'Bhopal'], 0,
     'Indian Institute of Soil and Water Conservation, with regional centres across India. CSSRI Karnal works on salinity; CAZRI Jodhpur on arid zones.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: 'CSE-2026-A1-Q5b', q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['CSE-2026-A1-Q5b', 'IFoS-2025-A1-Q8a', 'CSE-2024-A1-m18', 'IFoS-2021-A1-m23', 'CSE-2020-A1-m21', 'CSE-2018-A1-m15', 'IFoS-2015-A1-m14', 'IFoS-2014-A1-m26', 'CSE-2013-A1-m18', 'CSE-2002-A1-m10', 'CSE-2001-A1-m18', 'CSE-1996-A1-m08', 'IFoS-2019-A1-m19', 'IFoS-2002-A1-m05', 'CSE-2018-A1-m16'], q: [
   ['Under the soil-moisture depletion approach, most field crops are irrigated when available soil moisture is depleted by about:', ['50%', '10%', '90%', '100%'], 0,
     'Sensitive crops/stages may need irrigation at 25–40% depletion; hardy crops can go further.'],
   ['Tensiometers are reliable for irrigation scheduling only up to a soil-water tension of about:', ['0.8 bar (80 kPa)', '15 bar', '31 bar', '5 bar'], 0,
@@ -44,7 +44,7 @@
   ['The "feel and appearance" method of irrigation scheduling is:', ['A quick, low-cost field method that needs experience', 'The most accurate laboratory method', 'Based on satellite images', 'Used only in greenhouses'], 0,
     'Soil squeezed in the hand is judged against charts for each texture class.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: 'CSE-2026-A1-Q5c', q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['CSE-2026-A1-Q5c', 'IFoS-2022-A1-m22', 'CSE-2019-A1-m20', 'IFoS-2011-A1-m18', 'IFoS-2000-A1-m05', 'CSE-1999-A1-m10', 'CSE-1991-A1-m10', 'CSE-2022-A1-m19', 'CSE-1990-A1-m12', 'CSE-2016-A1-m18'], q: [
   ['In a drip system, a sand (media) filter is used mainly to remove:', ['Organic matter and algae from open-well or canal water', 'Dissolved salts', 'Nitrate', 'Air bubbles'], 0,
     'Screen or disc filters follow it to remove fine inorganic particles.'],
   ['The usual order of pipes in a drip system from the head unit is:', ['Main line → sub-main → laterals → emitters', 'Laterals → main line → emitters → sub-main', 'Emitters → laterals → main line', 'Sub-main → emitters → main line'], 0,
@@ -66,7 +66,7 @@
   ['Subsurface drip irrigation (SDI) differs from surface drip in that:', ['Laterals are buried below the soil surface, reducing evaporation and weed growth', 'It uses sprinklers', 'It floods the field', 'It needs no filters'], 0,
     'Used in sugarcane and other long-duration crops; root intrusion must be managed.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q5d', 'CSE-2023-A1-m16', 'CSE-2021-A1-m14', 'CSE-2021-A1-m19', 'IFoS-2019-A1-m15', 'IFoS-2018-A1-Q5d', 'IFoS-2015-A1-m10', 'CSE-2024-A1-m12', 'CSE-2001-A1-m11', 'CSE-1998-A1-m06', 'CSE-2017-A1-m13', 'IFoS-2016-A1-m21'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q5d', 'CSE-2023-A1-m16', 'CSE-2021-A1-m14', 'CSE-2021-A1-m19', 'IFoS-2019-A1-m15', 'IFoS-2018-A1-Q5d', 'IFoS-2015-A1-m10', 'CSE-2024-A1-m12', 'CSE-2001-A1-m11', 'CSE-1998-A1-m06', 'CSE-2017-A1-m13', 'IFoS-2016-A1-m21', 'CSE-2016-A1-m21', 'CSE-2014-A1-m21', 'CSE-1999-A1-m12'], q: [
   ['The Fair and Remunerative Price (FRP) of sugarcane is fixed under the:', ['Sugarcane (Control) Order, 1966', 'APMC Act', 'Seeds Act, 1966', 'Insecticides Act, 1968'], 0,
     'Issued under the Essential Commodities Act; the Centre fixes FRP on CACP’s recommendation. Some states add a State Advised Price (SAP).'],
   ['Under PM-AASHA, the "Price Deficiency Payment" component means:', ['Paying farmers the difference between MSP and the market price, without physical procurement', 'Buying all produce at MSP', 'Paying a fixed amount per hectare', 'Subsidising fertiliser prices'], 0,
@@ -88,7 +88,7 @@
   ['The main objective of agricultural price policy is to:', ['Assure remunerative prices to farmers while keeping food affordable for consumers', 'Maximise traders’ margins', 'Fix all retail prices', 'Discourage crop diversification'], 0,
     'Instruments include MSP, procurement, buffer stocks, PDS, trade policy and market intervention.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q5e', 'IFoS-2025-A1-Q6b', 'CSE-2025-A1-m15', 'CSE-2022-A1-m14', 'IFoS-2022-A1-m18', 'IFoS-2020-A1-m13', 'IFoS-2019-A1-m12', 'IFoS-2018-A1-Q5b', 'CSE-2018-A1-m14', 'CSE-2017-A1-m10', 'CSE-2016-A1-m12', 'IFoS-2015-A1-m09', 'CSE-2014-A1-m18', 'IFoS-2014-A1-m14', 'CSE-2013-A1-m13', 'CSE-2010-A1-m22', 'IFoS-2009-A1-m08', 'CSE-2007-A1-m09', 'CSE-2006-A1-m03', 'CSE-2002-A1-m08', 'CSE-2001-A1-m14', 'CSE-1998-A1-m08', 'CSE-1993-A1-m06', 'IFoS-2021-A1-m13', 'CSE-2001-A1-m16', 'CSE-2014-A1-m14'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q5e', 'IFoS-2025-A1-Q6b', 'CSE-2025-A1-m15', 'CSE-2022-A1-m14', 'IFoS-2022-A1-m18', 'IFoS-2020-A1-m13', 'IFoS-2019-A1-m12', 'IFoS-2018-A1-Q5b', 'CSE-2018-A1-m14', 'CSE-2017-A1-m10', 'CSE-2016-A1-m12', 'IFoS-2015-A1-m09', 'CSE-2014-A1-m18', 'IFoS-2014-A1-m14', 'CSE-2013-A1-m13', 'CSE-2010-A1-m22', 'IFoS-2009-A1-m08', 'CSE-2007-A1-m09', 'CSE-2006-A1-m03', 'CSE-2002-A1-m08', 'CSE-2001-A1-m14', 'CSE-1998-A1-m08', 'CSE-1993-A1-m06', 'IFoS-2021-A1-m13', 'CSE-2001-A1-m16', 'CSE-2014-A1-m14', 'IFoS-2016-A1-m18', 'IFoS-2013-A1-m11', 'IFoS-2022-A1-m15'], q: [
   ['Farm planning is best described as:', ['Deciding the combination of enterprises and practices that best meets farm goals within available resources', 'Only keeping farm accounts', 'Buying the cheapest inputs', 'Growing whatever neighbours grow'], 0,
     'It covers what, how and how much to produce, and when.'],
   ['The first step in farm planning is:', ['Taking an inventory of farm resources (land, labour, capital, water)', 'Selling the produce', 'Applying for a loan', 'Buying machinery'], 0,
@@ -176,7 +176,7 @@
   ['Ridges and furrows or tied ridges in drylands mainly help by:', ['Holding rainwater in furrows for in-situ moisture conservation', 'Increasing runoff', 'Raising soil salinity', 'Reducing infiltration'], 0,
     'Tied ridges have cross-ties in furrows that stop water from running off.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q7a', 'IFoS-2003-A1-m17', 'CSE-1997-A1-m06', 'CSE-2007-A1-m06', 'IFoS-2016-A1-m13'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q7a', 'IFoS-2003-A1-m17', 'CSE-1997-A1-m06', 'CSE-2007-A1-m06', 'IFoS-2016-A1-m13', 'IFoS-2013-A1-m21'], q: [
   ['In Indian farm-management cost concepts, net income is gross income minus:', ['Cost C2 (all paid-out and imputed costs)', 'Cost A1 only', 'Cost of seed only', 'Family labour cost only'], 0,
     'Farm business income = gross income − cost A1 (or A2); family labour income = gross income − cost B2.'],
   ['The three basic production decisions on a farm are:', ['What to produce, how to produce and how much to produce', 'Where to sell, whom to hire and when to rest', 'Which bank, which insurer and which trader', 'Which caste, which village and which season'], 0,
@@ -242,7 +242,7 @@
   ['"Nala bunds" in watershed development are:', ['Small earthen or masonry bunds across drainage lines to store water and trap silt', 'Bunds along the field boundary', 'Canal lining', 'Terrace risers'], 0,
     'They slow runoff and increase recharge.'],
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['CSE-2026-A1-Q8a', 'CSE-2023-A1-m17', 'IFoS-2023-A1-m16', 'IFoS-2021-A1-m11', 'CSE-2020-A1-m18', 'CSE-2010-A1-m23', 'CSE-2001-A1-m15', 'IFoS-2014-A1-m17', 'CSE-2013-A1-m11', 'CSE-2016-A1-m14', 'IFoS-2016-A1-m23', 'IFoS-2014-A1-m23'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['CSE-2026-A1-Q8a', 'CSE-2023-A1-m17', 'IFoS-2023-A1-m16', 'IFoS-2021-A1-m11', 'CSE-2020-A1-m18', 'CSE-2010-A1-m23', 'CSE-2001-A1-m15', 'IFoS-2014-A1-m17', 'CSE-2013-A1-m11', 'CSE-2016-A1-m14', 'IFoS-2016-A1-m23', 'IFoS-2014-A1-m23', 'IFoS-2012-A1-m16', 'IFoS-2013-A1-m16'], q: [
   ['The main difference between monitoring and evaluation is that monitoring is:', ['Continuous tracking of inputs, activities and outputs during implementation', 'A one-time assessment of long-term impact', 'Done only by external experts', 'Done only after the programme ends'], 0,
     'Evaluation is periodic and judges effectiveness, outcomes and impact.'],
   ['Evaluation carried out before a programme starts, to judge its feasibility, is:', ['Ex-ante evaluation', 'Ex-post evaluation', 'Terminal evaluation', 'Concurrent evaluation'], 0,
@@ -264,7 +264,7 @@
   ['Terminal evaluation is carried out:', ['At the end of a programme to assess what it achieved', 'Before starting a programme', 'Daily by field staff', 'Only when a programme fails'], 0,
     'Ex-post evaluation, some years later, looks at sustained impact.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q8b', 'CSE-2023-A1-m12', 'IFoS-2025-A1-m01', 'IFoS-2021-A1-m14', 'CSE-2000-A1-m08', 'IFoS-2024-A1-m12', 'CSE-1999-A1-m07', 'IFoS-2010-A1-m09', 'IFoS-2016-A1-m16'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q8b', 'CSE-2023-A1-m12', 'IFoS-2025-A1-m01', 'IFoS-2021-A1-m14', 'CSE-2000-A1-m08', 'IFoS-2024-A1-m12', 'CSE-1999-A1-m07', 'IFoS-2010-A1-m09', 'IFoS-2016-A1-m16', 'IFoS-2000-A1-m03'], q: [
   ['"Uzhavar Sandhai" farmers’ markets are run in:', ['Tamil Nadu', 'Punjab', 'Andhra Pradesh', 'Odisha'], 0,
     'Andhra Pradesh: Rythu Bazaars; Punjab: Apni Mandis; Odisha: Krushak Bazaars. They allow direct farmer-to-consumer sale.'],
   ['The main rationale of farmers’ markets is to:', ['Remove intermediaries so farmers get a higher share and consumers pay less', 'Increase the number of middlemen', 'Promote exports only', 'Replace MSP'], 0,
@@ -286,7 +286,7 @@
   ['Intermediaries (commission agents, retailers) are affected by farmers’ markets mainly through:', ['Loss of part of their margins and business', 'Guaranteed profits', 'No effect at all', 'Higher commissions'], 0,
     'Stakeholder effects: farmers gain share, consumers gain prices, intermediaries lose margin, government eases price pressure.'],
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: ['CSE-2026-A1-Q8c', 'IFoS-2024-A1-m04'], q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: ['CSE-2026-A1-Q8c', 'IFoS-2024-A1-m04', 'CSE-2025-A1-m23', 'IFoS-2019-A1-m23', 'CSE-2002-A1-m14'], q: [
   ['The process that moves most soil during wind erosion is:', ['Saltation (bouncing particles)', 'Suspension', 'Surface creep', 'Splash'], 0,
     'Saltation accounts for roughly 50–75% of movement, suspension 3–40%, surface creep 5–25%.'],
   ['Soil particles most easily moved by wind are about:', ['0.1 mm (fine sand)', '2 mm (gravel)', '0.001 mm (fine clay)', '10 mm'], 0,

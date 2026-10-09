@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2018 Agriculture Paper I, Q5–Q8 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q5a', 'CSE-2020-A1-m05', 'IFoS-2020-A1-m05', 'CSE-2003-A1-m05', 'CSE-2010-A1-m01', 'CSE-2009-A1-m03'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q5a', 'CSE-2020-A1-m05', 'IFoS-2020-A1-m05', 'CSE-2003-A1-m05', 'CSE-2010-A1-m01', 'CSE-2009-A1-m03', 'IFoS-2023-A1-m12', 'IFoS-2011-A1-m10', 'CSE-1992-A1-m08', 'CSE-2024-A1-m20', 'IFoS-2017-A1-Q5a', 'CSE-2017-A1-m15', 'IFoS-2013-A1-m26', 'IFoS-2011-A1-m19', 'CSE-2009-A1-m10', 'CSE-1994-A1-m12', 'IFoS-2014-A1-m25', 'CSE-2009-A1-m09', 'IFoS-2002-A1-m04', 'CSE-1993-A1-m08'], q: [
   ['Consumptive use of water by a crop is:', ['Evapotranspiration plus the small amount of water retained in plant tissue', 'Only the water applied by irrigation', 'Only deep percolation', 'Only runoff'], 0,
     'The retained water is about 1%, so consumptive use is usually taken as equal to ET.'],
   ['Evapotranspiration (ET) is:', ['Evaporation from the soil plus transpiration from the plants', 'Transpiration only', 'Rainfall minus runoff', 'Irrigation minus drainage'], 0,
@@ -88,7 +88,7 @@
   ['The main objectives of agricultural price policy are:', ['Remunerative prices for farmers, fair prices for consumers and price stability', 'Only maximum exports', 'Only low prices', 'Only high prices'], 0,
     'Balancing these goals is the policy challenge.']
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2018-A1-Q5e', 'CSE-2022-A1-m15', 'CSE-2013-A1-m14', 'IFoS-2023-A1-m21', 'IFoS-2015-A1-m13'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2018-A1-Q5e', 'CSE-2022-A1-m15', 'CSE-2013-A1-m14', 'IFoS-2023-A1-m21', 'IFoS-2015-A1-m13', 'IFoS-2012-A1-m18'], q: [
   ['Participatory Rural Appraisal (PRA) was popularised by:', ['Robert Chambers', 'Everett Rogers', 'M. S. Swaminathan', 'Norman Borlaug'], 0,
     'It grew out of Rapid Rural Appraisal (RRA).'],
   ['A PRA tool in which villagers draw houses, castes and facilities is:', ['Social mapping', 'Soil testing', 'Laboratory analysis', 'Satellite imaging'], 0,
@@ -110,7 +110,7 @@
   ['ICAR’s "Farmer FIRST" programme (2016) stresses:', ['Farmer-scientist partnership and farmers’ innovations', 'Only laboratory research', 'Only export crops', 'Only large farms'], 0,
     'FIRST stands for Farm, Innovations, Resources, Science and Technology.']
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: 'IFoS-2018-A1-Q6a', q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q6a', 'IFoS-2016-A1-m25', 'IFoS-2021-A1-m21'], q: [
   ['The application efficiency of drip irrigation is typically about:', ['90% or more', '40%', '60%', '20%'], 0,
     'Sprinklers reach about 70–80%, surface methods about 40–60%.'],
   ['Drip irrigation is best suited to:', ['Widely spaced crops such as orchards, vegetables and sugarcane', 'Wetland rice', 'Broadcast wheat', 'Pastures'], 0,
@@ -132,7 +132,7 @@
   ['Micro-irrigation is promoted in India under:', ['The "Per Drop More Crop" component of PMKSY', 'MGNREGA only', 'PM-KISAN', 'Jan Dhan Yojana'], 0,
     'Subsidies are given for drip and sprinkler systems.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q6b', 'CSE-2013-A1-m15', 'IFoS-2005-A1-m16', 'CSE-2001-A1-m17', 'CSE-2007-A1-m02', 'IFoS-2003-A1-m06'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q6b', 'CSE-2013-A1-m15', 'IFoS-2005-A1-m16', 'CSE-2001-A1-m17', 'CSE-2007-A1-m02', 'IFoS-2003-A1-m06', 'IFoS-2010-A1-m07', 'IFoS-2013-A1-m18', 'IFoS-2012-A1-m12', 'IFoS-2004-A1-m06'], q: [
   ['Opportunity cost is:', ['The return from the next best alternative that is given up', 'The price paid for inputs', 'The cost of transport', 'The total cost of production'], 0,
     'Every choice has an opportunity cost.'],
   ['If wheat gives a net return of ₹40,000/ha and mustard ₹35,000/ha on the same land, the opportunity cost of growing wheat is:', ['₹35,000', '₹40,000', '₹75,000', '₹5,000'], 0,
@@ -198,7 +198,7 @@
   ['PERT and CPM are tools used in programme planning for:', ['Scheduling activities and identifying the critical path', 'Soil testing', 'Pest control', 'Weather forecasting'], 0,
     'They help keep programmes on time.']
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q7a', 'CSE-1993-A1-m02', 'CSE-2005-A1-m01', 'IFoS-2016-A1-m04', 'CSE-2017-A1-m05'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q7a', 'CSE-1993-A1-m02', 'CSE-2005-A1-m01', 'IFoS-2016-A1-m04', 'CSE-2017-A1-m05', 'IFoS-2024-A1-m11', 'IFoS-2019-A1-m09', 'CSE-2014-A1-m19', 'IFoS-2000-A1-m04', 'IFoS-2021-A1-m22', 'IFoS-2006-A1-m09', 'CSE-1995-A1-m11', 'CSE-2025-A1-m20', 'CSE-2023-A1-m21', 'IFoS-2020-A1-m24', 'CSE-2019-A1-m18', 'CSE-2021-A1-m22'], q: [
   ['Agricultural drainage is:', ['Removing excess water from the soil surface and root zone', 'Adding irrigation water', 'Storing rainwater', 'Mulching'], 0,
     'It restores aeration for root growth.'],
   ['Surface drainage is done by:', ['Open ditches and land shaping', 'Buried perforated pipes', 'Mole ploughing', 'Pumping from tube wells'], 0,
@@ -220,7 +220,7 @@
   ['In India, land is generally regarded as waterlogged when the water table is within about:', ['Two metres of the surface', 'Ten metres', 'Fifty metres', 'Twenty metres'], 0,
     'Most crop roots suffer when the water table stays this shallow.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q7b', 'CSE-2025-A1-m16', 'IFoS-2025-A1-m02', 'IFoS-2021-A1-m16', 'CSE-2020-A1-m19', 'IFoS-2012-A1-m20', 'IFoS-2006-A1-m08', 'CSE-2000-A1-m09', 'CSE-1994-A1-m09', 'CSE-1991-A1-m09'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q7b', 'CSE-2025-A1-m16', 'IFoS-2025-A1-m02', 'IFoS-2021-A1-m16', 'CSE-2020-A1-m19', 'IFoS-2012-A1-m20', 'IFoS-2006-A1-m08', 'CSE-2000-A1-m09', 'CSE-1994-A1-m09', 'CSE-1991-A1-m09', 'IFoS-2009-A1-m06'], q: [
   ['A farm budget is:', ['An estimate of the costs, returns and net income of a farm plan', 'A bank passbook', 'A land record', 'A crop insurance policy'], 0,
     'It turns a farm plan into money terms.'],
   ['The three main types of farm budget are:', ['Partial, enterprise and complete (whole-farm) budgets', 'Annual, monthly and weekly', 'Seed, fertiliser and pesticide', 'Cash, credit and barter'], 0,
@@ -242,7 +242,7 @@
   ['A limitation of farm budgeting is that it:', ['Depends on estimates of prices and yields, which are uncertain', 'Needs no data', 'Always gives exact results', 'Cannot be used for crops'], 0,
     'Sensitivity analysis tests how robust the plan is.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q7c', 'IFoS-2023-A1-m15', 'IFoS-2023-A1-m17', 'CSE-2022-A1-m13', 'IFoS-2021-A1-m20', 'CSE-2020-A1-m16', 'IFoS-2020-A1-m15', 'IFoS-2019-A1-m13', 'CSE-2017-A1-m11', 'CSE-2016-A1-m15', 'CSE-2014-A1-m16', 'IFoS-2014-A1-m16', 'IFoS-2011-A1-m16', 'CSE-2010-A1-m17', 'IFoS-2005-A1-m19', 'IFoS-2020-A1-m22', 'CSE-2013-A1-m12', 'IFoS-2009-A1-m09', 'IFoS-2005-A1-m20', 'IFoS-2022-A1-m20', 'CSE-2025-A1-m13', 'CSE-2025-A1-m12'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q7c', 'IFoS-2023-A1-m15', 'IFoS-2023-A1-m17', 'CSE-2022-A1-m13', 'IFoS-2021-A1-m20', 'CSE-2020-A1-m16', 'IFoS-2020-A1-m15', 'IFoS-2019-A1-m13', 'CSE-2017-A1-m11', 'CSE-2016-A1-m15', 'CSE-2014-A1-m16', 'IFoS-2014-A1-m16', 'IFoS-2011-A1-m16', 'CSE-2010-A1-m17', 'IFoS-2005-A1-m19', 'IFoS-2020-A1-m22', 'CSE-2013-A1-m12', 'IFoS-2009-A1-m09', 'IFoS-2005-A1-m20', 'IFoS-2022-A1-m20', 'CSE-2025-A1-m13', 'CSE-2025-A1-m12', 'IFoS-2013-A1-m14'], q: [
   ['The three traditional approaches to studying agricultural marketing are:', ['Functional, institutional and commodity approaches', 'Genetic, chemical and physical approaches', 'Historical, legal and medical approaches', 'Seed, soil and water approaches'], 0,
     'Newer approaches include behavioural-systems and managerial ones.'],
   ['The commodity approach studies marketing by:', ['Following a product from producer to consumer', 'Studying only wholesalers', 'Studying only functions', 'Studying only prices'], 0,
@@ -264,7 +264,7 @@
   ['The apex national cooperative for agricultural marketing is:', ['NAFED', 'NABARD', 'FCI', 'NDDB'], 0,
     'It also procures pulses and oilseeds for the government.']
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2018-A1-Q7d', 'CSE-2020-A1-m15', 'CSE-2019-A1-m16', 'CSE-2010-A1-m15', 'CSE-2023-A1-m15', 'CSE-2022-A1-m11', 'CSE-2022-A1-m18', 'CSE-2018-A1-m10'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2018-A1-Q7d', 'CSE-2020-A1-m15', 'CSE-2019-A1-m16', 'CSE-2010-A1-m15', 'CSE-2023-A1-m15', 'CSE-2022-A1-m11', 'CSE-2022-A1-m18', 'CSE-2018-A1-m10', 'IFoS-2010-A1-m06'], q: [
   ['A typical self-help group (SHG) has:', ['About 10–20 members who save regularly and lend to one another', 'Over 200 members', 'One member', 'Only men'], 0,
     'Most rural SHGs in India are women’s groups.'],
   ['The SHG–Bank Linkage Programme was started in 1992 by:', ['NABARD', 'The RBI alone', 'The World Bank', 'SEBI'], 0,
@@ -286,7 +286,7 @@
   ['SHGs contribute to social empowerment of women by:', ['Building confidence, leadership and collective voice', 'Increasing isolation', 'Removing their property rights', 'Reducing literacy'], 0,
     'Many SHG leaders go on to serve in panchayats.']
 ] },
-{ p: 'A1', t: 'Farm Mechanisation', w: 2, pyq: ['IFoS-2018-A1-Q8a', 'IFoS-2020-A1-m17', 'CSE-2007-A1-m08', 'IFoS-2017-A1-Q6a', 'IFoS-2010-A1-m13', 'IFoS-2019-A1-m14'], q: [
+{ p: 'A1', t: 'Farm Mechanisation', w: 2, pyq: ['IFoS-2018-A1-Q8a', 'IFoS-2020-A1-m17', 'CSE-2007-A1-m08', 'IFoS-2017-A1-Q6a', 'IFoS-2010-A1-m13', 'IFoS-2019-A1-m14', 'IFoS-2016-A1-m17', 'IFoS-2022-A1-m17', 'IFoS-2015-A1-m06'], q: [
   ['Selective mechanisation means:', ['Mechanising only those operations where labour is short or timeliness is critical', 'Mechanising every farm operation', 'Banning machines', 'Using only animal power'], 0,
     'It avoids displacing labour where it is plentiful.'],
   ['Farm power availability in India is roughly:', ['2.5–3 kW per hectare', '20 kW per hectare', '0.1 kW per hectare', '50 kW per hectare'], 0,
@@ -352,7 +352,7 @@
   ['The feel-and-appearance method of judging soil moisture is:', ['Squeezing soil by hand and comparing its behaviour with a guide', 'A laboratory test', 'A satellite method', 'A chemical test'], 0,
     'It is simple and cheap but subjective.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: 'IFoS-2018-A1-Q8d', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: ['IFoS-2018-A1-Q8d', 'IFoS-2011-A1-m11'], q: [
   ['Farm management is:', ['The science of organising and managing farm resources for maximum continuous profit', 'Only keeping farm accounts', 'Only marketing', 'Only crop breeding'], 0,
     'It applies economic principles at the level of the individual farm.'],
   ['Farm management deals mainly with:', ['Decisions at the level of the individual farm (micro level)', 'National policy', 'International trade', 'Global climate'], 0,

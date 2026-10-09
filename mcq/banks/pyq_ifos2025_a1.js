@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2025 Agriculture Paper I (topic-level PYQs from the volume anchors). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Soil Genesis, Classification & Properties', w: 3, pyq: 'IFoS-2025-A1-Q1a', q: [
+{ p: 'A1', t: 'Soil Genesis, Classification & Properties', w: 3, pyq: ['IFoS-2025-A1-Q1a', 'IFoS-2024-A1-m26', 'CSE-2023-A1-m25', 'CSE-2022-A1-m25', 'IFoS-2018-A1-Q4c', 'CSE-2013-A1-m24', 'CSE-2009-A1-m11', 'CSE-2000-A1-m12'], q: [
   ['Soil structure refers to:', ['The arrangement of soil particles into aggregates (peds)', 'The proportion of sand, silt and clay', 'The colour of soil', 'The depth of soil'], 0,
     'Texture is the particle-size distribution; structure is how particles are grouped.'],
   ['Prismatic soil structure is characterised by:', ['Vertically elongated peds with flat tops, typical of subsoils in arid and semi-arid regions', 'Thin horizontal plates', 'Small rounded crumbs', 'Single loose grains'], 0,
@@ -66,7 +66,7 @@
   ['Allelopathy from crop residues or weeds is an example of:', ['A biotic (chemical) interaction affecting crops', 'A climatic factor', 'An edaphic factor only', 'A physiographic factor'], 0,
     'E.g., residues of sunflower or sorghum can inhibit the next crop.'],
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2025-A1-Q1d', 'IFoS-2022-A1-m19'], q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2025-A1-Q1d', 'IFoS-2022-A1-m19', 'CSE-2014-A1-m23'], q: [
   ['Short-duration varieties help in drylands mainly by:', ['Completing the life cycle within the limited period of soil moisture', 'Needing more water', 'Growing taller', 'Producing more straw'], 0,
     'They escape terminal drought.'],
   ['Sahbhagi Dhan is:', ['A short-duration, drought-tolerant rice variety for rainfed uplands', 'A long-duration basmati variety', 'A wheat variety', 'A hybrid maize'], 0,
@@ -110,7 +110,7 @@
   ['RSC is expressed in:', ['Milliequivalents per litre (meq/L)', 'dS/m', 'mg/kg', 'Percent'], 0,
     'EC is expressed in dS/m (salinity).'],
 ] },
-{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: 'IFoS-2025-A1-Q2a', q: [
+{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2025-A1-Q2a', 'IFoS-2005-A1-m10'], q: [
   ['The World Agroforestry Centre (ICRAF) is headquartered at:', ['Nairobi, Kenya', 'New Delhi', 'Bogor, Indonesia', 'Rome'], 0,
     'CIFOR (forestry research) is at Bogor.'],
   ['Agroforestry, as defined by Lundgren and Raintree (1982), involves:', ['Deliberate growing of woody perennials with crops and/or animals, with ecological and economic interactions', 'Only forest plantations', 'Only fruit orchards', 'Only grazing in forests'], 0,
@@ -154,7 +154,7 @@
   ['Soil respiration (CO₂ evolution) is a measure of:', ['Biological activity of soil organisms and roots', 'Soil texture', 'Soil pH', 'Bulk density'], 0,
     'It rises with temperature, moisture and fresh organic inputs.'],
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2025-A1-Q2c', 'CSE-2025-A1-m02', 'IFoS-2022-A1-m04', 'CSE-2021-A1-m03', 'CSE-2019-A1-m04', 'CSE-2016-A1-m02', 'CSE-2010-A1-m02', 'CSE-2013-A1-m03', 'IFoS-2013-A1-m02', 'IFoS-2010-A1-m01', 'IFoS-2020-A1-m02', 'CSE-2020-A1-m02', 'CSE-2023-A1-m01', 'CSE-2020-A1-m01', 'CSE-2024-A1-m03', 'CSE-1996-A1-m02', 'CSE-1999-A1-m03', 'CSE-1995-A1-m01', 'CSE-2013-A1-m02', 'IFoS-2016-A1-m02', 'IFoS-2014-A1-m05'], q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2025-A1-Q2c', 'CSE-2025-A1-m02', 'IFoS-2022-A1-m04', 'CSE-2021-A1-m03', 'CSE-2019-A1-m04', 'CSE-2016-A1-m02', 'CSE-2010-A1-m02', 'CSE-2013-A1-m03', 'IFoS-2013-A1-m02', 'IFoS-2010-A1-m01', 'IFoS-2020-A1-m02', 'CSE-2020-A1-m02', 'CSE-2023-A1-m01', 'CSE-2020-A1-m01', 'CSE-2024-A1-m03', 'CSE-1996-A1-m02', 'CSE-1999-A1-m03', 'CSE-1995-A1-m01', 'CSE-2013-A1-m02', 'IFoS-2016-A1-m02', 'IFoS-2014-A1-m05', 'CSE-1990-A1-m04', 'CSE-1989-A1-m09', 'IFoS-2023-A1-m24'], q: [
   ['Rising atmospheric CO₂ ("CO₂ fertilisation") benefits which crops more?', ['C₃ crops such as wheat, rice and pulses', 'C₄ crops such as maize and sorghum', 'Both equally', 'Neither'], 0,
     'C₄ photosynthesis is already nearly CO₂-saturated.'],
   ['Terminal heat stress in wheat mainly harms:', ['Grain filling, when temperatures exceed about 30 °C', 'Germination', 'Tillering in December', 'Root growth only'], 0,
@@ -198,7 +198,7 @@
   ['Durum wheat (*Triticum durum*) is preferred for pasta because:', ['Its hard, high-protein grain with yellow pigment makes good semolina', 'It is soft and starchy', 'It has red grain', 'It has no gluten'], 0,
     'It is grown mainly in central India (e.g., Madhya Pradesh).'],
 ] },
-{ p: 'A1', t: 'Weed Science', w: 2, pyq: 'IFoS-2025-A1-Q3b', q: [
+{ p: 'A1', t: 'Weed Science', w: 2, pyq: ['IFoS-2025-A1-Q3b', 'CSE-2020-A1-m27', 'IFoS-2005-A1-m24', 'IFoS-2022-A1-m27', 'CSE-2023-A1-m28', 'CSE-2025-A1-m27', 'IFoS-2019-A1-m26', 'CSE-2014-A1-m27'], q: [
   ['Which is a typical characteristic of successful weeds?', ['Prolific seed production with long seed dormancy and viability', 'Very few seeds', 'No dormancy', 'Slow growth'], 0,
     'Also rapid growth, vegetative spread, adaptability and crop mimicry.'],
   ['*Lantana camara* was introduced to India in 1807 as:', ['An ornamental plant, at the Calcutta Botanic Garden', 'A fodder crop', 'A timber tree', 'A medicinal crop'], 0,
@@ -220,7 +220,7 @@
   ['Integrated management of invasive weeds combines:', ['Prevention, mechanical removal, biological control, herbicides and restoration with native species', 'Only burning', 'Only herbicides', 'Ignoring the problem'], 0,
     'Restoration prevents re-invasion of cleared areas.'],
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: 'IFoS-2025-A1-Q3c', q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2025-A1-Q3c', 'IFoS-2022-A1-m24', 'IFoS-2014-A1-m29', 'CSE-2013-A1-m22', 'CSE-2006-A1-m05', 'CSE-2023-A1-m24', 'IFoS-2010-A1-m19', 'IFoS-2013-A1-m31', 'IFoS-2012-A1-m28', 'CSE-2015-A1-m17', 'IFoS-2005-A1-m21', 'CSE-2001-A1-m19', 'CSE-2018-A1-m18', 'IFoS-2011-A1-m23', 'CSE-2022-A1-m23', 'CSE-2019-A1-m22'], q: [
   ['Ammonia volatilisation from urea is highest when urea is:', ['Surface-applied on alkaline or calcareous soils in warm weather', 'Deep-placed in acid soil', 'Applied to cold, wet soil and incorporated', 'Applied as neem-coated urea in split doses'], 0,
     'Urease converts urea to ammonium carbonate; high pH releases NH₃ gas.'],
   ['Urease inhibitors such as NBPT reduce nitrogen loss by:', ['Slowing urea hydrolysis, reducing ammonia volatilisation', 'Stopping nitrification', 'Increasing leaching', 'Fixing nitrogen'], 0,
@@ -242,7 +242,7 @@
   ['Which practice best improves N use efficiency?', ['Split application based on crop need, using tools like the leaf colour chart', 'Applying all N at sowing', 'Broadcasting urea on floodwater at noon', 'Applying N after harvest'], 0,
     'Right source, rate, time and place (4R nutrient stewardship).'],
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2025-A1-Q4a', 'CSE-2026-A1-Q1a', 'CSE-2018-A1-m03', 'CSE-2017-A1-m04', 'CSE-2010-A1-m05', 'IFoS-2024-A1-m02', 'CSE-2022-A1-m01', 'IFoS-2020-A1-m06', 'CSE-2019-A1-m01', 'CSE-2013-A1-m04', 'CSE-2016-A1-m04', 'IFoS-2019-A1-m04', 'CSE-2014-A1-m08'], q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2025-A1-Q4a', 'CSE-2026-A1-Q1a', 'CSE-2018-A1-m03', 'CSE-2017-A1-m04', 'CSE-2010-A1-m05', 'IFoS-2024-A1-m02', 'CSE-2022-A1-m01', 'IFoS-2020-A1-m06', 'CSE-2019-A1-m01', 'CSE-2013-A1-m04', 'CSE-2016-A1-m04', 'IFoS-2019-A1-m04', 'CSE-2014-A1-m08', 'IFoS-2015-A1-m20'], q: [
   ['Peri-urban soils irrigated with untreated sewage often accumulate:', ['Heavy metals such as cadmium, lead, nickel and chromium', 'Only nitrogen', 'Only sand', 'Only calcium'], 0,
     'Vegetables grown there can carry metals into the food chain.'],
   ['The fern *Pteris vittata* is a hyperaccumulator of:', ['Arsenic', 'Nitrogen', 'Sodium', 'Carbon'], 0,
@@ -286,7 +286,7 @@
   ['Over-retting of jute:', ['Weakens the fibre', 'Improves fibre strength', 'Has no effect', 'Increases fibre length'], 0,
     'Under-retting leaves bark attached, giving "croppy" fibre.'],
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: 'IFoS-2025-A1-Q4c', q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2025-A1-Q4c', 'IFoS-2010-A1-m20'], q: [
   ['The most widespread micronutrient deficiency in Indian soils is of:', ['Zinc', 'Molybdenum', 'Chlorine', 'Nickel'], 0,
     'Boron and iron deficiencies are also common in some regions.'],
   ['Micronutrient deficiencies have increased with intensive agriculture mainly because of:', ['High removal by high-yielding crops, use of high-analysis NPK fertilisers and less organic manure', 'More use of FYM', 'Lower yields', 'Less irrigation'], 0,
@@ -352,7 +352,7 @@
   ['Subsistence farming aims mainly at:', ['Meeting the needs of the farm family, with little surplus for sale', 'Export production', 'Industrial raw materials only', 'Maximising market sales'], 0,
     'Still common among smallholders in rainfed and tribal areas.'],
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: 'IFoS-2025-A1-Q5c', q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: ['IFoS-2025-A1-Q5c', 'IFoS-2018-A1-Q4d', 'CSE-1996-A1-m13', 'CSE-2022-A1-m26', 'IFoS-2021-A1-m25', 'CSE-1992-A1-m13'], q: [
   ['A contour bund is built:', ['Along the contour line to hold runoff and let it infiltrate', 'Up and down the slope', 'Only around wells', 'Only in flooded fields'], 0,
     'It suits low-rainfall areas with permeable soils.'],
   ['The vertical interval between successive bunds generally:', ['Increases as land slope increases', 'Decreases as slope increases', 'Is the same on all slopes', 'Depends only on crop'], 0,
@@ -396,7 +396,7 @@
   ['Multi-state cooperative societies are governed by the:', ['Multi-State Cooperative Societies Act, 2002 (amended 2023)', 'Companies Act only', 'APMC Act', 'Seeds Act'], 0,
     'State-level societies are governed by state cooperative laws.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: 'IFoS-2025-A1-Q5e', q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2025-A1-Q5e', 'IFoS-2024-A1-m24', 'IFoS-2012-A1-m23'], q: [
   ['The critical stages for irrigating groundnut are:', ['Flowering, pegging and pod development', 'Germination only', 'Harvest only', 'Seedling stage only'], 0,
     'Moisture in the pegging zone is vital for pod formation.'],
   ['For rice, the most critical stages for water stress are:', ['Panicle initiation and flowering', 'Maturity only', 'Nursery only', 'Tillering only'], 0,
@@ -484,7 +484,7 @@
   ['Long-term stabilisation of gullies relies on:', ['Vegetating the gully bed and catchment along with structures', 'Removing all vegetation', 'Increasing runoff', 'Deep ploughing of gully banks'], 0,
     'Structures buy time for vegetation to establish.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2025-A1-Q7a', 'CSE-2016-A1-m03'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2025-A1-Q7a', 'CSE-2016-A1-m03', 'IFoS-2021-A1-m26', 'CSE-2025-A1-m19', 'IFoS-2024-A1-m23', 'CSE-2023-A1-m20', 'CSE-2022-A1-m20', 'IFoS-2022-A1-m23', 'CSE-2021-A1-m20', 'IFoS-2020-A1-m25', 'CSE-1989-A1-m13', 'IFoS-2016-A1-m26'], q: [
   ['In the USSL (Richards, 1954) classification, "C3-S1" water has:', ['High salinity and low sodium hazard', 'Low salinity and high sodium hazard', 'Low salinity and low sodium hazard', 'Very high salinity and very high sodium hazard'], 0,
     'C classes: C1 < 250, C2 250–750, C3 750–2,250, C4 > 2,250 µS/cm. S classes by SAR.'],
   ['An EC of 1 dS/m in irrigation water corresponds roughly to total dissolved salts of:', ['640 mg/L', '64 mg/L', '6,400 mg/L', '10 mg/L'], 0,
@@ -506,7 +506,7 @@
   ['Sodium hazard of irrigation water is assessed mainly by:', ['Sodium adsorption ratio (SAR)', 'EC only', 'pH only', 'Temperature'], 0,
     'High SAR water disperses soil, reducing infiltration.'],
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 2, pyq: 'IFoS-2025-A1-Q7b', q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 2, pyq: ['IFoS-2025-A1-Q7b', 'IFoS-2002-A1-m09', 'CSE-2019-A1-m19', 'CSE-2013-A1-m19'], q: [
   ['The Neeranchal National Watershed Project (2016) was supported by the:', ['World Bank', 'Asian Development Bank', 'FAO', 'JICA'], 0,
     'It aimed to strengthen PMKSY watershed components.'],
   ['The Hariyali guidelines (2003) for watershed development gave a central role to:', ['Gram Panchayats', 'Private companies', 'Only state departments', 'Central ministries only'], 0,

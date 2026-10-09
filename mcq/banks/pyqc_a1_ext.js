@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture I — Extension, farm economics and agricultural policy. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Agricultural Extension', w: 3, pyq: ['CSE-2015-A1-m12', 'IFoS-2012-A1-m21', 'IFoS-2009-A1-m11', 'CSE-2007-A1-m07', 'IFoS-2003-A1-m15', 'IFoS-2002-A1-m03', 'IFoS-2003-A1-m18', 'IFoS-2024-A1-m16', 'IFoS-2021-A1-m12', 'IFoS-2021-A1-m15', 'CSE-2020-A1-m13', 'IFoS-2009-A1-m10', 'IFoS-2020-A1-m16', 'IFoS-2023-A1-m13', 'IFoS-2017-A1-Q8b', 'IFoS-2017-A1-Q8d', 'CSE-2021-A1-m17', 'CSE-2004-A1-m07', 'CSE-2018-A1-m04', 'CSE-1992-A1-m07'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 3, pyq: ['CSE-2015-A1-m12', 'IFoS-2012-A1-m21', 'IFoS-2009-A1-m11', 'CSE-2007-A1-m07', 'IFoS-2003-A1-m15', 'IFoS-2002-A1-m03', 'IFoS-2003-A1-m18', 'IFoS-2024-A1-m16', 'IFoS-2021-A1-m12', 'IFoS-2021-A1-m15', 'CSE-2020-A1-m13', 'IFoS-2009-A1-m10', 'IFoS-2020-A1-m16', 'IFoS-2023-A1-m13', 'IFoS-2017-A1-Q8b', 'IFoS-2017-A1-Q8d', 'CSE-2021-A1-m17', 'CSE-2004-A1-m07', 'CSE-2018-A1-m04', 'CSE-1992-A1-m07', 'IFoS-2012-A1-m15', 'IFoS-2011-A1-m13', 'IFoS-2011-A1-m15', 'IFoS-2012-A1-m14', 'IFoS-2012-A1-m11'], q: [
   ['A method demonstration differs from a result demonstration in that it shows:', ['How to carry out a practice, step by step', 'The final benefit of a practice compared with the old one', 'Market prices', 'Only yields'], 0,
     'Result demonstrations prove the worth of a practice; Seaman Knapp popularised demonstrations.'],
   ['Front-line demonstrations (FLDs) are conducted by:', ['Scientists of ICAR institutes, SAUs and KVKs on farmers\' fields', 'Village panchayats only', 'Input dealers', 'Banks'], 0,
@@ -22,7 +22,7 @@
   ['Field days are used mainly to:', ['Let many farmers see results of a technology on demonstration plots', 'Distribute loans', 'Collect soil samples', 'Sell produce'], 0,
     'They are a group extension method.']
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 3, pyq: ['CSE-2025-A1-m14', 'IFoS-2024-A1-m20', 'CSE-1999-A1-m09', 'CSE-1990-A1-m11', 'IFoS-2020-A1-m12', 'CSE-2014-A1-m13', 'CSE-1998-A1-m09', 'IFoS-2021-A1-m19', 'IFoS-2013-A1-m25', 'CSE-1994-A1-m10', 'CSE-2024-A1-m15', 'CSE-1998-A1-m07', 'CSE-1996-A1-m06', 'CSE-2007-A1-m10', 'IFoS-2023-A1-m19', 'CSE-2013-A1-m16', 'IFoS-2022-A1-m21', 'CSE-2014-A1-m15', 'IFoS-2016-A1-m22', 'IFoS-2021-A1-m18', 'CSE-2021-A1-m18', 'CSE-1990-A1-m10'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 3, pyq: ['CSE-2025-A1-m14', 'IFoS-2024-A1-m20', 'CSE-1999-A1-m09', 'CSE-1990-A1-m11', 'IFoS-2020-A1-m12', 'CSE-2014-A1-m13', 'CSE-1998-A1-m09', 'IFoS-2021-A1-m19', 'IFoS-2013-A1-m25', 'CSE-1994-A1-m10', 'CSE-2024-A1-m15', 'CSE-1998-A1-m07', 'CSE-1996-A1-m06', 'CSE-2007-A1-m10', 'IFoS-2023-A1-m19', 'CSE-2013-A1-m16', 'IFoS-2022-A1-m21', 'CSE-2014-A1-m15', 'IFoS-2016-A1-m22', 'IFoS-2021-A1-m18', 'CSE-2021-A1-m18', 'CSE-1990-A1-m10', 'IFoS-2012-A1-m17', 'IFoS-2005-A1-m08', 'IFoS-2022-A1-m16', 'IFoS-2016-A1-m19', 'IFoS-2011-A1-m12', 'IFoS-2013-A1-m13', 'IFoS-2012-A1-m13', 'IFoS-2012-A1-m10', 'IFoS-2013-A1-m20'], q: [
   ['The Community Development Programme in India was launched on:', ['2 October 1952', '15 August 1947', '26 January 1950', '1 April 1966'], 0,
     'The National Extension Service followed in 1953.'],
   ['The Lab to Land Programme was started by ICAR in:', ['1979, its golden jubilee year', '1952', '1990', '2005'], 0,
@@ -88,7 +88,7 @@
   ['Agricultural trade matters to the national economy because it:', ['Earns foreign exchange and supports farm incomes and food supplies', 'Has no economic effect', 'Only adds costs', 'Stops domestic production'], 0,
     'India is a major exporter of rice, spices and marine products.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2023-A1-m14', 'IFoS-2003-A1-m19', 'CSE-2020-A1-m17', 'CSE-2010-A1-m20', 'IFoS-2010-A1-m11', 'CSE-2002-A1-m06', 'CSE-1996-A1-m07', 'IFoS-2024-A1-m15', 'IFoS-2019-A1-m11'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2023-A1-m14', 'IFoS-2003-A1-m19', 'CSE-2020-A1-m17', 'CSE-2010-A1-m20', 'IFoS-2010-A1-m11', 'CSE-2002-A1-m06', 'CSE-1996-A1-m07', 'IFoS-2024-A1-m15', 'IFoS-2019-A1-m11', 'IFoS-2013-A1-m12', 'IFoS-2012-A1-m09', 'IFoS-2013-A1-m10'], q: [
   ['Farm records that list all assets and liabilities at a point in time are:', ['Inventory records', 'Production records', 'Labour records', 'Cash diaries'], 0,
     'Records help in farm planning, budgeting and credit.'],
   ['A farmer should keep farm records mainly to:', ['Analyse costs and returns and make better decisions', 'Pay more taxes', 'Satisfy curiosity', 'Avoid planning'], 0,

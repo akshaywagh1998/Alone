@@ -22,7 +22,7 @@
   ['The ICAR institute for arid-zone research is located at:', ['Jodhpur (CAZRI)', 'Hyderabad (CRIDA)', 'Karnal (CSSRI)', 'Dehradun (IISWC)'], 0,
     'CAZRI works on sand-dune stabilisation and arid land use.']
 ] },
-{ p: 'A1', t: 'Crop Production', w: 2, pyq: ['IFoS-2017-A1-Q1b', 'CSE-2024-A1-m01', 'IFoS-2021-A1-m02', 'IFoS-2003-A1-m02', 'CSE-1997-A1-m01', 'CSE-1994-A1-m01', 'CSE-2013-A1-m01', 'IFoS-2005-A1-m01', 'CSE-1993-A1-m01', 'IFoS-2025-A1-Q1c', 'IFoS-2020-A1-m03', 'CSE-2021-A1-m05', 'CSE-2014-A1-m05', 'IFoS-2012-A1-m01', 'CSE-2014-A1-m01', 'CSE-2014-A1-m04', 'CSE-2023-A1-m02', 'IFoS-2003-A1-m03', 'CSE-2001-A1-m04'], q: [
+{ p: 'A1', t: 'Crop Production', w: 2, pyq: ['IFoS-2017-A1-Q1b', 'CSE-2024-A1-m01', 'IFoS-2021-A1-m02', 'IFoS-2003-A1-m02', 'CSE-1997-A1-m01', 'CSE-1994-A1-m01', 'CSE-2013-A1-m01', 'IFoS-2005-A1-m01', 'CSE-1993-A1-m01', 'IFoS-2025-A1-Q1c', 'IFoS-2020-A1-m03', 'CSE-2021-A1-m05', 'CSE-2014-A1-m05', 'IFoS-2012-A1-m01', 'CSE-2014-A1-m01', 'CSE-2014-A1-m04', 'CSE-2023-A1-m02', 'IFoS-2003-A1-m03', 'CSE-2001-A1-m04', 'IFoS-2005-A1-m11', 'IFoS-2011-A1-m09'], q: [
   ['Edaphic factors are:', ['Soil-related factors such as texture, structure, pH, organic matter and soil organisms', 'Climatic factors only', 'Topographic factors only', 'Biotic factors above ground only'], 0,
     'They strongly influence crop growth.'],
   ['Most crops grow best at a soil pH of about:', ['6.5–7.5', '4.0–4.5', '9.0–10.0', '2.0–3.0'], 0,
@@ -44,7 +44,7 @@
   ['Sustainable agriculture, in the spirit of the Brundtland report, aims to:', ['Meet present needs without compromising the ability of future generations to meet theirs', 'Maximise short-term profit only', 'Use only chemical inputs', 'Abandon modern science'], 0,
     'It balances economic, social and environmental goals.']
 ] },
-{ p: 'A1', t: 'Weed Science', w: 3, pyq: 'IFoS-2017-A1-Q1c', q: [
+{ p: 'A1', t: 'Weed Science', w: 3, pyq: ['IFoS-2017-A1-Q1c', 'CSE-2022-A1-m28', 'CSE-2018-A1-m21', 'CSE-2013-A1-m26', 'IFoS-2010-A1-m26'], q: [
   ['The weed that first evolved herbicide resistance in Indian wheat is:', ['*Phalaris minor* (littleseed canarygrass)', '*Avena ludoviciana*', '*Chenopodium album*', '*Cyperus rotundus*'], 0,
     'Its resistance to isoproturon was confirmed in the early 1990s.'],
   ['Isoproturon resistance in *Phalaris minor* is mainly due to:', ['Enhanced herbicide metabolism by cytochrome P450 enzymes (non-target-site resistance)', 'A mutated target site in ALS', 'A thicker cuticle', 'Seed dormancy'], 0,
@@ -88,7 +88,7 @@
   ['Diversifying crop rotations also helps by:', ['Breaking pest and disease cycles and improving soil health', 'Increasing pest build-up', 'Reducing soil organic matter', 'Increasing herbicide resistance'], 0,
     'Monocultures favour specialised pests.']
 ] },
-{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2017-A1-Q1e', 'CSE-2001-A1-m13', 'CSE-1999-A1-m04', 'CSE-1998-A1-m02', 'CSE-1989-A1-m01', 'IFoS-2022-A1-m05', 'CSE-2003-A1-m03', 'CSE-1992-A1-m02', 'IFoS-2005-A1-m04', 'CSE-1993-A1-m04', 'IFoS-2024-A1-m09', 'IFoS-2021-A1-m05'], q: [
+{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2017-A1-Q1e', 'CSE-2001-A1-m13', 'CSE-1999-A1-m04', 'CSE-1998-A1-m02', 'CSE-1989-A1-m01', 'IFoS-2022-A1-m05', 'CSE-2003-A1-m03', 'CSE-1992-A1-m02', 'IFoS-2005-A1-m04', 'CSE-1993-A1-m04', 'IFoS-2024-A1-m09', 'IFoS-2021-A1-m05', 'IFoS-2005-A1-m09', 'CSE-1994-A1-m08', 'CSE-1990-A1-m07', 'IFoS-2010-A1-m05', 'CSE-1994-A1-m07'], q: [
   ['The term "social forestry" was popularised in India by the:', ['National Commission on Agriculture (1976)', 'Forest Act of 1927', 'Green Revolution', 'Planning Commission in 1951'], 0,
     'It aimed to meet rural needs for fuel, fodder and small timber.'],
   ['The components of social forestry are:', ['Farm forestry, community forestry and extension forestry (roadsides, canal banks, railway lines)', 'Only reserved forests', 'Only national parks', 'Only plantations of teak'], 0,
@@ -198,7 +198,7 @@
   ['Sunflower is native to:', ['North America', 'India', 'Africa', 'Australia'], 0,
     'It reached India through Russia, where it was bred for oil.']
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2017-A1-Q3a', 'CSE-2009-A1-m01', 'CSE-2017-A1-m01', 'CSE-1992-A1-m01'], q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2017-A1-Q3a', 'CSE-2009-A1-m01', 'CSE-2017-A1-m01', 'CSE-1992-A1-m01', 'IFoS-2014-A1-m28', 'CSE-2005-A1-m06', 'IFoS-2011-A1-m21', 'IFoS-2003-A1-m20', 'IFoS-2003-A1-m21', 'IFoS-2024-A1-m25', 'CSE-2016-A1-m20', 'CSE-2015-A1-m18', 'CSE-2024-A1-m23', 'IFoS-2009-A1-m14', 'CSE-1990-A1-m13', 'CSE-1993-A1-m12', 'CSE-1995-A1-m13'], q: [
   ['The criteria of essentiality for plant nutrients were set out by:', ['Arnon and Stout (1939)', 'Liebig', 'Mitscherlich', 'Sprengel'], 0,
     'The element must be needed to complete the life cycle, not replaceable, and directly involved.'],
   ['The number of elements now accepted as essential for higher plants is:', ['Seventeen', 'Ten', 'Twenty-five', 'Six'], 0,
@@ -220,7 +220,7 @@
   ['The C:N ratio matters for crop productivity because it:', ['Governs whether nitrogen is released or locked up when residues decompose', 'Sets soil pH', 'Sets rainfall', 'Controls pests only'], 0,
     'Timing residue incorporation around it avoids N deficiency.']
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 3, pyq: 'IFoS-2017-A1-Q3b', q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 3, pyq: ['IFoS-2017-A1-Q3b', 'IFoS-2009-A1-m07', 'IFoS-2023-A1-m27', 'CSE-2019-A1-m26', 'IFoS-2016-A1-m31', 'IFoS-2014-A1-m31', 'IFoS-2010-A1-m24', 'IFoS-2006-A1-m13', 'IFoS-2005-A1-m22', 'CSE-1996-A1-m11', 'IFoS-2022-A1-m26', 'CSE-2020-A1-m25', 'IFoS-2012-A1-m29', 'CSE-2017-A1-m16', 'CSE-1995-A1-m14', 'IFoS-2013-A1-m32', 'CSE-1993-A1-m14', 'IFoS-2002-A1-m08'], q: [
   ['A saline soil has:', ['ECe above 4 dS/m, ESP below 15 and pH below 8.5', 'ESP above 15 and pH above 8.5', 'pH below 5', 'No soluble salts'], 0,
     'White salt crusts often form on the surface.'],
   ['A sodic (alkali) soil has:', ['ESP above 15 and pH above 8.5, with ECe below 4 dS/m', 'ECe above 4 and ESP below 15', 'pH below 6', 'High organic matter'], 0,
@@ -242,7 +242,7 @@
   ['In furrow-irrigated saline soils, seeds are sown:', ['On the sides of the ridges, below the salty tops', 'On the tops of the ridges', 'In standing water', 'Anywhere'], 0,
     'Salts accumulate where water evaporates, on the ridge tops.']
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: 'IFoS-2017-A1-Q3c', q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2017-A1-Q3c', 'IFoS-2012-A1-m06', 'IFoS-2013-A1-m30', 'IFoS-2011-A1-m22', 'IFoS-2010-A1-m17', 'IFoS-2021-A1-m24', 'CSE-1993-A1-m09', 'CSE-2003-A1-m08', 'CSE-2019-A1-m23', 'CSE-2000-A1-m11', 'IFoS-2016-A1-m29', 'CSE-1992-A1-m11'], q: [
   ['In acid soils (below about pH 5.5), phosphorus is fixed mainly by:', ['Iron and aluminium, as insoluble Fe and Al phosphates', 'Calcium', 'Sodium', 'Nitrogen'], 0,
     'Strengite and variscite are such minerals.'],
   ['In alkaline and calcareous soils, phosphorus is fixed mainly as:', ['Calcium phosphates, which change towards apatite over time', 'Iron phosphates', 'Aluminium phosphates', 'Sodium phosphates'], 0,
@@ -264,7 +264,7 @@
   ['Biological ways to release fixed phosphorus include:', ['Phosphate-solubilising microbes and mycorrhizal fungi', 'Adding salt', 'Burning residues', 'Deep flooding'], 0,
     'Organic acids from microbes dissolve bound phosphate.']
 ] },
-{ p: 'A1', t: 'Weed Science', w: 2, pyq: 'IFoS-2017-A1-Q3d', q: [
+{ p: 'A1', t: 'Weed Science', w: 2, pyq: ['IFoS-2017-A1-Q3d', 'IFoS-2010-A1-m28'], q: [
   ['Soil solarisation means:', ['Covering moist soil with transparent polythene in hot weather to heat it', 'Burning the soil surface', 'Adding black mulch in winter', 'Drying soil in shade'], 0,
     'The heat kills weed seeds, pathogens and pests.'],
   ['Soil solarisation was developed by:', ['Katan and colleagues in Israel (1976)', 'Borlaug in Mexico', 'Swaminathan in India', 'Liebig in Germany'], 0,
@@ -286,7 +286,7 @@
   ['A limitation of soil solarisation is:', ['The cost of plastic film, the land being out of use and the disposal of plastic', 'It poisons the soil', 'It needs cold weather', 'It is illegal'], 0,
     'It works best in hot, sunny regions.']
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q4a', 'IFoS-2023-A1-m06', 'CSE-2003-A1-m04', 'IFoS-2022-A1-m07', 'IFoS-2015-A1-m01', 'CSE-2014-A1-m06', 'CSE-2026-A1-Q6c', 'CSE-2024-A1-m10', 'IFoS-2021-A1-m07', 'CSE-2018-A1-m08', 'CSE-2017-A1-m08', 'IFoS-2016-A1-m15', 'CSE-2015-A1-m07', 'IFoS-2011-A1-m07', 'IFoS-2006-A1-m02', 'CSE-2002-A1-m04', 'CSE-1992-A1-m06', 'CSE-2022-A1-m09', 'IFoS-2003-A1-m10', 'CSE-1999-A1-m06', 'CSE-1989-A1-m07', 'CSE-1989-A1-m08', 'CSE-2006-A1-m01', 'IFoS-2014-A1-m07', 'IFoS-2005-A1-m05', 'CSE-2000-A1-m05', 'CSE-1994-A1-m06', 'CSE-1997-A1-m04', 'CSE-1990-A1-m03', 'CSE-1991-A1-m02'], q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q4a', 'IFoS-2023-A1-m06', 'CSE-2003-A1-m04', 'IFoS-2022-A1-m07', 'IFoS-2015-A1-m01', 'CSE-2014-A1-m06', 'CSE-2026-A1-Q6c', 'CSE-2024-A1-m10', 'IFoS-2021-A1-m07', 'CSE-2018-A1-m08', 'CSE-2017-A1-m08', 'IFoS-2016-A1-m15', 'CSE-2015-A1-m07', 'IFoS-2011-A1-m07', 'IFoS-2006-A1-m02', 'CSE-2002-A1-m04', 'CSE-1992-A1-m06', 'CSE-2022-A1-m09', 'IFoS-2003-A1-m10', 'CSE-1999-A1-m06', 'CSE-1989-A1-m07', 'CSE-1989-A1-m08', 'CSE-2006-A1-m01', 'IFoS-2014-A1-m07', 'IFoS-2005-A1-m05', 'CSE-2000-A1-m05', 'CSE-1994-A1-m06', 'CSE-1997-A1-m04', 'CSE-1990-A1-m03', 'CSE-1991-A1-m02', 'IFoS-2005-A1-m15', 'IFoS-2005-A1-m13', 'IFoS-2005-A1-m14', 'IFoS-2010-A1-m25'], q: [
   ['The All India Coordinated Research Project on Dryland Agriculture (AICRPDA) began in:', ['1970', '1990', '2005', '1947'], 0,
     'It led to CRIDA being set up in 1985.'],
   ['A "dust mulch" in dryland farming is made by:', ['Shallow cultivation of the soil surface to break capillaries and reduce evaporation', 'Spreading plastic sheets', 'Adding sand', 'Flooding the field'], 0,
@@ -330,7 +330,7 @@
   ['Land degradation neutrality means:', ['Degradation is balanced by restoration so there is no net loss of healthy land', 'Stopping all farming', 'Converting all land to forest', 'Letting land degrade naturally'], 0,
     'It is Target 15.3 of the Sustainable Development Goals.']
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2017-A1-Q4c', 'IFoS-2014-A1-m18', 'CSE-2022-A1-m10', 'CSE-2010-A1-m10'], q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2017-A1-Q4c', 'IFoS-2014-A1-m18', 'CSE-2022-A1-m10', 'CSE-2010-A1-m10', 'CSE-2025-A1-m21', 'IFoS-2023-A1-m26', 'CSE-2020-A1-m23', 'CSE-2015-A1-m15', 'IFoS-2013-A1-m29', 'IFoS-2012-A1-m27', 'IFoS-2010-A1-m18', 'CSE-2008-A1-m08', 'IFoS-2006-A1-m10', 'CSE-2002-A1-m11', 'IFoS-2000-A1-m07', 'CSE-1998-A1-m11', 'CSE-1993-A1-m10', 'CSE-1999-A1-m11', 'CSE-2021-A1-m24'], q: [
   ['Integrated Nutrient Management (INM) combines:', ['Fertilisers, organic manures, biofertilisers, crop residues and green manures', 'Only chemical fertilisers', 'Only organic manures', 'Only irrigation'], 0,
     'It aims at balanced, sustained soil fertility.'],
   ['INM is needed today mainly because of:', ['Falling fertiliser response, multi-nutrient deficiencies and declining soil organic carbon', 'Excess soil organic matter', 'Too little use of nitrogen', 'Rising soil fertility everywhere'], 0,
@@ -352,7 +352,7 @@
   ['A key benefit of INM is that it:', ['Improves nutrient use efficiency and soil health while sustaining yields', 'Always reduces yield', 'Needs no planning', 'Increases pollution'], 0,
     'It also cuts fertiliser costs.']
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 3, pyq: ['IFoS-2017-A1-Q4d', 'CSE-2010-A1-m06', 'CSE-1989-A1-m03', 'IFoS-2021-A1-m04', 'CSE-2025-A1-m11', 'CSE-1998-A1-m04'], q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 3, pyq: ['IFoS-2017-A1-Q4d', 'CSE-2010-A1-m06', 'CSE-1989-A1-m03', 'IFoS-2021-A1-m04', 'CSE-2025-A1-m11', 'CSE-1998-A1-m04', 'CSE-1991-A1-m05'], q: [
   ['Agronomic measures of soil and water conservation, as opposed to mechanical ones, use:', ['Crops, vegetation and farming practices', 'Earthworks such as terraces and check dams', 'Concrete structures', 'Machines only'], 0,
     'They are cheaper and are often combined with mechanical measures.'],
   ['Contour farming means:', ['Ploughing and sowing across the slope, along the contour', 'Ploughing up and down the slope', 'Leaving land bare', 'Burning stubble'], 0,

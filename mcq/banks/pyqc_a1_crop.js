@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture I — Cropping systems, tillage and the rice–wheat system. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2025-A1-Q1b', 'IFoS-2024-A1-m07', 'IFoS-2012-A1-m03', 'IFoS-2006-A1-m05', 'IFoS-2006-A1-m06', 'IFoS-2005-A1-m03', 'CSE-2001-A1-m05', 'IFoS-2000-A1-m01', 'IFoS-2023-A1-m10', 'IFoS-2021-A1-m09', 'IFoS-2003-A1-m09', 'CSE-2002-A1-m02', 'CSE-2007-A1-m04', 'CSE-1998-A1-m03', 'CSE-2001-A1-m07'], q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2025-A1-Q1b', 'IFoS-2024-A1-m07', 'IFoS-2012-A1-m03', 'IFoS-2006-A1-m05', 'IFoS-2006-A1-m06', 'IFoS-2005-A1-m03', 'CSE-2001-A1-m05', 'IFoS-2000-A1-m01', 'IFoS-2023-A1-m10', 'IFoS-2021-A1-m09', 'IFoS-2003-A1-m09', 'CSE-2002-A1-m02', 'CSE-2007-A1-m04', 'CSE-1998-A1-m03', 'CSE-2001-A1-m07', 'CSE-1997-A1-m05'], q: [
   ['Intercropping differs from mixed cropping in that intercropping:', ['Grows component crops in a definite row arrangement', 'Mixes seeds and broadcasts them', 'Grows crops one after another', 'Uses only one crop'], 0,
     'Mixed cropping has no distinct row pattern.'],
   ['Relay intercropping means:', ['Sowing the second crop into the standing first crop before it is harvested', 'Sowing crops in alternate strips', 'Mixing seeds', 'Growing one crop each year'], 0,

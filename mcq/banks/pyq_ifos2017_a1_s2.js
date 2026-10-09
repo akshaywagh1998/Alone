@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Agriculture Paper I, Q5–Q7 (verbatim PYQs; Q8 missing in source). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2017-A1-Q5a', 'CSE-2009-A1-m07'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2017-A1-Q5a', 'CSE-2009-A1-m07', 'IFoS-2004-A1-m07', 'IFoS-2015-A1-m19'], q: [
   ['Compared with flood irrigation, drip irrigation typically saves about:', ['30–60% of water', '1–2% of water', 'No water', 'Over 95% of water'], 0,
     'The exact saving depends on the crop and soil.'],
   ['Drip irrigation often raises yields by about:', ['20–50%', '0%', '200–300%', 'It always lowers yield'], 0,
@@ -66,7 +66,7 @@
   ['Return flows from irrigated fields often carry:', ['Dissolved salts, nutrients and agrochemicals', 'Only pure water', 'Only sediment', 'Only oxygen'], 0,
     'This degrades downstream water quality.']
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: 'IFoS-2017-A1-Q5d', q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['IFoS-2017-A1-Q5d', 'IFoS-2004-A1-m11'], q: [
   ['The earthworm species most commonly used for vermicomposting are:', ['*Eisenia fetida*, *Eudrilus eugeniae* and *Perionyx excavatus*', '*Lumbricus terrestris* only', '*Pheretima posthuma* only', 'Nematodes'], 0,
     'They are surface-dwelling (epigeic) species.'],
   ['Composting earthworms are called epigeic because they:', ['Live and feed in surface litter', 'Burrow very deep', 'Live in water', 'Feed only on roots'], 0,
@@ -88,7 +88,7 @@
   ['The earthworm was called the "intestine of the earth" by:', ['Aristotle', 'Darwin', 'Liebig', 'Howard'], 0,
     'Darwin’s 1881 book showed how worms build soil.']
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q5e', 'CSE-2018-A1-m02'], q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q5e', 'CSE-2018-A1-m02', 'IFoS-2023-A1-m11', 'IFoS-2012-A1-m08', 'IFoS-2001-A1-m04', 'CSE-2022-A1-m21', 'CSE-2021-A1-m21', 'CSE-2020-A1-m20', 'CSE-2014-A1-m20', 'IFoS-2014-A1-m27', 'IFoS-2010-A1-m14'], q: [
   ['Water harvesting is:', ['Collecting and storing rainwater or runoff for later productive use', 'Pumping groundwater only', 'Draining wetlands', 'Irrigating from canals'], 0,
     'It can be in-situ (in the field) or ex-situ (in ponds and tanks).'],
   ['The khadin system of water harvesting is traditional in:', ['Jaisalmer, western Rajasthan', 'Kerala', 'Assam', 'Punjab'], 0,
@@ -154,7 +154,7 @@
   ['Farm records help a farm manager to:', ['Measure performance and plan improvements', 'Hide losses', 'Avoid planning', 'Increase risk'], 0,
     'You cannot manage what you do not measure.']
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2017-A1-Q6c', 'CSE-2023-A1-m11', 'IFoS-2019-A1-m18', 'IFoS-2011-A1-m17', 'IFoS-2010-A1-m10'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2017-A1-Q6c', 'CSE-2023-A1-m11', 'IFoS-2019-A1-m18', 'IFoS-2011-A1-m17', 'IFoS-2010-A1-m10', 'IFoS-2013-A1-m22'], q: [
   ['Most rural working women in India are employed in:', ['Agriculture and allied activities', 'Manufacturing', 'IT services', 'Mining'], 0,
     'Their contribution is often unpaid and unrecorded.'],
   ['The Mahila Kisan Sashaktikaran Pariyojana (MKSP), launched in 2011, is part of:', ['DAY-NRLM', 'MGNREGA', 'PM-KISAN', 'PMFBY'], 0,
@@ -176,7 +176,7 @@
   ['Drudgery reduction for women farmers matters because:', ['Women do much of the labour-intensive weeding, transplanting and harvesting', 'Women do no farm work', 'Machines are always available', 'It has no effect on health'], 0,
     'Better tools raise both productivity and wellbeing.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'IFoS-2017-A1-Q6d', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2017-A1-Q6d', 'IFoS-2011-A1-m14'], q: [
   ['Price falls hurt small and marginal farmers most because they:', ['Must sell soon after harvest, lacking storage and credit', 'Have large surpluses', 'Can wait for better prices', 'Have many buyers'], 0,
     'Such distress sales happen at the lowest prices of the year.'],
   ['Farm prices fluctuate sharply because demand for most farm products is:', ['Price-inelastic, so small supply changes cause big price changes', 'Very elastic', 'Unrelated to supply', 'Fixed by law'], 0,
@@ -242,7 +242,7 @@
   ['There are now roughly how many KVKs in India?', ['About 730', 'About 50', 'About 5,000', 'About 10'], 0,
     'Most districts have one (count changes — check the latest).']
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: 'IFoS-2017-A1-Q7c', q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: ['IFoS-2017-A1-Q7c', 'CSE-1993-A1-m05', 'CSE-1995-A1-m15', 'IFoS-2010-A1-m23'], q: [
   ['A wasteland is:', ['Degraded land that could be brought under vegetation with reasonable effort', 'Any unused government land', 'Only desert', 'Only urban land'], 0,
     'Some categories, such as snow cover, are hard to reclaim.'],
   ['According to the Wastelands Atlas of India (2019), wastelands cover about:', ['17% of the country’s area', '2%', '50%', '75%'], 0,
@@ -264,7 +264,7 @@
   ['Developing wastelands helps agriculture by:', ['Adding productive land for fodder, fuel and crops, and reducing pressure on farmland', 'Reducing land availability', 'Increasing erosion', 'Removing forests'], 0,
     'Nearly all of the land can be made productive with the right measures.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: ['IFoS-2017-A1-Q7d', 'CSE-2019-A1-m15', 'CSE-2015-A1-m11', 'CSE-2009-A1-m08'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: ['IFoS-2017-A1-Q7d', 'CSE-2019-A1-m15', 'CSE-2015-A1-m11', 'CSE-2009-A1-m08', 'IFoS-2013-A1-m15'], q: [
   ['Contract farming is:', ['An agreement made before production between farmers and a buyer on price, quantity and quality', 'Leasing land to a company', 'Government procurement at MSP', 'Buying land for farming'], 0,
     'The farmer keeps ownership of the land.'],
   ['An early, well-known contract farming venture in India was:', ['PepsiCo’s tomato and potato contracts in Punjab (from 1989)', 'The Green Revolution', 'Operation Flood', 'The Bhoodan movement'], 0,
