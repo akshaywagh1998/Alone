@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Agriculture Paper I, Q5–Q7 (verbatim PYQs; Q8 missing in source). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: 'IFoS-2017-A1-Q5a', q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2017-A1-Q5a', 'CSE-2009-A1-m07'], q: [
   ['Compared with flood irrigation, drip irrigation typically saves about:', ['30–60% of water', '1–2% of water', 'No water', 'Over 95% of water'], 0,
     'The exact saving depends on the crop and soil.'],
   ['Drip irrigation often raises yields by about:', ['20–50%', '0%', '200–300%', 'It always lowers yield'], 0,
@@ -22,7 +22,7 @@
   ['A reason drip raises productivity besides saving water is:', ['Crops avoid water stress, and nutrients are used better', 'It raises soil salinity', 'It creates waterlogging', 'It removes nutrients'], 0,
     'It also helps grow crops on poor, sloping or sandy land.']
 ] },
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: 'IFoS-2017-A1-Q5b', q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2017-A1-Q5b', 'IFoS-2011-A1-m02', 'CSE-2009-A1-m02', 'CSE-1993-A1-m03', 'IFoS-2024-A1-m01', 'CSE-2025-A1-m07', 'IFoS-2022-A1-m11', 'CSE-2014-A1-m11', 'IFoS-2011-A1-m08', 'CSE-2010-A1-m08', 'CSE-2008-A1-m06', 'IFoS-2004-A1-m02', 'CSE-2001-A1-m06', 'CSE-1995-A1-m06', 'CSE-1992-A1-m04', 'IFoS-2025-A1-Q4b', 'IFoS-2016-A1-m11', 'IFoS-2015-A1-m03', 'IFoS-2011-A1-m06', 'IFoS-2002-A1-m01', 'CSE-1992-A1-m05', 'CSE-2025-A1-m09', 'IFoS-2022-A1-m10', 'CSE-2019-A1-m11', 'IFoS-2003-A1-m07', 'IFoS-2006-A1-m04', 'CSE-2024-A1-m08', 'IFoS-2024-A1-m08'], q: [
   ['A cropping pattern is:', ['The yearly sequence and spatial arrangement of crops on an area', 'The management of a single crop', 'The design of an irrigation system', 'A type of soil'], 0,
     'A cropping system adds the management and interactions with resources.'],
   ['In intercropping, the crop sown at its full optimum population is called the:', ['Base crop', 'Component crop', 'Catch crop', 'Trap crop'], 0,
@@ -88,7 +88,7 @@
   ['The earthworm was called the "intestine of the earth" by:', ['Aristotle', 'Darwin', 'Liebig', 'Howard'], 0,
     'Darwin’s 1881 book showed how worms build soil.']
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: 'IFoS-2017-A1-Q5e', q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q5e', 'CSE-2018-A1-m02'], q: [
   ['Water harvesting is:', ['Collecting and storing rainwater or runoff for later productive use', 'Pumping groundwater only', 'Draining wetlands', 'Irrigating from canals'], 0,
     'It can be in-situ (in the field) or ex-situ (in ponds and tanks).'],
   ['The khadin system of water harvesting is traditional in:', ['Jaisalmer, western Rajasthan', 'Kerala', 'Assam', 'Punjab'], 0,
@@ -132,7 +132,7 @@
   ['Studies across Indian states show that higher farm power availability per hectare is associated with:', ['Higher land productivity', 'Lower yields', 'No relation to yields', 'More fallow land'], 0,
     'Punjab has both high farm power and high yields.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'IFoS-2017-A1-Q6b', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2017-A1-Q6b', 'CSE-2024-A1-m16', 'IFoS-2024-A1-m14', 'IFoS-2024-A1-m21', 'IFoS-2023-A1-m20', 'CSE-2016-A1-m17', 'CSE-2015-A1-m10', 'IFoS-2014-A1-m15', 'CSE-2010-A1-m13', 'CSE-2005-A1-m02', 'IFoS-2003-A1-m14', 'CSE-1999-A1-m08', 'CSE-1995-A1-m10', 'CSE-1994-A1-m11', 'CSE-1989-A1-m10', 'IFoS-2003-A1-m16', 'CSE-1991-A1-m07', 'CSE-1992-A1-m09', 'CSE-2002-A1-m05'], q: [
   ['The main functions of a farm manager are:', ['Planning, organising, directing, controlling and decision-making', 'Only ploughing', 'Only marketing', 'Only book-keeping'], 0,
     'The manager also bears the risk.'],
   ['The usual steps in farm decision-making are:', ['Identify the problem → collect information → analyse alternatives → decide → act → evaluate', 'Act → decide → identify the problem', 'Evaluate first, then act', 'Decide without information'], 0,
@@ -154,7 +154,7 @@
   ['Farm records help a farm manager to:', ['Measure performance and plan improvements', 'Hide losses', 'Avoid planning', 'Increase risk'], 0,
     'You cannot manage what you do not measure.']
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: 'IFoS-2017-A1-Q6c', q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2017-A1-Q6c', 'CSE-2023-A1-m11', 'IFoS-2019-A1-m18', 'IFoS-2011-A1-m17', 'IFoS-2010-A1-m10'], q: [
   ['Most rural working women in India are employed in:', ['Agriculture and allied activities', 'Manufacturing', 'IT services', 'Mining'], 0,
     'Their contribution is often unpaid and unrecorded.'],
   ['The Mahila Kisan Sashaktikaran Pariyojana (MKSP), launched in 2011, is part of:', ['DAY-NRLM', 'MGNREGA', 'PM-KISAN', 'PMFBY'], 0,
@@ -198,7 +198,7 @@
   ['Falling terms of trade for agriculture mean that:', ['Prices farmers receive rise more slowly than prices they pay', 'Farm prices rise faster than input prices', 'Farmers’ incomes rise automatically', 'Prices are stable'], 0,
     'Small farmers feel this squeeze the most.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'IFoS-2017-A1-Q7a', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2017-A1-Q7a', 'CSE-2023-A1-m13', 'IFoS-2010-A1-m12', 'IFoS-2005-A1-m17', 'CSE-2010-A1-m16', 'IFoS-2005-A1-m18', 'CSE-2000-A1-m10'], q: [
   ['A key finding of Census 2011 about the rural workforce was that:', ['Agricultural labourers (about 144 million) outnumbered cultivators (about 119 million) for the first time', 'Cultivators doubled', 'Agricultural labour disappeared', 'All farmers became landowners'], 0,
     'Landlessness and casual work have grown.'],
   ['Problems of landless agricultural labourers include:', ['Low wages, seasonal unemployment, indebtedness and lack of social security', 'High wages and job security', 'Excess landholding', 'Surplus savings'], 0,
@@ -220,7 +220,7 @@
   ['Social security for unorganised workers is now covered by the:', ['Code on Social Security, 2020', 'Factories Act only', 'Indian Penal Code', 'Seeds Act'], 0,
     'It replaced the Unorganised Workers’ Social Security Act, 2008.']
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 3, pyq: 'IFoS-2017-A1-Q7b', q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 3, pyq: ['IFoS-2017-A1-Q7b', 'CSE-2024-A1-m17', 'IFoS-2024-A1-m13', 'CSE-2018-A1-m11', 'CSE-2016-A1-m11', 'CSE-2015-A1-m14', 'CSE-2010-A1-m18', 'IFoS-2010-A1-m08'], q: [
   ['The first Krishi Vigyan Kendra was set up in 1974 at:', ['Puducherry', 'New Delhi', 'Ludhiana', 'Hyderabad'], 0,
     'It was run by Tamil Nadu Agricultural University.'],
   ['KVKs were recommended by the ICAR committee headed by:', ['Mohan Singh Mehta (1973)', 'M. S. Swaminathan', 'Verghese Kurien', 'B. Sivaraman'], 0,
@@ -264,7 +264,7 @@
   ['Developing wastelands helps agriculture by:', ['Adding productive land for fodder, fuel and crops, and reducing pressure on farmland', 'Reducing land availability', 'Increasing erosion', 'Removing forests'], 0,
     'Nearly all of the land can be made productive with the right measures.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: 'IFoS-2017-A1-Q7d', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 3, pyq: ['IFoS-2017-A1-Q7d', 'CSE-2019-A1-m15', 'CSE-2015-A1-m11', 'CSE-2009-A1-m08'], q: [
   ['Contract farming is:', ['An agreement made before production between farmers and a buyer on price, quantity and quality', 'Leasing land to a company', 'Government procurement at MSP', 'Buying land for farming'], 0,
     'The farmer keeps ownership of the land.'],
   ['An early, well-known contract farming venture in India was:', ['PepsiCo’s tomato and potato contracts in Punjab (from 1989)', 'The Green Revolution', 'Operation Flood', 'The Bhoodan movement'], 0,

@@ -23,7 +23,7 @@
   ['"Zero Liquid Discharge" (ZLD), mandated for some highly polluting industries, means:', ['All wastewater is treated and recycled, and no liquid effluent is released', 'Effluent is diluted before release', 'Effluent is released only at night', 'Effluent is injected into deep wells'], 0,
     'CPCB has pushed ZLD for sectors such as textiles, tanneries and distilleries in river-basin clean-up plans.'],
 ] },
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: 'CSE-2026-A1-Q1b', q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['CSE-2026-A1-Q1b', 'CSE-1996-A1-m05', 'CSE-2021-A1-m11', 'IFoS-2021-A1-m08', 'IFoS-2017-A1-Q8a', 'CSE-2013-A1-m07', 'IFoS-2013-A1-m09', 'IFoS-2012-A1-m04', 'CSE-2010-A1-m09', 'CSE-2008-A1-m05'], q: [
   ['A farming system differs from a cropping system in that it:', ['Integrates all farm enterprises (crops, livestock, fish, trees) and their interactions as one unit', 'Deals only with the sequence of crops on a field', 'Deals only with crop varieties', 'Excludes the farm household'], 0,
     'A cropping system is a sub-system of the farming system, which also covers livestock, trees, fish and the household’s resources.'],
   ['The key principle of an Integrated Farming System (IFS) is:', ['Recycling by-products of one component as inputs for another', 'Growing one crop on the whole farm', 'Maximising purchased inputs', 'Separating crop and livestock enterprises'], 0,
@@ -133,7 +133,7 @@
   ['ICAR’s flagship project on climate-resilient agriculture, launched in 2011, is:', ['NICRA (National Innovations in Climate Resilient Agriculture)', 'NATP', 'NAIP', 'RKVY'], 0,
     'It runs technology demonstration villages and district contingency plans with CRIDA as the lead institute.'],
 ] },
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: 'CSE-2026-A1-Q2b', q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['CSE-2026-A1-Q2b', 'CSE-2022-A1-m07', 'CSE-2020-A1-m11', 'CSE-2019-A1-m12', 'CSE-2018-A1-m09', 'IFoS-2009-A1-m02'], q: [
   ['Precision farming is best defined as:', ['Managing within-field variability by applying the right input at the right place, time and amount', 'Using only organic inputs', 'Growing crops under greenhouses', 'Growing a single high-yielding variety'], 0,
     'Site-specific management based on measured variability in soil, crop and yield.'],
   ['Variable rate technology (VRT) means:', ['Applying inputs at rates that change across a field according to mapped needs', 'Changing crop varieties every year', 'Spraying at a fixed rate everywhere', 'Irrigating at night only'], 0,

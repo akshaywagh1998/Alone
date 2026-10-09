@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2018 Agriculture Paper I, Q1–Q4 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: 'IFoS-2018-A1-Q1a', q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2018-A1-Q1a', 'IFoS-2019-A1-m02', 'IFoS-2019-A1-m03', 'IFoS-2016-A1-m01', 'CSE-2015-A1-m01', 'IFoS-2023-A1-m05', 'CSE-2015-A1-m03'], q: [
   ['The Planning Commission (1988–89) divided India into how many agro-climatic regions?', ['Fifteen', 'Twenty', 'One hundred and twenty-seven', 'Eight'], 0,
     'This was done for regional planning in the Seventh Plan.'],
   ['Under the ICAR National Agricultural Research Project (NARP), India was divided into about:', ['127 agro-climatic zones', '15 zones', '20 zones', '60 zones'], 0,
@@ -22,7 +22,7 @@
   ['The Gujarat Plains and Hills region is important for:', ['Groundnut and cotton', 'Tea and jute', 'Saffron and apple', 'Rubber'], 0,
     'Saurashtra is India’s groundnut bowl.']
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: 'IFoS-2018-A1-Q1b', q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2018-A1-Q1b', 'CSE-2001-A1-m12', 'CSE-2025-A1-m08', 'IFoS-2021-A1-m06', 'IFoS-2014-A1-m06', 'CSE-2021-A1-m12', 'CSE-2016-A1-m10', 'CSE-1995-A1-m07', 'IFoS-2019-A1-m07'], q: [
   ['Rainfed farming means:', ['Growing crops that depend entirely on rainfall, without irrigation', 'Growing crops only in winter', 'Growing crops under full canal irrigation', 'Hydroponics'], 0,
     'About half of India’s net sown area is rainfed.'],
   ['In the Indian classification, farming in areas with annual rainfall below 750 mm and frequent crop failure is called:', ['Dry farming', 'Dryland farming', 'Rainfed farming', 'Wetland farming'], 0,
@@ -66,7 +66,7 @@
   ['Most cultivated Indian soils are:', ['Low in organic carbon (often below 0.5%)', 'Very high in organic carbon', 'Peaty', 'Rich in humus everywhere'], 0,
     'High temperatures speed up the oxidation of soil organic matter.']
 ] },
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: 'IFoS-2018-A1-Q1d', q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2018-A1-Q1d', 'IFoS-2013-A1-m07', 'IFoS-2004-A1-m03', 'CSE-1994-A1-m04', 'CSE-1990-A1-m02', 'CSE-1989-A1-m05', 'IFoS-2019-A1-m08', 'CSE-1999-A1-m05'], q: [
   ['Multiple cropping means:', ['Growing two or more crops on the same field in a year', 'Growing one crop over several years', 'Growing crops only in pots', 'Rotating fields among farmers'], 0,
     'It includes both sequential cropping and intercropping.'],
   ['Cropping intensity is calculated as:', ['(Gross cropped area ÷ net sown area) × 100', '(Net sown area ÷ gross cropped area) × 100', 'Yield ÷ area', 'Irrigated area ÷ total area'], 0,
@@ -154,7 +154,7 @@
   ['The main advantage of integrated weed management (IWM) is that it:', ['Is sustainable and delays herbicide resistance', 'Uses only one method', 'Avoids all cultural practices', 'Always costs more'], 0,
     'It lowers the reliance on any single method.']
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 3, pyq: 'IFoS-2018-A1-Q2c', q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 3, pyq: ['IFoS-2018-A1-Q2c', 'IFoS-2022-A1-m06', 'CSE-2000-A1-m04', 'CSE-1994-A1-m03', 'CSE-2010-A1-m04'], q: [
   ['Runoff is:', ['The part of precipitation that flows over the land surface into streams', 'Water that infiltrates into the soil', 'Water lost as vapour', 'Groundwater'], 0,
     'It is the main agent of water erosion.'],
   ['Runoff increases with:', ['Higher rainfall intensity, steeper slopes and less vegetation cover', 'Higher infiltration capacity', 'Dense forest cover', 'Flat, sandy land'], 0,
@@ -176,7 +176,7 @@
   ['The SCS curve number method is used to estimate:', ['Direct runoff from rainfall', 'Soil pH', 'Crop evapotranspiration', 'Nutrient uptake'], 0,
     'The curve number depends on soil group, land use and antecedent moisture.']
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: 'IFoS-2018-A1-Q2d', q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2018-A1-Q2d', 'IFoS-2023-A1-m04', 'CSE-2020-A1-m04', 'IFoS-2020-A1-m01', 'CSE-2017-A1-m03', 'CSE-2003-A1-m02', 'CSE-2000-A1-m03', 'CSE-1999-A1-m02', 'IFoS-2024-A1-m03', 'CSE-2008-A1-m01', 'CSE-2015-A1-m02'], q: [
   ['Minamata disease is caused by:', ['Methylmercury', 'Cadmium', 'Lead', 'Arsenic'], 0,
     'It was first seen in Japan, from contaminated fish.'],
   ['Itai-itai disease is caused by:', ['Cadmium', 'Mercury', 'Fluoride', 'Nitrate'], 0,
@@ -220,7 +220,7 @@
   ['The basic cation saturation ratio (BCSR) concept emphasises:', ['An ideal ratio of Ca, Mg and K on the soil exchange complex', 'Only soil pH', 'Only organic matter', 'Only nitrogen'], 0,
     'The concept is associated with Bear and Albrecht.']
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: 'IFoS-2018-A1-Q3b', q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2018-A1-Q3b', 'CSE-2020-A1-m09', 'IFoS-2020-A1-m11', 'IFoS-2014-A1-m12'], q: [
   ['A contingency crop plan is:', ['A set of alternative crops, varieties and practices for aberrant weather', 'A fixed cropping calendar', 'An insurance policy', 'A fertiliser schedule'], 0,
     'It covers delayed monsoon, mid-season drought and early withdrawal.'],
   ['District agriculture contingency plans in India are prepared by:', ['CRIDA with ICAR institutes and state agricultural universities', 'IMD alone', 'NABARD', 'The Finance Ministry'], 0,
@@ -242,7 +242,7 @@
   ['Community seed banks support contingency planning by:', ['Keeping seed of alternative crops ready for resowing', 'Storing fertilisers', 'Storing pesticides', 'Selling land'], 0,
     'Seed availability is often the main bottleneck.']
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: 'IFoS-2018-A1-Q3c', q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['IFoS-2018-A1-Q3c', 'IFoS-2022-A1-m03', 'CSE-2018-A1-m01', 'IFoS-2016-A1-m03', 'CSE-2014-A1-m07', 'IFoS-2014-A1-m02', 'IFoS-2013-A1-m01', 'IFoS-2011-A1-m01', 'CSE-2021-A1-m02', 'CSE-2013-A1-m05', 'CSE-2019-A1-m02', 'CSE-2014-A1-m02', 'CSE-2019-A1-m13', 'IFoS-2016-A1-m12'], q: [
   ['Greenhouse gases warm the Earth by:', ['Absorbing and re-emitting outgoing long-wave (infrared) radiation', 'Reflecting all sunlight', 'Absorbing ultraviolet only', 'Blocking visible light'], 0,
     'They are largely transparent to incoming short-wave radiation.'],
   ['Without the natural greenhouse effect, Earth’s mean surface temperature would be about:', ['−18 °C instead of about 15 °C', '50 °C', '0 °C', '30 °C'], 0,
@@ -286,7 +286,7 @@
   ['Harvested water hyacinth can be usefully turned into:', ['Compost, biogas, paper and handicrafts', 'Fuel oil directly', 'Cement', 'Glass'], 0,
     'Using it helps pay for mechanical removal.']
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: 'IFoS-2018-A1-Q4a', q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2018-A1-Q4a', 'IFoS-2016-A1-m05', 'CSE-2007-A1-m01', 'CSE-1996-A1-m01', 'CSE-1994-A1-m02', 'CSE-2020-A1-m03', 'IFoS-2014-A1-m01', 'CSE-2000-A1-m02', 'CSE-1990-A1-m01', 'CSE-2004-A1-m02', 'CSE-1989-A1-m02', 'CSE-2024-A1-m02', 'CSE-2004-A1-m04', 'CSE-1989-A1-m04', 'CSE-1991-A1-m01', 'CSE-2002-A1-m01'], q: [
   ['In India, pulses are mostly grown:', ['Under rainfed conditions on marginal lands', 'Under assured irrigation on the best lands', 'In greenhouses', 'Only in hills'], 0,
     'Moisture stress is therefore a major yield constraint.'],
   ['India is the world’s:', ['Largest producer, consumer and importer of pulses', 'Largest exporter of pulses', 'Smallest pulse producer', 'Largest producer of soybean'], 0,
@@ -308,7 +308,7 @@
   ['The UN declared which year the International Year of Pulses?', ['2016', '2008', '2023', '2013'], 0,
     '2023 was the International Year of Millets.']
 ] },
-{ p: 'A1', t: 'Plant Propagation & Micropropagation', w: 2, pyq: 'IFoS-2018-A1-Q4b', q: [
+{ p: 'A1', t: 'Plant Propagation & Micropropagation', w: 2, pyq: ['IFoS-2018-A1-Q4b', 'IFoS-2015-A1-m08'], q: [
   ['Plant propagation means:', ['Multiplying plants by seed (sexual) or by vegetative parts (asexual)', 'Only sowing seeds', 'Only grafting', 'Harvesting crops'], 0,
     'Vegetative methods include cuttings, layering, grafting, budding and tissue culture.'],
   ['The main advantages of micropropagation are:', ['Rapid, year-round, true-to-type and disease-free multiplication in little space', 'Low cost and no skilled labour', 'Always new genetic variation', 'No need for a laboratory'], 0,
@@ -330,7 +330,7 @@
   ['Meristem culture combined with thermotherapy is used to:', ['Eliminate viruses from planting material', 'Make haploids', 'Make polyploids', 'Produce seeds'], 0,
     'It is used in banana, potato and sugarcane.']
 ] },
-{ p: 'A1', t: 'Soil Genesis, Classification & Properties', w: 3, pyq: 'IFoS-2018-A1-Q4c', q: [
+{ p: 'A1', t: 'Soil Genesis, Classification & Properties', w: 3, pyq: ['IFoS-2018-A1-Q4c', 'IFoS-2004-A1-m01'], q: [
   ['Jenny’s (1941) soil-forming equation is:', ['S = f(cl, o, r, p, t) — climate, organisms, relief, parent material and time', 'S = R × K × LS × C × P', 'S = ET × Kc', 'S = pH + EC'], 0,
     'The five factors act together to form soil.'],
   ['The father of pedology, who first treated soil as an independent natural body, was:', ['V. V. Dokuchaev', 'Hans Jenny', 'Justus von Liebig', 'C. F. Marbut'], 0,

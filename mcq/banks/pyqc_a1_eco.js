@@ -1,0 +1,47 @@
+/* Concept sets for Agriculture I — Natural resources, sustainability and organic farming. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
+(window.IFOS_BANK = window.IFOS_BANK || []).push(
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['CSE-2025-A1-m01', 'IFoS-2023-A1-m02', 'CSE-2022-A1-m02', 'IFoS-2022-A1-m01', 'CSE-2021-A1-m01', 'IFoS-2020-A1-m04', 'CSE-2004-A1-m01', 'CSE-2000-A1-m01', 'CSE-2014-A1-m03', 'CSE-2010-A1-m03'], q: [
+  ['Natural resources such as forests, soil and water are called renewable because they:', ['Can regenerate if used within their rate of renewal', 'Can never be exhausted', 'Are man-made', 'Form only over millions of years'], 0,
+    'Fossil fuels and minerals are non-renewable; sunlight and wind are inexhaustible.'],
+  ['Which is a non-renewable natural resource?', ['Coal', 'Forest timber', 'Groundwater recharged by rain', 'Solar energy'], 0,
+    'Groundwater becomes non-renewable when pumped faster than recharge.'],
+  ['The watershed approach to natural resource management is useful because it:', ['Treats soil, water and vegetation together within a natural drainage unit', 'Deals only with crops', 'Ignores runoff', 'Works only in cities'], 0,
+    'It is the basis of most rainfed development programmes in India.'],
+  ['Conservation agriculture rests on three principles:', ['Minimum soil disturbance, permanent soil cover and crop rotation', 'Deep ploughing, bare fallow and monocropping', 'Heavy fertiliser, flooding and burning', 'Only organic manure'], 0,
+    'Zero-till wheat after rice is a common example in the Indo-Gangetic plains.'],
+  ['A practice that harms the sustainability of agriculture is:', ['Burning crop residue and continuous rice–wheat monocropping', 'Crop rotation with legumes', 'Mulching', 'Contour farming'], 0,
+    'Over-irrigation and excess nitrogen are others.'],
+  ['Over-irrigation in canal commands commonly leads to:', ['Waterlogging and secondary salinisation', 'Better soil structure', 'Lower water tables', 'Less weed growth'], 0,
+    'Drainage and conjunctive use of groundwater help.'],
+  ['Acid soils are reclaimed mainly by adding:', ['Lime', 'Gypsum', 'Sulphur', 'Urea'], 0,
+    'Gypsum is used for sodic (alkali) soils.'],
+  ['Human influence on agro-ecosystems is mainly through:', ['Land-use change, deforestation and intensive input use', 'Volcanic activity', 'Tides', 'Solar cycles'], 0,
+    'These change nutrient cycles, water balance and biodiversity.'],
+  ['Integrated nutrient and pest management help sustainability by:', ['Combining organic, biological and chemical inputs to cut waste and pollution', 'Using only chemicals', 'Avoiding all inputs', 'Increasing pesticide use'], 0,
+    'They keep yields while protecting soil and water.'],
+  ['Carrying capacity of a land unit is:', ['The maximum population or use it can support without degrading', 'Its total area', 'Its market value', 'Its rainfall'], 0,
+    'Overgrazing beyond carrying capacity degrades pastures.']
+] },
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['CSE-2019-A1-m03', 'CSE-2001-A1-m01', 'IFoS-2017-A1-Q5d', 'CSE-2003-A1-m01', 'CSE-2017-A1-m02', 'IFoS-2024-A1-m05', 'CSE-2021-A1-m04', 'CSE-2004-A1-m03', 'CSE-2001-A1-m02', 'CSE-1999-A1-m01', 'CSE-2023-A1-m07', 'CSE-2014-A1-m12', 'IFoS-2014-A1-m10', 'IFoS-2011-A1-m05', 'CSE-2010-A1-m07', 'IFoS-2003-A1-m08', 'IFoS-2001-A1-m01', 'CSE-1994-A1-m05', 'CSE-2015-A1-m08', 'CSE-2013-A1-m10', 'IFoS-2011-A1-m04', 'CSE-2009-A1-m06', 'IFoS-2003-A1-m12'], q: [
+  ['Organic farming avoids:', ['Synthetic fertilisers, synthetic pesticides and GMOs', 'Crop rotation', 'Compost', 'Biofertilisers'], 0,
+    'It relies on organic manures, rotations, biofertilisers and biological pest control.'],
+  ['IFOAM\'s four principles of organic agriculture are:', ['Health, ecology, fairness and care', 'Yield, profit, export and speed', 'Land, labour, capital and enterprise', 'Seed, water, fertiliser and pesticide'], 0,
+    'IFOAM is the international federation of organic movements.'],
+  ['Organic products for export from India are certified under:', ['NPOP, run by APEDA', 'PGS-India only', 'BIS', 'FSSAI only'], 0,
+    'PGS-India is a participatory guarantee system for domestic markets.'],
+  ['A farm converting to organic production usually needs a conversion period of about:', ['2–3 years', '1 month', '10 years', 'No period'], 0,
+    'Perennial crops often need three years.'],
+  ['The first Indian state declared fully organic (2016) is:', ['Sikkim', 'Kerala', 'Punjab', 'Gujarat'], 0,
+    'Several north-eastern states promote organic farming.'],
+  ['A common limitation of organic farming is:', ['Lower yields in the early years and limited nutrient supply', 'Higher chemical residues', 'More soil erosion always', 'No market demand'], 0,
+    'Premium prices and lower input costs can offset it.'],
+  ['Soil fertility differs from soil productivity in that fertility is:', ['The soil\'s capacity to supply nutrients, while productivity is its capacity to produce crops under given management', 'The same thing as productivity', 'Only the soil depth', 'Only crop yield'], 0,
+    'A fertile soil can be unproductive if waterlogged or saline.'],
+  ['A major cause of declining soil fertility in intensively cropped areas is:', ['Nutrient mining and imbalanced NPK use with low organic matter', 'Too much compost', 'Crop rotation with legumes', 'Green manuring'], 0,
+    'Deficiencies of zinc, sulphur and boron have spread.'],
+  ['Zero Budget Natural Farming, promoted by Subhash Palekar, uses:', ['Jeevamrutha, beejamrutha, mulching and soil aeration (waaphasa)', 'Synthetic fertilisers', 'Hybrid seed and pesticides', 'Hydroponics'], 0,
+    'Natural farming is now promoted under a national mission.'],
+  ['Sustainable agriculture is best defined as farming that:', ['Meets present needs while maintaining resources and environment for the future', 'Maximises yield this year', 'Uses only traditional varieties', 'Avoids all technology'], 0,
+    'It balances productivity, economic viability and ecology.']
+] }
+);

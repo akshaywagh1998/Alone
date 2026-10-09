@@ -66,7 +66,7 @@
   ['Subsurface drip irrigation (SDI) differs from surface drip in that:', ['Laterals are buried below the soil surface, reducing evaporation and weed growth', 'It uses sprinklers', 'It floods the field', 'It needs no filters'], 0,
     'Used in sugarcane and other long-duration crops; root intrusion must be managed.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'CSE-2026-A1-Q5d', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q5d', 'CSE-2023-A1-m16', 'CSE-2021-A1-m14', 'CSE-2021-A1-m19', 'IFoS-2019-A1-m15', 'IFoS-2018-A1-Q5d', 'IFoS-2015-A1-m10', 'CSE-2024-A1-m12', 'CSE-2001-A1-m11', 'CSE-1998-A1-m06', 'CSE-2017-A1-m13', 'IFoS-2016-A1-m21'], q: [
   ['The Fair and Remunerative Price (FRP) of sugarcane is fixed under the:', ['Sugarcane (Control) Order, 1966', 'APMC Act', 'Seeds Act, 1966', 'Insecticides Act, 1968'], 0,
     'Issued under the Essential Commodities Act; the Centre fixes FRP on CACP’s recommendation. Some states add a State Advised Price (SAP).'],
   ['Under PM-AASHA, the "Price Deficiency Payment" component means:', ['Paying farmers the difference between MSP and the market price, without physical procurement', 'Buying all produce at MSP', 'Paying a fixed amount per hectare', 'Subsidising fertiliser prices'], 0,
@@ -88,7 +88,7 @@
   ['The main objective of agricultural price policy is to:', ['Assure remunerative prices to farmers while keeping food affordable for consumers', 'Maximise traders’ margins', 'Fix all retail prices', 'Discourage crop diversification'], 0,
     'Instruments include MSP, procurement, buffer stocks, PDS, trade policy and market intervention.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'CSE-2026-A1-Q5e', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q5e', 'IFoS-2025-A1-Q6b', 'CSE-2025-A1-m15', 'CSE-2022-A1-m14', 'IFoS-2022-A1-m18', 'IFoS-2020-A1-m13', 'IFoS-2019-A1-m12', 'IFoS-2018-A1-Q5b', 'CSE-2018-A1-m14', 'CSE-2017-A1-m10', 'CSE-2016-A1-m12', 'IFoS-2015-A1-m09', 'CSE-2014-A1-m18', 'IFoS-2014-A1-m14', 'CSE-2013-A1-m13', 'CSE-2010-A1-m22', 'IFoS-2009-A1-m08', 'CSE-2007-A1-m09', 'CSE-2006-A1-m03', 'CSE-2002-A1-m08', 'CSE-2001-A1-m14', 'CSE-1998-A1-m08', 'CSE-1993-A1-m06', 'IFoS-2021-A1-m13', 'CSE-2001-A1-m16', 'CSE-2014-A1-m14'], q: [
   ['Farm planning is best described as:', ['Deciding the combination of enterprises and practices that best meets farm goals within available resources', 'Only keeping farm accounts', 'Buying the cheapest inputs', 'Growing whatever neighbours grow'], 0,
     'It covers what, how and how much to produce, and when.'],
   ['The first step in farm planning is:', ['Taking an inventory of farm resources (land, labour, capital, water)', 'Selling the produce', 'Applying for a loan', 'Buying machinery'], 0,
@@ -176,7 +176,7 @@
   ['Ridges and furrows or tied ridges in drylands mainly help by:', ['Holding rainwater in furrows for in-situ moisture conservation', 'Increasing runoff', 'Raising soil salinity', 'Reducing infiltration'], 0,
     'Tied ridges have cross-ties in furrows that stop water from running off.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'CSE-2026-A1-Q7a', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q7a', 'IFoS-2003-A1-m17', 'CSE-1997-A1-m06', 'CSE-2007-A1-m06', 'IFoS-2016-A1-m13'], q: [
   ['In Indian farm-management cost concepts, net income is gross income minus:', ['Cost C2 (all paid-out and imputed costs)', 'Cost A1 only', 'Cost of seed only', 'Family labour cost only'], 0,
     'Farm business income = gross income − cost A1 (or A2); family labour income = gross income − cost B2.'],
   ['The three basic production decisions on a farm are:', ['What to produce, how to produce and how much to produce', 'Where to sell, whom to hire and when to rest', 'Which bank, which insurer and which trader', 'Which caste, which village and which season'], 0,
@@ -198,7 +198,7 @@
   ['Opportunity cost of family labour used on the farm is:', ['The income that labour could have earned in its next-best use', 'Always zero', 'The price of fertiliser', 'The land revenue paid'], 0,
     'Imputed costs such as family labour and owned land are included in cost B2/C2.'],
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: 'CSE-2026-A1-Q7b', q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['CSE-2026-A1-Q7b', 'IFoS-2025-A1-Q5a', 'CSE-2024-A1-m14', 'IFoS-2019-A1-m10', 'CSE-2017-A1-m14', 'CSE-2016-A1-m16', 'CSE-2005-A1-m03', 'CSE-1989-A1-m12', 'CSE-2025-A1-m17', 'CSE-2024-A1-m13', 'CSE-2022-A1-m12', 'CSE-2017-A1-m12', 'CSE-2014-A1-m17', 'CSE-2002-A1-m07', 'CSE-1995-A1-m09', 'CSE-1993-A1-m07', 'IFoS-2020-A1-m21', 'IFoS-2020-A1-m20'], q: [
   ['The key difference between extension education and extension service is that:', ['Education is the process/discipline of changing people’s behaviour through teaching; service is the organisation that delivers it', 'They are identical', 'Service is only research', 'Education deals only with inputs'], 0,
     'Extension service = government departments, KVKs, ATMA and other agencies; extension education = the applied science behind their methods.'],
   ['Extension education aims to bring desirable changes in people’s:', ['Knowledge, skills and attitudes', 'Land holdings only', 'Caste and religion', 'Market prices'], 0,
@@ -220,7 +220,7 @@
   ['Which is an example of an extension SERVICE (rather than education as a discipline)?', ['A Krishi Vigyan Kendra delivering training and demonstrations in a district', 'A theory of diffusion of innovations', 'A communication model', 'A principle of learning'], 0,
     'KVKs, ATMA, state departments and NGOs are service organisations.'],
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 2, pyq: 'CSE-2026-A1-Q7c', q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 2, pyq: ['CSE-2026-A1-Q7c', 'CSE-2024-A1-m05', 'CSE-1992-A1-m03', 'CSE-2023-A1-m10', 'CSE-2017-A1-m09'], q: [
   ['Treatment in watershed programmes normally follows the:', ['Ridge-to-valley sequence', 'Valley-to-ridge sequence', 'Random order', 'Village-to-city sequence'], 0,
     'Upper reaches are treated first so that downstream structures are not silted up.'],
   ['Integrated watershed management combines:', ['Soil and water conservation, crop and livestock development, afforestation and livelihoods for the landless', 'Only check dams', 'Only tree planting', 'Only road building'], 0,
@@ -242,7 +242,7 @@
   ['"Nala bunds" in watershed development are:', ['Small earthen or masonry bunds across drainage lines to store water and trap silt', 'Bunds along the field boundary', 'Canal lining', 'Terrace risers'], 0,
     'They slow runoff and increase recharge.'],
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: 'CSE-2026-A1-Q8a', q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['CSE-2026-A1-Q8a', 'CSE-2023-A1-m17', 'IFoS-2023-A1-m16', 'IFoS-2021-A1-m11', 'CSE-2020-A1-m18', 'CSE-2010-A1-m23', 'CSE-2001-A1-m15', 'IFoS-2014-A1-m17', 'CSE-2013-A1-m11', 'CSE-2016-A1-m14', 'IFoS-2016-A1-m23', 'IFoS-2014-A1-m23'], q: [
   ['The main difference between monitoring and evaluation is that monitoring is:', ['Continuous tracking of inputs, activities and outputs during implementation', 'A one-time assessment of long-term impact', 'Done only by external experts', 'Done only after the programme ends'], 0,
     'Evaluation is periodic and judges effectiveness, outcomes and impact.'],
   ['Evaluation carried out before a programme starts, to judge its feasibility, is:', ['Ex-ante evaluation', 'Ex-post evaluation', 'Terminal evaluation', 'Concurrent evaluation'], 0,
@@ -264,7 +264,7 @@
   ['Terminal evaluation is carried out:', ['At the end of a programme to assess what it achieved', 'Before starting a programme', 'Daily by field staff', 'Only when a programme fails'], 0,
     'Ex-post evaluation, some years later, looks at sustained impact.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'CSE-2026-A1-Q8b', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q8b', 'CSE-2023-A1-m12', 'IFoS-2025-A1-m01', 'IFoS-2021-A1-m14', 'CSE-2000-A1-m08', 'IFoS-2024-A1-m12', 'CSE-1999-A1-m07', 'IFoS-2010-A1-m09', 'IFoS-2016-A1-m16'], q: [
   ['"Uzhavar Sandhai" farmers’ markets are run in:', ['Tamil Nadu', 'Punjab', 'Andhra Pradesh', 'Odisha'], 0,
     'Andhra Pradesh: Rythu Bazaars; Punjab: Apni Mandis; Odisha: Krushak Bazaars. They allow direct farmer-to-consumer sale.'],
   ['The main rationale of farmers’ markets is to:', ['Remove intermediaries so farmers get a higher share and consumers pay less', 'Increase the number of middlemen', 'Promote exports only', 'Replace MSP'], 0,
@@ -286,7 +286,7 @@
   ['Intermediaries (commission agents, retailers) are affected by farmers’ markets mainly through:', ['Loss of part of their margins and business', 'Guaranteed profits', 'No effect at all', 'Higher commissions'], 0,
     'Stakeholder effects: farmers gain share, consumers gain prices, intermediaries lose margin, government eases price pressure.'],
 ] },
-{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: 'CSE-2026-A1-Q8c', q: [
+{ p: 'A1', t: 'Problem Soils & Soil Conservation', w: 2, pyq: ['CSE-2026-A1-Q8c', 'IFoS-2024-A1-m04'], q: [
   ['The process that moves most soil during wind erosion is:', ['Saltation (bouncing particles)', 'Suspension', 'Surface creep', 'Splash'], 0,
     'Saltation accounts for roughly 50–75% of movement, suspension 3–40%, surface creep 5–25%.'],
   ['Soil particles most easily moved by wind are about:', ['0.1 mm (fine sand)', '2 mm (gravel)', '0.001 mm (fine clay)', '10 mm'], 0,

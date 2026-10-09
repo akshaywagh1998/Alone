@@ -66,7 +66,7 @@
   ['Allelopathy from crop residues or weeds is an example of:', ['A biotic (chemical) interaction affecting crops', 'A climatic factor', 'An edaphic factor only', 'A physiographic factor'], 0,
     'E.g., residues of sunflower or sorghum can inhibit the next crop.'],
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: 'IFoS-2025-A1-Q1d', q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2025-A1-Q1d', 'IFoS-2022-A1-m19'], q: [
   ['Short-duration varieties help in drylands mainly by:', ['Completing the life cycle within the limited period of soil moisture', 'Needing more water', 'Growing taller', 'Producing more straw'], 0,
     'They escape terminal drought.'],
   ['Sahbhagi Dhan is:', ['A short-duration, drought-tolerant rice variety for rainfed uplands', 'A long-duration basmati variety', 'A wheat variety', 'A hybrid maize'], 0,
@@ -132,7 +132,7 @@
   ['Social forestry aims primarily to:', ['Meet local needs for fuel, fodder and small timber and reduce pressure on forests', 'Maximise timber exports', 'Replace natural forests', 'Protect only wildlife'], 0,
     'It also provides employment and environmental benefits.'],
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: 'IFoS-2025-A1-Q2b', q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2025-A1-Q2b', 'IFoS-2021-A1-m03', 'CSE-2016-A1-m01', 'CSE-2009-A1-m04', 'CSE-1998-A1-m01'], q: [
   ['Fulvic acid is the humus fraction that is soluble in:', ['Both alkali and acid', 'Alkali but not acid', 'Neither alkali nor acid', 'Only water'], 0,
     'Humic acid dissolves in alkali but precipitates in acid; humin is insoluble in both.'],
   ['Soil organic carbon is commonly estimated by the:', ['Walkley–Black wet oxidation method (dichromate)', 'Olsen method', 'Kjeldahl method', 'Bray method'], 0,
@@ -154,7 +154,7 @@
   ['Soil respiration (CO₂ evolution) is a measure of:', ['Biological activity of soil organisms and roots', 'Soil texture', 'Soil pH', 'Bulk density'], 0,
     'It rises with temperature, moisture and fresh organic inputs.'],
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: 'IFoS-2025-A1-Q2c', q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2025-A1-Q2c', 'CSE-2025-A1-m02', 'IFoS-2022-A1-m04', 'CSE-2021-A1-m03', 'CSE-2019-A1-m04', 'CSE-2016-A1-m02', 'CSE-2010-A1-m02', 'CSE-2013-A1-m03', 'IFoS-2013-A1-m02', 'IFoS-2010-A1-m01', 'IFoS-2020-A1-m02', 'CSE-2020-A1-m02', 'CSE-2023-A1-m01', 'CSE-2020-A1-m01', 'CSE-2024-A1-m03', 'CSE-1996-A1-m02', 'CSE-1999-A1-m03', 'CSE-1995-A1-m01', 'CSE-2013-A1-m02', 'IFoS-2016-A1-m02', 'IFoS-2014-A1-m05'], q: [
   ['Rising atmospheric CO₂ ("CO₂ fertilisation") benefits which crops more?', ['C₃ crops such as wheat, rice and pulses', 'C₄ crops such as maize and sorghum', 'Both equally', 'Neither'], 0,
     'C₄ photosynthesis is already nearly CO₂-saturated.'],
   ['Terminal heat stress in wheat mainly harms:', ['Grain filling, when temperatures exceed about 30 °C', 'Germination', 'Tillering in December', 'Root growth only'], 0,
@@ -242,7 +242,7 @@
   ['Which practice best improves N use efficiency?', ['Split application based on crop need, using tools like the leaf colour chart', 'Applying all N at sowing', 'Broadcasting urea on floodwater at noon', 'Applying N after harvest'], 0,
     'Right source, rate, time and place (4R nutrient stewardship).'],
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: 'IFoS-2025-A1-Q4a', q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['IFoS-2025-A1-Q4a', 'CSE-2026-A1-Q1a', 'CSE-2018-A1-m03', 'CSE-2017-A1-m04', 'CSE-2010-A1-m05', 'IFoS-2024-A1-m02', 'CSE-2022-A1-m01', 'IFoS-2020-A1-m06', 'CSE-2019-A1-m01', 'CSE-2013-A1-m04', 'CSE-2016-A1-m04', 'IFoS-2019-A1-m04', 'CSE-2014-A1-m08'], q: [
   ['Peri-urban soils irrigated with untreated sewage often accumulate:', ['Heavy metals such as cadmium, lead, nickel and chromium', 'Only nitrogen', 'Only sand', 'Only calcium'], 0,
     'Vegetables grown there can carry metals into the food chain.'],
   ['The fern *Pteris vittata* is a hyperaccumulator of:', ['Arsenic', 'Nitrogen', 'Sodium', 'Carbon'], 0,
@@ -330,7 +330,7 @@
   ['Evaluation in programme planning helps mainly to:', ['Judge results against objectives and improve the next programme', 'Punish staff', 'Replace planning', 'Increase costs'], 0,
     'It closes the planning cycle.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'IFoS-2025-A1-Q5b', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2025-A1-Q5b', 'CSE-2024-A1-m11', 'IFoS-2003-A1-m11'], q: [
   ['Mixed farming means:', ['Crop production combined with livestock on the same farm', 'Growing two crops together', 'Farming by many families jointly', 'Growing only fodder'], 0,
     'Crops feed animals, and animals supply manure and draught power.'],
   ['A specialised farm is one where:', ['A single enterprise provides at least half of the farm income', 'Many enterprises contribute equally', 'Only livestock are kept', 'The state owns the land'], 0,
@@ -374,7 +374,7 @@
   ['Graded bunds are laid out with:', ['A slight longitudinal slope to a safe outlet', 'No slope at all', 'A steep slope', 'Random alignment'], 0,
     'They are also called channel terraces in some texts.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: 'IFoS-2025-A1-Q5d', q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2025-A1-Q5d', 'CSE-2021-A1-m16', 'CSE-1995-A1-m08', 'CSE-2015-A1-m13', 'CSE-2006-A1-m04', 'IFoS-2024-A1-m17', 'IFoS-2019-A1-m16', 'IFoS-2012-A1-m19', 'IFoS-2024-A1-m18'], q: [
   ['The national apex body for cooperative agricultural marketing in India, set up in 1958, is:', ['NAFED', 'NABARD', 'NCDC', 'FCI'], 0,
     'National Agricultural Cooperative Marketing Federation of India.'],
   ['CAMPCO is a cooperative dealing mainly in:', ['Arecanut and cocoa', 'Milk', 'Fertilisers', 'Sugar'], 0,
@@ -418,7 +418,7 @@
   ['Scheduling irrigation by critical stages is most useful when:', ['Water is limited and must be applied where it gives the highest return', 'Water is unlimited', 'Crops are dormant', 'Soil is waterlogged'], 0,
     'It is simple and needs no instruments.'],
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: 'IFoS-2025-A1-Q6a', q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['IFoS-2025-A1-Q6a', 'CSE-2021-A1-m13', 'CSE-2019-A1-m17'], q: [
   ['mKrishi, a mobile agro-advisory platform, was developed by:', ['Tata Consultancy Services (TCS)', 'ITC', 'ICAR only', 'IFFCO'], 0,
     'It gives personalised advice on crops, weather and prices on mobile phones.'],
   ['Kisan Call Centres, launched in 2004, can be reached on:', ['The toll-free number 1800-180-1551', '100', '108', '1912'], 0,
@@ -484,7 +484,7 @@
   ['Long-term stabilisation of gullies relies on:', ['Vegetating the gully bed and catchment along with structures', 'Removing all vegetation', 'Increasing runoff', 'Deep ploughing of gully banks'], 0,
     'Structures buy time for vegetation to establish.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: 'IFoS-2025-A1-Q7a', q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2025-A1-Q7a', 'CSE-2016-A1-m03'], q: [
   ['In the USSL (Richards, 1954) classification, "C3-S1" water has:', ['High salinity and low sodium hazard', 'Low salinity and high sodium hazard', 'Low salinity and low sodium hazard', 'Very high salinity and very high sodium hazard'], 0,
     'C classes: C1 < 250, C2 250–750, C3 750–2,250, C4 > 2,250 µS/cm. S classes by SAR.'],
   ['An EC of 1 dS/m in irrigation water corresponds roughly to total dissolved salts of:', ['640 mg/L', '64 mg/L', '6,400 mg/L', '10 mg/L'], 0,
