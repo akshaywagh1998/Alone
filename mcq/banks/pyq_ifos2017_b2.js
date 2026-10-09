@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Botany Paper II (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: 'IFoS-2017-B2-Q1a', q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2017-B2-Q1a', 'IFoS-2021-B2-m04', 'CSE-2015-B2-m02', 'CSE-2009-B2-m03', 'CSE-2007-B2-m03', 'CSE-2001-B2-m03', 'CSE-2023-B2-m06', 'IFoS-2019-B2-m27', 'IFoS-2009-B2-m18', 'CSE-1990-B2-m16', 'IFoS-2012-B2-m20', 'CSE-2018-B2-m24', 'CSE-2000-B2-m16'], q: [
   ['Complex I of the mitochondrial electron transport chain is:', ['NADH dehydrogenase (NADH–ubiquinone oxidoreductase)', 'Succinate dehydrogenase', 'Cytochrome *c* oxidase', 'ATP synthase'], 0,
     'It pumps four protons for each pair of electrons.'],
   ['Complex II, which does not pump protons, is:', ['Succinate dehydrogenase, which is also a Krebs cycle enzyme', 'Cytochrome *bc*₁', 'NADH dehydrogenase', 'Cytochrome oxidase'], 0,
@@ -22,7 +22,7 @@
   ['The approximate P/O ratios are:', ['About 2.5 for NADH and 1.5 for FADH₂', 'Three for both', 'One for both', 'Four for NADH and two for FADH₂'], 0,
     'The older textbook values were 3 and 2.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 2, pyq: 'IFoS-2017-B2-Q1b', q: [
+{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q1b', 'IFoS-2011-B2-m08', 'CSE-2017-B2-m19', 'IFoS-2016-B2-m16', 'IFoS-2015-B2-m21', 'CSE-2010-B2-m24', 'CSE-2010-B2-m29'], q: [
   ['In humans, maleness is determined by:', ['The *SRY* gene on the Y chromosome', 'The number of X chromosomes alone', 'Temperature', 'The mother’s diet'], 0,
     'SRY switches on testis development.'],
   ['In *Drosophila*, sex is determined by:', ['The ratio of X chromosomes to autosome sets (X:A), acting through the *Sxl* gene', 'The presence of a Y chromosome', 'Temperature', 'The number of autosomes only'], 0,
@@ -110,7 +110,7 @@
   ['The chi-square test should be applied to:', ['Actual counts (frequencies), not percentages or means', 'Percentages only', 'Means', 'Standard deviations'], 0,
     'Using percentages gives misleading results.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: 'IFoS-2017-B2-Q2a', q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q2a', 'IFoS-2014-B2-m02', 'IFoS-2025-B2-Q2a', 'CSE-2017-B2-m14', 'CSE-2015-B2-m14', 'IFoS-2004-B2-m13', 'CSE-1995-B2-m12', 'CSE-1994-B2-m14', 'CSE-2014-B2-m13', 'CSE-2014-B2-m14', 'CSE-1993-B2-m09', 'CSE-1992-B2-m07', 'CSE-2024-B2-m10', 'CSE-2012-B2-m11', 'IFoS-2001-B2-m14', 'CSE-1991-B2-m11', 'IFoS-2024-B2-m15', 'CSE-2016-B2-m15', 'CSE-1998-B2-m10', 'IFoS-2014-B2-m15', 'CSE-2021-B2-m14', 'IFoS-2015-B2-m16', 'CSE-2012-B2-m14', 'IFoS-2010-B2-m16', 'IFoS-2019-B2-m16'], q: [
   ['Euploidy differs from aneuploidy in that euploidy involves:', ['Whole sets of chromosomes, while aneuploidy involves single chromosomes', 'Single chromosomes', 'Gene mutations only', 'Loss of the nucleus'], 0,
     'Polyploids are euploids.'],
   ['A trisomic has the chromosome number:', ['2*n* + 1', '2*n* − 1', '2*n* − 2', '3*n*'], 0,
@@ -132,7 +132,7 @@
   ['The nullisomic series of Chinese Spring wheat, developed by E. R. Sears, is used to:', ['Assign genes to particular chromosomes', 'Make hybrids', 'Make haploids', 'Control rust'], 0,
     'Polyploid wheat tolerates the loss of a chromosome pair.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: 'IFoS-2017-B2-Q2b', q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q2b', 'CSE-2016-B2-m19', 'IFoS-2019-B2-m18', 'CSE-2013-B2-m17'], q: [
   ['At pachytene, a reciprocal translocation heterozygote forms:', ['A cross-shaped figure of four paired chromosomes', 'A loop', 'A bridge', 'Normal bivalents only'], 0,
     'All four chromosomes pair along homologous segments.'],
   ['At metaphase I, a translocation heterozygote shows:', ['A ring or chain of four chromosomes', 'Only bivalents', 'Univalents only', 'A dicentric bridge'], 0,
@@ -154,7 +154,7 @@
   ['Semi-sterility in a plant suggests that it is:', ['A translocation heterozygote', 'A pure line', 'A haploid', 'A hybrid with no chromosome changes'], 0,
     'Its pollen is about half sterile.']
 ] },
-{ p: 'B2', t: 'Molecular Biology', w: 2, pyq: 'IFoS-2017-B2-Q3a', q: [
+{ p: 'B2', t: 'Molecular Biology', w: 2, pyq: ['IFoS-2017-B2-Q3a', 'IFoS-2025-B2-Q3c', 'CSE-2024-B2-m15', 'IFoS-2019-B2-m19', 'CSE-2018-B2-m17', 'CSE-2015-B2-m16', 'CSE-2012-B2-m20', 'IFoS-2012-B2-m18', 'CSE-2005-B2-m07', 'CSE-2001-B2-m15', 'CSE-1995-B2-m17', 'IFoS-2016-B2-m15'], q: [
   ['The "RNA world" hypothesis, named by Walter Gilbert (1986), proposes that:', ['Early life used RNA both to store information and to catalyse reactions', 'DNA came before RNA', 'Proteins came first', 'Life began with lipids alone'], 0,
     'DNA and proteins took over these roles later.'],
   ['The discovery that RNA can act as an enzyme (ribozyme) earned the 1989 Nobel Prize for:', ['Thomas Cech and Sidney Altman', 'Watson and Crick', 'Kornberg and Ochoa', 'Nirenberg and Khorana'], 0,
@@ -176,7 +176,7 @@
   ['Spiegelman’s experiments with Qβ replicase showed that:', ['RNA molecules can evolve in a test tube under selection', 'DNA cannot mutate', 'Proteins can replicate', 'RNA cannot be copied'], 0,
     'Faster-replicating short RNAs took over ("Spiegelman’s monster").']
 ] },
-{ p: 'B2', t: 'Genetics', w: 2, pyq: 'IFoS-2017-B2-Q3b', q: [
+{ p: 'B2', t: 'Genetics', w: 2, pyq: ['IFoS-2017-B2-Q3b', 'CSE-2025-B2-m13', 'CSE-2024-B2-m13', 'IFoS-2020-B2-m14', 'IFoS-2017-B2-Q1b', 'IFoS-2014-B2-m19', 'CSE-2013-B2-m14', 'CSE-2012-B2-m12', 'IFoS-2009-B2-m10', 'CSE-2000-B2-m10', 'IFoS-2001-B2-m11', 'CSE-2001-B2-m11', 'CSE-1996-B2-m05', 'IFoS-2003-B2-m19', 'IFoS-2010-B2-m18', 'IFoS-2006-B2-m11'], q: [
   ['Papaya plants occur in three sex forms:', ['Male, female and hermaphrodite', 'Male and female only', 'Hermaphrodite only', 'Monoecious only'], 0,
     'This three-way system is a classic example of tripartite sex determination.'],
   ['Hofmeyr and Storey explained papaya sex by a single gene with three alleles. The male genotype is:', ['*M₁m*', '*M₂m*', '*mm*', '*M₁M₂*'], 0,
@@ -198,7 +198,7 @@
   ['Papaya seedlings are often planted three per pit because:', ['Their sex cannot be seen until flowering, so extra males can then be removed', 'They need support', 'They grow slowly', 'It is traditional'], 0,
     'About one male per ten females is kept for pollination.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: 'IFoS-2017-B2-Q4a', q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2017-B2-Q4a', 'CSE-1997-B2-m02', 'CSE-1986-B2-m03', 'CSE-2012-B2-m22', 'CSE-2015-B2-m15', 'IFoS-2004-B2-m15', 'IFoS-2019-B2-m17', 'IFoS-2001-B2-m13', 'CSE-2010-B2-m13', 'CSE-2002-B2-m11', 'CSE-1987-B2-m12', 'CSE-2016-B2-m18', 'CSE-2006-B2-m10', 'CSE-1991-B2-m15', 'CSE-1988-B2-m15', 'CSE-2012-B2-m09', 'CSE-1996-B2-m07', 'CSE-2010-B2-m21'], q: [
   ['A transition mutation is:', ['A change from one purine to another, or one pyrimidine to another', 'A purine replaced by a pyrimidine', 'The insertion of a base', 'The deletion of a base'], 0,
     'A purine–pyrimidine swap is a transversion.'],
   ['Frameshift mutations are caused by:', ['Insertion or deletion of bases in numbers that are not multiples of three', 'Base substitutions', 'Silent changes', 'Methylation'], 0,
@@ -220,7 +220,7 @@
   ['Barbara McClintock showed that mutations in maize kernel colour can be caused by:', ['Transposable elements (*Ac*/*Ds*) inserting into genes', 'Viruses', 'Radiation only', 'Hybridisation'], 0,
     'She received the Nobel Prize in 1983.']
 ] },
-{ p: 'B2', t: 'Biotechnology & GM Crops', w: 3, pyq: 'IFoS-2017-B2-Q4b', q: [
+{ p: 'B2', t: 'Biotechnology & GM Crops', w: 3, pyq: ['IFoS-2017-B2-Q4b', 'CSE-2019-B2-m07', 'IFoS-2019-B2-m04', 'CSE-1989-B2-m03'], q: [
   ['*Agrobacterium*-mediated transformation transfers:', ['T-DNA from the Ti plasmid into the plant genome', 'The whole bacterial chromosome', 'Ribosomes', 'Proteins only'], 0,
     'T-DNA is flanked by 25 bp border repeats.'],
   ['The *vir* genes of *Agrobacterium* are switched on by:', ['Phenolic compounds such as acetosyringone from wounded plant cells', 'Light', 'Auxin', 'Cold'], 0,
@@ -286,7 +286,7 @@
   ['In the 2019 PepsiCo potato case, the key issue was:', ['Farmers’ rights under the PPV&FR Act to grow a registered variety (FL-2027)', 'A patent on potato genes', 'Pesticide residues', 'A trade mark on chips'], 0,
     'PepsiCo withdrew the suits; the variety’s registration was then challenged before the PPV&FR Authority and courts — check the current status.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: 'IFoS-2017-B2-Q5c', q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2017-B2-Q5c', 'CSE-2019-B2-m21', 'CSE-2012-B2-m15', 'CSE-2013-B2-m15'], q: [
   ['RFLP, the first DNA marker, is:', ['Hybridisation-based and codominant', 'PCR-based and dominant', 'A protein marker', 'A morphological marker'], 0,
     'Botstein and colleagues used it for mapping in 1980.'],
   ['RAPD markers are:', ['PCR-based with random decamer primers, and usually dominant', 'Hybridisation-based and codominant', 'Protein-based', 'Always multi-allelic and codominant'], 0,
@@ -308,7 +308,7 @@
   ['QTL mapping identifies:', ['Chromosome regions controlling quantitative traits', 'Only single-gene traits', 'Chloroplast genes', 'Plant pathogens'], 0,
     'Markers linked to QTLs are then used in selection.']
 ] },
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 2, pyq: 'IFoS-2017-B2-Q5d', q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 2, pyq: ['IFoS-2017-B2-Q5d', 'IFoS-2016-B2-m18', 'IFoS-2016-B2-m20', 'IFoS-2016-B2-m21'], q: [
   ['As accessory pigments, carotenoids:', ['Absorb blue light (about 400–500 nm) and pass the energy to chlorophyll', 'Absorb only red light', 'Fix CO₂', 'Split water'], 0,
     'They widen the range of light used in photosynthesis.'],
   ['Carotenoids protect the photosynthetic apparatus by:', ['Quenching triplet chlorophyll and singlet oxygen', 'Absorbing water', 'Making ATP', 'Transporting sugars'], 0,
@@ -352,7 +352,7 @@
   ['Fossils are dated using radioactive isotopes such as:', ['Carbon-14 for recent remains and potassium–argon for very old rocks', 'Oxygen-16', 'Nitrogen-14', 'Hydrogen-1'], 0,
     'Carbon-14 is useful only up to about 50,000 years.']
 ] },
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: 'IFoS-2017-B2-Q6a', q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2017-B2-Q6a', 'CSE-2001-B2-m14', 'IFoS-2007-B2-m22', 'CSE-1994-B2-m21', 'CSE-1992-B2-m20', 'IFoS-2021-B2-m25', 'IFoS-2021-B2-m26', 'CSE-2025-B2-m21', 'CSE-2012-B2-m29', 'IFoS-2010-B2-m24'], q: [
   ['The Calvin cycle is called autocatalytic because:', ['It regenerates its CO₂ acceptor (RuBP), and extra triose phosphate can be used to build up more of it', 'It needs no ATP', 'It makes its own enzymes', 'It runs in the dark only'], 0,
     'This lets the cycle speed up when light increases.'],
   ['The lag (induction) period of photosynthesis when a leaf is moved from dark to light reflects:', ['The autocatalytic build-up of Calvin cycle intermediates', 'Stomatal closure', 'Chlorophyll synthesis', 'Respiration'], 0,
@@ -374,7 +374,7 @@
   ['At full sunlight, photosynthesis in C₄ plants:', ['Rarely reaches light saturation, unlike C₃ plants', 'Saturates at low light', 'Stops', 'Equals respiration'], 0,
     'This gives C₄ crops their high yield potential.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: 'IFoS-2017-B2-Q6b', q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q6b', 'CSE-2021-B2-m23', 'CSE-2007-B2-m12', 'CSE-1996-B2-m16', 'CSE-1994-B2-m22', 'CSE-1989-B2-m22'], q: [
   ['IBA and NAA are widely used in horticulture to:', ['Promote rooting of cuttings', 'Break seed dormancy', 'Ripen fruits', 'Increase sugar content'], 0,
     'Cuttings are dipped in their solutions or powders.'],
   ['GA₃ is sprayed on Thompson Seedless grapes to:', ['Elongate the bunches and enlarge the berries', 'Ripen them', 'Kill pests', 'Reduce size'], 0,
@@ -396,7 +396,7 @@
   ['CPPU (forchlorfenuron), a cytokinin-like compound, is used to:', ['Increase fruit size in grapes and kiwifruit', 'Ripen bananas', 'Break dormancy', 'Kill insects'], 0,
     'Cytokinins also delay leaf senescence.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: 'IFoS-2017-B2-Q7a', q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q7a', 'IFoS-2022-B2-m25', 'IFoS-2024-B2-m26', 'CSE-2010-B2-m28', 'CSE-2002-B2-m14'], q: [
   ['Phytochrome was discovered through work on lettuce seed germination by:', ['Borthwick and Hendricks (1952)', 'Went', 'Darwin', 'Garner and Allard'], 0,
     'Red light promoted germination and far-red reversed it.'],
   ['Phytochrome is:', ['A homodimeric chromoprotein with a linear tetrapyrrole chromophore (phytochromobilin)', 'A carotenoid', 'A lipid', 'A flavonoid'], 0,
@@ -418,7 +418,7 @@
   ['The phytochrome chromophore is made in the:', ['Plastid, from haem via biliverdin', 'Nucleus', 'Vacuole', 'Mitochondrion'], 0,
     'It joins the apoprotein in the cytosol.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: 'IFoS-2017-B2-Q7b', q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2017-B2-Q7b', 'CSE-1998-B2-m13', 'CSE-2024-B2-m23', 'CSE-2021-B2-m27', 'IFoS-2020-B2-m26', 'CSE-2017-B2-m22', 'IFoS-2015-B2-m23', 'CSE-2014-B2-m25', 'CSE-2013-B2-m29', 'IFoS-2009-B2-m22', 'CSE-2007-B2-m11', 'IFoS-2006-B2-m16', 'CSE-2001-B2-m18', 'CSE-1993-B2-m21', 'CSE-1992-B2-m18', 'CSE-1990-B2-m17', 'CSE-1987-B2-m19', 'IFoS-2021-B2-m24', 'IFoS-2019-B2-m24'], q: [
   ['Hard seed coats of *Acacia* and *Leucaena* are made permeable by:', ['Scarification with concentrated sulphuric acid, hot water or abrasion', 'Cold storage', 'Darkness', 'Drying'], 0,
     'This is a physical treatment for physical dormancy.'],
   ['Stratification, used for seeds of apple, peach and rose, means:', ['Keeping seeds moist at about 0–5 °C for several weeks', 'Soaking in acid', 'Heating to 60 °C', 'Drying in the sun'], 0,

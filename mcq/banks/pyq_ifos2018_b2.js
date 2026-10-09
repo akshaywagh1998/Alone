@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2018 Botany Paper II (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B2', t: 'Cell Biology', w: 3, pyq: 'IFoS-2018-B2-Q1a', q: [
+{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['IFoS-2018-B2-Q1a', 'IFoS-2023-B2-m08', 'IFoS-2021-B2-m01', 'CSE-1987-B2-m01', 'CSE-2019-B2-m05', 'CSE-2013-B2-m01', 'CSE-2025-B2-m03', 'CSE-2017-B2-m06', 'IFoS-2019-B2-m03', 'CSE-2016-B2-m07', 'CSE-1985-B2-m02', 'CSE-2021-B2-m03', 'IFoS-2007-B2-m01', 'CSE-1998-B2-m01', 'IFoS-2009-B2-m11', 'IFoS-2007-B2-m20', 'IFoS-2007-B2-m21', 'CSE-2009-B2-m04', 'CSE-1999-B2-m10'], q: [
   ['The nucleosome core particle consists of:', ['About 147 bp of DNA wrapped around a histone octamer of H2A, H2B, H3 and H4 (two each)', 'DNA wrapped around H1 alone', 'RNA wrapped around histones', 'A tetramer of H1'], 0,
     'The DNA makes about 1.65 left-handed turns around the octamer.'],
   ['Histone H1 (the linker histone):', ['Binds linker DNA where it enters and leaves the nucleosome, forming a chromatosome', 'Is part of the octamer core', 'Is absent from plants', 'Binds RNA only'], 0,
@@ -44,7 +44,7 @@
   ['C₄ chloroplast dimorphism and Kranz anatomy together raise the CO₂ level around Rubisco to about:', ['Ten times the atmospheric level', 'Half the atmospheric level', 'The same as air', 'Zero'], 0,
     'This all but eliminates photorespiration.']
 ] },
-{ p: 'B2', t: 'Molecular Biology', w: 3, pyq: 'IFoS-2018-B2-Q1c', q: [
+{ p: 'B2', t: 'Molecular Biology', w: 3, pyq: ['IFoS-2018-B2-Q1c', 'IFoS-2013-B2-m15', 'CSE-2011-B2-m23', 'CSE-2021-B2-m18', 'CSE-2010-B2-m20'], q: [
   ['The 5′ cap of eukaryotic mRNA is:', ['7-methylguanosine joined by a 5′–5′ triphosphate bridge', 'A poly(A) stretch', 'A CCA sequence', 'A lariat'], 0,
     'It is added while transcription is still going on.'],
   ['The 5′ cap:', ['Protects mRNA from 5′ exonucleases and helps nuclear export and ribosome binding', 'Signals transcription termination', 'Codes for methionine', 'Removes introns'], 0,
@@ -66,7 +66,7 @@
   ['Most bacterial mRNAs, compared with eukaryotic mRNAs:', ['Have no cap and no introns, and are translated while being transcribed', 'Have a cap and a poly(A) tail', 'Are spliced in the nucleus', 'Are exported to the cytoplasm'], 0,
     'Bacteria have no nuclear envelope to separate the two processes.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: 'IFoS-2018-B2-Q1d', q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['IFoS-2018-B2-Q1d', 'CSE-2024-B2-m03', 'IFoS-2024-B2-m01', 'CSE-2018-B2-m04', 'IFoS-2009-B2-m05', 'CSE-1991-B2-m01', 'CSE-1987-B2-m02', 'CSE-2005-B2-m01', 'CSE-1997-B2-m01', 'IFoS-2013-B2-m18', 'CSE-2012-B2-m28'], q: [
   ['The signal hypothesis for protein targeting to the ER was proposed by:', ['Günter Blobel', 'George Palade', 'Christian de Duve', 'Albert Claude'], 0,
     'He received the 1999 Nobel Prize.'],
   ['A protein is directed to the ER by:', ['An N-terminal hydrophobic signal sequence recognised by the signal recognition particle (SRP)', 'A C-terminal KDEL sequence', 'A nuclear localisation signal', 'A mannose-6-phosphate tag'], 0,
@@ -88,7 +88,7 @@
   ['Proteins made on free cytosolic ribosomes are targeted to:', ['The cytosol, nucleus, mitochondria, chloroplasts and peroxisomes', 'The ER lumen', 'The Golgi', 'The cell exterior'], 0,
     'Import into these organelles happens after translation.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: 'IFoS-2018-B2-Q1e', q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['IFoS-2018-B2-Q1e', 'CSE-2010-B2-m14', 'CSE-2002-B2-m12'], q: [
   ['The probability of any event lies:', ['Between zero and one, inclusive', 'Between −1 and +1', 'Between one and ten', 'Above one'], 0,
     'An impossible event has probability zero; a certain one has probability one.'],
   ['For a set of mutually exclusive and exhaustive outcomes, the probabilities add up to:', ['One', 'Zero', 'Half', 'Infinity'], 0,
@@ -110,7 +110,7 @@
   ['The chi-square test in genetics compares:', ['Observed frequencies with expected frequencies', 'Two means', 'Two variances', 'Correlation between traits'], 0,
     'A small χ² value means the data fit the expected ratio.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 3, pyq: 'IFoS-2018-B2-Q2a', q: [
+{ p: 'B2', t: 'Cell Biology', w: 3, pyq: ['IFoS-2018-B2-Q2a', 'CSE-2024-B2-m02', 'IFoS-2024-B2-m03', 'IFoS-2023-B2-m07', 'CSE-2020-B2-m08', 'CSE-2017-B2-m05', 'IFoS-2016-B2-m06', 'IFoS-2015-B2-m01', 'CSE-2014-B2-m04', 'CSE-2012-B2-m02', 'IFoS-2009-B2-m06', 'CSE-2007-B2-m01', 'IFoS-2006-B2-m03', 'CSE-2018-B2-m05', 'CSE-2013-B2-m02', 'CSE-1999-B2-m01'], q: [
   ['Cyclin-dependent kinases (CDKs) are active only when:', ['Bound to a cyclin (and suitably phosphorylated)', 'Free of cyclins', 'Bound to DNA', 'Degraded'], 0,
     'Cyclin levels rise and fall through the cycle; CDK levels stay fairly constant.'],
   ['M-phase promoting factor (MPF) consists of:', ['A mitotic cyclin (cyclin B) with CDK1', 'Cyclin D with CDK4', 'p53 with p21', 'Tubulin with actin'], 0,
@@ -132,7 +132,7 @@
   ['The 2001 Nobel Prize for discovering key regulators of the cell cycle went to:', ['Hartwell, Hunt and Nurse', 'Watson, Crick and Wilkins', 'Blackburn, Greider and Szostak', 'Kornberg alone'], 0,
     'Hunt discovered cyclins; Nurse identified CDK1 (cdc2).']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: 'IFoS-2018-B2-Q2b', q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['IFoS-2018-B2-Q2b', 'IFoS-2023-B2-m04', 'CSE-2022-B2-m07', 'IFoS-2020-B2-m02', 'CSE-2019-B2-m10', 'CSE-2003-B2-m02', 'CSE-1994-B2-m02', 'CSE-2010-B2-m06', 'CSE-2023-B2-m04', 'CSE-2000-B2-m14'], q: [
   ['A uniporter carries:', ['A single solute in one direction', 'Two solutes in the same direction', 'Two solutes in opposite directions', 'Water only'], 0,
     'An example is the glucose transporter GLUT1.'],
   ['A symporter carries:', ['Two solutes in the same direction', 'One solute only', 'Two solutes in opposite directions', 'Only ions out of the cell'], 0,
@@ -154,7 +154,7 @@
   ['Co-transport means:', ['The coupled movement of two solutes by one carrier (symport or antiport)', 'Movement through an open channel', 'Endocytosis', 'Diffusion through the lipid bilayer'], 0,
     'The downhill movement of one solute drives the uphill movement of the other.']
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: 'IFoS-2018-B2-Q3a', q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2018-B2-Q3a', 'IFoS-2020-B2-m03', 'IFoS-2019-B2-m20', 'CSE-1996-B2-m10', 'CSE-2023-B2-m13', 'IFoS-2021-B2-m19', 'CSE-2006-B2-m09', 'IFoS-2000-B2-m16', 'CSE-1995-B2-m13', 'CSE-1993-B2-m11', 'CSE-1991-B2-m10', 'CSE-2016-B2-m16', 'CSE-2011-B2-m15', 'CSE-2020-B2-m19', 'CSE-2021-B2-m15', 'IFoS-2010-B2-m12', 'CSE-1993-B2-m12', 'CSE-2025-B2-m10', 'CSE-1985-B2-m12', 'CSE-2010-B2-m19'], q: [
   ['Crossing over takes place at:', ['Pachytene of prophase I, between non-sister chromatids', 'Leptotene, between sister chromatids', 'Anaphase II', 'Interphase'], 0,
     'Chiasmata become visible at diplotene.'],
   ['Synapsis of homologous chromosomes is mediated by:', ['The synaptonemal complex', 'The centromere', 'The spindle', 'The nucleolus'], 0,
@@ -176,7 +176,7 @@
   ['For widely separated genes, recombination frequency underestimates map distance because:', ['Double (even-numbered) crossovers go undetected', 'Crossing over stops', 'Chiasmata are absent', 'Linkage is complete'], 0,
     'Mapping functions such as Haldane’s correct for this.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: 'IFoS-2018-B2-Q3b', q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2018-B2-Q3b', 'CSE-2007-B2-m08', 'CSE-2000-B2-m12', 'CSE-1995-B2-m16', 'IFoS-2010-B2-m15', 'IFoS-2002-B2-m16', 'CSE-2011-B2-m17', 'CSE-1991-B2-m13'], q: [
   ['Mass selection involves:', ['Selecting plants by phenotype and bulking their seed for the next generation', 'Testing progeny rows of single plants', 'Crossing two inbreds', 'Backcrossing'], 0,
     'It is the oldest method, used in both self- and cross-pollinated crops.'],
   ['The pure-line theory came from Johannsen’s work (1903) on:', ['Beans (*Phaseolus vulgaris*)', 'Maize', 'Wheat', 'Peas'], 0,
@@ -220,7 +220,7 @@
   ['In India, virus indexing and quality of commercial tissue-culture plants are certified under:', ['The National Certification System for Tissue Culture Raised Plants (NCS-TCP), DBT', 'The Seeds Act only', 'FSSAI', 'The Bureau of Indian Standards only'], 0,
     'Banana, potato and sugarcane are major commercial crops.']
 ] },
-{ p: 'B2', t: 'Molecular Biology', w: 3, pyq: 'IFoS-2018-B2-Q4b', q: [
+{ p: 'B2', t: 'Molecular Biology', w: 3, pyq: ['IFoS-2018-B2-Q4b', 'IFoS-2012-B2-m02', 'CSE-2007-B2-m02', 'CSE-1993-B2-m01', 'CSE-1988-B2-m03', 'CSE-2004-B2-m02', 'IFoS-2009-B2-m13', 'CSE-2024-B2-m20'], q: [
   ['In prokaryotes, the ribosome finds the start codon by base-pairing between:', ['The Shine–Dalgarno sequence and the 3′ end of 16S rRNA', 'The 5′ cap and 18S rRNA', 'The poly(A) tail and 23S rRNA', 'The TATA box and 5S rRNA'], 0,
     'The Shine–Dalgarno sequence (AGGAGG) lies a few bases upstream of AUG.'],
   ['The initiator tRNA in bacteria carries:', ['N-formylmethionine (fMet)', 'Unformylated methionine', 'Valine', 'Leucine'], 0,
@@ -264,7 +264,7 @@
   ['C₄ and CAM pathways improve Rubisco efficiency by:', ['Concentrating CO₂ around it, which suppresses oxygenation', 'Changing its subunit structure', 'Removing it from leaves', 'Increasing O₂ around it'], 0,
     'C₄ separates the steps in space; CAM separates them in time.']
 ] },
-{ p: 'B2', t: 'Secondary Metabolites', w: 2, pyq: 'IFoS-2018-B2-Q5b', q: [
+{ p: 'B2', t: 'Secondary Metabolites', w: 2, pyq: ['IFoS-2018-B2-Q5b', 'IFoS-2025-B2-m03', 'CSE-2022-B2-m26', 'CSE-2013-B2-m23', 'CSE-2010-B2-m22', 'CSE-2021-B2-m22', 'IFoS-2001-B2-m16'], q: [
   ['The three main classes of plant secondary metabolites are:', ['Terpenoids, phenolics and nitrogen-containing compounds', 'Proteins, lipids and sugars', 'Nucleic acids, vitamins and minerals', 'Hormones, enzymes and pigments only'], 0,
     'Alkaloids, cyanogenic glycosides and glucosinolates contain nitrogen.'],
   ['Terpenoids are built from:', ['Five-carbon isoprene units made by the mevalonate and MEP pathways', 'Amino acids', 'Fatty acids', 'Nucleotides'], 0,
@@ -352,7 +352,7 @@
   ['A homotropic allosteric effect is one in which:', ['The substrate itself acts as the effector', 'A different molecule acts as the effector', 'Temperature changes the rate', 'pH denatures the enzyme'], 0,
     'Heterotropic effectors are molecules other than the substrate.']
 ] },
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: 'IFoS-2018-B2-Q6a', q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2018-B2-Q6a', 'CSE-2024-B2-m04', 'IFoS-2020-B2-m24', 'CSE-2018-B2-m22', 'IFoS-2016-B2-m17', 'IFoS-2009-B2-m16', 'CSE-2002-B2-m13', 'CSE-2014-B2-m27', 'CSE-1985-B2-m14', 'IFoS-2013-B2-m19', 'IFoS-2022-B2-m26', 'CSE-2022-B2-m24'], q: [
   ['The chloroplast ATP synthase (CF₀CF₁) is located in the:', ['Thylakoid membrane, with CF₁ facing the stroma', 'Inner envelope, with CF₁ facing the lumen', 'Outer envelope', 'Stroma, free'], 0,
     'ATP is released into the stroma for the Calvin cycle.'],
   ['In the mitochondrion, the F₁ part of ATP synthase faces the:', ['Matrix', 'Intermembrane space', 'Cytosol', 'Outer membrane'], 0,
@@ -374,7 +374,7 @@
   ['Uncouplers such as 2,4-dinitrophenol stop ATP synthesis because they:', ['Carry protons across the membrane and dissipate the gradient', 'Block the c ring', 'Destroy chlorophyll', 'Inhibit Rubisco'], 0,
     'Electron transport continues, but no ATP is made.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: 'IFoS-2018-B2-Q6b', q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2018-B2-Q6b', 'IFoS-2022-B2-m28', 'CSE-2019-B2-m27', 'IFoS-2016-B2-m19', 'CSE-2010-B2-m27', 'CSE-2020-B2-m23', 'CSE-2010-B2-m26', 'CSE-1988-B2-m24'], q: [
   ['Climacteric fruits show:', ['A burst of respiration and ethylene production at the onset of ripening', 'No change in respiration', 'Ripening only on the plant', 'No response to ethylene'], 0,
     'Tomato, banana, mango and apple are climacteric.'],
   ['Which of these is a non-climacteric fruit?', ['Grape', 'Banana', 'Tomato', 'Mango'], 0,
@@ -396,7 +396,7 @@
   ['A safe, approved way to ripen mangoes and bananas commercially, instead of banned calcium carbide, is:', ['Controlled ethylene gas in ripening chambers', 'Spraying DDT', 'Heating with charcoal smoke', 'Coating with wax only'], 0,
     'FSSAI allows ethylene gas (up to 100 ppm) for artificial ripening.']
 ] },
-{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 3, pyq: 'IFoS-2018-B2-Q7a', q: [
+{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 3, pyq: ['IFoS-2018-B2-Q7a', 'IFoS-2013-B2-m16', 'CSE-1996-B2-m09', 'CSE-2025-B2-m20', 'CSE-2021-B2-m26', 'CSE-2015-B2-m20', 'CSE-2002-B2-m18', 'CSE-1989-B2-m21', 'IFoS-2014-B2-m22', 'IFoS-2021-B2-m22', 'CSE-1987-B2-m18'], q: [
   ['Nitrogenase consists of:', ['An Fe protein (dinitrogenase reductase) and an MoFe protein (dinitrogenase)', 'A single haem protein', 'Rubisco and PEP carboxylase', 'Nitrate reductase and nitrite reductase'], 0,
     'Electrons flow from the Fe protein to the MoFe protein.'],
   ['The overall reaction of nitrogenase is:', ['N₂ + 8H⁺ + 8e⁻ + 16 ATP → 2NH₃ + H₂ + 16 ADP + 16 Pi', 'N₂ + 3H₂ → 2NH₃ without ATP', 'NO₃⁻ → NO₂⁻', 'NH₃ → NO₃⁻'], 0,
@@ -418,7 +418,7 @@
   ['Nodules that keep a persistent meristem and grow elongated, as in pea and alfalfa, are called:', ['Indeterminate nodules', 'Determinate nodules', 'Stem nodules', 'Leaf nodules'], 0,
     'Soybean and common bean form round determinate nodules.']
 ] },
-{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: 'IFoS-2018-B2-Q7b', q: [
+{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['IFoS-2018-B2-Q7b', 'CSE-2003-B2-m17', 'CSE-2003-B2-m18', 'CSE-2002-B2-m17', 'CSE-1988-B2-m21', 'CSE-1988-B2-m22', 'CSE-2020-B2-m26', 'CSE-2014-B2-m24', 'IFoS-2020-B2-m27', 'IFoS-2003-B2-m23', 'CSE-2007-B2-m10', 'CSE-1994-B2-m25', 'IFoS-2012-B2-m21', 'IFoS-2009-B2-m17', 'CSE-2013-B2-m26', 'CSE-2019-B2-m28', 'CSE-1999-B2-m15', 'CSE-2006-B2-m19', 'CSE-2006-B2-m18'], q: [
   ['The main hormone signal for stomatal closure under water deficit is:', ['Abscisic acid (ABA)', 'Gibberellin', 'Cytokinin', 'Auxin'], 0,
     'ABA triggers K⁺ and anion efflux from guard cells.'],
   ['Osmotic adjustment under drought involves the build-up of:', ['Compatible solutes such as proline, glycine betaine and sugars', 'Toxic ions', 'Starch in guard cells only', 'Lignin'], 0,
