@@ -44,10 +44,10 @@
   const L = 'ABCDEFGH';
 
   /* ---------- PYQ registry (pyq/registry.js): [id, marks, text, kind] ---------- */
-  const PYQ = {}, PYQ_LIST = [];
-  (window.IFOS_PYQ || []).forEach(([id, m, text, kind]) => {
+  const PYQ = {}, PYQ_LIST = [], PT = window.IFOS_PYQ_TOPICS || [];
+  (window.IFOS_PYQ || []).forEach(([id, m, text, kind, ti]) => {
     const [exam, year, paper, qno] = id.split('-');
-    const x = { id, exam, year: +year, paper, qno: qno.replace(/^Q(\d)([a-e])$/, 'Q$1($2)'), m, text, kind, ids: [] };
+    const x = { id, exam, year: +year, paper, qno: qno.replace(/^Q(\d)([a-e])$/, 'Q$1($2)').replace(/^m0*(\d+)$/, '#$1'), m, text, kind, mt: ti == null ? '' : PT[ti] || '', ids: [] };
     PYQ[id] = x; PYQ_LIST.push(x);
   });
   const PYQ_TARGET = 10; // MCQs wanted per PYQ
@@ -60,13 +60,14 @@
     const key = b.p + ':' + b.t;
     let topic = TOPIC_BY[key];
     if (!topic) { topic = TOPIC_BY[key] = { key, p: b.p, t: b.t, w: b.w || 2, ids: [] }; TOPICS.push(topic); }
-    const pyq = b.pyq && PYQ[b.pyq] ? PYQ[b.pyq] : null;
+    // pyq: one id, or a list when the same concept was asked in several papers/years (newest shown first)
+    const pyqs = [].concat(b.pyq || []).map((k) => PYQ[k]).filter(Boolean).sort((x, y) => y.year - x.year);
     b.q.forEach((r) => {
       const id = b.p + '-' + hash(r[0] + '|' + r[1].join('|')); // stem + options: stable while the text is unchanged
       if (BY[id]) return;
-      const q = { id, p: b.p, topic, q: r[0], o: r[1], a: r[2], e: r[3] || '', fixed: r[1].some((o) => FIXED.test(o)), pyq };
+      const q = { id, p: b.p, topic, w: b.w || 2, q: r[0], o: r[1], a: r[2], e: r[3] || '', fixed: r[1].some((o) => FIXED.test(o)), pyq: pyqs[0] || null, pyqs };
       Q.push(q); BY[id] = q; topic.ids.push(id);
-      if (pyq) pyq.ids.push(id);
+      pyqs.forEach((x) => x.ids.push(id));
     });
   });
 
@@ -109,9 +110,10 @@
     return t > r[1] + IV[r[0]] ? m * 0.8 : m; // long overdue: assume some forgetting
   }
   const topicMastery = (tp) => (tp.ids.length ? tp.ids.reduce((s, id) => s + mastery(id), 0) / tp.ids.length : 0);
+  // Share of the paper's bank recalled, each question weighted by how often its concept is asked (block w = 1–3).
   function readiness(p) {
     let w = 0, s = 0;
-    TOPICS.forEach((tp) => { if (tp.p === p && tp.ids.length) { w += tp.w; s += tp.w * topicMastery(tp); } });
+    Q.forEach((q) => { if (q.p === p) { w += q.w; s += q.w * mastery(q.id); } });
     return w ? s / w : 0;
   }
   const papersOf = (g) => Object.keys(PAPERS).filter((p) => PAPERS[p].g === g);
@@ -150,8 +152,8 @@
     const due = Q.filter((q) => isDue(q.id, t)).sort((a, b) => rec(a.id)[0] - rec(b.id)[0] || rec(a.id)[1] - rec(b.id)[1]);
     const reviews = due.slice(0, unseen.length ? Math.ceil(n * 0.6) : n);
     // Split new questions by paper need, not bank size; topic weight only matters within a paper.
-    const wsum = {}; unseen.forEach((q) => { wsum[q.p] = (wsum[q.p] || 0) + q.topic.w; });
-    let picks = reviews.concat(sample(unseen, n - reviews.length, (q) => need[q.p] * q.topic.w / wsum[q.p]));
+    const wsum = {}; unseen.forEach((q) => { wsum[q.p] = (wsum[q.p] || 0) + q.w; });
+    let picks = reviews.concat(sample(unseen, n - reviews.length, (q) => need[q.p] * q.w / wsum[q.p]));
     if (picks.length < n) {
       const chosen = new Set(picks.map((q) => q.id));
       const rest = Q.filter((q) => !chosen.has(q.id)).sort((a, b) => mastery(a.id) - mastery(b.id));
@@ -203,13 +205,34 @@
   }
   const bar = (v, mark) => `<div class="meter"><span style="width:${Math.min(100, v * 100).toFixed(1)}%"></span>${mark != null ? `<i style="left:${Math.min(100, mark * 100).toFixed(1)}%"></i>` : ''}</div>`;
   const chip = (q) => `<span class="chip">${esc(q.p)} · ${esc(q.topic.t)}</span>`;
-  const pyqRef = (q) => q.pyq ? `<div class="pyqref"><b>PYQ</b> ${esc(pyqLabel(q.pyq))}${q.pyq.kind === 't' ? ' (topic)' : ''}<br>${fmt(q.pyq.text)}</div>` : '';
+  const pyqRef = (q) => {
+    if (!q.pyq) return '';
+    const yrs = [...new Set(q.pyqs.map((x) => `${x.exam} ${x.year}`))];
+    const more = q.pyqs.length > 1 ? `<details class="pyqmore"><summary>Asked ${q.pyqs.length}× · ${esc(yrs.join(', '))}</summary><ul>${q.pyqs.slice(1).map((x) => `<li><b>${esc(pyqLabel(x))}</b><br>${fmt(x.text)}</li>`).join('')}</ul></details>` : '';
+    return `<div class="pyqref"><b>PYQ</b> ${esc(pyqLabel(q.pyq))}${q.pyq.kind === 't' ? ' (topic)' : ''}<br>${fmt(q.pyq.text)}${more}</div>`;
+  };
+
+  /* ---------- pace ----------
+   * New questions per day ≈ half the daily goal once reviews build up (reviews may take up to 60%).
+   * "Core" = unseen questions on the most-asked concepts (w 3) plus the English/GK/interview banks. */
+  function pace(dl) {
+    const days = Math.max(1, dl - 10), unseen = Q.filter((q) => !isSeen(q.id));
+    const core = unseen.filter((q) => q.w >= 3 || ['EN', 'GK', 'PT'].includes(q.p)).length;
+    const freshPerDay = Math.max(1, Math.round(S.set.daily * 0.5));
+    const reach = Math.min(unseen.length, freshPerDay * days);
+    const allNeed = Math.ceil(unseen.length / days / 0.5), coreNeed = Math.ceil(core / days / 0.5);
+    const rec = Math.min(500, Math.max(S.set.daily, Math.ceil(coreNeed / 10) * 10));
+    const html = !unseen.length ? '<p class="note">Pace: every question has been seen at least once — the mission is now pure spaced revision.</p>'
+      : `<p class="note">Pace: <b>${unseen.length}</b> of ${Q.length} questions unseen, ${days} study days before the 10-day revision window. At ${S.set.daily}/day (≈${freshPerDay} new once reviews build up) you will meet about <b>${reach}</b> new questions — the mission brings the most-asked PYQ concepts and your biggest target gaps first.
+        Most-asked core: <b>${core}</b> unseen → needs about <b>${coreNeed}</b>/day. Everything once: about ${allNeed}/day.</p>
+        ${rec > S.set.daily ? `<button class="btn" data-act="set-daily" data-n="${rec}">Set daily goal to ${rec}</button>` : ''}`;
+    return { html, core, reach, coreNeed, allNeed, rec };
+  }
 
   /* ---------- Today ---------- */
   function viewToday() {
     const mp = missionPreview(), dl = daysLeft(), tot = projectedTotal(), goal = +S.set.goal || 0;
-    const firstPass = Math.max(1, dl - 10);
-    const perDay = Math.ceil(mp.unseen / firstPass);
+    const pc = pace(dl);
     const done = doneToday(), wt = weakestTopic();
     const rows = Object.keys(GROUPS).map((g) => {
       const pr = projected(g), tg = +S.set.targets[g] || 0, mx = GROUPS[g].max;
@@ -220,7 +243,7 @@
         <div class="hero-num"><span class="big">${Math.round(tot)}</span><span class="of">/ 1700 projected</span></div>
         <div class="hero-sub">Goal <b>${goal}+</b> · targets add up to <b>${targetTotal()}</b> · ${dl > 0 ? `<b>${dl}</b> days left` : 'exam day reached'} · 🔥 ${streak()}-day streak</div>
         ${bar(tot / 1700, goal / 1700)}
-        <p class="note">Projection = how much of this bank you have mastered with spaced recall, scaled to each paper's marks. It measures knowledge only — answer-writing practice converts it into marks.</p>
+        <p class="note">Projection = how much of each paper's bank you recall with spaced repetition — most-asked PYQ concepts count up to 3× — scaled to that paper's marks. It measures knowledge only; answer-writing practice converts it into marks.</p>
       </section>
       <section class="card">
         <h2>Today's mission</h2>
@@ -228,7 +251,7 @@
           <button class="btn primary" data-act="mission" data-focus>Start mission ▶</button>`
         : `<p>✅ Daily goal of ${S.set.daily} done (${done} answered today).</p><button class="btn primary" data-act="mission-extra" data-focus>Another ${S.set.daily} ▶</button>`}
         <div class="progress-line">${bar(Math.min(1, done / S.set.daily))}<span>${done}/${S.set.daily} today</span></div>
-        <p class="note">Pace: ${mp.unseen} of ${Q.length} questions still unseen → about <b>${perDay}</b> new per day finishes the first pass 10 days before the exam, leaving those days for revision.</p>
+        ${pc.html}
       </section>
       <section class="card">
         <h2>Target gap</h2>
@@ -494,36 +517,48 @@
   }
 
   /* ---------- PYQ coverage ---------- */
-  const PQ = { exam: '', paper: '', only: false };
+  // 6,000+ PYQs: paper groups render their questions only when opened; search shows a flat list instead.
+  const PQ = { exam: '', paper: '', only: false, q: '', open: new Set(), limit: 100 };
+  const pyqRow = (x, label) => {
+    const m = x.ids.length ? x.ids.reduce((s, id) => s + mastery(id), 0) / x.ids.length : 0;
+    return `<li><div class="pyqhead"><b>${esc(label ? pyqLabel(x) : x.qno)}</b>${!label && x.m ? ` <span class="note">${x.m} m</span>` : ''}${x.kind === 't' ? ' <span class="chip">topic</span>' : ''}
+      <span class="pyqcount ${x.ids.length >= PYQ_TARGET ? 'full' : ''}">${x.ids.length ? `${x.ids.length} MCQs · ${pct(m)}` : 'no MCQs yet'}</span></div>
+      <div>${fmt(x.text)}</div>${x.ids.length ? `<button class="btn" data-act="pyq-drill" data-id="${esc(x.id)}">Drill ▶</button>` : ''}</li>`;
+  };
   function viewPyq() {
     const covered = PYQ_LIST.filter((x) => x.ids.length >= PYQ_TARGET).length;
-    const linked = PYQ_LIST.reduce((s, x) => s + x.ids.length, 0);
-    const list = PYQ_LIST.filter((x) => (!PQ.exam || x.exam === PQ.exam) && (!PQ.paper || x.paper === PQ.paper) && (!PQ.only || x.ids.length));
-    const groups = {};
-    list.forEach((x) => { const k = `${x.exam} ${x.year} ${x.paper}`; (groups[k] = groups[k] || []).push(x); });
-    const order = Object.keys(groups).sort((a, b) => { const [ea, ya, pa] = a.split(' '), [eb, yb, pb] = b.split(' '); return yb - ya || ea.localeCompare(eb) * -1 || pa.localeCompare(pb); });
-    const body = order.map((k, gi) => {
-      const xs = groups[k], ids = xs.flatMap((x) => x.ids), done = xs.filter((x) => x.ids.length >= PYQ_TARGET).length;
-      const [exam, year, paper] = k.split(' ');
-      const rows = xs.map((x) => {
-        const m = x.ids.length ? x.ids.reduce((s, id) => s + mastery(id), 0) / x.ids.length : 0;
-        return `<li><div class="pyqhead"><b>${esc(x.qno)}</b>${x.m ? ` <span class="note">${x.m} m</span>` : ''}${x.kind === 't' ? ' <span class="chip">topic</span>' : ''}
-          <span class="pyqcount ${x.ids.length >= PYQ_TARGET ? 'full' : ''}">${x.ids.length ? `${x.ids.length} MCQs · ${pct(m)}` : 'no MCQs yet'}</span></div>
-          <div>${fmt(x.text)}</div>${x.ids.length ? `<button class="btn" data-act="pyq-drill" data-id="${esc(x.id)}">Drill ▶</button>` : ''}</li>`;
+    const linked = new Set(PYQ_LIST.flatMap((x) => x.ids)).size;
+    const needle = PQ.q.trim().toLowerCase();
+    const list = PYQ_LIST.filter((x) => (!PQ.exam || x.exam === PQ.exam) && (!PQ.paper || x.paper === PQ.paper) && (!PQ.only || x.ids.length)
+      && (!needle || (x.text + ' ' + x.mt + ' ' + x.exam + ' ' + x.year).toLowerCase().includes(needle)));
+    let body;
+    if (needle) {
+      const xs = list.slice().sort((x, y) => y.year - x.year).slice(0, PQ.limit);
+      body = `<section class="card"><p class="note">${list.length} PYQs match "${esc(PQ.q)}" (newest first)${list.length > 1 ? ` — asked in ${new Set(list.map((x) => x.year)).size} different years` : ''}.</p>
+        <ol class="rev">${xs.map((x) => pyqRow(x, true)).join('')}</ol>${list.length > PQ.limit ? '<button class="btn" data-act="pq-more">Show more</button>' : ''}</section>`;
+    } else {
+      const groups = {};
+      list.forEach((x) => { const k = `${x.exam} ${x.year} ${x.paper}`; (groups[k] = groups[k] || []).push(x); });
+      const order = Object.keys(groups).sort((a, b) => { const [ea, ya, pa] = a.split(' '), [eb, yb, pb] = b.split(' '); return yb - ya || eb.localeCompare(ea) || pa.localeCompare(pb); });
+      body = order.map((k) => {
+        const xs = groups[k], ids = [...new Set(xs.flatMap((x) => x.ids))], done = xs.filter((x) => x.ids.length >= PYQ_TARGET).length;
+        const [exam, year, paper] = k.split(' '), open = PQ.open.has(k);
+        return `<details class="card pyqgroup" ${open ? 'open' : ''}><summary data-act="pq-open" data-k="${esc(k)}"><b>${esc(exam)} ${esc(year)} · ${esc(PAPERS[paper] ? PAPERS[paper].name : paper)}</b>
+          <span class="note">${xs.length} PYQs · ${done} with ${PYQ_TARGET}+ MCQs</span></summary>
+          ${open ? `${ids.length ? `<button class="btn primary" data-act="pyq-paper" data-k="${esc(k)}">Drill all ${ids.length} MCQs of this paper ▶</button>` : ''}
+          <ol class="rev">${xs.map((x) => pyqRow(x, false)).join('')}</ol>` : ''}</details>`;
       }).join('');
-      return `<details class="card pyqgroup" ${gi < 2 ? 'open' : ''}><summary><b>${esc(exam)} ${esc(year)} · ${esc(PAPERS[paper] ? PAPERS[paper].name : paper)}</b>
-        <span class="note">${xs.length} PYQs · ${done} with ${PYQ_TARGET}+ MCQs</span></summary>
-        ${ids.length ? `<button class="btn primary" data-act="pyq-paper" data-k="${esc(k)}">Drill all ${ids.length} MCQs of this paper ▶</button>` : ''}
-        <ol class="rev">${rows}</ol></details>`;
-    }).join('');
+    }
     const exams = [['', 'Both exams'], ['IFoS', 'IFoS'], ['CSE', 'CSE']].map(([v, l]) => `<button class="pill ${PQ.exam === v ? 'on' : ''}" data-act="pq-exam" data-v="${v}">${l}</button>`).join('');
     const papers = [['', 'All'], ['B1', 'Botany I'], ['B2', 'Botany II'], ['A1', 'Agri I'], ['A2', 'Agri II']].map(([v, l]) => `<button class="pill ${PQ.paper === v ? 'on' : ''}" data-act="pq-paper" data-v="${v}">${l}</button>`).join('');
+    const years = PYQ_LIST.length ? `${Math.min(...PYQ_LIST.map((x) => x.year))}–${Math.max(...PYQ_LIST.map((x) => x.year))}` : '';
     return `
       <section class="card">
         <h2>PYQ coverage</h2>
-        <div class="hero-num"><span class="big">${covered}</span><span class="of">/ ${PYQ_LIST.length} registered PYQs have ${PYQ_TARGET}+ MCQs · ${linked} linked MCQs</span></div>
+        <div class="hero-num"><span class="big">${covered}</span><span class="of">/ ${PYQ_LIST.length} PYQs (${years}) have ${PYQ_TARGET}+ MCQs · ${linked} linked MCQs</span></div>
         ${bar(PYQ_LIST.length ? covered / PYQ_LIST.length : 0)}
-        <p class="note">Each PYQ gets ${PYQ_TARGET} MCQs on the facts its answer needs. After answering a linked MCQ you see the PYQ, so recall turns into an answer outline. "topic" = the question's subject is known but not its exact wording.</p>
+        <p class="note">Every PYQ is linked to at least ${PYQ_TARGET} MCQs on the facts its answer needs; when a concept was asked in several years, those PYQs share one set and each answer lists every year it was asked. Search to see how often a topic recurs.</p>
+        <input type="search" id="pqq" placeholder="Search ${PYQ_LIST.length} PYQs… e.g. mycorrhiza, heterosis, Kranz" value="${esc(PQ.q)}">
         <h3>Exam</h3><div class="pills">${exams}</div>
         <h3>Paper</h3><div class="pills">${papers}</div>
         <label class="check"><input type="checkbox" data-act="pq-only" ${PQ.only ? 'checked' : ''}> Only PYQs that already have MCQs</label>
@@ -533,11 +568,12 @@
 
   /* ---------- Revise (browse bank) ---------- */
   const B = { q: '', paper: '', show: 'all', limit: 40 };
+  const hay = (q) => q._s || (q._s = (q.q + ' ' + q.o.join(' ') + ' ' + q.e + ' ' + q.topic.t + ' ' + q.pyqs.map((x) => pyqLabel(x) + ' ' + x.text).join(' ')).toLowerCase());
   function viewBank() {
     const needle = B.q.trim().toLowerCase();
     const list = Q.filter((q) => (!B.paper || q.p === B.paper)
       && (B.show === 'all' || (B.show === 'weak' && isWeak(q.id)) || (B.show === 'flag' && isFlag(q.id)) || (B.show === 'new' && !isSeen(q.id)))
-      && (!needle || (q.q + ' ' + q.o.join(' ') + ' ' + q.e + ' ' + q.topic.t + (q.pyq ? ' ' + pyqLabel(q.pyq) + ' ' + q.pyq.text : '')).toLowerCase().includes(needle)));
+      && (!needle || hay(q).includes(needle)));
     const items = list.slice(0, B.limit).map((q) => `<li>${chip(q)}<button class="icon flag ${isFlag(q.id) ? 'on' : ''}" data-act="b-flag" data-id="${q.id}">🚩</button>
       <div>${fmt(q.q)}</div><div class="ans">✓ ${fmt(q.o[q.a])}</div><div class="note">${fmt(q.e)}</div>${pyqRef(q)}</li>`).join('');
     const ps = `<option value="">All papers</option>` + Object.keys(PAPERS).map((p) => `<option value="${p}" ${B.paper === p ? 'selected' : ''}>${esc(PAPERS[p].name)}</option>`).join('');
@@ -615,20 +651,24 @@
       case 'm-submit': submitMock(false); break;
       case 'm-retry': startRun('Mock mistakes', shuffle(M.ids.filter((id, i) => M.pick[i] !== BY[id].a)), 'mock'); break;
       case 'm-new': M = null; go('mock'); break;
-      case 'pq-exam': PQ.exam = el.dataset.v; render(); break;
-      case 'pq-paper': PQ.paper = el.dataset.v; render(); break;
+      case 'pq-exam': PQ.exam = el.dataset.v; PQ.limit = 100; render(); break;
+      case 'pq-paper': PQ.paper = el.dataset.v; PQ.limit = 100; render(); break;
       case 'pq-only': PQ.only = el.checked; render(); break;
       case 'pyq-drill': { const x = PYQ[el.dataset.id]; if (x) startRun(`${x.exam} ${x.year} ${x.paper} ${x.qno}`, shuffle(x.ids.slice()), 'pyq'); break; }
-      case 'pyq-paper': { const [exam, year, paper] = el.dataset.k.split(' '); startRun(`${exam} ${year} ${paper} PYQs`, shuffle(PYQ_LIST.filter((x) => x.exam === exam && x.year === +year && x.paper === paper).flatMap((x) => x.ids)), 'pyq'); break; }
+      case 'pyq-paper': { const [exam, year, paper] = el.dataset.k.split(' '); startRun(`${exam} ${year} ${paper} PYQs`, shuffle([...new Set(PYQ_LIST.filter((x) => x.exam === exam && x.year === +year && x.paper === paper).flatMap((x) => x.ids))]), 'pyq'); break; }
       case 'b-flag': toggleFlag(el.dataset.id); el.classList.toggle('on'); break;
       case 'b-more': B.limit += 40; render(); break;
       case 's-save': saveSettings(); break;
+      case 'set-daily': S.set.daily = Math.max(5, Math.min(500, +el.dataset.n || S.set.daily)); save(); toast(`Daily goal set to ${S.set.daily}.`); render(); break;
+      case 'pq-open': { ev.preventDefault(); const k = el.dataset.k; PQ.open.has(k) ? PQ.open.delete(k) : PQ.open.add(k); render(); break; }
+      case 'pq-more': PQ.limit += 100; render(); break;
       case 's-export': exportState(); break;
       case 's-reset': if (confirm('Erase all progress, mocks and flags? Export first if unsure.')) { S = hydrate({ set: S.set }); save(); toast('Progress reset.'); render(); } break;
     }
   });
   document.addEventListener('input', (ev) => {
     if (ev.target.id === 'bq') { B.q = ev.target.value; B.limit = 40; const pos = ev.target.selectionStart; render(); const i = $('#bq'); i.focus(); i.setSelectionRange(pos, pos); }
+    if (ev.target.id === 'pqq') { PQ.q = ev.target.value; PQ.limit = 100; const pos = ev.target.selectionStart; render(); const i = $('#pqq'); i.focus(); i.setSelectionRange(pos, pos); }
   });
   document.addEventListener('change', (ev) => {
     const id = ev.target.id;

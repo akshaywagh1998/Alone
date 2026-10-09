@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Validates mcq/banks/*.js: schema, answer index, duplicates, option-order hazards.
-// Usage: node tools/validate_banks.js [--list-fixed]
+// Usage: node tools/validate_banks.js [--list-fixed] [--by-year]
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -14,16 +14,25 @@ const hash = (s) => { let x = 2166136261; for (let i = 0; i < s.length; i++) { x
 
 const ctx = { window: {} };
 vm.createContext(ctx);
-const registry = path.join(__dirname, '..', 'mcq', 'pyq', 'registry.js');
-if (fs.existsSync(registry)) vm.runInContext(fs.readFileSync(registry, 'utf8'), ctx, { filename: 'pyq/registry.js' });
+const pyqDir = path.join(__dirname, '..', 'mcq', 'pyq');
+// registry.js first (hand-curated), then the generated parts, in the same order as index.html
+const regFiles = fs.existsSync(pyqDir) ? fs.readdirSync(pyqDir).filter((f) => f.endsWith('.js')).sort((a, b) => (a === 'registry.js' ? -1 : b === 'registry.js' ? 1 : a.localeCompare(b))) : [];
+for (const f of regFiles) vm.runInContext(fs.readFileSync(path.join(pyqDir, f), 'utf8'), ctx, { filename: `pyq/${f}` });
 for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js')).sort()) {
   vm.runInContext(fs.readFileSync(path.join(dir, f), 'utf8'), ctx, { filename: f });
 }
 const banks = ctx.window.IFOS_BANK || [];
 const PYQ_TARGET = 10;
-const pyqs = new Map((ctx.window.IFOS_PYQ || []).map((r) => [r[0], { r, n: 0 }]));
+const pyqs = new Map();
+const regErrors = [];
+(ctx.window.IFOS_PYQ || []).forEach((r) => {
+  if (!Array.isArray(r) || typeof r[0] !== 'string' || !/^(CSE|IFoS)-\d{4}-(B1|B2|A1|A2)-[\w]+$/.test(r[0])) regErrors.push(`registry row ${JSON.stringify(r).slice(0, 80)}: bad id`);
+  else if (pyqs.has(r[0])) regErrors.push(`registry: duplicate PYQ id ${r[0]}`);
+  else if (typeof r[2] !== 'string' || r[2].trim().length < 3) regErrors.push(`registry ${r[0]}: missing text`);
+  else pyqs.set(r[0], { r, n: 0 });
+});
 const htmlSrc = fs.readFileSync(path.join(__dirname, '..', 'mcq', 'index.html'), 'utf8');
-const errors = [], warns = [], ids = new Map(), perPaper = {}, fixedAns = [0, 0, 0, 0, 0, 0], fixedList = [];
+const errors = regErrors, warns = [], ids = new Map(), perPaper = {}, fixedAns = [0, 0, 0, 0, 0, 0], fixedList = [];
 let total = 0;
 
 banks.forEach((b, bi) => {
@@ -33,9 +42,15 @@ banks.forEach((b, bi) => {
   if (![1, 2, 3].includes(b.w)) errors.push(`${where}: weight must be 1, 2 or 3`);
   if (!Array.isArray(b.q) || !b.q.length) { errors.push(`${where}: no questions`); return; }
   if (b.pyq !== undefined) {
-    if (!pyqs.has(b.pyq)) errors.push(`${where}: unknown PYQ id "${b.pyq}" (add it to mcq/pyq/registry.js)`);
-    else if (!b.pyq.includes(`-${b.p}-`)) warns.push(`${where}: PYQ ${b.pyq} belongs to a different paper than ${b.p}`);
-    else pyqs.get(b.pyq).n += b.q.length;
+    // one id, or a list of ids for a concept asked in several years
+    const list = [].concat(b.pyq);
+    if (!list.length || list.some((k) => typeof k !== 'string')) errors.push(`${where}: pyq must be an id or a non-empty list of ids`);
+    if (new Set(list).size !== list.length) errors.push(`${where}: repeated PYQ id in one block`);
+    for (const k of new Set(list)) {
+      if (!pyqs.has(k)) errors.push(`${where}: unknown PYQ id "${k}" (add it to mcq/pyq/registry.js)`);
+      else if (!k.includes(`-${b.p}-`)) errors.push(`${where}: PYQ ${k} belongs to a different paper than ${b.p}`);
+      else pyqs.get(k).n += b.q.length;
+    }
   }
   b.q.forEach((r, qi) => {
     const tag = `${where} #${qi + 1}`;
@@ -62,11 +77,14 @@ console.log(`Banks: ${banks.length} topics, ${total} questions`);
 console.log(PAPERS.map((p) => `${p}:${perPaper[p] || 0}`).join('  '));
 console.log(`Fixed-order questions: ${fixedList.length} (answer spread A-D: ${fixedAns.slice(0, 4).join('/')})`);
 if (pyqs.size) {
-  const byPaper = {};
-  for (const [id, { n }] of pyqs) { const k = id.split('-').slice(0, 3).join(' '); const g = byPaper[k] || (byPaper[k] = [0, 0, 0]); g[0]++; if (n >= PYQ_TARGET) g[1]++; g[2] += n; }
+  const byYear = process.argv.includes('--by-year'), byPaper = {};
+  for (const [id, { n }] of pyqs) {
+    const [e, y, p] = id.split('-'), k = byYear ? `${e} ${y} ${p}` : `${e} ${p}`;
+    const g = byPaper[k] || (byPaper[k] = [0, 0, 0]); g[0]++; if (n >= PYQ_TARGET) g[1]++; g[2] += n;
+  }
   const full = [...pyqs.values()].filter((x) => x.n >= PYQ_TARGET).length;
-  console.log(`PYQs: ${pyqs.size} registered, ${full} with ${PYQ_TARGET}+ MCQs`);
-  Object.keys(byPaper).sort().forEach((k) => { const [t, f, n] = byPaper[k]; console.log(`  ${k.padEnd(16)} ${String(f).padStart(3)}/${t} covered, ${n} MCQs`); });
+  console.log(`PYQs: ${pyqs.size} registered, ${full} with ${PYQ_TARGET}+ MCQs (links counted per PYQ; shared concept sets count for each)`);
+  Object.keys(byPaper).sort().forEach((k) => { const [t, f, n] = byPaper[k]; console.log(`  ${k.padEnd(16)} ${String(f).padStart(4)}/${t} covered, ${n} MCQ links`); });
   for (const [id, { n }] of pyqs) if (n && n < PYQ_TARGET) warns.push(`PYQ ${id}: only ${n} MCQs (target ${PYQ_TARGET})`);
 }
 for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js'))) if (!htmlSrc.includes(`banks/${f}`)) errors.push(`mcq/index.html does not load banks/${f}`);
