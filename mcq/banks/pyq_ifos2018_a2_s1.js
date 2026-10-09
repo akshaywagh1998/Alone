@@ -154,7 +154,7 @@
   ['Mutation breeding is best suited to:', ['Improving one or two traits in an otherwise good variety', 'Combining many traits from two parents', 'Producing F₁ hybrids', 'Making polyploids'], 0,
     'Most induced mutations are recessive and harmful, so screening must be large.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2018-A2-Q2c', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2018-A2-Q2c', 'IFoS-2022-A2-m08', 'CSE-2014-A2-m06', 'CSE-1990-A2-m07', 'CSE-2015-A2-m05', 'CSE-2004-A2-m03', 'CSE-1991-A2-m02', 'CSE-1990-A2-m08'], q: [
   ['The sugar in RNA is:', ['Ribose', 'Deoxyribose', 'Glucose', 'Fructose'], 0,
     'Deoxyribose in DNA lacks the 2′-OH group.'],
   ['The base found in RNA in place of thymine is:', ['Uracil', 'Cytosine', 'Adenine', 'Guanine'], 0,

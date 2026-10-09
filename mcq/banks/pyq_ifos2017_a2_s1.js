@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Agriculture Paper II, Q1–Q4 (verbatim PYQs; some marks illegible in source). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2017-A2-Q1a', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2017-A2-Q1a', 'CSE-2025-A2-m06'], q: [
   ['A new plant cell wall begins at cytokinesis as:', ['A cell plate formed from Golgi-derived vesicles guided by the phragmoplast', 'An outgrowth of the old wall', 'Cellulose secreted by the nucleus', 'A layer of lignin'], 0,
     'The cell plate grows outwards until it meets the parent wall.'],
   ['The cell plate develops into the:', ['Middle lamella, rich in pectin (calcium pectate)', 'Secondary wall', 'Plasma membrane', 'Cuticle'], 0,
@@ -22,7 +22,7 @@
   ['Thin areas of the primary wall with many plasmodesmata are called:', ['Primary pit fields', 'Bordered pits only', 'Lenticels', 'Stomata'], 0,
     'Pits form over them in the secondary wall.']
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2017-A2-Q1b', 'CSE-2024-A2-m14', 'IFoS-2012-A2-m21', 'CSE-2011-A2-m16', 'CSE-2009-A2-m19', 'CSE-2004-A2-m15', 'CSE-2002-A2-m12', 'IFoS-2001-A2-m15', 'CSE-1993-A2-m14', 'CSE-2014-A2-m14', 'CSE-2000-A2-m23', 'CSE-1992-A2-m23', 'IFoS-2016-A2-m17', 'CSE-2013-A2-m20', 'IFoS-2021-A2-m16', 'CSE-1990-A2-m16', 'CSE-1992-A2-m20', 'CSE-2017-A2-m14'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2017-A2-Q1b', 'CSE-2024-A2-m14', 'IFoS-2012-A2-m21', 'CSE-2011-A2-m16', 'CSE-2009-A2-m19', 'CSE-2004-A2-m15', 'CSE-2002-A2-m12', 'IFoS-2001-A2-m15', 'CSE-1993-A2-m14', 'CSE-2014-A2-m14', 'CSE-2000-A2-m23', 'CSE-1992-A2-m23', 'IFoS-2016-A2-m17', 'CSE-2013-A2-m20', 'IFoS-2021-A2-m16', 'CSE-1990-A2-m16', 'CSE-1992-A2-m20', 'CSE-2017-A2-m14', 'CSE-2022-A2-m07', 'CSE-2019-A2-m03', 'CSE-2017-A2-m05', 'CSE-2022-A2-m02', 'IFoS-2021-A2-m07', 'CSE-2003-A2-m02', 'CSE-1996-A2-m07', 'CSE-2024-A2-m06', 'CSE-2018-A2-m03', 'CSE-2011-A2-m04', 'CSE-2014-A2-m01', 'CSE-2013-A2-m01', 'IFoS-2014-A2-m06', 'IFoS-2004-A2-m14'], q: [
   ['An allopolyploid is a polyploid that:', ['Contains genomes from two or more different species', 'Has multiple copies of one genome', 'Lacks one chromosome', 'Has half the normal chromosome number'], 0,
     'Autopolyploids have extra sets of the same genome.'],
   ['A doubled interspecific hybrid that behaves like a fertile diploid is called an:', ['Amphidiploid', 'Autotriploid', 'Aneuploid', 'Haploid'], 0,
@@ -44,7 +44,7 @@
   ['The fertility of a sterile interspecific F₁ hybrid can be restored by:', ['Doubling its chromosomes with colchicine', 'Selfing it', 'Irradiating it', 'Grafting it'], 0,
     'This is how new allopolyploids are made.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2017-A2-Q1c', 'CSE-2022-A2-m12', 'IFoS-2022-A2-m16', 'CSE-2020-A2-m13', 'IFoS-2018-A2-Q1d', 'CSE-2011-A2-m14', 'IFoS-2005-A2-m21', 'CSE-1997-A2-m20', 'CSE-1997-A2-m21', 'IFoS-2018-A2-Q5c', 'IFoS-2004-A2-m19', 'IFoS-2002-A2-m11', 'CSE-1989-A2-m24'], q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2017-A2-Q1c', 'CSE-2022-A2-m12', 'IFoS-2022-A2-m16', 'CSE-2020-A2-m13', 'IFoS-2018-A2-Q1d', 'CSE-2011-A2-m14', 'IFoS-2005-A2-m21', 'CSE-1997-A2-m20', 'CSE-1997-A2-m21', 'IFoS-2018-A2-Q5c', 'IFoS-2004-A2-m19', 'IFoS-2002-A2-m11', 'CSE-1989-A2-m24', 'CSE-2025-A2-m05', 'IFoS-2019-A2-m04', 'CSE-2014-A2-m02', 'CSE-2006-A2-m03', 'CSE-1997-A2-m07', 'CSE-1992-A2-m05'], q: [
   ['The main attributes of seed quality are:', ['Genetic purity, physical purity, germination, vigour, moisture and health', 'Colour only', 'Size only', 'Price only'], 0,
     'A good seed lot must be good on all of them.'],
   ['Seed quality is usually highest when seed is harvested at:', ['Physiological maturity (maximum dry weight)', 'Flowering', 'Milk stage', 'Long after maturity in the field'], 0,
@@ -110,7 +110,7 @@
   ['Chemically induced sterility differs from cytoplasmic male sterility in that it:', ['Must be applied afresh each season and is not inherited', 'Is inherited through the mother', 'Needs a restorer line', 'Is always permanent'], 0,
     'CMS is carried in the mitochondria.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: 'IFoS-2017-A2-Q2a', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 3, pyq: ['IFoS-2017-A2-Q2a', 'IFoS-2022-A2-m07'], q: [
   ['Dominance differs from epistasis in that dominance involves:', ['Interaction between alleles at the same locus, while epistasis involves genes at different loci', 'Genes at different loci', 'Only sex chromosomes', 'Only cytoplasmic genes'], 0,
     'The masked gene in epistasis is called hypostatic.'],
   ['The term "epistasis" was introduced by:', ['William Bateson (1909)', 'Mendel', 'Morgan', 'de Vries'], 0,
@@ -132,7 +132,7 @@
   ['In epistasis, the gene whose expression is masked is called:', ['Hypostatic', 'Epistatic', 'Dominant', 'Codominant'], 0,
     'The masking gene is epistatic.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2017-A2-Q2b', 'CSE-2024-A2-m12', 'CSE-2015-A2-m18', 'CSE-2012-A2-m15', 'CSE-2025-A2-m12'], q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2017-A2-Q2b', 'CSE-2024-A2-m12', 'CSE-2015-A2-m18', 'CSE-2012-A2-m15', 'CSE-2025-A2-m12', 'CSE-2019-A2-m02'], q: [
   ['Pure live seed (PLS) is calculated as:', ['(Physical purity % × germination %) ÷ 100', 'Purity % + germination %', 'Germination % − purity %', 'Purity % ÷ germination %'], 0,
     'It gives the share of a lot that is both pure and viable.'],
   ['Sample A has 98% purity and 80% germination; sample B has 90% purity and 95% germination. Which should be recommended?', ['Sample B (PLS 85.5%, against 78.4% for A)', 'Sample A (higher purity)', 'Both are equal', 'Neither'], 0,
@@ -176,7 +176,7 @@
   ['Water is split in PSII according to the equation:', ['2H₂O → 4H⁺ + 4e⁻ + O₂', 'H₂O → H₂ + O', 'CO₂ + H₂O → sugar', '2H₂O → 2H₂ + O₂'], 0,
     'The oxygen-evolving complex catalyses it.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2017-A2-Q3a', 'IFoS-2009-A2-m08', 'IFoS-2004-A2-m22', 'IFoS-2003-A2-m21', 'CSE-1999-A2-m13', 'CSE-2007-A2-m16', 'CSE-2006-A2-m16', 'IFoS-2002-A2-m14', 'IFoS-2003-A2-m24', 'CSE-1993-A2-m26', 'CSE-1989-A2-m33', 'CSE-2022-A2-m15', 'CSE-2013-A2-m26'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 2, pyq: ['IFoS-2017-A2-Q3a', 'IFoS-2009-A2-m08', 'IFoS-2004-A2-m22', 'IFoS-2003-A2-m21', 'CSE-1999-A2-m13', 'CSE-2007-A2-m16', 'CSE-2006-A2-m16', 'IFoS-2002-A2-m14', 'IFoS-2003-A2-m24', 'CSE-1993-A2-m26', 'CSE-1989-A2-m33', 'CSE-2022-A2-m15', 'CSE-2013-A2-m26', 'CSE-2003-A2-m03'], q: [
   ['Diffusion is:', ['The net movement of molecules from a region of higher to lower concentration (chemical potential)', 'The movement of water only across a membrane', 'Active transport', 'Movement against a concentration gradient'], 0,
     'It needs no membrane.'],
   ['Osmosis is:', ['The movement of water across a selectively permeable membrane from higher to lower water potential', 'The movement of solutes only', 'Diffusion of gases in air', 'Active uptake of ions'], 0,
@@ -286,7 +286,7 @@
   ['DNA markers are not affected by:', ['Dominance and epistasis between genes', 'Their position in the genome', 'The DNA extraction method', 'PCR conditions'], 0,
     'Morphological markers can be masked by gene interactions.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2017-A2-Q4c', 'CSE-2023-A2-m14', 'CSE-2013-A2-m17', 'IFoS-2012-A2-m18', 'CSE-2010-A2-m14', 'CSE-2007-A2-m10', 'IFoS-2005-A2-m19', 'IFoS-2005-A2-m20', 'IFoS-2001-A2-m18', 'CSE-1995-A2-m09', 'CSE-1993-A2-m16', 'CSE-1991-A2-m13', 'CSE-2023-A2-m10', 'IFoS-2023-A2-m21', 'IFoS-2020-A2-m22', 'CSE-2017-A2-m15', 'CSE-2004-A2-m16', 'CSE-2004-A2-m17', 'IFoS-2006-A2-m20', 'IFoS-2004-A2-m20', 'IFoS-2014-A2-m10', 'CSE-2013-A2-m22', 'IFoS-2011-A2-m23', 'CSE-2011-A2-m18'], q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2017-A2-Q4c', 'CSE-2023-A2-m14', 'CSE-2013-A2-m17', 'IFoS-2012-A2-m18', 'CSE-2010-A2-m14', 'CSE-2007-A2-m10', 'IFoS-2005-A2-m19', 'IFoS-2005-A2-m20', 'IFoS-2001-A2-m18', 'CSE-1995-A2-m09', 'CSE-1993-A2-m16', 'CSE-1991-A2-m13', 'CSE-2023-A2-m10', 'IFoS-2023-A2-m21', 'IFoS-2020-A2-m22', 'CSE-2017-A2-m15', 'CSE-2004-A2-m16', 'CSE-2004-A2-m17', 'IFoS-2006-A2-m20', 'IFoS-2004-A2-m20', 'IFoS-2014-A2-m10', 'CSE-2013-A2-m22', 'IFoS-2011-A2-m23', 'CSE-2011-A2-m18', 'IFoS-2020-A2-m13'], q: [
   ['Seed quality in India is regulated mainly under:', ['The Seeds Act, 1966 and the Seeds Rules, 1968', 'The Insecticides Act, 1968', 'The Patents Act', 'The Forest Act'], 0,
     'The Seed (Control) Order, 1983 adds licensing of dealers.'],
   ['Seed certification in India is:', ['Voluntary, while truthful labelling of notified kinds is compulsory', 'Compulsory for all seed', 'Banned', 'Done only by private firms'], 0,

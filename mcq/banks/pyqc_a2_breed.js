@@ -22,7 +22,7 @@
   ['Variation within a pure line is:', ['Environmental, not genetic', 'Mostly genetic', 'Due to mutation only', 'Due to crossing'], 0,
     'So selecting within it does not change the next generation.']
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 2, pyq: ['CSE-2020-A2-m12', 'CSE-2018-A2-m12', 'CSE-2010-A2-m11', 'CSE-2006-A2-m11', 'CSE-2002-A2-m10', 'IFoS-2001-A2-m13', 'CSE-2001-A2-m19', 'CSE-2021-A2-m14', 'IFoS-2021-A2-m15', 'CSE-1992-A2-m25', 'CSE-2003-A2-m15', 'CSE-2014-A2-m17'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 2, pyq: ['CSE-2020-A2-m12', 'CSE-2018-A2-m12', 'CSE-2010-A2-m11', 'CSE-2006-A2-m11', 'CSE-2002-A2-m10', 'IFoS-2001-A2-m13', 'CSE-2001-A2-m19', 'CSE-2021-A2-m14', 'IFoS-2021-A2-m15', 'CSE-1992-A2-m25', 'CSE-2003-A2-m15', 'CSE-2014-A2-m17', 'CSE-2013-A2-m06', 'IFoS-2012-A2-m11', 'CSE-2016-A2-m03', 'CSE-2013-A2-m03'], q: [
   ['Self-incompatibility is:', ['The failure of a fertile plant to set seed with its own pollen', 'Male sterility', 'Failure to flower', 'Inability to germinate'], 0,
     'It promotes outcrossing.'],
   ['Gametophytic self-incompatibility, as in *Nicotiana*, is characterised by:', ['Pollen tube arrest in the style, controlled by the pollen\'s own S allele', 'Inhibition on the stigma surface', 'Dominance among S alleles in pollen', 'Different flower forms'], 0,
@@ -44,7 +44,7 @@
   ['In angiosperms, pollination differs from fertilisation in that pollination is:', ['Transfer of pollen to the stigma, while fertilisation is fusion of gametes', 'Fusion of gametes', 'Seed formation', 'Germination'], 0,
     'Double fertilisation follows pollen-tube growth.']
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2019-A2-m16', 'IFoS-2015-A2-m17', 'IFoS-2013-A2-m19', 'CSE-2007-A2-m14', 'CSE-2005-A2-m11', 'CSE-1995-A2-m13', 'IFoS-2020-A2-m21', 'IFoS-2019-A2-m14', 'IFoS-2022-A2-m20', 'CSE-2010-A2-m12', 'IFoS-2024-A2-m20', 'CSE-2023-A2-m12', 'CSE-2001-A2-m21', 'CSE-1993-A2-m19', 'CSE-1989-A2-m25', 'CSE-2017-A2-m18', 'CSE-2010-A2-m10', 'CSE-2003-A2-m12', 'IFoS-2024-A2-m19'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2019-A2-m16', 'IFoS-2015-A2-m17', 'IFoS-2013-A2-m19', 'CSE-2007-A2-m14', 'CSE-2005-A2-m11', 'CSE-1995-A2-m13', 'IFoS-2020-A2-m21', 'IFoS-2019-A2-m14', 'IFoS-2022-A2-m20', 'CSE-2010-A2-m12', 'IFoS-2024-A2-m20', 'CSE-2023-A2-m12', 'CSE-2001-A2-m21', 'CSE-1993-A2-m19', 'CSE-1989-A2-m25', 'CSE-2017-A2-m18', 'CSE-2010-A2-m10', 'CSE-2003-A2-m12', 'IFoS-2024-A2-m19', 'IFoS-2015-A2-m11', 'CSE-2012-A2-m04', 'CSE-2000-A2-m05', 'IFoS-2016-A2-m11'], q: [
   ['The backcross method is used mainly to:', ['Transfer one or a few genes, such as disease resistance, into an adapted variety', 'Combine many quantitative traits from two poor parents', 'Create mutants', 'Produce haploids'], 0,
     'It was proposed by Harlan and Pope (1922).'],
   ['After the fourth backcross (BC₄), the recurrent parent genome recovered is about:', ['96.9%', '75%', '50%', '87.5%'], 0,
@@ -66,7 +66,7 @@
   ['Systemic acquired resistance is:', ['Whole-plant resistance induced after a local infection, signalled by salicylic acid', 'Resistance inherited from a mutant', 'Resistance from pesticides', 'Resistance only in roots'], 0,
     'It is broad-spectrum and long-lasting.']
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2023-A2-m22', 'IFoS-2022-A2-m19', 'CSE-2014-A2-m18', 'IFoS-2013-A2-m16', 'CSE-2003-A2-m16', 'CSE-2000-A2-m24', 'CSE-2010-A2-m13', 'CSE-2020-A2-m11', 'IFoS-2006-A2-m16', 'CSE-1997-A2-m19', 'CSE-1992-A2-m21', 'IFoS-2006-A2-m19', 'IFoS-2001-A2-m14', 'CSE-1989-A2-m19', 'CSE-2009-A2-m18'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2023-A2-m22', 'IFoS-2022-A2-m19', 'CSE-2014-A2-m18', 'IFoS-2013-A2-m16', 'CSE-2003-A2-m16', 'CSE-2000-A2-m24', 'CSE-2010-A2-m13', 'CSE-2020-A2-m11', 'IFoS-2006-A2-m16', 'CSE-1997-A2-m19', 'CSE-1992-A2-m21', 'IFoS-2006-A2-m19', 'IFoS-2001-A2-m14', 'CSE-1989-A2-m19', 'CSE-2009-A2-m18', 'CSE-2016-A2-m02'], q: [
   ['General combining ability (GCA) reflects mainly:', ['Additive gene action — the average performance of a line in crosses', 'Dominance only', 'Epistasis only', 'Cytoplasmic effects'], 0,
     'SCA reflects non-additive action in specific crosses (Sprague and Tatum, 1942).'],
   ['Recurrent selection for SCA uses as tester:', ['An inbred line', 'A broad-based variety', 'A wild relative', 'A mutant'], 0,
@@ -110,7 +110,7 @@
   ['An international organisation that coordinates crop research centres is:', ['CGIAR', 'WTO', 'UNICEF', 'WHO'], 0,
     'Its centres include IRRI, CIMMYT and ICRISAT.']
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2025-A2-m15', 'CSE-2019-A2-m14', 'CSE-2006-A2-m15', 'CSE-2024-A2-m13', 'IFoS-2019-A2-m13', 'CSE-2002-A2-m15', 'CSE-1996-A2-m14', 'IFoS-2019-A2-m12', 'CSE-2024-A2-m11', 'IFoS-2022-A2-m23', 'IFoS-2004-A2-m18', 'CSE-2025-A2-m13'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['CSE-2025-A2-m15', 'CSE-2019-A2-m14', 'CSE-2006-A2-m15', 'CSE-2024-A2-m13', 'IFoS-2019-A2-m13', 'CSE-2002-A2-m15', 'CSE-1996-A2-m14', 'IFoS-2019-A2-m12', 'CSE-2024-A2-m11', 'IFoS-2022-A2-m23', 'IFoS-2004-A2-m18', 'CSE-2025-A2-m13', 'CSE-2002-A2-m04'], q: [
   ['In the pedigree method:', ['Individual plants are selected from F₂ onwards and records of ancestry are kept', 'F₂–F₅ are grown in bulk', 'Only one seed per plant is advanced', 'No selection is done'], 0,
     'It suits traits that are easy to see; record keeping is laborious.'],
   ['In the bulk method (Nilsson-Ehle), the early segregating generations are:', ['Grown as a bulk, with selection delayed to later generations', 'Selected plant by plant', 'Backcrossed', 'Mutated'], 0,

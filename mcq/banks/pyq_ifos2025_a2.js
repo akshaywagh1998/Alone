@@ -66,7 +66,7 @@
   ['Transpiration efficiency (dry matter produced per unit water transpired) is improved by:', ['Traits that raise photosynthesis relative to water loss, such as C₄ photosynthesis', 'Wide-open stomata at noon', 'High leaf temperature', 'Thin cuticles'], 0,
     'Carbon isotope discrimination is used to select for it in wheat and groundnut.'],
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2025-A2-Q1d', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2025-A2-Q1d', 'CSE-2021-A2-m03', 'IFoS-2020-A2-m08', 'IFoS-2018-A2-Q1a', 'CSE-2017-A2-m01', 'CSE-2015-A2-m07', 'CSE-1997-A2-m11', 'CSE-1996-A2-m06', 'CSE-2025-A2-m03'], q: [
   ['In secondary cell walls, the thickest layer is usually:', ['S2', 'S1', 'S3', 'The primary wall'], 0,
     'S2 largely determines the strength of wood fibres.'],
   ['Plasmodesmata contain a central tube derived from ER called the:', ['Desmotubule', 'Microtubule', 'Tonoplast', 'Phragmoplast'], 0,
@@ -88,7 +88,7 @@
   ['Chromoplasts give colour to:', ['Ripe fruits and flower petals (e.g., tomato, carrot, marigold)', 'Roots of all plants', 'Seeds only', 'Leaves only'], 0,
     'They accumulate carotenoids such as lycopene and β-carotene.'],
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: ['IFoS-2025-A2-Q1e', 'CSE-2025-A2-m11', 'CSE-2021-A2-m11', 'IFoS-2019-A2-m11', 'CSE-2018-A2-m08', 'CSE-2017-A2-m17', 'CSE-2013-A2-m18', 'CSE-2004-A2-m11', 'IFoS-2006-A2-m18', 'CSE-2023-A2-m09', 'CSE-2002-A2-m13', 'CSE-1991-A2-m17', 'CSE-1990-A2-m17'], q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 2, pyq: ['IFoS-2025-A2-Q1e', 'CSE-2025-A2-m11', 'CSE-2021-A2-m11', 'IFoS-2019-A2-m11', 'CSE-2018-A2-m08', 'CSE-2017-A2-m17', 'CSE-2013-A2-m18', 'CSE-2004-A2-m11', 'IFoS-2006-A2-m18', 'CSE-2023-A2-m09', 'CSE-2002-A2-m13', 'CSE-1991-A2-m17', 'CSE-1990-A2-m17', 'CSE-2012-A2-m03', 'IFoS-2020-A2-m10', 'IFoS-2010-A2-m07', 'IFoS-2021-A2-m06', 'IFoS-2020-A2-m09', 'CSE-1998-A2-m04', 'CSE-2012-A2-m05', 'CSE-2004-A2-m04'], q: [
   ['India’s first maize hybrids were released in:', ['1961', '1947', '1985', '2001'], 0,
     'E.g., Ganga 1, Ganga 101, Ranjit and Deccan — double-cross hybrids.'],
   ['India’s first sorghum hybrid, CSH 1, was released in:', ['1964', '1990', '1950', '2005'], 0,
@@ -110,7 +110,7 @@
   ['Farmers must buy hybrid seed every season because:', ['F₂ plants segregate and lose the uniformity and vigour of the F₁', 'Hybrid seed cannot germinate', 'Hybrids are sterile', 'It is required by law'], 0,
     'Apomixis research aims to fix hybrid vigour.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2025-A2-Q2a', 'CSE-2023-A2-m11', 'IFoS-2023-A2-m24', 'CSE-1999-A2-m11'], q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2025-A2-Q2a', 'CSE-2023-A2-m11', 'IFoS-2023-A2-m24', 'CSE-1999-A2-m11', 'CSE-2022-A2-m05', 'CSE-2017-A2-m06', 'CSE-2005-A2-m02', 'CSE-1997-A2-m09', 'CSE-1993-A2-m07', 'CSE-1992-A2-m04'], q: [
   ['Mendel’s laws were rediscovered in 1900 by:', ['de Vries, Correns and von Tschermak', 'Darwin and Wallace', 'Morgan and Sturtevant', 'Watson and Crick'], 0,
     'Mendel had published in 1866.'],
   ['The "Vilmorin isolation principle" (1856), testing single plants by their progeny, was used in:', ['Sugar beet', 'Wheat', 'Rice', 'Maize'], 0,
@@ -132,7 +132,7 @@
   ['Genetic engineering differs from conventional breeding mainly in that it can:', ['Transfer genes across species barriers', 'Use only crossing', 'Only select existing plants', 'Never change DNA'], 0,
     'Genome editing now allows precise changes without foreign DNA.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'IFoS-2025-A2-Q2b', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2025-A2-Q2b', 'CSE-2024-A2-m05', 'IFoS-2023-A2-m11', 'IFoS-2020-A2-m12', 'CSE-2019-A2-m04', 'CSE-2017-A2-m02', 'CSE-2015-A2-m04', 'CSE-2015-A2-m06', 'IFoS-2012-A2-m12', 'IFoS-2010-A2-m09', 'CSE-2001-A2-m03', 'CSE-2000-A2-m10', 'CSE-1993-A2-m06', 'IFoS-2011-A2-m15'], q: [
   ['NBPGR, India’s national agency for plant genetic resources, was established in:', ['1976', '1905', '1947', '2002'], 0,
     'It handles exploration, introduction, quarantine and conservation.'],
   ['"Base collections" in a gene bank are:', ['Long-term collections stored at about −18 °C, not used for routine distribution', 'Working collections used by breeders daily', 'Field plantings', 'Herbarium sheets'], 0,
@@ -176,7 +176,7 @@
   ['Which is a C₃ crop?', ['Groundnut', 'Sugarcane', 'Sorghum', 'Maize'], 0,
     'Most pulses, oilseeds, cotton and potato are C₃.'],
 ] },
-{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: 'IFoS-2025-A2-Q3a', q: [
+{ p: 'A2', t: 'Plant Breeding Methods', w: 3, pyq: ['IFoS-2025-A2-Q3a', 'CSE-2021-A2-m01', 'IFoS-2013-A2-m14'], q: [
   ['The gene pool concept (primary, secondary and tertiary gene pools) was proposed by:', ['Harlan and de Wet (1971)', 'Vavilov (1926)', 'Frankel and Brown (1984)', 'Johannsen (1903)'], 0,
     'It classifies relatives by ease of crossing with the crop.'],
   ['The primary gene pool (GP-1) includes:', ['Forms that cross easily with the crop and give fertile hybrids', 'Only distantly related genera', 'Organisms that cannot cross at all', 'Only transgenic sources'], 0,
@@ -198,7 +198,7 @@
   ['The gene pool concept guides germplasm work by showing:', ['How easily useful genes can be transferred from each group of relatives', 'The price of seed', 'Which fertiliser to use', 'Where to sell produce'], 0,
     'It helps set collection and conservation priorities.'],
 ] },
-{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: 'IFoS-2025-A2-Q3b', q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2025-A2-Q3b', 'IFoS-2020-A2-m14', 'CSE-2019-A2-m07', 'CSE-2016-A2-m06', 'CSE-1992-A2-m06'], q: [
   ['Multiline varieties, first proposed by Jensen and Borlaug, are:', ['Mixtures of near-isogenic lines carrying different resistance genes', 'Single pure lines', 'Hybrids', 'Mutants'], 0,
     'They slow epidemics by diluting susceptible tissue.'],
   ['KML 7406, released in India in 1981, is a:', ['Multiline wheat variety', 'Hybrid maize', 'Bt cotton', 'Rice mutant'], 0,
@@ -220,7 +220,7 @@
   ['Brown planthopper resistance in rice is controlled by several *Bph* genes, with donors such as:', ['PTB 33 and other traditional varieties', 'IR8 only', 'Wheat varieties', 'Maize inbreds'], 0,
     'New biotypes can overcome single genes, so multiple genes are combined.'],
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2025-A2-Q3c', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2025-A2-Q3c', 'IFoS-2021-A2-m05', 'CSE-2019-A2-m06', 'IFoS-2018-A2-Q1b', 'CSE-2018-A2-m02', 'CSE-2016-A2-m01', 'CSE-2015-A2-m08', 'CSE-2006-A2-m04', 'CSE-1998-A2-m02', 'CSE-1997-A2-m06', 'CSE-2023-A2-m03', 'CSE-1994-A2-m03', 'CSE-1994-A2-m01', 'CSE-1994-A2-m02', 'CSE-2000-A2-m03', 'CSE-2003-A2-m01'], q: [
   ['Incomplete dominance is shown by flower colour in *Mirabilis jalapa*, where red × white gives:', ['Pink F₁ and a 1 : 2 : 1 F₂ ratio', 'Red F₁ and 3 : 1 F₂', 'White F₁ only', 'Red and white spots on the same flower'], 0,
     'The heterozygote is intermediate, so phenotype and genotype ratios match.'],
   ['Codominance is seen in:', ['The AB blood group in humans, where both A and B antigens are expressed', 'Pink flowers of *Mirabilis*', 'Tall pea plants', 'Seed shape in pea'], 0,
@@ -242,7 +242,7 @@
   ['In complete dominance, a monohybrid F₂ gives a genotypic ratio of:', ['1 : 2 : 1', '3 : 1', '9 : 3 : 3 : 1', '1 : 1'], 0,
     'The phenotypic ratio is 3 : 1.'],
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2025-A2-Q4a', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2025-A2-Q4a', 'CSE-2023-A2-m04', 'CSE-2017-A2-m04', 'CSE-2013-A2-m02', 'IFoS-2010-A2-m08', 'CSE-2001-A2-m02', 'CSE-1990-A2-m09', 'CSE-2000-A2-m06', 'CSE-1995-A2-m05', 'CSE-2011-A2-m03', 'CSE-2020-A2-m05'], q: [
   ['Polygenic (quantitative) inheritance of wheat kernel colour was demonstrated by:', ['Nilsson-Ehle', 'Mendel', 'Morgan', 'Correns'], 0,
     'With two gene pairs, the F₂ shows a 1 : 4 : 6 : 4 : 1 ratio of colour classes.'],
   ['If 1/64 of F₂ plants resemble one extreme parent in a polygenic trait, the number of gene pairs is:', ['3', '2', '4', '6'], 0,
@@ -286,7 +286,7 @@
   ['Border rows of the male parent around a hybrid seed plot help by:', ['Adding pollen and trapping stray foreign pollen', 'Reducing yield', 'Attracting pests', 'Shading the field'], 0,
     'They can be used to reduce the isolation distance needed in some crops.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'IFoS-2025-A2-Q4c', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q4c', 'CSE-2024-A2-m07', 'IFoS-2024-A2-m11', 'CSE-2021-A2-m04', 'CSE-2020-A2-m05', 'IFoS-2020-A2-m11', 'IFoS-2018-A2-Q3d', 'CSE-2014-A2-m04', 'IFoS-2014-A2-m07', 'IFoS-2004-A2-m13', 'CSE-1997-A2-m08', 'CSE-1991-A2-m01', 'CSE-2016-A2-m05', 'IFoS-2013-A2-m13', 'CSE-2000-A2-m09'], q: [
   ['Cytoplasmic male sterility in onion (S cytoplasm) was discovered by Jones and Clarke in the variety:', ['Italian Red', 'Pusa Red', 'Nasik Red', 'Bellary Red'], 0,
     'It made commercial hybrid onions possible (1943).'],
   ['In carrot, a widely used male sterility is the:', ['Petaloid CMS, where stamens turn into petal-like structures', 'Ogura CMS', 'Tift 23A', 'WA'], 0,
@@ -308,7 +308,7 @@
   ['A marker gene linked to a male-sterility gene helps seed producers by:', ['Identifying sterile plants early, before flowering', 'Increasing yield', 'Removing sterility', 'Changing flower colour permanently'], 0,
     'Seedling markers save the labour of rogueing fertile plants later.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q5a', 'IFoS-2020-A2-m16', 'IFoS-2021-A2-m14', 'CSE-2007-A2-m04', 'IFoS-2019-A2-m08', 'CSE-2017-A2-m10', 'CSE-2021-A2-m07', 'CSE-2019-A2-m10'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q5a', 'IFoS-2020-A2-m16', 'IFoS-2021-A2-m14', 'CSE-2007-A2-m04', 'IFoS-2019-A2-m08', 'CSE-2017-A2-m10', 'CSE-2021-A2-m07', 'CSE-2019-A2-m10', 'CSE-2014-A2-m09'], q: [
   ['A plug-tray nursery raises seedlings in:', ['Individual cells of trays filled with soilless media', 'Open soil beds', 'Water only', 'Plastic bags filled with clay'], 0,
     'Each seedling gets its own root plug.'],
   ['A common medium for plug trays is a mixture of cocopeat, vermiculite and perlite in the ratio:', ['3 : 1 : 1', '1 : 3 : 3', '1 : 1 : 5', '5 : 0 : 0'], 0,
@@ -374,7 +374,7 @@
   ['Drying pulses well before storage helps mainly because it:', ['Keeps moisture too low for storage fungi and insects to thrive', 'Increases seed size', 'Adds protein', 'Kills all bacteria permanently'], 0,
     'Proper drying is the cheapest protection.'],
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: 'IFoS-2025-A2-Q5d', q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2025-A2-Q5d', 'CSE-2004-A2-m05'], q: [
   ['Botulinum toxin, the most potent known toxin, is produced by:', ['*Clostridium botulinum*, especially in improperly canned foods', '*Staphylococcus aureus*', '*Bacillus cereus*', '*Aspergillus flavus*'], 0,
     'It is a neurotoxin; proper canning (heat) destroys the spores.'],
   ['Food poisoning from *Staphylococcus aureus* is difficult to prevent by reheating because its enterotoxin is:', ['Heat-stable', 'Destroyed at 40 °C', 'Only present in raw vegetables', 'A virus'], 0,

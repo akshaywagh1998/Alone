@@ -44,7 +44,7 @@
   ['Papain is obtained from:', ['The latex of unripe papaya fruits', 'Papaya seeds', 'Ripe pulp', 'Leaves only'], 0,
     'Papaya ring spot virus is the major disease, spread by aphids.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2021-A2-m10', 'CSE-2011-A2-m08', 'CSE-2013-A2-m13', 'CSE-1995-A2-m08', 'CSE-2018-A2-m06', 'IFoS-2004-A2-m15', 'CSE-2025-A2-m07', 'CSE-2016-A2-m09', 'IFoS-2003-A2-m09', 'CSE-1998-A2-m08', 'CSE-2010-A2-m02', 'CSE-1993-A2-m11', 'CSE-2001-A2-m17', 'CSE-2011-A2-m07', 'CSE-1990-A2-m12', 'CSE-2023-A2-m13'], q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2021-A2-m10', 'CSE-2011-A2-m08', 'CSE-2013-A2-m13', 'CSE-1995-A2-m08', 'CSE-2018-A2-m06', 'IFoS-2004-A2-m15', 'CSE-2025-A2-m07', 'CSE-2016-A2-m09', 'IFoS-2003-A2-m09', 'CSE-1998-A2-m08', 'CSE-2010-A2-m02', 'CSE-1993-A2-m11', 'CSE-2001-A2-m17', 'CSE-2011-A2-m07', 'CSE-1990-A2-m12', 'CSE-2023-A2-m13', 'CSE-1998-A2-m03'], q: [
   ['Fruit plants are usually propagated vegetatively because:', ['Seedlings are not true to type and take longer to bear', 'Seeds never germinate', 'It is cheaper always', 'Vegetative plants never get disease'], 0,
     'Rootstocks also add vigour control and soil or disease tolerance.'],
   ['Air layering (gootee) is the usual method for:', ['Litchi', 'Mango', 'Citrus', 'Apple'], 0,
