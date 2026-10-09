@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Gymnosperms & palaeobotany. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2025-B1-m03', 'CSE-2012-B1-m19', 'IFoS-2007-B1-m17', 'IFoS-2007-B1-m18', 'CSE-2005-B1-m17', 'CSE-2005-B1-m18', 'CSE-2013-B1-m12', 'CSE-1987-B1-m16', 'CSE-1999-B1-m14', 'CSE-1995-B1-m25', 'IFoS-2010-B1-m32', 'CSE-2025-B1-m28', 'CSE-1992-B1-m02', 'CSE-2023-B1-m02', 'CSE-1993-B1-m29'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2025-B1-m03', 'CSE-2012-B1-m19', 'IFoS-2007-B1-m17', 'IFoS-2007-B1-m18', 'CSE-2005-B1-m17', 'CSE-2005-B1-m18', 'CSE-2013-B1-m12', 'CSE-1987-B1-m16', 'CSE-1999-B1-m14', 'CSE-1995-B1-m25', 'IFoS-2010-B1-m32', 'CSE-2025-B1-m28', 'CSE-1992-B1-m02', 'CSE-2023-B1-m02', 'CSE-1993-B1-m29', 'CSE-1991-B1-m21'], q: [
   ['In female plants of *Cycas*, megasporophylls:', ['Form a loose rosette at the stem apex and do not make a compact cone', 'Form a compact woody cone', 'Arise singly in leaf axils', 'Are borne on dwarf shoots'], 0,
     'The apex grows on through them; male plants bear a large compact cone.'],
   ['The megasporophyll of *Cycas revoluta* differs from that of *C. circinalis* in having a lamina that is:', ['Deeply pinnately divided and densely hairy', 'Only toothed', 'Entire and glabrous', 'Absent'], 0,
@@ -22,7 +22,7 @@
   ['*Cycas beddomei*, an endemic Indian cycad, is found in:', ['The Seshachalam–Tirumala hills of Andhra Pradesh', 'The Andaman Islands', 'Kashmir', 'The Thar desert'], 0,
     '*Cycas* is the only native cycad genus in India; *C. circinalis* is in the Western Ghats.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2013-B1-m30', 'CSE-2012-B1-m18', 'CSE-1992-B1-m26', 'IFoS-2014-B1-m21', 'IFoS-2012-B1-m39', 'IFoS-2003-B1-m21', 'IFoS-2014-B1-m24', 'CSE-2024-B1-m21', 'CSE-2018-B1-m15', 'IFoS-2022-B1-m15', 'CSE-1989-B1-m24'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2013-B1-m30', 'CSE-2012-B1-m18', 'CSE-1992-B1-m26', 'IFoS-2014-B1-m21', 'IFoS-2012-B1-m39', 'IFoS-2003-B1-m21', 'IFoS-2014-B1-m24', 'CSE-2024-B1-m21', 'CSE-2018-B1-m15', 'IFoS-2022-B1-m15', 'CSE-1989-B1-m24', 'CSE-1992-B1-m34'], q: [
   ['In *Pinus*, the dwarf (spur) shoot:', ['Has limited growth and bears the needles, with scale leaves at its base', 'Has unlimited growth and bears only needles', 'Bears the female cones only', 'Is underground'], 0,
     'Long shoots have unlimited growth and bear only scale leaves.'],
   ['Needles occur in clusters of five in:', ['*Pinus wallichiana* (blue pine)', '*Pinus roxburghii* (chir pine)', '*Pinus monophylla*', '*Pinus sylvestris*'], 0,
@@ -44,7 +44,7 @@
   ['In *Pinus*, the male cones occur:', ['In clusters at the base of the current year\'s long shoot', 'Singly at the stem apex', 'On the roots', 'Inside the female cone'], 0,
     'Each microsporophyll bears two microsporangia on its lower surface.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2010-B1-m30', 'CSE-1989-B1-m27', 'IFoS-2019-B1-m14', 'CSE-2019-B1-m19', 'IFoS-2014-B1-m22', 'IFoS-2021-B1-m18', 'IFoS-2016-B1-m13', 'CSE-2010-B1-m22', 'CSE-1994-B1-m25', 'CSE-1995-B1-m26', 'CSE-1996-B1-m21', 'IFoS-2011-B1-m23', 'IFoS-2002-B1-m19', 'CSE-2025-B1-m19', 'CSE-2017-B1-m14', 'CSE-1996-B1-m23', 'CSE-2010-B1-m23', 'CSE-1995-B1-m24', 'IFoS-2023-B1-m16', 'CSE-1985-B1-m24', 'CSE-2003-B1-m15', 'CSE-2023-B1-m06', 'IFoS-2024-B1-m03', 'IFoS-2015-B1-m01', 'CSE-2014-B1-m06', 'CSE-2009-B1-m11'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2010-B1-m30', 'CSE-1989-B1-m27', 'IFoS-2019-B1-m14', 'CSE-2019-B1-m19', 'IFoS-2014-B1-m22', 'IFoS-2021-B1-m18', 'IFoS-2016-B1-m13', 'CSE-2010-B1-m22', 'CSE-1994-B1-m25', 'CSE-1995-B1-m26', 'CSE-1996-B1-m21', 'IFoS-2011-B1-m23', 'IFoS-2002-B1-m19', 'CSE-2025-B1-m19', 'CSE-2017-B1-m14', 'CSE-1996-B1-m23', 'CSE-2010-B1-m23', 'CSE-1995-B1-m24', 'IFoS-2023-B1-m16', 'CSE-1985-B1-m24', 'CSE-2003-B1-m15', 'CSE-2023-B1-m06', 'IFoS-2024-B1-m03', 'IFoS-2015-B1-m01', 'CSE-2014-B1-m06', 'CSE-2009-B1-m11', 'CSE-1990-B1-m31'], q: [
   ['Which feature of *Gnetum* resembles angiosperms?', ['Vessels in the secondary xylem', 'Naked ovules', 'Haploid endosperm', 'Absence of fruit'], 0,
     'Others: broad net-veined leaves, perianth-like envelopes and no archegonia.'],
   ['Vessels of *Gnetum* are thought to have evolved independently of angiosperm vessels because they:', ['Arise from tracheids with circular bordered pits and have foraminate perforations', 'Have scalariform perforation plates like primitive angiosperms', 'Lack end walls', 'Are made of sieve cells'], 0,
@@ -110,7 +110,7 @@
   ['In *Ginkgo*, the embryo may develop after the ovule has fallen because:', ['Fertilisation can happen late, around the time ovules are shed', 'It has no embryo', 'Seeds are dormant for years', 'It is apomictic'], 0,
     'Seeds have little or no dormancy.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2023-B1-m15', 'CSE-2021-B1-m20', 'CSE-2018-B1-m17', 'CSE-2004-B1-m14', 'IFoS-2014-B1-m23', 'CSE-2021-B1-m19', 'CSE-2015-B1-m17', 'IFoS-2022-B1-m14', 'CSE-2009-B1-m21', 'CSE-2018-B1-m16', 'CSE-2014-B1-m19', 'IFoS-2004-B1-m20', 'CSE-2024-B1-m19', 'CSE-2023-B1-m03', 'CSE-2002-B1-m05', 'CSE-1988-B1-m05'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2023-B1-m15', 'CSE-2021-B1-m20', 'CSE-2018-B1-m17', 'CSE-2004-B1-m14', 'IFoS-2014-B1-m23', 'CSE-2021-B1-m19', 'CSE-2015-B1-m17', 'IFoS-2022-B1-m14', 'CSE-2009-B1-m21', 'CSE-2018-B1-m16', 'CSE-2014-B1-m19', 'IFoS-2004-B1-m20', 'CSE-2024-B1-m19', 'CSE-2023-B1-m03', 'CSE-2002-B1-m05', 'CSE-1988-B1-m05', 'IFoS-2007-B1-m02', 'IFoS-2000-B1-m04', 'IFoS-2011-B1-m03', 'IFoS-2021-B1-m15', 'IFoS-2000-B1-m17', 'CSE-2010-B1-m18', 'IFoS-2007-B1-m12'], q: [
   ['Cordaitales were:', ['Tall Carboniferous trees with long, strap-shaped, parallel-veined leaves', 'Small herbs of the Cenozoic', 'Mesozoic cycads', 'Aquatic ferns'], 0,
     'Their pith had transverse septa — casts called *Artisia*.'],
   ['The fertile shoots of Cordaitales (*Cordaianthus*) are:', ['Compound strobili with bracts subtending short shoots that bear scales and ovules or pollen sacs', 'Simple cones of sporophylls', 'Flowers with petals', 'Sporocarps'], 0,
@@ -132,7 +132,7 @@
   ['Progymnosperms are significant because they show:', ['That gymnosperm-type wood evolved before the seed', 'That flowers evolved before seeds', 'That mosses gave rise to ferns', 'That seeds evolved in algae'], 0,
     'Beck (1960) named the group.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2014-B1-m18', 'IFoS-2020-B1-m17', 'CSE-1989-B1-m26', 'CSE-2023-B1-m19', 'CSE-2006-B1-m22'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2014-B1-m18', 'IFoS-2020-B1-m17', 'CSE-1989-B1-m26', 'CSE-2023-B1-m19', 'CSE-2006-B1-m22', 'CSE-1989-B1-m37'], q: [
   ['A petrifaction forms when:', ['Minerals such as silica or calcite infiltrate and replace tissues, preserving internal anatomy', 'A plant leaves only an imprint in mud', 'A plant is preserved in ice', 'Carbon film is left after compression'], 0,
     'Petrifactions let botanists section fossils like living tissue.'],
   ['An impression fossil preserves:', ['Only the surface outline, without plant matter', 'Internal cells', 'The whole 3-D organ in silica', 'DNA'], 0,
@@ -176,7 +176,7 @@
   ['The gymnosperm group most important economically for timber, pulp and resin is:', ['Conifers', 'Cycads', 'Gnetales', 'Ginkgo'], 0,
     'Pines, firs and spruces supply softwood worldwide.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-m05', 'IFoS-2003-B1-m21', 'CSE-1994-B1-m26', 'IFoS-2005-B1-m23'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-m05', 'IFoS-2003-B1-m21', 'CSE-1994-B1-m26', 'IFoS-2005-B1-m23', 'IFoS-2013-B1-m06', 'CSE-2005-B1-m04'], q: [
   ['Manoxylic wood, as in *Cycas*, is:', ['Loose and soft, with much parenchyma and broad rays', 'Compact with narrow rays', 'Porous with vessels', 'Made only of fibres'], 0,
     'Pycnoxylic wood (*Pinus*) is compact, with little parenchyma and narrow rays.'],
   ['In a radial longitudinal section of *Pinus* wood, one sees:', ['Bordered pits on tracheid walls and rays running across as bands', 'Rays as spindle-shaped groups', 'Vessels with perforation plates', 'Annual rings as circles'], 0,

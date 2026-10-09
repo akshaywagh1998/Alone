@@ -132,7 +132,7 @@
   ['Karnal bunt (partial bunt) of wheat is caused by:', ['*Tilletia indica* (*Neovossia indica*)', '*Ustilago segetum* var. *tritici*', '*Puccinia striiformis*', '*Urocystis agropyri*'], 0,
     'Only part of the grain is converted to a black, fishy-smelling spore mass.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2018-B1-Q2b', 'CSE-2023-B1-m28', 'CSE-2007-B1-m24', 'IFoS-2004-B1-m25', 'CSE-2003-B1-m21', 'CSE-1999-B1-m21', 'IFoS-2021-B1-m28', 'CSE-2020-B1-m27', 'IFoS-2020-B1-m26', 'CSE-2021-B1-m28', 'CSE-2006-B1-m24', 'CSE-2017-B1-m22', 'IFoS-2005-B1-m25', 'CSE-2013-B1-m21', 'CSE-1997-B1-m22', 'CSE-1997-B1-m23', 'CSE-1997-B1-m24', 'CSE-1997-B1-m25'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2018-B1-Q2b', 'CSE-2023-B1-m28', 'CSE-2007-B1-m24', 'IFoS-2004-B1-m25', 'CSE-2003-B1-m21', 'CSE-1999-B1-m21', 'IFoS-2021-B1-m28', 'CSE-2020-B1-m27', 'IFoS-2020-B1-m26', 'CSE-2021-B1-m28', 'CSE-2006-B1-m24', 'CSE-2017-B1-m22', 'IFoS-2005-B1-m25', 'CSE-2013-B1-m21', 'CSE-1997-B1-m22', 'CSE-1997-B1-m23', 'CSE-1997-B1-m24', 'CSE-1997-B1-m25', 'IFoS-2012-B1-m24', 'IFoS-2006-B1-m13'], q: [
   ['The most primitive type of stele is the:', ['Protostele (haplostele)', 'Siphonostele', 'Dictyostele', 'Eustele'], 0,
     'A solid core of xylem surrounded by phloem, as in *Rhynia*.'],
   ['An actinostele, with star-shaped xylem, is found in the stem of:', ['*Psilotum*', '*Pteris*', '*Marsilea*', '*Osmunda*'], 0,
@@ -264,7 +264,7 @@
   ['At pollination in *Pinus*, pollen enters the ovule by:', ['A pollination drop secreted at the micropyle', 'Nectar from the ovuliferous scale', 'Resin from the bract', 'Insect visits'], 0,
     'The drop is withdrawn, drawing the pollen onto the nucellus.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2018-B1-Q4b', 'IFoS-2023-B1-m25', 'CSE-2022-B1-m28', 'IFoS-2020-B1-m27', 'CSE-2019-B1-m27', 'CSE-2010-B1-m28', 'CSE-2005-B1-m21', 'CSE-2004-B1-m23', 'CSE-2002-B1-m20', 'CSE-1986-B1-m30', 'CSE-2024-B1-m28'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2018-B1-Q4b', 'IFoS-2023-B1-m25', 'CSE-2022-B1-m28', 'IFoS-2020-B1-m27', 'CSE-2019-B1-m27', 'CSE-2010-B1-m28', 'CSE-2005-B1-m21', 'CSE-2004-B1-m23', 'CSE-2002-B1-m20', 'CSE-1986-B1-m30', 'CSE-2024-B1-m28', 'IFoS-2011-B1-m21', 'IFoS-2013-B1-m17', 'IFoS-2012-B1-m22', 'IFoS-2002-B1-m08'], q: [
   ['Which feature of *Selaginella* is a step towards the seed habit?', ['Heterospory, with gametophytes developing inside the spores', 'Homospory', 'A free-living photosynthetic gametophyte', 'Isomorphic alternation of generations'], 0,
     'Seeds evolved from heterosporous ancestors.'],
   ['In *Selaginella rupestris*, the megasporangium:', ['Often has one functional megaspore, and the embryo starts developing while it is still on the plant', 'Holds many megaspores', 'Has no megaspores', 'Holds only microspores'], 0,
@@ -286,7 +286,7 @@
   ['The ligule of *Selaginella* is:', ['A small membranous outgrowth on the upper side of each leaf base', 'A root', 'A sporangium', 'A rhizophore'], 0,
     'It is thought to keep young leaves and sporangia moist.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2018-B1-Q4c', 'IFoS-2021-B1-m24', 'IFoS-2009-B1-m29', 'CSE-1989-B1-m34', 'IFoS-2012-B1-m43', 'IFoS-2010-B1-m36', 'CSE-2018-B1-m22', 'IFoS-2011-B1-m25', 'IFoS-2021-B1-m21', 'IFoS-2010-B1-m34', 'IFoS-2021-B1-m23'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2018-B1-Q4c', 'IFoS-2021-B1-m24', 'IFoS-2009-B1-m29', 'CSE-1989-B1-m34', 'IFoS-2012-B1-m43', 'IFoS-2010-B1-m36', 'CSE-2018-B1-m22', 'IFoS-2011-B1-m25', 'IFoS-2021-B1-m21', 'IFoS-2010-B1-m34', 'IFoS-2021-B1-m23', 'IFoS-2020-B1-m11', 'CSE-1990-B1-m28', 'IFoS-2013-B1-m15'], q: [
   ['Systemic acquired resistance (SAR) is:', ['Long-lasting, broad-spectrum resistance throughout the plant, induced by a local infection', 'Short-lived resistance only at the infection site', 'Race-specific resistance from one R gene', 'Chemical injury to the pathogen'], 0,
     'It primes uninfected parts of the plant against later attack.'],
   ['The key signal molecule required for SAR is:', ['Salicylic acid', 'Jasmonic acid', 'Ethylene', 'Gibberellin'], 0,
@@ -308,7 +308,7 @@
   ['Salicylic-acid-mediated defence works best against:', ['Biotrophic and hemibiotrophic pathogens', 'Necrotrophic pathogens only', 'Nematodes only', 'Abiotic stress only'], 0,
     'Jasmonic acid and ethylene defences are more effective against necrotrophs.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q5a', 'CSE-2021-B1-m07', 'CSE-2014-B1-m09', 'IFoS-2013-B1-m07', 'IFoS-2012-B1-m12', 'CSE-2010-B1-m14', 'CSE-2003-B1-m06', 'IFoS-2001-B1-m10', 'IFoS-2011-B1-m08', 'CSE-1993-B1-m20'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q5a', 'CSE-2021-B1-m07', 'CSE-2014-B1-m09', 'IFoS-2013-B1-m07', 'IFoS-2012-B1-m12', 'CSE-2010-B1-m14', 'CSE-2003-B1-m06', 'IFoS-2001-B1-m10', 'IFoS-2011-B1-m08', 'CSE-1993-B1-m20', 'CSE-1991-B1-m20', 'CSE-1989-B1-m20'], q: [
   ['The inflorescence of Asteraceae is:', ['A capitulum (head) surrounded by an involucre of bracts', 'An umbel', 'A spike', 'A cyathium'], 0,
     'Many small florets are packed on a common receptacle.'],
   ['In Asteraceae, the calyx is often modified into:', ['A pappus of hairs or scales that helps wind dispersal', 'Spines only', 'Showy petals', 'Nectaries'], 0,
@@ -330,7 +330,7 @@
   ['Asteraceae is regarded as advanced among dicots because it has:', ['Epigyny, sympetaly, a reduced one-seeded ovary and a head inflorescence with division of labour', 'Free petals and many carpels', 'Hypogynous flowers with many stamens', 'Spirally arranged floral parts'], 0,
     'Asteraceae and Orchidaceae are the two largest angiosperm families.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 1, pyq: 'IFoS-2018-B1-Q5b', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 1, pyq: ['IFoS-2018-B1-Q5b', 'CSE-2006-B1-m12'], q: [
   ['The Nemec phenomenon refers to:', ['Pollen grains developing into embryo-sac-like structures', 'Embryos arising from synergids', 'Double fertilisation', 'Endosperm haustoria'], 0,
     'It was described by the Czech botanist Bohumil Němec.'],
   ['Němec first reported embryo-sac-like pollen grains in:', ['*Hyacinthus orientalis*', '*Zea mays*', '*Arabidopsis thaliana*', '*Pinus roxburghii*'], 0,
@@ -396,7 +396,7 @@
   ['Botanical gardens also help conservation by:', ['Public education and training in plant taxonomy', 'Promoting invasive species', 'Selling wild-collected plants', 'Replacing forests'], 0,
     'Awareness is a key conservation tool.']
 ] },
-{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 2, pyq: 'IFoS-2018-B1-Q5e', q: [
+{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 2, pyq: ['IFoS-2018-B1-Q5e', 'CSE-2024-B1-m07', 'IFoS-2015-B1-m03', 'CSE-2022-B1-m05', 'CSE-2016-B1-m05', 'CSE-2019-B1-m03', 'IFoS-2022-B1-m26', 'CSE-2017-B1-m19', 'CSE-2015-B1-m27', 'CSE-1994-B1-m36', 'CSE-1996-B1-m34', 'CSE-2021-B1-m15', 'IFoS-2024-B1-m12', 'IFoS-2011-B1-m13'], q: [
   ['Haploid plants from anther culture were first obtained by:', ['Guha and Maheshwari (1964) in *Datura innoxia*', 'Steward (1958) in carrot', 'Skoog and Miller (1957)', 'Murashige and Skoog (1962)'], 0,
     'This opened the way to doubled-haploid breeding.'],
   ['Doubling the chromosomes of a haploid with colchicine gives:', ['A doubled haploid — a completely homozygous line', 'A triploid', 'An aneuploid', 'A heterozygous hybrid'], 0,
@@ -440,7 +440,7 @@
   ['Cronquist thought angiosperms arose from:', ['Seed ferns (pteridosperms)', 'Gnetales', 'Bryophytes', 'Green algae directly'], 0,
     'The origin of angiosperms remains Darwin’s "abominable mystery".']
 ] },
-{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 3, pyq: 'IFoS-2018-B1-Q6b', q: [
+{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 3, pyq: ['IFoS-2018-B1-Q6b', 'IFoS-2016-B1-m04', 'IFoS-2025-B1-m06', 'CSE-2021-B1-m25', 'CSE-2019-B1-m26', 'CSE-2015-B1-m24', 'IFoS-2013-B1-m35', 'IFoS-2010-B1-m37', 'IFoS-2002-B1-m23', 'IFoS-2000-B1-m23', 'CSE-1995-B1-m37', 'CSE-1989-B1-m36', 'CSE-1991-B1-m36', 'IFoS-2019-B1-m25', 'CSE-2022-B1-m25', 'IFoS-2022-B1-m24', 'CSE-1988-B1-m24', 'CSE-1996-B1-m33', 'CSE-2003-B1-m11'], q: [
   ['Totipotency is:', ['The ability of a single cell to divide and regenerate a whole plant', 'The ability of a cell to divide only once', 'Loss of the nucleus', 'Programmed cell death'], 0,
     'Every living plant cell carries the full genetic programme.'],
   ['The concept of totipotency was put forward in 1902 by:', ['Gottlieb Haberlandt', 'F. C. Steward', 'F. Skoog', 'T. Murashige'], 0,
@@ -462,7 +462,7 @@
   ['A practical use of totipotency is:', ['Micropropagation of elite clones and regeneration of transgenic plants', 'Chemical weed control', 'Soil testing', 'Seed dormancy'], 0,
     'Protoplast fusion and somaclonal variation also depend on it.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: 'IFoS-2018-B1-Q6c', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2018-B1-Q6c', 'IFoS-2003-B1-m07', 'CSE-1996-B1-m04', 'CSE-1990-B1-m04', 'CSE-1985-B1-m02', 'IFoS-2020-B1-m05', 'IFoS-2004-B1-m05', 'IFoS-2019-B1-m03', 'CSE-2013-B1-m03', 'CSE-2024-B1-m12', 'CSE-2022-B1-m09', 'CSE-1988-B1-m07', 'CSE-1995-B1-m22', 'CSE-2020-B1-m16'], q: [
   ['In helobial endosperm, the first division of the primary endosperm nucleus is:', ['Followed by a wall, giving a large micropylar and a small chalazal chamber', 'Free-nuclear throughout', 'Followed by vertical walls only', 'Absent'], 0,
     'Development then proceeds mostly free-nuclear, especially in the micropylar chamber.'],
   ['Helobial endosperm is named after:', ['The order Helobiae (Alismatales)', 'The genus *Helianthus*', 'Heliotropism', 'The sun'], 0,
@@ -484,7 +484,7 @@
   ['Ruminate endosperm, with an irregular infolded surface, is found in:', ['Areca nut and nutmeg', 'Wheat', 'Pea', 'Mustard'], 0,
     'The seed coat grows inward into the endosperm.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: 'IFoS-2018-B1-Q7a', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: ['IFoS-2018-B1-Q7a', 'CSE-2017-B1-m02', 'CSE-2012-B1-m03', 'IFoS-2012-B1-m04', 'IFoS-2009-B1-m10', 'CSE-2002-B1-m04', 'CSE-2000-B1-m04', 'CSE-1988-B1-m03', 'IFoS-2017-B1-Q3a', 'CSE-2009-B1-m07', 'IFoS-2015-B1-m04', 'IFoS-2003-B1-m05'], q: [
   ['Polyembryony means:', ['More than one embryo in a single seed', 'Many seeds in a fruit', 'A fruit without seeds', 'Many ovules in an ovary'], 0,
     'Leeuwenhoek first noticed it in *Citrus* seeds in 1719.'],
   ['Adventive (nucellar) embryony, common in *Citrus* and mango, produces embryos from:', ['Nucellus cells, which are genetically identical to the mother plant', 'The zygote', 'The synergids', 'The antipodals'], 0,
@@ -550,7 +550,7 @@
   ['In *Physalis* (Solanaceae), the calyx:', ['Enlarges and encloses the fruit like a lantern (accrescent)', 'Falls early', 'Is absent', 'Becomes a pappus'], 0,
     'A persistent calyx is typical of Solanaceae.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: 'IFoS-2018-B1-Q8a', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2018-B1-Q8a', 'IFoS-2022-B1-m06', 'CSE-2004-B1-m09'], q: [
   ['Tea is obtained from:', ['*Camellia sinensis*, Theaceae — young leaves and buds', '*Coffea arabica*, Rubiaceae — seeds', '*Theobroma cacao* — seeds', '*Ilex paraguariensis* — leaves'], 0,
     'Fine plucking takes "two leaves and a bud".'],
   ['The correct order of steps in making black tea is:', ['Withering → rolling → fermentation (oxidation) → drying (firing)', 'Steaming → rolling → drying', 'Drying → rolling → withering', 'Fermentation → withering → steaming'], 0,
@@ -572,7 +572,7 @@
   ['The first product in India to get a Geographical Indication (2004–05) was:', ['Darjeeling tea', 'Basmati rice', 'Mysore silk', 'Alphonso mango'], 0,
     'The Assam variety is *C. sinensis* var. *assamica*.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q8b', 'IFoS-2021-B1-m10', 'CSE-2015-B1-m07', 'CSE-2013-B1-m05', 'CSE-2012-B1-m08', 'IFoS-2011-B1-m06', 'CSE-2010-B1-m12', 'IFoS-2009-B1-m14', 'IFoS-2007-B1-m06', 'CSE-2003-B1-m08', 'CSE-1988-B1-m11', 'CSE-1987-B1-m10', 'CSE-1986-B1-m10', 'CSE-1985-B1-m07', 'CSE-2004-B1-m08'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q8b', 'IFoS-2021-B1-m10', 'CSE-2015-B1-m07', 'CSE-2013-B1-m05', 'CSE-2012-B1-m08', 'IFoS-2011-B1-m06', 'CSE-2010-B1-m12', 'IFoS-2009-B1-m14', 'IFoS-2007-B1-m06', 'CSE-2003-B1-m08', 'CSE-1988-B1-m11', 'CSE-1987-B1-m10', 'CSE-1986-B1-m10', 'CSE-1985-B1-m07', 'CSE-2004-B1-m08', 'CSE-2000-B1-m10'], q: [
   ['In Asclepiadaceae, the gynostegium is formed by:', ['The fusion of stamens with the stigma head', 'Fused petals', 'Fused sepals', 'Fused bracts'], 0,
     'It is the central column of the flower.'],
   ['A pollinium is:', ['The pollen of one anther cell held together as a waxy mass', 'A single pollen grain', 'A pollen tube', 'An empty anther'], 0,
@@ -594,7 +594,7 @@
   ['In APG classification, Asclepiadaceae is:', ['Merged into Apocynaceae as subfamily Asclepiadoideae', 'Merged into Solanaceae', 'Moved to the monocots', 'Kept as a separate order'], 0,
     'Molecular data showed it evolved within Apocynaceae.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2018-B1-Q8c', 'IFoS-2021-B1-m19'], q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2018-B1-Q8c', 'IFoS-2021-B1-m19', 'IFoS-2015-B1-m11', 'CSE-2019-B1-m13', 'IFoS-2020-B1-m07', 'CSE-2016-B1-m13', 'CSE-2014-B1-m13', 'CSE-2009-B1-m18', 'CSE-2003-B1-m14', 'CSE-2022-B1-m14', 'IFoS-2013-B1-m22'], q: [
   ['The idea of "petroleum plants" (hydrocarbon crops) was championed by:', ['Melvin Calvin', 'Norman Borlaug', 'M. S. Swaminathan', 'G. Haberlandt'], 0,
     'He proposed growing latex-bearing plants for liquid fuel.'],
   ['Hydrocarbon-rich latex that Calvin studied for fuel came from:', ['*Euphorbia lathyris* and *E. tirucalli*', '*Oryza sativa*', '*Triticum aestivum*', '*Pinus roxburghii*'], 0,

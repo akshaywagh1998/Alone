@@ -44,7 +44,7 @@
   ['After gene transfer, a bacterium carrying part of a donor genome is called a:', ['Merozygote (partial diploid)', 'True zygote', 'Heterokaryon', 'Spheroplast'], 0,
     'Recombination then swaps segments into the recipient chromosome.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 3, pyq: ['IFoS-2024-B1-m20', 'CSE-2022-B1-m17', 'CSE-2018-B1-m18', 'CSE-2016-B1-m23', 'CSE-1999-B1-m15', 'CSE-2021-B1-m21', 'CSE-2012-B1-m23', 'CSE-1990-B1-m35', 'CSE-2019-B1-m22', 'IFoS-2006-B1-m20', 'IFoS-2001-B1-m22', 'CSE-2025-B1-m20', 'IFoS-2000-B1-m20', 'IFoS-2019-B1-m16', 'CSE-2023-B1-m20', 'CSE-2023-B1-m23'], q: [
+{ p: 'B1', t: 'Microbiology', w: 3, pyq: ['IFoS-2024-B1-m20', 'CSE-2022-B1-m17', 'CSE-2018-B1-m18', 'CSE-2016-B1-m23', 'CSE-1999-B1-m15', 'CSE-2021-B1-m21', 'CSE-2012-B1-m23', 'CSE-1990-B1-m35', 'CSE-2019-B1-m22', 'IFoS-2006-B1-m20', 'IFoS-2001-B1-m22', 'CSE-2025-B1-m20', 'IFoS-2000-B1-m20', 'IFoS-2019-B1-m16', 'CSE-2023-B1-m20', 'CSE-2023-B1-m23', 'CSE-2000-B1-m03', 'CSE-1995-B1-m02'], q: [
   ['Mycoplasmas are:', ['The smallest free-living prokaryotes, without a cell wall', 'Viruses with a protein coat', 'Fungi with a cell wall', 'Algae'], 0,
     'They are pleomorphic and placed in class Mollicutes.'],
   ['Mycoplasmas resist penicillin because they:', ['Have no cell wall', 'Have a thick wall', 'Make β-lactamase always', 'Live in the nucleus'], 0,
@@ -66,7 +66,7 @@
   ['Virusoids are:', ['Satellite RNAs packaged inside the coat of a helper virus', 'Free viroids', 'Prions', 'Plasmids'], 0,
     'Viroids are naked; virusoids depend on a helper virus.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 2, pyq: ['CSE-1996-B1-m31', 'CSE-1992-B1-m32', 'IFoS-2003-B1-m23', 'IFoS-2020-B1-m23', 'IFoS-2013-B1-m34', 'CSE-2007-B1-m19', 'CSE-2025-B1-m22', 'CSE-1997-B1-m16', 'CSE-1990-B1-m43', 'CSE-2018-B1-m19', 'CSE-1990-B1-m34'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 2, pyq: ['CSE-1996-B1-m31', 'CSE-1992-B1-m32', 'IFoS-2003-B1-m23', 'IFoS-2020-B1-m23', 'IFoS-2013-B1-m34', 'CSE-2007-B1-m19', 'CSE-2025-B1-m22', 'CSE-1997-B1-m16', 'CSE-1990-B1-m43', 'CSE-2018-B1-m19', 'CSE-1990-B1-m34', 'CSE-1991-B1-m17'], q: [
   ['Yellow vein mosaic of bhindi is caused by a begomovirus spread by:', ['Whitefly (*Bemisia tabaci*)', 'Aphids', 'Nematodes', 'Soil water'], 0,
     'Mungbean yellow mosaic is also whitefly-borne.'],
   ['Papaya leaf curl is transmitted by:', ['Whitefly', 'Aphid', 'Mealy bug', 'Thrips'], 0,
@@ -88,7 +88,7 @@
   ['Typical symptoms of virus disease include:', ['Mosaic, vein clearing, leaf curl and stunting', 'Powdery spores', 'Rust pustules', 'Sclerotia'], 0,
     'Viruses do not form spores or fruit bodies.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2021-B1-m20', 'CSE-2009-B1-m22', 'CSE-2006-B1-m19', 'CSE-1999-B1-m17', 'CSE-1991-B1-m26', 'CSE-1990-B1-m46', 'CSE-2021-B1-m24', 'CSE-2019-B1-m20', 'CSE-2011-B1-m15', 'CSE-2006-B1-m15', 'IFoS-2004-B1-m23', 'IFoS-2000-B1-m21', 'CSE-1993-B1-m35', 'IFoS-2007-B1-m20'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2021-B1-m20', 'CSE-2009-B1-m22', 'CSE-2006-B1-m19', 'CSE-1999-B1-m17', 'CSE-1991-B1-m26', 'CSE-1990-B1-m46', 'CSE-2021-B1-m24', 'CSE-2019-B1-m20', 'CSE-2011-B1-m15', 'CSE-2006-B1-m15', 'IFoS-2004-B1-m23', 'IFoS-2000-B1-m21', 'CSE-1993-B1-m35', 'IFoS-2007-B1-m20', 'IFoS-2000-B1-m16', 'CSE-1992-B1-m20'], q: [
   ['Bioremediation is:', ['The use of living organisms, mainly microbes, to remove or detoxify pollutants', 'Burning of waste', 'Chemical neutralisation only', 'Dumping waste in the sea'], 0,
     'Biodegradation is the natural breakdown; bioremediation is its deliberate use.'],
   ['Adding nutrients to boost native pollutant-degrading microbes is called:', ['Biostimulation', 'Bioaugmentation', 'Bioleaching', 'Biomagnification'], 0,
@@ -132,7 +132,7 @@
   ['"Khaira" disease of rice is due to:', ['Zinc deficiency', 'A virus', 'A fungus', 'A nematode'], 0,
     'It is corrected with zinc sulphate.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2023-B1-m18', 'CSE-2020-B1-m21', 'IFoS-2019-B1-m23', 'CSE-1998-B1-m23', 'CSE-1997-B1-m17', 'CSE-1996-B1-m29', 'CSE-1993-B1-m24', 'CSE-1990-B1-m42', 'CSE-1998-B1-m22', 'CSE-1997-B1-m18', 'CSE-1991-B1-m32', 'CSE-2025-B1-m23', 'IFoS-2021-B1-m26'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2023-B1-m18', 'CSE-2020-B1-m21', 'IFoS-2019-B1-m23', 'CSE-1998-B1-m23', 'CSE-1997-B1-m17', 'CSE-1996-B1-m29', 'CSE-1993-B1-m24', 'CSE-1990-B1-m42', 'CSE-1998-B1-m22', 'CSE-1997-B1-m18', 'CSE-1991-B1-m32', 'CSE-2025-B1-m23', 'IFoS-2021-B1-m26', 'IFoS-2012-B1-m23'], q: [
   ['Late blight of potato is caused by:', ['*Phytophthora infestans*', '*Alternaria solani*', '*Synchytrium endobioticum*', '*Ralstonia solanacearum*'], 0,
     'It caused the Irish famine of 1845–47.'],
   ['Late blight spreads fastest in:', ['Cool, humid, cloudy weather', 'Hot, dry weather', 'Frost', 'Drought'], 0,
@@ -154,7 +154,7 @@
   ['Common scab of potato is caused by:', ['*Streptomyces scabies*', '*Alternaria solani*', '*Phytophthora*', '*Pythium*'], 0,
     'It is worse in dry, alkaline soils.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 2, pyq: ['IFoS-2015-B1-m18', 'CSE-1996-B1-m28', 'CSE-1994-B1-m31', 'CSE-1990-B1-m40', 'CSE-2018-B1-m24', 'CSE-2013-B1-m17', 'CSE-2003-B1-m19', 'CSE-1992-B1-m29', 'CSE-2019-B1-m23', 'CSE-2013-B1-m18', 'CSE-1992-B1-m30', 'CSE-1990-B1-m44', 'IFoS-2023-B1-m21'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 2, pyq: ['IFoS-2015-B1-m18', 'CSE-1996-B1-m28', 'CSE-1994-B1-m31', 'CSE-1990-B1-m40', 'CSE-2018-B1-m24', 'CSE-2013-B1-m17', 'CSE-2003-B1-m19', 'CSE-1992-B1-m29', 'CSE-2019-B1-m23', 'CSE-2013-B1-m18', 'CSE-1992-B1-m30', 'CSE-1990-B1-m44', 'IFoS-2023-B1-m21', 'IFoS-2004-B1-m15'], q: [
   ['Tundu (yellow ear rot) of wheat results from:', ['The bacterium *Rathayibacter tritici* carried by the nematode *Anguina tritici*', 'A rust fungus', 'A virus', 'Zinc deficiency'], 0,
     'Yellow slimy ooze covers the ear.'],
   ['Ear-cockle of wheat is caused by:', ['*Anguina tritici*, a nematode that turns grains into galls', '*Puccinia*', '*Ustilago*', '*Tilletia*'], 0,
@@ -176,7 +176,7 @@
   ['Phyllody of floral parts is a typical symptom of:', ['Downy mildews and phytoplasmas', 'Rusts', 'Smuts', 'Root-knot'], 0,
     'Seen in green ear of bajra and sesame phyllody.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 2, pyq: ['CSE-2023-B1-m24', 'CSE-2017-B1-m17', 'IFoS-2016-B1-m20', 'CSE-2015-B1-m22', 'CSE-2015-B1-m23', 'CSE-2013-B1-m19', 'CSE-1997-B1-m15', 'CSE-1992-B1-m28', 'CSE-1998-B1-m21', 'CSE-1995-B1-m29', 'CSE-1991-B1-m29', 'CSE-2014-B1-m23', 'CSE-1993-B1-m27', 'CSE-1991-B1-m30', 'CSE-1994-B1-m30', 'CSE-1994-B1-m33', 'CSE-1997-B1-m14', 'CSE-1989-B1-m29', 'IFoS-2020-B1-m19', 'CSE-1991-B1-m28', 'IFoS-2001-B1-m21'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 2, pyq: ['CSE-2023-B1-m24', 'CSE-2017-B1-m17', 'IFoS-2016-B1-m20', 'CSE-2015-B1-m22', 'CSE-2015-B1-m23', 'CSE-2013-B1-m19', 'CSE-1997-B1-m15', 'CSE-1992-B1-m28', 'CSE-1998-B1-m21', 'CSE-1995-B1-m29', 'CSE-1991-B1-m29', 'CSE-2014-B1-m23', 'CSE-1993-B1-m27', 'CSE-1991-B1-m30', 'CSE-1994-B1-m30', 'CSE-1994-B1-m33', 'CSE-1997-B1-m14', 'CSE-1989-B1-m29', 'IFoS-2020-B1-m19', 'CSE-1991-B1-m28', 'IFoS-2001-B1-m21', 'CSE-2000-B1-m02', 'CSE-2003-B1-m03', 'CSE-2018-B1-m13', 'IFoS-2004-B1-m14', 'IFoS-2006-B1-m11', 'IFoS-2000-B1-m14', 'CSE-1994-B1-m19', 'CSE-1995-B1-m16'], q: [
   ['Red rot of sugarcane is caused by:', ['*Colletotrichum falcatum*', '*Ustilago scitaminea*', '*Xanthomonas*', '*Fusarium*'], 0,
     'Called the "cancer of sugarcane".'],
   ['A split cane with red rot shows:', ['Red internal tissue with white transverse patches and an alcoholic smell', 'Black whip-like smut', 'Yellow slime', 'Hollow pith only'], 0,
@@ -198,7 +198,7 @@
   ['Sett treatment with moist hot air against red rot works because it:', ['Kills the pathogen inside the setts without killing buds', 'Adds nutrients', 'Kills insects only', 'Breaks dormancy'], 0,
     'It also controls grassy shoot and ratoon stunting.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['CSE-2018-B1-m20', 'IFoS-2014-B1-m28', 'CSE-2012-B1-m22', 'IFoS-2012-B1-m41', 'CSE-2017-B1-m16', 'IFoS-2014-B1-m27', 'IFoS-2013-B1-m32', 'IFoS-2010-B1-m35', 'CSE-1990-B1-m37', 'IFoS-2012-B1-m42', 'CSE-2023-B1-m22', 'CSE-1993-B1-m21', 'CSE-2022-B1-m22', 'CSE-1994-B1-m29', 'IFoS-2022-B1-m18', 'IFoS-2023-B1-m20', 'IFoS-2024-B1-m16'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['CSE-2018-B1-m20', 'IFoS-2014-B1-m28', 'CSE-2012-B1-m22', 'IFoS-2012-B1-m41', 'CSE-2017-B1-m16', 'IFoS-2014-B1-m27', 'IFoS-2013-B1-m32', 'IFoS-2010-B1-m35', 'CSE-1990-B1-m37', 'IFoS-2012-B1-m42', 'CSE-2023-B1-m22', 'CSE-1993-B1-m21', 'CSE-2022-B1-m22', 'CSE-1994-B1-m29', 'IFoS-2022-B1-m18', 'IFoS-2023-B1-m20', 'IFoS-2024-B1-m16', 'IFoS-2025-B1-m02', 'CSE-1992-B1-m21', 'CSE-2010-B1-m17'], q: [
   ['Koch\'s postulates require that the suspected pathogen be:', ['Always found with the disease, grown in pure culture, cause the disease on inoculation, and be re-isolated', 'Visible to the naked eye', 'Only a bacterium', 'Absent from the diseased plant'], 0,
     'Obligate parasites and viruses need modified postulates.'],
   ['Plant quarantine aims to:', ['Stop entry and spread of pests and pathogens through plant material', 'Increase crop yield directly', 'Control weeds in fields', 'Test fertilisers'], 0,
@@ -220,7 +220,7 @@
   ['The disease triangle states that disease needs:', ['A susceptible host, a virulent pathogen and a favourable environment', 'Only a pathogen', 'Only weather', 'Host and soil'], 0,
     'Adding time gives the disease tetrahedron.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['CSE-1990-B1-m36', 'IFoS-2021-B1-m25', 'CSE-2019-B1-m21', 'IFoS-2020-B1-m20', 'CSE-2002-B1-m16', 'CSE-1991-B1-m11'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['CSE-1990-B1-m36', 'IFoS-2021-B1-m25', 'CSE-2019-B1-m21', 'IFoS-2020-B1-m20', 'CSE-2002-B1-m16', 'CSE-1991-B1-m11', 'CSE-1989-B1-m03', 'IFoS-2003-B1-m18', 'IFoS-2001-B1-m15', 'CSE-1990-B1-m26'], q: [
   ['Monoclonal antibodies are produced by:', ['Hybridomas made by fusing B cells with myeloma cells', 'Plasmids in bacteria', 'Viruses', 'Yeast mating'], 0,
     'Köhler and Milstein (1975).'],
   ['"Plantibodies" are:', ['Antibodies produced in transgenic plants', 'Plant hormones', 'Plant toxins', 'Antibodies against plants'], 0,

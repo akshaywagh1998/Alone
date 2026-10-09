@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Angiosperm taxonomy. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2024-B1-m08', 'CSE-2023-B1-m10', 'IFoS-2023-B1-m07', 'IFoS-2022-B1-m07', 'IFoS-2021-B1-m08', 'IFoS-2019-B1-m06', 'IFoS-2018-B1-Q6a', 'IFoS-2017-B1-Q6a', 'CSE-2017-B1-m06', 'IFoS-2015-B1-m09', 'IFoS-2014-B1-m10', 'IFoS-2012-B1-m13', 'CSE-2007-B1-m07', 'IFoS-2006-B1-m06', 'CSE-2004-B1-m10', 'IFoS-2001-B1-m12', 'IFoS-2000-B1-m10', 'CSE-1996-B1-m09', 'CSE-1995-B1-m07', 'CSE-1990-B1-m17', 'CSE-1988-B1-m08', 'CSE-1986-B1-m11', 'CSE-1985-B1-m13', 'CSE-2024-B1-m09', 'CSE-2019-B1-m05', 'CSE-2018-B1-m06', 'CSE-2016-B1-m10', 'IFoS-2011-B1-m10', 'CSE-2005-B1-m06', 'CSE-2001-B1-m05', 'CSE-2014-B1-m10', 'CSE-2013-B1-m06', 'CSE-1989-B1-m13', 'IFoS-2002-B1-m05'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2024-B1-m08', 'CSE-2023-B1-m10', 'IFoS-2023-B1-m07', 'IFoS-2022-B1-m07', 'IFoS-2021-B1-m08', 'IFoS-2019-B1-m06', 'IFoS-2018-B1-Q6a', 'IFoS-2017-B1-Q6a', 'CSE-2017-B1-m06', 'IFoS-2015-B1-m09', 'IFoS-2014-B1-m10', 'IFoS-2012-B1-m13', 'CSE-2007-B1-m07', 'IFoS-2006-B1-m06', 'CSE-2004-B1-m10', 'IFoS-2001-B1-m12', 'IFoS-2000-B1-m10', 'CSE-1996-B1-m09', 'CSE-1995-B1-m07', 'CSE-1990-B1-m17', 'CSE-1988-B1-m08', 'CSE-1986-B1-m11', 'CSE-1985-B1-m13', 'CSE-2024-B1-m09', 'CSE-2019-B1-m05', 'CSE-2018-B1-m06', 'CSE-2016-B1-m10', 'IFoS-2011-B1-m10', 'CSE-2005-B1-m06', 'CSE-2001-B1-m05', 'CSE-2014-B1-m10', 'CSE-2013-B1-m06', 'CSE-1989-B1-m13', 'IFoS-2002-B1-m05', 'IFoS-2002-B1-m11', 'CSE-2009-B1-m16'], q: [
   ['Bentham and Hooker published their system in:', ['*Genera Plantarum* (1862–83)', '*Species Plantarum* (1753)', '*Die Natürlichen Pflanzenfamilien*', '*The Families of Flowering Plants*'], 0,
     'It is a natural system with 202 "orders" (families), still used in many Indian herbaria.'],
   ['In Bentham and Hooker\'s system, gymnosperms are placed:', ['Between dicotyledons and monocotyledons', 'Before dicotyledons', 'After monocotyledons', 'Outside seed plants'], 0,
@@ -22,7 +22,7 @@
   ['Linnaeus\'s sexual system is called artificial because it:', ['Used a few characters, mainly the number of stamens', 'Was based on DNA', 'Used all available characters', 'Showed evolutionary relationships'], 0,
     'Natural systems use overall similarity; phylogenetic systems use descent.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['CSE-2001-B1-m06', 'CSE-1997-B1-m06', 'CSE-1997-B1-m07', 'CSE-1997-B1-m08', 'CSE-1997-B1-m09', 'CSE-1997-B1-m10', 'CSE-2014-B1-m08', 'IFoS-2013-B1-m08', 'IFoS-2010-B1-m15', 'CSE-2004-B1-m06', 'CSE-1995-B1-m10', 'CSE-2022-B1-m06', 'CSE-1990-B1-m18', 'IFoS-2003-B1-m10', 'CSE-1990-B1-m14', 'CSE-1987-B1-m11', 'CSE-1991-B1-m12', 'CSE-2006-B1-m08', 'IFoS-2016-B1-m06', 'CSE-1994-B1-m13', 'CSE-1987-B1-m08', 'CSE-2024-B1-m08', 'IFoS-2016-B1-m07', 'CSE-2010-B1-m09', 'CSE-1988-B1-m10', 'IFoS-2007-B1-m05', 'IFoS-2015-B1-m02', 'CSE-2023-B1-m04', 'IFoS-2024-B1-m05'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['CSE-2001-B1-m06', 'CSE-1997-B1-m06', 'CSE-1997-B1-m07', 'CSE-1997-B1-m08', 'CSE-1997-B1-m09', 'CSE-1997-B1-m10', 'CSE-2014-B1-m08', 'IFoS-2013-B1-m08', 'IFoS-2010-B1-m15', 'CSE-2004-B1-m06', 'CSE-1995-B1-m10', 'CSE-2022-B1-m06', 'CSE-1990-B1-m18', 'IFoS-2003-B1-m10', 'CSE-1990-B1-m14', 'CSE-1987-B1-m11', 'CSE-1991-B1-m12', 'CSE-2006-B1-m08', 'IFoS-2016-B1-m06', 'CSE-1994-B1-m13', 'CSE-1987-B1-m08', 'CSE-2024-B1-m08', 'IFoS-2016-B1-m07', 'CSE-2010-B1-m09', 'CSE-1988-B1-m10', 'IFoS-2007-B1-m05', 'IFoS-2015-B1-m02', 'CSE-2023-B1-m04', 'IFoS-2024-B1-m05', 'CSE-1989-B1-m08', 'CSE-1990-B1-m30'], q: [
   ['Which set of floral characters is considered primitive?', ['Bisexual, actinomorphic, many free spirally arranged parts and superior ovary', 'Unisexual, zygomorphic, fused parts and inferior ovary', 'Reduced, fused stamens and syncarpy', 'Epigyny with few stamens'], 0,
     'The advanced trend is fusion, reduction, zygomorphy and epigyny.'],
   ['A primitive feature of Magnoliaceae is:', ['An elongated thalamus bearing many spirally arranged stamens and carpels', 'An inferior ovary', 'Pollinia', 'Syngenesious anthers'], 0,
@@ -44,7 +44,7 @@
   ['Magnoliaceae differ from Ranunculaceae in being:', ['Woody plants with stipules', 'Herbs without stipules', 'Monocots', 'Gamopetalous'], 0,
     'Both have spirally arranged free floral parts.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['CSE-2021-B1-m05', 'CSE-2016-B1-m09', 'CSE-2014-B1-m04', 'CSE-2004-B1-m05', 'CSE-1992-B1-m12', 'CSE-1990-B1-m16', 'CSE-2025-B1-m07', 'CSE-2011-B1-m04', 'CSE-1992-B1-m10', 'CSE-2009-B1-m13', 'CSE-2006-B1-m09', 'CSE-1994-B1-m16', 'CSE-1990-B1-m19', 'CSE-1985-B1-m11', 'CSE-1993-B1-m11', 'CSE-1986-B1-m09', 'CSE-1998-B1-m13', 'IFoS-2010-B1-m19', 'CSE-1987-B1-m06', 'CSE-2021-B1-m10', 'CSE-1994-B1-m15', 'CSE-1995-B1-m34', 'CSE-2019-B1-m09', 'CSE-2017-B1-m04', 'CSE-2001-B1-m05', 'IFoS-2021-B1-m09', 'CSE-2021-B1-m06', 'CSE-2007-B1-m06', 'CSE-2017-B1-m08', 'CSE-2023-B1-m11', 'CSE-2018-B1-m11'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['CSE-2021-B1-m05', 'CSE-2016-B1-m09', 'CSE-2014-B1-m04', 'CSE-2004-B1-m05', 'CSE-1992-B1-m12', 'CSE-1990-B1-m16', 'CSE-2025-B1-m07', 'CSE-2011-B1-m04', 'CSE-1992-B1-m10', 'CSE-2009-B1-m13', 'CSE-2006-B1-m09', 'CSE-1994-B1-m16', 'CSE-1990-B1-m19', 'CSE-1985-B1-m11', 'CSE-1993-B1-m11', 'CSE-1986-B1-m09', 'CSE-1998-B1-m13', 'IFoS-2010-B1-m19', 'CSE-1987-B1-m06', 'CSE-2021-B1-m10', 'CSE-1994-B1-m15', 'CSE-1995-B1-m34', 'CSE-2019-B1-m09', 'CSE-2017-B1-m04', 'CSE-2001-B1-m05', 'IFoS-2021-B1-m09', 'CSE-2021-B1-m06', 'CSE-2007-B1-m06', 'CSE-2017-B1-m08', 'CSE-2023-B1-m11', 'CSE-2018-B1-m11', 'CSE-2012-B1-m06', 'IFoS-2001-B1-m04', 'CSE-1992-B1-m05', 'CSE-1989-B1-m09', 'CSE-1994-B1-m05', 'CSE-1998-B1-m09', 'IFoS-2012-B1-m05', 'CSE-1996-B1-m18'], q: [
   ['Numerical taxonomy was developed by:', ['Sokal and Sneath (1963)', 'Bentham and Hooker', 'Camp and Gilly', 'Turesson'], 0,
     'It follows Adansonian principles — all characters weighted equally.'],
   ['In numerical taxonomy, the units compared are called:', ['Operational taxonomic units (OTUs)', 'Ecotypes', 'Clades', 'Holotypes'], 0,
@@ -66,7 +66,7 @@
   ['Systematics differs from classification in that systematics:', ['Covers the whole study of diversity and relationships, of which classification is one part', 'Is only naming', 'Is only grouping', 'Ignores evolution'], 0,
     'Simpson defined systematics as the scientific study of kinds and diversity of organisms and their relationships.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['CSE-2014-B1-m07', 'CSE-2004-B1-m08', 'CSE-2002-B1-m09', 'CSE-1999-B1-m11', 'IFoS-2016-B1-m08', 'CSE-1994-B1-m17', 'CSE-2022-B1-m03', 'IFoS-2009-B1-m12', 'CSE-2021-B1-m07', 'IFoS-2010-B1-m13'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['CSE-2014-B1-m07', 'CSE-2004-B1-m08', 'CSE-2002-B1-m09', 'CSE-1999-B1-m11', 'IFoS-2016-B1-m08', 'CSE-1994-B1-m17', 'CSE-2022-B1-m03', 'IFoS-2009-B1-m12', 'CSE-2021-B1-m07', 'IFoS-2010-B1-m13', 'IFoS-2002-B1-m02'], q: [
   ['The column (gynostemium) of an orchid is formed by:', ['Fusion of the stamens with the style and stigma', 'Fusion of petals', 'The labellum', 'The ovary wall'], 0,
     'One part of the stigma forms the rostellum.'],
   ['The labellum of an orchid is:', ['The modified median petal, often the landing platform', 'A sepal', 'A stamen', 'A bract'], 0,
@@ -110,7 +110,7 @@
   ['The cyathium looks like a single flower, so it is an example of a:', ['Pseudanthium', 'Pome', 'Hypanthodium', 'Capsule'], 0,
     'A capitulum is another pseudanthium.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2011-B1-m09', 'IFoS-2010-B1-m16', 'CSE-2010-B1-m15', 'IFoS-2004-B1-m10', 'CSE-2001-B1-m08', 'CSE-2000-B1-m06', 'CSE-2024-B1-m03', 'IFoS-2012-B1-m10'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2011-B1-m09', 'IFoS-2010-B1-m16', 'CSE-2010-B1-m15', 'IFoS-2004-B1-m10', 'CSE-2001-B1-m08', 'CSE-2000-B1-m06', 'CSE-2024-B1-m03', 'IFoS-2012-B1-m10', 'CSE-1988-B1-m19', 'CSE-1986-B1-m18'], q: [
   ['Stamens of Brassicaceae are:', ['Tetradynamous — four long and two short', 'Didynamous — two long and two short', 'Monadelphous', 'Syngenesious'], 0,
     'The corolla is cruciform with four clawed petals.'],
   ['The ovary of Brassicaceae has:', ['Two carpels, parietal placentation and a false septum (replum)', 'Five carpels and axile placentation', 'One carpel and marginal placentation', 'Three carpels and free-central placentation'], 0,
@@ -132,7 +132,7 @@
   ['Which crops all belong to Brassicaceae?', ['Mustard, cabbage, cauliflower and radish', 'Potato, tomato and brinjal', 'Wheat, rice and maize', 'Pea, gram and lentil'], 0,
     'The second set is Solanaceae; the last is Fabaceae.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2015-B1-m07', 'IFoS-2010-B1-m11', 'IFoS-2009-B1-m13', 'CSE-2004-B1-m07', 'CSE-1995-B1-m11', 'IFoS-2012-B1-m11', 'CSE-1992-B1-m15', 'CSE-2025-B1-m03', 'IFoS-2021-B1-m06'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2015-B1-m07', 'IFoS-2010-B1-m11', 'IFoS-2009-B1-m13', 'CSE-2004-B1-m07', 'CSE-1995-B1-m11', 'IFoS-2012-B1-m11', 'CSE-1992-B1-m15', 'CSE-2025-B1-m03', 'IFoS-2021-B1-m06', 'CSE-1985-B1-m15'], q: [
   ['A grass spikelet has at its base:', ['Two empty bracts called glumes', 'A spathe', 'An involucre', 'A cupule'], 0,
     'Each floret is enclosed by a lemma and a palea.'],
   ['The lodicules of a grass floret are:', ['Reduced perianth scales that swell to open the floret', 'Bracts below the spikelet', 'Sterile stamens', 'Stigma lobes'], 0,
@@ -198,7 +198,7 @@
   ['The corolla of Lamiaceae is usually:', ['Bilabiate (two-lipped)', 'Cruciform', 'Papilionaceous', 'Polypetalous and actinomorphic'], 0,
     'Tulsi, mint and teak (now Lamiaceae) are examples.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['CSE-1997-B1-m05', 'CSE-1996-B1-m11', 'CSE-1995-B1-m06', 'CSE-1985-B1-m12', 'CSE-2007-B1-m10', 'CSE-1986-B1-m12', 'IFoS-2000-B1-m07', 'IFoS-2020-B1-m04', 'IFoS-2012-B1-m12'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['CSE-1997-B1-m05', 'CSE-1996-B1-m11', 'CSE-1995-B1-m06', 'CSE-1985-B1-m12', 'CSE-2007-B1-m10', 'CSE-1986-B1-m12', 'IFoS-2000-B1-m07', 'IFoS-2020-B1-m04', 'IFoS-2012-B1-m12', 'CSE-2001-B1-m10'], q: [
   ['A typical Liliaceae flower has:', ['Six tepals in two whorls, six stamens and a superior tricarpellary ovary', 'Five petals and ten stamens', 'A cruciform corolla', 'A spikelet with glumes'], 0,
     'Placentation is axile; the fruit is a capsule or berry.'],
   ['Colchicine is obtained from:', ['*Gloriosa superba* and *Colchicum*', '*Aloe vera*', '*Allium cepa*', '*Asparagus*'], 0,
@@ -220,7 +220,7 @@
   ['A floral formula of P3+3 A3+3 G(3) fits:', ['Liliaceae', 'Brassicaceae', 'Solanaceae', 'Fabaceae'], 0,
     'Trimerous flowers are typical of monocots.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2023-B1-m08', 'CSE-2020-B1-m06', 'IFoS-2014-B1-m07', 'IFoS-2012-B1-m10', 'IFoS-2010-B1-m13', 'CSE-2004-B1-m07', 'IFoS-2003-B1-m09', 'CSE-1996-B1-m10', 'CSE-1996-B1-m11', 'CSE-1995-B1-m06', 'CSE-1995-B1-m09', 'CSE-1994-B1-m17', 'CSE-2018-B1-m09', 'CSE-2017-B1-m07', 'CSE-2016-B1-m08', 'CSE-2015-B1-m05', 'CSE-2013-B1-m04', 'CSE-1999-B1-m04', 'CSE-1999-B1-m05', 'CSE-1999-B1-m06', 'CSE-1999-B1-m07', 'CSE-2005-B1-m08', 'CSE-2005-B1-m09', 'CSE-2005-B1-m10', 'CSE-1990-B1-m21', 'CSE-1989-B1-m17', 'IFoS-2016-B1-m05', 'CSE-1991-B1-m03', 'CSE-1991-B1-m04', 'CSE-1998-B1-m12', 'CSE-2010-B1-m01'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2023-B1-m08', 'CSE-2020-B1-m06', 'IFoS-2014-B1-m07', 'IFoS-2012-B1-m10', 'IFoS-2010-B1-m13', 'CSE-2004-B1-m07', 'IFoS-2003-B1-m09', 'CSE-1996-B1-m10', 'CSE-1996-B1-m11', 'CSE-1995-B1-m06', 'CSE-1995-B1-m09', 'CSE-1994-B1-m17', 'CSE-2018-B1-m09', 'CSE-2017-B1-m07', 'CSE-2016-B1-m08', 'CSE-2015-B1-m05', 'CSE-2013-B1-m04', 'CSE-1999-B1-m04', 'CSE-1999-B1-m05', 'CSE-1999-B1-m06', 'CSE-1999-B1-m07', 'CSE-2005-B1-m08', 'CSE-2005-B1-m09', 'CSE-2005-B1-m10', 'CSE-1990-B1-m21', 'CSE-1989-B1-m17', 'IFoS-2016-B1-m05', 'CSE-1991-B1-m03', 'CSE-1991-B1-m04', 'CSE-1998-B1-m12', 'CSE-2010-B1-m01', 'IFoS-2009-B1-m06', 'CSE-1997-B1-m21', 'CSE-1986-B1-m17', 'IFoS-2012-B1-m27'], q: [
   ['In a floral formula, a line drawn above G(2) shows that the ovary is:', ['Inferior', 'Superior', 'Half-inferior', 'Apocarpous'], 0,
     'A line below shows a superior ovary.'],
   ['In a floral diagram, the mother axis is drawn:', ['At the top, with the bract at the bottom', 'At the bottom', 'At the centre', 'Not shown'], 0,

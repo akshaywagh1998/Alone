@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Fungi & Lichens. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['CSE-2023-B1-m18', 'CSE-2021-B1-m16', 'CSE-2020-B1-m14', 'CSE-2018-B1-m14', 'CSE-2011-B1-m11', 'CSE-2010-B1-m20', 'IFoS-2016-B1-m12', 'CSE-2016-B1-m15', 'CSE-1993-B1-m32'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['CSE-2023-B1-m18', 'CSE-2021-B1-m16', 'CSE-2020-B1-m14', 'CSE-2018-B1-m14', 'CSE-2011-B1-m11', 'CSE-2010-B1-m20', 'IFoS-2016-B1-m12', 'CSE-2016-B1-m15', 'CSE-1993-B1-m32', 'CSE-2006-B1-m11'], q: [
   ['A lichen is a symbiotic association of:', ['A fungus (mycobiont) with a green alga or cyanobacterium (photobiont)', 'A fungus with a plant root', 'A bacterium with a legume', 'Two algae'], 0,
     'The fungus is usually an ascomycete; a few are basidiolichens.'],
   ['Match the lichen form with its example: fruticose —', ['*Usnea*', '*Graphis*', '*Parmelia*', '*Lecanora*'], 0,
@@ -44,7 +44,7 @@
   ['The main significance of heterothallism is that it:', ['Enforces outbreeding and raises genetic variability', 'Prevents spore formation', 'Allows only selfing', 'Stops mutation'], 0,
     'It is the fungal parallel of self-incompatibility.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-2023-B1-m17', 'CSE-2017-B1-m13', 'IFoS-2014-B1-m18', 'CSE-2011-B1-m12', 'IFoS-2012-B1-m35'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-2023-B1-m17', 'CSE-2017-B1-m13', 'IFoS-2014-B1-m18', 'CSE-2011-B1-m12', 'IFoS-2012-B1-m35', 'IFoS-2020-B1-m10'], q: [
   ['The parasexual cycle was discovered by:', ['Pontecorvo and Roper (1952) in *Aspergillus nidulans*', 'Blakeslee in *Mucor*', 'Beadle and Tatum in *Neurospora*', 'Lederberg in *E. coli*'], 0,
     'It gives recombination without meiosis.'],
   ['The correct order of events in the parasexual cycle is:', ['Heterokaryosis → nuclear fusion → mitotic crossing over → haploidisation', 'Meiosis → fertilisation → mitosis', 'Plasmogamy → karyogamy → meiosis', 'Haploidisation → heterokaryosis → fusion'], 0,
@@ -66,7 +66,7 @@
   ['Heterokaryosis is:', ['Presence of genetically different nuclei in a common cytoplasm', 'Fusion of two nuclei', 'Loss of chromosomes', 'Formation of a zygote'], 0,
     'It is the first step of the parasexual cycle.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['CSE-2025-B1-m18', 'CSE-2015-B1-m16', 'CSE-1997-B1-m12', 'CSE-2012-B1-m13', 'IFoS-2007-B1-m16', 'CSE-1987-B1-m15', 'CSE-2014-B1-m17', 'CSE-2011-B1-m13', 'CSE-2012-B1-m15', 'CSE-2014-B1-m15', 'CSE-2009-B1-m19', 'CSE-2019-B1-m17', 'IFoS-2006-B1-m18', 'CSE-1988-B1-m15', 'CSE-2004-B1-m18', 'CSE-1985-B1-m19', 'CSE-2006-B1-m06'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['CSE-2025-B1-m18', 'CSE-2015-B1-m16', 'CSE-1997-B1-m12', 'CSE-2012-B1-m13', 'IFoS-2007-B1-m16', 'CSE-1987-B1-m15', 'CSE-2014-B1-m17', 'CSE-2011-B1-m13', 'CSE-2012-B1-m15', 'CSE-2014-B1-m15', 'CSE-2009-B1-m19', 'CSE-2019-B1-m17', 'IFoS-2006-B1-m18', 'CSE-1988-B1-m15', 'CSE-2004-B1-m18', 'CSE-1985-B1-m19', 'CSE-2006-B1-m06', 'CSE-1998-B1-m03', 'CSE-1996-B1-m13', 'CSE-1995-B1-m15', 'CSE-1996-B1-m14', 'IFoS-2011-B1-m14', 'IFoS-2022-B1-m11', 'IFoS-2002-B1-m09'], q: [
   ['Match the ascocarp with its example: perithecium —', ['*Neurospora*', '*Peziza*', '*Penicillium*', '*Agaricus*'], 0,
     'Cleistothecium (closed): *Penicillium*, *Erysiphe*; perithecium (flask with ostiole): *Neurospora*, *Claviceps*; apothecium (cup): *Peziza*.'],
   ['In ascus development, the ascogenous hypha forms a hook called a:', ['Crozier', 'Clamp', 'Sterigma', 'Haustorium'], 0,
@@ -88,7 +88,7 @@
   ['*Neurospora* was used by Beadle and Tatum because it:', ['Is haploid and gives ordered ascospores', 'Has no sexual stage', 'Is diploid', 'Forms basidia'], 0,
     'Their work led to the one gene–one enzyme idea.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-1996-B1-m19', 'CSE-2022-B1-m15', 'IFoS-2020-B1-m15', 'IFoS-2012-B1-m33', 'CSE-1987-B1-m15'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-1996-B1-m19', 'CSE-2022-B1-m15', 'IFoS-2020-B1-m15', 'IFoS-2012-B1-m33', 'CSE-1987-B1-m15', 'CSE-1990-B1-m29', 'IFoS-2011-B1-m13'], q: [
   ['The three kinds of mycelia in Basidiomycetes are:', ['Primary (monokaryotic), secondary (dikaryotic) and tertiary (organised fruit-body tissue)', 'Septate, aseptate and coenocytic', 'Haploid, diploid and triploid', 'Aerial, submerged and parasitic'], 0,
     'The secondary mycelium is long-lived and forms the fruit body.'],
   ['Clamp connections help to:', ['Keep the dikaryotic state during cell division', 'Form spores', 'Absorb food', 'Attach to the host'], 0,
@@ -110,7 +110,7 @@
   ['Compared with Ascomycota, Basidiomycota have:', ['A long dikaryotic phase and exogenous meiospores', 'Short dikaryotic phase and endogenous spores', 'Motile gametes', 'No fruiting bodies'], 0,
     'Zygomycota form zygospores by gametangial copulation.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-2024-B1-m18', 'IFoS-2013-B1-m28', 'IFoS-2020-B1-m14', 'IFoS-2005-B1-m21', 'IFoS-2015-B1-m12', 'CSE-2007-B1-m02', 'CSE-2005-B1-m03', 'CSE-2003-B1-m18', 'CSE-2000-B1-m15', 'CSE-1986-B1-m25'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-2024-B1-m18', 'IFoS-2013-B1-m28', 'IFoS-2020-B1-m14', 'IFoS-2005-B1-m21', 'IFoS-2015-B1-m12', 'CSE-2007-B1-m02', 'CSE-2005-B1-m03', 'CSE-2003-B1-m18', 'CSE-2000-B1-m15', 'CSE-1986-B1-m25', 'CSE-2005-B1-m05', 'IFoS-2006-B1-m12'], q: [
   ['Myxomycetes resemble animals because their vegetative stage is:', ['A wall-less, multinucleate plasmodium that engulfs food', 'A septate mycelium', 'A walled yeast cell', 'A photosynthetic filament'], 0,
     'They are placed with fungi because they form walled spores in sporangia.'],
   ['In a myxomycete life cycle, meiosis occurs:', ['In the sporangium during spore formation', 'In the plasmodium', 'In swarm cells', 'Never'], 0,
@@ -132,7 +132,7 @@
   ['Somatic hybrids from protoplast fusion differ from cybrids in that cybrids have:', ['The nucleus of one parent with cytoplasm of both', 'Nuclei of both parents', 'No cytoplasm', 'Only chloroplasts'], 0,
     'Cybrids are used to transfer cytoplasmic male sterility.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-2007-B1-m16', 'CSE-2014-B1-m14', 'CSE-1991-B1-m01', 'CSE-2001-B1-m02'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['CSE-2007-B1-m16', 'CSE-2014-B1-m14', 'CSE-1991-B1-m01', 'CSE-2001-B1-m02', 'CSE-1986-B1-m15'], q: [
   ['A vegetative cell of *Saccharomyces cerevisiae* has:', ['A thin wall, one nucleus, a large vacuole and glycogen and volutin granules', 'Many nuclei and no vacuole', 'Chloroplasts', 'A septate mycelium'], 0,
     'It reproduces mainly by budding.'],
   ['In *S. cerevisiae*, sexual reproduction involves:', ['Fusion of two haploid cells to a diploid that later forms four ascospores by meiosis', 'Zygospore formation', 'Basidiospores', 'Motile gametes'], 0,

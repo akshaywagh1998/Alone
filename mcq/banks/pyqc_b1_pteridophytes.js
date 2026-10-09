@@ -22,7 +22,7 @@
   ['The *Marsilea* sporocarp is not considered a seed because:', ['The megaspore is shed and the gametophyte is fertilised outside, with no integument-covered megasporangium', 'It contains microsporangia as well', 'It has a hard wall', 'Its spores are produced by meiosis'], 0,
     'A seed is an integumented megasporangium retaining the megaspore and holding an embryo.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2005-B1-m26', 'CSE-1994-B1-m39', 'CSE-1993-B1-m37', 'IFoS-2015-B1-m19', 'CSE-2012-B1-m27', 'CSE-2011-B1-m17', 'IFoS-2000-B1-m24', 'CSE-1987-B1-m23', 'IFoS-2003-B1-m26', 'CSE-2007-B1-m25', 'CSE-1995-B1-m39', 'IFoS-2001-B1-m24', 'CSE-1990-B1-m10'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2005-B1-m26', 'CSE-1994-B1-m39', 'CSE-1993-B1-m37', 'IFoS-2015-B1-m19', 'CSE-2012-B1-m27', 'CSE-2011-B1-m17', 'IFoS-2000-B1-m24', 'CSE-1987-B1-m23', 'IFoS-2003-B1-m26', 'CSE-2007-B1-m25', 'CSE-1995-B1-m39', 'IFoS-2001-B1-m24', 'CSE-1990-B1-m10', 'CSE-1995-B1-m17', 'IFoS-2002-B1-m10', 'IFoS-2000-B1-m13'], q: [
   ['The rhizophore of *Selaginella* arises:', ['From angle meristems at the points of stem branching', 'Endogenously from the pericycle of the root', 'From the base of the ligule', 'From the strobilus axis'], 0,
     'It is a colourless, leafless, positively geotropic axis that produces roots at its tip.'],
   ['Which feature makes the rhizophore of *Selaginella* stem-like rather than root-like?', ['Exogenous origin and no root cap', 'Presence of root hairs', 'Endogenous origin', 'Exarch xylem'], 0,
@@ -66,7 +66,7 @@
   ['Huperzine A, studied for Alzheimer\'s disease, comes from:', ['*Huperzia serrata* (*Lycopodium serratum*)', '*Equisetum arvense*', '*Marsilea minuta*', '*Selaginella bryopteris*'], 0,
     'It is an acetylcholinesterase inhibitor.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2014-B1-m30', 'IFoS-2005-B1-m27', 'IFoS-2003-B1-m27', 'CSE-2022-B1-m26', 'IFoS-2001-B1-m26', 'CSE-1986-B1-m31', 'IFoS-2004-B1-m02', 'IFoS-2024-B1-m02', 'CSE-2000-B1-m01'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2014-B1-m30', 'IFoS-2005-B1-m27', 'IFoS-2003-B1-m27', 'CSE-2022-B1-m26', 'IFoS-2001-B1-m26', 'CSE-1986-B1-m31', 'IFoS-2004-B1-m02', 'IFoS-2024-B1-m02', 'CSE-2000-B1-m01', 'CSE-1989-B1-m04'], q: [
   ['In the *Equisetum* stem, carinal canals lie:', ['Opposite the ridges, formed by breakdown of protoxylem', 'Opposite the furrows in the cortex', 'In the centre of the pith', 'In the leaf sheath'], 0,
     'Vallecular canals are cortical and lie opposite the furrows; the centre has a large pith cavity.'],
   ['A xerophytic feature of *Equisetum* is:', ['Silica-rich ridged epidermis with sunken stomata', 'Large vallecular canals', 'A central pith cavity', 'Aerenchyma in the cortex'], 0,
@@ -88,7 +88,7 @@
   ['Compared with *Equisetum*, the vascular system of ferns is considered more advanced because ferns have:', ['Megaphylls whose leaf traces leave leaf gaps in a siphonostele or dictyostele', 'A simple protostele', 'No leaf traces', 'Only scale leaves'], 0,
     'Leaf gaps and dissected steles go with the large, complex fern leaf.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2013-B1-m39', 'CSE-2019-B1-m28', 'CSE-1998-B1-m25', 'IFoS-2003-B1-m25', 'CSE-2006-B1-m25', 'CSE-1990-B1-m22', 'CSE-2006-B1-m17'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2013-B1-m39', 'CSE-2019-B1-m28', 'CSE-1998-B1-m25', 'IFoS-2003-B1-m25', 'CSE-2006-B1-m25', 'CSE-1990-B1-m22', 'CSE-2006-B1-m17', 'IFoS-2010-B1-m23', 'IFoS-2002-B1-m18', 'IFoS-2005-B1-m13'], q: [
   ['The typical prothallus of *Dryopteris* or *Pteris* is:', ['Green, heart-shaped and monoecious, with archegonia near the apical notch', 'Subterranean and non-green', 'Endosporic and unisexual', 'Filamentous and dioecious'], 0,
     'Antheridia lie among the rhizoids towards the posterior end.'],
   ['A non-green, tuberous, subterranean mycorrhizal prothallus is typical of:', ['*Ophioglossum* and *Botrychium*', '*Pteris*', '*Marsilea*', '*Azolla*'], 0,
@@ -110,7 +110,7 @@
   ['Isomorphic alternation of generations means:', ['Gametophyte and sporophyte look alike', 'The sporophyte is dependent on the gametophyte', 'Only the gametophyte is free-living', 'The gametophyte is endosporic'], 0,
     'E.g. *Ulva*, *Ectocarpus*. Heteromorphic: unlike phases, e.g. *Laminaria*, ferns.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['CSE-2001-B1-m18', 'CSE-1988-B1-m26', 'CSE-1988-B1-m25', 'IFoS-2024-B1-m26', 'IFoS-2013-B1-m40', 'CSE-2006-B1-m25', 'CSE-2006-B1-m24', 'CSE-1985-B1-m01', 'CSE-1992-B1-m01', 'CSE-2016-B1-m02'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['CSE-2001-B1-m18', 'CSE-1988-B1-m26', 'CSE-1988-B1-m25', 'IFoS-2024-B1-m26', 'IFoS-2013-B1-m40', 'CSE-2006-B1-m25', 'CSE-2006-B1-m24', 'CSE-1985-B1-m01', 'CSE-1992-B1-m01', 'CSE-2016-B1-m02', 'IFoS-2003-B1-m03', 'CSE-1990-B1-m03', 'IFoS-2016-B1-m09', 'CSE-2011-B1-m09', 'CSE-2004-B1-m13'], q: [
   ['*Rhynia* is known from the:', ['Rhynie Chert of Scotland, Early Devonian', 'Coal Measures of the Carboniferous', 'Jurassic of India', 'Cambrian of China'], 0,
     'Silica petrification preserved even cells and stomata.'],
   ['*Rhynia* had:', ['Leafless, rootless, dichotomous axes with terminal sporangia and a protostele', 'Megaphylls and roots', 'Seeds and cones', 'Ligulate leaves'], 0,

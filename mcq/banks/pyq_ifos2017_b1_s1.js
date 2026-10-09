@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2017 Botany Paper I, Q1–Q4 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q1a', 'CSE-1993-B1-m23', 'IFoS-2014-B1-m25', 'CSE-2007-B1-m22'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q1a', 'CSE-1993-B1-m23', 'IFoS-2014-B1-m25', 'CSE-2007-B1-m22', 'CSE-1992-B1-m04'], q: [
   ['A nucleus enclosed by a nuclear envelope is found in:', ['Eukaryotes only', 'Prokaryotes only', 'Both', 'Neither'], 0,
     'Prokaryotic DNA lies in an unbounded nucleoid.'],
   ['Cytoplasmic ribosomes are:', ['70S in prokaryotes and 80S in eukaryotes', '80S in prokaryotes and 70S in eukaryotes', '70S in both', '80S in both'], 0,
@@ -66,7 +66,7 @@
   ['The pigments of red algal plastids, similar to those of cyanobacteria, support the view that red algae:', ['Arose from primary endosymbiosis of a cyanobacterium', 'Arose from brown algae', 'Are fungi', 'Have no plastids'], 0,
     'Red algae, green algae and glaucophytes form the Archaeplastida.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 3, pyq: ['IFoS-2017-B1-Q1d', 'IFoS-2016-B1-m16', 'CSE-1994-B1-m28', 'IFoS-2022-B1-m20', 'IFoS-2005-B1-m24', 'IFoS-2024-B1-m22', 'CSE-2015-B1-m19', 'CSE-2009-B1-m23', 'IFoS-2006-B1-m21'], q: [
+{ p: 'B1', t: 'Microbiology', w: 3, pyq: ['IFoS-2017-B1-Q1d', 'IFoS-2016-B1-m16', 'CSE-1994-B1-m28', 'IFoS-2022-B1-m20', 'IFoS-2005-B1-m24', 'IFoS-2024-B1-m22', 'CSE-2015-B1-m19', 'CSE-2009-B1-m23', 'IFoS-2006-B1-m21', 'IFoS-2011-B1-m15'], q: [
   ['Ammonification is:', ['The release of ammonia from organic nitrogen by decomposers', 'The oxidation of ammonia to nitrate', 'The reduction of nitrate to N₂', 'The fixation of N₂'], 0,
     '*Bacillus*, *Clostridium*, *Pseudomonas*, actinomycetes and fungi all do it.'],
   ['The first step of nitrification, ammonium to nitrite, is carried out by:', ['*Nitrosomonas* (and *Nitrosococcus*, *Nitrosospira*)', '*Nitrobacter*', '*Rhizobium*', '*Pseudomonas denitrificans*'], 0,
@@ -88,7 +88,7 @@
   ['"Comammox" *Nitrospira*, discovered in 2015, can:', ['Oxidise ammonia all the way to nitrate in one organism', 'Fix nitrogen', 'Denitrify', 'Make ammonia from nitrate'], 0,
     'It changed the old view that two separate groups are always needed.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2017-B1-Q1e', 'IFoS-2019-B1-m13', 'CSE-2007-B1-m17', 'CSE-1996-B1-m22', 'CSE-1995-B1-m23', 'CSE-1995-B1-m25', 'CSE-2003-B1-m15'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2017-B1-Q1e', 'IFoS-2019-B1-m13', 'CSE-2007-B1-m17', 'CSE-1996-B1-m22', 'CSE-1995-B1-m23', 'CSE-1995-B1-m25', 'CSE-2003-B1-m15', 'CSE-2000-B1-m07'], q: [
   ['The pollen grain of *Pinus* has:', ['Two air sacs (wings) that aid wind dispersal', 'No exine', 'Spines for insect dispersal', 'A single large pore'], 0,
     'The sacci make the grain buoyant.'],
   ['The first division of the *Pinus* microspore gives:', ['A small first prothallial cell and a large embryonal cell', 'Two equal cells', 'A tube cell and sperms', 'Four cells'], 0,
@@ -154,7 +154,7 @@
   ['The spores of bryophytes are formed by:', ['Meiosis of spore mother cells into tetrads', 'Mitosis of gametophyte cells', 'Fusion of gametes', 'Budding'], 0,
     'They are haploid and grow into the gametophyte.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q2c', 'CSE-2016-B1-m20', 'IFoS-2014-B1-m26', 'CSE-2006-B1-m18', 'CSE-2004-B1-m17', 'CSE-2001-B1-m14', 'IFoS-2006-B1-m22', 'IFoS-2011-B1-m27', 'IFoS-2021-B1-m22', 'IFoS-2019-B1-m19', 'CSE-2024-B1-m23', 'CSE-2025-B1-m21', 'CSE-2014-B1-m21', 'CSE-1991-B1-m33', 'CSE-1995-B1-m28'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q2c', 'CSE-2016-B1-m20', 'IFoS-2014-B1-m26', 'CSE-2006-B1-m18', 'CSE-2004-B1-m17', 'CSE-2001-B1-m14', 'IFoS-2006-B1-m22', 'IFoS-2011-B1-m27', 'IFoS-2021-B1-m22', 'IFoS-2019-B1-m19', 'CSE-2024-B1-m23', 'CSE-2025-B1-m21', 'CSE-2014-B1-m21', 'CSE-1991-B1-m33', 'CSE-1995-B1-m28', 'IFoS-2000-B1-m15', 'IFoS-2012-B1-m21'], q: [
   ['The gene-for-gene hypothesis was proposed by:', ['H. H. Flor, working on flax rust (*Melampsora lini*)', 'Van der Plank', 'Stakman', 'Jones and Dangl'], 0,
     'For each host resistance gene there is a matching pathogen avirulence gene.'],
   ['Pathogen-associated molecular patterns (PAMPs), such as bacterial flagellin, are recognised by:', ['Pattern-recognition receptors (PRRs) such as FLS2', 'NLR resistance proteins inside the cell', 'Ribosomes', 'Chloroplasts'], 0,
@@ -176,7 +176,7 @@
   ['Many fungal pathogens enter host tissue using:', ['Appressoria and cell-wall-degrading enzymes', 'Stomatal closure', 'Photosynthesis', 'Root nodules'], 0,
     'The rice blast fungus builds high turgor in its appressorium.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q2d', 'CSE-1993-B1-m19', 'CSE-2018-B1-m21', 'IFoS-2016-B1-m18', 'CSE-2013-B1-m13', 'CSE-2001-B1-m15', 'CSE-1996-B1-m24', 'CSE-1995-B1-m33', 'CSE-1988-B1-m22', 'CSE-1985-B1-m17', 'CSE-2020-B1-m22', 'CSE-2019-B1-m24', 'CSE-2002-B1-m16', 'CSE-1995-B1-m31'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q2d', 'CSE-1993-B1-m19', 'CSE-2018-B1-m21', 'IFoS-2016-B1-m18', 'CSE-2013-B1-m13', 'CSE-2001-B1-m15', 'CSE-1996-B1-m24', 'CSE-1995-B1-m33', 'CSE-1988-B1-m22', 'CSE-1985-B1-m17', 'CSE-2020-B1-m22', 'CSE-2019-B1-m24', 'CSE-2002-B1-m16', 'CSE-1995-B1-m31', 'CSE-2013-B1-m02', 'IFoS-2009-B1-m04', 'CSE-2010-B1-m02', 'IFoS-2001-B1-m16', 'IFoS-2001-B1-m14'], q: [
   ['Most antibiotics in clinical use are produced by bacteria of the genus:', ['*Streptomyces*', '*Escherichia*', '*Lactobacillus*', '*Rhizobium*'], 0,
     'Examples include tetracycline and chloramphenicol.'],
   ['The antibiotics bacitracin and polymyxin come from:', ['*Bacillus* species', '*Streptomyces* only', 'Fungi', 'Algae'], 0,
@@ -198,7 +198,7 @@
   ['Taq polymerase, essential for PCR, comes from:', ['*Thermus aquaticus*', '*Escherichia coli*', '*Bacillus subtilis*', '*Agrobacterium*'], 0,
     'It stays stable at the high temperatures used in PCR.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2017-B1-Q3a', 'IFoS-2004-B1-m19'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2017-B1-Q3a', 'IFoS-2004-B1-m19', 'CSE-1991-B1-m22'], q: [
   ['Simple polyembryony in gymnosperms results from:', ['Fertilisation of several archegonia, each forming an embryo', 'Splitting of one proembryo', 'Nucellar budding', 'Synergid embryos'], 0,
     'It occurs in both *Cycas* and *Pinus*.'],
   ['Cleavage polyembryony results from:', ['One zygote whose proembryo splits into several embryos', 'Several archegonia being fertilised', 'Fusion of embryos', 'Apomixis'], 0,
@@ -308,7 +308,7 @@
   ['The telome theory can also explain complex steles through:', ['Syngenesis — fusion of the vascular strands of telomes', 'Secondary growth', 'Leaf gaps only', 'Reduction'], 0,
     'Fused telomes give lobed and dissected steles.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q4b', 'IFoS-2013-B1-m29', 'IFoS-2012-B1-m37', 'IFoS-2001-B1-m17', 'CSE-2024-B1-m24', 'CSE-2020-B1-m19', 'CSE-2013-B1-m15', 'IFoS-2020-B1-m21', 'CSE-2014-B1-m24', 'CSE-1991-B1-m31', 'CSE-1987-B1-m18', 'CSE-2015-B1-m21', 'CSE-1999-B1-m18', 'IFoS-2019-B1-m21', 'CSE-1990-B1-m41', 'CSE-2010-B1-m06'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q4b', 'IFoS-2013-B1-m29', 'IFoS-2012-B1-m37', 'IFoS-2001-B1-m17', 'CSE-2024-B1-m24', 'CSE-2020-B1-m19', 'CSE-2013-B1-m15', 'IFoS-2020-B1-m21', 'CSE-2014-B1-m24', 'CSE-1991-B1-m31', 'CSE-1987-B1-m18', 'CSE-2015-B1-m21', 'CSE-1999-B1-m18', 'IFoS-2019-B1-m21', 'CSE-1990-B1-m41', 'CSE-2010-B1-m06', 'IFoS-2006-B1-m14'], q: [
   ['Black stem rust of wheat is caused by:', ['*Puccinia graminis* f. sp. *tritici*', '*Puccinia triticina*', '*Puccinia striiformis*', '*Ustilago tritici*'], 0,
     '*P. triticina* causes brown (leaf) rust; *P. striiformis* causes yellow (stripe) rust.'],
   ['Stem rust is called macrocyclic because it:', ['Produces all five spore stages', 'Has only urediniospores', 'Has no teliospores', 'Grows only on large plants'], 0,
@@ -330,7 +330,7 @@
   ['Pycniospores (spermatia) of stem rust:', ['Serve to fertilise receptive hyphae, restoring the dikaryon', 'Infect wheat directly', 'Are the resting stage', 'Are produced on wheat'], 0,
     'They form in pycnia on the upper surface of barberry leaves.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q4c', 'CSE-2020-B1-m20', 'CSE-2016-B1-m19', 'CSE-2013-B1-m14', 'CSE-2006-B1-m20', 'CSE-2003-B1-m16', 'CSE-1989-B1-m31', 'CSE-1991-B1-m27', 'IFoS-2016-B1-m17', 'CSE-1993-B1-m31'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q4c', 'CSE-2020-B1-m20', 'CSE-2016-B1-m19', 'CSE-2013-B1-m14', 'CSE-2006-B1-m20', 'CSE-2003-B1-m16', 'CSE-1989-B1-m31', 'CSE-1991-B1-m27', 'IFoS-2016-B1-m17', 'CSE-1993-B1-m31', 'IFoS-2013-B1-m18'], q: [
   ['In the lytic cycle, a phage:', ['Multiplies inside the host and bursts (lyses) it', 'Integrates into the host chromosome and stays dormant', 'Never infects the host', 'Only attaches to the host'], 0,
     'In the lysogenic cycle, the phage genome is carried as a prophage.'],
   ['Phage T4 is:', ['Virulent — it follows only the lytic cycle', 'Temperate', 'An RNA phage', 'A plant virus'], 0,
@@ -352,7 +352,7 @@
   ['Hershey and Chase (1952) used phage T2 to show that:', ['DNA, not protein, is the genetic material', 'Protein is the genetic material', 'RNA is the genetic material of all phages', 'Phages have no genes'], 0,
     'They labelled the DNA with ³²P and the protein with ³⁵S.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2017-B1-Q4d', 'IFoS-2014-B1-m16', 'CSE-1991-B1-m16', 'CSE-1992-B1-m19'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2017-B1-Q4d', 'IFoS-2014-B1-m16', 'CSE-1991-B1-m16', 'CSE-1992-B1-m19', 'CSE-2011-B1-m10'], q: [
   ['Bryophytes are called the "amphibians of the plant kingdom" because they:', ['Live on land but need water for fertilisation', 'Live only in water', 'Live only in deserts', 'Have both roots and gills'], 0,
     'Their sperms must swim to the archegonium.'],
   ['Land plants are thought to have evolved from:', ['Charophycean green algae', 'Red algae', 'Brown algae', 'Fungi'], 0,

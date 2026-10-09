@@ -22,7 +22,7 @@
   ['Author citations are useful because they:', ['Make names precise, separate homonyms and point to the original publication', 'Show where a plant grows', 'Give the plant’s uses', 'Show its chromosome number'], 0,
     'They are essential in taxonomic literature.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2017-B1-Q5b', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q5b', 'CSE-2019-B1-m14', 'CSE-2017-B1-m10', 'CSE-2015-B1-m14', 'IFoS-2007-B1-m15', 'CSE-2006-B1-m13', 'CSE-1992-B1-m25', 'IFoS-2024-B1-m15', 'IFoS-2023-B1-m12', 'IFoS-2022-B1-m12', 'CSE-2007-B1-m15', 'CSE-2002-B1-m18', 'CSE-2025-B1-m16', 'IFoS-2013-B1-m26', 'CSE-2012-B1-m17'], q: [
   ['Vavilov located centres of origin by finding regions with:', ['The greatest genetic diversity of a crop and its wild relatives', 'The highest crop yields', 'The largest cultivated area', 'The oldest cities'], 0,
     'This is the differential phytogeographic method.'],
   ['Vavilov originally proposed:', ['Eight main centres, with three subcentres', 'Twelve megacentres', 'Four centres', 'Twenty centres'], 0,
@@ -44,7 +44,7 @@
   ['Besides centres of origin, Vavilov formulated the:', ['Law of homologous series in variation (1920)', 'Law of the minimum', 'Hardy–Weinberg law', 'Law of tolerance'], 0,
     'Related species show parallel series of variation.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2017-B1-Q5c', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q5c', 'IFoS-2023-B1-m13', 'CSE-2021-B1-m14', 'CSE-2013-B1-m10', 'CSE-2005-B1-m15', 'CSE-2024-B1-m11', 'IFoS-2021-B1-m07', 'CSE-2023-B1-m12', 'CSE-1994-B1-m18', 'IFoS-2004-B1-m16'], q: [
   ['Cotton fibre is obtained from:', ['Seed hairs (epidermal outgrowths of the seed coat) of *Gossypium*', 'Stem bast', 'Leaves', 'Fruit mesocarp'], 0,
     'It is a surface fibre, nearly pure cellulose.'],
   ['Jute fibre is obtained from:', ['Secondary phloem (bast) of *Corchorus capsularis* and *C. olitorius*', 'Seed hairs', 'Leaves', 'Roots'], 0,
@@ -154,7 +154,7 @@
   ['Bees pollinating pea-type (papilionaceous) flowers:', ['Press down the keel, so the stamens and style spring up against their bodies', 'Collect pollinia on their legs', 'Pierce the ovary', 'Visit only at night'], 0,
     'Asclepiads use the translator mechanism instead.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02', 'CSE-2001-B1-m16', 'CSE-2006-B1-m21', 'CSE-1986-B1-m13'], q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02', 'CSE-2001-B1-m16', 'CSE-2006-B1-m21', 'CSE-1986-B1-m13', 'IFoS-2009-B1-m07', 'IFoS-2005-B1-m05', 'CSE-2004-B1-m01', 'IFoS-2002-B1-m03', 'CSE-1991-B1-m09', 'CSE-2025-B1-m05', 'CSE-1993-B1-m03', 'IFoS-2014-B1-m06', 'IFoS-2010-B1-m08', 'IFoS-2000-B1-m03', 'CSE-1999-B1-m20', 'CSE-1992-B1-m23', 'IFoS-2006-B1-m16'], q: [
   ['The term "palynology" was coined by:', ['Hyde and Williams (1944)', 'G. Erdtman', 'L. von Post', 'P. Maheshwari'], 0,
     'It is the study of pollen and spores.'],
   ['The founder of modern pollen morphology, who introduced acetolysis, was:', ['Gunnar Erdtman', 'Lennart von Post', 'Hyde', 'Heslop-Harrison'], 0,
@@ -176,7 +176,7 @@
   ['Erdtman’s NPC system classifies pollen by the:', ['Number, position and character of the apertures', 'Nucleus, protein and colour', 'Size, shape and weight', 'Species, plant and country'], 0,
     'Aperture features are useful in taxonomy.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: 'IFoS-2017-B1-Q6d', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2017-B1-Q6d', 'CSE-2024-B1-m16', 'CSE-2017-B1-m11', 'IFoS-2014-B1-m17', 'IFoS-2013-B1-m25', 'IFoS-2010-B1-m24', 'CSE-2006-B1-m14', 'IFoS-2002-B1-m13', 'IFoS-2019-B1-m09', 'CSE-2007-B1-m14', 'CSE-2021-B1-m12', 'CSE-2015-B1-m12', 'CSE-2022-B1-m13', 'IFoS-2022-B1-m23', 'CSE-2003-B1-m13', 'CSE-2000-B1-m11'], q: [
   ['The term "ethnobotany" was coined in 1895 by:', ['J. W. Harshberger', 'S. K. Jain', 'Richard Schultes', 'Linnaeus'], 0,
     'It is the study of how people use plants.'],
   ['The father of Indian ethnobotany is:', ['S. K. Jain', 'Birbal Sahni', 'P. Maheshwari', 'M. S. Swaminathan'], 0,
@@ -198,7 +198,7 @@
   ['Ethnobotany speeds up drug discovery because:', ['Plants with a history of traditional use are more likely to contain active compounds', 'It avoids all testing', 'It uses only synthetic chemicals', 'It ignores local knowledge'], 0,
     'Benefit-sharing with communities is now required under the Biological Diversity Act.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q7a', 'IFoS-2014-B1-m11', 'CSE-2007-B1-m08'], q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q7a', 'IFoS-2014-B1-m11', 'CSE-2007-B1-m08', 'IFoS-2020-B1-m12', 'CSE-2000-B1-m08', 'CSE-2025-B1-m12', 'CSE-2020-B1-m07', 'CSE-2021-B1-m09'], q: [
   ['Liquorice (*Glycyrrhiza glabra*, Fabaceae) contains:', ['Glycyrrhizin, a sweet compound used against coughs and ulcers', 'Reserpine', 'Sinigrin', 'Amygdalin'], 0,
     'It is about 50 times sweeter than sugar.'],
   ['*Psoralea corylifolia* (bakuchi, Fabaceae) is used to treat leucoderma because it contains:', ['Psoralens (furanocoumarins)', 'Morphine', 'Caffeine', 'Pectin'], 0,
@@ -220,7 +220,7 @@
   ['"Double-zero" (canola-quality) rapeseed–mustard varieties are low in:', ['Erucic acid in the oil and glucosinolates in the meal', 'Oil content', 'Protein', 'Fibre'], 0,
     'High erucic acid is undesirable in edible oil.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q7b', 'IFoS-2016-B1-m11'], q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q7b', 'IFoS-2016-B1-m11', 'IFoS-2016-B1-m10'], q: [
   ['The three levels of biodiversity are:', ['Genetic, species and ecosystem diversity', 'Cell, tissue and organ diversity', 'Soil, water and air diversity', 'Local, national and global diversity'], 0,
     'All three must be conserved.'],
   ['Species diversity within a single habitat is called:', ['Alpha diversity', 'Beta diversity', 'Gamma diversity', 'Delta diversity'], 0,
@@ -242,7 +242,7 @@
   ['India’s first biosphere reserve, set up in 1986, was:', ['Nilgiri', 'Sundarbans', 'Nanda Devi', 'Gulf of Mannar'], 0,
     'It covers parts of Tamil Nadu, Kerala and Karnataka.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: 'IFoS-2017-B1-Q7c', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: ['IFoS-2017-B1-Q7c', 'IFoS-2021-B1-m04', 'IFoS-2011-B1-m02', 'IFoS-2009-B1-m08', 'CSE-2006-B1-m04', 'CSE-2024-B1-m04', 'CSE-1992-B1-m17', 'CSE-1991-B1-m35', 'CSE-2025-B1-m06', 'CSE-2010-B1-m27', 'IFoS-2024-B1-m13', 'CSE-1995-B1-m18'], q: [
   ['Apomixis is:', ['The formation of seed without meiosis and fertilisation', 'Normal sexual seed formation', 'Seedless fruit formation', 'Germination on the plant'], 0,
     'The term was coined by Winkler (1908).'],
   ['In diplospory, the embryo sac develops from:', ['The megaspore mother cell, without normal meiosis', 'A nucellar cell', 'The zygote', 'The pollen'], 0,
@@ -264,7 +264,7 @@
   ['The main breeding value of apomixis is that it can:', ['Fix hybrid vigour, since seed is produced clonally', 'Increase variation each generation', 'Make plants sterile', 'Reduce yields'], 0,
     'Farmers could then save hybrid seed.']
 ] },
-{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: 'IFoS-2017-B1-Q8a', q: [
+{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: ['IFoS-2017-B1-Q8a', 'IFoS-2025-B1-Q6a', 'IFoS-2021-B1-m03', 'CSE-2020-B1-m03', 'CSE-2017-B1-m03', 'CSE-2003-B1-m04', 'CSE-2025-B1-m10', 'CSE-2019-B1-m06', 'CSE-2016-B1-m11', 'IFoS-2014-B1-m09', 'CSE-1999-B1-m08', 'CSE-1996-B1-m08', 'CSE-1988-B1-m09', 'CSE-2024-B1-m10', 'IFoS-2023-B1-m05', 'IFoS-2013-B1-m04', 'CSE-2012-B1-m02', 'IFoS-2011-B1-m04', 'IFoS-2007-B1-m04', 'IFoS-2001-B1-m03', 'CSE-1996-B1-m06', 'CSE-2007-B1-m05', 'CSE-1994-B1-m14', 'IFoS-2005-B1-m15', 'CSE-1996-B1-m16', 'IFoS-2005-B1-m17', 'IFoS-2005-B1-m16'], q: [
   ['In normal secondary growth of a dicot stem:', ['A cambium ring produces secondary xylem inwards and secondary phloem outwards', 'Several cambia form in the cortex', 'Xylem forms outside the phloem', 'No cambium is formed'], 0,
     'Anomalous growth departs from this pattern.'],
   ['In *Boerhaavia*, anomalous secondary growth involves:', ['Medullary bundles and successive rings of accessory cambium', 'Phloem wedges', 'Included phloem only', 'A secondary thickening meristem'], 0,
@@ -308,7 +308,7 @@
   ['Singapore Botanic Gardens played a key role in developing:', ['The rubber industry of south-east Asia (H. N. Ridley)', 'The tea industry of Assam', 'The coffee industry of Brazil', 'Cotton breeding'], 0,
     'Ridley developed the tapping method used today.']
 ] },
-{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 3, pyq: 'IFoS-2017-B1-Q8c', q: [
+{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 3, pyq: ['IFoS-2017-B1-Q8c', 'CSE-2002-B1-m03', 'CSE-2021-B1-m04', 'CSE-2024-B1-m05', 'CSE-2018-B1-m03', 'CSE-1998-B1-m04', 'CSE-2016-B1-m04', 'CSE-1996-B1-m07', 'CSE-1993-B1-m07', 'CSE-2006-B1-m02', 'CSE-2019-B1-m15', 'CSE-2023-B1-m27', 'IFoS-2023-B1-m24', 'CSE-2021-B1-m27', 'IFoS-2025-B1-m07', 'IFoS-2024-B1-m24', 'CSE-1994-B1-m37', 'CSE-2015-B1-m26', 'CSE-2022-B1-m24', 'IFoS-2014-B1-m29', 'CSE-2025-B1-m25', 'CSE-2017-B1-m20', 'CSE-2010-B1-m05'], q: [
   ['Micropropagation is:', ['Rapid clonal multiplication of plants in vitro from small explants', 'Propagation by seed', 'Grafting in the field', 'Hybridisation'], 0,
     'It gives large numbers of uniform plants.'],
   ['The most widely used plant tissue culture medium was developed by:', ['Murashige and Skoog (1962)', 'Gamborg', 'White', 'Nitsch'], 0,

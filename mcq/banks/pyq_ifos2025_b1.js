@@ -66,7 +66,7 @@
   ['Microbes suit industrial production because they:', ['Grow fast on cheap substrates, can be genetically improved and give high yields in fermenters', 'Grow only on costly media', 'Cannot be scaled up', 'Need sunlight'], 0,
     'Downstream processing then purifies the product.'],
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-Q1e', 'IFoS-2009-B1-m26'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-Q1e', 'IFoS-2009-B1-m26', 'CSE-2006-B1-m05', 'IFoS-2013-B1-m19', 'CSE-2003-B1-m12'], q: [
   ['Seed ferns (Pteridospermales / Cycadofilicales) are best described as:', ['Extinct plants with fern-like fronds that bore true seeds', 'Living ferns with spores', 'Early angiosperms', 'Bryophytes with seeds'], 0,
     'They flourished in the Carboniferous and Permian.'],
   ['Seeds were first shown to be borne on the fronds of *Lyginopteris* by:', ['Oliver and Scott (1904)', 'Darwin (1859)', 'Linnaeus (1753)', 'Zimmermann (1930)'], 0,
@@ -154,7 +154,7 @@
   ['The name "tikka" refers to the:', ['Spots (marks) formed on groundnut leaves', 'Pod rot', 'Stem breaking', 'Seed colour'], 0,
     'From the Hindi word for a mark on the forehead.'],
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2025-B1-Q3c', 'CSE-2025-B1-m27', 'IFoS-2013-B1-m38', 'CSE-2012-B1-m29', 'IFoS-2010-B1-m39', 'CSE-1996-B1-m27'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2025-B1-Q3c', 'CSE-2025-B1-m27', 'IFoS-2013-B1-m38', 'CSE-2012-B1-m29', 'IFoS-2010-B1-m39', 'CSE-1996-B1-m27', 'CSE-1994-B1-m04', 'CSE-1989-B1-m19'], q: [
   ['*Ophioglossum* (adder’s-tongue fern) is:', ['A eusporangiate fern', 'A leptosporangiate fern', 'A moss', 'A seed plant'], 0,
     'Family Ophioglossaceae, with *Botrychium* (grape fern, moonwort).'],
   ['In *Ophioglossum*, each leaf consists of:', ['A sterile lamina and a fertile spike arising from its base', 'Only a fertile spike', 'A sporocarp', 'Sori on the lower surface'], 0,
@@ -220,7 +220,7 @@
   ['Insect-pathogenic fungi of the genus *Entomophthora* belong to:', ['Zygomycetes (Entomophthorales)', 'Basidiomycetes', 'Oomycetes', 'Deuteromycetes only'], 0,
     'They cause epidemics in aphids and flies.'],
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: 'IFoS-2025-B1-Q5a', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: ['IFoS-2025-B1-Q5a', 'IFoS-2000-B1-m18', 'CSE-1994-B1-m21'], q: [
   ['Adventive embryony is classed as sporophytic apomixis because:', ['The embryo arises directly from a diploid somatic cell (nucellus or integument) outside the embryo sac', 'The embryo arises from an unreduced egg', 'The embryo arises from a sperm', 'No embryo is formed'], 0,
     'Gametophytic apomixis (apospory, diplospory) involves an unreduced embryo sac.'],
   ['Haploid parthenogenesis is the development of an embryo from:', ['An unfertilised, reduced (haploid) egg', 'An unreduced egg', 'The nucellus', 'A synergid after fertilisation'], 0,
@@ -242,7 +242,7 @@
   ['Doubled haploids are valuable in breeding because they:', ['Give completely homozygous lines in one generation', 'Are always sterile', 'Increase heterozygosity', 'Cannot be used in crosses'], 0,
     'They save several generations of selfing.'],
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: 'IFoS-2025-B1-Q5b', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: ['IFoS-2025-B1-Q5b', 'CSE-2020-B1-m09', 'IFoS-2014-B1-m08', 'CSE-1989-B1-m12'], q: [
   ['Microspores are formed from microspore mother cells by:', ['Meiosis, producing tetrads', 'Mitosis only', 'Fusion', 'Budding'], 0,
     'Each tetrad separates into four haploid microspores.'],
   ['The first mitosis in a microspore is asymmetric and produces:', ['A large vegetative cell and a small generative cell', 'Two equal cells', 'Two sperms', 'Four nuclei'], 0,
@@ -264,7 +264,7 @@
   ['Pollen tube growth is by:', ['Tip growth, with a calcium gradient at the growing tip', 'Growth along its whole length', 'Cell division at the base', 'Swelling of the exine'], 0,
     'Pectin-rich wall material is added at the tip.'],
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2025-B1-Q5d', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2025-B1-Q5d', 'CSE-2015-B1-m11', 'CSE-2022-B1-m08', 'CSE-2010-B1-m10'], q: [
   ['Indigo dye is obtained from the leaves of:', ['*Indigofera tinctoria*', '*Lawsonia inermis*', '*Bixa orellana*', '*Curcuma longa*'], 0,
     'Its cultivation drove the Champaran indigo movement.'],
   ['Henna colour comes from lawsone in the leaves of:', ['*Lawsonia inermis*', '*Indigofera tinctoria*', '*Rubia cordifolia*', '*Butea monosperma*'], 0,
@@ -286,7 +286,7 @@
   ['Natural dyes are regaining importance mainly because they are:', ['Eco-friendly and non-toxic compared with many synthetic dyes', 'Cheaper than all synthetic dyes', 'Available in unlimited colours', 'Completely light-fast'], 0,
     'Mordants (e.g., alum) are used to fix them to fibres.'],
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2025-B1-Q5e', 'CSE-2016-B1-m07', 'IFoS-2007-B1-m05', 'IFoS-2002-B1-m06', 'IFoS-2001-B1-m06', 'IFoS-2000-B1-m08', 'CSE-2019-B1-m07', 'CSE-2018-B1-m05'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2025-B1-Q5e', 'CSE-2016-B1-m07', 'IFoS-2007-B1-m05', 'IFoS-2002-B1-m06', 'IFoS-2001-B1-m06', 'IFoS-2000-B1-m08', 'CSE-2019-B1-m07', 'CSE-2018-B1-m05', 'IFoS-2003-B1-m04', 'IFoS-2005-B1-m03'], q: [
   ['A herbarium is:', ['A collection of pressed, dried and labelled plant specimens arranged in a system of classification', 'A garden of living medicinal plants', 'A seed bank', 'A greenhouse'], 0,
     'It is the basic reference for plant identification and naming.'],
   ['The standard size of a herbarium sheet is about:', ['41 × 29 cm', '10 × 10 cm', '1 × 1 m', '5 × 3 cm'], 0,
@@ -308,7 +308,7 @@
   ['Herbarium specimens are protected from insect damage today mainly by:', ['Deep-freezing and pest-monitoring, instead of toxic poisons', 'Soaking in water', 'Keeping them in sunlight', 'Storing them in soil'], 0,
     'Mercuric chloride was used earlier but is hazardous.'],
 ] },
-{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: 'IFoS-2025-B1-Q6a', q: [
+{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: ['IFoS-2025-B1-Q6a', 'IFoS-2006-B1-m04'], q: [
   ['*Boerhavia diffusa* belongs to the family:', ['Nyctaginaceae', 'Salvadoraceae', 'Bignoniaceae', 'Asparagaceae'], 0,
     'Punarnava, a common medicinal herb.'],
   ['The young stem of *Boerhavia* shows vascular bundles arranged in:', ['About three rings, the innermost being medullary bundles', 'A single ring', 'Scattered as in monocots', 'Only in the cortex'], 0,
@@ -352,7 +352,7 @@
   ['Which is a papilionoid legume used for timber?', ['*Dalbergia sissoo*', '*Tamarindus indica*', '*Acacia catechu*', '*Albizia lebbeck*'], 0,
     'Rosewood (*D. latifolia*) and *Pterocarpus* are also papilionoid timbers.'],
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2025-B1-Q6c', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2025-B1-Q6c', 'CSE-2025-B1-m13', 'CSE-2022-B1-m11', 'CSE-2006-B1-m07'], q: [
   ['The edible fig (*Ficus carica*) inflorescence is a:', ['Syconium (hypanthodium)', 'Capitulum', 'Umbel', 'Spadix'], 0,
     'Tiny flowers line the inside of a hollow receptacle.'],
   ['Figs are pollinated by:', ['Fig wasps (e.g., *Blastophaga psenes*)', 'Bats', 'Wind', 'Water'], 0,
@@ -374,7 +374,7 @@
   ['Oats (*Avena sativa*) are valued nutritionally for their:', ['Soluble fibre (β-glucan), which helps lower cholesterol', 'Very high gluten', 'Caffeine', 'Vitamin B12'], 0,
     'Oats are also grown widely as winter fodder in India.'],
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: 'IFoS-2025-B1-Q7a', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2025-B1-Q7a', 'IFoS-2024-B1-m14', 'IFoS-2011-B1-m20'], q: [
   ['The term "ethnobotany" was coined by:', ['J.W. Harshberger (1896)', 'Linnaeus (1753)', 'Darwin (1859)', 'Vavilov (1926)'], 0,
     'It studies the relationship between people and plants.'],
   ['The father of Indian ethnobotany is:', ['S.K. Jain', 'P. Maheshwari', 'Birbal Sahni', 'M.S. Swaminathan'], 0,
