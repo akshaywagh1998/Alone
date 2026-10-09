@@ -220,7 +220,7 @@
   ['A key principle in seed production of any crop is:', ['Maintaining genetic purity by using the right seed class, isolation and rogueing', 'Using farm-saved grain as seed', 'Mixing varieties to increase yield', 'Skipping field inspections'], 0,
     'Cross-pollinated crops additionally need isolation, planting ratios and synchronised flowering.'],
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'CSE-2026-A2-Q3c', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['CSE-2026-A2-Q3c', 'IFoS-2004-A2-m28'], q: [
   ['A hallmark of cytoplasmic inheritance is that:', ['Reciprocal crosses give different results, usually following the maternal parent', 'F₂ shows a 3:1 ratio', 'Traits are always sex-linked', 'Both parents contribute equally'], 0,
     'Genes lie in plastids or mitochondria, which are mostly transmitted through the egg.'],
   ['Shell coiling in the snail *Limnaea* is an example of:', ['A maternal effect of the mother’s nuclear genotype, not cytoplasmic inheritance', 'Plastid inheritance', 'Sex-linked inheritance', 'Polygenic inheritance'], 0,

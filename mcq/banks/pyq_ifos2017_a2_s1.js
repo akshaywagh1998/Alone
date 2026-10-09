@@ -198,7 +198,7 @@
   ['Water moving into a cell is called:', ['Endosmosis', 'Exosmosis', 'Guttation', 'Transpiration'], 0,
     'Water moving out is called exosmosis.']
 ] },
-{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: 'IFoS-2017-A2-Q3b', q: [
+{ p: 'A2', t: 'Cell Biology & Genetics', w: 2, pyq: ['IFoS-2017-A2-Q3b', 'CSE-2026-A2-Q3c', 'IFoS-2019-A2-m18', 'CSE-2013-A2-m32', 'CSE-2000-A2-m35', 'CSE-1991-A2-m29'], q: [
   ['Sex-limited characters are:', ['Expressed in only one sex, although the genes are present in both', 'Carried on the Y chromosome', 'Expressed equally in both sexes', 'Controlled by mitochondria'], 0,
     'Milk yield in cattle is the classic example.'],
   ['Sex-influenced characters are:', ['Expressed in both sexes, but dominant in one sex and recessive in the other', 'Expressed in one sex only', 'X-linked', 'Y-linked'], 0,

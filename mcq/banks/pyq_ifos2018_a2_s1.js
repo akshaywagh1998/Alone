@@ -132,7 +132,7 @@
   ['Seed of cross-pollinated varieties is maintained by:', ['Growing a large population in isolation to avoid genetic drift', 'Selfing a single plant', 'Cloning', 'Mutating'], 0,
     'Small populations lose variation and vigour.']
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: 'IFoS-2018-A2-Q2b', q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: ['IFoS-2018-A2-Q2b', 'IFoS-2012-A2-m28'], q: [
   ['Heterosis breeding exploits:', ['The vigour of F₁ hybrids', 'New mutations', 'Polyploidy', 'Apomixis'], 0,
     'Hybrid seed must be bought fresh each season.'],
   ['Mutation breeding works by:', ['Inducing new heritable variation with physical or chemical mutagens', 'Crossing two parents', 'Selecting within pure lines', 'Grafting'], 0,

@@ -572,7 +572,7 @@
   ['Decentralised procurement (DCP) helps food policy by:', ['Letting states procure and distribute locally, saving transport and widening procurement', 'Centralising all procurement', 'Ending PDS', 'Increasing imports'], 0,
     'It also supports farmers in states with little central procurement.'],
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2025-A2-Q8b', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2025-A2-Q8b', 'IFoS-2022-A2-m30', 'IFoS-2016-A2-m25', 'CSE-2015-A2-m30', 'CSE-2009-A2-m26', 'IFoS-2005-A2-m30', 'IFoS-2005-A2-m32', 'IFoS-2003-A2-m30', 'IFoS-2000-A2-m16', 'IFoS-2000-A2-m18', 'CSE-1993-A2-m42', 'CSE-1991-A2-m30', 'CSE-1990-A2-m32', 'CSE-1989-A2-m41', 'CSE-1994-A2-m15'], q: [
   ['Chilli leaves curling UPWARD are typically caused by:', ['Thrips (*Scirtothrips dorsalis*)', 'Mites', 'Aphids', 'Whitefly only'], 0,
     'Downward curling with a leathery look is typical of mites (e.g., the broad mite).'],
   ['The broad (yellow) mite causing downward leaf curl in chilli is:', ['*Polyphagotarsonemus latus*', '*Tetranychus urticae*', '*Scirtothrips dorsalis*', '*Bemisia tabaci*'], 0,

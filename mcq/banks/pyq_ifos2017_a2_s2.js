@@ -22,7 +22,7 @@
   ['Calyx splitting in carnation, a disorder that lowers flower quality, is linked to:', ['Low and fluctuating temperatures (and boron deficiency)', 'Excess sunlight only', 'Insects', 'Viruses'], 0,
     'Calyx bands are used to prevent it.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2017-A2-Q5b', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5b', 'IFoS-2023-A2-m33', 'CSE-2015-A2-m28', 'IFoS-2015-A2-m32', 'CSE-2009-A2-m25', 'CSE-2004-A2-m25', 'IFoS-2001-A2-m29', 'IFoS-2000-A2-m20', 'CSE-1993-A2-m41', 'CSE-1991-A2-m31', 'CSE-1990-A2-m35', 'CSE-1997-A2-m27', 'CSE-1989-A2-m11', 'IFoS-2023-A2-m36'], q: [
   ['A preventive measure against stored-grain pests is:', ['Cleaning and disinfesting stores and bags before loading new grain', 'Storing moist grain', 'Mixing old and new grain', 'Keeping stores open to rain'], 0,
     'Residual infestation is a major source of new attack.'],
   ['For prophylaxis in godowns, malathion or deltamethrin is sprayed:', ['On walls, floors and bag surfaces, not directly on the grain', 'Directly into the grain', 'On the farmers', 'In the field only'], 0,
@@ -66,7 +66,7 @@
   ['Root-knot nematodes (*Meloidogyne*) make wilts worse because they:', ['Wound roots, letting wilt fungi in and breaking resistance', 'Kill the fungi', 'Feed on leaves only', 'Have no effect'], 0,
     'This combination is called a disease complex.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2017-A2-Q5d', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q5d', 'CSE-1996-A2-m26'], q: [
   ['*Bacillus thuringiensis* kills insects mainly through:', ['Crystal (Cry) δ-endotoxins formed during sporulation', 'Fungal hyphae', 'Viral particles', 'Nematode attack'], 0,
     'It is a Gram-positive, spore-forming bacterium.'],
   ['Bt var. *kurstaki* is most effective against:', ['Caterpillars (Lepidoptera)', 'Mosquito larvae', 'Beetle grubs', 'Aphids'], 0,
@@ -110,7 +110,7 @@
   ['Aam papad (mango leather) and aonla murabba are examples of:', ['Traditional preserved fruit products using drying and sugar', 'Fermented drinks', 'Frozen foods', 'Canned vegetables'], 0,
     'These are value-added products for rural enterprise.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2017-A2-Q6a', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q6a', 'IFoS-2019-A2-m10', 'IFoS-2002-A2-m20'], q: [
   ['The most destructive insect pest of cauliflower and other crucifers worldwide is:', ['Diamondback moth (*Plutella xylostella*)', 'Pink bollworm', 'Brown planthopper', 'Fruit fly'], 0,
     'It has developed resistance to many insecticides.'],
   ['Diamondback moth was the first insect to evolve field resistance to:', ['*Bacillus thuringiensis* sprays', 'DDT', 'Neem', 'Pyrethrum'], 0,
@@ -132,7 +132,7 @@
   ['Pheromone traps in cauliflower fields are used to:', ['Monitor and mass-trap diamondback moth males', 'Kill aphids', 'Attract bees', 'Repel birds'], 0,
     'Catches show when to spray.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2017-A2-Q6b', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2017-A2-Q6b', 'CSE-2014-A2-m28', 'IFoS-2021-A2-m28'], q: [
   ['For 1,000 litres of spray at 0.02% strength, the active ingredient needed is:', ['0.2 litre (200 mL)', '2 litres', '20 litres', '0.02 litre'], 0,
     '1,000 × 0.02 ÷ 100 = 0.2 L.'],
   ['The amount of Chlorpyriphos 20 EC needed to supply 0.2 L of active ingredient is:', ['1 litre', '0.2 litre', '4 litres', '2 litres'], 0,

@@ -23,7 +23,7 @@
   ['Topiary as a garden art dates back to:', ['Roman gardens', 'The Green Revolution', '20th-century Japan only', 'The Harappan civilisation'], 0,
     'It was revived in Renaissance and later European formal gardens.'],
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q5b', 'CSE-2020-A2-m06'], q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q5b', 'CSE-2020-A2-m06', 'IFoS-2020-A2-m26'], q: [
   ['A moon garden is designed to be enjoyed:', ['At night, by moonlight', 'Only in winter', 'Only by bees', 'Underwater'], 0,
     'It uses white or pale flowers, silvery foliage and night-scented plants.'],
   ['Plants chosen for a moon garden typically have:', ['White or pale flowers, silvery foliage or night-blooming fragrance', 'Dark red flowers that close at night', 'Only green foliage', 'Thorny stems'], 0,
@@ -265,7 +265,7 @@
   ['CAP storage in India refers to:', ['Cover and plinth storage of bagged grain on raised platforms under covers', 'Cold-air packaging', 'Controlled atmosphere packaging for fruits', 'Central agricultural procurement'], 0,
     'Used by FCI when covered warehouse space is short; losses are higher than in proper godowns or silos.'],
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q8b', 'IFoS-2022-A2-m14', 'IFoS-2020-A2-m20', 'CSE-2012-A2-m10', 'CSE-2011-A2-m11', 'IFoS-2010-A2-m14', 'IFoS-2017-A2-Q5a', 'CSE-2016-A2-m08', 'CSE-2016-A2-m10', 'CSE-2015-A2-m17', 'IFoS-2015-A2-m16', 'CSE-2023-A2-m07', 'CSE-2015-A2-m09', 'CSE-2003-A2-m06', 'CSE-2001-A2-m12', 'CSE-2010-A2-m03', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m15', 'IFoS-2003-A2-m16', 'IFoS-2003-A2-m17', 'CSE-2022-A2-m09', 'CSE-1996-A2-m13', 'CSE-2009-A2-m10', 'CSE-1989-A2-m17', 'CSE-2019-A2-m12', 'CSE-1999-A2-m12'], q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q8b', 'IFoS-2022-A2-m14', 'IFoS-2020-A2-m20', 'CSE-2012-A2-m10', 'CSE-2011-A2-m11', 'IFoS-2010-A2-m14', 'IFoS-2017-A2-Q5a', 'CSE-2016-A2-m08', 'CSE-2016-A2-m10', 'CSE-2015-A2-m17', 'IFoS-2015-A2-m16', 'CSE-2023-A2-m07', 'CSE-2015-A2-m09', 'CSE-2003-A2-m06', 'CSE-2001-A2-m12', 'CSE-2010-A2-m03', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m15', 'IFoS-2003-A2-m16', 'IFoS-2003-A2-m17', 'CSE-2022-A2-m09', 'CSE-1996-A2-m13', 'CSE-2009-A2-m10', 'CSE-1989-A2-m17', 'CSE-2019-A2-m12', 'CSE-1999-A2-m12', 'IFoS-2021-A2-m27'], q: [
   ['In standard carnations, disbudding means:', ['Removing side buds to leave one large terminal flower per stem', 'Removing the terminal bud', 'Removing all leaves', 'Cutting the roots'], 0,
     'Spray carnations keep side buds and remove the terminal bud instead, giving several smaller flowers.'],
   ['Pinching in carnation is done mainly to:', ['Increase the number of flowering shoots and regulate the time of flowering', 'Kill pests', 'Reduce yield', 'Ripen seeds'], 0,

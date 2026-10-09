@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2018 Agriculture Paper II, Q5–Q8 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: 'IFoS-2018-A2-Q5a', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 2, pyq: ['IFoS-2018-A2-Q5a', 'CSE-2011-A2-m30'], q: [
   ['The maximum residue limit (MRL) of a pesticide is:', ['The highest legally permitted residue level in a food commodity', 'The dose to be sprayed per hectare', 'The lethal dose for pests', 'The toxicity class'], 0,
     'MRLs in India are set by FSSAI; Codex sets international MRLs.'],
   ['The pre-harvest interval (waiting period) is:', ['The minimum time between the last pesticide spray and harvest', 'The time between two sprays', 'The time from sowing to spraying', 'The shelf life of the pesticide'], 0,
@@ -176,7 +176,7 @@
   ['Deciduous fruit trees such as apple, pear and peach are pruned mainly:', ['In winter, during dormancy', 'At flowering', 'At fruit set', 'Just before harvest'], 0,
     'Dormant pruning causes the least stress.']
 ] },
-{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: 'IFoS-2018-A2-Q6d', q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 3, pyq: ['IFoS-2018-A2-Q6d', 'CSE-2019-A2-m27'], q: [
   ['Biological control of plant diseases is:', ['Using living organisms to suppress plant pathogens', 'Using chemical fungicides', 'Breeding resistant varieties only', 'Burning crop residues'], 0,
     'It is a key part of integrated disease management.'],
   ['The mechanisms of biocontrol include:', ['Antibiosis, competition, mycoparasitism and induced resistance', 'Only fertiliser supply', 'Only physical barriers', 'Only chemical toxicity'], 0,
@@ -220,7 +220,7 @@
   ['Bacterial wilt of cucurbits, spread by cucumber beetles, is caused by:', ['*Erwinia tracheiphila*', '*Ralstonia solanacearum*', '*Fusarium oxysporum*', '*Pythium*'], 0,
     'Controlling the beetles prevents the disease.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2018-A2-Q7b', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2018-A2-Q7b', 'CSE-2015-A2-m29', 'IFoS-2010-A2-m25'], q: [
   ['A parasitoid is an insect that:', ['Develops in or on a single host and eventually kills it, while the adult lives free', 'Eats many prey in its lifetime', 'Feeds only on plants', 'Lives with its host without harming it'], 0,
     'A predator consumes many prey over its life.'],
   ['*Trichogramma chilonis* is:', ['An egg parasitoid, released on "Tricho-cards"', 'A predator of aphids', 'A larval predator', 'A weed-feeding beetle'], 0,
@@ -308,7 +308,7 @@
   ['A key institutional constraint for small farmers is:', ['Poor access to credit, markets and extension services', 'Too many advisers', 'Surplus market access', 'Excess insurance'], 0,
     'FPOs and digital services aim to close these gaps.']
 ] },
-{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: 'IFoS-2018-A2-Q8b', q: [
+{ p: 'A2', t: 'Insect Pests & IPM', w: 3, pyq: ['IFoS-2018-A2-Q8b', 'IFoS-2022-A2-m28', 'CSE-2019-A2-m25', 'IFoS-2016-A2-m26', 'CSE-2010-A2-m27', 'IFoS-2006-A2-m29', 'CSE-2005-A2-m21', 'IFoS-2025-A2-Q5c', 'CSE-2003-A2-m24', 'IFoS-2021-A2-m26', 'CSE-1992-A2-m44'], q: [
   ['The pulse beetle, the main pest of stored pulses, is:', ['*Callosobruchus chinensis* or *C. maculatus*', '*Sitophilus oryzae*', '*Tribolium castaneum*', '*Trogoderma granarium*'], 0,
     'It infests pods in the field and multiplies in store.'],
   ['The rice weevil *Sitophilus oryzae* is:', ['An internal feeder whose larvae develop inside the grain', 'A pest of flour only', 'A field pest of leaves', 'A predator'], 0,
