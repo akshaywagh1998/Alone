@@ -66,7 +66,7 @@
   ['Restructured Weather-Based Crop Insurance (RWBCIS) pays claims based on:', ['Deviations in weather indices such as rainfall and temperature', 'Actual field yield cuts only', 'Market prices', 'Farm size'], 0,
     'It avoids lengthy crop-cutting experiments.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2011-A1-m01', 'CSE-2006-A1-m02', 'CSE-2003-A1-m07', 'CSE-2012-A1-m05', 'IFoS-2014-A1-m19', 'CSE-1990-A1-m09', 'IFoS-2014-A1-m20', 'IFoS-2020-A1-m23', 'IFoS-2014-A1-m21'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2011-A1-m01', 'CSE-2006-A1-m02', 'CSE-2003-A1-m07', 'CSE-2012-A1-m05', 'IFoS-2014-A1-m19', 'CSE-1990-A1-m09', 'IFoS-2014-A1-m20', 'IFoS-2020-A1-m23', 'IFoS-2014-A1-m21', 'CSE-2013-A1-m06'], q: [
   ['FAO\'s four pillars of food security are:', ['Availability, access, utilisation and stability', 'Production, storage, export and import', 'Land, labour, capital and enterprise', 'Rice, wheat, pulses and oil'], 0,
     'Defined at the 1996 World Food Summit.'],
   ['The National Food Security Act, 2013 covers up to:', ['75% of the rural and 50% of the urban population', 'All citizens', '25% of rural people', 'Only BPL families in cities'], 0,

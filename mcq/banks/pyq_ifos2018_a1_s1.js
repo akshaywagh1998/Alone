@@ -66,7 +66,7 @@
   ['Most cultivated Indian soils are:', ['Low in organic carbon (often below 0.5%)', 'Very high in organic carbon', 'Peaty', 'Rich in humus everywhere'], 0,
     'High temperatures speed up the oxidation of soil organic matter.']
 ] },
-{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2018-A1-Q1d', 'IFoS-2013-A1-m07', 'IFoS-2004-A1-m03', 'CSE-1994-A1-m04', 'CSE-1990-A1-m02', 'CSE-1989-A1-m05', 'IFoS-2019-A1-m08', 'CSE-1999-A1-m05'], q: [
+{ p: 'A1', t: 'Agro-climatic Zones & Cropping Systems', w: 3, pyq: ['IFoS-2018-A1-Q1d', 'IFoS-2013-A1-m07', 'IFoS-2004-A1-m03', 'CSE-1994-A1-m04', 'CSE-1990-A1-m02', 'CSE-1989-A1-m05', 'IFoS-2019-A1-m08', 'CSE-1999-A1-m05', 'IFoS-2014-A1-m22'], q: [
   ['Multiple cropping means:', ['Growing two or more crops on the same field in a year', 'Growing one crop over several years', 'Growing crops only in pots', 'Rotating fields among farmers'], 0,
     'It includes both sequential cropping and intercropping.'],
   ['Cropping intensity is calculated as:', ['(Gross cropped area ÷ net sown area) × 100', '(Net sown area ÷ gross cropped area) × 100', 'Yield ÷ area', 'Irrigated area ÷ total area'], 0,
@@ -88,7 +88,7 @@
   ['The main significance of multiple cropping is that it:', ['Increases production per unit area and time, and spreads risk', 'Always reduces yield', 'Needs no inputs', 'Suits only deserts'], 0,
     'It is vital in a land-scarce country like India.']
 ] },
-{ p: 'A1', t: 'Crop Production', w: 2, pyq: 'IFoS-2018-A1-Q1e', q: [
+{ p: 'A1', t: 'Crop Production', w: 2, pyq: ['IFoS-2018-A1-Q1e', 'IFoS-2009-A1-m13'], q: [
   ['Rice and soybean are generally:', ['Short-day plants', 'Long-day plants', 'Day-neutral plants', 'Not affected by day length'], 0,
     'Wheat and barley are long-day plants.'],
   ['Winter wheat needs a cold period to flower. This is called:', ['Vernalisation', 'Photoperiodism', 'Stratification', 'Scarification'], 0,
@@ -132,7 +132,7 @@
   ['The "Har Medh Par Ped" (a tree on every field bund) approach is part of:', ['The Sub-Mission on Agroforestry', 'The PM-KISAN scheme', 'The Soil Health Card scheme', 'e-NAM'], 0,
     'It promotes trees on farm boundaries.']
 ] },
-{ p: 'A1', t: 'Weed Science', w: 3, pyq: ['IFoS-2018-A1-Q2b', 'CSE-2024-A1-m26', 'CSE-2023-A1-m27', 'IFoS-2021-A1-m27', 'IFoS-2013-A1-m34', 'CSE-2008-A1-m10', 'CSE-2003-A1-m10', 'IFoS-2005-A1-m26', 'IFoS-2003-A1-m22', 'CSE-2000-A1-m13', 'CSE-1989-A1-m16', 'CSE-1994-A1-m14', 'CSE-2024-A1-m27', 'IFoS-2016-A1-m32', 'CSE-2007-A1-m05'], q: [
+{ p: 'A1', t: 'Weed Science', w: 3, pyq: ['IFoS-2018-A1-Q2b', 'CSE-2024-A1-m26', 'CSE-2023-A1-m27', 'IFoS-2021-A1-m27', 'IFoS-2013-A1-m34', 'CSE-2008-A1-m10', 'CSE-2003-A1-m10', 'IFoS-2005-A1-m26', 'IFoS-2003-A1-m22', 'CSE-2000-A1-m13', 'CSE-1989-A1-m16', 'CSE-1994-A1-m14', 'CSE-2024-A1-m27', 'IFoS-2016-A1-m32', 'CSE-2007-A1-m05', 'IFoS-2023-A1-m03'], q: [
   ['The basic principles of weed management are:', ['Prevention, eradication and control, combined in integrated management', 'Irrigation, drainage and tillage', 'Harvesting, threshing and storage', 'Breeding, selection and testing'], 0,
     'Integrated weed management (IWM) combines several methods.'],
   ['Preventive weed control includes:', ['Using clean seed, weed-free manure and clean implements', 'Spraying herbicides after emergence', 'Hand weeding at flowering', 'Releasing insects'], 0,
@@ -242,7 +242,7 @@
   ['Community seed banks support contingency planning by:', ['Keeping seed of alternative crops ready for resowing', 'Storing fertilisers', 'Storing pesticides', 'Selling land'], 0,
     'Seed availability is often the main bottleneck.']
 ] },
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['IFoS-2018-A1-Q3c', 'IFoS-2022-A1-m03', 'CSE-2018-A1-m01', 'IFoS-2016-A1-m03', 'CSE-2014-A1-m07', 'IFoS-2014-A1-m02', 'IFoS-2013-A1-m01', 'IFoS-2011-A1-m01', 'CSE-2021-A1-m02', 'CSE-2013-A1-m05', 'CSE-2019-A1-m02', 'CSE-2014-A1-m02', 'CSE-2019-A1-m13', 'IFoS-2016-A1-m12', 'IFoS-2005-A1-m07', 'IFoS-2004-A1-m05', 'CSE-1990-A1-m05'], q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 3, pyq: ['IFoS-2018-A1-Q3c', 'IFoS-2022-A1-m03', 'CSE-2018-A1-m01', 'IFoS-2016-A1-m03', 'CSE-2014-A1-m07', 'IFoS-2014-A1-m02', 'IFoS-2013-A1-m01', 'IFoS-2011-A1-m01', 'CSE-2021-A1-m02', 'CSE-2013-A1-m05', 'CSE-2019-A1-m02', 'CSE-2014-A1-m02', 'CSE-2019-A1-m13', 'IFoS-2016-A1-m12', 'IFoS-2005-A1-m07', 'IFoS-2004-A1-m05', 'CSE-1990-A1-m05', 'IFoS-2012-A1-m22'], q: [
   ['Greenhouse gases warm the Earth by:', ['Absorbing and re-emitting outgoing long-wave (infrared) radiation', 'Reflecting all sunlight', 'Absorbing ultraviolet only', 'Blocking visible light'], 0,
     'They are largely transparent to incoming short-wave radiation.'],
   ['Without the natural greenhouse effect, Earth’s mean surface temperature would be about:', ['−18 °C instead of about 15 °C', '50 °C', '0 °C', '30 °C'], 0,
@@ -286,7 +286,7 @@
   ['Harvested water hyacinth can be usefully turned into:', ['Compost, biogas, paper and handicrafts', 'Fuel oil directly', 'Cement', 'Glass'], 0,
     'Using it helps pay for mechanical removal.']
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2018-A1-Q4a', 'IFoS-2016-A1-m05', 'CSE-2007-A1-m01', 'CSE-1996-A1-m01', 'CSE-1994-A1-m02', 'CSE-2020-A1-m03', 'IFoS-2014-A1-m01', 'CSE-2000-A1-m02', 'CSE-1990-A1-m01', 'CSE-2004-A1-m02', 'CSE-1989-A1-m02', 'CSE-2024-A1-m02', 'CSE-2004-A1-m04', 'CSE-1989-A1-m04', 'CSE-1991-A1-m01', 'CSE-2002-A1-m01', 'IFoS-2009-A1-m12'], q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2018-A1-Q4a', 'IFoS-2016-A1-m05', 'CSE-2007-A1-m01', 'CSE-1996-A1-m01', 'CSE-1994-A1-m02', 'CSE-2020-A1-m03', 'IFoS-2014-A1-m01', 'CSE-2000-A1-m02', 'CSE-1990-A1-m01', 'CSE-2004-A1-m02', 'CSE-1989-A1-m02', 'CSE-2024-A1-m02', 'CSE-2004-A1-m04', 'CSE-1989-A1-m04', 'CSE-1991-A1-m01', 'CSE-2002-A1-m01', 'IFoS-2009-A1-m12', 'IFoS-2020-A1-m10', 'CSE-2019-A1-m10', 'CSE-1995-A1-m05', 'CSE-2021-A1-m09', 'CSE-2014-A1-m10', 'CSE-2016-A1-m07'], q: [
   ['In India, pulses are mostly grown:', ['Under rainfed conditions on marginal lands', 'Under assured irrigation on the best lands', 'In greenhouses', 'Only in hills'], 0,
     'Moisture stress is therefore a major yield constraint.'],
   ['India is the world’s:', ['Largest producer, consumer and importer of pulses', 'Largest exporter of pulses', 'Smallest pulse producer', 'Largest producer of soybean'], 0,
@@ -308,7 +308,7 @@
   ['The UN declared which year the International Year of Pulses?', ['2016', '2008', '2023', '2013'], 0,
     '2023 was the International Year of Millets.']
 ] },
-{ p: 'A1', t: 'Plant Propagation & Micropropagation', w: 2, pyq: ['IFoS-2018-A1-Q4b', 'IFoS-2015-A1-m08'], q: [
+{ p: 'A1', t: 'Plant Propagation & Micropropagation', w: 2, pyq: ['IFoS-2018-A1-Q4b', 'IFoS-2015-A1-m08', 'IFoS-2013-A1-m05'], q: [
   ['Plant propagation means:', ['Multiplying plants by seed (sexual) or by vegetative parts (asexual)', 'Only sowing seeds', 'Only grafting', 'Harvesting crops'], 0,
     'Vegetative methods include cuttings, layering, grafting, budding and tissue culture.'],
   ['The main advantages of micropropagation are:', ['Rapid, year-round, true-to-type and disease-free multiplication in little space', 'Low cost and no skilled labour', 'Always new genetic variation', 'No need for a laboratory'], 0,

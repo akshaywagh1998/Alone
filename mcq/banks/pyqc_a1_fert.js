@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture I — Soil fertility, manures, fertilisers and biofertilisers. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['CSE-2018-A1-m19', 'IFoS-2016-A1-m27', 'CSE-2013-A1-m21', 'CSE-1999-A1-m13', 'CSE-2021-A1-m23', 'CSE-1989-A1-m15', 'CSE-2002-A1-m12', 'CSE-1992-A1-m10', 'IFoS-2001-A1-m05', 'CSE-1991-A1-m11', 'CSE-2023-A1-m23', 'IFoS-2016-A1-m28', 'CSE-1995-A1-m12', 'CSE-1992-A1-m12', 'IFoS-2009-A1-m01', 'IFoS-2000-A1-m02', 'IFoS-2001-A1-m02', 'CSE-2010-A1-m10', 'IFoS-2023-A1-m26'], q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['CSE-2018-A1-m19', 'IFoS-2016-A1-m27', 'CSE-2013-A1-m21', 'CSE-1999-A1-m13', 'CSE-2021-A1-m23', 'CSE-1989-A1-m15', 'CSE-2002-A1-m12', 'CSE-1992-A1-m10', 'IFoS-2001-A1-m05', 'CSE-1991-A1-m11', 'CSE-2023-A1-m23', 'IFoS-2016-A1-m28', 'CSE-1995-A1-m12', 'CSE-1992-A1-m12', 'IFoS-2009-A1-m01', 'IFoS-2000-A1-m02', 'IFoS-2001-A1-m02', 'CSE-2010-A1-m10', 'IFoS-2023-A1-m26', 'IFoS-2016-A1-m08'], q: [
   ['*Rhizobium* is a:', ['Symbiotic nitrogen fixer in legume root nodules', 'Free-living aerobic nitrogen fixer', 'Phosphate solubiliser only', 'Fungus'], 0,
     'Strains are host-specific (cross-inoculation groups).'],
   ['A free-living aerobic nitrogen-fixing biofertiliser is:', ['*Azotobacter*', '*Rhizobium*', '*Glomus*', '*Clostridium*'], 0,

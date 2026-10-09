@@ -22,7 +22,7 @@
   ['Besides LER, an index used to compare intercrops on time and land is:', ['Area Time Equivalent Ratio (ATER)', 'Harvest index', 'Leaf area index', 'Water use efficiency'], 0,
     'Aggressivity and competitive ratio measure dominance between components.']
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['CSE-2020-A1-m08', 'IFoS-2014-A1-m09', 'IFoS-2013-A1-m08', 'IFoS-2012-A1-m05', 'IFoS-2006-A1-m03', 'CSE-2024-A1-m09'], q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['CSE-2020-A1-m08', 'IFoS-2014-A1-m09', 'IFoS-2013-A1-m08', 'IFoS-2012-A1-m05', 'IFoS-2006-A1-m03', 'CSE-2024-A1-m09', 'CSE-2004-A1-m06'], q: [
   ['Primary tillage includes:', ['Ploughing with mouldboard or disc ploughs', 'Harrowing', 'Planking', 'Interculture'], 0,
     'Secondary tillage (harrowing, planking, levelling) prepares a fine seedbed.'],
   ['Minimum tillage differs from zero tillage in that minimum tillage:', ['Reduces the number of operations, while zero tillage sows directly into untilled soil', 'Uses more ploughing', 'Is the same as zero tillage', 'Uses only hand tools'], 0,

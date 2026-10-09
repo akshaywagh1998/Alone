@@ -88,7 +88,7 @@
   ['Diversifying crop rotations also helps by:', ['Breaking pest and disease cycles and improving soil health', 'Increasing pest build-up', 'Reducing soil organic matter', 'Increasing herbicide resistance'], 0,
     'Monocultures favour specialised pests.']
 ] },
-{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2017-A1-Q1e', 'CSE-2001-A1-m13', 'CSE-1999-A1-m04', 'CSE-1998-A1-m02', 'CSE-1989-A1-m01', 'IFoS-2022-A1-m05', 'CSE-2003-A1-m03', 'CSE-1992-A1-m02', 'IFoS-2005-A1-m04', 'CSE-1993-A1-m04', 'IFoS-2024-A1-m09', 'IFoS-2021-A1-m05', 'IFoS-2005-A1-m09', 'CSE-1994-A1-m08', 'CSE-1990-A1-m07', 'IFoS-2010-A1-m05', 'CSE-1994-A1-m07'], q: [
+{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2017-A1-Q1e', 'CSE-2001-A1-m13', 'CSE-1999-A1-m04', 'CSE-1998-A1-m02', 'CSE-1989-A1-m01', 'IFoS-2022-A1-m05', 'CSE-2003-A1-m03', 'CSE-1992-A1-m02', 'IFoS-2005-A1-m04', 'CSE-1993-A1-m04', 'IFoS-2024-A1-m09', 'IFoS-2021-A1-m05', 'IFoS-2005-A1-m09', 'CSE-1994-A1-m08', 'CSE-1990-A1-m07', 'IFoS-2010-A1-m05', 'CSE-1994-A1-m07', 'CSE-2022-A1-m05', 'CSE-2021-A1-m07', 'CSE-2020-A1-m06', 'CSE-2016-A1-m05', 'CSE-2015-A1-m04', 'IFoS-2014-A1-m04', 'IFoS-2020-A1-m08', 'IFoS-2016-A1-m06', 'CSE-2014-A1-m09', 'CSE-1995-A1-m02', 'IFoS-2023-A1-m07', 'CSE-2019-A1-m05', 'CSE-2025-A1-m03', 'CSE-2020-A1-m07'], q: [
   ['The term "social forestry" was popularised in India by the:', ['National Commission on Agriculture (1976)', 'Forest Act of 1927', 'Green Revolution', 'Planning Commission in 1951'], 0,
     'It aimed to meet rural needs for fuel, fodder and small timber.'],
   ['The components of social forestry are:', ['Farm forestry, community forestry and extension forestry (roadsides, canal banks, railway lines)', 'Only reserved forests', 'Only national parks', 'Only plantations of teak'], 0,
@@ -110,7 +110,7 @@
   ['Social forestry reduces pressure on natural forests by:', ['Supplying fuelwood, fodder and small timber near villages', 'Banning all tree cutting', 'Importing wood', 'Reducing village populations'], 0,
     'Rural people depend heavily on fuelwood.']
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: 'IFoS-2017-A1-Q2a', q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2017-A1-Q2a', 'CSE-2024-A1-m22'], q: [
   ['In north India, chickpea is best sown in:', ['Mid-October to early November', 'June–July', 'January', 'March–April'], 0,
     'Rainfed crops are sown earlier, in the first half of October.'],
   ['The usual spacing for chickpea is about:', ['30 cm between rows and 10 cm between plants', '10 cm × 5 cm', '90 cm × 60 cm', '60 cm × 60 cm'], 0,
@@ -286,7 +286,7 @@
   ['A limitation of soil solarisation is:', ['The cost of plastic film, the land being out of use and the disposal of plastic', 'It poisons the soil', 'It needs cold weather', 'It is illegal'], 0,
     'It works best in hot, sunny regions.']
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q4a', 'IFoS-2023-A1-m06', 'CSE-2003-A1-m04', 'IFoS-2022-A1-m07', 'IFoS-2015-A1-m01', 'CSE-2014-A1-m06', 'CSE-2026-A1-Q6c', 'CSE-2024-A1-m10', 'IFoS-2021-A1-m07', 'CSE-2018-A1-m08', 'CSE-2017-A1-m08', 'IFoS-2016-A1-m15', 'CSE-2015-A1-m07', 'IFoS-2011-A1-m07', 'IFoS-2006-A1-m02', 'CSE-2002-A1-m04', 'CSE-1992-A1-m06', 'CSE-2022-A1-m09', 'IFoS-2003-A1-m10', 'CSE-1999-A1-m06', 'CSE-1989-A1-m07', 'CSE-1989-A1-m08', 'CSE-2006-A1-m01', 'IFoS-2014-A1-m07', 'IFoS-2005-A1-m05', 'CSE-2000-A1-m05', 'CSE-1994-A1-m06', 'CSE-1997-A1-m04', 'CSE-1990-A1-m03', 'CSE-1991-A1-m02', 'IFoS-2005-A1-m15', 'IFoS-2005-A1-m13', 'IFoS-2005-A1-m14', 'IFoS-2010-A1-m25'], q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 3, pyq: ['IFoS-2017-A1-Q4a', 'IFoS-2023-A1-m06', 'CSE-2003-A1-m04', 'IFoS-2022-A1-m07', 'IFoS-2015-A1-m01', 'CSE-2014-A1-m06', 'CSE-2026-A1-Q6c', 'CSE-2024-A1-m10', 'IFoS-2021-A1-m07', 'CSE-2018-A1-m08', 'CSE-2017-A1-m08', 'IFoS-2016-A1-m15', 'CSE-2015-A1-m07', 'IFoS-2011-A1-m07', 'IFoS-2006-A1-m02', 'CSE-2002-A1-m04', 'CSE-1992-A1-m06', 'CSE-2022-A1-m09', 'IFoS-2003-A1-m10', 'CSE-1999-A1-m06', 'CSE-1989-A1-m07', 'CSE-1989-A1-m08', 'CSE-2006-A1-m01', 'IFoS-2014-A1-m07', 'IFoS-2005-A1-m05', 'CSE-2000-A1-m05', 'CSE-1994-A1-m06', 'CSE-1997-A1-m04', 'CSE-1990-A1-m03', 'CSE-1991-A1-m02', 'IFoS-2005-A1-m15', 'IFoS-2005-A1-m13', 'IFoS-2005-A1-m14', 'IFoS-2010-A1-m25', 'CSE-2023-A1-m09'], q: [
   ['The All India Coordinated Research Project on Dryland Agriculture (AICRPDA) began in:', ['1970', '1990', '2005', '1947'], 0,
     'It led to CRIDA being set up in 1985.'],
   ['A "dust mulch" in dryland farming is made by:', ['Shallow cultivation of the soil surface to break capillaries and reduce evaporation', 'Spreading plastic sheets', 'Adding sand', 'Flooding the field'], 0,

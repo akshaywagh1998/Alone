@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2018 Agriculture Paper I, Q5–Q8 (verbatim PYQs). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q5a', 'CSE-2020-A1-m05', 'IFoS-2020-A1-m05', 'CSE-2003-A1-m05', 'CSE-2010-A1-m01', 'CSE-2009-A1-m03', 'IFoS-2023-A1-m12', 'IFoS-2011-A1-m10', 'CSE-1992-A1-m08', 'CSE-2024-A1-m20', 'IFoS-2017-A1-Q5a', 'CSE-2017-A1-m15', 'IFoS-2013-A1-m26', 'IFoS-2011-A1-m19', 'CSE-2009-A1-m10', 'CSE-1994-A1-m12', 'IFoS-2014-A1-m25', 'CSE-2009-A1-m09', 'IFoS-2002-A1-m04', 'CSE-1993-A1-m08'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2018-A1-Q5a', 'CSE-2020-A1-m05', 'IFoS-2020-A1-m05', 'CSE-2003-A1-m05', 'CSE-2010-A1-m01', 'CSE-2009-A1-m03', 'IFoS-2023-A1-m12', 'IFoS-2011-A1-m10', 'CSE-1992-A1-m08', 'CSE-2024-A1-m20', 'IFoS-2017-A1-Q5a', 'CSE-2017-A1-m15', 'IFoS-2013-A1-m26', 'IFoS-2011-A1-m19', 'CSE-2009-A1-m10', 'CSE-1994-A1-m12', 'IFoS-2014-A1-m25', 'CSE-2009-A1-m09', 'IFoS-2002-A1-m04', 'CSE-1993-A1-m08', 'IFoS-2012-A1-m26', 'IFoS-2000-A1-m06'], q: [
   ['Consumptive use of water by a crop is:', ['Evapotranspiration plus the small amount of water retained in plant tissue', 'Only the water applied by irrigation', 'Only deep percolation', 'Only runoff'], 0,
     'The retained water is about 1%, so consumptive use is usually taken as equal to ET.'],
   ['Evapotranspiration (ET) is:', ['Evaporation from the soil plus transpiration from the plants', 'Transpiration only', 'Rainfall minus runoff', 'Irrigation minus drainage'], 0,
@@ -132,7 +132,7 @@
   ['Micro-irrigation is promoted in India under:', ['The "Per Drop More Crop" component of PMKSY', 'MGNREGA only', 'PM-KISAN', 'Jan Dhan Yojana'], 0,
     'Subsidies are given for drip and sprinkler systems.']
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q6b', 'CSE-2013-A1-m15', 'IFoS-2005-A1-m16', 'CSE-2001-A1-m17', 'CSE-2007-A1-m02', 'IFoS-2003-A1-m06', 'IFoS-2010-A1-m07', 'IFoS-2013-A1-m18', 'IFoS-2012-A1-m12', 'IFoS-2004-A1-m06'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2018-A1-Q6b', 'CSE-2013-A1-m15', 'IFoS-2005-A1-m16', 'CSE-2001-A1-m17', 'CSE-2007-A1-m02', 'IFoS-2003-A1-m06', 'IFoS-2010-A1-m07', 'IFoS-2013-A1-m18', 'IFoS-2012-A1-m12', 'IFoS-2004-A1-m06', 'CSE-1997-A1-m02'], q: [
   ['Opportunity cost is:', ['The return from the next best alternative that is given up', 'The price paid for inputs', 'The cost of transport', 'The total cost of production'], 0,
     'Every choice has an opportunity cost.'],
   ['If wheat gives a net return of ₹40,000/ha and mustard ₹35,000/ha on the same land, the opportunity cost of growing wheat is:', ['₹35,000', '₹40,000', '₹75,000', '₹5,000'], 0,

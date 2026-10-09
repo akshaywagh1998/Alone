@@ -22,7 +22,7 @@
   ['The ICAR institute leading research on soil and water conservation is at:', ['Dehradun (ICAR-IISWC)', 'Karnal', 'Jodhpur', 'Bhopal'], 0,
     'Indian Institute of Soil and Water Conservation, with regional centres across India. CSSRI Karnal works on salinity; CAZRI Jodhpur on arid zones.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['CSE-2026-A1-Q5b', 'IFoS-2025-A1-Q8a', 'CSE-2024-A1-m18', 'IFoS-2021-A1-m23', 'CSE-2020-A1-m21', 'CSE-2018-A1-m15', 'IFoS-2015-A1-m14', 'IFoS-2014-A1-m26', 'CSE-2013-A1-m18', 'CSE-2002-A1-m10', 'CSE-2001-A1-m18', 'CSE-1996-A1-m08', 'IFoS-2019-A1-m19', 'IFoS-2002-A1-m05', 'CSE-2018-A1-m16'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['CSE-2026-A1-Q5b', 'IFoS-2025-A1-Q8a', 'CSE-2024-A1-m18', 'IFoS-2021-A1-m23', 'CSE-2020-A1-m21', 'CSE-2018-A1-m15', 'IFoS-2015-A1-m14', 'IFoS-2014-A1-m26', 'CSE-2013-A1-m18', 'CSE-2002-A1-m10', 'CSE-2001-A1-m18', 'CSE-1996-A1-m08', 'IFoS-2019-A1-m19', 'IFoS-2002-A1-m05', 'CSE-2018-A1-m16', 'IFoS-2010-A1-m02', 'IFoS-2010-A1-m03'], q: [
   ['Under the soil-moisture depletion approach, most field crops are irrigated when available soil moisture is depleted by about:', ['50%', '10%', '90%', '100%'], 0,
     'Sensitive crops/stages may need irrigation at 25–40% depletion; hardy crops can go further.'],
   ['Tensiometers are reliable for irrigation scheduling only up to a soil-water tension of about:', ['0.8 bar (80 kPa)', '15 bar', '31 bar', '5 bar'], 0,
@@ -176,7 +176,7 @@
   ['Ridges and furrows or tied ridges in drylands mainly help by:', ['Holding rainwater in furrows for in-situ moisture conservation', 'Increasing runoff', 'Raising soil salinity', 'Reducing infiltration'], 0,
     'Tied ridges have cross-ties in furrows that stop water from running off.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q7a', 'IFoS-2003-A1-m17', 'CSE-1997-A1-m06', 'CSE-2007-A1-m06', 'IFoS-2016-A1-m13', 'IFoS-2013-A1-m21'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['CSE-2026-A1-Q7a', 'IFoS-2003-A1-m17', 'CSE-1997-A1-m06', 'CSE-2007-A1-m06', 'IFoS-2016-A1-m13', 'IFoS-2013-A1-m21', 'CSE-2007-A1-m03'], q: [
   ['In Indian farm-management cost concepts, net income is gross income minus:', ['Cost C2 (all paid-out and imputed costs)', 'Cost A1 only', 'Cost of seed only', 'Family labour cost only'], 0,
     'Farm business income = gross income − cost A1 (or A2); family labour income = gross income − cost B2.'],
   ['The three basic production decisions on a farm are:', ['What to produce, how to produce and how much to produce', 'Where to sell, whom to hire and when to rest', 'Which bank, which insurer and which trader', 'Which caste, which village and which season'], 0,
@@ -242,7 +242,7 @@
   ['"Nala bunds" in watershed development are:', ['Small earthen or masonry bunds across drainage lines to store water and trap silt', 'Bunds along the field boundary', 'Canal lining', 'Terrace risers'], 0,
     'They slow runoff and increase recharge.'],
 ] },
-{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['CSE-2026-A1-Q8a', 'CSE-2023-A1-m17', 'IFoS-2023-A1-m16', 'IFoS-2021-A1-m11', 'CSE-2020-A1-m18', 'CSE-2010-A1-m23', 'CSE-2001-A1-m15', 'IFoS-2014-A1-m17', 'CSE-2013-A1-m11', 'CSE-2016-A1-m14', 'IFoS-2016-A1-m23', 'IFoS-2014-A1-m23', 'IFoS-2012-A1-m16', 'IFoS-2013-A1-m16'], q: [
+{ p: 'A1', t: 'Agricultural Extension', w: 2, pyq: ['CSE-2026-A1-Q8a', 'CSE-2023-A1-m17', 'IFoS-2023-A1-m16', 'IFoS-2021-A1-m11', 'CSE-2020-A1-m18', 'CSE-2010-A1-m23', 'CSE-2001-A1-m15', 'IFoS-2014-A1-m17', 'CSE-2013-A1-m11', 'CSE-2016-A1-m14', 'IFoS-2016-A1-m23', 'IFoS-2014-A1-m23', 'IFoS-2012-A1-m16', 'IFoS-2013-A1-m16', 'IFoS-2011-A1-m20'], q: [
   ['The main difference between monitoring and evaluation is that monitoring is:', ['Continuous tracking of inputs, activities and outputs during implementation', 'A one-time assessment of long-term impact', 'Done only by external experts', 'Done only after the programme ends'], 0,
     'Evaluation is periodic and judges effectiveness, outcomes and impact.'],
   ['Evaluation carried out before a programme starts, to judge its feasibility, is:', ['Ex-ante evaluation', 'Ex-post evaluation', 'Terminal evaluation', 'Concurrent evaluation'], 0,

@@ -45,7 +45,7 @@
   ['In a rice–fish–duck system, ducks mainly contribute by:', ['Eating weeds and insects and adding manure', 'Fixing atmospheric nitrogen', 'Raising the water temperature', 'Pollinating the rice'], 0,
     'An example of complementarity among components, lowering pesticide and fertiliser needs.'],
 ] },
-{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: 'CSE-2026-A1-Q1c', q: [
+{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['CSE-2026-A1-Q1c', 'IFoS-2020-A1-m07', 'CSE-2018-A1-m05', 'IFoS-2014-A1-m03', 'CSE-2004-A1-m05'], q: [
   ['Which trait is LEAST desirable in a tree for agroforestry with field crops?', ['A dense, spreading crown with shallow lateral roots', 'A deep taproot', 'A light, open crown', 'Tolerance of pruning or lopping'], 0,
     'Good agroforestry trees are fast-growing, deep-rooted, light-crowned, often N-fixing, coppice well and are not strongly allelopathic.'],
   ['*Melia dubia* (Malabar neem) is promoted in agroforestry mainly because it:', ['Grows very fast and yields plywood/pulpwood in about 6–8 years', 'Fixes more nitrogen than any legume', 'Is a conifer tolerant of snow', 'Produces edible fruit'], 0,
@@ -155,7 +155,7 @@
   ['A key environmental benefit of precision nutrient management is:', ['Higher input-use efficiency with less nutrient loss to water and air', 'More fertiliser use per hectare', 'Complete elimination of pests', 'Higher soil salinity'], 0,
     'Matching supply to demand cuts nitrate leaching and N₂O emissions and raises profit.'],
 ] },
-{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 2, pyq: 'CSE-2026-A1-Q2c', q: [
+{ p: 'A1', t: 'Dryland Farming & Watershed Management', w: 2, pyq: ['CSE-2026-A1-Q2c', 'CSE-2023-A1-m22', 'CSE-2022-A1-m22', 'IFoS-2020-A1-m26', 'CSE-2019-A1-m21', 'CSE-2018-A1-m17', 'CSE-2016-A1-m19', 'CSE-2013-A1-m20', 'CSE-2010-A1-m24', 'CSE-2024-A1-m04', 'CSE-2023-A1-m05'], q: [
   ['A Geographic Information System (GIS) is best described as a system to:', ['Capture, store, analyse and display geo-referenced spatial data in layers', 'Forecast weather only', 'Measure soil pH in the field', 'Pump groundwater'], 0,
     'Layers (soils, slope, land use, drainage) can be combined and queried for planning.'],
   ['In GIS, raster data differ from vector data in that raster data:', ['Represent space as a grid of cells, like a satellite image', 'Use only points, lines and polygons', 'Cannot store elevation', 'Are always hand-drawn'], 0,
@@ -177,7 +177,7 @@
   ['Slope maps derived from a DEM are important in watershed planning mainly to:', ['Choose conservation measures and suitable land uses for each slope class', 'Measure crop yield', 'Estimate fertiliser prices', 'Find groundwater salinity'], 0,
     'E.g., contour bunds on gentle slopes, terraces on steeper land, forestry on very steep slopes.'],
 ] },
-{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: 'CSE-2026-A1-Q3a', q: [
+{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['CSE-2026-A1-Q3a', 'CSE-2022-A1-m03', 'IFoS-2018-A1-Q4b', 'IFoS-2016-A1-m07', 'CSE-2008-A1-m02', 'CSE-2008-A1-m03'], q: [
   ['Poplar plantations are usually raised from:', ['Stem cuttings (one-year-old nursery-rooted "entire transplants")', 'Seeds sown directly in the field', 'Air layers', 'Tissue-culture plantlets only'], 0,
     'Poplars and willows root easily from hardwood cuttings.'],
   ['Teak is most commonly planted out in the field as:', ['Stumps (root–shoot cuttings) from nursery seedlings', 'Grafted plants', 'Air layers', 'Leaf cuttings'], 0,
@@ -199,7 +199,7 @@
   ['Compared with seed propagation, a limitation of vegetative propagation in forestry is that it:', ['Needs more skill and infrastructure, and cannot create new genetic combinations', 'Always gives weaker plants', 'Cannot capture the traits of superior trees', 'Is impossible in hardwoods'], 0,
     'Its advantage is capturing the full genetic gain of selected trees; breeding still needs sexual recombination.'],
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['CSE-2026-A1-Q3b', 'IFoS-2024-A1-m10'], q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['CSE-2026-A1-Q3b', 'IFoS-2024-A1-m10', 'CSE-2019-A1-m09', 'CSE-1995-A1-m04', 'IFoS-2015-A1-m02', 'CSE-2020-A1-m24', 'CSE-2010-A1-m11'], q: [
   ['A sugarcane ratoon is:', ['The crop that regrows from the stubble after the plant crop is harvested', 'A newly planted crop from setts', 'A sugarcane intercrop', 'A seedling raised in a nursery'], 0,
     'Ratoons occupy roughly half the cane area in India and usually yield less than plant crops.'],
   ['Stubble shaving in a ratoon crop means:', ['Cutting the stubble at or just below ground level so buds sprout from below ground', 'Burning the trash', 'Removing all roots', 'Earthing up the plant'], 0,

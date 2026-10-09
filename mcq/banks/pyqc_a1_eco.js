@@ -1,6 +1,6 @@
 /* Concept sets for Agriculture I — Natural resources, sustainability and organic farming. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['CSE-2025-A1-m01', 'IFoS-2023-A1-m02', 'CSE-2022-A1-m02', 'IFoS-2022-A1-m01', 'CSE-2021-A1-m01', 'IFoS-2020-A1-m04', 'CSE-2004-A1-m01', 'CSE-2000-A1-m01', 'CSE-2014-A1-m03', 'CSE-2010-A1-m03', 'IFoS-2022-A1-m14', 'CSE-2012-A1-m06'], q: [
+{ p: 'A1', t: 'Environment, Organic & Natural Farming', w: 2, pyq: ['CSE-2025-A1-m01', 'IFoS-2023-A1-m02', 'CSE-2022-A1-m02', 'IFoS-2022-A1-m01', 'CSE-2021-A1-m01', 'IFoS-2020-A1-m04', 'CSE-2004-A1-m01', 'CSE-2000-A1-m01', 'CSE-2014-A1-m03', 'CSE-2010-A1-m03', 'IFoS-2022-A1-m14', 'CSE-2012-A1-m06', 'IFoS-2021-A1-m01'], q: [
   ['Natural resources such as forests, soil and water are called renewable because they:', ['Can regenerate if used within their rate of renewal', 'Can never be exhausted', 'Are man-made', 'Form only over millions of years'], 0,
     'Fossil fuels and minerals are non-renewable; sunlight and wind are inexhaustible.'],
   ['Which is a non-renewable natural resource?', ['Coal', 'Forest timber', 'Groundwater recharged by rain', 'Solar energy'], 0,

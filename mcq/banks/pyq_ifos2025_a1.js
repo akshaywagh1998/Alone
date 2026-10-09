@@ -110,7 +110,7 @@
   ['RSC is expressed in:', ['Milliequivalents per litre (meq/L)', 'dS/m', 'mg/kg', 'Percent'], 0,
     'EC is expressed in dS/m (salinity).'],
 ] },
-{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2025-A1-Q2a', 'IFoS-2005-A1-m10'], q: [
+{ p: 'A1', t: 'Agroforestry & Social Forestry', w: 3, pyq: ['IFoS-2025-A1-Q2a', 'IFoS-2005-A1-m10', 'CSE-2024-A1-m06', 'CSE-2023-A1-m04', 'CSE-2021-A1-m06', 'CSE-2019-A1-m06', 'IFoS-2019-A1-m05', 'CSE-2016-A1-m06', 'IFoS-2013-A1-m03', 'IFoS-2006-A1-m01', 'IFoS-2003-A1-m04'], q: [
   ['The World Agroforestry Centre (ICRAF) is headquartered at:', ['Nairobi, Kenya', 'New Delhi', 'Bogor, Indonesia', 'Rome'], 0,
     'CIFOR (forestry research) is at Bogor.'],
   ['Agroforestry, as defined by Lundgren and Raintree (1982), involves:', ['Deliberate growing of woody perennials with crops and/or animals, with ecological and economic interactions', 'Only forest plantations', 'Only fruit orchards', 'Only grazing in forests'], 0,
@@ -176,7 +176,7 @@
   ['Increased frequency of extreme rainfall events mainly increases the risk of:', ['Floods, waterlogging and soil erosion', 'Frost', 'Snowfall', 'Wind erosion only'], 0,
     'Rainfall is becoming more concentrated in fewer heavy events.'],
 ] },
-{ p: 'A1', t: 'Crop Production', w: 3, pyq: 'IFoS-2025-A1-Q3a', q: [
+{ p: 'A1', t: 'Crop Production', w: 3, pyq: ['IFoS-2025-A1-Q3a', 'CSE-2019-A1-m08', 'CSE-2016-A1-m08', 'IFoS-2016-A1-m09', 'IFoS-2016-A1-m10', 'CSE-1995-A1-m03', 'CSE-2008-A1-m04', 'CSE-2003-A1-m06', 'CSE-2007-A1-m11', 'CSE-2006-A1-m06', 'CSE-2005-A1-m05', 'CSE-2002-A1-m13'], q: [
   ['The optimum sowing time for timely sown irrigated wheat in the north-western plains is:', ['First half of November', 'September', 'Late December', 'February'], 0,
     'Late sowing (December) exposes grain filling to heat.'],
   ['The usual seed rate for timely sown wheat is about:', ['100 kg/ha', '25 kg/ha', '250 kg/ha', '10 kg/ha'], 0,
@@ -220,7 +220,7 @@
   ['Integrated management of invasive weeds combines:', ['Prevention, mechanical removal, biological control, herbicides and restoration with native species', 'Only burning', 'Only herbicides', 'Ignoring the problem'], 0,
     'Restoration prevents re-invasion of cleared areas.'],
 ] },
-{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2025-A1-Q3c', 'IFoS-2022-A1-m24', 'IFoS-2014-A1-m29', 'CSE-2013-A1-m22', 'CSE-2006-A1-m05', 'CSE-2023-A1-m24', 'IFoS-2010-A1-m19', 'IFoS-2013-A1-m31', 'IFoS-2012-A1-m28', 'CSE-2015-A1-m17', 'IFoS-2005-A1-m21', 'CSE-2001-A1-m19', 'CSE-2018-A1-m18', 'IFoS-2011-A1-m23', 'CSE-2022-A1-m23', 'CSE-2019-A1-m22'], q: [
+{ p: 'A1', t: 'Soil Fertility, Fertilisers & INM', w: 3, pyq: ['IFoS-2025-A1-Q3c', 'IFoS-2022-A1-m24', 'IFoS-2014-A1-m29', 'CSE-2013-A1-m22', 'CSE-2006-A1-m05', 'CSE-2023-A1-m24', 'IFoS-2010-A1-m19', 'IFoS-2013-A1-m31', 'IFoS-2012-A1-m28', 'CSE-2015-A1-m17', 'IFoS-2005-A1-m21', 'CSE-2001-A1-m19', 'CSE-2018-A1-m18', 'IFoS-2011-A1-m23', 'CSE-2022-A1-m23', 'CSE-2019-A1-m22', 'IFoS-2005-A1-m02'], q: [
   ['Ammonia volatilisation from urea is highest when urea is:', ['Surface-applied on alkaline or calcareous soils in warm weather', 'Deep-placed in acid soil', 'Applied to cold, wet soil and incorporated', 'Applied as neem-coated urea in split doses'], 0,
     'Urease converts urea to ammonium carbonate; high pH releases NH₃ gas.'],
   ['Urease inhibitors such as NBPT reduce nitrogen loss by:', ['Slowing urea hydrolysis, reducing ammonia volatilisation', 'Stopping nitrification', 'Increasing leaching', 'Fixing nitrogen'], 0,
@@ -374,7 +374,7 @@
   ['Graded bunds are laid out with:', ['A slight longitudinal slope to a safe outlet', 'No slope at all', 'A steep slope', 'Random alignment'], 0,
     'They are also called channel terraces in some texts.'],
 ] },
-{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2025-A1-Q5d', 'CSE-2021-A1-m16', 'CSE-1995-A1-m08', 'CSE-2015-A1-m13', 'CSE-2006-A1-m04', 'IFoS-2024-A1-m17', 'IFoS-2019-A1-m16', 'IFoS-2012-A1-m19', 'IFoS-2024-A1-m18'], q: [
+{ p: 'A1', t: 'Farm Economics, Marketing & Policy', w: 2, pyq: ['IFoS-2025-A1-Q5d', 'CSE-2021-A1-m16', 'CSE-1995-A1-m08', 'CSE-2015-A1-m13', 'CSE-2006-A1-m04', 'IFoS-2024-A1-m17', 'IFoS-2019-A1-m16', 'IFoS-2012-A1-m19', 'IFoS-2024-A1-m18', 'IFoS-2022-A1-m09'], q: [
   ['The national apex body for cooperative agricultural marketing in India, set up in 1958, is:', ['NAFED', 'NABARD', 'NCDC', 'FCI'], 0,
     'National Agricultural Cooperative Marketing Federation of India.'],
   ['CAMPCO is a cooperative dealing mainly in:', ['Arecanut and cocoa', 'Milk', 'Fertilisers', 'Sugar'], 0,
@@ -396,7 +396,7 @@
   ['Multi-state cooperative societies are governed by the:', ['Multi-State Cooperative Societies Act, 2002 (amended 2023)', 'Companies Act only', 'APMC Act', 'Seeds Act'], 0,
     'State-level societies are governed by state cooperative laws.'],
 ] },
-{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2025-A1-Q5e', 'IFoS-2024-A1-m24', 'IFoS-2012-A1-m23'], q: [
+{ p: 'A1', t: 'Water Management & Irrigation', w: 3, pyq: ['IFoS-2025-A1-Q5e', 'IFoS-2024-A1-m24', 'IFoS-2012-A1-m23', 'CSE-2025-A1-m06'], q: [
   ['The critical stages for irrigating groundnut are:', ['Flowering, pegging and pod development', 'Germination only', 'Harvest only', 'Seedling stage only'], 0,
     'Moisture in the pegging zone is vital for pod formation.'],
   ['For rice, the most critical stages for water stress are:', ['Panicle initiation and flowering', 'Maturity only', 'Nursery only', 'Tillering only'], 0,
