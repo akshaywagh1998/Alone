@@ -88,7 +88,7 @@
   ['Besides Cry toxins, some Bt strains produce vegetative insecticidal proteins (Vip), which:', ['Are secreted during vegetative growth and act on different gut receptors', 'Are the same as Cry toxins', 'Kill plants', 'Are antibiotics'], 0,
     'Vip3A is used in some Bt cotton and maize varieties.']
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 3, pyq: 'IFoS-2017-A2-Q5e', q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 3, pyq: ['IFoS-2017-A2-Q5e', 'IFoS-2022-A2-m09', 'IFoS-2019-A2-m09', 'IFoS-2016-A2-m12', 'CSE-2013-A2-m16', 'IFoS-2013-A2-m15', 'IFoS-2009-A2-m05', 'IFoS-2005-A2-m12', 'IFoS-2005-A2-m16', 'CSE-2004-A2-m10', 'IFoS-2001-A2-m11', 'CSE-2001-A2-m14', 'CSE-1999-A2-m04', 'CSE-1998-A2-m07', 'CSE-2013-A2-m14', 'IFoS-2011-A2-m18', 'CSE-2005-A2-m06', 'CSE-2014-A2-m12', 'CSE-2010-A2-m07', 'CSE-2011-A2-m09', 'CSE-2017-A2-m12', 'IFoS-2004-A2-m16', 'IFoS-2003-A2-m05', 'IFoS-2003-A2-m06', 'IFoS-2003-A2-m07', 'IFoS-2003-A2-m08'], q: [
   ['Fruit preservation works by:', ['Destroying or inhibiting microbes and enzymes with heat, cold, drying, chemicals, sugar or acid', 'Adding water', 'Speeding up ripening', 'Adding microbes that spoil food'], 0,
     'Each method targets microbial growth and enzyme action.'],
   ['Canning was invented by:', ['Nicolas Appert (about 1810)', 'Louis Pasteur', 'Peter Durand only', 'Clarence Birdseye'], 0,
@@ -242,7 +242,7 @@
   ['The main difference between inoculative and inundative releases is:', ['Inoculative relies on the natural enemies’ reproduction; inundative relies on the released individuals themselves', 'Both rely on reproduction', 'Neither uses natural enemies', 'Inundative uses fewer individuals'], 0,
     'Inundative releases need mass production facilities.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'IFoS-2017-A2-Q8a', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2017-A2-Q8a', 'CSE-2001-A2-m16', 'IFoS-2012-A2-m16', 'IFoS-2003-A2-m18', 'CSE-1989-A2-m15', 'CSE-2003-A2-m07', 'CSE-1990-A2-m11', 'IFoS-2011-A2-m17', 'CSE-2001-A2-m11', 'CSE-2004-A2-m08', 'CSE-2000-A2-m19'], q: [
   ['When selecting a site for an orchard, the key factors are:', ['Climate, soil depth and drainage, water supply, and access to markets', 'Only land price', 'Only nearness to a city', 'Only soil colour'], 0,
     'Mistakes are costly because orchards last for decades.'],
   ['The hexagonal layout accommodates about how many more trees than the square layout?', ['About 15% more', 'About 50% more', 'The same number', 'Fewer trees'], 0,
@@ -264,7 +264,7 @@
   ['An orchard plan must also provide for:', ['Irrigation and drainage channels, roads, fencing and a packing area', 'Only trees', 'Only a well', 'Nothing else'], 0,
     'Good planning lowers running costs for decades.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: 'IFoS-2017-A2-Q8b', q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: ['IFoS-2017-A2-Q8b', 'IFoS-2023-A2-m19'], q: [
   ['Kwashiorkor is caused mainly by:', ['Protein deficiency with a relatively adequate calorie intake', 'Excess protein', 'Vitamin C deficiency', 'Iodine deficiency'], 0,
     'Cicely Williams described it in Ghana in 1933.'],
   ['Kwashiorkor is recognised by:', ['Oedema, "flaky-paint" skin, a moon face and a fatty liver', 'Severe wasting without oedema', 'Night blindness', 'Goitre'], 0,

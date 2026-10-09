@@ -22,7 +22,7 @@
   ['Growing vegetables organically avoids residues of:', ['Synthetic pesticides', 'All natural compounds', 'Water', 'Nutrients'], 0,
     'Certified organic produce follows NPOP standards.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2018-A2-Q5b', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q5b', 'IFoS-2024-A2-m12', 'IFoS-2010-A2-m13', 'CSE-1991-A2-m11', 'IFoS-2015-A2-m15', 'CSE-2024-A2-m08', 'CSE-2015-A2-m16', 'CSE-2000-A2-m13', 'CSE-1999-A2-m06'], q: [
   ['The seed plot technique for potato was developed by:', ['CPRI, Shimla (Pushkarnath)', 'IARI, New Delhi', 'ICRISAT', 'IRRI'], 0,
     'It allowed healthy seed potato to be produced in the north Indian plains.'],
   ['The seed plot technique is based on:', ['Growing the seed crop during the low-aphid period (October–December) in the plains', 'Growing potato only in summer', 'Using true potato seed only', 'Spraying herbicides'], 0,
@@ -66,7 +66,7 @@
   ['Gibberellins were first discovered from a fungus that causes:', ['Bakanae ("foolish seedling") disease of rice', 'Late blight of potato', 'Rust of wheat', 'Wilt of tomato'], 0,
     'The fungus is *Gibberella fujikuroi* (Kurosawa, 1926).']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: 'IFoS-2018-A2-Q5d', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 2, pyq: ['IFoS-2018-A2-Q5d', 'CSE-2025-A2-m09', 'IFoS-2023-A2-m18', 'CSE-2015-A2-m12', 'CSE-2003-A2-m05'], q: [
   ['Mango malformation occurs in two forms:', ['Vegetative malformation and floral malformation', 'Fruit rot and leaf spot', 'Root rot and stem canker', 'Black tip and spongy tissue'], 0,
     'Floral malformation causes the greater yield loss.'],
   ['The most widely accepted cause of mango malformation is the fungus:', ['*Fusarium mangiferae*', '*Colletotrichum gloeosporioides*', '*Oidium mangiferae*', '*Botryodiplodia theobromae*'], 0,
@@ -88,7 +88,7 @@
   ['Mango malformation is also linked to a hormonal imbalance involving:', ['Increased ethylene', 'Excess gibberellin only', 'Lack of chlorophyll', 'Excess boron'], 0,
     'This is why NAA and other regulators are tried in its control.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: 'IFoS-2018-A2-Q5e', q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['IFoS-2018-A2-Q5e', 'IFoS-2025-A2-m01', 'IFoS-2022-A2-m12', 'CSE-2006-A2-m07', 'CSE-2003-A2-m10', 'CSE-2000-A2-m12', 'CSE-1996-A2-m12', 'CSE-1989-A2-m14', 'IFoS-2012-A2-m14', 'IFoS-2005-A2-m13', 'CSE-1992-A2-m11', 'IFoS-2001-A2-m12', 'CSE-1990-A2-m10', 'CSE-2012-A2-m11'], q: [
   ['Orange carrots are an important source of:', ['β-carotene (provitamin A)', 'Vitamin C only', 'Vitamin B₁₂', 'Iron only'], 0,
     'β-carotene is converted to vitamin A in the intestine.'],
   ['Guava is especially rich in:', ['Vitamin C (ascorbic acid)', 'Vitamin D', 'Vitamin B₁₂', 'Vitamin K only'], 0,
@@ -154,7 +154,7 @@
   ['A remedy for price instability in perishables is:', ['Processing, cold chains and better market information', 'Banning storage', 'More middlemen', 'Stopping transport'], 0,
     'Processing turns surpluses into longer-lasting products.']
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'IFoS-2018-A2-Q6c', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2018-A2-Q6c', 'CSE-2025-A2-m10', 'CSE-2013-A2-m12', 'CSE-2001-A2-m08', 'CSE-2015-A2-m15', 'IFoS-2003-A2-m13'], q: [
   ['Pruning is:', ['The careful removal of plant parts to improve shape, vigour, fruiting and quality', 'Removing fruits at harvest', 'Adding fertiliser', 'Grafting'], 0,
     'Training shapes the young tree; pruning maintains it.'],
   ['"Heading back" means:', ['Cutting back the end of a shoot, which stimulates the buds below to grow', 'Removing a whole shoot at its base', 'Removing roots', 'Bending branches'], 0,
@@ -242,7 +242,7 @@
   ['An idiobiont parasitoid, unlike a koinobiont, is one that:', ['Stops the host developing further once it attacks', 'Lets the host keep growing', 'Never kills the host', 'Feeds on plants'], 0,
     'Egg and pupal parasitoids are often idiobionts.']
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: 'IFoS-2018-A2-Q7c', q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['IFoS-2018-A2-Q7c', 'IFoS-2010-A2-m11', 'CSE-2010-A2-m05', 'IFoS-2009-A2-m06', 'IFoS-2005-A2-m15', 'CSE-2005-A2-m07', 'CSE-2002-A2-m09', 'IFoS-2016-A2-m14', 'IFoS-2015-A2-m14', 'IFoS-2010-A2-m15', 'IFoS-2003-A2-m04', 'CSE-2001-A2-m07', 'IFoS-2024-A2-m17', 'CSE-2003-A2-m09', 'CSE-2012-A2-m08', 'IFoS-2012-A2-m17', 'CSE-1992-A2-m10'], q: [
   ['A formal garden is:', ['Symmetrical and geometric, with straight lines and clipped plants', 'Irregular and natural', 'A vegetable plot', 'A wild forest'], 0,
     'Mughal and French gardens are formal.'],
   ['An informal garden is:', ['Asymmetrical and naturalistic, with curved paths and irregular planting', 'Strictly symmetrical', 'Always square', 'Made only of hedges'], 0,
@@ -286,7 +286,7 @@
   ['Standard germination tests follow the rules of:', ['ISTA (International Seed Testing Association)', 'FAO only', 'WHO', 'OECD only'], 0,
     'Seeds are tested on paper or sand at set temperatures.']
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: 'IFoS-2018-A2-Q8a', q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 3, pyq: ['IFoS-2018-A2-Q8a', 'CSE-2006-A2-m10', 'CSE-1991-A2-m12', 'CSE-1989-A2-m07', 'CSE-2023-A2-m08', 'IFoS-2024-A2-m16'], q: [
   ['A major structural constraint on Indian food production is:', ['Small and fragmented holdings — over 85% of farmers are small or marginal', 'Too many large farms', 'Excess irrigation everywhere', 'Surplus labour on large farms'], 0,
     'The average holding is about 1.1 ha (Agriculture Census 2015–16).'],
   ['About half of India’s net sown area is:', ['Rainfed', 'Irrigated by canals', 'Under greenhouses', 'Fallow'], 0,
@@ -330,7 +330,7 @@
   ['The Pusa bin, designed by IARI, is:', ['A mud-brick storage bin with a polythene lining', 'A metal silo', 'A cold store', 'A fumigation chamber'], 0,
     'Hermetic bags such as PICS bags also protect grain.']
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 3, pyq: 'IFoS-2018-A2-Q8c', q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 3, pyq: ['IFoS-2018-A2-Q8c', 'CSE-2021-A2-m06', 'CSE-2017-A2-m08', 'CSE-2016-A2-m11', 'IFoS-2014-A2-m08', 'CSE-2013-A2-m08', 'CSE-2007-A2-m03', 'CSE-2002-A2-m08', 'CSE-2001-A2-m13', 'CSE-2012-A2-m06', 'CSE-2009-A2-m13', 'IFoS-2011-A2-m19', 'IFoS-2012-A2-m13', 'CSE-2010-A2-m09', 'CSE-2001-A2-m05', 'CSE-2014-A2-m11', 'CSE-1997-A2-m14', 'CSE-1992-A2-m08', 'IFoS-2000-A2-m07', 'IFoS-2000-A2-m09', 'CSE-1989-A2-m08', 'CSE-2007-A2-m08', 'CSE-2013-A2-m10', 'IFoS-2024-A2-m13', 'CSE-1991-A2-m05'], q: [
   ['The main principles of post-harvest management of fruits are to reduce:', ['Respiration, water loss, ethylene action and microbial decay', 'Colour development', 'Sugar content', 'Fruit size'], 0,
     'Low temperature slows all of these.'],
   ['Pre-cooling of fruits after harvest removes:', ['Field heat', 'Pesticides', 'Sugars', 'Colour'], 0,

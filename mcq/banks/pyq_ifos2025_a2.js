@@ -308,7 +308,7 @@
   ['A marker gene linked to a male-sterility gene helps seed producers by:', ['Identifying sterile plants early, before flowering', 'Increasing yield', 'Removing sterility', 'Changing flower colour permanently'], 0,
     'Seedling markers save the labour of rogueing fertile plants later.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'IFoS-2025-A2-Q5a', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q5a', 'IFoS-2020-A2-m16', 'IFoS-2021-A2-m14', 'CSE-2007-A2-m04', 'IFoS-2019-A2-m08', 'CSE-2017-A2-m10', 'CSE-2021-A2-m07', 'CSE-2019-A2-m10'], q: [
   ['A plug-tray nursery raises seedlings in:', ['Individual cells of trays filled with soilless media', 'Open soil beds', 'Water only', 'Plastic bags filled with clay'], 0,
     'Each seedling gets its own root plug.'],
   ['A common medium for plug trays is a mixture of cocopeat, vermiculite and perlite in the ratio:', ['3 : 1 : 1', '1 : 3 : 3', '1 : 1 : 5', '5 : 0 : 0'], 0,
@@ -330,7 +330,7 @@
   ['Plug-tray nurseries are especially valuable for:', ['High-value hybrid vegetables such as tomato, capsicum, chilli and cucurbits', 'Wheat', 'Rice direct seeding', 'Sugarcane setts'], 0,
     'Commercial hi-tech nurseries now supply many farmers.'],
 ] },
-{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: 'IFoS-2025-A2-Q5b', q: [
+{ p: 'A2', t: 'Crop Diseases & Nematodes', w: 2, pyq: ['IFoS-2025-A2-Q5b', 'IFoS-2022-A2-m13'], q: [
   ['Early blight of tomato and potato, with concentric "target-board" spots, is caused by:', ['*Alternaria solani*', '*Phytophthora infestans*', '*Ralstonia solanacearum*', '*Fusarium oxysporum*'], 0,
     'It usually starts on older leaves.'],
   ['JHULSACAST, developed by ICAR-CPRI, is a:', ['Forecasting model for potato late blight', 'Potato variety', 'Fungicide', 'Storage method'], 0,
@@ -418,7 +418,7 @@
   ['Transparency under NFSA is supported by:', ['Placing PDS records in the public domain and conducting social audits', 'Keeping all records secret', 'Removing vigilance committees', 'Stopping computerisation'], 0,
     'End-to-end computerisation of TPDS was also undertaken.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'IFoS-2025-A2-Q6a', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['IFoS-2025-A2-Q6a', 'CSE-2010-A2-m04', 'IFoS-2011-A2-m20', 'IFoS-2005-A2-m14', 'IFoS-2003-A2-m11'], q: [
   ['The most popular commercial pomegranate variety in India is:', ['Bhagwa (Kesar)', 'Alphonso', 'Kinnow', 'Thompson Seedless'], 0,
     'Known for deep red arils and skin; Ganesh and Mridula are others.'],
   ['ICAR’s National Research Centre on Pomegranate is at:', ['Solapur, Maharashtra', 'Lucknow', 'Bengaluru', 'Shimla'], 0,
@@ -484,7 +484,7 @@
   ['Hot-water treatment for hard-coated seeds (e.g., *Acacia*) works by:', ['Softening or cracking the impermeable seed coat so water can enter', 'Killing the embryo', 'Adding nutrients', 'Stopping respiration'], 0,
     'Seeds are placed in hot water that is allowed to cool.'],
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: 'IFoS-2025-A2-Q7a', q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['IFoS-2025-A2-Q7a', 'IFoS-2018-A2-Q6b', 'CSE-2006-A2-m06', 'IFoS-2005-A2-m10', 'CSE-2003-A2-m08', 'CSE-2001-A2-m15', 'IFoS-2021-A2-m12', 'CSE-1993-A2-m13', 'IFoS-2024-A2-m15', 'CSE-1996-A2-m10'], q: [
   ['Operation Greens was extended in 2021 from tomato, onion and potato to cover:', ['22 perishable commodities', 'Only cereals', 'Only exports', 'Only pulses'], 0,
     'It had first been extended temporarily to all fruits and vegetables in 2020.'],
   ['The national portal for daily prices and arrivals in agricultural markets is:', ['Agmarknet', 'Bhuvan', 'Meghdoot', 'SATHI'], 0,

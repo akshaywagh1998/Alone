@@ -23,7 +23,7 @@
   ['Topiary as a garden art dates back to:', ['Roman gardens', 'The Green Revolution', '20th-century Japan only', 'The Harappan civilisation'], 0,
     'It was revived in Renaissance and later European formal gardens.'],
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: 'CSE-2026-A2-Q5b', q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q5b', 'CSE-2020-A2-m06'], q: [
   ['A moon garden is designed to be enjoyed:', ['At night, by moonlight', 'Only in winter', 'Only by bees', 'Underwater'], 0,
     'It uses white or pale flowers, silvery foliage and night-scented plants.'],
   ['Plants chosen for a moon garden typically have:', ['White or pale flowers, silvery foliage or night-blooming fragrance', 'Dark red flowers that close at night', 'Only green foliage', 'Thorny stems'], 0,
@@ -45,7 +45,7 @@
   ['Silvery-foliage plants such as dusty miller (*Senecio cineraria*) are used in moon gardens because they:', ['Reflect moonlight and stay visible at night', 'Bloom only in the day', 'Need darkness to grow', 'Repel moths'], 0,
     '*Artemisia* is another silvery choice.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'CSE-2026-A2-Q5c', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['CSE-2026-A2-Q5c', 'CSE-2015-A2-m11'], q: [
   ['A good-quality cauliflower curd is:', ['Compact, white or creamy, and free from riceyness, fuzziness and bracts', 'Loose and yellow', 'Leafy and purple', 'Soft and hollow'], 0,
     'Curd weight, compactness and colour are the main quality indices.'],
   ['"Riceyness" in cauliflower curds refers to:', ['A granular, velvety surface caused by early development of flower buds', 'Rice weevil damage', 'Rotting of the curd', 'A purple tinge'], 0,
@@ -111,7 +111,7 @@
   ['Under salt stress, besides osmotic effects, plants suffer from:', ['Specific ion toxicity (Na⁺, Cl⁻) and nutrient imbalance', 'Excess nitrogen fixation', 'Lower light interception only', 'Faster flowering only'], 0,
     'Tolerant plants exclude Na⁺ or store it in vacuoles and use compatible solutes in the cytoplasm.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'CSE-2026-A2-Q6a', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['CSE-2026-A2-Q6a', 'IFoS-2022-A2-m11'], q: [
   ['High-density planting (HDP) of fruit trees means:', ['Planting more trees per hectare than conventional spacing, with size controlled by rootstocks, training and pruning', 'Growing only one tree per hectare', 'Growing fruit trees in greenhouses only', 'Planting trees without spacing'], 0,
     'Goals: early bearing, higher yield per hectare and efficient use of inputs.'],
   ['Amrapali mango is suited to high-density planting at about:', ['2.5 m × 2.5 m (about 1,600 plants/ha)', '10 m × 10 m', '20 m × 20 m', '1 m × 1 m'], 0,
@@ -177,7 +177,7 @@
   ['Biofortification differs from fortification in that:', ['Nutrients are raised in the crop itself through breeding or agronomy, not added during processing', 'It adds vitamins to packaged food', 'It uses only tablets', 'It lowers nutrient content'], 0,
     'Examples: zinc-rich wheat and rice, iron-rich pearl millet.'],
 ] },
-{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: 'CSE-2026-A2-Q7a', q: [
+{ p: 'A2', t: 'Horticulture — Fruits & Vegetables', w: 3, pyq: ['CSE-2026-A2-Q7a', 'CSE-2007-A2-m09', 'IFoS-2000-A2-m08', 'CSE-2020-A2-m07', 'CSE-2001-A2-m10', 'CSE-1995-A2-m06', 'CSE-1991-A2-m10', 'CSE-1989-A2-m16', 'CSE-1991-A2-m08', 'CSE-2012-A2-m09'], q: [
   ['Which mango variety is a regular bearer?', ['Neelum', 'Dashehari', 'Langra', 'Alphonso'], 0,
     'Amrapali (Dashehari × Neelum) and many south Indian varieties are also regular; Dashehari, Langra, Chausa and Alphonso tend to bear in alternate years.'],
   ['Polyembryonic mango varieties are used as rootstocks because:', ['Their nucellar seedlings are uniform and true-to-type', 'They are always dwarf', 'They produce no fruit', 'They resist all diseases'], 0,
@@ -265,7 +265,7 @@
   ['CAP storage in India refers to:', ['Cover and plinth storage of bagged grain on raised platforms under covers', 'Cold-air packaging', 'Controlled atmosphere packaging for fruits', 'Central agricultural procurement'], 0,
     'Used by FCI when covered warehouse space is short; losses are higher than in proper godowns or silos.'],
 ] },
-{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: 'CSE-2026-A2-Q8b', q: [
+{ p: 'A2', t: 'Floriculture & Landscaping', w: 2, pyq: ['CSE-2026-A2-Q8b', 'IFoS-2022-A2-m14', 'IFoS-2020-A2-m20', 'CSE-2012-A2-m10', 'CSE-2011-A2-m11', 'IFoS-2010-A2-m14', 'IFoS-2017-A2-Q5a', 'CSE-2016-A2-m08', 'CSE-2016-A2-m10', 'CSE-2015-A2-m17', 'IFoS-2015-A2-m16', 'CSE-2023-A2-m07', 'CSE-2015-A2-m09', 'CSE-2003-A2-m06', 'CSE-2001-A2-m12', 'CSE-2010-A2-m03', 'IFoS-2003-A2-m14', 'IFoS-2003-A2-m15', 'IFoS-2003-A2-m16', 'IFoS-2003-A2-m17', 'CSE-2022-A2-m09', 'CSE-1996-A2-m13', 'CSE-2009-A2-m10', 'CSE-1989-A2-m17', 'CSE-2019-A2-m12'], q: [
   ['In standard carnations, disbudding means:', ['Removing side buds to leave one large terminal flower per stem', 'Removing the terminal bud', 'Removing all leaves', 'Cutting the roots'], 0,
     'Spray carnations keep side buds and remove the terminal bud instead, giving several smaller flowers.'],
   ['Pinching in carnation is done mainly to:', ['Increase the number of flowering shoots and regulate the time of flowering', 'Kill pests', 'Reduce yield', 'Ripen seeds'], 0,
@@ -287,7 +287,7 @@
   ['Carnation belongs to the genus:', ['*Dianthus* (*D. caryophyllus*)', '*Rosa*', '*Gerbera*', '*Chrysanthemum*'], 0,
     'Family Caryophyllaceae.'],
 ] },
-{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: 'CSE-2026-A2-Q8c', q: [
+{ p: 'A2', t: 'Post-harvest & Food Processing', w: 2, pyq: ['CSE-2026-A2-Q8c', 'CSE-1997-A2-m12', 'CSE-1997-A2-m13', 'CSE-2023-A2-m05'], q: [
   ['PM Kisan SAMPADA Yojana is an umbrella scheme for:', ['Food processing infrastructure such as food parks, cold chains and agro-processing clusters', 'Crop insurance', 'Direct income support', 'Soil health cards'], 0,
     'Run by the Ministry of Food Processing Industries.'],
   ['PMFME (2020) supports:', ['Formalisation and upgrading of micro food-processing enterprises, using a One District One Product approach', 'Only large multinational firms', 'Fertiliser plants', 'Seed production'], 0,
