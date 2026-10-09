@@ -22,7 +22,7 @@
   ['The "retrogressive" (reduction) view of bryophyte evolution holds that the simple *Riccia* sporophyte is:', ['A reduced form derived from more complex ancestors', 'The most primitive starting point', 'A gametophyte', 'Identical to that of mosses'], 0,
     'Bower’s upgrade theory reads the same series the other way round, from simple to complex.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['IFoS-2022-B1-m09', 'CSE-2015-B1-m09', 'CSE-2013-B1-m08', 'CSE-2020-B1-m11', 'IFoS-2003-B1-m13', 'CSE-1987-B1-m13', 'IFoS-2023-B1-m09', 'CSE-2007-B1-m13', 'CSE-1999-B1-m12', 'IFoS-2004-B1-m13', 'CSE-2005-B1-m12', 'IFoS-2006-B1-m08', 'CSE-2010-B1-m16'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['IFoS-2022-B1-m09', 'CSE-2015-B1-m09', 'CSE-2013-B1-m08', 'CSE-2020-B1-m11', 'IFoS-2003-B1-m13', 'CSE-1987-B1-m13', 'IFoS-2023-B1-m09', 'CSE-2007-B1-m13', 'CSE-1999-B1-m12', 'IFoS-2004-B1-m13', 'CSE-2005-B1-m12', 'IFoS-2006-B1-m08', 'CSE-2010-B1-m16', 'CSE-1994-B1-m38', 'CSE-1998-B1-m02'], q: [
   ['A feature that *Anthoceros* shares with green algae (Chlorophyceae) is:', ['A single large chloroplast per cell, with a pyrenoid', 'Phycobilins', 'Floridean starch', 'Motile vegetative cells'], 0,
     'This algal-like plastid is unique among bryophytes.'],
   ['Colonies of *Nostoc* in the *Anthoceros* thallus live in:', ['Mucilage-filled cavities on the ventral side, where they fix nitrogen', 'The capsule wall', 'Air chambers with pores', 'The rhizoids'], 0,
@@ -66,7 +66,7 @@
   ['The spore sac of *Funaria* develops from the:', ['Outer layer of the endothecium', 'Calyptra', 'Apophysis', 'Seta'], 0,
     'The inner endothecium forms the columella.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['CSE-2014-B1-m12', 'IFoS-2005-B1-m09', 'CSE-2013-B1-m09', 'IFoS-2001-B1-m13', 'IFoS-2021-B1-m13', 'IFoS-2014-B1-m14', 'IFoS-2013-B1-m12'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 3, pyq: ['CSE-2014-B1-m12', 'IFoS-2005-B1-m09', 'CSE-2013-B1-m09', 'IFoS-2001-B1-m13', 'IFoS-2021-B1-m13', 'IFoS-2014-B1-m14', 'IFoS-2013-B1-m12', 'CSE-1985-B1-m16', 'CSE-1994-B1-m03', 'CSE-2002-B1-m02'], q: [
   ['*Marchantia polymorpha* is:', ['Dioecious, with separate male and female thalli', 'Monoecious with both sex organs on one receptacle', 'Without sex organs', 'Always aquatic'], 0,
     'Sex is determined by U and V sex chromosomes.'],
   ['The antheridiophore of *Marchantia* bears:', ['A stalked, eight-lobed disc with antheridia in cavities on its upper surface', 'Archegonia on its underside', 'Gemma cups', 'Spore capsules'], 0,
@@ -132,7 +132,7 @@
   ['The correct sequence in the *Funaria* life cycle is:', ['Spore → protonema → leafy gametophore → sex organs → zygote → sporophyte → spores', 'Spore → sporophyte → protonema → zygote', 'Zygote → protonema → spore → gametophore', 'Gametophore → spore → zygote → protonema'], 0,
     'Meiosis happens in the capsule as the spores form.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2015-B1-m10', 'IFoS-2007-B1-m09', 'CSE-2003-B1-m10', 'IFoS-2013-B1-m12', 'IFoS-2002-B1-m07'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2015-B1-m10', 'IFoS-2007-B1-m09', 'CSE-2003-B1-m10', 'IFoS-2013-B1-m12', 'IFoS-2002-B1-m07', 'CSE-1994-B1-m01'], q: [
   ['The gemmae of *Marchantia* are:', ['Multicellular discs with two lateral notches, formed in cup-shaped receptacles', 'Single-celled spores', 'Diploid buds', 'Underground tubers'], 0,
     'Each notch holds a growing point.'],
   ['Gemmae of *Marchantia* are dispersed mainly by:', ['Raindrops splashing into the gemma cups', 'Wind blowing them out', 'Insects', 'Explosion of the cup'], 0,
@@ -198,7 +198,7 @@
   ['Horticulturists use *Sphagnum* as a growing medium for:', ['Orchids and seedlings', 'Cacti only', 'Rice', 'Aquatic weeds'], 0,
     'It is airy, moisture-retentive and nearly sterile.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2019-B1-m11', 'IFoS-2010-B1-m21', 'IFoS-2006-B1-m10'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['CSE-2019-B1-m11', 'IFoS-2010-B1-m21', 'IFoS-2006-B1-m10', 'CSE-1996-B1-m36'], q: [
   ['Bryophytes show:', ['Heteromorphic alternation of generations, with a dominant gametophyte', 'Isomorphic alternation', 'A dominant sporophyte', 'No alternation'], 0,
     'The two generations look completely different.'],
   ['The life cycle of a bryophyte is described as:', ['Haplodiplontic', 'Haplontic', 'Diplontic', 'Asexual only'], 0,

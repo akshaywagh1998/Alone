@@ -1,6 +1,6 @@
 /* PYQ-linked MCQs — IFoS 2025 Botany Paper I (topic-level PYQs from the volume anchors). 10 MCQs per PYQ. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2025-B1-Q1a', 'CSE-2017-B1-m09'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2025-B1-Q1a', 'CSE-2017-B1-m09', 'CSE-1989-B1-m25', 'CSE-2021-B1-m02'], q: [
   ['Rhizoids of mosses differ from those of liverworts in being:', ['Multicellular with oblique cross-walls', 'Unicellular and smooth', 'Unicellular and tuberculate', 'Absent'], 0,
     'Liverworts have unicellular rhizoids (smooth and tuberculate types in *Marchantia*).'],
   ['Leaves of mosses usually differ from those of leafy liverworts in that moss leaves:', ['Are spirally arranged and often have a midrib (costa)', 'Are in two rows and lobed without a midrib', 'Are absent', 'Are always underground'], 0,
@@ -22,7 +22,7 @@
   ['Which is a leafy liverwort?', ['*Porella*', '*Funaria*', '*Polytrichum*', '*Sphagnum*'], 0,
     '*Funaria*, *Polytrichum* and *Sphagnum* are mosses; *Marchantia* and *Riccia* are thalloid liverworts.'],
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2025-B1-Q1c', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2025-B1-Q1c', 'IFoS-2001-B1-m02', 'CSE-1990-B1-m02', 'CSE-1989-B1-m01', 'CSE-1987-B1-m01', 'CSE-1998-B1-m01', 'CSE-2023-B1-m01'], q: [
   ['Cyanobacteria resemble bacteria in having:', ['A prokaryotic cell with no nucleus, 70S ribosomes and a peptidoglycan wall', 'A membrane-bound nucleus', 'Chloroplasts', 'Mitochondria'], 0,
     'This is why they are now placed with bacteria rather than algae.'],
   ['Cyanobacteria resemble algae and plants in:', ['Oxygenic photosynthesis using chlorophyll a and two photosystems', 'Having chloroplasts with double membranes', 'Having flagellated gametes', 'Having a nucleus'], 0,
@@ -66,7 +66,7 @@
   ['Microbes suit industrial production because they:', ['Grow fast on cheap substrates, can be genetically improved and give high yields in fermenters', 'Grow only on costly media', 'Cannot be scaled up', 'Need sunlight'], 0,
     'Downstream processing then purifies the product.'],
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: 'IFoS-2025-B1-Q1e', q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-Q1e', 'IFoS-2009-B1-m26'], q: [
   ['Seed ferns (Pteridospermales / Cycadofilicales) are best described as:', ['Extinct plants with fern-like fronds that bore true seeds', 'Living ferns with spores', 'Early angiosperms', 'Bryophytes with seeds'], 0,
     'They flourished in the Carboniferous and Permian.'],
   ['Seeds were first shown to be borne on the fronds of *Lyginopteris* by:', ['Oliver and Scott (1904)', 'Darwin (1859)', 'Linnaeus (1753)', 'Zimmermann (1930)'], 0,
@@ -154,7 +154,7 @@
   ['The name "tikka" refers to the:', ['Spots (marks) formed on groundnut leaves', 'Pod rot', 'Stem breaking', 'Seed colour'], 0,
     'From the Hindi word for a mark on the forehead.'],
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: 'IFoS-2025-B1-Q3c', q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2025-B1-Q3c', 'CSE-2025-B1-m27', 'IFoS-2013-B1-m38', 'CSE-2012-B1-m29', 'IFoS-2010-B1-m39'], q: [
   ['*Ophioglossum* (adder’s-tongue fern) is:', ['A eusporangiate fern', 'A leptosporangiate fern', 'A moss', 'A seed plant'], 0,
     'Family Ophioglossaceae, with *Botrychium* (grape fern, moonwort).'],
   ['In *Ophioglossum*, each leaf consists of:', ['A sterile lamina and a fertile spike arising from its base', 'Only a fertile spike', 'A sporocarp', 'Sori on the lower surface'], 0,

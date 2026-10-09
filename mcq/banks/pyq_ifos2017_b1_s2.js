@@ -66,7 +66,7 @@
   ['Manila hemp (abaca) comes from:', ['The leaf sheaths of *Musa textilis*', 'The stems of *Cannabis*', 'The seeds of *Gossypium*', 'The fruits of *Cocos*'], 0,
     'It is a strong fibre used for marine ropes.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: 'IFoS-2017-B1-Q5d', q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2017-B1-Q5d', 'CSE-2001-B1-m11', 'IFoS-2014-B1-m19', 'CSE-2011-B1-m14'], q: [
   ['The Mesozoic Era is called the "Age of Gymnosperms" because it was dominated by:', ['Cycads, ginkgos, conifers and cycadeoids', 'Angiosperms', 'Bryophytes', 'Algae'], 0,
     'Angiosperms took over only in the Late Cretaceous.'],
   ['The periods of the Mesozoic Era are:', ['Triassic, Jurassic and Cretaceous', 'Cambrian, Ordovician and Silurian', 'Devonian, Carboniferous and Permian', 'Palaeogene, Neogene and Quaternary'], 0,
@@ -154,7 +154,7 @@
   ['Bees pollinating pea-type (papilionaceous) flowers:', ['Press down the keel, so the stamens and style spring up against their bodies', 'Collect pollinia on their legs', 'Pierce the ovary', 'Visit only at night'], 0,
     'Asclepiads use the translator mechanism instead.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: 'IFoS-2017-B1-Q6c', q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02'], q: [
   ['The term "palynology" was coined by:', ['Hyde and Williams (1944)', 'G. Erdtman', 'L. von Post', 'P. Maheshwari'], 0,
     'It is the study of pollen and spores.'],
   ['The founder of modern pollen morphology, who introduced acetolysis, was:', ['Gunnar Erdtman', 'Lennart von Post', 'Hyde', 'Heslop-Harrison'], 0,

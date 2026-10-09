@@ -88,7 +88,7 @@
   ['The capsule of *Andreaea* opens by:', ['Four longitudinal slits, with no peristome', 'An operculum and peristome', 'Explosive discharge', 'Decay of the capsule wall'], 0,
     'This primitive dehiscence is unlike that of true mosses (Bryopsida).']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: 'IFoS-2018-B1-Q1e', q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2018-B1-Q1e', 'CSE-2014-B1-m20', 'IFoS-2013-B1-m31', 'IFoS-2011-B1-m24', 'IFoS-2005-B1-m23', 'IFoS-2003-B1-m20', 'IFoS-2024-B1-m17'], q: [
   ['Coralloid roots are found in:', ['*Cycas*', '*Pinus*', '*Gnetum*', '*Ephedra*'], 0,
     'They occur in all cycads, including *Zamia* and *Encephalartos*.'],
   ['Coralloid roots harbour:', ['Cyanobacteria such as *Anabaena* and *Nostoc*', '*Rhizobium*', '*Frankia*', 'Ectomycorrhizal fungi'], 0,
@@ -132,7 +132,7 @@
   ['Karnal bunt (partial bunt) of wheat is caused by:', ['*Tilletia indica* (*Neovossia indica*)', '*Ustilago segetum* var. *tritici*', '*Puccinia striiformis*', '*Urocystis agropyri*'], 0,
     'Only part of the grain is converted to a black, fishy-smelling spore mass.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: 'IFoS-2018-B1-Q2b', q: [
+{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2018-B1-Q2b', 'CSE-2023-B1-m28', 'CSE-2007-B1-m24', 'IFoS-2004-B1-m25', 'CSE-2003-B1-m21', 'CSE-1999-B1-m21', 'IFoS-2021-B1-m28', 'CSE-2020-B1-m27', 'IFoS-2020-B1-m26', 'CSE-2021-B1-m28', 'CSE-2006-B1-m24', 'CSE-2017-B1-m22', 'IFoS-2005-B1-m25', 'CSE-2013-B1-m21', 'CSE-1997-B1-m22', 'CSE-1997-B1-m23', 'CSE-1997-B1-m24', 'CSE-1997-B1-m25'], q: [
   ['The most primitive type of stele is the:', ['Protostele (haplostele)', 'Siphonostele', 'Dictyostele', 'Eustele'], 0,
     'A solid core of xylem surrounded by phloem, as in *Rhynia*.'],
   ['An actinostele, with star-shaped xylem, is found in the stem of:', ['*Psilotum*', '*Pteris*', '*Marsilea*', '*Osmunda*'], 0,
@@ -154,7 +154,7 @@
   ['The general trend in stelar evolution among pteridophytes is:', ['From a solid protostele to dissected steles with more conducting surface', 'From a dictyostele back to a protostele', 'Loss of the xylem', 'No change'], 0,
     'Larger plants with bigger leaves needed more efficient conduction.']
 ] },
-{ p: 'B1', t: 'Algae', w: 2, pyq: 'IFoS-2018-B1-Q2c', q: [
+{ p: 'B1', t: 'Algae', w: 2, pyq: ['IFoS-2018-B1-Q2c', 'IFoS-2024-B1-m01', 'IFoS-2017-B1-Q1c', 'CSE-2014-B1-m02', 'CSE-2001-B1-m01', 'CSE-1993-B1-m01', 'IFoS-2010-B1-m02', 'CSE-2009-B1-m02', 'IFoS-2014-B1-m01', 'IFoS-2014-B1-m04'], q: [
   ['Fucoxanthin, which gives brown algae their colour, is found in:', ['Phaeophyceae and diatoms', 'Chlorophyceae', 'Rhodophyceae', 'Cyanophyceae'], 0,
     'It is a xanthophyll that absorbs blue-green light.'],
   ['Chlorophyll *c* is found in:', ['Brown algae, diatoms and dinoflagellates', 'Green algae', 'Red algae', 'Blue-green algae'], 0,
@@ -198,7 +198,7 @@
   ['Spinosad, a bio-insecticide, is made by fermentation of:', ['*Saccharopolyspora spinosa*', '*Bacillus thuringiensis*', '*Trichoderma viride*', '*Beauveria bassiana*'], 0,
     'It is an actinomycete product acting on insect nerve receptors.']
 ] },
-{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2018-B1-Q3b', 'CSE-2025-B1-m15', 'IFoS-2011-B1-m12', 'IFoS-2007-B1-m10', 'CSE-1995-B1-m13', 'IFoS-2023-B1-m10', 'IFoS-2012-B1-m17'], q: [
+{ p: 'B1', t: 'Bryophytes', w: 2, pyq: ['IFoS-2018-B1-Q3b', 'CSE-2025-B1-m15', 'IFoS-2011-B1-m12', 'IFoS-2007-B1-m10', 'CSE-1995-B1-m13', 'IFoS-2023-B1-m10', 'IFoS-2012-B1-m17', 'CSE-2020-B1-m26'], q: [
   ['Bower’s theory of progressive sterilisation takes the most primitive bryophyte sporophyte to be that of:', ['*Riccia*', '*Funaria*', '*Anthoceros*', '*Polytrichum*'], 0,
     'In *Riccia* nearly all internal tissue is sporogenous.'],
   ['The sporophyte of *Riccia* consists of:', ['A capsule only, with no foot or seta', 'Foot, seta and capsule', 'Foot and capsule', 'Seta only'], 0,
@@ -242,7 +242,7 @@
   ['The typical symptom of TMV in susceptible tobacco is:', ['Mosaic — light and dark green mottling of leaves', 'Wilting', 'Root galls', 'White powdery growth'], 0,
     'Leaves may also be distorted and blistered.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: 'IFoS-2018-B1-Q4a', q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2018-B1-Q4a', 'IFoS-2006-B1-m25', 'CSE-2012-B1-m30', 'IFoS-2016-B1-m14', 'CSE-1987-B1-m17', 'CSE-2001-B1-m12', 'CSE-1995-B1-m23'], q: [
   ['The female cone of *Pinus* consists of:', ['Spirally arranged bract scales, each with an ovuliferous scale in its axil', 'Microsporophylls', 'Whorled leafy sporophylls', 'A single megasporophyll'], 0,
     'Each bract scale plus ovuliferous scale is a seed-scale complex.'],
   ['Each ovuliferous scale of *Pinus* bears:', ['Two ovules on the upper surface, with micropyles facing the cone axis', 'One ovule on the lower surface', 'Four ovules', 'Many ovules'], 0,
@@ -264,7 +264,7 @@
   ['At pollination in *Pinus*, pollen enters the ovule by:', ['A pollination drop secreted at the micropyle', 'Nectar from the ovuliferous scale', 'Resin from the bract', 'Insect visits'], 0,
     'The drop is withdrawn, drawing the pollen onto the nucellus.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: 'IFoS-2018-B1-Q4b', q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2018-B1-Q4b', 'IFoS-2023-B1-m25', 'CSE-2022-B1-m28', 'IFoS-2020-B1-m27', 'CSE-2019-B1-m27', 'CSE-2010-B1-m28', 'CSE-2005-B1-m21', 'CSE-2004-B1-m23', 'CSE-2002-B1-m20', 'CSE-1986-B1-m30', 'CSE-2024-B1-m28'], q: [
   ['Which feature of *Selaginella* is a step towards the seed habit?', ['Heterospory, with gametophytes developing inside the spores', 'Homospory', 'A free-living photosynthetic gametophyte', 'Isomorphic alternation of generations'], 0,
     'Seeds evolved from heterosporous ancestors.'],
   ['In *Selaginella rupestris*, the megasporangium:', ['Often has one functional megaspore, and the embryo starts developing while it is still on the plant', 'Holds many megaspores', 'Has no megaspores', 'Holds only microspores'], 0,
@@ -528,7 +528,7 @@
   ['Myristicin, which can be toxic in large doses, is found in:', ['Nutmeg', 'Cardamom', 'Clove', 'Saffron'], 0,
     'It is a mild psychoactive compound.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: 'IFoS-2018-B1-Q7c', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2018-B1-Q7c', 'CSE-2015-B1-m04'], q: [
   ['An epicalyx is characteristic of:', ['Malvaceae (e.g., *Hibiscus*)', 'Solanaceae', 'Both families', 'Neither family'], 0,
     'It is a whorl of bracteoles below the calyx.'],
   ['The stamens of Malvaceae are:', ['Monadelphous, forming a staminal column, with one-celled kidney-shaped anthers', 'Five, free and epipetalous', 'Diadelphous', 'Syngenesious'], 0,
@@ -594,7 +594,7 @@
   ['In APG classification, Asclepiadaceae is:', ['Merged into Apocynaceae as subfamily Asclepiadoideae', 'Merged into Solanaceae', 'Moved to the monocots', 'Kept as a separate order'], 0,
     'Molecular data showed it evolved within Apocynaceae.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: 'IFoS-2018-B1-Q8c', q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2018-B1-Q8c', 'IFoS-2021-B1-m19'], q: [
   ['The idea of "petroleum plants" (hydrocarbon crops) was championed by:', ['Melvin Calvin', 'Norman Borlaug', 'M. S. Swaminathan', 'G. Haberlandt'], 0,
     'He proposed growing latex-bearing plants for liquid fuel.'],
   ['Hydrocarbon-rich latex that Calvin studied for fuel came from:', ['*Euphorbia lathyris* and *E. tirucalli*', '*Oryza sativa*', '*Triticum aestivum*', '*Pinus roxburghii*'], 0,

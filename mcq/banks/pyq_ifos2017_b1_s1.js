@@ -44,7 +44,7 @@
   ['Biological control of aflatoxin in the field uses:', ['Non-toxigenic (atoxigenic) strains of *A. flavus* to outcompete toxic strains', '*Trichogramma*', 'Bt toxins', 'Mycorrhizal fungi'], 0,
     'Products such as Aflasafe are used in Africa.']
 ] },
-{ p: 'B1', t: 'Algae', w: 2, pyq: 'IFoS-2017-B1-Q1c', q: [
+{ p: 'B1', t: 'Algae', w: 2, pyq: ['IFoS-2017-B1-Q1c', 'IFoS-2014-B1-m01', 'IFoS-2014-B1-m04'], q: [
   ['Red algae appear red because phycoerythrin:', ['Absorbs blue-green light and reflects red light', 'Absorbs red light', 'Reflects green light', 'Absorbs no light'], 0,
     'Its colour masks the green of chlorophyll *a*.'],
   ['Phycobilins are:', ['Open-chain tetrapyrroles bound to proteins (phycobiliproteins)', 'Carotenoids', 'Porphyrins with magnesium', 'Flavonoids'], 0,
@@ -88,7 +88,7 @@
   ['"Comammox" *Nitrospira*, discovered in 2015, can:', ['Oxidise ammonia all the way to nitrate in one organism', 'Fix nitrogen', 'Denitrify', 'Make ammonia from nitrate'], 0,
     'It changed the old view that two separate groups are always needed.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: 'IFoS-2017-B1-Q1e', q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2017-B1-Q1e', 'IFoS-2019-B1-m13', 'CSE-2007-B1-m17', 'CSE-1996-B1-m22', 'CSE-1995-B1-m23', 'CSE-1995-B1-m25', 'CSE-2003-B1-m15'], q: [
   ['The pollen grain of *Pinus* has:', ['Two air sacs (wings) that aid wind dispersal', 'No exine', 'Spines for insect dispersal', 'A single large pore'], 0,
     'The sacci make the grain buoyant.'],
   ['The first division of the *Pinus* microspore gives:', ['A small first prothallial cell and a large embryonal cell', 'Two equal cells', 'A tube cell and sperms', 'Four cells'], 0,
@@ -110,7 +110,7 @@
   ['The interval between pollination and fertilisation in *Pinus* is about:', ['One year', 'One day', 'One week', 'Five years'], 0,
     'The pollen tube grows slowly through the nucellus.']
 ] },
-{ p: 'B1', t: 'Algae', w: 2, pyq: 'IFoS-2017-B1-Q2a', q: [
+{ p: 'B1', t: 'Algae', w: 2, pyq: ['IFoS-2017-B1-Q2a', 'IFoS-2014-B1-m03'], q: [
   ['Primary endosymbiosis of a cyanobacterium gave rise to the plastids of:', ['Glaucophytes, red algae and green algae (with land plants) — the Archaeplastida', 'Brown algae only', 'Diatoms only', 'Dinoflagellates only'], 0,
     'These plastids have two envelope membranes.'],
   ['Glaucophytes such as *Cyanophora* are important in algal phylogeny because their plastids (cyanelles):', ['Still have a peptidoglycan wall, like cyanobacteria', 'Have four membranes', 'Lack chlorophyll', 'Contain fucoxanthin'], 0,
@@ -198,7 +198,7 @@
   ['Taq polymerase, essential for PCR, comes from:', ['*Thermus aquaticus*', '*Escherichia coli*', '*Bacillus subtilis*', '*Agrobacterium*'], 0,
     'It stays stable at the high temperatures used in PCR.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: 'IFoS-2017-B1-Q3a', q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2017-B1-Q3a', 'IFoS-2004-B1-m19'], q: [
   ['Simple polyembryony in gymnosperms results from:', ['Fertilisation of several archegonia, each forming an embryo', 'Splitting of one proembryo', 'Nucellar budding', 'Synergid embryos'], 0,
     'It occurs in both *Cycas* and *Pinus*.'],
   ['Cleavage polyembryony results from:', ['One zygote whose proembryo splits into several embryos', 'Several archegonia being fertilised', 'Fusion of embryos', 'Apomixis'], 0,
@@ -220,7 +220,7 @@
   ['"Rosette embryos" in *Pinus* sometimes develop from:', ['The rosette tier of the proembryo', 'The pollen tube', 'The nucellus', 'The integument'], 0,
     'They usually abort.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: 'IFoS-2017-B1-Q3b', q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2017-B1-Q3b', 'IFoS-2014-B1-m31', 'CSE-2011-B1-m18', 'CSE-2024-B1-m02'], q: [
   ['The sporophyte of *Psilotum* has:', ['No true roots — a rhizome with rhizoids and dichotomously branched aerial stems', 'True roots and large leaves', 'A single unbranched stem with megaphylls', 'Cones like *Equisetum*'], 0,
     'It is called the "whisk fern".'],
   ['The "leaves" of *Psilotum* are:', ['Small scale-like enations without a vascular supply', 'Large compound fronds', 'Needles', 'Absent altogether'], 0,
@@ -286,7 +286,7 @@
   ['The term "mycorrhiza" was coined in 1885 by:', ['A. B. Frank', 'H. A. de Bary', 'S. Winogradsky', 'M. W. Beijerinck'], 0,
     'It means "fungus-root".']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: 'IFoS-2017-B1-Q4a', q: [
+{ p: 'B1', t: 'Pteridophytes', w: 3, pyq: ['IFoS-2017-B1-Q4a', 'IFoS-2024-B1-m25', 'IFoS-2016-B1-m21'], q: [
   ['The telome theory was proposed by:', ['W. Zimmermann', 'F. O. Bower', 'E. C. Jeffrey', 'D. H. Scott'], 0,
     'He developed it in the 1930s and refined it in 1952.'],
   ['A telome is:', ['The terminal segment of a dichotomously branched axis', 'The internode between two branchings', 'A leaf scar', 'A spore'], 0,
