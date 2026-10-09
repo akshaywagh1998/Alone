@@ -199,7 +199,7 @@
   ['A spray of potassium nitrate in mango is used mainly to:', ['Induce flowering, especially in tropical conditions', 'Kill fruit flies', 'Delay ripening', 'Prevent sunburn'], 0,
     'Widely used in the Philippines and parts of South India.'],
 ] },
-{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: 'CSE-2026-A2-Q7b', q: [
+{ p: 'A2', t: 'Food Security & Nutrition', w: 2, pyq: ['CSE-2026-A2-Q7b', 'CSE-2022-A2-m26', 'CSE-2022-A2-m27', 'CSE-1989-A2-m04', 'CSE-1989-A2-m05'], q: [
   ['According to PLFS 2023–24, about ___ of India’s workforce is employed in agriculture and allied activities.', ['46%', '15%', '70%', '25%'], 0,
     'Agriculture’s share in gross value added is much smaller (under 20%), so incomes per worker are low.'],
   ['Growth in agriculture is considered especially effective for poverty reduction because:', ['Most poor people depend on it for livelihoods, so gains reach them directly', 'It employs few people', 'It has no links with other sectors', 'Poor people live only in cities'], 0,

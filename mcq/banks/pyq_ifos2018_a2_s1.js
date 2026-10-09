@@ -66,7 +66,7 @@
   ['At initial certification, a seed lot’s certificate is normally valid for:', ['Nine months from the date of testing', 'Ten years', 'One week', 'Indefinitely'], 0,
     'It can be revalidated after retesting.']
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'IFoS-2018-A2-Q1d', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['IFoS-2018-A2-Q1d', 'CSE-2022-A2-m24', 'IFoS-2015-A2-m35'], q: [
   ['Harrington’s thumb rule says that the storage life of seed roughly doubles for every:', ['1% fall in seed moisture (between 5 and 14%) or 5 °C fall in temperature', '10% rise in moisture', '10 °C rise in temperature', '1% rise in moisture'], 0,
     'Moisture and temperature are the key factors in storage.'],
   ['The "sum rule" for safe seed storage is that relative humidity (%) plus temperature (°F) should not exceed:', ['100', '50', '200', '150'], 0,
@@ -132,7 +132,7 @@
   ['Seed of cross-pollinated varieties is maintained by:', ['Growing a large population in isolation to avoid genetic drift', 'Selfing a single plant', 'Cloning', 'Mutating'], 0,
     'Small populations lose variation and vigour.']
 ] },
-{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: ['IFoS-2018-A2-Q2b', 'IFoS-2012-A2-m28'], q: [
+{ p: 'A2', t: 'Heterosis, Hybrids & Mutation Breeding', w: 3, pyq: ['IFoS-2018-A2-Q2b', 'IFoS-2012-A2-m28', 'IFoS-2015-A2-m33'], q: [
   ['Heterosis breeding exploits:', ['The vigour of F₁ hybrids', 'New mutations', 'Polyploidy', 'Apomixis'], 0,
     'Hybrid seed must be bought fresh each season.'],
   ['Mutation breeding works by:', ['Inducing new heritable variation with physical or chemical mutagens', 'Crossing two parents', 'Selecting within pure lines', 'Grafting'], 0,

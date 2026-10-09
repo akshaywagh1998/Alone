@@ -242,7 +242,7 @@
   ['In rice hybrid seed production, flag-leaf clipping helps by:', ['Removing a barrier so pollen moves freely to the A-line panicles', 'Increasing leaf area', 'Delaying flowering', 'Adding nitrogen'], 0,
     'Rope pulling at anthesis also spreads pollen.']
 ] },
-{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 3, pyq: ['IFoS-2017-A2-Q4a', 'CSE-2010-A2-m19'], q: [
+{ p: 'A2', t: 'Crop Physiology & Growth Regulators', w: 3, pyq: ['IFoS-2017-A2-Q4a', 'CSE-2010-A2-m19', 'CSE-1999-A2-m23'], q: [
   ['Red light converts phytochrome from:', ['Pr to the active Pfr form', 'Pfr to Pr', 'Pr to chlorophyll', 'Pfr to carotene'], 0,
     'Far-red light reverses the change.'],
   ['Processes mediated by phytochrome include:', ['Seed germination, de-etiolation, photoperiodic flowering and shade avoidance', 'Only root growth', 'Only nitrogen fixation', 'Only water uptake'], 0,

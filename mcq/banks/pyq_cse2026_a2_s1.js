@@ -242,7 +242,7 @@
   ['Cytoplasmic genes do not show Mendelian ratios mainly because:', ['Organelles are distributed to daughter cells without meiotic segregation and mostly through one parent', 'They are always dominant', 'They are located on autosomes', 'They are lost in every generation'], 0,
     'Many copies per cell and random sorting-out also occur.'],
 ] },
-{ p: 'A2', t: 'Seed Technology', w: 3, pyq: 'CSE-2026-A2-Q4a', q: [
+{ p: 'A2', t: 'Seed Technology', w: 3, pyq: ['CSE-2026-A2-Q4a', 'CSE-2024-A2-m25'], q: [
   ['Seed replacement rate (SRR) is:', ['The percentage of area sown with fresh quality seed instead of farm-saved seed', 'The rate of seed germination', 'The rate of seed deterioration', 'The seed rate per hectare'], 0,
     'Low SRR in self-pollinated crops limits the market for their seed.'],
   ['The SATHI portal (2023) was launched to:', ['Trace seed from production to sale and curb spurious seed', 'Pay crop insurance', 'Book tractors', 'Sell fertiliser'], 0,
