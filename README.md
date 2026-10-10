@@ -8,11 +8,11 @@ Built around the **Recall Ladder** methodology and the **AI Employee Architectur
 
 ## 📝 MCQ Drill (`/mcq`) — all six Mains papers + interview
 
-**Live: https://ifos-mcq-drill.lovable.app** — an offline, spaced-recall MCQ app (source in [`mcq/`](mcq/)) covering General English, General Knowledge, Botany I & II, Agriculture I & II and the Personality Test (4,375 questions, each with a one-line explanation; 3,820 of them are linked 10-per-PYQ to all 382 registered optional-paper PYQs — CSE 2026 and IFoS 2017, 2018 and 2025 — see the PYQ tab).
+**Live: https://ifos-mcq-drill.lovable.app** — an offline, spaced-recall MCQ app (source in [`mcq/`](mcq/)) covering General English, General Knowledge, Botany I & II, Agriculture I & II and the Personality Test (6,775 questions, each with a one-line explanation). Every one of the 6,389 registered optional-paper PYQs — CSE 1985–2026 and IFoS 2000–2025, Botany and Agriculture — is linked to at least 10 MCQs; a concept asked in several years shares one set, and the PYQ tab lists every year it was asked.
 
-- **Today**: a daily mission of due reviews plus new questions, weighted toward the papers furthest below your targets. Also shows a countdown to 22 Nov 2026 and the pace needed to finish the bank.
+- **Today**: a daily mission of due reviews plus new questions, weighted toward the papers furthest below your targets. Also shows a countdown to 22 Nov 2026 and the pace needed: new questions per day to finish the most-asked PYQ core, and to see the whole bank once, before a 10-day final revision window.
 - **Practice** by paper, topic or filter (unseen, due, mistakes, flagged). **Mock**: timed, no feedback until you submit, optional −⅓ negative marking.
-- **Score**: projected marks per paper group against your targets (default 300 / 300 / 250 / 250 / 250, goal 1250+), plus topic mastery sorted weakest first.
+- **Score**: projected marks per paper group against your targets (default 300 / 300 / 250 / 250 / 250, goal 1250+), plus topic mastery sorted weakest first. Concepts asked most often in PYQs count up to 3× in the projection.
 - **Revise**: search the whole bank as read-through notes. **Settings**: targets, daily goal, exam date, progress export and import.
 
 Run `python3 -m http.server 3000` and open `http://localhost:3000/mcq/`. `node tools/build_single.js` makes a one-file copy (`dist/ifos-mcq.html`) for hosting or offline use. To add questions, edit `mcq/banks/*.js`, then run `node tools/validate_banks.js`.
