@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Gymnosperms & palaeobotany. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2025-B1-m03', 'CSE-2012-B1-m19', 'IFoS-2007-B1-m17', 'IFoS-2007-B1-m18', 'CSE-2005-B1-m17', 'CSE-2005-B1-m18', 'CSE-2013-B1-m12', 'CSE-1987-B1-m16', 'CSE-1999-B1-m14', 'CSE-1995-B1-m25', 'IFoS-2010-B1-m32', 'CSE-2025-B1-m28', 'CSE-1992-B1-m02', 'CSE-2023-B1-m02', 'CSE-1993-B1-m29', 'CSE-1991-B1-m21'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 3, pyq: ['IFoS-2025-B1-m03', 'CSE-2012-B1-m19', 'IFoS-2007-B1-m17', 'IFoS-2007-B1-m18', 'CSE-2005-B1-m17', 'CSE-2005-B1-m18', 'CSE-2013-B1-m12', 'CSE-1987-B1-m16', 'CSE-1999-B1-m14', 'CSE-1995-B1-m25', 'IFoS-2010-B1-m32', 'CSE-2025-B1-m28', 'CSE-1992-B1-m02', 'CSE-2023-B1-m02', 'CSE-1993-B1-m29', 'CSE-1991-B1-m21', 'CSE-2026-B1-m08'], q: [
   ['In female plants of *Cycas*, megasporophylls:', ['Form a loose rosette at the stem apex and do not make a compact cone', 'Form a compact woody cone', 'Arise singly in leaf axils', 'Are borne on dwarf shoots'], 0,
     'The apex grows on through them; male plants bear a large compact cone.'],
   ['The megasporophyll of *Cycas revoluta* differs from that of *C. circinalis* in having a lamina that is:', ['Deeply pinnately divided and densely hairy', 'Only toothed', 'Entire and glabrous', 'Absent'], 0,
@@ -110,7 +110,7 @@
   ['In *Ginkgo*, the embryo may develop after the ovule has fallen because:', ['Fertilisation can happen late, around the time ovules are shed', 'It has no embryo', 'Seeds are dormant for years', 'It is apomictic'], 0,
     'Seeds have little or no dormancy.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2023-B1-m15', 'CSE-2021-B1-m20', 'CSE-2018-B1-m17', 'CSE-2004-B1-m14', 'IFoS-2014-B1-m23', 'CSE-2021-B1-m19', 'CSE-2015-B1-m17', 'IFoS-2022-B1-m14', 'CSE-2009-B1-m21', 'CSE-2018-B1-m16', 'CSE-2014-B1-m19', 'IFoS-2004-B1-m20', 'CSE-2024-B1-m19', 'CSE-2023-B1-m03', 'CSE-2002-B1-m05', 'CSE-1988-B1-m05', 'IFoS-2007-B1-m02', 'IFoS-2000-B1-m04', 'IFoS-2011-B1-m03', 'IFoS-2021-B1-m15', 'IFoS-2000-B1-m17', 'CSE-2010-B1-m18', 'IFoS-2007-B1-m12'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2023-B1-m15', 'CSE-2021-B1-m20', 'CSE-2018-B1-m17', 'CSE-2004-B1-m14', 'IFoS-2014-B1-m23', 'CSE-2021-B1-m19', 'CSE-2015-B1-m17', 'IFoS-2022-B1-m14', 'CSE-2009-B1-m21', 'CSE-2018-B1-m16', 'CSE-2014-B1-m19', 'IFoS-2004-B1-m20', 'CSE-2024-B1-m19', 'CSE-2023-B1-m03', 'CSE-2002-B1-m05', 'CSE-1988-B1-m05', 'IFoS-2007-B1-m02', 'IFoS-2000-B1-m04', 'IFoS-2011-B1-m03', 'IFoS-2021-B1-m15', 'IFoS-2000-B1-m17', 'CSE-2010-B1-m18', 'IFoS-2007-B1-m12', 'IFoS-2015-B1-Q4a'], q: [
   ['Cordaitales were:', ['Tall Carboniferous trees with long, strap-shaped, parallel-veined leaves', 'Small herbs of the Cenozoic', 'Mesozoic cycads', 'Aquatic ferns'], 0,
     'Their pith had transverse septa — casts called *Artisia*.'],
   ['The fertile shoots of Cordaitales (*Cordaianthus*) are:', ['Compound strobili with bracts subtending short shoots that bear scales and ovules or pollen sacs', 'Simple cones of sporophylls', 'Flowers with petals', 'Sporocarps'], 0,
@@ -132,7 +132,7 @@
   ['Progymnosperms are significant because they show:', ['That gymnosperm-type wood evolved before the seed', 'That flowers evolved before seeds', 'That mosses gave rise to ferns', 'That seeds evolved in algae'], 0,
     'Beck (1960) named the group.']
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2014-B1-m18', 'IFoS-2020-B1-m17', 'CSE-1989-B1-m26', 'CSE-2023-B1-m19', 'CSE-2006-B1-m22', 'CSE-1989-B1-m37'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['CSE-2014-B1-m18', 'IFoS-2020-B1-m17', 'CSE-1989-B1-m26', 'CSE-2023-B1-m19', 'CSE-2006-B1-m22', 'CSE-1989-B1-m37', 'CSE-2026-B1-m04'], q: [
   ['A petrifaction forms when:', ['Minerals such as silica or calcite infiltrate and replace tissues, preserving internal anatomy', 'A plant leaves only an imprint in mud', 'A plant is preserved in ice', 'Carbon film is left after compression'], 0,
     'Petrifactions let botanists section fossils like living tissue.'],
   ['An impression fossil preserves:', ['Only the surface outline, without plant matter', 'Internal cells', 'The whole 3-D organ in silica', 'DNA'], 0,

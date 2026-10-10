@@ -22,7 +22,7 @@
   ['Single cells can be isolated from intact leaves by:', ['Mechanical grinding or enzymatic maceration', 'Freezing the leaf', 'Drying the leaf', 'Burning'], 0,
     'Bergmann plating and nurse-callus (paper raft) methods help single cells divide.']
 ] },
-{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 3, pyq: ['IFoS-2022-B1-m25', 'IFoS-2020-B1-m24', 'CSE-2019-B1-m25', 'CSE-2002-B1-m19', 'CSE-2001-B1-m17', 'CSE-2000-B1-m19', 'CSE-1995-B1-m36', 'CSE-1990-B1-m47', 'IFoS-2019-B1-m26', 'IFoS-2017-B1-Q8c', 'IFoS-2013-B1-m37', 'IFoS-2011-B1-m30', 'CSE-2006-B1-m23', 'CSE-2005-B1-m20', 'CSE-2022-B1-m23', 'IFoS-2025-B1-m09', 'CSE-2018-B1-m25', 'IFoS-2021-B1-m27', 'CSE-2025-B1-m17', 'CSE-2015-B1-m03', 'CSE-2020-B1-m13', 'IFoS-2004-B1-m01', 'IFoS-2009-B1-m25', 'IFoS-2011-B1-m28', 'IFoS-2012-B1-m38', 'IFoS-2002-B1-m17', 'CSE-2012-B1-m16'], q: [
+{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 3, pyq: ['IFoS-2022-B1-m25', 'IFoS-2020-B1-m24', 'CSE-2019-B1-m25', 'CSE-2002-B1-m19', 'CSE-2001-B1-m17', 'CSE-2000-B1-m19', 'CSE-1995-B1-m36', 'CSE-1990-B1-m47', 'IFoS-2019-B1-m26', 'IFoS-2017-B1-Q8c', 'IFoS-2013-B1-m37', 'IFoS-2011-B1-m30', 'CSE-2006-B1-m23', 'CSE-2005-B1-m20', 'CSE-2022-B1-m23', 'IFoS-2025-B1-m09', 'CSE-2018-B1-m25', 'IFoS-2021-B1-m27', 'CSE-2025-B1-m17', 'CSE-2015-B1-m03', 'CSE-2020-B1-m13', 'IFoS-2004-B1-m01', 'IFoS-2009-B1-m25', 'IFoS-2011-B1-m28', 'IFoS-2012-B1-m38', 'IFoS-2002-B1-m17', 'CSE-2012-B1-m16', 'CSE-2011-B1-Q7b'], q: [
   ['The most widely used chemical for protoplast fusion is:', ['Polyethylene glycol (PEG)', 'Colchicine', 'Ethidium bromide', 'Mannitol'], 0,
     'Others: high pH with high Ca²⁺, sodium nitrate, and electrofusion.'],
   ['Electrofusion of protoplasts uses:', ['An alternating field to line cells up, then a short DC pulse to fuse them', 'Heat', 'Ultraviolet light', 'Ultrasound only'], 0,
@@ -66,7 +66,7 @@
   ['Epigenetic somaclonal changes often involve:', ['Altered DNA methylation', 'Loss of all chromosomes', 'Plasmid uptake', 'Chloroplast loss'], 0,
     'Some such changes are unstable over generations.']
 ] },
-{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 2, pyq: ['CSE-2012-B1-m26', 'CSE-1986-B1-m28', 'CSE-1987-B1-m22', 'CSE-2009-B1-m25', 'IFoS-2011-B1-m29', 'CSE-2024-B1-m17', 'IFoS-2021-B1-m17'], q: [
+{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 2, pyq: ['CSE-2012-B1-m26', 'CSE-1986-B1-m28', 'CSE-1987-B1-m22', 'CSE-2009-B1-m25', 'IFoS-2011-B1-m29', 'CSE-2024-B1-m17', 'IFoS-2021-B1-m17', 'CSE-2017-B1-Q5c'], q: [
   ['Polarity in plants means:', ['Differences in structure or behaviour at the two ends of an axis', 'Equal growth at both ends', 'Loss of cell walls', 'Random organ formation'], 0,
     'E.g. stem cuttings form shoots at the apical end and roots at the basal end (Vöchting).'],
   ['In the *Fucus* zygote, polarity is set by:', ['Light, with the rhizoid forming on the shaded side', 'Gravity only', 'Temperature only', 'Contact with sperm only'], 0,
@@ -110,7 +110,7 @@
   ['Virus-free plants are obtained mainly by:', ['Meristem-tip culture, often with heat therapy', 'Callus culture', 'Protoplast fusion', 'Seed treatment'], 0,
     'Used for potato, banana, sugarcane and orchids.']
 ] },
-{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 2, pyq: ['CSE-2020-B1-m05', 'CSE-2022-B1-m04', 'CSE-2025-B1-m04'], q: [
+{ p: 'B1', t: 'Morphogenesis & Tissue Culture', w: 2, pyq: ['CSE-2020-B1-m05', 'CSE-2022-B1-m04', 'CSE-2025-B1-m04', 'CSE-2026-B1-m27', 'CSE-2011-B1-Q2c'], q: [
   ['Embryo rescue is used mainly to:', ['Save hybrid embryos that would abort because the endosperm fails in wide crosses', 'Make seeds larger', 'Induce polyploidy', 'Store seed'], 0,
     'The immature embryo is cultured on a nutrient medium.'],
   ['The first interspecific hybrid obtained through embryo culture was:', ['*Linum perenne* × *L. austriacum* (Laibach, 1925)', 'Triticale', 'Pomato', '*Brassica napus*'], 0,

@@ -22,7 +22,7 @@
   ['Author citations are useful because they:', ['Make names precise, separate homonyms and point to the original publication', 'Show where a plant grows', 'Give the plant’s uses', 'Show its chromosome number'], 0,
     'They are essential in taxonomic literature.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q5b', 'CSE-2019-B1-m14', 'CSE-2017-B1-m10', 'CSE-2015-B1-m14', 'IFoS-2007-B1-m15', 'CSE-2006-B1-m13', 'CSE-1992-B1-m25', 'IFoS-2024-B1-m15', 'IFoS-2023-B1-m12', 'IFoS-2022-B1-m12', 'CSE-2007-B1-m15', 'CSE-2002-B1-m18', 'CSE-2025-B1-m16', 'IFoS-2013-B1-m26', 'CSE-2012-B1-m17'], q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2017-B1-Q5b', 'CSE-2019-B1-m14', 'CSE-2017-B1-m10', 'CSE-2015-B1-m14', 'IFoS-2007-B1-m15', 'CSE-2006-B1-m13', 'CSE-1992-B1-m25', 'IFoS-2024-B1-m15', 'IFoS-2023-B1-m12', 'IFoS-2022-B1-m12', 'CSE-2007-B1-m15', 'CSE-2002-B1-m18', 'CSE-2025-B1-m16', 'IFoS-2013-B1-m26', 'CSE-2012-B1-m17', 'CSE-2026-B1-m19', 'IFoS-2009-B1-Q5c'], q: [
   ['Vavilov located centres of origin by finding regions with:', ['The greatest genetic diversity of a crop and its wild relatives', 'The highest crop yields', 'The largest cultivated area', 'The oldest cities'], 0,
     'This is the differential phytogeographic method.'],
   ['Vavilov originally proposed:', ['Eight main centres, with three subcentres', 'Twelve megacentres', 'Four centres', 'Twenty centres'], 0,
@@ -88,7 +88,7 @@
   ['The Glossopteris flora, with *Glossopteris* and *Gangamopteris*, is characteristic of:', ['Gondwana, mainly in the Permian and continuing into the early Triassic', 'The Cretaceous of Europe', 'The Quaternary', 'The Cambrian'], 0,
     'Its distribution supported the idea of continental drift.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 1, pyq: ['IFoS-2017-B1-Q5e', 'IFoS-2015-B1-m05', 'IFoS-2012-B1-m08', 'CSE-1988-B1-m13', 'CSE-1986-B1-m08', 'CSE-1987-B1-m12'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 1, pyq: ['IFoS-2017-B1-Q5e', 'IFoS-2015-B1-m05', 'IFoS-2012-B1-m08', 'CSE-1988-B1-m13', 'CSE-1986-B1-m08', 'CSE-1987-B1-m12', 'IFoS-2009-B1-Q5d'], q: [
   ['The inflorescence of banana (Musaceae) is:', ['A large terminal spike (spadix) with big coloured bracts (spathes)', 'An umbel', 'A capitulum', 'A cyathium'], 0,
     'It hangs down from the top of the pseudostem.'],
   ['In banana, flowers are borne in:', ['Clusters ("hands") in the axils of bracts, in two rows', 'Single flowers along the stem', 'Heads', 'Umbels'], 0,
@@ -154,7 +154,7 @@
   ['Bees pollinating pea-type (papilionaceous) flowers:', ['Press down the keel, so the stamens and style spring up against their bodies', 'Collect pollinia on their legs', 'Pierce the ovary', 'Visit only at night'], 0,
     'Asclepiads use the translator mechanism instead.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02', 'CSE-2001-B1-m16', 'CSE-2006-B1-m21', 'CSE-1986-B1-m13', 'IFoS-2009-B1-m07', 'IFoS-2005-B1-m05', 'CSE-2004-B1-m01', 'IFoS-2002-B1-m03', 'CSE-1991-B1-m09', 'CSE-2025-B1-m05', 'CSE-1993-B1-m03', 'IFoS-2014-B1-m06', 'IFoS-2010-B1-m08', 'IFoS-2000-B1-m03', 'CSE-1999-B1-m20', 'CSE-1992-B1-m23', 'IFoS-2006-B1-m16'], q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 2, pyq: ['IFoS-2017-B1-Q6c', 'CSE-2022-B1-m16', 'IFoS-2020-B1-m16', 'CSE-2019-B1-m18', 'CSE-2016-B1-m17', 'IFoS-2015-B1-m14', 'CSE-2013-B1-m11', 'CSE-2002-B1-m14', 'CSE-2000-B1-m12', 'CSE-1996-B1-m20', 'IFoS-2024-B1-m18', 'CSE-1997-B1-m02', 'IFoS-2022-B1-m02', 'CSE-2001-B1-m16', 'CSE-2006-B1-m21', 'CSE-1986-B1-m13', 'IFoS-2009-B1-m07', 'IFoS-2005-B1-m05', 'CSE-2004-B1-m01', 'IFoS-2002-B1-m03', 'CSE-1991-B1-m09', 'CSE-2025-B1-m05', 'CSE-1993-B1-m03', 'IFoS-2014-B1-m06', 'IFoS-2010-B1-m08', 'IFoS-2000-B1-m03', 'CSE-1999-B1-m20', 'CSE-1992-B1-m23', 'IFoS-2006-B1-m16', 'CSE-2011-B1-Q6c', 'IFoS-2009-B1-Q5c'], q: [
   ['The term "palynology" was coined by:', ['Hyde and Williams (1944)', 'G. Erdtman', 'L. von Post', 'P. Maheshwari'], 0,
     'It is the study of pollen and spores.'],
   ['The founder of modern pollen morphology, who introduced acetolysis, was:', ['Gunnar Erdtman', 'Lennart von Post', 'Hyde', 'Heslop-Harrison'], 0,
@@ -286,7 +286,7 @@
   ['Anomalous secondary growth is best defined as:', ['Secondary growth that departs from the normal single-cambium pattern in position, activity or products', 'Any secondary growth', 'Primary growth only', 'Growth of roots only'], 0,
     'It is common in climbers and succulent roots.']
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2017-B1-Q8b', 'IFoS-2025-B1-Q8a', 'CSE-2025-B1-m11', 'IFoS-2024-B1-m09', 'CSE-2022-B1-m12', 'IFoS-2018-B1-Q5d', 'CSE-2018-B1-m08', 'IFoS-2015-B1-m08', 'IFoS-2012-B1-m07', 'IFoS-2011-B1-m07', 'IFoS-2009-B1-m11', 'IFoS-2001-B1-m09', 'CSE-2015-B1-m06', 'CSE-2002-B1-m06'], q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 2, pyq: ['IFoS-2017-B1-Q8b', 'IFoS-2025-B1-Q8a', 'CSE-2025-B1-m11', 'IFoS-2024-B1-m09', 'CSE-2022-B1-m12', 'IFoS-2018-B1-Q5d', 'CSE-2018-B1-m08', 'IFoS-2015-B1-m08', 'IFoS-2012-B1-m07', 'IFoS-2011-B1-m07', 'IFoS-2009-B1-m11', 'IFoS-2001-B1-m09', 'CSE-2015-B1-m06', 'CSE-2002-B1-m06', 'CSE-2026-B1-m21'], q: [
   ['A botanical garden differs from an ordinary garden in that it:', ['Keeps documented, labelled collections of living plants for research, conservation and education', 'Grows only ornamental flowers', 'Is always private', 'Has no scientific records'], 0,
     'Each plant has an accession record.'],
   ['The oldest academic botanical garden still at its original site is:', ['Orto Botanico di Padova, Italy (1545)', 'Kew Gardens', 'New York Botanical Garden', 'Singapore Botanic Gardens'], 0,

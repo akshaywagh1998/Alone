@@ -1,6 +1,6 @@
 /* Concept sets for Botany I — Fungi & Lichens. Each block is linked to every PYQ (CSE + IFoS, all years) that asks this concept. */
 (window.IFOS_BANK = window.IFOS_BANK || []).push(
-{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['CSE-2023-B1-m18', 'CSE-2021-B1-m16', 'CSE-2020-B1-m14', 'CSE-2018-B1-m14', 'CSE-2011-B1-m11', 'CSE-2010-B1-m20', 'IFoS-2016-B1-m12', 'CSE-2016-B1-m15', 'CSE-1993-B1-m32', 'CSE-2006-B1-m11'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['CSE-2023-B1-m18', 'CSE-2021-B1-m16', 'CSE-2020-B1-m14', 'CSE-2018-B1-m14', 'CSE-2011-B1-m11', 'CSE-2010-B1-m20', 'IFoS-2016-B1-m12', 'CSE-2016-B1-m15', 'CSE-1993-B1-m32', 'CSE-2006-B1-m11', 'CSE-2017-B1-Q1d'], q: [
   ['A lichen is a symbiotic association of:', ['A fungus (mycobiont) with a green alga or cyanobacterium (photobiont)', 'A fungus with a plant root', 'A bacterium with a legume', 'Two algae'], 0,
     'The fungus is usually an ascomycete; a few are basidiolichens.'],
   ['Match the lichen form with its example: fruticose —', ['*Usnea*', '*Graphis*', '*Parmelia*', '*Lecanora*'], 0,
@@ -22,7 +22,7 @@
   ['Crustose lichens are pioneers on bare rock because they:', ['Secrete lichen acids that weather rock and trap soil', 'Need deep soil', 'Shade other plants', 'Fix carbon only at night'], 0,
     'They start xerarch succession, followed by foliose lichens and mosses.']
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['IFoS-2023-B1-m14', 'CSE-2012-B1-m11', 'CSE-2010-B1-m19', 'IFoS-2002-B1-m14', 'CSE-1995-B1-m21', 'IFoS-2011-B1-m22', 'CSE-2015-B1-m15', 'IFoS-2002-B1-m15', 'CSE-1989-B1-m22', 'IFoS-2013-B1-m27', 'CSE-2009-B1-m01'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 3, pyq: ['IFoS-2023-B1-m14', 'CSE-2012-B1-m11', 'CSE-2010-B1-m19', 'IFoS-2002-B1-m14', 'CSE-1995-B1-m21', 'IFoS-2011-B1-m22', 'CSE-2015-B1-m15', 'IFoS-2002-B1-m15', 'CSE-1989-B1-m22', 'IFoS-2013-B1-m27', 'CSE-2009-B1-m01', 'CSE-2017-B1-Q1c'], q: [
   ['Heterothallism was discovered in *Mucor* by:', ['Blakeslee (1904)', 'Pontecorvo (1952)', 'de Bary (1866)', 'Buller (1931)'], 0,
     'He named the mating strains + and −.'],
   ['A heterothallic fungus is one that:', ['Needs two compatible thalli for sexual reproduction', 'Is self-fertile', 'Has no sexual stage', 'Forms only asexual spores'], 0,

@@ -22,7 +22,7 @@
   ['Cytoplasmic male sterility is coded by:', ['Mitochondrial genes', 'Chloroplast genes', 'Nuclear restorer genes', 'Ribosomal RNA'], 0,
     'Nuclear restorer (Rf) genes can suppress it.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2024-B2-m14', 'IFoS-2022-B2-m20', 'CSE-2016-B2-m21', 'IFoS-2013-B2-m10', 'IFoS-2007-B2-m18', 'IFoS-2004-B2-m16', 'CSE-2000-B2-m09', 'CSE-1999-B2-m07', 'CSE-2005-B2-m05', 'IFoS-2000-B2-m15', 'IFoS-2001-B2-m12', 'IFoS-2010-B2-m17', 'CSE-2010-B2-m08', 'CSE-1995-B2-m19', 'CSE-1993-B2-m16', 'IFoS-2009-B2-m14'], q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 3, pyq: ['IFoS-2024-B2-m14', 'IFoS-2022-B2-m20', 'CSE-2016-B2-m21', 'IFoS-2013-B2-m10', 'IFoS-2007-B2-m18', 'IFoS-2004-B2-m16', 'CSE-2000-B2-m09', 'CSE-1999-B2-m07', 'CSE-2005-B2-m05', 'IFoS-2000-B2-m15', 'IFoS-2001-B2-m12', 'IFoS-2010-B2-m17', 'CSE-2010-B2-m08', 'CSE-1995-B2-m19', 'CSE-1993-B2-m16', 'IFoS-2009-B2-m14', 'CSE-2026-B2-m15', 'CSE-2015-B2-Q1d'], q: [
   ['The term heterosis was coined by:', ['G. H. Shull (1914)', 'Mendel', 'Darwin', 'Borlaug'], 0,
     'It means superiority of the F₁ hybrid over its parents.'],
   ['Heterobeltiosis is superiority of an F₁ over:', ['The better parent', 'The mid-parent value', 'A standard check variety', 'The F₂'], 0,
@@ -66,7 +66,7 @@
   ['The one gene–one enzyme hypothesis came from Beadle and Tatum\'s work on:', ['*Neurospora*', '*Drosophila*', 'Pea', 'Maize'], 0,
     'Each nutritional mutant blocked one enzymatic step.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['CSE-2023-B2-m14', 'IFoS-2020-B2-m15', 'CSE-2006-B2-m11', 'IFoS-2001-B2-m12', 'IFoS-2024-B2-m18', 'CSE-2021-B2-m16', 'IFoS-2019-B2-m15', 'IFoS-2024-B2-m16', 'IFoS-2000-B2-m17', 'CSE-2009-B2-m07', 'IFoS-2022-B2-m14', 'IFoS-2022-B2-m08', 'IFoS-2020-B2-m06', 'IFoS-2016-B2-m07', 'IFoS-2015-B2-m04', 'IFoS-2011-B2-m03', 'IFoS-2006-B2-m06', 'IFoS-2002-B2-m05', 'IFoS-2021-B2-m10', 'IFoS-2007-B2-m04', 'IFoS-2012-B2-m19', 'IFoS-2019-B2-m05'], q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['CSE-2023-B2-m14', 'IFoS-2020-B2-m15', 'CSE-2006-B2-m11', 'IFoS-2001-B2-m12', 'IFoS-2024-B2-m18', 'CSE-2021-B2-m16', 'IFoS-2019-B2-m15', 'IFoS-2024-B2-m16', 'IFoS-2000-B2-m17', 'CSE-2009-B2-m07', 'IFoS-2022-B2-m14', 'IFoS-2022-B2-m08', 'IFoS-2020-B2-m06', 'IFoS-2016-B2-m07', 'IFoS-2015-B2-m04', 'IFoS-2011-B2-m03', 'IFoS-2006-B2-m06', 'IFoS-2002-B2-m05', 'IFoS-2021-B2-m10', 'IFoS-2007-B2-m04', 'IFoS-2012-B2-m19', 'IFoS-2019-B2-m05', 'CSE-2026-B2-m18'], q: [
   ['The correlation coefficient (r) ranges from:', ['−1 to +1', '0 to 1', '0 to 100', '−∞ to +∞'], 0,
     'r = 0 means no linear relationship.'],
   ['Pearson\'s correlation coefficient is:', ['Covariance of x and y divided by the product of their standard deviations', 'Mean of x divided by mean of y', 'Variance of x', 'Sum of x and y'], 0,

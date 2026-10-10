@@ -66,7 +66,7 @@
   ['Programmed cell death in plants occurs during:', ['Xylem vessel formation and the hypersensitive response', 'Seed imbibition only', 'Stomatal opening', 'Photosynthesis'], 0,
     'Tapetum breakdown is another example; metacaspases and vacuolar enzymes take part.']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['CSE-2023-B2-m03', 'CSE-2025-B2-m02', 'CSE-2020-B2-m05', 'IFoS-2016-B2-m05', 'IFoS-2015-B2-m02', 'CSE-2018-B2-m06', 'CSE-1988-B2-m02', 'IFoS-2023-B2-m01', 'CSE-1996-B2-m01', 'IFoS-2000-B2-m01', 'IFoS-2012-B2-m01', 'IFoS-2003-B2-m04', 'CSE-2011-B2-m08', 'IFoS-2007-B2-m03', 'CSE-1988-B2-m04'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['CSE-2023-B2-m03', 'CSE-2025-B2-m02', 'CSE-2020-B2-m05', 'IFoS-2016-B2-m05', 'IFoS-2015-B2-m02', 'CSE-2018-B2-m06', 'CSE-1988-B2-m02', 'IFoS-2023-B2-m01', 'CSE-1996-B2-m01', 'IFoS-2000-B2-m01', 'IFoS-2012-B2-m01', 'IFoS-2003-B2-m04', 'CSE-2011-B2-m08', 'IFoS-2007-B2-m03', 'CSE-1988-B2-m04', 'CSE-2026-B2-m09', 'CSE-2026-B2-m10'], q: [
   ['Microtubules are made of:', ['α- and β-tubulin dimers forming 13 protofilaments, about 25 nm wide', 'Actin', 'Keratin', 'Cellulose'], 0,
     'They show dynamic instability — rapid growth and shrinkage.'],
   ['Cortical microtubules in plant cells control:', ['The direction in which cellulose microfibrils are laid down', 'Chlorophyll synthesis', 'DNA replication', 'Starch breakdown'], 0,

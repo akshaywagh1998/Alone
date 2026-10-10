@@ -66,7 +66,7 @@
   ['Huperzine A, studied for Alzheimer\'s disease, comes from:', ['*Huperzia serrata* (*Lycopodium serratum*)', '*Equisetum arvense*', '*Marsilea minuta*', '*Selaginella bryopteris*'], 0,
     'It is an acetylcholinesterase inhibitor.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2014-B1-m30', 'IFoS-2005-B1-m27', 'IFoS-2003-B1-m27', 'CSE-2022-B1-m26', 'IFoS-2001-B1-m26', 'CSE-1986-B1-m31', 'IFoS-2004-B1-m02', 'IFoS-2024-B1-m02', 'CSE-2000-B1-m01', 'CSE-1989-B1-m04'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2014-B1-m30', 'IFoS-2005-B1-m27', 'IFoS-2003-B1-m27', 'CSE-2022-B1-m26', 'IFoS-2001-B1-m26', 'CSE-1986-B1-m31', 'IFoS-2004-B1-m02', 'IFoS-2024-B1-m02', 'CSE-2000-B1-m01', 'CSE-1989-B1-m04', 'CSE-2026-B1-m14'], q: [
   ['In the *Equisetum* stem, carinal canals lie:', ['Opposite the ridges, formed by breakdown of protoxylem', 'Opposite the furrows in the cortex', 'In the centre of the pith', 'In the leaf sheath'], 0,
     'Vallecular canals are cortical and lie opposite the furrows; the centre has a large pith cavity.'],
   ['A xerophytic feature of *Equisetum* is:', ['Silica-rich ridged epidermis with sunken stomata', 'Large vallecular canals', 'A central pith cavity', 'Aerenchyma in the cortex'], 0,
@@ -88,7 +88,7 @@
   ['Compared with *Equisetum*, the vascular system of ferns is considered more advanced because ferns have:', ['Megaphylls whose leaf traces leave leaf gaps in a siphonostele or dictyostele', 'A simple protostele', 'No leaf traces', 'Only scale leaves'], 0,
     'Leaf gaps and dissected steles go with the large, complex fern leaf.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2013-B1-m39', 'CSE-2019-B1-m28', 'CSE-1998-B1-m25', 'IFoS-2003-B1-m25', 'CSE-2006-B1-m25', 'CSE-1990-B1-m22', 'CSE-2006-B1-m17', 'IFoS-2010-B1-m23', 'IFoS-2002-B1-m18', 'IFoS-2005-B1-m13'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2013-B1-m39', 'CSE-2019-B1-m28', 'CSE-1998-B1-m25', 'IFoS-2003-B1-m25', 'CSE-2006-B1-m25', 'CSE-1990-B1-m22', 'CSE-2006-B1-m17', 'IFoS-2010-B1-m23', 'IFoS-2002-B1-m18', 'IFoS-2005-B1-m13', 'CSE-2013-B1-Q3c'], q: [
   ['The typical prothallus of *Dryopteris* or *Pteris* is:', ['Green, heart-shaped and monoecious, with archegonia near the apical notch', 'Subterranean and non-green', 'Endosporic and unisexual', 'Filamentous and dioecious'], 0,
     'Antheridia lie among the rhizoids towards the posterior end.'],
   ['A non-green, tuberous, subterranean mycorrhizal prothallus is typical of:', ['*Ophioglossum* and *Botrychium*', '*Pteris*', '*Marsilea*', '*Azolla*'], 0,

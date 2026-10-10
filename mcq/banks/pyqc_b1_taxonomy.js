@@ -88,7 +88,7 @@
   ['Pseudocopulation, where male bees try to mate with the flower, is seen in:', ['*Ophrys*', '*Hibiscus*', '*Salvia*', '*Euphorbia*'], 0,
     'Orchids show some of the most specialised pollination systems.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2013-B1-m09', 'CSE-2002-B1-m08', 'IFoS-2000-B1-m05', 'CSE-1999-B1-m09', 'CSE-1992-B1-m14', 'CSE-1991-B1-m14', 'CSE-1987-B1-m09', 'CSE-1985-B1-m09', 'CSE-2014-B1-m05', 'CSE-1995-B1-m08', 'IFoS-2004-B1-m11', 'IFoS-2005-B1-m07', 'CSE-2007-B1-m18', 'CSE-1991-B1-m05', 'IFoS-2010-B1-m12'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2013-B1-m09', 'CSE-2002-B1-m08', 'IFoS-2000-B1-m05', 'CSE-1999-B1-m09', 'CSE-1992-B1-m14', 'CSE-1991-B1-m14', 'CSE-1987-B1-m09', 'CSE-1985-B1-m09', 'CSE-2014-B1-m05', 'CSE-1995-B1-m08', 'IFoS-2004-B1-m11', 'IFoS-2005-B1-m07', 'CSE-2007-B1-m18', 'CSE-1991-B1-m05', 'IFoS-2010-B1-m12', 'IFoS-2016-B1-Q5f'], q: [
   ['A cyathium consists of:', ['A cup of bracts with nectar glands, one central female flower and many male flowers', 'A head of ray and disc florets', 'A spike on a fleshy axis', 'A hollow receptacle with flowers inside'], 0,
     'It is the characteristic inflorescence of *Euphorbia*.'],
   ['Each male flower in a cyathium is reduced to:', ['A single stamen jointed to a short pedicel', 'A whorl of five stamens', 'A perianth with stamens', 'A pollinium'], 0,
@@ -110,7 +110,7 @@
   ['The cyathium looks like a single flower, so it is an example of a:', ['Pseudanthium', 'Pome', 'Hypanthodium', 'Capsule'], 0,
     'A capitulum is another pseudanthium.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2011-B1-m09', 'IFoS-2010-B1-m16', 'CSE-2010-B1-m15', 'IFoS-2004-B1-m10', 'CSE-2001-B1-m08', 'CSE-2000-B1-m06', 'CSE-2024-B1-m03', 'IFoS-2012-B1-m10', 'CSE-1988-B1-m19', 'CSE-1986-B1-m18'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2011-B1-m09', 'IFoS-2010-B1-m16', 'CSE-2010-B1-m15', 'IFoS-2004-B1-m10', 'CSE-2001-B1-m08', 'CSE-2000-B1-m06', 'CSE-2024-B1-m03', 'IFoS-2012-B1-m10', 'CSE-1988-B1-m19', 'CSE-1986-B1-m18', 'CSE-2011-B1-Q8b'], q: [
   ['Stamens of Brassicaceae are:', ['Tetradynamous — four long and two short', 'Didynamous — two long and two short', 'Monadelphous', 'Syngenesious'], 0,
     'The corolla is cruciform with four clawed petals.'],
   ['The ovary of Brassicaceae has:', ['Two carpels, parietal placentation and a false septum (replum)', 'Five carpels and axile placentation', 'One carpel and marginal placentation', 'Three carpels and free-central placentation'], 0,
@@ -132,7 +132,7 @@
   ['Which crops all belong to Brassicaceae?', ['Mustard, cabbage, cauliflower and radish', 'Potato, tomato and brinjal', 'Wheat, rice and maize', 'Pea, gram and lentil'], 0,
     'The second set is Solanaceae; the last is Fabaceae.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2015-B1-m07', 'IFoS-2010-B1-m11', 'IFoS-2009-B1-m13', 'CSE-2004-B1-m07', 'CSE-1995-B1-m11', 'IFoS-2012-B1-m11', 'CSE-1992-B1-m15', 'CSE-2025-B1-m03', 'IFoS-2021-B1-m06', 'CSE-1985-B1-m15'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2015-B1-m07', 'IFoS-2010-B1-m11', 'IFoS-2009-B1-m13', 'CSE-2004-B1-m07', 'CSE-1995-B1-m11', 'IFoS-2012-B1-m11', 'CSE-1992-B1-m15', 'CSE-2025-B1-m03', 'IFoS-2021-B1-m06', 'CSE-1985-B1-m15', 'CSE-2011-B1-Q8b'], q: [
   ['A grass spikelet has at its base:', ['Two empty bracts called glumes', 'A spathe', 'An involucre', 'A cupule'], 0,
     'Each floret is enclosed by a lemma and a palea.'],
   ['The lodicules of a grass floret are:', ['Reduced perianth scales that swell to open the floret', 'Bracts below the spikelet', 'Sterile stamens', 'Stigma lobes'], 0,
@@ -176,7 +176,7 @@
   ['Epipetalous stamens are those that are:', ['Attached to the petals', 'Free from all parts', 'Fused with the gynoecium', 'Attached to sepals'], 0,
     'Common in gamopetalous families such as Solanaceae and Asteraceae.']
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2005-B1-m07', 'IFoS-2001-B1-m07', 'CSE-2001-B1-m07', 'CSE-1999-B1-m10', 'CSE-2011-B1-m05', 'CSE-1988-B1-m12', 'CSE-1995-B1-m12', 'CSE-1985-B1-m08', 'CSE-1990-B1-m20', 'CSE-1986-B1-m07', 'IFoS-2010-B1-m14', 'CSE-2002-B1-m07', 'IFoS-2014-B1-m07', 'CSE-1987-B1-m07', 'IFoS-2012-B1-m08', 'CSE-2019-B1-m02', 'CSE-1986-B1-m32', 'IFoS-2013-B1-m09', 'IFoS-2000-B1-m06', 'CSE-1991-B1-m07', 'CSE-1985-B1-m04'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 2, pyq: ['IFoS-2005-B1-m07', 'IFoS-2001-B1-m07', 'CSE-2001-B1-m07', 'CSE-1999-B1-m10', 'CSE-2011-B1-m05', 'CSE-1988-B1-m12', 'CSE-1995-B1-m12', 'CSE-1985-B1-m08', 'CSE-1990-B1-m20', 'CSE-1986-B1-m07', 'IFoS-2010-B1-m14', 'CSE-2002-B1-m07', 'IFoS-2014-B1-m07', 'CSE-1987-B1-m07', 'IFoS-2012-B1-m08', 'CSE-2019-B1-m02', 'CSE-1986-B1-m32', 'IFoS-2013-B1-m09', 'IFoS-2000-B1-m06', 'CSE-1991-B1-m07', 'CSE-1985-B1-m04', 'CSE-2026-B1-m20', 'CSE-2014-B1-Q7d', 'IFoS-2016-B1-Q5e'], q: [
   ['Interpetiolar stipules and opposite leaves are typical of:', ['Rubiaceae', 'Apiaceae', 'Rosaceae', 'Lamiaceae'], 0,
     'Rubiaceae also have an inferior bicarpellary ovary.'],
   ['Which products come from Rubiaceae?', ['Coffee, quinine and madder dye', 'Tea, rubber and jute', 'Pepper, ginger and turmeric', 'Cotton, castor and teak'], 0,

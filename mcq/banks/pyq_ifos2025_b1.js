@@ -22,7 +22,7 @@
   ['Which is a leafy liverwort?', ['*Porella*', '*Funaria*', '*Polytrichum*', '*Sphagnum*'], 0,
     '*Funaria*, *Polytrichum* and *Sphagnum* are mosses; *Marchantia* and *Riccia* are thalloid liverworts.'],
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2025-B1-Q1c', 'IFoS-2001-B1-m02', 'CSE-1990-B1-m02', 'CSE-1989-B1-m01', 'CSE-1987-B1-m01', 'CSE-1998-B1-m01', 'CSE-2023-B1-m01', 'CSE-2016-B1-m21', 'IFoS-2019-B1-m17', 'CSE-1996-B1-m25', 'CSE-1991-B1-m25', 'CSE-2004-B1-m15'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2025-B1-Q1c', 'IFoS-2001-B1-m02', 'CSE-1990-B1-m02', 'CSE-1989-B1-m01', 'CSE-1987-B1-m01', 'CSE-1998-B1-m01', 'CSE-2023-B1-m01', 'CSE-2016-B1-m21', 'IFoS-2019-B1-m17', 'CSE-1996-B1-m25', 'CSE-1991-B1-m25', 'CSE-2004-B1-m15', 'CSE-2026-B1-m01'], q: [
   ['Cyanobacteria resemble bacteria in having:', ['A prokaryotic cell with no nucleus, 70S ribosomes and a peptidoglycan wall', 'A membrane-bound nucleus', 'Chloroplasts', 'Mitochondria'], 0,
     'This is why they are now placed with bacteria rather than algae.'],
   ['Cyanobacteria resemble algae and plants in:', ['Oxygenic photosynthesis using chlorophyll a and two photosystems', 'Having chloroplasts with double membranes', 'Having flagellated gametes', 'Having a nucleus'], 0,
@@ -44,7 +44,7 @@
   ['Chloroplasts of plants are believed to have originated from:', ['Endosymbiotic cyanobacteria', 'Mitochondria', 'Viruses', 'Fungi'], 0,
     'Evidence: circular DNA, 70S ribosomes and double membranes.'],
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: 'IFoS-2025-B1-Q1d', q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2025-B1-Q1d', 'CSE-2011-B1-Q2b'], q: [
   ['Industrial ethanol by fermentation is produced mainly with:', ['*Saccharomyces cerevisiae* (and the bacterium *Zymomonas mobilis*)', '*Aspergillus niger*', '*Bacillus licheniformis*', '*Trichoderma reesei*'], 0,
     'Molasses and grain are common substrates; ethanol blending in petrol uses this route.'],
   ['Citric acid is produced commercially by fermentation with:', ['*Aspergillus niger*', '*Saccharomyces cerevisiae*', '*Penicillium chrysogenum*', '*Lactobacillus*'], 0,
@@ -66,7 +66,7 @@
   ['Microbes suit industrial production because they:', ['Grow fast on cheap substrates, can be genetically improved and give high yields in fermenters', 'Grow only on costly media', 'Cannot be scaled up', 'Need sunlight'], 0,
     'Downstream processing then purifies the product.'],
 ] },
-{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-Q1e', 'IFoS-2009-B1-m26', 'CSE-2006-B1-m05', 'IFoS-2013-B1-m19', 'CSE-2003-B1-m12'], q: [
+{ p: 'B1', t: 'Gymnosperms', w: 2, pyq: ['IFoS-2025-B1-Q1e', 'IFoS-2009-B1-m26', 'CSE-2006-B1-m05', 'IFoS-2013-B1-m19', 'CSE-2003-B1-m12', 'IFoS-2016-B1-Q5g'], q: [
   ['Seed ferns (Pteridospermales / Cycadofilicales) are best described as:', ['Extinct plants with fern-like fronds that bore true seeds', 'Living ferns with spores', 'Early angiosperms', 'Bryophytes with seeds'], 0,
     'They flourished in the Carboniferous and Permian.'],
   ['Seeds were first shown to be borne on the fronds of *Lyginopteris* by:', ['Oliver and Scott (1904)', 'Darwin (1859)', 'Linnaeus (1753)', 'Zimmermann (1930)'], 0,
@@ -110,7 +110,7 @@
   ['Moss mats help seedlings of vascular plants by:', ['Providing a moist seedbed and sheltered microhabitat', 'Shading them completely', 'Removing all nutrients', 'Producing toxins'], 0,
     'They also host many small invertebrates.'],
 ] },
-{ p: 'B1', t: 'Algae', w: 2, pyq: 'IFoS-2025-B1-Q2b', q: [
+{ p: 'B1', t: 'Algae', w: 2, pyq: ['IFoS-2025-B1-Q2b', 'CSE-2026-B1-m07'], q: [
   ['The thallus of *Laminaria* is differentiated into:', ['Holdfast (hapteron), stipe and lamina (blade)', 'Rhizoids, leaves and flowers', 'Nucule and globule', 'Protonema and gametophore'], 0,
     'It is a large kelp of cold seas.'],
   ['Growth in *Laminaria* comes mainly from:', ['An intercalary meristem at the junction of stipe and lamina', 'An apical cell only', 'Root tips', 'A cambium in the holdfast'], 0,
@@ -198,7 +198,7 @@
   ['*Trichoderma* suppresses plant-pathogenic fungi partly through its:', ['Chitinases and glucanases that digest pathogen cell walls', 'Nitrogen fixation', 'Photosynthesis', 'Toxins that kill crop roots'], 0,
     'Mycoparasitism and competition also contribute.'],
 ] },
-{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['IFoS-2025-B1-Q4b', 'CSE-2016-B1-m16', 'CSE-2021-B1-m17'], q: [
+{ p: 'B1', t: 'Fungi & Lichens', w: 2, pyq: ['IFoS-2025-B1-Q4b', 'CSE-2016-B1-m16', 'CSE-2021-B1-m17', 'IFoS-2016-B1-Q5h'], q: [
   ['The mycelium of Zygomycetes is typically:', ['Coenocytic and aseptate', 'Septate with dolipores', 'Absent', 'Made of yeast cells only'], 0,
     'Septa form only to delimit reproductive structures.'],
   ['Sexual reproduction in Zygomycetes is by:', ['Gametangial copulation forming a thick-walled zygospore', 'Oogamy', 'Formation of basidiospores', 'Formation of asci'], 0,
@@ -286,7 +286,7 @@
   ['Natural dyes are regaining importance mainly because they are:', ['Eco-friendly and non-toxic compared with many synthetic dyes', 'Cheaper than all synthetic dyes', 'Available in unlimited colours', 'Completely light-fast'], 0,
     'Mordants (e.g., alum) are used to fix them to fibres.'],
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2025-B1-Q5e', 'CSE-2016-B1-m07', 'IFoS-2007-B1-m05', 'IFoS-2002-B1-m06', 'IFoS-2001-B1-m06', 'IFoS-2000-B1-m08', 'CSE-2019-B1-m07', 'CSE-2018-B1-m05', 'IFoS-2003-B1-m04', 'IFoS-2005-B1-m03'], q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2025-B1-Q5e', 'CSE-2016-B1-m07', 'IFoS-2007-B1-m05', 'IFoS-2002-B1-m06', 'IFoS-2001-B1-m06', 'IFoS-2000-B1-m08', 'CSE-2019-B1-m07', 'CSE-2018-B1-m05', 'IFoS-2003-B1-m04', 'IFoS-2005-B1-m03', 'CSE-2026-B1-m23'], q: [
   ['A herbarium is:', ['A collection of pressed, dried and labelled plant specimens arranged in a system of classification', 'A garden of living medicinal plants', 'A seed bank', 'A greenhouse'], 0,
     'It is the basic reference for plant identification and naming.'],
   ['The standard size of a herbarium sheet is about:', ['41 × 29 cm', '10 × 10 cm', '1 × 1 m', '5 × 3 cm'], 0,
@@ -308,7 +308,7 @@
   ['Herbarium specimens are protected from insect damage today mainly by:', ['Deep-freezing and pest-monitoring, instead of toxic poisons', 'Soaking in water', 'Keeping them in sunlight', 'Storing them in soil'], 0,
     'Mercuric chloride was used earlier but is hazardous.'],
 ] },
-{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: ['IFoS-2025-B1-Q6a', 'IFoS-2006-B1-m04'], q: [
+{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: ['IFoS-2025-B1-Q6a', 'IFoS-2006-B1-m04', 'CSE-2011-B1-Q6b'], q: [
   ['*Boerhavia diffusa* belongs to the family:', ['Nyctaginaceae', 'Salvadoraceae', 'Bignoniaceae', 'Asparagaceae'], 0,
     'Punarnava, a common medicinal herb.'],
   ['The young stem of *Boerhavia* shows vascular bundles arranged in:', ['About three rings, the innermost being medullary bundles', 'A single ring', 'Scattered as in monocots', 'Only in the cortex'], 0,
@@ -330,7 +330,7 @@
   ['Conjunctive tissue in stems with anomalous growth is:', ['The tissue formed between successive vascular rings', 'The epidermis', 'The root cap', 'The leaf mesophyll'], 0,
     'It is often lignified parenchyma or sclerenchyma.'],
 ] },
-{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: 'IFoS-2025-B1-Q6b', q: [
+{ p: 'B1', t: 'Angiosperm Taxonomy', w: 3, pyq: ['IFoS-2025-B1-Q6b', 'CSE-2012-B1-Q8d'], q: [
   ['The Legume Phylogeny Working Group (2017) divided Fabaceae into:', ['Six subfamilies', 'Three subfamilies', 'Two subfamilies', 'Ten subfamilies'], 0,
     'Traditional mimosoids are now a clade within Caesalpinioideae.'],
   ['Papilionoideae (Faboideae) have:', ['Vexillary (descendingly imbricate) aestivation and diadelphous (9)+1 stamens', 'Valvate aestivation and many free stamens', 'Ascending imbricate aestivation and 10 free stamens', 'Actinomorphic flowers in heads'], 0,
@@ -374,7 +374,7 @@
   ['Oats (*Avena sativa*) are valued nutritionally for their:', ['Soluble fibre (β-glucan), which helps lower cholesterol', 'Very high gluten', 'Caffeine', 'Vitamin B12'], 0,
     'Oats are also grown widely as winter fodder in India.'],
 ] },
-{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2025-B1-Q7a', 'IFoS-2024-B1-m14', 'IFoS-2011-B1-m20'], q: [
+{ p: 'B1', t: 'Economic Botany & Plant Resources', w: 3, pyq: ['IFoS-2025-B1-Q7a', 'IFoS-2024-B1-m14', 'IFoS-2011-B1-m20', 'CSE-2026-B1-m28', 'CSE-2012-B1-Q8c', 'CSE-2011-B1-Q7a'], q: [
   ['The term "ethnobotany" was coined by:', ['J.W. Harshberger (1896)', 'Linnaeus (1753)', 'Darwin (1859)', 'Vavilov (1926)'], 0,
     'It studies the relationship between people and plants.'],
   ['The father of Indian ethnobotany is:', ['S.K. Jain', 'P. Maheshwari', 'Birbal Sahni', 'M.S. Swaminathan'], 0,

@@ -44,7 +44,7 @@
   ['Breeding a basmati rice for organic farming would focus on:', ['Nutrient-use efficiency and disease and pest resistance while keeping grain quality and aroma', 'Maximum fertiliser response', 'Herbicide tolerance only', 'Dwarfing only'], 0,
     'Marker-assisted backcrossing can add resistance genes to popular basmati types.']
 ] },
-{ p: 'B2', t: 'Evolution', w: 2, pyq: ['IFoS-2006-B2-m05', 'IFoS-2001-B2-m04', 'IFoS-2000-B2-m03', 'CSE-1999-B2-m03', 'CSE-1986-B2-m06', 'CSE-1996-B2-m04', 'CSE-2023-B2-m21', 'CSE-2018-B2-m19', 'CSE-2014-B2-m16'], q: [
+{ p: 'B2', t: 'Evolution', w: 2, pyq: ['IFoS-2006-B2-m05', 'IFoS-2001-B2-m04', 'IFoS-2000-B2-m03', 'CSE-1999-B2-m03', 'CSE-1986-B2-m06', 'CSE-1996-B2-m04', 'CSE-2023-B2-m21', 'CSE-2018-B2-m19', 'CSE-2014-B2-m16', 'CSE-2013-B2-Q4b'], q: [
   ['Lamarck explained evolution by:', ['Inheritance of acquired characters through use and disuse', 'Natural selection', 'Mutation', 'Genetic drift'], 0,
     'He set it out in *Philosophie Zoologique* (1809).'],
   ['Darwin\'s theory of natural selection rests on:', ['Overproduction, variation, struggle for existence and survival of the fittest', 'Inheritance of acquired traits', 'Sudden large mutations only', 'Divine design'], 0,

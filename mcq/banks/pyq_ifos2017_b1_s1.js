@@ -220,7 +220,7 @@
   ['"Rosette embryos" in *Pinus* sometimes develop from:', ['The rosette tier of the proembryo', 'The pollen tube', 'The nucellus', 'The integument'], 0,
     'They usually abort.']
 ] },
-{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2017-B1-Q3b', 'IFoS-2014-B1-m31', 'CSE-2011-B1-m18', 'CSE-2024-B1-m02'], q: [
+{ p: 'B1', t: 'Pteridophytes', w: 2, pyq: ['IFoS-2017-B1-Q3b', 'IFoS-2014-B1-m31', 'CSE-2011-B1-m18', 'CSE-2024-B1-m02', 'CSE-2026-B1-m14'], q: [
   ['The sporophyte of *Psilotum* has:', ['No true roots — a rhizome with rhizoids and dichotomously branched aerial stems', 'True roots and large leaves', 'A single unbranched stem with megaphylls', 'Cones like *Equisetum*'], 0,
     'It is called the "whisk fern".'],
   ['The "leaves" of *Psilotum* are:', ['Small scale-like enations without a vascular supply', 'Large compound fronds', 'Needles', 'Absent altogether'], 0,
@@ -308,7 +308,7 @@
   ['The telome theory can also explain complex steles through:', ['Syngenesis — fusion of the vascular strands of telomes', 'Secondary growth', 'Leaf gaps only', 'Reduction'], 0,
     'Fused telomes give lobed and dissected steles.']
 ] },
-{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q4b', 'IFoS-2013-B1-m29', 'IFoS-2012-B1-m37', 'IFoS-2001-B1-m17', 'CSE-2024-B1-m24', 'CSE-2020-B1-m19', 'CSE-2013-B1-m15', 'IFoS-2020-B1-m21', 'CSE-2014-B1-m24', 'CSE-1991-B1-m31', 'CSE-1987-B1-m18', 'CSE-2015-B1-m21', 'CSE-1999-B1-m18', 'IFoS-2019-B1-m21', 'CSE-1990-B1-m41', 'CSE-2010-B1-m06', 'IFoS-2006-B1-m14'], q: [
+{ p: 'B1', t: 'Plant Pathology', w: 3, pyq: ['IFoS-2017-B1-Q4b', 'IFoS-2013-B1-m29', 'IFoS-2012-B1-m37', 'IFoS-2001-B1-m17', 'CSE-2024-B1-m24', 'CSE-2020-B1-m19', 'CSE-2013-B1-m15', 'IFoS-2020-B1-m21', 'CSE-2014-B1-m24', 'CSE-1991-B1-m31', 'CSE-1987-B1-m18', 'CSE-2015-B1-m21', 'CSE-1999-B1-m18', 'IFoS-2019-B1-m21', 'CSE-1990-B1-m41', 'CSE-2010-B1-m06', 'IFoS-2006-B1-m14', 'IFoS-2016-B1-Q5a'], q: [
   ['Black stem rust of wheat is caused by:', ['*Puccinia graminis* f. sp. *tritici*', '*Puccinia triticina*', '*Puccinia striiformis*', '*Ustilago tritici*'], 0,
     '*P. triticina* causes brown (leaf) rust; *P. striiformis* causes yellow (stripe) rust.'],
   ['Stem rust is called macrocyclic because it:', ['Produces all five spore stages', 'Has only urediniospores', 'Has no teliospores', 'Grows only on large plants'], 0,
@@ -330,7 +330,7 @@
   ['Pycniospores (spermatia) of stem rust:', ['Serve to fertilise receptive hyphae, restoring the dikaryon', 'Infect wheat directly', 'Are the resting stage', 'Are produced on wheat'], 0,
     'They form in pycnia on the upper surface of barberry leaves.']
 ] },
-{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q4c', 'CSE-2020-B1-m20', 'CSE-2016-B1-m19', 'CSE-2013-B1-m14', 'CSE-2006-B1-m20', 'CSE-2003-B1-m16', 'CSE-1989-B1-m31', 'CSE-1991-B1-m27', 'IFoS-2016-B1-m17', 'CSE-1993-B1-m31', 'IFoS-2013-B1-m18'], q: [
+{ p: 'B1', t: 'Microbiology', w: 2, pyq: ['IFoS-2017-B1-Q4c', 'CSE-2020-B1-m20', 'CSE-2016-B1-m19', 'CSE-2013-B1-m14', 'CSE-2006-B1-m20', 'CSE-2003-B1-m16', 'CSE-1989-B1-m31', 'CSE-1991-B1-m27', 'IFoS-2016-B1-m17', 'CSE-1993-B1-m31', 'IFoS-2013-B1-m18', 'CSE-2026-B1-m02'], q: [
   ['In the lytic cycle, a phage:', ['Multiplies inside the host and bursts (lyses) it', 'Integrates into the host chromosome and stays dormant', 'Never infects the host', 'Only attaches to the host'], 0,
     'In the lysogenic cycle, the phage genome is carried as a prophage.'],
   ['Phage T4 is:', ['Virulent — it follows only the lytic cycle', 'Temperate', 'An RNA phage', 'A plant virus'], 0,

@@ -22,7 +22,7 @@
   ['The minimum quantum requirement for releasing one O₂ is about:', ['8 photons', '2 photons', '1 photon', '100 photons'], 0,
     'Each of the four electrons needs two photons, one at each photosystem.']
 ] },
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['CSE-2021-B2-m24', 'CSE-2019-B2-m24', 'CSE-1998-B2-m15', 'CSE-1993-B2-m19', 'CSE-2018-B2-m25', 'CSE-2015-B2-m23', 'CSE-2014-B2-m26', 'CSE-2009-B2-m11', 'CSE-2025-B2-m19', 'CSE-2013-B2-m22', 'CSE-1990-B2-m18', 'CSE-2006-B2-m16', 'CSE-1988-B2-m23', 'CSE-1997-B2-m12', 'CSE-1986-B2-m22', 'CSE-2002-B2-m16', 'IFoS-2009-B2-m19', 'CSE-2012-B2-m29', 'IFoS-2010-B2-m24', 'CSE-2025-B2-m21', 'CSE-1991-B2-m04', 'IFoS-2012-B2-m12', 'IFoS-2005-B2-m05', 'IFoS-2016-B2-m10', 'IFoS-2015-B2-m07', 'IFoS-2023-B2-m12', 'IFoS-2007-B2-m12', 'IFoS-2009-B2-m01'], q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['CSE-2021-B2-m24', 'CSE-2019-B2-m24', 'CSE-1998-B2-m15', 'CSE-1993-B2-m19', 'CSE-2018-B2-m25', 'CSE-2015-B2-m23', 'CSE-2014-B2-m26', 'CSE-2009-B2-m11', 'CSE-2025-B2-m19', 'CSE-2013-B2-m22', 'CSE-1990-B2-m18', 'CSE-2006-B2-m16', 'CSE-1988-B2-m23', 'CSE-1997-B2-m12', 'CSE-1986-B2-m22', 'CSE-2002-B2-m16', 'IFoS-2009-B2-m19', 'CSE-2012-B2-m29', 'IFoS-2010-B2-m24', 'CSE-2025-B2-m21', 'CSE-1991-B2-m04', 'IFoS-2012-B2-m12', 'IFoS-2005-B2-m05', 'IFoS-2016-B2-m10', 'IFoS-2015-B2-m07', 'IFoS-2023-B2-m12', 'IFoS-2007-B2-m12', 'IFoS-2009-B2-m01', 'IFoS-2011-B2-Q6b'], q: [
   ['In C₄ plants, CO₂ is first fixed in mesophyll cells by:', ['PEP carboxylase, giving oxaloacetate', 'RuBisCO, giving 3-PGA', 'Carbonic anhydrase alone', 'PEP carboxykinase, giving pyruvate'], 0,
     'The first stable product is a 4-carbon acid (Hatch and Slack).'],
   ['In the bundle sheath of C₄ plants, C₄ acids are:', ['Decarboxylated to release CO₂ for RuBisCO', 'Stored as starch', 'Exported to roots', 'Converted to fats'], 0,
@@ -154,7 +154,7 @@
   ['Differentiation differs from growth in that it is:', ['A change in cell structure and function, while growth is an irreversible increase in size', 'An increase in mass only', 'Cell death', 'Cell division only'], 0,
     'Development covers both, from germination to senescence.']
 ] },
-{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['CSE-2022-B2-m27', 'CSE-2016-B2-m26', 'CSE-2013-B2-m27', 'CSE-1991-B2-m22', 'IFoS-2010-B2-m26', 'CSE-1996-B2-m14', 'IFoS-2024-B2-m24', 'CSE-1994-B2-m20', 'CSE-2015-B2-m21', 'IFoS-2024-B2-m23', 'CSE-2017-B2-m20', 'CSE-1994-B2-m25', 'CSE-1991-B2-m02', 'CSE-2020-B2-m09', 'CSE-1985-B2-m09', 'IFoS-2024-B2-m17', 'CSE-1992-B2-m04', 'CSE-1990-B2-m03', 'IFoS-2021-B2-m12', 'IFoS-2004-B2-m04', 'IFoS-2007-B2-m07', 'CSE-1998-B2-m04', 'CSE-1997-B2-m07'], q: [
+{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['CSE-2022-B2-m27', 'CSE-2016-B2-m26', 'CSE-2013-B2-m27', 'CSE-1991-B2-m22', 'IFoS-2010-B2-m26', 'CSE-1996-B2-m14', 'IFoS-2024-B2-m24', 'CSE-1994-B2-m20', 'CSE-2015-B2-m21', 'IFoS-2024-B2-m23', 'CSE-2017-B2-m20', 'CSE-1994-B2-m25', 'CSE-1991-B2-m02', 'CSE-2020-B2-m09', 'CSE-1985-B2-m09', 'IFoS-2024-B2-m17', 'CSE-1992-B2-m04', 'CSE-1990-B2-m03', 'IFoS-2021-B2-m12', 'IFoS-2004-B2-m04', 'IFoS-2007-B2-m07', 'CSE-1998-B2-m04', 'CSE-1997-B2-m07', 'CSE-2018-B2-Q5a'], q: [
   ['Water potential of a plant cell (ignoring gravity) is:', ['Ψw = Ψs + Ψp', 'Ψw = Ψs − Ψp', 'Ψw = Ψp × Ψs', 'Ψw = 0 always'], 0,
     'Pure water at atmospheric pressure has Ψw = 0; water moves to lower Ψw.'],
   ['In older terms, a fully turgid cell has a diffusion pressure deficit (DPD) of:', ['Zero, because turgor pressure equals osmotic pressure', 'Maximum', 'Equal to OP', 'Negative'], 0,
@@ -176,7 +176,7 @@
   ['Phloem unloading at sinks such as developing seeds often involves:', ['Movement out of sieve tubes through the apoplast or symplast to sink cells', 'Evaporation', 'Root pressure', 'Guttation'], 0,
     'Sink strength governs where assimilates go.']
 ] },
-{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['CSE-2024-B2-m21', 'CSE-2017-B2-m24', 'IFoS-2009-B2-m15', 'CSE-1997-B2-m13', 'CSE-2012-B2-m30', 'CSE-1988-B2-m20', 'CSE-1987-B2-m16', 'CSE-2009-B2-m06', 'CSE-2003-B2-m16', 'CSE-2006-B2-m15', 'CSE-1995-B2-m22', 'CSE-1990-B2-m19', 'CSE-2023-B2-m22', 'CSE-1999-B2-m14', 'CSE-2022-B2-m23', 'CSE-2019-B2-m25', 'CSE-2014-B2-m23', 'CSE-2011-B2-m26', 'CSE-2016-B2-m27', 'CSE-2010-B2-m24', 'CSE-2004-B2-m09', 'CSE-2004-B2-m07', 'IFoS-2012-B2-m21', 'CSE-1995-B2-m06', 'IFoS-2015-B2-m09', 'IFoS-2010-B2-m08', 'IFoS-2021-B2-m11', 'IFoS-2002-B2-m09', 'IFoS-2002-B2-m10', 'IFoS-2019-B2-m09', 'IFoS-2022-B2-m09', 'IFoS-2012-B2-m09', 'CSE-2000-B2-m03', 'CSE-1997-B2-m10', 'IFoS-2016-B2-m08'], q: [
+{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['CSE-2024-B2-m21', 'CSE-2017-B2-m24', 'IFoS-2009-B2-m15', 'CSE-1997-B2-m13', 'CSE-2012-B2-m30', 'CSE-1988-B2-m20', 'CSE-1987-B2-m16', 'CSE-2009-B2-m06', 'CSE-2003-B2-m16', 'CSE-2006-B2-m15', 'CSE-1995-B2-m22', 'CSE-1990-B2-m19', 'CSE-2023-B2-m22', 'CSE-1999-B2-m14', 'CSE-2022-B2-m23', 'CSE-2019-B2-m25', 'CSE-2014-B2-m23', 'CSE-2011-B2-m26', 'CSE-2016-B2-m27', 'CSE-2010-B2-m24', 'CSE-2004-B2-m09', 'CSE-2004-B2-m07', 'IFoS-2012-B2-m21', 'CSE-1995-B2-m06', 'IFoS-2015-B2-m09', 'IFoS-2010-B2-m08', 'IFoS-2021-B2-m11', 'IFoS-2002-B2-m09', 'IFoS-2002-B2-m10', 'IFoS-2019-B2-m09', 'IFoS-2022-B2-m09', 'IFoS-2012-B2-m09', 'CSE-2000-B2-m03', 'CSE-1997-B2-m10', 'IFoS-2016-B2-m08', 'CSE-2026-B2-m11', 'CSE-2018-B2-Q5c'], q: [
   ['Secondary active transport, such as sucrose–H⁺ symport, is powered by:', ['A proton gradient set up by the H⁺-ATPase', 'Direct ATP hydrolysis by the carrier', 'Light alone', 'Diffusion'], 0,
     'Primary active transport uses ATP directly, as in the P-type H⁺-ATPase.'],
   ['Ion channels differ from carriers in that channels:', ['Allow very fast passive flow through a gated pore', 'Bind and change shape for each ion', 'Need ATP', 'Are saturated at low ion levels'], 0,
@@ -198,7 +198,7 @@
   ['Nitrate reductase and nitrogenase both need:', ['Molybdenum', 'Copper', 'Zinc', 'Manganese'], 0,
     'Copper is in plastocyanin; zinc in carbonic anhydrase.']
 ] },
-{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['CSE-2023-B2-m27', 'CSE-1992-B2-m19', 'CSE-2024-B2-m22', 'IFoS-2019-B2-m28', 'CSE-2014-B2-m28', 'CSE-2012-B2-m19'], q: [
+{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['CSE-2023-B2-m27', 'CSE-1992-B2-m19', 'CSE-2024-B2-m22', 'IFoS-2019-B2-m28', 'CSE-2014-B2-m28', 'CSE-2012-B2-m19', 'CSE-2026-B2-m23', 'CSE-2017-B2-Q5b'], q: [
   ['Nitrate reductase in leaves reduces:', ['Nitrate to nitrite in the cytosol using NADH', 'Nitrite to ammonia in plastids', 'N₂ to ammonia', 'Ammonia to nitrate'], 0,
     'It contains a molybdenum cofactor.'],
   ['Nitrite reductase works in the:', ['Chloroplast, using reduced ferredoxin', 'Cytosol, using NADH', 'Mitochondria, using FADH₂', 'Vacuole'], 0,

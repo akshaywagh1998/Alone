@@ -88,7 +88,7 @@
   ['Proteins made on free cytosolic ribosomes are targeted to:', ['The cytosol, nucleus, mitochondria, chloroplasts and peroxisomes', 'The ER lumen', 'The Golgi', 'The cell exterior'], 0,
     'Import into these organelles happens after translation.']
 ] },
-{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['IFoS-2018-B2-Q1e', 'CSE-2010-B2-m14', 'CSE-2002-B2-m12', 'IFoS-2023-B2-m13', 'CSE-2024-B2-m16'], q: [
+{ p: 'B2', t: 'Plant Breeding & Biostatistics', w: 2, pyq: ['IFoS-2018-B2-Q1e', 'CSE-2010-B2-m14', 'CSE-2002-B2-m12', 'IFoS-2023-B2-m13', 'CSE-2024-B2-m16', 'IFoS-2010-B2-Q1b'], q: [
   ['The probability of any event lies:', ['Between zero and one, inclusive', 'Between −1 and +1', 'Between one and ten', 'Above one'], 0,
     'An impossible event has probability zero; a certain one has probability one.'],
   ['For a set of mutually exclusive and exhaustive outcomes, the probabilities add up to:', ['One', 'Zero', 'Half', 'Infinity'], 0,
@@ -132,7 +132,7 @@
   ['The 2001 Nobel Prize for discovering key regulators of the cell cycle went to:', ['Hartwell, Hunt and Nurse', 'Watson, Crick and Wilkins', 'Blackburn, Greider and Szostak', 'Kornberg alone'], 0,
     'Hunt discovered cyclins; Nurse identified CDK1 (cdc2).']
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['IFoS-2018-B2-Q2b', 'IFoS-2023-B2-m04', 'CSE-2022-B2-m07', 'IFoS-2020-B2-m02', 'CSE-2019-B2-m10', 'CSE-2003-B2-m02', 'CSE-1994-B2-m02', 'CSE-2010-B2-m06', 'CSE-2023-B2-m04', 'CSE-2000-B2-m14'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['IFoS-2018-B2-Q2b', 'IFoS-2023-B2-m04', 'CSE-2022-B2-m07', 'IFoS-2020-B2-m02', 'CSE-2019-B2-m10', 'CSE-2003-B2-m02', 'CSE-1994-B2-m02', 'CSE-2010-B2-m06', 'CSE-2023-B2-m04', 'CSE-2000-B2-m14', 'CSE-2026-B2-m11'], q: [
   ['A uniporter carries:', ['A single solute in one direction', 'Two solutes in the same direction', 'Two solutes in opposite directions', 'Water only'], 0,
     'An example is the glucose transporter GLUT1.'],
   ['A symporter carries:', ['Two solutes in the same direction', 'One solute only', 'Two solutes in opposite directions', 'Only ions out of the cell'], 0,
@@ -264,7 +264,7 @@
   ['C₄ and CAM pathways improve Rubisco efficiency by:', ['Concentrating CO₂ around it, which suppresses oxygenation', 'Changing its subunit structure', 'Removing it from leaves', 'Increasing O₂ around it'], 0,
     'C₄ separates the steps in space; CAM separates them in time.']
 ] },
-{ p: 'B2', t: 'Secondary Metabolites', w: 2, pyq: ['IFoS-2018-B2-Q5b', 'IFoS-2025-B2-m03', 'CSE-2022-B2-m26', 'CSE-2013-B2-m23', 'CSE-2010-B2-m22', 'CSE-2021-B2-m22', 'IFoS-2001-B2-m16', 'IFoS-2014-B2-m08', 'CSE-1986-B2-m07', 'CSE-2011-B2-m14', 'CSE-2015-B2-m19'], q: [
+{ p: 'B2', t: 'Secondary Metabolites', w: 2, pyq: ['IFoS-2018-B2-Q5b', 'IFoS-2025-B2-m03', 'CSE-2022-B2-m26', 'CSE-2013-B2-m23', 'CSE-2010-B2-m22', 'CSE-2021-B2-m22', 'IFoS-2001-B2-m16', 'IFoS-2014-B2-m08', 'CSE-1986-B2-m07', 'CSE-2011-B2-m14', 'CSE-2015-B2-m19', 'IFoS-2011-B2-Q5c'], q: [
   ['The three main classes of plant secondary metabolites are:', ['Terpenoids, phenolics and nitrogen-containing compounds', 'Proteins, lipids and sugars', 'Nucleic acids, vitamins and minerals', 'Hormones, enzymes and pigments only'], 0,
     'Alkaloids, cyanogenic glycosides and glucosinolates contain nitrogen.'],
   ['Terpenoids are built from:', ['Five-carbon isoprene units made by the mevalonate and MEP pathways', 'Amino acids', 'Fatty acids', 'Nucleotides'], 0,
@@ -308,7 +308,7 @@
   ['A plant listed as "Extinct in the Wild" is one that:', ['Survives only in cultivation or captivity', 'Has died out everywhere', 'Is common', 'Has not been assessed'], 0,
     'Botanical gardens can hold such species.']
 ] },
-{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2018-B2-Q5d', 'IFoS-2023-B2-m17', 'CSE-2012-B2-m07', 'CSE-2010-B2-m12', 'IFoS-2021-B2-m16', 'IFoS-2020-B2-m13'], q: [
+{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2018-B2-Q5d', 'IFoS-2023-B2-m17', 'CSE-2012-B2-m07', 'CSE-2010-B2-m12', 'IFoS-2021-B2-m16', 'IFoS-2020-B2-m13', 'IFoS-2011-B2-Q8b'], q: [
   ['The concept of biodiversity hotspots was introduced in 1988 by:', ['Norman Myers', 'E. O. Wilson', 'Raymond Dasmann', 'Walter Rosen'], 0,
     'Conservation International later adopted it.'],
   ['To qualify as a hotspot, a region must have:', ['At least 1,500 endemic vascular plants and have lost at least 70% of its original habitat', 'At least 100 endemic birds', 'More than 50% forest cover', 'A national park'], 0,
@@ -330,7 +330,7 @@
   ['Conservation measures in Indian hotspots include:', ['Protected areas, biosphere reserves and eco-sensitive zones', 'Clearing forests for plantations', 'Introducing exotic species', 'Removing all people'], 0,
     'Community conserved areas and sacred groves also help.']
 ] },
-{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: 'IFoS-2018-B2-Q5e', q: [
+{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['IFoS-2018-B2-Q5e', 'CSE-2026-B2-m26', 'CSE-2026-B2-m27'], q: [
   ['A plot of reaction rate against substrate concentration for an allosteric enzyme is:', ['Sigmoidal, because of cooperative binding', 'Hyperbolic, as in Michaelis–Menten kinetics', 'A straight line', 'Flat'], 0,
     'Small changes in substrate cause large changes in rate in the steep region.'],
   ['Allosteric effectors bind at:', ['A regulatory site distinct from the active site', 'The active site only', 'The substrate', 'The cell wall'], 0,
@@ -352,7 +352,7 @@
   ['A homotropic allosteric effect is one in which:', ['The substrate itself acts as the effector', 'A different molecule acts as the effector', 'Temperature changes the rate', 'pH denatures the enzyme'], 0,
     'Heterotropic effectors are molecules other than the substrate.']
 ] },
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2018-B2-Q6a', 'CSE-2024-B2-m04', 'IFoS-2020-B2-m24', 'CSE-2018-B2-m22', 'IFoS-2016-B2-m17', 'IFoS-2009-B2-m16', 'CSE-2002-B2-m13', 'CSE-2014-B2-m27', 'CSE-1985-B2-m14', 'IFoS-2013-B2-m19', 'IFoS-2022-B2-m26', 'CSE-2022-B2-m24', 'IFoS-2023-B2-m14', 'IFoS-2014-B2-m09', 'IFoS-2007-B2-m08', 'CSE-2012-B2-m17'], q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2018-B2-Q6a', 'CSE-2024-B2-m04', 'IFoS-2020-B2-m24', 'CSE-2018-B2-m22', 'IFoS-2016-B2-m17', 'IFoS-2009-B2-m16', 'CSE-2002-B2-m13', 'CSE-2014-B2-m27', 'CSE-1985-B2-m14', 'IFoS-2013-B2-m19', 'IFoS-2022-B2-m26', 'CSE-2022-B2-m24', 'IFoS-2023-B2-m14', 'IFoS-2014-B2-m09', 'IFoS-2007-B2-m08', 'CSE-2012-B2-m17', 'CSE-2026-B2-m24', 'CSE-2015-B2-Q5a', 'IFoS-2011-B2-Q7a'], q: [
   ['The chloroplast ATP synthase (CF₀CF₁) is located in the:', ['Thylakoid membrane, with CF₁ facing the stroma', 'Inner envelope, with CF₁ facing the lumen', 'Outer envelope', 'Stroma, free'], 0,
     'ATP is released into the stroma for the Calvin cycle.'],
   ['In the mitochondrion, the F₁ part of ATP synthase faces the:', ['Matrix', 'Intermembrane space', 'Cytosol', 'Outer membrane'], 0,
@@ -374,7 +374,7 @@
   ['Uncouplers such as 2,4-dinitrophenol stop ATP synthesis because they:', ['Carry protons across the membrane and dissipate the gradient', 'Block the c ring', 'Destroy chlorophyll', 'Inhibit Rubisco'], 0,
     'Electron transport continues, but no ATP is made.']
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2018-B2-Q6b', 'IFoS-2022-B2-m28', 'CSE-2019-B2-m27', 'IFoS-2016-B2-m19', 'CSE-2010-B2-m27', 'CSE-2020-B2-m23', 'CSE-2010-B2-m26', 'CSE-1988-B2-m24', 'IFoS-2012-B2-m11', 'IFoS-2003-B2-m12', 'IFoS-2014-B2-m07'], q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2018-B2-Q6b', 'IFoS-2022-B2-m28', 'CSE-2019-B2-m27', 'IFoS-2016-B2-m19', 'CSE-2010-B2-m27', 'CSE-2020-B2-m23', 'CSE-2010-B2-m26', 'CSE-1988-B2-m24', 'IFoS-2012-B2-m11', 'IFoS-2003-B2-m12', 'IFoS-2014-B2-m07', 'CSE-2026-B2-m25', 'CSE-2011-B2-Q8d'], q: [
   ['Climacteric fruits show:', ['A burst of respiration and ethylene production at the onset of ripening', 'No change in respiration', 'Ripening only on the plant', 'No response to ethylene'], 0,
     'Tomato, banana, mango and apple are climacteric.'],
   ['Which of these is a non-climacteric fruit?', ['Grape', 'Banana', 'Tomato', 'Mango'], 0,
@@ -396,7 +396,7 @@
   ['A safe, approved way to ripen mangoes and bananas commercially, instead of banned calcium carbide, is:', ['Controlled ethylene gas in ripening chambers', 'Spraying DDT', 'Heating with charcoal smoke', 'Coating with wax only'], 0,
     'FSSAI allows ethylene gas (up to 100 ppm) for artificial ripening.']
 ] },
-{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 3, pyq: ['IFoS-2018-B2-Q7a', 'IFoS-2013-B2-m16', 'CSE-1996-B2-m09', 'CSE-2025-B2-m20', 'CSE-2021-B2-m26', 'CSE-2015-B2-m20', 'CSE-2002-B2-m18', 'CSE-1989-B2-m21', 'IFoS-2014-B2-m22', 'IFoS-2021-B2-m22', 'CSE-1987-B2-m18', 'CSE-1999-B2-m06', 'IFoS-2002-B2-m11', 'IFoS-2002-B2-m12', 'CSE-2012-B2-m03', 'IFoS-2016-B2-m09'], q: [
+{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 3, pyq: ['IFoS-2018-B2-Q7a', 'IFoS-2013-B2-m16', 'CSE-1996-B2-m09', 'CSE-2025-B2-m20', 'CSE-2021-B2-m26', 'CSE-2015-B2-m20', 'CSE-2002-B2-m18', 'CSE-1989-B2-m21', 'IFoS-2014-B2-m22', 'IFoS-2021-B2-m22', 'CSE-1987-B2-m18', 'CSE-1999-B2-m06', 'IFoS-2002-B2-m11', 'IFoS-2002-B2-m12', 'CSE-2012-B2-m03', 'IFoS-2016-B2-m09', 'CSE-2026-B2-m22', 'IFoS-2011-B2-Q6a'], q: [
   ['Nitrogenase consists of:', ['An Fe protein (dinitrogenase reductase) and an MoFe protein (dinitrogenase)', 'A single haem protein', 'Rubisco and PEP carboxylase', 'Nitrate reductase and nitrite reductase'], 0,
     'Electrons flow from the Fe protein to the MoFe protein.'],
   ['The overall reaction of nitrogenase is:', ['N₂ + 8H⁺ + 8e⁻ + 16 ATP → 2NH₃ + H₂ + 16 ADP + 16 Pi', 'N₂ + 3H₂ → 2NH₃ without ATP', 'NO₃⁻ → NO₂⁻', 'NH₃ → NO₃⁻'], 0,
@@ -418,7 +418,7 @@
   ['Nodules that keep a persistent meristem and grow elongated, as in pea and alfalfa, are called:', ['Indeterminate nodules', 'Determinate nodules', 'Stem nodules', 'Leaf nodules'], 0,
     'Soybean and common bean form round determinate nodules.']
 ] },
-{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['IFoS-2018-B2-Q7b', 'CSE-2003-B2-m17', 'CSE-2003-B2-m18', 'CSE-2002-B2-m17', 'CSE-1988-B2-m21', 'CSE-1988-B2-m22', 'CSE-2020-B2-m26', 'CSE-2014-B2-m24', 'IFoS-2020-B2-m27', 'IFoS-2003-B2-m23', 'CSE-2007-B2-m10', 'CSE-1994-B2-m25', 'IFoS-2012-B2-m21', 'IFoS-2009-B2-m17', 'CSE-2013-B2-m26', 'CSE-2019-B2-m28', 'CSE-1999-B2-m15', 'CSE-2006-B2-m19', 'CSE-2006-B2-m18', 'CSE-2003-B2-m06', 'IFoS-2010-B2-m06', 'CSE-1989-B2-m04', 'IFoS-2023-B2-m11'], q: [
+{ p: 'B2', t: 'Water Relations & Mineral Nutrition', w: 3, pyq: ['IFoS-2018-B2-Q7b', 'CSE-2003-B2-m17', 'CSE-2003-B2-m18', 'CSE-2002-B2-m17', 'CSE-1988-B2-m21', 'CSE-1988-B2-m22', 'CSE-2020-B2-m26', 'CSE-2014-B2-m24', 'IFoS-2020-B2-m27', 'IFoS-2003-B2-m23', 'CSE-2007-B2-m10', 'CSE-1994-B2-m25', 'IFoS-2012-B2-m21', 'IFoS-2009-B2-m17', 'CSE-2013-B2-m26', 'CSE-2019-B2-m28', 'CSE-1999-B2-m15', 'CSE-2006-B2-m19', 'CSE-2006-B2-m18', 'CSE-2003-B2-m06', 'IFoS-2010-B2-m06', 'CSE-1989-B2-m04', 'IFoS-2023-B2-m11', 'IFoS-2011-B2-Q5a'], q: [
   ['The main hormone signal for stomatal closure under water deficit is:', ['Abscisic acid (ABA)', 'Gibberellin', 'Cytokinin', 'Auxin'], 0,
     'ABA triggers K⁺ and anion efflux from guard cells.'],
   ['Osmotic adjustment under drought involves the build-up of:', ['Compatible solutes such as proline, glycine betaine and sugars', 'Toxic ions', 'Starch in guard cells only', 'Lignin'], 0,
@@ -440,7 +440,7 @@
   ['"Resurrection plants" such as *Selaginella lepidophylla* and *Craterostigma* can:', ['Survive near-complete desiccation and revive when rewetted', 'Grow only underwater', 'Never lose water', 'Fix nitrogen'], 0,
     'This is the extreme form of dehydration tolerance.']
 ] },
-{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2018-B2-Q8a', 'CSE-2016-B2-m08', 'CSE-2011-B2-m09', 'IFoS-2009-B2-m07', 'CSE-2002-B2-m04', 'CSE-2023-B2-m08', 'CSE-2025-B2-m06', 'IFoS-2019-B2-m12', 'IFoS-2016-B2-m11', 'IFoS-2005-B2-m09', 'IFoS-2003-B2-m13', 'CSE-1992-B2-m02', 'CSE-1990-B2-m02', 'IFoS-2024-B2-m07', 'CSE-2024-B2-m19', 'CSE-2018-B2-m21', 'CSE-1996-B2-m12', 'CSE-2011-B2-m03'], q: [
+{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2018-B2-Q8a', 'CSE-2016-B2-m08', 'CSE-2011-B2-m09', 'IFoS-2009-B2-m07', 'CSE-2002-B2-m04', 'CSE-2023-B2-m08', 'CSE-2025-B2-m06', 'IFoS-2019-B2-m12', 'IFoS-2016-B2-m11', 'IFoS-2005-B2-m09', 'IFoS-2003-B2-m13', 'CSE-1992-B2-m02', 'CSE-1990-B2-m02', 'IFoS-2024-B2-m07', 'CSE-2024-B2-m19', 'CSE-2018-B2-m21', 'CSE-1996-B2-m12', 'CSE-2011-B2-m03', 'CSE-2026-B2-m34'], q: [
   ['The standard classification of Indian forests is by:', ['Champion and Seth (1968), with 16 type groups', 'Warming', 'Whittaker', 'Puri alone'], 0,
     'It recognises about 200 forest types.'],
   ['Tropical wet evergreen forests of India:', ['Receive over 250 cm of rain and are tall, multi-storeyed and rich in dipterocarps', 'Receive under 70 cm of rain', 'Are dominated by conifers', 'Occur above 3,500 m'], 0,

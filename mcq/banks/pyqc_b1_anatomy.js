@@ -22,7 +22,7 @@
   ['Secondary growth in *Pinus* stem differs from dicots mainly in that its wood has:', ['Tracheids but no vessels', 'Vessels but no tracheids', 'No rays', 'No growth rings'], 0,
     'The cambium itself behaves as in dicots.']
 ] },
-{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: ['IFoS-2003-B1-m08', 'CSE-1998-B1-m10', 'CSE-1992-B1-m08', 'CSE-2010-B1-m08', 'CSE-1989-B1-m07', 'CSE-1992-B1-m11', 'CSE-2025-B1-m14', 'IFoS-2009-B1-m05', 'CSE-1994-B1-m10', 'CSE-2016-B1-m06', 'CSE-1989-B1-m06', 'IFoS-2001-B1-m03', 'CSE-1993-B1-m13', 'CSE-1992-B1-m24', 'CSE-1994-B1-m20'], q: [
+{ p: 'B1', t: 'Plant Anatomy', w: 3, pyq: ['IFoS-2003-B1-m08', 'CSE-1998-B1-m10', 'CSE-1992-B1-m08', 'CSE-2010-B1-m08', 'CSE-1989-B1-m07', 'CSE-1992-B1-m11', 'CSE-2025-B1-m14', 'IFoS-2009-B1-m05', 'CSE-1994-B1-m10', 'CSE-2016-B1-m06', 'CSE-1989-B1-m06', 'IFoS-2001-B1-m03', 'CSE-1993-B1-m13', 'CSE-1992-B1-m24', 'CSE-1994-B1-m20', 'IFoS-2016-B1-Q5f', 'IFoS-2016-B1-Q5b'], q: [
   ['Heartwood differs from sapwood in that heartwood:', ['Is dead, darker and filled with tannins, resins and tyloses', 'Conducts most water', 'Is outermost', 'Contains living parenchyma throughout'], 0,
     'It is more durable; sapwood is the outer functional wood.'],
   ['Tyloses are:', ['Balloon-like outgrowths of parenchyma that block vessels through pits', 'Crystals in fibres', 'Resin ducts', 'Callus on sieve plates'], 0,
@@ -66,7 +66,7 @@
   ['Palm trunks thicken mainly through:', ['A primary thickening meristem and sustained growth of ground tissue', 'Vascular cambium', 'Cork cambium', 'Intercalary meristems only'], 0,
     'They reach full width before height growth.']
 ] },
-{ p: 'B1', t: 'Plant Anatomy', w: 2, pyq: ['IFoS-2024-B1-m07', 'IFoS-2010-B1-m04', 'CSE-2007-B1-m04', 'IFoS-2022-B1-m03', 'IFoS-2004-B1-m07', 'IFoS-2000-B1-m02', 'CSE-1994-B1-m09', 'CSE-2022-B1-m07', 'CSE-2018-B1-m07', 'CSE-1989-B1-m15', 'IFoS-2023-B1-m03', 'IFoS-2010-B1-m05', 'CSE-1994-B1-m06', 'CSE-1999-B1-m13', 'IFoS-2012-B1-m25'], q: [
+{ p: 'B1', t: 'Plant Anatomy', w: 2, pyq: ['IFoS-2024-B1-m07', 'IFoS-2010-B1-m04', 'CSE-2007-B1-m04', 'IFoS-2022-B1-m03', 'IFoS-2004-B1-m07', 'IFoS-2000-B1-m02', 'CSE-1994-B1-m09', 'CSE-2022-B1-m07', 'CSE-2018-B1-m07', 'CSE-1989-B1-m15', 'IFoS-2023-B1-m03', 'IFoS-2010-B1-m05', 'CSE-1994-B1-m06', 'CSE-1999-B1-m13', 'IFoS-2012-B1-m25', 'CSE-2011-B1-Q8c', 'IFoS-2009-B1-Q5d'], q: [
   ['Anomocytic (ranunculaceous) stomata have:', ['No distinct subsidiary cells', 'Two subsidiaries parallel to the guard cells', 'Three unequal subsidiaries', 'Two subsidiaries at right angles'], 0,
     'Paracytic: parallel (Rubiaceae); anisocytic: three unequal (Brassicaceae); diacytic: right angles (Caryophyllaceae).'],
   ['Stomata with three subsidiary cells, one smaller than the other two, are:', ['Anisocytic', 'Paracytic', 'Diacytic', 'Anomocytic'], 0,
@@ -176,7 +176,7 @@
   ['A crassinucellate ovule has:', ['Several layers of nucellus around the embryo sac', 'A single layer of nucellus', 'No nucellus', 'No integument'], 0,
     'Tenuinucellate ovules, with thin nucellus, are common in Sympetalae.']
 ] },
-{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: ['IFoS-2002-B1-m04', 'CSE-2012-B1-m05', 'CSE-1986-B1-m27', 'CSE-1985-B1-m21', 'CSE-1993-B1-m05', 'IFoS-2011-B1-m01', 'IFoS-2004-B1-m09', 'CSE-1995-B1-m03', 'IFoS-2016-B1-m03', 'CSE-2010-B1-m03', 'IFoS-2021-B1-m16', 'CSE-1998-B1-m16'], q: [
+{ p: 'B1', t: 'Embryology & Palynology', w: 3, pyq: ['IFoS-2002-B1-m04', 'CSE-2012-B1-m05', 'CSE-1986-B1-m27', 'CSE-1985-B1-m21', 'CSE-1993-B1-m05', 'IFoS-2011-B1-m01', 'IFoS-2004-B1-m09', 'CSE-1995-B1-m03', 'IFoS-2016-B1-m03', 'CSE-2010-B1-m03', 'IFoS-2021-B1-m16', 'CSE-1998-B1-m16', 'CSE-2011-B1-Q6a'], q: [
   ['From outside inward, the anther wall layers are:', ['Epidermis, endothecium, middle layers, tapetum', 'Tapetum, endothecium, epidermis, middle layers', 'Endothecium, epidermis, tapetum, middle layers', 'Middle layers, tapetum, epidermis, endothecium'], 0,
     'Fibrous thickenings of the endothecium help dehiscence.'],
   ['The tapetum mainly:', ['Nourishes the developing microspores and supplies wall materials', 'Causes dehiscence', 'Protects the anther from insects', 'Forms the pollen tube'], 0,

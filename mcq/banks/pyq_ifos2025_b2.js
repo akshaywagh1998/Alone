@@ -22,7 +22,7 @@
   ['Cell separation in the abscission zone of leaves and fruits involves:', ['Enzymatic breakdown of the middle lamella by polygalacturonase and cellulase', 'Formation of tight junctions', 'Increased calcium pectate', 'Lignification of cell walls'], 0,
     'Ethylene promotes and auxin delays these enzymes.'],
 ] },
-{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2025-B2-Q1b', 'CSE-1998-B2-m02', 'CSE-1986-B2-m02', 'CSE-1995-B2-m01', 'IFoS-2002-B2-m02', 'IFoS-2002-B2-m03', 'CSE-2004-B2-m01', 'CSE-2006-B2-m02'], q: [
+{ p: 'B2', t: 'Photosynthesis & Respiration', w: 3, pyq: ['IFoS-2025-B2-Q1b', 'CSE-1998-B2-m02', 'CSE-1986-B2-m02', 'CSE-1995-B2-m01', 'IFoS-2002-B2-m02', 'IFoS-2002-B2-m03', 'CSE-2004-B2-m01', 'CSE-2006-B2-m02', 'IFoS-2011-B2-Q7a'], q: [
   ['Complex IV (cytochrome c oxidase) transfers electrons to:', ['Oxygen, forming water', 'NAD⁺', 'Ubiquinone', 'FAD'], 0,
     'It is the terminal oxidase of the respiratory chain.'],
   ['Which respiratory complex does NOT pump protons?', ['Complex II (succinate dehydrogenase)', 'Complex I', 'Complex III', 'Complex IV'], 0,
@@ -44,7 +44,7 @@
   ['ATP synthesis in mitochondria is driven directly by:', ['The flow of protons back into the matrix through ATP synthase', 'Light energy', 'Electron flow through ATP synthase', 'Glucose binding to ATP synthase'], 0,
     'Chemiosmosis: electron transport builds the proton gradient that ATP synthase uses.'],
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2025-B2-Q1c', 'IFoS-2022-B2-m18', 'CSE-2019-B2-m20', 'CSE-2017-B2-m16', 'IFoS-2005-B2-m14', 'CSE-2002-B2-m06', 'CSE-1994-B2-m15', 'CSE-1992-B2-m09', 'CSE-1993-B2-m10'], q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2025-B2-Q1c', 'IFoS-2022-B2-m18', 'CSE-2019-B2-m20', 'CSE-2017-B2-m16', 'IFoS-2005-B2-m14', 'CSE-2002-B2-m06', 'CSE-1994-B2-m15', 'CSE-1992-B2-m09', 'CSE-1993-B2-m10', 'CSE-2026-B2-m06'], q: [
   ['Sex-linked inheritance was first demonstrated by T.H. Morgan (1910) using:', ['White-eye mutation in *Drosophila*', 'Seed colour in pea', 'Coat colour in mice', 'Flower colour in *Mirabilis*'], 0,
     'Reciprocal crosses gave different results, tracing the gene to the X chromosome.'],
   ['"Criss-cross inheritance" of an X-linked recessive trait means it passes from:', ['Father to daughter to grandson', 'Father to son', 'Mother to daughter only', 'Grandfather to grandfather'], 0,
@@ -110,7 +110,7 @@
   ['The CMS source used for hybrid sunflower worldwide is:', ['PET1 (from *Helianthus petiolaris*)', 'Texas cytoplasm', 'Ogura', 'Tift 23A'], 0,
     'Ogura CMS (from radish) is used in *Brassica*.'],
 ] },
-{ p: 'B2', t: 'Genetics', w: 3, pyq: 'IFoS-2025-B2-Q2a', q: [
+{ p: 'B2', t: 'Genetics', w: 3, pyq: ['IFoS-2025-B2-Q2a', 'CSE-2026-B2-m13'], q: [
   ['Seedless watermelon is produced as a:', ['Triploid, from a tetraploid × diploid cross', 'Haploid', 'Tetraploid', 'Diploid mutant'], 0,
     'Triploids are sterile, so seeds do not develop.'],
   ['*Brassica napus* (2n = 38, AACC) arose from hybridisation of:', ['*B. rapa* (AA) and *B. oleracea* (CC)', '*B. nigra* and *B. rapa*', '*B. juncea* and *B. carinata*', 'Radish and cabbage'], 0,
@@ -198,7 +198,7 @@
   ['In positive control of an operon:', ['A regulatory protein must bind to switch transcription on', 'A repressor switches transcription off', 'No protein is involved', 'Transcription is always on'], 0,
     'In negative control, a repressor must be removed for transcription.'],
 ] },
-{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['IFoS-2025-B2-Q3b', 'IFoS-2013-B2-m14', 'CSE-2025-B2-m12', 'CSE-2023-B2-m15', 'CSE-2022-B2-m18', 'IFoS-2022-B2-m19', 'CSE-2020-B2-m15', 'IFoS-2017-B2-Q1c', 'IFoS-2016-B2-m14', 'CSE-2015-B2-m12', 'CSE-2013-B2-m11', 'CSE-2007-B2-m09', 'IFoS-2004-B2-m12', 'CSE-2003-B2-m09', 'IFoS-2001-B2-m11', 'CSE-2000-B2-m13', 'IFoS-2019-B2-m14', 'IFoS-2014-B2-m16', 'CSE-2013-B2-m12', 'IFoS-2006-B2-m11', 'CSE-1993-B2-m10', 'CSE-1990-B2-m07'], q: [
+{ p: 'B2', t: 'Cell Biology', w: 2, pyq: ['IFoS-2025-B2-Q3b', 'IFoS-2013-B2-m14', 'CSE-2025-B2-m12', 'CSE-2023-B2-m15', 'CSE-2022-B2-m18', 'IFoS-2022-B2-m19', 'CSE-2020-B2-m15', 'IFoS-2017-B2-Q1c', 'IFoS-2016-B2-m14', 'CSE-2015-B2-m12', 'CSE-2013-B2-m11', 'CSE-2007-B2-m09', 'IFoS-2004-B2-m12', 'CSE-2003-B2-m09', 'IFoS-2001-B2-m11', 'CSE-2000-B2-m13', 'IFoS-2019-B2-m14', 'IFoS-2014-B2-m16', 'CSE-2013-B2-m12', 'IFoS-2006-B2-m11', 'CSE-1993-B2-m10', 'CSE-1990-B2-m07', 'CSE-2026-B2-m02'], q: [
   ['Polytene chromosomes were first observed by:', ['E.G. Balbiani (1881) in *Chironomus*', 'T.H. Morgan', 'Barbara McClintock', 'Walter Sutton'], 0,
     'They are well known from *Drosophila* salivary glands.'],
   ['Polytene chromosomes form by:', ['Repeated DNA replication without cell division, with the copies staying aligned', 'Fusion of many nuclei', 'Crossing over', 'Meiosis'], 0,
@@ -242,7 +242,7 @@
   ['A key weakness of RNA as a long-term genetic store is that it is:', ['Chemically less stable because of its 2′-hydroxyl group', 'Double-stranded always', 'Unable to pair bases', 'Too large to replicate'], 0,
     'The 2′-OH makes RNA prone to hydrolysis.'],
 ] },
-{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2025-B2-Q4a', 'IFoS-2024-B2-m02', 'CSE-2022-B2-m08', 'CSE-2020-B2-m06', 'IFoS-2016-B2-m04', 'CSE-2010-B2-m03', 'CSE-2024-B2-m01', 'CSE-2021-B2-m05', 'IFoS-2021-B2-m07', 'CSE-2019-B2-m03', 'IFoS-2009-B2-m12', 'CSE-2016-B2-m22', 'CSE-2011-B2-m29', 'IFoS-2020-B2-m07', 'IFoS-2022-B2-m07', 'IFoS-2013-B2-m13', 'CSE-1988-B2-m09', 'IFoS-2006-B2-m12'], q: [
+{ p: 'B2', t: 'Plant Hormones & Development', w: 3, pyq: ['IFoS-2025-B2-Q4a', 'IFoS-2024-B2-m02', 'CSE-2022-B2-m08', 'CSE-2020-B2-m06', 'IFoS-2016-B2-m04', 'CSE-2010-B2-m03', 'CSE-2024-B2-m01', 'CSE-2021-B2-m05', 'IFoS-2021-B2-m07', 'CSE-2019-B2-m03', 'IFoS-2009-B2-m12', 'CSE-2016-B2-m22', 'CSE-2011-B2-m29', 'IFoS-2020-B2-m07', 'IFoS-2022-B2-m07', 'IFoS-2013-B2-m13', 'CSE-1988-B2-m09', 'IFoS-2006-B2-m12', 'CSE-2026-B2-m04'], q: [
   ['The brassinosteroid receptor BRI1 is a:', ['Leucine-rich repeat receptor kinase at the plasma membrane', 'Nuclear steroid receptor', 'G-protein-coupled receptor', 'Ion channel'], 0,
     'Unlike animal steroid receptors, it acts at the cell surface.'],
   ['The auxin receptor TIR1 is:', ['An F-box protein that targets Aux/IAA repressors for degradation', 'A plasma-membrane ion channel', 'A kinase in the chloroplast', 'A DNA-binding transcription factor'], 0,
@@ -352,7 +352,7 @@
   ['Projects to raise crop photosynthesis (e.g., the C₄ rice project) aim mainly to:', ['Reduce photorespiration by concentrating CO₂ at Rubisco', 'Remove Rubisco', 'Increase transpiration', 'Stop the Calvin cycle'], 0,
     'Engineering faster or more CO₂-specific Rubisco is another route.'],
 ] },
-{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2025-B2-Q5d', 'IFoS-2023-B2-m18', 'CSE-2022-B2-m11'], q: [
+{ p: 'B2', t: 'Plant Geography, Forests & Biodiversity', w: 3, pyq: ['IFoS-2025-B2-Q5d', 'IFoS-2023-B2-m18', 'CSE-2022-B2-m11', 'IFoS-2011-B2-Q8b'], q: [
   ['Sovereign rights of states over their biological resources were recognised by the:', ['Convention on Biological Diversity (1992)', 'Ramsar Convention', 'CITES', 'Kyoto Protocol'], 0,
     'Before this, genetic resources were widely treated as the "common heritage of mankind".'],
   ['Article 27.3(b) of the WTO TRIPS Agreement requires members to protect plant varieties by:', ['Patents or an effective sui generis system, or both', 'Only patents', 'Only trade secrets', 'No protection'], 0,
@@ -374,7 +374,7 @@
   ['Biopiracy refers to:', ['Commercial use or patenting of biological resources or traditional knowledge without consent or benefit sharing', 'Stealing seeds from a shop', 'Illegal logging only', 'Poaching animals only'], 0,
     'The CBD and Nagoya Protocol aim to prevent it.'],
 ] },
-{ p: 'B2', t: 'Ecology & Ecosystems', w: 3, pyq: ['IFoS-2025-B2-Q5e', 'CSE-1985-B2-m15', 'IFoS-2024-B2-m11', 'IFoS-2023-B2-m15', 'CSE-2005-B2-m02', 'CSE-1993-B2-m06', 'CSE-2017-B2-m09', 'CSE-2022-B2-m13', 'IFoS-2000-B2-m10', 'CSE-2020-B2-m12', 'CSE-2010-B2-m10', 'CSE-2001-B2-m07', 'IFoS-2010-B2-m10', 'IFoS-2007-B2-m14'], q: [
+{ p: 'B2', t: 'Ecology & Ecosystems', w: 3, pyq: ['IFoS-2025-B2-Q5e', 'CSE-1985-B2-m15', 'IFoS-2024-B2-m11', 'IFoS-2023-B2-m15', 'CSE-2005-B2-m02', 'CSE-1993-B2-m06', 'CSE-2017-B2-m09', 'CSE-2022-B2-m13', 'IFoS-2000-B2-m10', 'CSE-2020-B2-m12', 'CSE-2010-B2-m10', 'CSE-2001-B2-m07', 'IFoS-2010-B2-m10', 'IFoS-2007-B2-m14', 'CSE-2026-B2-m20'], q: [
   ['Anammox is:', ['Anaerobic oxidation of ammonium with nitrite, releasing N₂', 'Aerobic nitrification', 'Nitrogen fixation', 'Ammonification of proteins'], 0,
     'Carried out by specialised bacteria; important in oceans and wastewater treatment.'],
   ['The largest reservoir of nitrogen is the:', ['Atmosphere (about 78% N₂)', 'Ocean', 'Soil', 'Living organisms'], 0,
@@ -396,7 +396,7 @@
   ['Much of the phosphorus lost from land ends up in:', ['Ocean sediments, returning to land only over geological time', 'The atmosphere', 'Living plants permanently', 'Glaciers'], 0,
     'This makes phosphorus a finite resource for agriculture.'],
 ] },
-{ p: 'B2', t: 'Biotechnology & GM Crops', w: 2, pyq: ['IFoS-2025-B2-Q6a', 'IFoS-2024-B2-m20', 'IFoS-2015-B2-m18', 'IFoS-2021-B2-m20', 'CSE-1995-B2-m18', 'CSE-2025-B2-m16', 'IFoS-2023-B2-m19', 'CSE-2021-B2-m17', 'CSE-2018-B2-m14', 'CSE-2015-B2-m11', 'CSE-1994-B2-m17', 'CSE-1988-B2-m13', 'CSE-2024-B2-m14', 'CSE-2017-B2-m15', 'CSE-2007-B2-m07', 'IFoS-2005-B2-m13', 'CSE-1991-B2-m14', 'CSE-2012-B2-m10', 'CSE-2011-B2-m16', 'CSE-1996-B2-m06'], q: [
+{ p: 'B2', t: 'Biotechnology & GM Crops', w: 2, pyq: ['IFoS-2025-B2-Q6a', 'IFoS-2024-B2-m20', 'IFoS-2015-B2-m18', 'IFoS-2021-B2-m20', 'CSE-1995-B2-m18', 'CSE-2025-B2-m16', 'IFoS-2023-B2-m19', 'CSE-2021-B2-m17', 'CSE-2018-B2-m14', 'CSE-2015-B2-m11', 'CSE-1994-B2-m17', 'CSE-1988-B2-m13', 'CSE-2024-B2-m14', 'CSE-2017-B2-m15', 'CSE-2007-B2-m07', 'IFoS-2005-B2-m13', 'CSE-1991-B2-m14', 'CSE-2012-B2-m10', 'CSE-2011-B2-m16', 'CSE-1996-B2-m06', 'CSE-2026-B2-m03'], q: [
   ['Which is an indirect (vector-mediated) method of plant gene transfer?', ['*Agrobacterium*-mediated transformation', 'Particle bombardment', 'Electroporation', 'PEG-mediated protoplast uptake'], 0,
     'Direct methods introduce DNA without a biological vector.'],
   ['The particle gun (biolistics) was developed by:', ['John Sanford and co-workers (1987)', 'Mary-Dell Chilton', 'Kary Mullis', 'Herbert Boyer'], 0,
@@ -418,7 +418,7 @@
   ['Monocots were once hard to transform with *Agrobacterium*; this was overcome mainly by:', ['Using acetosyringone, immature embryos and super-binary vectors, alongside biolistics', 'Using only seeds', 'Avoiding tissue culture', 'Using chloroplast genes'], 0,
     'Rice and maize are now routinely transformed with *Agrobacterium*.'],
 ] },
-{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['IFoS-2025-B2-Q6b', 'CSE-2010-B2-m16', 'CSE-2024-B2-m27', 'CSE-2022-B2-m25', 'IFoS-2018-B2-Q5e', 'CSE-2016-B2-m28', 'CSE-1998-B2-m16', 'CSE-2018-B2-m24', 'CSE-2000-B2-m16', 'IFoS-2012-B2-m22', 'IFoS-2013-B2-m20', 'IFoS-2023-B2-m21', 'IFoS-2021-B2-m23', 'CSE-2001-B2-m17', 'CSE-1996-B2-m15', 'CSE-2000-B2-m17', 'IFoS-2003-B2-m10'], q: [
+{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['IFoS-2025-B2-Q6b', 'CSE-2010-B2-m16', 'CSE-2024-B2-m27', 'CSE-2022-B2-m25', 'IFoS-2018-B2-Q5e', 'CSE-2016-B2-m28', 'CSE-1998-B2-m16', 'CSE-2018-B2-m24', 'CSE-2000-B2-m16', 'IFoS-2012-B2-m22', 'IFoS-2013-B2-m20', 'IFoS-2023-B2-m21', 'IFoS-2021-B2-m23', 'CSE-2001-B2-m17', 'CSE-1996-B2-m15', 'CSE-2000-B2-m17', 'IFoS-2003-B2-m10', 'CSE-2026-B2-m26', 'CSE-2026-B2-m27'], q: [
   ['A holoenzyme is:', ['An apoenzyme together with its cofactor', 'An enzyme without its cofactor', 'An RNA enzyme', 'A denatured enzyme'], 0,
     'The protein part alone is the apoenzyme.'],
   ['A prosthetic group differs from a coenzyme in that it is:', ['Tightly (often covalently) bound to the enzyme', 'Loosely bound and dissociable', 'Always a metal ion', 'Never organic'], 0,
@@ -506,7 +506,7 @@
   ['Tissue-culture raised plants sold in India are certified under:', ['The National Certification System for Tissue Culture Raised Plants (NCS-TCP) of DBT', 'The Seeds Act only', 'FSSAI', 'The Insecticides Act'], 0,
     'Tests check virus freedom and genetic fidelity.'],
 ] },
-{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['IFoS-2025-B2-Q8b', 'IFoS-2006-B2-m15', 'CSE-2014-B2-m18'], q: [
+{ p: 'B2', t: 'Enzymes & Nitrogen Metabolism', w: 2, pyq: ['IFoS-2025-B2-Q8b', 'IFoS-2006-B2-m15', 'CSE-2014-B2-m18', 'CSE-2026-B2-m21'], q: [
   ['The Fe protein (dinitrogenase reductase) of nitrogenase is encoded by:', ['*nifH*', '*nifD*', '*nifK*', '*nodA*'], 0,
     '*nifD* and *nifK* encode the MoFe protein (dinitrogenase).'],
   ['The best-studied *nif* gene cluster (about 20 genes) is that of:', ['*Klebsiella pneumoniae*', '*Escherichia coli*', '*Bacillus subtilis*', '*Saccharomyces*'], 0,
