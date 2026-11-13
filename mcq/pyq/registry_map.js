@@ -1510,7 +1510,7 @@ window.IFOS_PYQ_TOPICS = ["Agroecology, Climate & Environment", "Agroforestry & 
   ["CSE-2002-A2-m04", 0, "Describe in brief emasculation and discuss the various methods of emasculation.", "v", 17],
   ["CSE-2002-A2-m05", 0, "Give an account in brief on Genetically Modified Crops.", "v", 17],
   ["CSE-2001-A2-m02", 0, "Briefly explain the salient features of cytoplasmic inheritance.", "v", 17],
-  ["CSE-2001-A2-m03", 0, "Discuss the vole of conservation and utilization of plant genetic resources giving examples.", "v", 17],
+  ["CSE-2001-A2-m03", 0, "Discuss the role of conservation and utilization of plant genetic resources giving examples.", "v", 17],
   ["CSE-2001-A2-m04", 0, "Justify the following statements with the help of examples: Mutation creates variability needed for evolution.", "v", 17],
   ["CSE-2000-A2-m03", 0, "What were the reasons for Mendel՚s success in his genetic experiments? Explain how Mendelian inheritance differs from cytoplasmic inheritance.", "v", 17],
   ["CSE-2000-A2-m04", 0, "What are different components of variation in a plant population? How do you calculate how heritability using variance components? Explain how heritable variation can be created artificially.", "v", 17],

@@ -29,7 +29,18 @@ const regErrors = [];
   if (!Array.isArray(r) || typeof r[0] !== 'string' || !/^(CSE|IFoS)-\d{4}-(B1|B2|A1|A2)-[\w]+$/.test(r[0])) regErrors.push(`registry row ${JSON.stringify(r).slice(0, 80)}: bad id`);
   else if (pyqs.has(r[0])) regErrors.push(`registry: duplicate PYQ id ${r[0]}`);
   else if (typeof r[2] !== 'string' || r[2].trim().length < 3) regErrors.push(`registry ${r[0]}: missing text`);
-  else pyqs.set(r[0], { r, n: 0 });
+  else {
+    // A syntactically valid scraped row can still be a header or a fragment.
+    // Keep short, legitimate short-note topics (e.g. "RuBisCO") valid.
+    if (/^(examples?\.?|distinguish between|write in brief about any four|comment briefly on any three of the following)$/i.test(r[2].trim())
+      || /question paper specific instructions|time allowed\s*:/i.test(r[2])) {
+      regErrors.push(`registry ${r[0]}: incomplete question or exam instructions; restore from the source paper before counting coverage`);
+    }
+    if (!Number.isFinite(r[1]) || r[1] < 0) regErrors.push(`registry ${r[0]}: invalid marks`);
+    if (!['v', 't'].includes(r[3])) regErrors.push(`registry ${r[0]}: kind must be v or t`);
+    if (r[4] !== undefined && (!Number.isInteger(r[4]) || !(ctx.window.IFOS_PYQ_TOPICS || [])[r[4]])) regErrors.push(`registry ${r[0]}: invalid topic index`);
+    pyqs.set(r[0], { r, n: 0 });
+  }
 });
 const htmlSrc = fs.readFileSync(path.join(__dirname, '..', 'mcq', 'index.html'), 'utf8');
 const errors = regErrors, warns = [], ids = new Map(), perPaper = {}, fixedAns = [0, 0, 0, 0, 0, 0], fixedList = [];

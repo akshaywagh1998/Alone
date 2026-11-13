@@ -361,7 +361,7 @@
       <section class="card">
         <h2>Set complete</h2>
         <div class="hero-num"><span class="big">${first.length ? pct(right / first.length) : '—'}</span><span class="of">${right}/${first.length} first-try correct · ${Math.floor(secs / 60)}m ${secs % 60}s</span></div>
-        <p class="note">Projected Mains total is now <b>${Math.round(projectedTotal())}</b>. Missed questions are due again tomorrow.</p>
+        <p class="note">Projected overall total (written + interview) is now <b>${Math.round(projectedTotal())}</b>. Missed questions are due again tomorrow.</p>
         <div class="row">${wrong.length ? `<button class="btn primary" data-act="retry-wrong">Retry ${wrong.length} missed</button>` : ''}
           <button class="btn" data-act="go" data-r="${R.ret}">Done</button></div>
       </section>
